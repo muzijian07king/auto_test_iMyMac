@@ -1,0 +1,2 @@
+INFO	2021-11-05 17:53:59,495	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:54:00,209	[basepage.py:96]	获取到文本：How to Clear Cookies on Mac

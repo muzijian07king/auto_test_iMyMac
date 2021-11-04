@@ -1,0 +1,2 @@
+INFO	2021-11-05 17:53:54,711	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:53:55,657	[basepage.py:96]	获取到文本：How to Delete System Log Files on Mac

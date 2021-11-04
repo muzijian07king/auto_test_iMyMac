@@ -31,14 +31,14 @@ class TestBody(object):
         assert self.driver.return_carousel_class() == 'item'
 
     @allure.title('测试下载ppm')
-    @allure.severity('critical')
+    @allure.severity('blocker')
     def test_003(self):
         """下载ppm"""
         allure.dynamic.tag('下载ppm')
         self.driver.click_ppm_download()
         assert 'dmg' in cm.get_download_filename() or 'crdownload' in cm.get_download_filename()
 
-    @allure.severity('critical')
+    @allure.severity('blocker')
     @allure.title('测试下载video')
     def test_004(self):
         """下载video"""
@@ -48,14 +48,16 @@ class TestBody(object):
         assert 'dmg' in cm.get_download_filename() or 'crdownload' in cm.get_download_filename() or 'pkg' in \
                cm.get_download_filename()
 
-    @allure.title('测试产品详情页面')
+    @allure.title('测试ppm产品详情页面')
+    @allure.severity('trivial')
     def test_005(self):
         """ppm产品详情页面"""
         allure.dynamic.tag('ppm产品页')
         self.driver.click_ppm_more()
         assert 'powermymac' in self.driver.get_current_url()
 
-    @allure.title('测试产品详情页面')
+    @allure.title('测试video产品详情页面')
+    @allure.severity('trivial')
     def test_006(self):
         """video产品详情页面"""
         allure.tag('video产品页')
@@ -64,6 +66,7 @@ class TestBody(object):
         assert 'video' in self.driver.get_current_url()
 
     @pytest.mark.parametrize('link', get_branch_all_keys().get_branch_all_keys(body.data, 'featureItem'))
+    @allure.severity('critical')
     def test_007(self, link):
         """点击功能介绍链接"""
         allure.dynamic.tag('{}功能页面'.format(link))
@@ -89,6 +92,7 @@ class TestBody(object):
         assert self.driver.return_media_class() == 'item'
 
     @allure.title('测试介绍安全栏是否存在')
+    @allure.severity('trivial')
     def test_010(self):
         """介绍栏是否存在"""
         allure.dynamic.tag('检查介绍栏')

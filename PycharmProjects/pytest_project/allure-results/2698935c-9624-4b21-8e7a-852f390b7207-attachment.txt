@@ -1,2 +1,0 @@
-INFO	2021-11-03 17:30:35,574	[basepage.py:33]	打开网页https://www.imymac.com/contact/
-INFO	2021-11-03 17:30:35,612	[basepage.py:95]	获取到文本：If you have any suggestions, such as the website and service, contact us by email.

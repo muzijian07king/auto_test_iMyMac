@@ -17,7 +17,7 @@ class TestBody(object):
         self.driver = DuplicatePage(drivers)
         self.driver.get_url(ini.get_url('duplicate-finder'))
 
-    @allure.severity('critical')
+    @allure.severity('blocker')
     @allure.title('下载PowerMyMac测试')
     def test_001(self):
         """下载PowerMyMac"""
@@ -26,6 +26,7 @@ class TestBody(object):
         assert self.driver.is_download()
 
     @allure.title("进入powerMyMac购买页面测试")
+    @allure.severity('critical')
     def test_002(self):
         """去powerMyMac购买页面"""
         allure.dynamic.tag("去购买PowerMyMac的网站")
@@ -33,6 +34,7 @@ class TestBody(object):
         assert self.driver.is_goto_buy()
 
     @allure.title("进入用户指南页面测试")
+    @allure.severity('critical')
     def test_003(self):
         """去用户指南页面"""
         allure.dynamic.tag('去用户指南网站')
@@ -55,6 +57,7 @@ class TestBody(object):
         assert self.driver.return_carousel_index()
 
     @allure.title('menu导航栏测试')
+    @allure.severity('blocker')
     def test_006(self):
         """滑动到一定位置是否弹出menu"""
         allure.dynamic.tag('弹出menu导航栏')
@@ -63,6 +66,7 @@ class TestBody(object):
         assert self.driver.is_menu()
 
     @allure.title('menu导航栏下进入主页测试')
+    @allure.severity('critical')
     def test_007(self):
         """点击menu下的主页链接"""
         allure.dynamic.tag('去duplicate产品主页')
@@ -71,6 +75,7 @@ class TestBody(object):
         assert self.driver.is_cleaner_index()
 
     @allure.title('menu导航栏下进入用户指南页面测试')
+    @allure.severity('critical')
     def test_008(self):
         """点击menu下的用户手册链接"""
         allure.dynamic.tag('去用户指南网站')
@@ -78,7 +83,7 @@ class TestBody(object):
         self.driver.click_link(get_branch_all_value().get_branch_all_value(duplicate.data, 'menu')[1])
         assert self.driver.is_goto_guide()
 
-    @allure.severity('critical')
+    @allure.severity('blocker')
     @allure.title('menu导航栏的下载测试')
     def test_009(self):
         """点击menu下的下载链接"""
@@ -88,6 +93,7 @@ class TestBody(object):
         assert self.driver.is_download()
 
     @allure.title('menu导航栏下进入buy页面测试')
+    @allure.severity('critical')
     def test_010(self):
         """点击menu导航栏下进入buy链接"""
         allure.dynamic.tag('点击buy按钮')
@@ -95,8 +101,8 @@ class TestBody(object):
         self.driver.goto_buy(get_branch_all_value().get_branch_all_value(duplicate.data, 'menu')[3])
         assert self.driver.is_goto_buy()
 
-    @allure.severity('critical')
     @allure.title('footbuy导航栏的下载测试')
+    @allure.severity('blocker')
     def test_011(self):
         """点击footbuy下的下载链接"""
         allure.dynamic.tag('点击下载按钮')
@@ -105,6 +111,7 @@ class TestBody(object):
         assert self.driver.is_download()
 
     @allure.title('footbuy导航栏下进入buy页面测试')
+    @allure.severity('critical')
     def test_012(self):
         """点击footbuy导航栏下进入buy链接"""
         allure.dynamic.tag('点击buy按钮')

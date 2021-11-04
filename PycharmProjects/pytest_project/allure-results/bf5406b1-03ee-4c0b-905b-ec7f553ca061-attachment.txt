@@ -1,0 +1,2 @@
+[32mINFO    [0m root:basepage.py:32 打开网页https://www.imymac.com/sitemap/
+[32mINFO    [0m root:basepage.py:96 获取到文本：How to Fix MacBook Running Slow

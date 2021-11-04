@@ -19,7 +19,7 @@ class TestBody(object):
     @pytest.mark.parametrize('download', get_branch_all_value().get_branch_all_value(compressor.data, 'free-download'))
     @allure.title('下载compressor测试')
     @allure.tag('下载compressor')
-    @allure.severity('critical')
+    @allure.severity('blocker')
     def test_001(self, download):
         self.driver.click_download(download)
         assert self.driver.is_download

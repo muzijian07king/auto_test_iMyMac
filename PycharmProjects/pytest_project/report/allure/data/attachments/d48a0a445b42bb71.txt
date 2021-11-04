@@ -1,0 +1,2 @@
+INFO	2021-11-05 17:53:56,987	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:53:58,312	[basepage.py:96]	获取到文本：How to Format A Flash Drive on Mac

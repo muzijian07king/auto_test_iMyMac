@@ -1,9 +1,14 @@
 import xlrd, os
+from pytest_project.config.conf import cm
 
 
 def get_excel_data_file_name(name):
-    excel_data_dir = 'C:/Users/123/PycharmProjects/pytest_project/excel_data/'
-    return os.path.join(excel_data_dir, name)
+    """获取xlsx目录"""
+    file_name = os.path.join(cm.XLSX_DIR, name)
+    if os.path.isfile(file_name):
+        return file_name
+    else:
+        raise FileNotFoundError('没有找到该文件==》{}'.format(file_name))
 
 
 def getExcelAllData(name, file_name):
@@ -58,7 +63,6 @@ def getExcelOneCol(name, col_index, file_name):
     book = xlrd.open_workbook(get_excel_data_file_name(file_name))
     # 读取sheet
     sheet = book.sheet_by_name(name)
-
     if col_index <= sheet.ncols:
         for row in range(1, sheet.nrows):
             data.append(sheet.cell_value(row, col_index - 1))
@@ -67,8 +71,34 @@ def getExcelOneCol(name, col_index, file_name):
         raise IndexError('请检查xlrd文件==》{}下第{}列没有数据'.format(get_excel_data_file_name(file_name), col_index))
 
 
+def getSheetNames(file_name):
+    """
+    获取工作簿上所有工资表名
+    :param file_name:
+    :return:
+    """
+    # 打开xlsx文件
+    book = xlrd.open_workbook(get_excel_data_file_name(file_name))
+    return book.sheet_names()
+
+
+def getValueByIndex(x, y, sheet_name, file_name):
+    """
+    获取工作表中某个坐标的值
+    :param file_name: 文件名
+    :param sheet_name:工作表名
+    :param x: 行
+    :param y: 列
+    :return:
+    """
+    # 打开xlsx文件
+    book = xlrd.open_workbook(get_excel_data_file_name(file_name))
+    sheet = book.sheet_by_name(sheet_name)
+    return sheet.cell_value(y-1, x-1)
+
+
 if __name__ == '__main__':
     # print(getExcelAllData(name='邮箱错误'))
     # print(getExcelByRow('优惠码错误', 1, 3))
     # print(getExcelOneCol('搜索文章', 1, 'Support/support.xlsx'))
-    print(getExcelOneCol('搜索文章', 1,  'Resource/resource.xlsx'))
+    print(getSheetNames('Protocol/protocol.xlsx').remove('refund'))

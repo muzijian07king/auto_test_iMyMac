@@ -11,6 +11,9 @@ class ConfigManager(object):
     # pytest_project绝对路径
     BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+    # xlsx目录
+    XLSX_DIR = os.path.join(BASE_DIR, 'excel_data')
+
     # 页面元素目录
     ELEMENT_DIR = os.path.join(BASE_DIR, 'page_element')
 
@@ -89,4 +92,4 @@ class ConfigManager(object):
 
 cm = ConfigManager()
 if __name__ == '__main__':
-    print(cm.BASE_DIR)
+    print(cm.XLSX_DIR)

@@ -9,7 +9,7 @@ def main():
     """主函数"""
     steps = [
         "venv\\Script\\activate" if WIN else "source venv/bin/activate",
-        "pytest TestCase/contact_test_case/test_contact.py  --alluredir allure-results --clean-alluredir",
+        "pytest TestCase/sitemap_test_case/test_sitemap.py  --alluredir allure-results --clean-alluredir",
         "copy environment.properties allure-results\\environment.properties" if WIN else 'cp environment.properties '
                                                                                          "allure-results/environment"
                                                                                          '.properties',

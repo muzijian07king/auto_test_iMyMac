@@ -2,7 +2,7 @@ import allure
 import pytest
 
 from pytest_project.common.readexcel import getExcelOneCol
-from pytest_project.page_object.faq.faqs import FAQSPage
+from pytest_project.page_object.faq.faqspage import FAQSPage
 from pytest_project.common.readconfig import ini
 from pytest_project.common.readelement import Element, get_branch_all_keys
 
@@ -44,6 +44,7 @@ class TestBody(object):
     @pytest.mark.parametrize('faq_name', get_branch_all_keys().get_branch_all_keys(faq.data, 'FAQS'))
     @pytest.mark.parametrize('search', getExcelOneCol('搜索文章', 1, 'Support/support.xlsx'))
     @allure.title('搜索文章测试')
+    @allure.severity('critical')
     def test_004(self, faq_name, search):
         """product搜索文章功能测试"""
         allure.dynamic.tag('搜索文章，关键字为==》{}'.format(search))
@@ -55,6 +56,7 @@ class TestBody(object):
     @pytest.mark.parametrize('faq_name', get_branch_all_keys().get_branch_all_keys(faq.data, 'FAQS'))
     @pytest.mark.parametrize('search', getExcelOneCol('搜索不到文章', 1, 'Support/support.xlsx'))
     @allure.title('搜索不到文章测试')
+    @allure.severity('minor')
     def test_005(self, faq_name, search):
         """搜索不到文章功能测试"""
         allure.dynamic.tag('搜索文章，关键字为==》{}'.format(search))

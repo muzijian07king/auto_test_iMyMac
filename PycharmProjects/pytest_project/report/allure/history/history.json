@@ -1,5 +1,5 @@
 {
-  "2e79bc3a37d317097ed76e3999cc178d" : {
+  "8946e09d456d48b0215d69ca709acdb9" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -9,16 +9,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a13ef0c8ca6f686d",
+      "uid" : "fdf062181bcc3132",
       "status" : "passed",
       "time" : {
-        "start" : 1635931834642,
-        "stop" : 1635931834712,
-        "duration" : 70
+        "start" : 1636106039632,
+        "stop" : 1636106040888,
+        "duration" : 1256
       }
     } ]
   },
-  "a8813dc9fab4274ce4065ce62ee5c6b3" : {
+  "21cf8835184ddf356c693b8e22331e1e" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -28,35 +28,36 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fd1d624551aecd11",
+      "uid" : "99045937137b6bd1",
       "status" : "passed",
       "time" : {
-        "start" : 1635931834551,
-        "stop" : 1635931834599,
-        "duration" : 48
+        "start" : 1636106048501,
+        "stop" : 1636106049129,
+        "duration" : 628
       }
     } ]
   },
-  "46a71cc399b644c0fc8101c58ba66873" : {
+  "6648e4af5a4e106e441090f4ac7dd3dc" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "eae41b2bce1471f3",
-      "status" : "passed",
+      "uid" : "1df6c92e77e6d046",
+      "status" : "broken",
+      "statusDetails" : "TypeError: can only concatenate list (not \"str\") to list",
       "time" : {
-        "start" : 1635931835754,
-        "stop" : 1635931835779,
-        "duration" : 25
+        "start" : 1636106049238,
+        "stop" : 1636106049906,
+        "duration" : 668
       }
     } ]
   },
-  "99bba21c394f098a438251c0b0f53c68" : {
+  "296d8bb3c9bd80ea0e52c30d0ac39890" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -66,12 +67,624 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "34806a3c39bb879e",
+      "uid" : "756e26e87e1a2da3",
       "status" : "passed",
       "time" : {
-        "start" : 1635931835577,
-        "stop" : 1635931835615,
-        "duration" : 38
+        "start" : 1636106036451,
+        "stop" : 1636106037418,
+        "duration" : 967
+      }
+    } ]
+  },
+  "e859f9665ccec1be0b78913285f4f05d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "156996de1eed29a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106044868,
+        "stop" : 1636106045507,
+        "duration" : 639
+      }
+    } ]
+  },
+  "b68fa7e794541979d335452f0660f57e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6ba19c00d0caa6dc",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=1206): Max retries exceeded with url: /session/98228426e4bf49983f02973fe152a4b2/timeouts (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E70AD61220>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1636106057746,
+        "stop" : 1636106057746,
+        "duration" : 0
+      }
+    } ]
+  },
+  "cc9389e8be9f27e865d8df5db29994cc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3805505589785a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106040971,
+        "stop" : 1636106042117,
+        "duration" : 1146
+      }
+    } ]
+  },
+  "67a3fe8bd76e55bd51de54ec57841988" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8f2f5fd00ea8eaef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106034770,
+        "stop" : 1636106036206,
+        "duration" : 1436
+      }
+    } ]
+  },
+  "3008a477e44c864fbb6589a4a58ba612" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4c5efe18e031cacf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106037565,
+        "stop" : 1636106039219,
+        "duration" : 1654
+      }
+    } ]
+  },
+  "eee16221fcc570263a1f190b2bf688da" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d4a07320ea91ed9d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106044945,
+        "stop" : 1636106046737,
+        "duration" : 1792
+      }
+    } ]
+  },
+  "bbb99b2d980d14e451744128e648b7ed" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1f761095a02731bc",
+      "status" : "broken",
+      "statusDetails" : "TypeError: can only concatenate list (not \"str\") to list",
+      "time" : {
+        "start" : 1636106104235,
+        "stop" : 1636106105830,
+        "duration" : 1595
+      }
+    } ]
+  },
+  "a6c236cd4aec38511a71dfbe71de79ac" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1ccdde261aebf890",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106046949,
+        "stop" : 1636106048429,
+        "duration" : 1480
+      }
+    } ]
+  },
+  "f9b4d91a263581243e7d59ccc4eca68d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2b43d5b978c0c4cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106041476,
+        "stop" : 1636106042122,
+        "duration" : 646
+      }
+    } ]
+  },
+  "c941befcdb7020ada4df615f9beacbf9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d2b859f16929c098",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106040337,
+        "stop" : 1636106041362,
+        "duration" : 1025
+      }
+    } ]
+  },
+  "733fc7a74715fa61ad3ff76bf1f71721" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "96bdfbb5cef5515",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106047817,
+        "stop" : 1636106048896,
+        "duration" : 1079
+      }
+    } ]
+  },
+  "e659cda6455534b2f3cca7395f036b55" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8020d0d09261f4e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106034713,
+        "stop" : 1636106035658,
+        "duration" : 945
+      }
+    } ]
+  },
+  "f5529bfce7d125d9913287fcdf6add39" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c98bfe3763ebe6ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106039498,
+        "stop" : 1636106040211,
+        "duration" : 713
+      }
+    } ]
+  },
+  "7be0ef9a9d58e6189ccdbdf17aff6b8e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "efc25ef9889340a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106046823,
+        "stop" : 1636106047738,
+        "duration" : 915
+      }
+    } ]
+  },
+  "b9f96159925e49058d4bb2ca151d6634" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2b519852c4811341",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106036990,
+        "stop" : 1636106038313,
+        "duration" : 1323
+      }
+    } ]
+  },
+  "c3c74ca244720f03a075152155bac881" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f5b5914f0882a181",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106037259,
+        "stop" : 1636106039451,
+        "duration" : 2192
+      }
+    } ]
+  },
+  "a48b8746167f4c8cbadc1184028753d5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6f9cd434e37e9db7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106042268,
+        "stop" : 1636106043203,
+        "duration" : 935
+      }
+    } ]
+  },
+  "d9c07518f7aa5bac75c1dcffa403c794" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c2884a4ca38890c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106035832,
+        "stop" : 1636106036839,
+        "duration" : 1007
+      }
+    } ]
+  },
+  "8c8744c11851483404b0629583b65793" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "88acc122add667e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106035094,
+        "stop" : 1636106035945,
+        "duration" : 851
+      }
+    } ]
+  },
+  "d6da1fea2b4b6d81ad60a6fddb47f385" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a775bf065014c58f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106044109,
+        "stop" : 1636106044769,
+        "duration" : 660
+      }
+    } ]
+  },
+  "966254fdacee71bd637619a7c3958bf1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f45971c64e734d77",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106030305,
+        "stop" : 1636106034885,
+        "duration" : 4580
+      }
+    } ]
+  },
+  "51ebb1555ba8418e728987fd465e354d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f689105dc2afa08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106043168,
+        "stop" : 1636106044006,
+        "duration" : 838
+      }
+    } ]
+  },
+  "1904f9c775834bd5e78c91a8c0441783" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ba34f5b88d57bb3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106045587,
+        "stop" : 1636106046834,
+        "duration" : 1247
+      }
+    } ]
+  },
+  "3fa983b6fd3db746bd2628c2c53ba40b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4c1e70ca4d6cec29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106043373,
+        "stop" : 1636106044079,
+        "duration" : 706
+      }
+    } ]
+  },
+  "a9ce2a67f36403561522be467b617fc0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cc5fc5a6f469c2f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106049278,
+        "stop" : 1636106050447,
+        "duration" : 1169
+      }
+    } ]
+  },
+  "43a4941b07a5ba83bb73b07d75be793c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1455ec8e110b4b14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106030422,
+        "stop" : 1636106034610,
+        "duration" : 4188
+      }
+    } ]
+  },
+  "77a6ca21faf5b512911965199f8bad06" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b6d7c9e169ecd318",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106036096,
+        "stop" : 1636106037003,
+        "duration" : 907
+      }
+    } ]
+  },
+  "3d3174bfc0f528ae2cff3569362a9614" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e81b55e7188fb8ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106030305,
+        "stop" : 1636106034655,
+        "duration" : 4350
+      }
+    } ]
+  },
+  "8ad06c909f33eb29b0ecfbd7eed87550" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "28bca016a9d4ef2d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106044191,
+        "stop" : 1636106044836,
+        "duration" : 645
+      }
+    } ]
+  },
+  "70a496b20f40e792357298220089f631" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "391407be9b25ec13",
+      "status" : "broken",
+      "statusDetails" : "TypeError: can only concatenate list (not \"str\") to list",
+      "time" : {
+        "start" : 1636106042005,
+        "stop" : 1636106042523,
+        "duration" : 518
+      }
+    } ]
+  },
+  "6eeb32380fa951ee4db4c8181f052319" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4daacae5b6870fb9",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=1207): Max retries exceeded with url: /session/d78e90dbd9913cba749f16f9c14c45ef/timeouts (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A14B630E50>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1636106114768,
+        "stop" : 1636106114768,
+        "duration" : 0
+      }
+    } ]
+  },
+  "7967231bb627cdf5dedde95f31946b26" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "29eb8e6697d85985",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106050324,
+        "stop" : 1636106051014,
+        "duration" : 690
       }
     } ]
   }

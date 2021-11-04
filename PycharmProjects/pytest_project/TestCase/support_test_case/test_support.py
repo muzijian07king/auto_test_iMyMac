@@ -6,6 +6,7 @@ from pytest_project.common.readexcel import getExcelAllData, getExcelOneCol
 
 @allure.feature('Support页面测试')
 @allure.story('链接页面内容测试')
+@allure.severity('critical')
 class TestBody(object):
     @pytest.fixture(scope='function', autouse=True)
     def open_url(self, drivers):
@@ -94,6 +95,7 @@ class TestBody(object):
 
     @pytest.mark.parametrize('search', getExcelOneCol('搜索不到文章', 1, 'Support/support.xlsx'))
     @allure.title('sales搜索不到文章测试')
+    @allure.severity('normal')
     def test_011(self, search):
         """sales搜索不到文章功能测试"""
         allure.dynamic.tag('搜索文章，关键字为==》{}'.format(search))
@@ -104,6 +106,7 @@ class TestBody(object):
 
     @pytest.mark.parametrize('search',  getExcelOneCol('搜索不到文章', 1, 'Support/support.xlsx'))
     @allure.title('product搜索不到文章测试')
+    @allure.severity('normal')
     def test_012(self, search):
         """product搜索不到文章功能测试"""
         allure.dynamic.tag('搜索文章，关键字为==》{}'.format(search))

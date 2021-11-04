@@ -18,6 +18,7 @@ class TestFoot(object):
         self.driver.get_url(ini.url)
 
     @pytest.mark.parametrize('link', get_recursion_key().get_recursion_key(foot.data)[:19])
+    @allure.severity('critical')
     def test_001(self, link):
         """点击底部链接"""
         allure.dynamic.tag('点击链接{}'.format(link))
@@ -26,6 +27,7 @@ class TestFoot(object):
         assert link.lower() in self.driver.get_current_url()
 
     @pytest.mark.parametrize('lge', get_recursion_key().get_recursion_key(language.data))
+    @allure.severity('critical')
     def test_002(self, lge):
         """切换语言"""
         allure.dynamic.tag('语言切换为{}'.format(language.getLanguage(lge)))
@@ -44,6 +46,7 @@ class TestFoot(object):
         assert self.driver.errorText() == error_text
 
     @pytest.mark.parametrize('email, Success', [('123@qq.com', 'Successfully')])
+    @allure.severity('critical')
     def test_004(self, email, Success):
         """提交邮箱订阅更新以及优惠"""
         allure.dynamic.tag('订阅')

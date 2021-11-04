@@ -1,0 +1,578 @@
+INFO	2021-11-05 11:35:01,765	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 11:35:01,767	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 11:35:02,798	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 11:35:03,268	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 11:35:03,271	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 11:35:03,456	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 11:35:03,462	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 11:35:03,576	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 11:35:03,583	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 11:35:04,310	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 11:35:04,529	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 11:35:04,533	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(1)')
+INFO	2021-11-05 11:35:04,621	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 11:35:05,580	[basepage.py:210]	获取到text==》['Private Privacy']
+INFO	2021-11-05 11:35:06,121	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(3)')
+INFO	2021-11-05 11:35:06,276	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(4)')
+INFO	2021-11-05 11:35:06,390	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 11:35:06,394	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 11:35:06,466	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(2)')
+INFO	2021-11-05 11:35:07,160	[basepage.py:210]	获取到text==》['Refund Policy']
+INFO	2021-11-05 11:35:07,324	[basepage.py:210]	获取到text==》['End-User License Agreement (EULA)']
+INFO	2021-11-05 11:35:07,505	[basepage.py:210]	获取到text==》['Terms & Conditions']
+INFO	2021-11-05 11:35:07,523	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 11:35:10,063	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(1)')
+INFO	2021-11-05 11:35:11,193	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 11:35:11,206	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 11:35:12,093	[basepage.py:210]	获取到text==》['Applicability Of This Privacy Policy', 'Information We Collect and Receive', 'Cookies', 'Collection Information from Children', 'Use of Your Personal Information', 'How We Share And Disclose Information', "Third Parties' Applications and Products", 'Data Storage, Transfer, Retention, And Deletion', 'Updates to our Privacy Policy', 'How to Contact Us']
+INFO	2021-11-05 11:35:12,565	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 11:35:12,735	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 11:35:12,742	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 11:35:12,879	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 11:35:12,884	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 11:35:13,386	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 11:35:13,397	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 11:35:15,279	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 11:35:15,315	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 11:35:15,482	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 11:35:16,200	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(3)')
+INFO	2021-11-05 11:35:17,268	[basepage.py:210]	获取到text==》['Money Back Guarantee', 'Circumstances of No Refund', 'Circumstances of Eligible Refund']
+INFO	2021-11-05 11:35:17,602	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(2)')
+asepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 11:35:17,622	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(4)')
+INFO	2021-11-05 11:35:17,637	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(1)')
+INFO	2021-11-05 11:35:18,741	[basepage.py:210]	获取到text==》['IMAGES', 'INDEMNITY', 'FEEDBACK', 'REPRODUCTIONS', 'COPYRIGHT', 'QUESTION']
+INFO	2021-11-05 11:35:18,817	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 11:35:18,822	[basepage.py:210]	获取到text==》['IMPORTANT--READ CAREFULLY', 'SOFTWARE PRODUCT LICENSE', 'LIMITED WARRANTY', 'NO WARRANTIES', 'SEVERABILITY', 'NO LIABILITY FOR DAMAGES', 'MISCELLANEOUS', 'DISCLAIMER', 'PRIVACY STATEMENT', 'OTHER TERMS']
+INFO	2021-11-05 11:35:18,967	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 11:35:18,970	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 11:35:19,206	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 11:35:19,213	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 11:35:20,396	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 11:35:20,502	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 11:35:20,574	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(2)')
+INFO	2021-11-05 11:35:22,091	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(4)')
+INFO	2021-11-05 11:35:22,133	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(3)')
+INFO	2021-11-05 13:45:50,115	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 13:45:50,119	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 13:45:51,161	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 13:45:52,228	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 13:45:52,232	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 13:45:53,264	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 13:45:54,286	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 13:45:54,290	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 13:45:55,034	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(2)')
+INFO	2021-11-05 13:45:55,326	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 13:45:56,089	[basepage.py:210]	获取到text==》['Terms & Conditions']
+INFO	2021-11-05 13:45:57,040	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 13:45:57,042	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 13:45:57,824	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 13:45:57,826	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 13:45:58,142	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 13:45:58,182	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(1)')
+INFO	2021-11-05 13:45:58,909	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 13:45:59,237	[basepage.py:210]	获取到text==》['Private Privacy']
+INFO	2021-11-05 13:45:59,746	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(2)')
+INFO	2021-11-05 13:45:59,964	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 13:45:59,968	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 13:46:00,731	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(4)')
+INFO	2021-11-05 13:46:00,844	[basepage.py:210]	获取到text==》['IMAGES', 'INDEMNITY', 'FEEDBACK', 'REPRODUCTIONS', 'COPYRIGHT', 'QUESTION']
+INFO	2021-11-05 13:46:00,978	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 13:46:00,983	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 13:46:01,128	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 13:46:01,871	[basepage.py:210]	获取到text==》['IMPORTANT--READ CAREFULLY', 'SOFTWARE PRODUCT LICENSE', 'LIMITED WARRANTY', 'NO WARRANTIES', 'SEVERABILITY', 'NO LIABILITY FOR DAMAGES', 'MISCELLANEOUS', 'DISCLAIMER', 'PRIVACY STATEMENT', 'OTHER TERMS']
+INFO	2021-11-05 13:46:02,078	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 13:46:02,085	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 13:46:02,180	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 13:46:02,832	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(1)')
+INFO	2021-11-05 13:46:03,250	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 13:46:03,778	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(1)')
+INFO	2021-11-05 13:46:03,949	[basepage.py:210]	获取到text==》['Applicability Of This Privacy Policy', 'Information We Collect and Receive', 'Cookies', 'Collection Information from Children', 'Use of Your Personal Information', 'How We Share And Disclose Information', "Third Parties' Applications and Products", 'Data Storage, Transfer, Retention, And Deletion', 'Updates to our Privacy Policy', 'How to Contact Us']
+INFO	2021-11-05 13:46:04,038	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 13:46:04,043	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 13:46:04,851	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(2)')
+INFO	2021-11-05 13:46:05,176	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 13:46:05,246	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 13:46:05,250	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 13:46:06,397	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 13:46:06,872	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(3)')
+INFO	2021-11-05 13:46:07,754	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 13:46:07,756	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 13:46:08,124	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(4)')
+INFO	2021-11-05 13:46:08,795	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 13:46:22,590	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(3)')
+INFO	2021-11-05 13:46:23,622	[basepage.py:210]	获取到text==》['Refund Policy']
+INFO	2021-11-05 13:46:24,182	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 13:46:24,184	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 13:46:25,265	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 13:46:26,849	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(3)')
+INFO	2021-11-05 13:46:27,893	[basepage.py:210]	获取到text==》['Money Back Guarantee', 'Circumstances of No Refund', 'Circumstances of Eligible Refund']
+INFO	2021-11-05 14:02:52,411	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 14:02:52,418	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 14:02:53,439	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 14:02:54,626	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 14:02:54,629	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 14:02:55,353	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(2)')
+INFO	2021-11-05 14:02:55,675	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 14:02:56,395	[basepage.py:96]	获取到文本：Terms & Conditions
+INFO	2021-11-05 14:02:56,588	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 14:02:56,591	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 14:02:57,620	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 14:02:59,217	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(2)')
+INFO	2021-11-05 14:03:00,313	[basepage.py:210]	获取到text==》['IMAGES', 'INDEMNITY', 'FEEDBACK', 'REPRODUCTIONS', 'COPYRIGHT', 'QUESTION']
+INFO	2021-11-05 14:03:00,428	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 14:03:00,430	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 14:03:00,643	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(1)')
+INFO	2021-11-05 14:03:01,519	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 14:03:01,686	[basepage.py:96]	获取到文本：Private Privacy
+INFO	2021-11-05 14:03:01,847	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 14:03:01,849	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 14:03:02,302	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 14:03:02,308	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 14:03:02,949	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 14:03:03,286	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(1)')
+INFO	2021-11-05 14:03:03,358	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 14:03:04,317	[basepage.py:148]	获取到href元素的值==》mailto:support@imymac.com
+INFO	2021-11-05 14:03:04,323	[basepage.py:148]	获取到href元素的值==》mailto:support@imymac.com
+INFO	2021-11-05 14:03:04,331	[basepage.py:148]	获取到href元素的值==》mailto:support@imymac.com
+INFO	2021-11-05 14:03:04,337	[basepage.py:148]	获取到href元素的值==》mailto:support@imymac.com
+INFO	2021-11-05 14:03:04,345	[basepage.py:148]	获取到href元素的值==》mailto:support@imymac.com
+INFO	2021-11-05 14:03:04,549	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 14:03:04,551	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 14:03:04,757	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(1)')
+INFO	2021-11-05 14:03:05,600	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 14:03:05,890	[basepage.py:210]	获取到text==》['Applicability Of This Privacy Policy', 'Information We Collect and Receive', 'Cookies', 'Collection Information from Children', 'Use of Your Personal Information', 'How We Share And Disclose Information', "Third Parties' Applications and Products", 'Data Storage, Transfer, Retention, And Deletion', 'Updates to our Privacy Policy', 'How to Contact Us']
+INFO	2021-11-05 14:03:06,022	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 14:03:06,024	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 14:03:06,301	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 14:03:06,305	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 14:03:07,136	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 14:03:07,276	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(2)')
+INFO	2021-11-05 14:03:07,357	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 14:03:08,304	[basepage.py:148]	获取到href元素的值==》mailto:support@imymac.com
+INFO	2021-11-05 14:03:08,511	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 14:03:08,518	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 14:03:08,726	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(3)')
+INFO	2021-11-05 14:03:09,551	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 14:03:17,122	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(4)')
+INFO	2021-11-05 14:03:18,162	[basepage.py:96]	获取到文本：End-User License Agreement (EULA)
+INFO	2021-11-05 14:03:18,304	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 14:03:18,306	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 14:03:19,358	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 14:03:19,897	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(4)')
+INFO	2021-11-05 14:03:20,932	[basepage.py:148]	获取到href元素的值==》mailto:support@imymac.com
+INFO	2021-11-05 14:03:22,313	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(3)')
+INFO	2021-11-05 14:03:22,433	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(4)')
+INFO	2021-11-05 14:03:23,340	[basepage.py:96]	获取到文本：Refund Policy
+INFO	2021-11-05 14:03:23,493	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 14:03:23,496	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 14:03:23,561	[basepage.py:210]	获取到text==》['IMPORTANT--READ CAREFULLY', 'SOFTWARE PRODUCT LICENSE', 'LIMITED WARRANTY', 'NO WARRANTIES', 'SEVERABILITY', 'NO LIABILITY FOR DAMAGES', 'MISCELLANEOUS', 'DISCLAIMER', 'PRIVACY STATEMENT', 'OTHER TERMS']
+INFO	2021-11-05 14:03:24,521	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 14:03:33,533	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(3)')
+INFO	2021-11-05 14:03:34,575	[basepage.py:210]	获取到text==》['Money Back Guarantee', 'Circumstances of No Refund', 'Circumstances of Eligible Refund']
+INFO	2021-11-05 14:46:06,023	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 14:46:06,028	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 14:46:07,064	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 14:46:10,751	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 14:46:10,753	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 14:46:11,882	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 14:46:13,656	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(1)')
+INFO	2021-11-05 14:46:14,765	[basepage.py:210]	获取到text==》['Applicability Of This Privacy Policy', 'Information We Collect and Receive', 'Cookies', 'Collection Information from Children', 'Use of Your Personal Information', 'How We Share And Disclose Information', "Third Parties' Applications and Products", 'Data Storage, Transfer, Retention, And Deletion', 'Updates to our Privacy Policy', 'How to Contact Us']
+INFO	2021-11-05 14:46:14,856	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 14:46:14,860	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 14:46:15,964	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 14:46:17,561	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(1)')
+INFO	2021-11-05 14:46:18,590	[basepage.py:148]	获取到href元素的值==》mailto:support@imymac.com
+INFO	2021-11-05 14:46:18,597	[basepage.py:148]	获取到href元素的值==》mailto:support@imymac.com
+INFO	2021-11-05 14:46:18,609	[basepage.py:148]	获取到href元素的值==》mailto:support@imymac.com
+INFO	2021-11-05 14:46:18,614	[basepage.py:148]	获取到href元素的值==》mailto:support@imymac.com
+INFO	2021-11-05 14:46:18,622	[basepage.py:148]	获取到href元素的值==》mailto:support@imymac.com
+INFO	2021-11-05 14:46:18,728	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 14:46:18,732	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 14:46:19,851	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 14:46:19,899	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 14:46:19,903	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 14:46:20,943	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 14:46:21,485	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(2)')
+INFO	2021-11-05 14:46:22,508	[basepage.py:148]	获取到href元素的值==》mailto:support@imymac.com
+INFO	2021-11-05 14:46:22,618	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 14:46:22,621	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 14:46:23,722	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 14:46:25,312	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(4)')
+INFO	2021-11-05 14:46:26,335	[basepage.py:148]	获取到href元素的值==》mailto:support@imymac.com
+INFO	2021-11-05 14:46:27,251	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 14:46:27,254	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 14:46:28,290	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 14:46:28,947	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(3)')
+INFO	2021-11-05 14:46:29,984	[basepage.py:96]	获取到文本：Refund Policy
+INFO	2021-11-05 14:46:30,134	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 14:46:30,138	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 14:46:31,254	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 14:46:33,387	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(3)')
+INFO	2021-11-05 14:46:34,427	[basepage.py:210]	获取到text==》['Money Back Guarantee', 'Circumstances of No Refund', 'Circumstances of Eligible Refund']
+INFO	2021-11-05 14:46:34,752	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 14:46:34,755	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 14:46:35,785	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 14:46:37,560	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(2)')
+INFO	2021-11-05 14:46:38,598	[basepage.py:96]	获取到文本：Terms & Conditions
+INFO	2021-11-05 14:46:38,716	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 14:46:38,717	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 14:46:39,805	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 14:46:41,338	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(2)')
+INFO	2021-11-05 14:46:42,411	[basepage.py:210]	获取到text==》['IMAGES', 'INDEMNITY', 'FEEDBACK', 'REPRODUCTIONS', 'COPYRIGHT', 'QUESTION']
+INFO	2021-11-05 14:46:49,947	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(4)')
+INFO	2021-11-05 14:46:50,973	[basepage.py:96]	获取到文本：End-User License Agreement (EULA)
+INFO	2021-11-05 14:46:51,103	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 14:46:51,105	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 14:46:52,167	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 14:46:56,558	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(4)')
+INFO	2021-11-05 14:46:57,664	[basepage.py:210]	获取到text==》['IMPORTANT--READ CAREFULLY', 'SOFTWARE PRODUCT LICENSE', 'LIMITED WARRANTY', 'NO WARRANTIES', 'SEVERABILITY', 'NO LIABILITY FOR DAMAGES', 'MISCELLANEOUS', 'DISCLAIMER', 'PRIVACY STATEMENT', 'OTHER TERMS']
+INFO	2021-11-05 14:51:49,791	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 14:51:49,793	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 14:51:50,833	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 14:51:51,826	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 14:51:51,830	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 14:51:51,888	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 14:51:51,891	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 14:51:51,955	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 14:51:51,956	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 14:51:52,554	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(1)')
+INFO	2021-11-05 14:51:52,867	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 14:51:52,928	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 14:51:52,990	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 14:51:53,585	[basepage.py:96]	获取到文本：Private Privacy
+INFO	2021-11-05 14:51:53,698	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 14:51:53,704	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 14:51:54,839	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 14:51:54,889	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(2)')
+INFO	2021-11-05 14:51:54,993	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(3)')
+INFO	2021-11-05 14:51:55,927	[basepage.py:96]	获取到文本：Terms & Conditions
+INFO	2021-11-05 14:51:56,036	[basepage.py:96]	获取到文本：Refund Policy
+INFO	2021-11-05 14:51:56,040	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 14:51:56,042	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 14:51:56,192	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 14:51:56,195	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 14:51:56,956	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(1)')
+INFO	2021-11-05 14:51:57,073	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 14:51:57,326	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 14:51:58,194	[basepage.py:210]	获取到text==》['Applicability Of This Privacy Policy', 'Information We Collect and Receive', 'Cookies', 'Collection Information from Children', 'Use of Your Personal Information', 'How We Share And Disclose Information', "Third Parties' Applications and Products", 'Data Storage, Transfer, Retention, And Deletion', 'Updates to our Privacy Policy', 'How to Contact Us']
+INFO	2021-11-05 14:51:58,340	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 14:51:58,343	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 14:51:58,715	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(2)')
+INFO	2021-11-05 14:51:59,411	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 14:51:59,834	[basepage.py:210]	获取到text==》['IMAGES', 'INDEMNITY', 'FEEDBACK', 'REPRODUCTIONS', 'COPYRIGHT', 'QUESTION']
+INFO	2021-11-05 14:52:00,190	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 14:52:00,195	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 14:52:01,291	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(1)')
+INFO	2021-11-05 14:52:01,562	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 14:52:02,324	[basepage.py:148]	获取到href元素的值==》mailto:support@imymac.com
+INFO	2021-11-05 14:52:02,333	[basepage.py:148]	获取到href元素的值==》mailto:support@imymac.com
+INFO	2021-11-05 14:52:02,341	[basepage.py:148]	获取到href元素的值==》mailto:support@imymac.com
+INFO	2021-11-05 14:52:02,350	[basepage.py:148]	获取到href元素的值==》mailto:support@imymac.com
+INFO	2021-11-05 14:52:02,356	[basepage.py:148]	获取到href元素的值==》mailto:support@imymac.com
+INFO	2021-11-05 14:52:03,183	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(2)')
+INFO	2021-11-05 14:52:04,215	[basepage.py:148]	获取到href元素的值==》mailto:support@imymac.com
+INFO	2021-11-05 14:52:06,090	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 14:52:06,091	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 14:52:06,504	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 14:52:06,508	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 14:52:07,170	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 14:52:07,612	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 14:52:08,925	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(4)')
+INFO	2021-11-05 14:52:09,156	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(3)')
+INFO	2021-11-05 14:52:09,951	[basepage.py:96]	获取到文本：End-User License Agreement (EULA)
+INFO	2021-11-05 14:52:10,042	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 14:52:10,044	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 14:52:10,209	[basepage.py:210]	获取到text==》['Money Back Guarantee', 'Circumstances of No Refund', 'Circumstances of Eligible Refund']
+INFO	2021-11-05 14:52:10,350	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-05 14:52:10,352	[basepage.py:158]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-05 14:52:11,130	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 14:52:11,446	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-05 14:52:12,702	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(4)')
+INFO	2021-11-05 14:52:12,986	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(4)')
+INFO	2021-11-05 14:52:13,808	[basepage.py:210]	获取到text==》['IMPORTANT--READ CAREFULLY', 'SOFTWARE PRODUCT LICENSE', 'LIMITED WARRANTY', 'NO WARRANTIES', 'SEVERABILITY', 'NO LIABILITY FOR DAMAGES', 'MISCELLANEOUS', 'DISCLAIMER', 'PRIVACY STATEMENT', 'OTHER TERMS']
+INFO	2021-11-05 14:52:14,018	[basepage.py:148]	获取到href元素的值==》mailto:support@imymac.com
+INFO	2021-11-05 17:02:43,330	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:02:43,377	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:02:43,724	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:02:48,976	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:02:49,832	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:02:50,552	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:02:50,626	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:02:50,696	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:02:51,282	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:02:51,365	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:02:54,760	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:02:55,285	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:02:56,256	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:02:56,788	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:02:56,905	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:02:56,998	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:02:57,458	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:02:57,590	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:00,827	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:01,362	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:02,415	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:02,944	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:03,026	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:03,472	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:03,596	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:04,008	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:06,908	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:07,469	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:08,531	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:09,055	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:09,172	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:09,536	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:09,762	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:10,066	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:13,032	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:13,619	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:14,607	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:15,195	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:15,306	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:15,621	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:15,897	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:16,175	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:19,165	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:19,748	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:20,762	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:21,326	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:21,473	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:21,749	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:22,046	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:22,323	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:25,305	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:25,842	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:26,885	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:27,451	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:27,614	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:27,892	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:28,204	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:28,449	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:31,392	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:32,344	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:33,093	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:33,623	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:33,764	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:34,074	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:34,389	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:34,810	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:37,908	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:03:38,514	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+WARNING	2021-11-05 17:03:43,187	[connectionpool.py:780]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000151BA99C670>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/fd29424a5cfd5db972962778c06c27fb/timeouts
+WARNING	2021-11-05 17:03:43,887	[connectionpool.py:780]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000190095BC640>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/1b759ce52010d56de181f4ad4766f82c/timeouts
+WARNING	2021-11-05 17:03:44,303	[connectionpool.py:780]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FC9CD1E610>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/7ccad4be07970b3b7360849391fd8b33/timeouts
+WARNING	2021-11-05 17:03:45,224	[connectionpool.py:780]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000151BAA79F10>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/fd29424a5cfd5db972962778c06c27fb/timeouts
+WARNING	2021-11-05 17:03:45,920	[connectionpool.py:780]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000190096CDD30>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/1b759ce52010d56de181f4ad4766f82c/timeouts
+WARNING	2021-11-05 17:03:46,336	[connectionpool.py:780]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FC9CE2B550>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/7ccad4be07970b3b7360849391fd8b33/timeouts
+WARNING	2021-11-05 17:03:47,252	[connectionpool.py:780]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000151BAAA49D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/fd29424a5cfd5db972962778c06c27fb/timeouts
+WARNING	2021-11-05 17:03:47,962	[connectionpool.py:780]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000190096CDD90>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/1b759ce52010d56de181f4ad4766f82c/timeouts
+WARNING	2021-11-05 17:03:47,993	[connectionpool.py:780]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023A8B6A16A0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/f050fea7e2941416b1c129e9dbef7f20/timeouts
+WARNING	2021-11-05 17:03:48,378	[connectionpool.py:780]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FC9CE2B220>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/7ccad4be07970b3b7360849391fd8b33/timeouts
+WARNING	2021-11-05 17:03:50,034	[connectionpool.py:780]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023A8B7B8970>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/f050fea7e2941416b1c129e9dbef7f20/timeouts
+WARNING	2021-11-05 17:03:51,456	[connectionpool.py:780]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000151BADEAC70>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/fd29424a5cfd5db972962778c06c27fb
+WARNING	2021-11-05 17:03:52,070	[connectionpool.py:780]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023A8B7B8700>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/f050fea7e2941416b1c129e9dbef7f20/timeouts
+WARNING	2021-11-05 17:03:52,148	[connectionpool.py:780]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000190099C48B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/1b759ce52010d56de181f4ad4766f82c
+WARNING	2021-11-05 17:03:52,564	[connectionpool.py:780]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FC9CE2BE80>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/7ccad4be07970b3b7360849391fd8b33
+WARNING	2021-11-05 17:03:53,481	[connectionpool.py:780]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000151BADA4A60>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/fd29424a5cfd5db972962778c06c27fb
+WARNING	2021-11-05 17:03:54,179	[connectionpool.py:780]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001900994C220>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/1b759ce52010d56de181f4ad4766f82c
+WARNING	2021-11-05 17:03:54,597	[connectionpool.py:780]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FC9D0C7DC0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/7ccad4be07970b3b7360849391fd8b33
+WARNING	2021-11-05 17:03:55,525	[connectionpool.py:780]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000151BADA4E80>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/fd29424a5cfd5db972962778c06c27fb
+WARNING	2021-11-05 17:03:56,217	[connectionpool.py:780]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001900994C190>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/1b759ce52010d56de181f4ad4766f82c
+WARNING	2021-11-05 17:03:56,248	[connectionpool.py:780]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023A8BA5F550>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/f050fea7e2941416b1c129e9dbef7f20
+WARNING	2021-11-05 17:03:56,637	[connectionpool.py:780]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FC9D0C7A30>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/7ccad4be07970b3b7360849391fd8b33
+WARNING	2021-11-05 17:03:58,292	[connectionpool.py:780]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023A8BA61FD0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/f050fea7e2941416b1c129e9dbef7f20
+WARNING	2021-11-05 17:04:00,335	[connectionpool.py:780]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023A8BA61E50>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/f050fea7e2941416b1c129e9dbef7f20
+INFO	2021-11-05 17:09:19,749	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:09:31,337	[basepage.py:96]	获取到文本：How to Flush DNS Cache on Mac
+INFO	2021-11-05 17:09:31,450	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:09:31,511	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:09:31,779	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:09:36,123	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:09:37,132	[basepage.py:96]	获取到文本：Your Best File Manager for Mac as of 2021
+INFO	2021-11-05 17:09:37,207	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:09:38,853	[basepage.py:96]	获取到文本：How to Use NTFS
+INFO	2021-11-05 17:09:38,934	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:09:39,124	[basepage.py:96]	获取到文本：How to Fix MacBook Running Slow
+INFO	2021-11-05 17:09:39,221	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:09:40,438	[basepage.py:96]	获取到文本：How to Delete System Log Files on Mac
+INFO	2021-11-05 17:09:40,540	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:09:40,681	[basepage.py:96]	获取到文本：How to Clean Up Macbook Storage
+INFO	2021-11-05 17:09:40,775	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:09:42,743	[basepage.py:96]	获取到文本：How to Securely Delete Files on Mac to Protect Privacy
+INFO	2021-11-05 17:09:42,827	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:09:42,845	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:09:43,392	[basepage.py:96]	获取到文本：How to find my stolen MacBook?
+INFO	2021-11-05 17:09:43,471	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:09:44,263	[basepage.py:96]	获取到文本：How to Hide Files on Mac
+INFO	2021-11-05 17:09:44,326	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:09:44,501	[basepage.py:96]	获取到文本：Find Duplicate Files on Mac to Remove for Free
+INFO	2021-11-05 17:09:44,583	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:09:45,253	[basepage.py:96]	获取到文本：3 Ways to Find and Remove Dropbox Duplicate Files
+INFO	2021-11-05 17:09:45,329	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:09:45,664	[basepage.py:96]	获取到文本：How to Clear Cookies on Mac
+INFO	2021-11-05 17:09:45,744	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:09:46,534	[basepage.py:96]	获取到文本：How To Clear Search History On Chrome, Safari, Firefox
+INFO	2021-11-05 17:09:46,741	[basepage.py:96]	获取到文本：How to Force Quit Mac Applications
+INFO	2021-11-05 17:09:47,002	[basepage.py:96]	获取到文本：Firefox Keeps Crashing on Mac? Top Solutions in 2021
+INFO	2021-11-05 17:09:47,086	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:09:47,186	[basepage.py:96]	获取到文本：How to Format A Flash Drive on Mac
+INFO	2021-11-05 17:09:47,267	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:09:48,100	[basepage.py:96]	获取到文本：The Best Photo Management Software on Mac (2021 Update)
+INFO	2021-11-05 17:09:48,243	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:09:49,547	[basepage.py:96]	获取到文本：How to Find Similar Images on Your Mac?
+INFO	2021-11-05 17:09:49,631	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:09:50,915	[basepage.py:96]	获取到文本：How to Resize An Image on Mac?
+INFO	2021-11-05 17:09:50,983	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:09:52,154	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:09:52,364	[basepage.py:96]	获取到文本：App Not Safe on Mac? Full Solution Are Offered Here
+INFO	2021-11-05 17:09:52,553	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:09:52,645	[basepage.py:96]	获取到文本：How To Clear Search History On Chrome, Safari, Firefox
+INFO	2021-11-05 17:09:52,652	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:09:53,146	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:09:53,589	[basepage.py:96]	获取到文本：How to Enable or Disable Mac Extensions
+INFO	2021-11-05 17:09:53,737	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:09:53,770	[basepage.py:96]	获取到文本：Startup Disk Full on Mac? 11 Tips to Free up Space!
+INFO	2021-11-05 17:09:53,817	[basepage.py:96]	获取到文本：How to Force Quit Mac Applications
+INFO	2021-11-05 17:09:53,869	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:09:54,348	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:09:54,437	[basepage.py:96]	获取到文本：How to Uninstall Apps on Mac with Its Related Files
+INFO	2021-11-05 17:09:54,636	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:09:54,657	[basepage.py:96]	获取到文本：How to Completely Uninstall Microsoft Office on Mac [2021 Update]
+INFO	2021-11-05 17:09:54,786	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:09:56,815	[basepage.py:96]	获取到文本：How to Compress A PDF on Mac with Original Quality (Free)
+INFO	2021-11-05 17:09:56,880	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:09:57,595	[basepage.py:96]	获取到文本：How to Edit a PDF on Mac for Free Using Preview
+INFO	2021-11-05 17:09:57,671	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:09:58,464	[basepage.py:96]	获取到文本：The Best Duplicate Photo Finder on Mac in 2021
+INFO	2021-11-05 17:09:58,496	[basepage.py:96]	获取到文本：Convert MP3 to MIDI: Best Free Online Tools in 2021
+INFO	2021-11-05 17:09:58,580	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:09:58,717	[basepage.py:96]	获取到文本：Big Bonus in 2021: What Are The Best Free PDF Editors for Mac
+INFO	2021-11-05 17:09:58,806	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:09:59,713	[basepage.py:96]	获取到文本：Convert M4A to MP3 on Mac- Quick and Easy Guide
+INFO	2021-11-05 17:09:59,802	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:10:00,350	[basepage.py:96]	获取到文本：Convert WMA to MP3 Online for Free with High Quality
+INFO	2021-11-05 17:10:00,781	[basepage.py:96]	获取到文本：Convert FLAC to MP3 on Mac - Best Guide in 2021
+INFO	2021-11-05 17:10:04,117	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:10:05,119	[basepage.py:96]	获取到文本：The Best Duplicate Photo Finder on Mac in 2021
+INFO	2021-11-05 17:10:05,468	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:10:07,847	[basepage.py:96]	获取到文本：How to Speed Up Mac? 11 Tricks to Make Your Mac Run Faster
+INFO	2021-11-05 17:10:07,908	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:10:08,854	[basepage.py:96]	获取到文本：Useful Tips & Tricks on How to Convert PDF to Word on Mac
+WARNING	2021-11-05 17:10:10,066	[connectionpool.py:780]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FDA06DE670>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/64e507a6564c88f351a0c4e74669efbe/timeouts
+INFO	2021-11-05 17:10:10,831	[basepage.py:96]	获取到文本：Cut the Clutter: Arrange and Organize Mac Files
+WARNING	2021-11-05 17:10:12,094	[connectionpool.py:780]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FDA07AA6D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/64e507a6564c88f351a0c4e74669efbe/timeouts
+WARNING	2021-11-05 17:10:14,129	[connectionpool.py:780]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FDA07AA820>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/64e507a6564c88f351a0c4e74669efbe/timeouts
+WARNING	2021-11-05 17:10:18,317	[connectionpool.py:780]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FDA0AB6D00>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/64e507a6564c88f351a0c4e74669efbe
+WARNING	2021-11-05 17:10:20,272	[connectionpool.py:780]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025285960610>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/cbb8ff6dc1043b765b61c5debb518fd8/timeouts
+WARNING	2021-11-05 17:10:20,349	[connectionpool.py:780]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FDA0A57580>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/64e507a6564c88f351a0c4e74669efbe
+WARNING	2021-11-05 17:10:22,305	[connectionpool.py:780]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002528590C5B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/cbb8ff6dc1043b765b61c5debb518fd8/timeouts
+WARNING	2021-11-05 17:10:22,382	[connectionpool.py:780]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FDA0A57490>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/64e507a6564c88f351a0c4e74669efbe
+WARNING	2021-11-05 17:10:24,345	[connectionpool.py:780]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025285960D60>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/cbb8ff6dc1043b765b61c5debb518fd8/timeouts
+WARNING	2021-11-05 17:10:28,524	[connectionpool.py:780]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025285D5B4F0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/cbb8ff6dc1043b765b61c5debb518fd8
+WARNING	2021-11-05 17:10:30,562	[connectionpool.py:780]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025285D23A90>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/cbb8ff6dc1043b765b61c5debb518fd8
+WARNING	2021-11-05 17:10:32,572	[connectionpool.py:780]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025285D23880>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/cbb8ff6dc1043b765b61c5debb518fd8
+INFO	2021-11-05 17:53:50,076	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:53:50,303	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:53:50,304	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:53:50,420	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:53:54,609	[basepage.py:96]	获取到文本：How to Flush DNS Cache on Mac
+INFO	2021-11-05 17:53:54,654	[basepage.py:96]	获取到文本：How to Use NTFS
+INFO	2021-11-05 17:53:54,711	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:53:54,766	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:53:54,883	[basepage.py:96]	获取到文本：Your Best File Manager for Mac as of 2021
+INFO	2021-11-05 17:53:54,914	[basepage.py:96]	获取到文本：How to Force Quit Mac Applications
+INFO	2021-11-05 17:53:54,956	[basepage.py:96]	获取到文本：How to Force Quit Mac Applications
+INFO	2021-11-05 17:53:55,021	[basepage.py:96]	获取到文本：How to Force Quit Mac Applications
+INFO	2021-11-05 17:53:55,091	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:53:55,657	[basepage.py:96]	获取到文本：How to Delete System Log Files on Mac
+INFO	2021-11-05 17:53:55,831	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:53:55,944	[basepage.py:96]	获取到文本：How to Fix MacBook Running Slow
+INFO	2021-11-05 17:53:56,094	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:53:56,205	[basepage.py:96]	获取到文本：How to Clean Up Macbook Storage
+INFO	2021-11-05 17:53:56,449	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:53:56,838	[basepage.py:96]	获取到文本：How to Securely Delete Files on Mac to Protect Privacy
+INFO	2021-11-05 17:53:56,987	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:53:57,002	[basepage.py:96]	获取到文本：How to find my stolen MacBook?
+INFO	2021-11-05 17:53:57,253	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:53:57,417	[basepage.py:96]	获取到文本：The Best Mac File Shredder in 2021
+INFO	2021-11-05 17:53:57,563	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:53:58,312	[basepage.py:96]	获取到文本：How to Format A Flash Drive on Mac
+INFO	2021-11-05 17:53:58,497	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:53:59,216	[basepage.py:96]	获取到文本：How to Hide Files on Mac
+INFO	2021-11-05 17:53:59,449	[basepage.py:96]	获取到文本：Find Duplicate Files on Mac to Remove for Free
+INFO	2021-11-05 17:53:59,495	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:53:59,629	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:54:00,209	[basepage.py:96]	获取到文本：How to Clear Cookies on Mac
+INFO	2021-11-05 17:54:00,336	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:54:00,887	[basepage.py:96]	获取到文本：3 Ways to Find and Remove Dropbox Duplicate Files
+INFO	2021-11-05 17:54:00,970	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:54:01,360	[basepage.py:96]	获取到文本：Firefox Keeps Crashing on Mac? Top Solutions in 2021
+INFO	2021-11-05 17:54:01,474	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:54:02,004	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:54:02,117	[basepage.py:96]	获取到文本：Startup Disk Full on Mac? 11 Tips to Free up Space!
+INFO	2021-11-05 17:54:02,120	[basepage.py:96]	获取到文本：The Best Photo Management Software on Mac (2021 Update)
+INFO	2021-11-05 17:54:02,266	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:54:02,287	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:54:02,486	[basepage.py:96]	获取到文本：How to Force Quit Mac Applications
+INFO	2021-11-05 17:54:02,503	[basepage.py:96]	获取到文本：How to Force Quit Mac Applications
+INFO	2021-11-05 17:54:02,521	[basepage.py:96]	获取到文本：How to Force Quit Mac Applications
+INFO	2021-11-05 17:54:03,165	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:54:03,201	[basepage.py:96]	获取到文本：How to Find Similar Images on Your Mac?
+INFO	2021-11-05 17:54:03,218	[basepage.py:96]	获取到文本：Cut the Clutter: Arrange and Organize Mac Files
+INFO	2021-11-05 17:54:03,249	[basepage.py:96]	获取到文本：Cut the Clutter: Arrange and Organize Mac Files
+INFO	2021-11-05 17:54:03,292	[basepage.py:96]	获取到文本：Cut the Clutter: Arrange and Organize Mac Files
+INFO	2021-11-05 17:54:03,371	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:54:04,005	[basepage.py:96]	获取到文本：How to Speed Up Mac? 11 Tricks to Make Your Mac Run Faster
+INFO	2021-11-05 17:54:04,078	[basepage.py:96]	获取到文本：How to Resize An Image on Mac?
+INFO	2021-11-05 17:54:04,107	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:54:04,188	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:54:04,767	[basepage.py:96]	获取到文本：How to Enable or Disable Mac Extensions
+INFO	2021-11-05 17:54:04,834	[basepage.py:96]	获取到文本：How to Uninstall Apps on Mac with Its Related Files
+INFO	2021-11-05 17:54:04,866	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:54:04,941	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:54:05,506	[basepage.py:96]	获取到文本：How to Completely Uninstall Microsoft Office on Mac [2021 Update]
+INFO	2021-11-05 17:54:05,585	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:54:06,736	[basepage.py:96]	获取到文本：How to Edit a PDF on Mac for Free Using Preview
+INFO	2021-11-05 17:54:06,821	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:54:06,833	[basepage.py:96]	获取到文本：How to Compress A PDF on Mac with Original Quality (Free)
+INFO	2021-11-05 17:54:06,945	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:54:07,738	[basepage.py:96]	获取到文本：Useful Tips & Tricks on How to Convert PDF to Word on Mac
+INFO	2021-11-05 17:54:07,813	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:54:08,429	[basepage.py:96]	获取到文本：Big Bonus in 2021: What Are The Best Free PDF Editors for Mac
+INFO	2021-11-05 17:54:08,496	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:54:08,895	[basepage.py:96]	获取到文本：Convert MP3 to MIDI: Best Free Online Tools in 2021
+INFO	2021-11-05 17:54:09,010	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:54:09,127	[basepage.py:96]	获取到文本：Convert M4A to MP3 on Mac- Quick and Easy Guide
+INFO	2021-11-05 17:54:09,230	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:54:09,276	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:54:09,838	[basepage.py:96]	获取到文本：Cut the Clutter: Arrange and Organize Mac Files
+INFO	2021-11-05 17:54:09,878	[basepage.py:96]	获取到文本：Cut the Clutter: Arrange and Organize Mac Files
+INFO	2021-11-05 17:54:09,878	[basepage.py:96]	获取到文本：Convert WMA to MP3 Online for Free with High Quality
+INFO	2021-11-05 17:54:09,904	[basepage.py:96]	获取到文本：Cut the Clutter: Arrange and Organize Mac Files
+INFO	2021-11-05 17:54:09,905	[basepage.py:96]	获取到文本：Convert WMA to MP3 Online for Free with High Quality
+INFO	2021-11-05 17:54:09,926	[basepage.py:96]	获取到文本：Convert WMA to MP3 Online for Free with High Quality
+INFO	2021-11-05 17:54:10,321	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:54:10,445	[basepage.py:96]	获取到文本：Convert FLAC to MP3 on Mac - Best Guide in 2021
+INFO	2021-11-05 17:54:11,013	[basepage.py:96]	获取到文本：App Not Safe on Mac? Full Solution Are Offered Here
+WARNING	2021-11-05 17:54:19,778	[connectionpool.py:780]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E70AD0D670>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/98228426e4bf49983f02973fe152a4b2/timeouts
+WARNING	2021-11-05 17:54:21,819	[connectionpool.py:780]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E70AD61E20>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/98228426e4bf49983f02973fe152a4b2/timeouts
+WARNING	2021-11-05 17:54:23,855	[connectionpool.py:780]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E70AD61730>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/98228426e4bf49983f02973fe152a4b2/timeouts
+WARNING	2021-11-05 17:54:28,054	[connectionpool.py:780]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E70B118520>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/98228426e4bf49983f02973fe152a4b2
+WARNING	2021-11-05 17:54:30,084	[connectionpool.py:780]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E70B0E0B20>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/98228426e4bf49983f02973fe152a4b2
+WARNING	2021-11-05 17:54:32,102	[connectionpool.py:780]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E70B0E0A30>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/98228426e4bf49983f02973fe152a4b2
+INFO	2021-11-05 17:55:04,234	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:55:05,803	[basepage.py:96]	获取到文本：The Best Duplicate Photo Finder on Mac in 2021
+INFO	2021-11-05 17:55:05,817	[basepage.py:96]	获取到文本：The Best Duplicate Photo Finder on Mac in 2021
+INFO	2021-11-05 17:55:05,829	[basepage.py:96]	获取到文本：The Best Duplicate Photo Finder on Mac in 2021
+INFO	2021-11-05 17:55:06,146	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:55:07,301	[basepage.py:96]	获取到文本：How To Clear Search History On Chrome, Safari, Firefox
+INFO	2021-11-05 17:55:07,317	[basepage.py:96]	获取到文本：How To Clear Search History On Chrome, Safari, Firefox
+INFO	2021-11-05 17:55:07,333	[basepage.py:96]	获取到文本：How To Clear Search History On Chrome, Safari, Firefox
+WARNING	2021-11-05 17:55:16,810	[connectionpool.py:780]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A14B52D670>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/d78e90dbd9913cba749f16f9c14c45ef/timeouts
+WARNING	2021-11-05 17:55:18,842	[connectionpool.py:780]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A14B630C40>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/d78e90dbd9913cba749f16f9c14c45ef/timeouts
+WARNING	2021-11-05 17:55:20,875	[connectionpool.py:780]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A14B630910>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/d78e90dbd9913cba749f16f9c14c45ef/timeouts
+WARNING	2021-11-05 17:55:25,096	[connectionpool.py:780]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A14B9CFBB0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/d78e90dbd9913cba749f16f9c14c45ef
+WARNING	2021-11-05 17:55:27,121	[connectionpool.py:780]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A14B899EB0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/d78e90dbd9913cba749f16f9c14c45ef
+WARNING	2021-11-05 17:55:29,149	[connectionpool.py:780]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A14B899A00>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/d78e90dbd9913cba749f16f9c14c45ef

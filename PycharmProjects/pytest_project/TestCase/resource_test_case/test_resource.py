@@ -25,6 +25,7 @@ class TestBody(object):
 
     @pytest.mark.parametrize('search', getExcelOneCol('搜索文章', 1, 'Resource/resource.xlsx'))
     @allure.title('搜索文章回车测试')
+    @allure.severity('minor')
     def test_002(self, search):
         """搜索文章回车功能测试"""
         allure.dynamic.tag('搜索文章==》{}'.format(search))
@@ -88,6 +89,7 @@ class TestBody(object):
 
     @pytest.mark.parametrize('key', getExcelOneCol('搜索不到文章', 1, 'Resource/resource.xlsx'))
     @allure.title('搜索不到文章测试')
+    @allure.severity('minor')
     def test_010(self, key):
         allure.dynamic.tag('输入关键字')
         self.driver.send_search(key)

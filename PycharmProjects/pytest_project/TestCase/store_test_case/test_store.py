@@ -10,7 +10,7 @@ store = Element('Store/body')
 
 @allure.feature('Store页面测试')
 @allure.story('Store主页内容测试')
-@allure.severity('critical')
+@allure.severity('blocker')
 class TestBody(object):
     @pytest.fixture(scope='function', autouse=True)
     def open_url(self, drivers):
@@ -25,6 +25,7 @@ class TestBody(object):
         self.driver.click_buy(buy)
         assert self.driver.is_buy()
 
+    @allure.severity('critical')
     @allure.title('pmm栏点击更多选项按钮测试')
     def test_002(self):
         """pmm栏点击更多选项按钮功能测试"""
@@ -32,6 +33,7 @@ class TestBody(object):
         self.driver.click_pmm_option()
         assert self.driver.is_option('Select Your PowerMyMac License')
 
+    @allure.severity('critical')
     @allure.title('video栏点击更多选项按钮测试')
     def test_003(self):
         """video栏点击更多选项按钮功能测试"""
@@ -41,6 +43,7 @@ class TestBody(object):
 
     @pytest.mark.parametrize('email_data, error_text', getExcelAllData('邮箱错误', 'Store/store.xlsx'))
     @allure.title('pmm购买页面填写错误格式邮箱测试')
+    @allure.severity('normal')
     def test_004(self, email_data, error_text):
         """pmm购买页面填写错误格式邮箱功能测试"""
         allure.dynamic.tag('邮箱为==》{}'.format(email_data))
@@ -145,6 +148,7 @@ class TestBody(object):
 
     @pytest.mark.parametrize('number,name,month,year,pwd,error_text', getExcelAllData('卡片支付', 'Store/store.xlsx'))
     @allure.title('pmm购买页面添加支付卡信息错误测试')
+    @allure.severity('critical')
     def test_016(self, number, name, month, year, pwd, error_text):
         """pmm购买页面添加支付卡信息错误功能测试"""
         allure.dynamic.tag('填写支付卡信息')

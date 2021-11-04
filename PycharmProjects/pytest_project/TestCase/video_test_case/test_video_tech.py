@@ -8,6 +8,7 @@ from pytest_project.common.readelement import Element, get_branch_all_keys
 tech = Element('VideoConverter/video-tech')
 
 
+@allure.severity('critical')
 @allure.feature('VideoConverter页面测试')
 @allure.story('Video-tech页面内容测试')
 class TestBody(object):
@@ -16,6 +17,7 @@ class TestBody(object):
         self.driver = TechPage(drivers)
         self.driver.get_url(ini.get_url('video-tech'))
 
+    @allure.severity('blocker')
     @allure.title('下载video测试')
     def test_001(self):
         """下载video功能测试"""
@@ -30,6 +32,7 @@ class TestBody(object):
         self.driver.goto_buy()
         assert self.driver.is_buy()
 
+    @allure.severity('normal')
     @allure.title('去index页面测试')
     def test_003(self):
         """去index页面功能测试"""

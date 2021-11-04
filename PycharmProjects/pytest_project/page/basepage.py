@@ -1,7 +1,7 @@
-'''
+"""
 selenium基类
 存放selenium基类的封装方法
-'''
+"""
 import requests
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
@@ -20,12 +20,11 @@ class WebPage(object):
 
     def __init__(self, driver):
         self.driver = driver
-        # self.driver = webdriver.Chrome()
         self.timeout = 10
         self.wait = WebDriverWait(self.driver, self.timeout)
 
     def get_url(self, url):
-        '''打开网址并验证'''
+        """打开网址并验证"""
         self.driver.set_page_load_timeout(60)
         try:
             self.driver.get(url)
@@ -36,7 +35,7 @@ class WebPage(object):
 
     @staticmethod
     def element_locator(func, loc):
-        '''元素定位器'''
+        """元素定位器"""
         name, value = loc
         return func(cm.LOCATE_MODE[name], value)
 
@@ -45,13 +44,14 @@ class WebPage(object):
         return cm.LOCATE_MODE[name], value
 
     def find_element(self, loc):
-        '''定位单个元素'''
+        """定位单个元素"""
         try:
             WebPage.element_locator(lambda *args: self.wait.until(EC.presence_of_element_located(args)), loc)
             method, func = self.element_loc(loc)
-            '''method : 定位方法 例如id定位法
-               func : 根据方法定位元素
-            '''
+            """
+            method : 定位方法 例如id定位法
+            func : 根据方法定位元素
+            """
             return self.driver.find_element(method, func)
         except AttributeError:
             raise AttributeError('未找到{}元素'.format(loc))
@@ -61,9 +61,10 @@ class WebPage(object):
         try:
             WebPage.element_locator(lambda *args: self.wait.until(EC.presence_of_all_elements_located(args)), loc)
             method, func = self.element_loc(loc)
-            '''method : 定位方法 例如id定位法
-                           func : 根据方法定位元素
-                        '''
+            """
+            method : 定位方法 例如id定位法
+            func : 根据方法定位元素
+            """
             return self.driver.find_elements(method, func)
         except AttributeError:
             raise AttributeError('未找到{}元素'.format(loc))
@@ -74,7 +75,7 @@ class WebPage(object):
         return number
 
     def input_text(self, loc, text):
-        '''输入'''
+        """输入"""
         ele = self.find_element(loc)
         ele.clear()
         ele.send_keys(text)
@@ -96,7 +97,7 @@ class WebPage(object):
         return _text
 
     def move_element(self, loc):
-        '''鼠标悬停到某元素'''
+        """鼠标悬停到某元素"""
         ele = self.find_element(loc)
         log.info('鼠标悬停在{}'.format(loc))
         ActionChains(self.driver).move_to_element(ele).perform()
@@ -106,14 +107,14 @@ class WebPage(object):
         return self.driver.current_url
 
     def Key_enter(self, loc):
-        '''模拟回车键'''
+        """模拟回车键"""
         ele = self.find_element(loc)
         ele.send_keys(Keys.ENTER)
         log.info("按下回车")
 
     @property
     def get_source(self):
-        '''获取页面源代码'''
+        """获取页面源代码"""
         return self.driver.page_source
 
     def refresh(self):
@@ -123,10 +124,29 @@ class WebPage(object):
         self.driver.implicitly_wait(30)
 
     def getAttribute(self, loc, attribute):
-        """定位到元素后获取属性值"""
+        """
+        定位到元素后获取属性值
+        :param loc: 元素
+        :param attribute: 属性值
+        :return:
+        """
         attr = self.find_element(loc)
         log.info('获取到{}元素的值==》{}'.format(attribute, attr.get_attribute(attribute)))
         return attr.get_attribute(attribute)
+
+    def getAttributes(self, loc, attribute):
+        """
+        定位到多元素获取属性值
+        :param loc: 元素
+        :param attribute: 属性值
+        :return:
+        """
+        attr = self.find_elements(loc)
+        context = []
+        for i in attr:
+            context.append(i.get_attribute(attribute))
+            log.info('获取到{}元素的值==》{}'.format(attribute, i.get_attribute(attribute)))
+        return context
 
     def jsInDriver(self, js):
         """使用js"""
@@ -183,10 +203,14 @@ class WebPage(object):
 
     def elements_text(self, loc):
         """获取多个元素的text"""
-
         ele = self.find_elements(loc)
         texts = []
         for i in ele:
             texts.append(i.text)
         log.info('获取到text==》{}'.format(texts))
         return texts
+
+    def element_if_display(self, loc):
+        """显形等待元素可见"""
+        log.info('等待元素可见==》{}'.format(loc[1]))
+        self.wait.until(EC.visibility_of_element_located(self.element_loc(loc)))

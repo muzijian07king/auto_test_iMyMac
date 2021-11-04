@@ -72,14 +72,6 @@ def pytest_runtest_makereport(item, call):
                        'onclick="window.open(this.src)" align="right"/></div>' % screen_img
                 extra.append(pytest_html.extras.html(html))
         report.extra = extra
-        mode = "a" if os.path.exists("failures") else "w"
-        with open("failures", mode) as f:
-            # let's also access a fixture for the fun of it
-            if "tmpdir" in item.fixturenames:
-                extra = " (%s)" % item.funcargs["tmpdir"]
-            else:
-                extra = ""
-            f.write(report.nodeid + extra + "\n")
 
         if hasattr(driver, "get_screenshot_as_png"):
             with allure.step('添加失败截图...'):

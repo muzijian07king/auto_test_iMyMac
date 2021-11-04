@@ -1,0 +1,262 @@
+{
+  "uid" : "1f761095a02731bc",
+  "name" : "热门文章链接测试",
+  "fullName" : "TestCase.sitemap_test_case.test_sitemap.TestBody#test_001",
+  "historyId" : "bbb99b2d980d14e451744128e648b7ed",
+  "time" : {
+    "start" : 1636106104235,
+    "stop" : 1636106105830,
+    "duration" : 1595
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: can only concatenate list (not \"str\") to list",
+  "statusTrace" : "self = <pytest_project.TestCase.sitemap_test_case.test_sitemap.TestBody object at 0x000001A14B6308E0>\nnumber = 14\n\n    @allure.title('热门文章链接测试')\n    @pytest.mark.parametrize('number', list(range(36)))\n    def test_001(self, number):\n        allure.dynamic.tag('热点为T{}的文章'.format(number % 4))\n        title = self.driver.get_articles_title(number)\n        self.driver.go_to_articles(number)\n>       assert self.driver.if_true_articles(title)\n\nTestCase\\sitemap_test_case\\test_sitemap.py:20: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <pytest_project.page_object.sitemap.sitemap_page.SitemapPage object at 0x000001A14B6304C0>\ntitle = 'The Best Duplicate Photo Finder on Mac in 2020'\n\n    def if_true_articles(self, title):\n        with allure.step('获取文章标题==》{}'.format(title)):\n            return self.element_txet(sitemap['articles-title']) == title or (\n                        len(title.split(' ')) + len(self.element_txet(sitemap['articles-title']))) - \\\n>                  set(title.split(' ') + self.element_txet(sitemap['articles-title'])) >= 2\nE           TypeError: can only concatenate list (not \"str\") to list\n\npage_object\\sitemap\\sitemap_page.py:23: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1636106026309,
+      "stop" : 1636106028753,
+      "duration" : 2444
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1636106026309,
+      "stop" : 1636106026309,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1636106026309,
+      "stop" : 1636106026309,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1636106028753,
+      "stop" : 1636106028753,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1636106104158,
+      "stop" : 1636106104158,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "open_url",
+    "time" : {
+      "start" : 1636106104158,
+      "stop" : 1636106104234,
+      "duration" : 76
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TypeError: can only concatenate list (not \"str\") to list",
+    "statusTrace" : "self = <pytest_project.TestCase.sitemap_test_case.test_sitemap.TestBody object at 0x000001A14B6308E0>\nnumber = 14\n\n    @allure.title('热门文章链接测试')\n    @pytest.mark.parametrize('number', list(range(36)))\n    def test_001(self, number):\n        allure.dynamic.tag('热点为T{}的文章'.format(number % 4))\n        title = self.driver.get_articles_title(number)\n        self.driver.go_to_articles(number)\n>       assert self.driver.if_true_articles(title)\n\nTestCase\\sitemap_test_case\\test_sitemap.py:20: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <pytest_project.page_object.sitemap.sitemap_page.SitemapPage object at 0x000001A14B6304C0>\ntitle = 'The Best Duplicate Photo Finder on Mac in 2020'\n\n    def if_true_articles(self, title):\n        with allure.step('获取文章标题==》{}'.format(title)):\n            return self.element_txet(sitemap['articles-title']) == title or (\n                        len(title.split(' ')) + len(self.element_txet(sitemap['articles-title']))) - \\\n>                  set(title.split(' ') + self.element_txet(sitemap['articles-title'])) >= 2\nE           TypeError: can only concatenate list (not \"str\") to list\n\npage_object\\sitemap\\sitemap_page.py:23: TypeError",
+    "steps" : [ {
+      "name" : "点击文章链接",
+      "time" : {
+        "start" : 1636106104283,
+        "stop" : 1636106105782,
+        "duration" : 1499
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "number",
+        "value" : "14"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "获取文章标题==》The Best Duplicate Photo Finder on Mac in 2020",
+      "time" : {
+        "start" : 1636106105782,
+        "stop" : 1636106105830,
+        "duration" : 48
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: can only concatenate list (not \"str\") to list\n",
+      "statusTrace" : "  File \"D:\\auto_test_iMyMac\\PycharmProjects\\pytest_project\\page_object\\sitemap\\sitemap_page.py\", line 23, in if_true_articles\n    set(title.split(' ') + self.element_txet(sitemap['articles-title'])) >= 2\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "添加失败截图...",
+      "time" : {
+        "start" : 1636106105963,
+        "stop" : 1636106106079,
+        "duration" : 116
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d07bfed724722204",
+        "name" : "失败截图",
+        "source" : "d07bfed724722204.png",
+        "type" : "image/png",
+        "size" : 117757
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "80c0ff69cb5804f7",
+      "name" : "log",
+      "source" : "80c0ff69cb5804f7.txt",
+      "type" : "text/plain",
+      "size" : 472
+    }, {
+      "uid" : "6b692213857ba781",
+      "name" : "stderr",
+      "source" : "6b692213857ba781.txt",
+      "type" : "text/plain",
+      "size" : 513
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 3,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "drivers::fn",
+    "time" : {
+      "start" : 1636106107643,
+      "stop" : 1636106109747,
+      "duration" : 2104
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "热点为T2的文章"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.sitemap_test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_sitemap"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBody"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "22348-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.sitemap_test_case.test_sitemap"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "number",
+    "value" : "14"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4402efae7ca8d04c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 60.000\n  (Session info: chrome=95.0.4638.69)",
+      "time" : {
+        "start" : 1636106038500,
+        "stop" : 1636106098664,
+        "duration" : 60164
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "热点为T2的文章" ]
+  },
+  "source" : "1f761095a02731bc.json",
+  "parameterValues" : [ "14" ]
+}

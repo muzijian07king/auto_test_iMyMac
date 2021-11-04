@@ -43,7 +43,7 @@ def get_any_key_info(key_name="", yaml_data=None):
     for i in yaml_data.keys():
         # 如果当前的key是我们要找的
         if i == key_name:
-            ele_key, ele_value = yaml_data[i].split('=')
+            ele_key, ele_value = yaml_data[i].split('=', 1)
             return ele_key, ele_value
         # 如果当前的key不是我们找的key，并且是字典类型
         elif type(yaml_data[i]) == dict:
@@ -97,7 +97,7 @@ class get_root_all_value(object):
                 if self.value is None:
                     return values
             else:
-                k, v = self.value.split('=')
+                k, v = self.value.split('=', 1)
                 list_root.append((k, v))
         return list_root
 
@@ -127,7 +127,7 @@ class get_branch_all_value(object):
                         if value is None:
                             return values
                     else:
-                        tuple_key, tuple_value = value.split('=')
+                        tuple_key, tuple_value = value.split('=', 1)
                         list_branch.append((tuple_key, tuple_value))
             else:
                 tuple_1, tuple_2 = get_any_key_info(name, datas)
@@ -170,6 +170,10 @@ list_value = []
 
 
 class get_values_in_name(object):
+
+    """
+    根据name获取所有的value
+    """
     def __init__(self):
         list_value.clear()
 
@@ -178,7 +182,7 @@ class get_values_in_name(object):
         for i in data.keys():
             # 如果当前的key是我们要找的
             if i == name:
-                k, v = data[i].split('=')
+                k, v = data[i].split('=', 1)
                 list_value.append((k, v))
             # 如果当前的key不是我们找的key，并且是字典类型
             if type(data[i]) == dict:
@@ -192,10 +196,10 @@ class get_values_in_name(object):
 
 
 if __name__ == '__main__':
-    index = Element('FAQ/index')
+    index = Element('Discount/discount')
 
     # # print(get_recursion_key(foot.data))
-    print(get_any_key_info('General-FAQs', index.data))
+    print(get_any_key_info('sql', index.data))
     # # print(foot['Youtube'])
     # # print(get_branch_all_value(foot.data))
     # # print(get_recursion_key(foot.data))

@@ -1,0 +1,2 @@
+INFO	2021-11-05 17:54:00,336	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:54:01,360	[basepage.py:96]	获取到文本：Firefox Keeps Crashing on Mac? Top Solutions in 2021

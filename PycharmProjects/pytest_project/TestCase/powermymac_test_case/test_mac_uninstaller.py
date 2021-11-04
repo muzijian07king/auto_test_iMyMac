@@ -8,6 +8,7 @@ from pytest_project.common.readelement import Element, get_branch_all_value, get
 uninstaller = Element('PowerMyMac/common')
 
 
+@allure.severity('critical')
 @allure.feature('PowerMyMac下拉栏中页面测试')
 @allure.story('mac-uninstaller页面内容测试')
 class TestBody(object):
@@ -17,8 +18,8 @@ class TestBody(object):
         self.driver = UninstallerPage(drivers)
         self.driver.get_url(ini.get_url('mac-uninstaller'))
 
-    @allure.severity('critical')
     @allure.title('下载PowerMyMac测试')
+    @allure.severity('blocker')
     def test_001(self):
         """下载PowerMyMac"""
         allure.dynamic.tag('下载PowerMyMac')
@@ -46,6 +47,7 @@ class TestBody(object):
         self.driver.click_link(uninstaller['common-index'])
         assert self.driver.is_cleaner_index()
 
+    @allure.severity('normal')
     @allure.title('评价轮播图测试')
     def test_005(self):
         """点击评价轮播图索引图片是否变动"""
@@ -54,11 +56,11 @@ class TestBody(object):
         self.driver.click_carousel()
         assert self.driver.return_carousel_index()
 
+    @allure.severity('blocker')
     @allure.title('menu导航栏测试')
     def test_006(self):
         """滑动到一定位置是否弹出menu"""
         allure.dynamic.tag('弹出menu导航栏')
-        # self.driver.slide_in_driver(1100)
         self.driver.scroll_to_menu()
         assert self.driver.is_menu()
 
@@ -78,8 +80,8 @@ class TestBody(object):
         self.driver.click_link(get_branch_all_value().get_branch_all_value(uninstaller.data, 'menu')[1])
         assert self.driver.is_goto_guide()
 
-    @allure.severity('critical')
     @allure.title('menu导航栏的下载测试')
+    @allure.severity('blocker')
     def test_009(self):
         """点击menu下的下载链接"""
         allure.dynamic.tag('点击下载按钮')
@@ -95,8 +97,8 @@ class TestBody(object):
         self.driver.goto_buy(get_branch_all_value().get_branch_all_value(uninstaller.data, 'menu')[3])
         assert self.driver.is_goto_buy()
 
-    @allure.severity('critical')
     @allure.title('footbuy导航栏的下载测试')
+    @allure.severity('blocker')
     def test_011(self):
         """点击footbuy下的下载链接"""
         allure.dynamic.tag('点击下载按钮')

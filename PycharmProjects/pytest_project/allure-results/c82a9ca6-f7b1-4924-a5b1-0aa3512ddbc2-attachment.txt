@@ -1,0 +1,5 @@
+INFO	2021-11-05 17:53:58,497	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:55:04,234	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:55:05,803	[basepage.py:96]	获取到文本：The Best Duplicate Photo Finder on Mac in 2021
+INFO	2021-11-05 17:55:05,817	[basepage.py:96]	获取到文本：The Best Duplicate Photo Finder on Mac in 2021
+INFO	2021-11-05 17:55:05,829	[basepage.py:96]	获取到文本：The Best Duplicate Photo Finder on Mac in 2021

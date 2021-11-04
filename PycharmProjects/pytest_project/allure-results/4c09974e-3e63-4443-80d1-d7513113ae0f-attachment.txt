@@ -1,0 +1,2 @@
+INFO	2021-11-05 17:53:50,304	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 17:53:54,883	[basepage.py:96]	获取到文本：Your Best File Manager for Mac as of 2021

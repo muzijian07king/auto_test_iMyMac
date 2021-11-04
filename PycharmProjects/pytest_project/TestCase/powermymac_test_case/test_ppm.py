@@ -8,6 +8,7 @@ from pytest_project.common.readelement import Element, get_branch_all_value, get
 pmm = Element('PowerMyMac/powermymac')
 
 
+@allure.severity('critical')
 @allure.feature('PowerMyMac下拉栏中页面测试')
 @allure.story('pmm页面内容测试')
 class TestBody(object):
@@ -17,7 +18,7 @@ class TestBody(object):
         self.driver = PMMPage(drivers)
         self.driver.get_url(ini.get_url('pmm'))
 
-    @allure.severity('critical')
+    @allure.severity('blocker')
     @allure.title('下载PowerMyMac测试')
     def test_001(self):
         """下载PowerMyMac"""
@@ -41,6 +42,7 @@ class TestBody(object):
         assert self.driver.is_goto_guide()
 
     @allure.title('进入PowerMyMac首页')
+    @allure.severity('normal')
     def test_004(self):
         """去cleaner首页"""
         allure.dynamic.tag('去PowerMyMac产品主页')
@@ -49,6 +51,7 @@ class TestBody(object):
         assert self.driver.is_cleaner_index()
 
     @allure.title('轮播图测试')
+    @allure.severity('normal')
     def test_005(self):
         """点击轮播图索引图片是否变动"""
         allure.dynamic.tag('查看第二张轮播图')
@@ -57,6 +60,7 @@ class TestBody(object):
         assert self.driver.return_carousel_index()
 
     @allure.title('menu导航栏测试')
+    @allure.severity('blocker')
     def test_006(self):
         """滑动到一定位置是否弹出menu"""
         allure.dynamic.tag('弹出menu导航栏')
@@ -80,7 +84,7 @@ class TestBody(object):
         self.driver.click_link(get_branch_all_value().get_branch_all_value(pmm.data, 'menu')[1])
         assert self.driver.is_goto_guide()
 
-    @allure.severity('critical')
+    @allure.severity('blocker')
     @allure.title('menu导航栏cleaner的下载测试')
     def test_009(self):
         """点击menu下的下载链接"""
@@ -97,7 +101,7 @@ class TestBody(object):
         self.driver.goto_buy(get_branch_all_value().get_branch_all_value(pmm.data, 'menu')[3])
         assert self.driver.is_goto_buy()
 
-    @allure.severity('critical')
+    @allure.severity('blocker')
     @allure.title('footbuy导航栏cleaner的下载测试')
     def test_011(self):
         """点击footbuy下的下载链接"""

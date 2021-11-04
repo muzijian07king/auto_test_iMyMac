@@ -6,6 +6,8 @@ from pytest_project.page_object.contact.index import ContactPage
 from pytest_project.common.readconfig import ini
 
 
+@allure.feature('邮箱咨询页面测试')
+@allure.story('功能测试')
 class TestBody(object):
     @pytest.fixture(scope='function', autouse=True)
     def open_url(self, drivers):
@@ -14,10 +16,12 @@ class TestBody(object):
 
     @allure.title('邮箱链接测试')
     @allure.tag('写邮件')
+    @allure.severity('critical')
     def test_001(self):
         assert self.driver.get_send_email()
 
     @allure.title('简介栏内容测试')
+    @allure.severity('trivial')
     @pytest.mark.parametrize('title,context', getExcelAllData('简介', 'Contact/contact.xlsx'))
     def test_002(self, title, context):
         allure.dynamic.tag('{}栏的简介'.format(title))

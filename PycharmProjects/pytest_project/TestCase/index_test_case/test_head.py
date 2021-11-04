@@ -21,8 +21,9 @@ class TestHead(object):
 
     @allure.tag('链接测试')
     @pytest.mark.parametrize('link', get_recursion_key().get_recursion_key(head.data)[:6])
+    @allure.severity('critical')
     def test_001(self, link):
-        '''点击网站logo链接'''
+        """点击网站logo链接"""
         self.driver.click_link(link)
         log.info('点击链接{}'.format(link))
         allure.dynamic.title('测试{}链接'.format(link))
@@ -30,8 +31,9 @@ class TestHead(object):
 
     @allure.tag('PowerMyMac下拉栏测试')
     @pytest.mark.parametrize('link', get_recursion_key().get_recursion_key(head.data)[8:13])
+    @allure.severity('critical')
     def test_002(self, link):
-        '''点击PowerMyMac下拉框的链接'''
+        """点击PowerMyMac下拉框的链接"""
         allure.dynamic.title('测试{}链接'.format(link))
         self.driver.move_PowerMyMac_dropdown()
         log.info('点击PowerMyMac下拉框')
@@ -40,9 +42,10 @@ class TestHead(object):
         assert link.lower() in self.driver.get_current_url()
 
     @allure.tag('Online Tool下拉栏测试')
+    @allure.severity('critical')
     @pytest.mark.parametrize('link', get_recursion_key().get_recursion_key(head.data)[13:17])
     def test_003(self, link):
-        '''点击Online Tool下拉框的链接'''
+        """点击Online Tool下拉框的链接"""
         allure.dynamic.title('测试{}链接'.format(link))
         self.driver.move_OnlineTools_dropdown()
         log.info('点击OnlineTool下拉框')
@@ -51,9 +54,10 @@ class TestHead(object):
         assert link.lower() in self.driver.get_current_url()
 
     @allure.tag('搜索文章')
+    @allure.severity('critical')
     @pytest.mark.parametrize('text', ['Video', ' '])
     def test_004(self, text):
-        '''搜索栏输入关键字搜索测试'''
+        """搜索栏输入关键字搜索测试"""
         allure.dynamic.title('测试输入{}关键字'.format(text))
         self.driver.click_search()
         log.info('点击搜索按钮')
@@ -62,8 +66,4 @@ class TestHead(object):
         self.driver.search_enter()
         log.info('按下回车')
         assert text.replace(' ', '+') in self.driver.get_current_url() \
-               and text.replace(' ', '+') in self.driver.get_source
-
-
-
-
+               and text in self.driver.get_source

@@ -2,60 +2,476 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "TestCase.contact_test_case.test_contact",
+    "name" : "TestCase.sitemap_test_case.test_sitemap",
     "children" : [ {
-      "name" : "简介栏内容测试",
-      "uid" : "fd1d624551aecd11",
-      "parentUid" : "9fffba4117a3e30f55d4298884365b23",
+      "name" : "热门文章链接测试",
+      "uid" : "e81b55e7188fb8ff",
+      "parentUid" : "73e954ead1c0fe78de8f4e51c8e54496",
       "status" : "passed",
       "time" : {
-        "start" : 1635931834551,
-        "stop" : 1635931834599,
-        "duration" : 48
+        "start" : 1636106030305,
+        "stop" : 1636106034655,
+        "duration" : 4350
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "'iMyMac Supporter Email: support@imymac.com'", "'email'" ]
+      "parameters" : [ "0" ]
     }, {
-      "name" : "邮箱链接测试",
-      "uid" : "a13ef0c8ca6f686d",
-      "parentUid" : "9fffba4117a3e30f55d4298884365b23",
+      "name" : "热门文章链接测试",
+      "uid" : "f45971c64e734d77",
+      "parentUid" : "73e954ead1c0fe78de8f4e51c8e54496",
       "status" : "passed",
       "time" : {
-        "start" : 1635931834642,
-        "stop" : 1635931834712,
-        "duration" : 70
+        "start" : 1636106030305,
+        "stop" : 1636106034885,
+        "duration" : 4580
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ ]
+      "parameters" : [ "3" ]
     }, {
-      "name" : "简介栏内容测试",
-      "uid" : "34806a3c39bb879e",
-      "parentUid" : "9fffba4117a3e30f55d4298884365b23",
+      "name" : "热门文章链接测试",
+      "uid" : "1455ec8e110b4b14",
+      "parentUid" : "73e954ead1c0fe78de8f4e51c8e54496",
       "status" : "passed",
       "time" : {
-        "start" : 1635931835577,
-        "stop" : 1635931835615,
-        "duration" : 38
+        "start" : 1636106030422,
+        "stop" : 1636106034610,
+        "duration" : 4188
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "'If you have any suggestions, such as the website and service, contact us by email.'", "'suggestion'" ]
+      "parameters" : [ "1" ]
     }, {
-      "name" : "简介栏内容测试",
-      "uid" : "eae41b2bce1471f3",
-      "parentUid" : "9fffba4117a3e30f55d4298884365b23",
+      "name" : "热门文章链接测试",
+      "uid" : "8020d0d09261f4e6",
+      "parentUid" : "73e954ead1c0fe78de8f4e51c8e54496",
       "status" : "passed",
       "time" : {
-        "start" : 1635931835754,
-        "stop" : 1635931835779,
-        "duration" : 25
+        "start" : 1636106034713,
+        "stop" : 1636106035658,
+        "duration" : 945
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "'If you prepare to purchase or had bought products from iMyMac, please feel free to contact us by email with any questions.'", "'question'" ]
+      "parameters" : [ "5" ]
+    }, {
+      "name" : "热门文章链接测试",
+      "uid" : "8f2f5fd00ea8eaef",
+      "parentUid" : "73e954ead1c0fe78de8f4e51c8e54496",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106034770,
+        "stop" : 1636106036206,
+        "duration" : 1436
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "4" ]
+    }, {
+      "name" : "热门文章链接测试",
+      "uid" : "88acc122add667e1",
+      "parentUid" : "73e954ead1c0fe78de8f4e51c8e54496",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106035094,
+        "stop" : 1636106035945,
+        "duration" : 851
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "7" ]
+    }, {
+      "name" : "热门文章链接测试",
+      "uid" : "c2884a4ca38890c2",
+      "parentUid" : "73e954ead1c0fe78de8f4e51c8e54496",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106035832,
+        "stop" : 1636106036839,
+        "duration" : 1007
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "9" ]
+    }, {
+      "name" : "热门文章链接测试",
+      "uid" : "b6d7c9e169ecd318",
+      "parentUid" : "73e954ead1c0fe78de8f4e51c8e54496",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106036096,
+        "stop" : 1636106037003,
+        "duration" : 907
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "11" ]
+    }, {
+      "name" : "热门文章链接测试",
+      "uid" : "756e26e87e1a2da3",
+      "parentUid" : "73e954ead1c0fe78de8f4e51c8e54496",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106036451,
+        "stop" : 1636106037418,
+        "duration" : 967
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "8" ]
+    }, {
+      "name" : "热门文章链接测试",
+      "uid" : "2b519852c4811341",
+      "parentUid" : "73e954ead1c0fe78de8f4e51c8e54496",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106036990,
+        "stop" : 1636106038313,
+        "duration" : 1323
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "10" ]
+    }, {
+      "name" : "热门文章链接测试",
+      "uid" : "f5b5914f0882a181",
+      "parentUid" : "73e954ead1c0fe78de8f4e51c8e54496",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106037259,
+        "stop" : 1636106039451,
+        "duration" : 2192
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "12" ]
+    }, {
+      "name" : "热门文章链接测试",
+      "uid" : "4c5efe18e031cacf",
+      "parentUid" : "73e954ead1c0fe78de8f4e51c8e54496",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106037565,
+        "stop" : 1636106039219,
+        "duration" : 1654
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "13" ]
+    }, {
+      "name" : "热门文章链接测试",
+      "uid" : "c98bfe3763ebe6ff",
+      "parentUid" : "73e954ead1c0fe78de8f4e51c8e54496",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106039498,
+        "stop" : 1636106040211,
+        "duration" : 713
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "16" ]
+    }, {
+      "name" : "热门文章链接测试",
+      "uid" : "fdf062181bcc3132",
+      "parentUid" : "73e954ead1c0fe78de8f4e51c8e54496",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106039632,
+        "stop" : 1636106040888,
+        "duration" : 1256
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "15" ]
+    }, {
+      "name" : "热门文章链接测试",
+      "uid" : "d2b859f16929c098",
+      "parentUid" : "73e954ead1c0fe78de8f4e51c8e54496",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106040337,
+        "stop" : 1636106041362,
+        "duration" : 1025
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "18" ]
+    }, {
+      "name" : "热门文章链接测试",
+      "uid" : "3805505589785a1",
+      "parentUid" : "73e954ead1c0fe78de8f4e51c8e54496",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106040971,
+        "stop" : 1636106042117,
+        "duration" : 1146
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "19" ]
+    }, {
+      "name" : "热门文章链接测试",
+      "uid" : "2b43d5b978c0c4cf",
+      "parentUid" : "73e954ead1c0fe78de8f4e51c8e54496",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106041476,
+        "stop" : 1636106042122,
+        "duration" : 646
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "20" ]
+    }, {
+      "name" : "热门文章链接测试",
+      "uid" : "391407be9b25ec13",
+      "parentUid" : "73e954ead1c0fe78de8f4e51c8e54496",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636106042005,
+        "stop" : 1636106042523,
+        "duration" : 518
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2" ]
+    }, {
+      "name" : "热门文章链接测试",
+      "uid" : "6f9cd434e37e9db7",
+      "parentUid" : "73e954ead1c0fe78de8f4e51c8e54496",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106042268,
+        "stop" : 1636106043203,
+        "duration" : 935
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "21" ]
+    }, {
+      "name" : "热门文章链接测试",
+      "uid" : "f689105dc2afa08",
+      "parentUid" : "73e954ead1c0fe78de8f4e51c8e54496",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106043168,
+        "stop" : 1636106044006,
+        "duration" : 838
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "6" ]
+    }, {
+      "name" : "热门文章链接测试",
+      "uid" : "4c1e70ca4d6cec29",
+      "parentUid" : "73e954ead1c0fe78de8f4e51c8e54496",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106043373,
+        "stop" : 1636106044079,
+        "duration" : 706
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "23" ]
+    }, {
+      "name" : "热门文章链接测试",
+      "uid" : "a775bf065014c58f",
+      "parentUid" : "73e954ead1c0fe78de8f4e51c8e54496",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106044109,
+        "stop" : 1636106044769,
+        "duration" : 660
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "25" ]
+    }, {
+      "name" : "热门文章链接测试",
+      "uid" : "28bca016a9d4ef2d",
+      "parentUid" : "73e954ead1c0fe78de8f4e51c8e54496",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106044191,
+        "stop" : 1636106044836,
+        "duration" : 645
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "26" ]
+    }, {
+      "name" : "热门文章链接测试",
+      "uid" : "156996de1eed29a9",
+      "parentUid" : "73e954ead1c0fe78de8f4e51c8e54496",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106044868,
+        "stop" : 1636106045507,
+        "duration" : 639
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "27" ]
+    }, {
+      "name" : "热门文章链接测试",
+      "uid" : "d4a07320ea91ed9d",
+      "parentUid" : "73e954ead1c0fe78de8f4e51c8e54496",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106044945,
+        "stop" : 1636106046737,
+        "duration" : 1792
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "28" ]
+    }, {
+      "name" : "热门文章链接测试",
+      "uid" : "ba34f5b88d57bb3d",
+      "parentUid" : "73e954ead1c0fe78de8f4e51c8e54496",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106045587,
+        "stop" : 1636106046834,
+        "duration" : 1247
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "29" ]
+    }, {
+      "name" : "热门文章链接测试",
+      "uid" : "efc25ef9889340a1",
+      "parentUid" : "73e954ead1c0fe78de8f4e51c8e54496",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106046823,
+        "stop" : 1636106047738,
+        "duration" : 915
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "30" ]
+    }, {
+      "name" : "热门文章链接测试",
+      "uid" : "1ccdde261aebf890",
+      "parentUid" : "73e954ead1c0fe78de8f4e51c8e54496",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106046949,
+        "stop" : 1636106048429,
+        "duration" : 1480
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "31" ]
+    }, {
+      "name" : "热门文章链接测试",
+      "uid" : "96bdfbb5cef5515",
+      "parentUid" : "73e954ead1c0fe78de8f4e51c8e54496",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106047817,
+        "stop" : 1636106048896,
+        "duration" : 1079
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "32" ]
+    }, {
+      "name" : "热门文章链接测试",
+      "uid" : "99045937137b6bd1",
+      "parentUid" : "73e954ead1c0fe78de8f4e51c8e54496",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106048501,
+        "stop" : 1636106049129,
+        "duration" : 628
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "33" ]
+    }, {
+      "name" : "热门文章链接测试",
+      "uid" : "1df6c92e77e6d046",
+      "parentUid" : "73e954ead1c0fe78de8f4e51c8e54496",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636106049238,
+        "stop" : 1636106049906,
+        "duration" : 668
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "22" ]
+    }, {
+      "name" : "热门文章链接测试",
+      "uid" : "cc5fc5a6f469c2f9",
+      "parentUid" : "73e954ead1c0fe78de8f4e51c8e54496",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106049278,
+        "stop" : 1636106050447,
+        "duration" : 1169
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "35" ]
+    }, {
+      "name" : "热门文章链接测试",
+      "uid" : "29eb8e6697d85985",
+      "parentUid" : "73e954ead1c0fe78de8f4e51c8e54496",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636106050324,
+        "stop" : 1636106051014,
+        "duration" : 690
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "24" ]
+    }, {
+      "name" : "热门文章链接测试",
+      "uid" : "6ba19c00d0caa6dc",
+      "parentUid" : "73e954ead1c0fe78de8f4e51c8e54496",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636106057746,
+        "stop" : 1636106057746,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "34" ]
+    }, {
+      "name" : "热门文章链接测试",
+      "uid" : "1f761095a02731bc",
+      "parentUid" : "73e954ead1c0fe78de8f4e51c8e54496",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636106104235,
+        "stop" : 1636106105830,
+        "duration" : 1595
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "14" ]
+    }, {
+      "name" : "热门文章链接测试",
+      "uid" : "4daacae5b6870fb9",
+      "parentUid" : "73e954ead1c0fe78de8f4e51c8e54496",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636106114768,
+        "stop" : 1636106114768,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "17" ]
     } ],
-    "uid" : "TestCase.contact_test_case.test_contact"
+    "uid" : "TestCase.sitemap_test_case.test_sitemap"
   } ]
 }

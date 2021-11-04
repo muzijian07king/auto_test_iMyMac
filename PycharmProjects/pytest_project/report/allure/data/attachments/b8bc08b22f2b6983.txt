@@ -1,2 +1,0 @@
-[32mINFO    [0m root:basepage.py:33 打开网页https://www.imymac.com/contact/
-[32mINFO    [0m root:basepage.py:95 获取到文本：If you have any suggestions, such as the website and service, contact us by email.
