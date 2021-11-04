@@ -1,0 +1,1637 @@
+INFO	2021-10-09 11:14:31,269	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>div>div:nth-child(1)>div>div>div>a:nth-child(1)')
+INFO	2021-10-09 11:15:38,252	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>div>div:nth-child(1)>div>div>div>a:nth-child(2)')
+INFO	2021-10-09 11:17:33,825	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>a:nth-child(3)')
+INFO	2021-10-09 11:17:35,989	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>div>div:nth-child(2)>div>div>div>a:nth-child(1)')
+INFO	2021-10-09 13:45:06,560	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 13:45:07,119	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 13:45:07,192	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>a:nth-child(3)')
+INFO	2021-10-09 13:45:07,220	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 13:45:07,300	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>a:nth-child(3)')
+INFO	2021-10-09 13:45:07,404	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 13:45:07,480	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>a:nth-child(2)')
+INFO	2021-10-09 13:45:09,439	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 13:45:10,777	[basepage.py:88]	点击元素：('link', 'System Junk')
+INFO	2021-10-09 13:45:11,885	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 13:45:12,019	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 13:45:12,220	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 13:45:12,428	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 13:45:12,724	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>a:nth-child(3)')
+INFO	2021-10-09 13:45:14,288	[basepage.py:88]	点击元素：('link', 'Duplicate Finder')
+INFO	2021-10-09 13:45:14,875	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 13:45:14,929	[basepage.py:88]	点击元素：('link', 'Similar Photo')
+INFO	2021-10-09 13:45:15,735	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 13:45:15,813	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 13:45:16,563	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 13:45:16,590	[basepage.py:88]	点击元素：('link', 'iTunes Junk')
+INFO	2021-10-09 13:45:17,339	[basepage.py:88]	点击元素：('link', 'App Uninstaller')
+INFO	2021-10-09 13:45:17,379	[basepage.py:88]	点击元素：('link', 'Email Junk')
+INFO	2021-10-09 13:45:17,388	[basepage.py:88]	点击元素：('link', 'Large & Old Files')
+INFO	2021-10-09 13:45:17,843	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 13:45:18,660	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 13:45:18,730	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 13:45:19,048	[basepage.py:88]	点击元素：('link', 'Trash Bins')
+INFO	2021-10-09 13:45:19,245	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 13:45:19,647	[basepage.py:88]	点击元素：('link', 'Privacy Protection')
+INFO	2021-10-09 13:45:20,379	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 13:45:20,460	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 13:45:20,506	[basepage.py:88]	点击元素：('link', 'PDF Compressor')
+INFO	2021-10-09 13:45:21,047	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 13:45:22,182	[basepage.py:88]	点击元素：('link', 'More Guides')
+INFO	2021-10-09 14:09:55,235	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:09:55,285	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>a:nth-child(3)')
+INFO	2021-10-09 14:09:55,917	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:09:55,983	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>a:nth-child(3)')
+INFO	2021-10-09 14:09:56,137	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:09:56,201	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>a:nth-child(2)')
+INFO	2021-10-09 14:09:56,598	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:09:56,659	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>a:nth-child(3)')
+INFO	2021-10-09 14:09:56,925	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:09:57,511	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:09:58,300	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>div>div:nth-child(1)>div>div>div>a:nth-child(1)')
+INFO	2021-10-09 14:09:58,405	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>div>div:nth-child(2)>div>div>div>a:nth-child(1)')
+INFO	2021-10-09 14:09:58,603	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>div>div:nth-child(1)>div>div>div>a:nth-child(2)')
+INFO	2021-10-09 14:10:00,602	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:10:01,048	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:10:08,273	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:11:55,451	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:11:55,727	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:11:55,746	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:11:55,796	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>a:nth-child(3)')
+INFO	2021-10-09 14:11:55,818	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>a:nth-child(2)')
+INFO	2021-10-09 14:11:56,232	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>div>div:nth-child(1)>div>div>div>a:nth-child(1)')
+INFO	2021-10-09 14:11:57,376	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:11:57,998	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:11:58,127	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>div>div:nth-child(2)>div>div>div>a:nth-child(1)')
+INFO	2021-10-09 14:11:59,534	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:11:59,683	[basepage.py:88]	点击元素：('link', 'System Junk')
+INFO	2021-10-09 14:12:00,145	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>div>div:nth-child(1)>div>div>div>a:nth-child(2)')
+INFO	2021-10-09 14:12:01,025	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:12:01,397	[basepage.py:88]	点击元素：('link', 'Duplicate Finder')
+INFO	2021-10-09 14:12:01,464	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:12:02,160	[basepage.py:88]	点击元素：('link', 'App Uninstaller')
+INFO	2021-10-09 14:12:02,214	[basepage.py:88]	点击元素：('link', 'Similar Photo')
+INFO	2021-10-09 14:12:02,544	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:12:03,303	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:12:03,396	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:12:03,468	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:12:03,681	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>a:nth-child(3)')
+INFO	2021-10-09 14:12:04,199	[basepage.py:88]	点击元素：('link', 'iTunes Junk')
+INFO	2021-10-09 14:12:04,482	[basepage.py:88]	点击元素：('link', 'Email Junk')
+INFO	2021-10-09 14:12:04,866	[basepage.py:88]	点击元素：('link', 'Large & Old Files')
+INFO	2021-10-09 14:12:05,386	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:12:05,686	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:12:06,280	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:12:07,867	[basepage.py:88]	点击元素：('link', 'Privacy Protection')
+INFO	2021-10-09 14:12:08,007	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:12:09,245	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:12:11,776	[basepage.py:88]	点击元素：('link', 'More Guides')
+INFO	2021-10-09 14:12:12,831	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:12:13,212	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>a:nth-child(3)')
+INFO	2021-10-09 14:12:14,359	[basepage.py:88]	点击元素：('link', 'Trash Bins')
+INFO	2021-10-09 14:12:15,849	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:12:16,362	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:12:21,697	[basepage.py:88]	点击元素：('link', 'PDF Compressor')
+INFO	2021-10-09 14:29:00,093	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:29:00,620	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:29:00,680	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>a:nth-child(2)')
+INFO	2021-10-09 14:29:00,778	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:29:00,865	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>a:nth-child(3)')
+INFO	2021-10-09 14:29:00,912	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>div>div:nth-child(1)>div>div>div>a:nth-child(1)')
+INFO	2021-10-09 14:29:01,452	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:29:01,519	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>a:nth-child(3)')
+INFO	2021-10-09 14:29:02,088	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:29:02,330	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:29:02,429	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:29:02,431	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>a:nth-child(3)')
+INFO	2021-10-09 14:29:03,635	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>div>div:nth-child(1)>div>div>div>a:nth-child(2)')
+INFO	2021-10-09 14:29:04,851	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>div>div:nth-child(2)>div>div>div>a:nth-child(1)')
+INFO	2021-10-09 14:29:05,142	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:29:05,305	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>div>div:nth-child(2)>div>div>div>a:nth-child(1)')
+INFO	2021-10-09 14:29:06,423	[basepage.py:88]	点击元素：('link', 'System Junk')
+INFO	2021-10-09 14:29:07,027	[basepage.py:88]	点击元素：('link', 'Similar Photo')
+INFO	2021-10-09 14:29:07,137	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:29:07,847	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:29:08,452	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:29:08,940	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:29:09,778	[basepage.py:88]	点击元素：('link', 'Large & Old Files')
+INFO	2021-10-09 14:29:10,211	[basepage.py:88]	点击元素：('link', 'Duplicate Finder')
+INFO	2021-10-09 14:29:11,060	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:29:11,109	[basepage.py:88]	点击元素：('link', 'iTunes Junk')
+INFO	2021-10-09 14:29:11,413	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:29:11,858	[basepage.py:88]	点击元素：('link', 'App Uninstaller')
+INFO	2021-10-09 14:29:12,165	[basepage.py:88]	点击元素：('link', 'Trash Bins')
+INFO	2021-10-09 14:29:12,310	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:29:12,433	[basepage.py:88]	点击元素：('link', 'Email Junk')
+INFO	2021-10-09 14:29:13,044	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:29:13,427	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:29:13,429	[basepage.py:88]	点击元素：('css', 'body>div:nth-child(5)>div>div:nth-child(5)>div:nth-child(2)>a')
+INFO	2021-10-09 14:29:13,719	[basepage.py:88]	点击元素：('link', 'Privacy Protection')
+INFO	2021-10-09 14:29:13,758	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:29:14,290	[basepage.py:88]	点击元素：('link', 'PDF Compressor')
+INFO	2021-10-09 14:29:14,697	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:29:15,069	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:29:16,369	[basepage.py:88]	点击元素：('link', 'More Guides')
+INFO	2021-10-09 14:38:07,824	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:38:07,881	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>a:nth-child(3)')
+INFO	2021-10-09 14:38:08,116	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:38:08,201	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:38:08,204	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>a:nth-child(2)')
+INFO	2021-10-09 14:38:08,263	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>a:nth-child(3)')
+INFO	2021-10-09 14:38:09,508	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:38:09,596	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:38:09,639	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>a:nth-child(3)')
+INFO	2021-10-09 14:38:11,306	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>div>div:nth-child(2)>div>div>div>a:nth-child(1)')
+INFO	2021-10-09 14:38:11,438	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>div>div:nth-child(1)>div>div>div>a:nth-child(2)')
+INFO	2021-10-09 14:38:11,549	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>div>div:nth-child(2)>div>div>div>a:nth-child(2)')
+INFO	2021-10-09 14:38:12,830	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:38:12,879	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:38:13,020	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:38:14,453	[basepage.py:88]	点击元素：('link', 'App Uninstaller')
+INFO	2021-10-09 14:38:14,838	[basepage.py:88]	点击元素：('link', 'Similar Photo')
+INFO	2021-10-09 14:38:15,590	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:38:16,050	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:38:16,471	[basepage.py:88]	点击元素：('link', 'Email Junk')
+INFO	2021-10-09 14:38:17,585	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:38:18,219	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:38:18,319	[basepage.py:88]	点击元素：('link', 'iTunes Junk')
+INFO	2021-10-09 14:38:18,510	[basepage.py:88]	点击元素：('link', 'Trash Bins')
+INFO	2021-10-09 14:38:19,540	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:38:19,639	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>div>div:nth-child(1)>div>div>div>a:nth-child(1)')
+INFO	2021-10-09 14:38:19,980	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:38:20,574	[basepage.py:88]	点击元素：('css', 'body>div:nth-child(5)>div>div:nth-child(5)>div:nth-child(2)>a')
+INFO	2021-10-09 14:38:20,978	[basepage.py:88]	点击元素：('link', 'Privacy Protection')
+INFO	2021-10-09 14:38:21,744	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:38:22,061	[basepage.py:88]	点击元素：('link', 'Duplicate Finder')
+INFO	2021-10-09 14:38:22,375	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:38:23,511	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:38:23,839	[basepage.py:88]	点击元素：('link', 'More Guides')
+INFO	2021-10-09 14:38:24,315	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:38:24,733	[basepage.py:88]	点击元素：('link', 'PDF Compressor')
+INFO	2021-10-09 14:38:25,095	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:38:25,440	[basepage.py:88]	点击元素：('css', '#users-media>a:nth-child(3)')
+INFO	2021-10-09 14:38:44,847	[basepage.py:88]	点击元素：('link', 'Large & Old Files')
+INFO	2021-10-09 14:38:50,896	[basepage.py:88]	点击元素：('link', 'System Junk')
+INFO	2021-10-09 14:38:52,123	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:38:52,279	[basepage.py:88]	点击元素：('css', '#users-media>a:nth-child(2)')
+INFO	2021-10-09 14:40:18,984	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:40:19,275	[basepage.py:88]	点击元素：('css', '#users-media>a:nth-child(2)')
+INFO	2021-10-09 14:40:56,180	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 14:40:56,472	[basepage.py:88]	点击元素：('css', '#users-media>a:nth-child(2)')
+INFO	2021-10-09 15:46:38,426	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:46:38,506	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>a:nth-child(3)')
+INFO	2021-10-09 15:46:38,625	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:46:38,731	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:46:38,790	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>a:nth-child(2)')
+INFO	2021-10-09 15:46:39,407	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>div>div:nth-child(1)>div>div>div>a:nth-child(1)')
+INFO	2021-10-09 15:46:40,132	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:46:40,167	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:46:40,204	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>a:nth-child(3)')
+INFO	2021-10-09 15:46:40,809	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:46:40,869	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>div>div:nth-child(2)>div>div>div>a:nth-child(1)')
+INFO	2021-10-09 15:46:41,611	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>div>div:nth-child(1)>div>div>div>a:nth-child(2)')
+INFO	2021-10-09 15:46:42,628	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:46:43,595	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:46:44,419	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:46:44,633	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>a:nth-child(3)')
+INFO	2021-10-09 15:46:44,782	[basepage.py:88]	点击元素：('link', 'Duplicate Finder')
+INFO	2021-10-09 15:46:45,440	[basepage.py:88]	点击元素：('link', 'Similar Photo')
+INFO	2021-10-09 15:46:46,242	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:46:46,699	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:46:47,947	[basepage.py:88]	点击元素：('link', 'iTunes Junk')
+INFO	2021-10-09 15:46:48,218	[basepage.py:88]	点击元素：('link', 'Email Junk')
+INFO	2021-10-09 15:46:49,086	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:46:49,536	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:46:49,847	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>div>div:nth-child(2)>div>div>div>a:nth-child(2)')
+INFO	2021-10-09 15:46:49,930	[basepage.py:88]	点击元素：('link', 'Trash Bins')
+INFO	2021-10-09 15:46:50,116	[basepage.py:88]	点击元素：('link', 'System Junk')
+INFO	2021-10-09 15:46:50,413	[basepage.py:88]	点击元素：('link', 'Privacy Protection')
+INFO	2021-10-09 15:46:51,079	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:46:51,146	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:46:51,768	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:46:51,847	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:46:52,543	[basepage.py:88]	点击元素：('css', 'body>div:nth-child(5)>div>div:nth-child(5)>div:nth-child(2)>a')
+INFO	2021-10-09 15:46:53,204	[basepage.py:88]	点击元素：('link', 'PDF Compressor')
+INFO	2021-10-09 15:46:53,776	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:46:53,967	[basepage.py:88]	点击元素：('id', 'top-btn')
+INFO	2021-10-09 15:46:54,456	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:46:55,804	[basepage.py:88]	点击元素：('link', 'App Uninstaller')
+INFO	2021-10-09 15:46:56,913	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:46:57,088	[basepage.py:88]	点击元素：('css', '#users-media>a:nth-child(3)')
+INFO	2021-10-09 15:46:58,434	[basepage.py:88]	点击元素：('link', 'Large & Old Files')
+INFO	2021-10-09 15:46:59,590	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:47:02,431	[basepage.py:88]	点击元素：('link', 'More Guides')
+INFO	2021-10-09 15:52:55,773	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:52:55,887	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>a:nth-child(3)')
+INFO	2021-10-09 15:52:55,921	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:52:56,021	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>a:nth-child(2)')
+INFO	2021-10-09 15:52:56,024	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:52:56,079	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:52:56,152	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>a:nth-child(3)')
+INFO	2021-10-09 15:52:56,846	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>div>div:nth-child(1)>div>div>div>a:nth-child(1)')
+INFO	2021-10-09 15:52:57,333	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:52:57,481	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:52:57,590	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>a:nth-child(3)')
+INFO	2021-10-09 15:52:58,415	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>div>div:nth-child(1)>div>div>div>a:nth-child(2)')
+INFO	2021-10-09 15:52:58,485	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:52:59,320	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>div>div:nth-child(2)>div>div>div>a:nth-child(1)')
+INFO	2021-10-09 15:53:00,094	[basepage.py:88]	点击元素：('link', 'System Junk')
+INFO	2021-10-09 15:53:00,252	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:53:00,822	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>div>div:nth-child(2)>div>div>div>a:nth-child(2)')
+INFO	2021-10-09 15:53:00,876	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:53:01,447	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:53:02,270	[basepage.py:88]	点击元素：('link', 'Duplicate Finder')
+INFO	2021-10-09 15:53:02,442	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:53:02,644	[basepage.py:88]	点击元素：('link', 'Large & Old Files')
+INFO	2021-10-09 15:53:02,832	[basepage.py:88]	点击元素：('link', 'Similar Photo')
+INFO	2021-10-09 15:53:03,478	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:53:03,696	[basepage.py:88]	点击元素：('link', 'App Uninstaller')
+INFO	2021-10-09 15:53:03,826	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:53:04,195	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:53:04,374	[basepage.py:88]	点击元素：('link', 'Email Junk')
+INFO	2021-10-09 15:53:04,971	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:53:05,509	[basepage.py:88]	点击元素：('link', 'iTunes Junk')
+INFO	2021-10-09 15:53:05,590	[basepage.py:88]	点击元素：('link', 'Trash Bins')
+INFO	2021-10-09 15:53:05,626	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:53:05,906	[basepage.py:88]	点击元素：('link', 'Privacy Protection')
+INFO	2021-10-09 15:53:06,253	[basepage.py:88]	点击元素：('css', 'body>div:nth-child(5)>div>div:nth-child(5)>div:nth-child(2)>a')
+INFO	2021-10-09 15:53:06,680	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:53:06,894	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:53:07,644	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:53:07,904	[basepage.py:88]	点击元素：('css', '#users-media>a:nth-child(3)')
+INFO	2021-10-09 15:53:08,279	[basepage.py:88]	点击元素：('link', 'PDF Compressor')
+INFO	2021-10-09 15:53:08,829	[basepage.py:88]	点击元素：('link', 'More Guides')
+INFO	2021-10-09 15:53:09,437	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:53:09,562	[basepage.py:88]	点击元素：('id', 'top-btn')
+INFO	2021-10-09 15:53:09,951	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:12,222	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:12,274	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>a:nth-child(3)')
+INFO	2021-10-09 15:54:13,264	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:13,556	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:13,596	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:13,622	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>a:nth-child(3)')
+INFO	2021-10-09 15:54:13,660	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>a:nth-child(2)')
+INFO	2021-10-09 15:54:14,116	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>div>div:nth-child(1)>div>div>div>a:nth-child(1)')
+INFO	2021-10-09 15:54:14,294	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:14,341	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>a:nth-child(3)')
+INFO	2021-10-09 15:54:15,008	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:15,876	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:16,194	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>div>div:nth-child(2)>div>div>div>a:nth-child(1)')
+INFO	2021-10-09 15:54:17,719	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:18,768	[basepage.py:88]	点击元素：('link', 'System Junk')
+INFO	2021-10-09 15:54:19,265	[basepage.py:88]	点击元素：('link', 'Duplicate Finder')
+INFO	2021-10-09 15:54:19,367	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>div>div:nth-child(1)>div>div>div>a:nth-child(2)')
+INFO	2021-10-09 15:54:20,022	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:20,630	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:20,785	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:21,505	[basepage.py:88]	点击元素：('link', 'Large & Old Files')
+INFO	2021-10-09 15:54:22,034	[basepage.py:88]	点击元素：('link', 'Similar Photo')
+INFO	2021-10-09 15:54:22,085	[basepage.py:88]	点击元素：('link', 'iTunes Junk')
+INFO	2021-10-09 15:54:22,728	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:23,290	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:23,484	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:23,806	[basepage.py:88]	点击元素：('link', 'Privacy Protection')
+INFO	2021-10-09 15:54:24,574	[basepage.py:88]	点击元素：('css', 'body>div:nth-child(5)>div>div:nth-child(5)>div:nth-child(2)>a')
+INFO	2021-10-09 15:54:24,857	[basepage.py:88]	点击元素：('link', 'Email Junk')
+INFO	2021-10-09 15:54:25,032	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:25,225	[basepage.py:88]	点击元素：('css', '#users-media>a:nth-child(3)')
+INFO	2021-10-09 15:54:25,265	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>div>div:nth-child(2)>div>div>div>a:nth-child(2)')
+INFO	2021-10-09 15:54:25,772	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:26,252	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:26,989	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:27,257	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(3)')
+INFO	2021-10-09 15:54:27,336	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:27,945	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:28,059	[basepage.py:88]	点击元素：('id', 'top-btn')
+INFO	2021-10-09 15:54:28,653	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:29,160	[basepage.py:88]	点击元素：('link', 'PDF Compressor')
+INFO	2021-10-09 15:54:29,529	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:29,633	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(4)')
+INFO	2021-10-09 15:54:30,277	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(1)')
+INFO	2021-10-09 15:54:30,356	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:30,774	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:31,598	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:31,749	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(5)')
+INFO	2021-10-09 15:54:31,796	[basepage.py:88]	点击元素：('link', 'App Uninstaller')
+INFO	2021-10-09 15:54:32,292	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(2)')
+INFO	2021-10-09 15:54:32,486	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(2)')
+INFO	2021-10-09 15:54:32,900	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:33,066	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:33,665	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:33,899	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:33,935	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(6)')
+INFO	2021-10-09 15:54:34,768	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w140>div>a:nth-child(1)')
+INFO	2021-10-09 15:54:35,130	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(3)')
+INFO	2021-10-09 15:54:35,169	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:36,016	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:36,421	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:36,779	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w140>div>a:nth-child(2)')
+INFO	2021-10-09 15:54:36,854	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(1)')
+INFO	2021-10-09 15:54:37,318	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(4)')
+INFO	2021-10-09 15:54:38,023	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:38,101	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:38,818	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w140>div>a:nth-child(3)')
+INFO	2021-10-09 15:54:38,832	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:38,856	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w140>div>a:nth-child(5)')
+INFO	2021-10-09 15:54:40,023	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:40,151	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(5)')
+INFO	2021-10-09 15:54:40,166	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:40,892	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w140>div>a:nth-child(4)')
+INFO	2021-10-09 15:54:41,368	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:42,085	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:42,138	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>a:nth-child(1)')
+INFO	2021-10-09 15:54:42,242	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 15:54:42,833	[basepage.py:88]	点击元素：('link', 'Trash Bins')
+INFO	2021-10-09 15:54:43,809	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:44,389	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:45,320	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>a:nth-child(3)')
+INFO	2021-10-09 15:54:45,864	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>a:nth-child(2)')
+INFO	2021-10-09 15:54:45,909	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(3)>a')
+INFO	2021-10-09 15:54:47,461	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:47,959	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 15:54:48,094	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:48,398	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:48,445	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 15:54:48,680	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 15:54:49,831	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(1)>a')
+INFO	2021-10-09 15:54:51,261	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:51,441	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 15:54:51,948	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(6)>a')
+INFO	2021-10-09 15:54:53,119	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(4)>a')
+INFO	2021-10-09 15:54:53,434	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:53,684	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 15:54:54,585	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(2)>a')
+INFO	2021-10-09 15:54:55,188	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:55,468	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(7)>a')
+INFO	2021-10-09 15:54:55,471	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 15:54:56,581	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:56,840	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:54:57,102	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 15:54:57,159	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 15:54:58,354	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(5)>a')
+INFO	2021-10-09 15:54:58,722	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(10)>a')
+INFO	2021-10-09 15:54:58,759	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(12)>a')
+INFO	2021-10-09 15:55:00,028	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:55:00,139	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:55:00,159	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:55:00,424	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 15:55:00,445	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 15:55:00,535	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 15:55:02,110	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(11)>a')
+INFO	2021-10-09 15:55:02,163	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(13)>a')
+INFO	2021-10-09 15:55:02,353	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(14)>a')
+INFO	2021-10-09 15:55:03,514	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:55:03,576	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:55:03,760	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:55:03,944	[basepage.py:80]	输入文本：
+INFO	2021-10-09 15:55:03,985	[basepage.py:80]	输入文本：123.com
+INFO	2021-10-09 15:55:04,106	[basepage.py:80]	输入文本：123@qq.com
+INFO	2021-10-09 15:55:04,280	[basepage.py:88]	点击元素：('id', 'footerSubscribeBTN')
+INFO	2021-10-09 15:55:04,332	[basepage.py:88]	点击元素：('id', 'footerSubscribeBTN')
+INFO	2021-10-09 15:55:04,580	[basepage.py:88]	点击元素：('id', 'footerSubscribeBTN')
+INFO	2021-10-09 15:55:05,333	[basepage.py:94]	获取到文本：Please Enter the Email!
+INFO	2021-10-09 15:55:05,426	[basepage.py:94]	获取到文本：Email Format Error!
+INFO	2021-10-09 15:55:05,628	[basepage.py:94]	获取到文本：Successfully
+INFO	2021-10-09 15:55:05,666	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:55:05,775	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:55:06,081	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:55:06,749	[basepage.py:88]	点击元素：('css', 'body>nav>div>div.navbar-header>a')
+INFO	2021-10-09 15:55:06,850	[basepage.py:88]	点击元素：('link', 'Video Converter')
+INFO	2021-10-09 15:55:06,906	[basepage.py:88]	点击元素：('link', 'PowerMyMac')
+INFO	2021-10-09 15:55:07,272	[basepage.py:88]	点击元素：('link', 'More Guides')
+INFO	2021-10-09 15:55:07,750	[test_head.py:28]	点击链接index
+INFO	2021-10-09 15:55:07,858	[test_head.py:28]	点击链接Video-Converter
+INFO	2021-10-09 15:55:07,923	[test_head.py:28]	点击链接PowerMyMac
+INFO	2021-10-09 15:55:08,230	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:55:08,249	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:55:08,259	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:55:09,372	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:55:09,388	[basepage.py:88]	点击元素：('link', 'Support')
+INFO	2021-10-09 15:55:09,398	[basepage.py:88]	点击元素：('link', 'Free PDF Compressor')
+INFO	2021-10-09 15:55:09,621	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 15:55:10,362	[basepage.py:88]	点击元素：('link', 'Store')
+INFO	2021-10-09 15:55:10,393	[test_head.py:28]	点击链接Support
+INFO	2021-10-09 15:55:10,409	[test_head.py:28]	点击链接PDF-Compressor
+INFO	2021-10-09 15:55:10,783	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:55:10,784	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:55:11,036	[basepage.py:100]	鼠标悬停在('link', 'PowerMyMac')
+INFO	2021-10-09 15:55:11,069	[basepage.py:100]	鼠标悬停在('link', 'PowerMyMac')
+INFO	2021-10-09 15:55:11,374	[test_head.py:28]	点击链接Store
+INFO	2021-10-09 15:55:11,391	[test_head.py:39]	点击PowerMyMac下拉框
+INFO	2021-10-09 15:55:11,676	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:55:11,859	[basepage.py:88]	点击元素：('link', 'Duplicate Finder')
+INFO	2021-10-09 15:55:11,917	[basepage.py:100]	鼠标悬停在('link', 'PowerMyMac')
+INFO	2021-10-09 15:55:12,234	[test_head.py:39]	点击PowerMyMac下拉框
+INFO	2021-10-09 15:55:12,563	[basepage.py:88]	点击元素：('link', 'Browser Cleanup')
+INFO	2021-10-09 15:55:12,574	[basepage.py:88]	点击元素：('link', 'Mac Cleaner')
+INFO	2021-10-09 15:55:12,866	[test_head.py:41]	点击链接Duplicate-Finder
+INFO	2021-10-09 15:55:12,996	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:55:13,107	[basepage.py:100]	鼠标悬停在('link', 'PowerMyMac')
+INFO	2021-10-09 15:55:13,401	[test_head.py:39]	点击PowerMyMac下拉框
+INFO	2021-10-09 15:55:13,566	[test_head.py:41]	点击链接Browser-Cleanup
+INFO	2021-10-09 15:55:13,581	[test_head.py:41]	点击链接Mac-Cleaner
+INFO	2021-10-09 15:55:13,958	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:55:13,969	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:55:14,117	[basepage.py:88]	点击元素：('link', 'Similar Image Finder')
+INFO	2021-10-09 15:55:14,136	[basepage.py:100]	鼠标悬停在('link', 'Online Tools')
+INFO	2021-10-09 15:55:14,173	[basepage.py:100]	鼠标悬停在('link', 'PowerMyMac')
+INFO	2021-10-09 15:55:14,223	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(8)>a')
+INFO	2021-10-09 15:55:14,408	[test_head.py:51]	点击OnlineTool下拉框
+INFO	2021-10-09 15:55:14,470	[test_head.py:39]	点击PowerMyMac下拉框
+INFO	2021-10-09 15:55:15,120	[test_head.py:41]	点击链接Similar-Image-Finder
+INFO	2021-10-09 15:55:15,491	[basepage.py:88]	点击元素：('link', 'Mac Uninstaller')
+INFO	2021-10-09 15:55:15,677	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:55:15,925	[basepage.py:88]	点击元素：('css', '#onlineLabel>ul>li:nth-child(1)>a')
+INFO	2021-10-09 15:55:15,960	[basepage.py:100]	鼠标悬停在('link', 'Online Tools')
+INFO	2021-10-09 15:55:16,271	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:55:16,273	[test_head.py:51]	点击OnlineTool下拉框
+INFO	2021-10-09 15:55:16,483	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 15:55:16,497	[test_head.py:41]	点击链接Mac-Uninstaller
+INFO	2021-10-09 15:55:16,932	[test_head.py:53]	点击链接online-Video-Converter
+INFO	2021-10-09 15:55:17,184	[basepage.py:88]	点击元素：('css', '#onlineLabel>ul>li:nth-child(2)>a')
+INFO	2021-10-09 15:55:17,375	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:55:17,511	[basepage.py:100]	鼠标悬停在('link', 'Online Tools')
+INFO	2021-10-09 15:55:17,794	[test_head.py:51]	点击OnlineTool下拉框
+INFO	2021-10-09 15:55:18,070	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:55:18,197	[test_head.py:53]	点击链接online-Video-Editor
+INFO	2021-10-09 15:55:18,246	[basepage.py:100]	鼠标悬停在('link', 'Online Tools')
+INFO	2021-10-09 15:55:18,561	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(9)>a')
+INFO	2021-10-09 15:55:18,577	[test_head.py:51]	点击OnlineTool下拉框
+INFO	2021-10-09 15:55:18,703	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:55:19,084	[basepage.py:88]	点击元素：('css', '#onlineLabel>ul>li:nth-child(3)>a')
+INFO	2021-10-09 15:55:19,221	[basepage.py:88]	点击元素：('id', 'navSearchBTN')
+INFO	2021-10-09 15:55:19,912	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 15:55:20,046	[basepage.py:88]	点击元素：('id', 'navSearchBTN')
+INFO	2021-10-09 15:55:20,090	[test_head.py:53]	点击链接online-Photo-Compressor
+INFO	2021-10-09 15:55:20,227	[test_head.py:62]	点击搜索按钮
+INFO	2021-10-09 15:55:20,444	[basepage.py:80]	输入文本：Video
+INFO	2021-10-09 15:55:20,444	[test_head.py:64]	输入关键字
+INFO	2021-10-09 15:55:20,464	[basepage.py:88]	点击元素：('css', '#onlineLabel>ul>li:nth-child(4)>a')
+INFO	2021-10-09 15:55:21,052	[test_head.py:62]	点击搜索按钮
+INFO	2021-10-09 15:55:21,143	[basepage.py:80]	输入文本： 
+INFO	2021-10-09 15:55:21,143	[test_head.py:64]	输入关键字
+INFO	2021-10-09 15:55:21,474	[test_head.py:53]	点击链接online-PDF-Compressor
+INFO	2021-10-09 15:55:25,130	[basepage.py:111]	按下回车
+INFO	2021-10-09 15:55:25,130	[test_head.py:66]	按下回车
+INFO	2021-10-09 15:55:51,280	[basepage.py:111]	按下回车
+INFO	2021-10-09 15:55:51,280	[test_head.py:66]	按下回车
+INFO	2021-10-09 16:01:15,200	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:01:15,218	[basepage.py:100]	鼠标悬停在('link', 'PowerMyMac')
+INFO	2021-10-09 16:01:15,642	[test_head.py:39]	点击PowerMyMac下拉框
+INFO	2021-10-09 16:01:16,470	[basepage.py:88]	点击元素：('link', 'Mac Uninstaller')
+INFO	2021-10-09 16:01:17,485	[test_head.py:41]	点击链接Mac-Uninstaller
+INFO	2021-10-09 16:40:27,579	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:40:28,054	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:40:28,121	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:40:28,150	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>a:nth-child(2)')
+INFO	2021-10-09 16:40:28,202	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>a:nth-child(3)')
+INFO	2021-10-09 16:40:28,447	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>div>div:nth-child(1)>div>div>div>a:nth-child(1)')
+INFO	2021-10-09 16:40:28,753	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:40:28,884	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>a:nth-child(3)')
+INFO	2021-10-09 16:40:29,978	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:40:30,527	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:40:31,686	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:40:31,950	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>div>div:nth-child(2)>div>div>div>a:nth-child(1)')
+INFO	2021-10-09 16:40:33,074	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>a:nth-child(3)')
+INFO	2021-10-09 16:40:33,110	[basepage.py:88]	点击元素：('link', 'System Junk')
+INFO	2021-10-09 16:40:34,055	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:40:34,888	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:40:35,695	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>div>div:nth-child(2)>div>div>div>a:nth-child(2)')
+INFO	2021-10-09 16:40:35,944	[basepage.py:88]	点击元素：('link', 'Large & Old Files')
+INFO	2021-10-09 16:40:35,946	[basepage.py:88]	点击元素：('link', 'Duplicate Finder')
+INFO	2021-10-09 16:40:38,787	[basepage.py:88]	点击元素：('css', '#indexBannerCarousel>div>div:nth-child(1)>div>div>div>a:nth-child(2)')
+INFO	2021-10-09 16:40:39,615	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:40:39,684	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:40:40,081	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:40:41,317	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:40:41,843	[basepage.py:88]	点击元素：('link', 'Privacy Protection')
+INFO	2021-10-09 16:40:41,952	[basepage.py:88]	点击元素：('link', 'App Uninstaller')
+INFO	2021-10-09 16:40:42,118	[basepage.py:88]	点击元素：('link', 'iTunes Junk')
+INFO	2021-10-09 16:40:43,063	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:40:43,334	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:40:43,621	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:40:45,112	[basepage.py:88]	点击元素：('link', 'Trash Bins')
+INFO	2021-10-09 16:40:46,200	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(1)')
+INFO	2021-10-09 16:40:46,284	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:40:46,516	[basepage.py:88]	点击元素：('css', 'body>div:nth-child(5)>div>div:nth-child(5)>div:nth-child(2)>a')
+INFO	2021-10-09 16:40:47,492	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:40:47,791	[basepage.py:88]	点击元素：('link', 'More Guides')
+INFO	2021-10-09 16:40:47,850	[basepage.py:88]	点击元素：('link', 'Similar Photo')
+INFO	2021-10-09 16:40:47,872	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:40:48,189	[basepage.py:88]	点击元素：('css', '#users-media>a:nth-child(3)')
+INFO	2021-10-09 16:40:48,208	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(5)')
+INFO	2021-10-09 16:40:49,100	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:40:49,206	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:40:49,988	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:40:50,021	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:40:50,504	[basepage.py:88]	点击元素：('id', 'top-btn')
+INFO	2021-10-09 16:40:51,788	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(1)')
+INFO	2021-10-09 16:40:51,885	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:40:52,736	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(4)')
+INFO	2021-10-09 16:40:52,804	[basepage.py:88]	点击元素：('link', 'Email Junk')
+INFO	2021-10-09 16:40:52,962	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:40:53,594	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(2)')
+INFO	2021-10-09 16:40:53,979	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:40:54,058	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:40:54,964	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:40:54,988	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w140>div>a:nth-child(4)')
+INFO	2021-10-09 16:40:55,913	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(6)')
+INFO	2021-10-09 16:40:56,156	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:40:56,362	[basepage.py:88]	点击元素：('link', 'PDF Compressor')
+INFO	2021-10-09 16:40:56,691	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w140>div>a:nth-child(5)')
+INFO	2021-10-09 16:40:57,088	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:40:57,204	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:40:57,655	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:40:57,914	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:40:58,248	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:40:59,748	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(4)')
+INFO	2021-10-09 16:41:00,598	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(3)')
+INFO	2021-10-09 16:41:01,268	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:41:01,380	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:41:01,852	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:41:02,011	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:41:03,948	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(5)')
+INFO	2021-10-09 16:41:04,140	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(5)')
+INFO	2021-10-09 16:41:05,334	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:41:05,472	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:41:05,858	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:41:06,057	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:41:07,546	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:41:08,193	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w140>div>a:nth-child(1)')
+INFO	2021-10-09 16:41:08,228	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:41:09,620	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:41:09,764	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:41:11,342	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w140>div>a:nth-child(2)')
+INFO	2021-10-09 16:41:11,457	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(1)')
+INFO	2021-10-09 16:41:12,734	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:41:12,831	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:41:13,050	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:41:13,343	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:41:14,483	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w140>div>a:nth-child(3)')
+INFO	2021-10-09 16:41:15,857	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:41:15,983	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:41:17,563	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w140>div>a:nth-child(4)')
+INFO	2021-10-09 16:41:18,918	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:41:19,040	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:41:20,505	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w140>div>a:nth-child(5)')
+INFO	2021-10-09 16:41:21,873	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:41:22,016	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:41:26,908	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(2)')
+INFO	2021-10-09 16:41:28,164	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:41:31,459	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>a:nth-child(1)')
+INFO	2021-10-09 16:41:32,793	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:41:48,229	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(2)')
+INFO	2021-10-09 16:41:49,746	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:41:49,886	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:41:56,137	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>a:nth-child(1)')
+INFO	2021-10-09 16:41:57,696	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:41:57,828	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:42:01,990	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(3)')
+INFO	2021-10-09 16:42:03,272	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:42:04,133	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(4)')
+INFO	2021-10-09 16:42:05,299	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:42:06,023	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>a:nth-child(2)')
+INFO	2021-10-09 16:42:06,077	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(5)')
+INFO	2021-10-09 16:42:07,332	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:42:07,514	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:42:08,195	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w140>div>a:nth-child(1)')
+INFO	2021-10-09 16:42:09,348	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:42:09,990	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w140>div>a:nth-child(2)')
+INFO	2021-10-09 16:42:11,096	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:42:11,790	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w140>div>a:nth-child(3)')
+INFO	2021-10-09 16:42:12,931	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:42:13,094	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:42:15,595	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(2)>a')
+INFO	2021-10-09 16:42:16,943	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:42:17,079	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:42:20,361	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(3)>a')
+INFO	2021-10-09 16:42:21,708	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:42:21,838	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:42:24,338	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(4)>a')
+INFO	2021-10-09 16:42:24,447	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(3)')
+INFO	2021-10-09 16:42:25,676	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:42:25,888	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:42:26,013	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:42:26,326	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:42:28,576	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(4)')
+INFO	2021-10-09 16:42:30,236	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:42:30,343	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:42:31,791	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(7)>a')
+INFO	2021-10-09 16:42:32,041	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>a:nth-child(2)')
+INFO	2021-10-09 16:42:32,962	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:42:33,114	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:42:33,942	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:42:34,158	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:42:36,517	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(8)>a')
+INFO	2021-10-09 16:42:37,952	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:42:38,117	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:42:39,533	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(9)>a')
+INFO	2021-10-09 16:42:40,702	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:42:40,900	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:42:40,937	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>a:nth-child(3)')
+INFO	2021-10-09 16:42:42,283	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(10)>a')
+INFO	2021-10-09 16:42:42,505	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:42:42,687	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:42:43,617	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:42:43,747	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:42:44,332	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(1)')
+INFO	2021-10-09 16:42:45,133	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(11)>a')
+INFO	2021-10-09 16:42:46,009	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:42:46,162	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:42:46,359	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:42:46,611	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:42:47,810	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(2)')
+INFO	2021-10-09 16:42:47,977	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(12)>a')
+INFO	2021-10-09 16:42:49,180	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:42:49,440	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:42:49,509	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:42:49,674	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:42:50,958	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(13)>a')
+INFO	2021-10-09 16:42:51,215	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(3)')
+INFO	2021-10-09 16:42:52,178	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:42:52,347	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:42:52,896	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:42:53,226	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:42:53,900	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(14)>a')
+INFO	2021-10-09 16:42:54,448	[basepage.py:88]	点击元素：('id', 'footerSubscribeInput')
+INFO	2021-10-09 16:42:55,187	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:42:55,283	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:42:56,270	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:42:56,536	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:42:56,652	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(1)>a')
+INFO	2021-10-09 16:42:57,619	[basepage.py:88]	点击元素：('id', 'footerSubscribeBTN')
+INFO	2021-10-09 16:42:57,969	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:42:58,085	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:42:59,489	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:42:59,688	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:43:00,772	[basepage.py:88]	点击元素：('id', 'subscribeError')
+INFO	2021-10-09 16:43:01,203	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(5)>a')
+INFO	2021-10-09 16:43:01,757	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(2)>a')
+INFO	2021-10-09 16:43:02,640	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:43:03,207	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:43:03,307	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:43:03,735	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:43:03,879	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:43:04,359	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:43:06,093	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(4)>a')
+INFO	2021-10-09 16:43:07,577	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:43:07,760	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:43:07,999	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(6)>a')
+INFO	2021-10-09 16:43:08,519	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>a:nth-child(3)')
+INFO	2021-10-09 16:43:09,449	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(3)>a')
+INFO	2021-10-09 16:43:09,529	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:43:09,682	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:43:11,203	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:43:11,551	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:43:11,662	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:43:11,936	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(6)>a')
+INFO	2021-10-09 16:43:11,956	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:43:12,735	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:43:13,738	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:43:13,880	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(8)>a')
+INFO	2021-10-09 16:43:14,037	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:43:14,852	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:43:15,508	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:43:16,167	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:43:16,181	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(7)>a')
+INFO	2021-10-09 16:43:16,473	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:43:16,917	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(1)>a')
+INFO	2021-10-09 16:43:17,690	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:43:18,008	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:43:18,310	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(9)>a')
+INFO	2021-10-09 16:43:18,531	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:43:18,801	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:43:19,876	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:43:19,933	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(12)>a')
+INFO	2021-10-09 16:43:20,186	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:43:20,446	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(13)>a')
+INFO	2021-10-09 16:43:21,376	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:43:21,904	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:43:21,941	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(14)>a')
+INFO	2021-10-09 16:43:21,980	[basepage.py:80]	输入文本：123.com
+INFO	2021-10-09 16:43:22,290	[basepage.py:80]	输入文本：
+INFO	2021-10-09 16:43:22,358	[basepage.py:88]	点击元素：('id', 'footerSubscribeBTN')
+INFO	2021-10-09 16:43:22,694	[basepage.py:88]	点击元素：('id', 'footerSubscribeBTN')
+INFO	2021-10-09 16:43:23,314	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:43:23,486	[basepage.py:94]	获取到文本：Email Format Error!
+INFO	2021-10-09 16:43:23,811	[basepage.py:94]	获取到文本：Please Enter the Email!
+INFO	2021-10-09 16:43:23,822	[basepage.py:80]	输入文本：123@qq.com
+INFO	2021-10-09 16:43:23,906	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:43:24,108	[basepage.py:88]	点击元素：('id', 'footerSubscribeBTN')
+INFO	2021-10-09 16:43:24,380	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:43:25,280	[basepage.py:94]	获取到文本：Successfully
+INFO	2021-10-09 16:43:25,681	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:43:25,858	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:43:25,963	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:43:27,614	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:43:27,783	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:43:27,797	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:43:28,138	[basepage.py:100]	鼠标悬停在('link', 'PowerMyMac')
+INFO	2021-10-09 16:43:28,140	[basepage.py:100]	鼠标悬停在('link', 'PowerMyMac')
+INFO	2021-10-09 16:43:28,616	[test_head.py:37]	点击PowerMyMac下拉框
+INFO	2021-10-09 16:43:28,632	[test_head.py:37]	点击PowerMyMac下拉框
+INFO	2021-10-09 16:43:28,765	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:43:28,835	[basepage.py:100]	鼠标悬停在('link', 'PowerMyMac')
+INFO	2021-10-09 16:43:29,148	[test_head.py:37]	点击PowerMyMac下拉框
+INFO	2021-10-09 16:43:30,682	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:43:30,933	[basepage.py:100]	鼠标悬停在('link', 'Online Tools')
+INFO	2021-10-09 16:43:31,248	[test_head.py:48]	点击OnlineTool下拉框
+INFO	2021-10-09 16:43:31,752	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:43:31,781	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:43:31,906	[basepage.py:100]	鼠标悬停在('link', 'PowerMyMac')
+INFO	2021-10-09 16:43:32,005	[basepage.py:100]	鼠标悬停在('link', 'PowerMyMac')
+INFO	2021-10-09 16:43:32,248	[test_head.py:37]	点击PowerMyMac下拉框
+INFO	2021-10-09 16:43:32,372	[test_head.py:37]	点击PowerMyMac下拉框
+INFO	2021-10-09 16:43:33,687	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:43:33,926	[basepage.py:100]	鼠标悬停在('link', 'Online Tools')
+INFO	2021-10-09 16:43:34,290	[test_head.py:48]	点击OnlineTool下拉框
+INFO	2021-10-09 16:43:34,553	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:43:34,642	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:43:34,791	[basepage.py:100]	鼠标悬停在('link', 'Online Tools')
+INFO	2021-10-09 16:43:34,956	[basepage.py:100]	鼠标悬停在('link', 'Online Tools')
+INFO	2021-10-09 16:43:35,105	[test_head.py:48]	点击OnlineTool下拉框
+INFO	2021-10-09 16:43:35,341	[test_head.py:48]	点击OnlineTool下拉框
+INFO	2021-10-09 16:43:36,001	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:43:36,392	[basepage.py:88]	点击元素：('id', 'navSearchBTN')
+INFO	2021-10-09 16:43:36,572	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:43:36,812	[basepage.py:88]	点击元素：('id', 'navSearchBTN')
+INFO	2021-10-09 16:43:37,403	[test_head.py:59]	点击搜索按钮
+INFO	2021-10-09 16:43:37,504	[basepage.py:80]	输入文本：Video
+INFO	2021-10-09 16:43:37,505	[test_head.py:61]	输入关键字
+INFO	2021-10-09 16:43:37,814	[test_head.py:59]	点击搜索按钮
+INFO	2021-10-09 16:43:37,894	[basepage.py:80]	输入文本： 
+INFO	2021-10-09 16:43:37,894	[test_head.py:61]	输入关键字
+INFO	2021-10-09 16:43:43,949	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(5)>a')
+INFO	2021-10-09 16:43:45,312	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:43:45,444	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:43:46,797	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(10)>a')
+INFO	2021-10-09 16:43:47,939	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:43:48,067	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:43:49,530	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(11)>a')
+INFO	2021-10-09 16:44:11,076	[basepage.py:111]	按下回车
+INFO	2021-10-09 16:44:11,077	[test_head.py:63]	按下回车
+INFO	2021-10-09 16:44:11,910	[basepage.py:111]	按下回车
+INFO	2021-10-09 16:44:11,910	[test_head.py:63]	按下回车
+INFO	2021-10-09 16:44:50,946	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:44:50,995	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:44:51,664	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:44:51,722	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:44:51,743	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:44:51,805	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:44:52,925	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(3)')
+INFO	2021-10-09 16:44:53,773	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(2)')
+INFO	2021-10-09 16:44:53,821	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(4)')
+INFO	2021-10-09 16:44:54,572	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:44:54,682	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:44:55,111	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:44:55,205	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:44:55,753	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:44:55,937	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:44:56,501	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:44:56,552	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:44:57,272	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(1)')
+INFO	2021-10-09 16:44:58,003	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(6)')
+INFO	2021-10-09 16:44:58,941	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:44:59,034	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:44:59,672	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:44:59,906	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:45:00,874	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(4)')
+INFO	2021-10-09 16:45:01,706	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w140>div>a:nth-child(1)')
+INFO	2021-10-09 16:45:02,495	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:45:02,636	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:45:03,336	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:45:03,495	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:45:04,487	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(5)')
+INFO	2021-10-09 16:45:05,484	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w140>div>a:nth-child(2)')
+INFO	2021-10-09 16:45:05,875	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:45:05,984	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:45:06,962	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:45:07,156	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:45:07,492	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w140>div>a:nth-child(5)')
+INFO	2021-10-09 16:45:08,948	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:45:09,071	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:45:23,164	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(1)')
+INFO	2021-10-09 16:45:25,062	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:45:25,234	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:45:31,396	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(2)')
+INFO	2021-10-09 16:45:32,926	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:45:33,058	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:45:34,837	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w140>div>a:nth-child(3)')
+INFO	2021-10-09 16:45:36,223	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:45:36,362	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:45:37,974	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w140>div>a:nth-child(4)')
+INFO	2021-10-09 16:45:39,434	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:45:39,513	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:45:40,585	[basepage.py:88]	点击元素：('id', 'footerSubscribeInput')
+INFO	2021-10-09 16:45:41,316	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>a:nth-child(1)')
+INFO	2021-10-09 16:45:42,319	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:45:42,402	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:45:43,065	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(5)')
+INFO	2021-10-09 16:45:43,121	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:45:43,368	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>a:nth-child(2)')
+INFO	2021-10-09 16:45:43,491	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:45:43,519	[basepage.py:88]	点击元素：('id', 'footerSubscribeBTN')
+INFO	2021-10-09 16:45:44,887	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:45:45,333	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:45:45,696	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:45:45,879	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:45:46,353	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:45:46,512	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:45:47,408	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:45:47,567	[basepage.py:88]	点击元素：('id', 'subscribeError')
+INFO	2021-10-09 16:45:49,160	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:45:49,333	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:45:50,310	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:45:50,660	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:45:51,593	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:45:51,750	[basepage.py:100]	鼠标悬停在('link', 'PowerMyMac')
+INFO	2021-10-09 16:45:51,909	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:45:52,051	[test_head.py:37]	点击PowerMyMac下拉框
+INFO	2021-10-09 16:45:52,062	[basepage.py:100]	鼠标悬停在('link', 'PowerMyMac')
+INFO	2021-10-09 16:45:52,365	[test_head.py:37]	点击PowerMyMac下拉框
+INFO	2021-10-09 16:45:53,942	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:45:54,081	[basepage.py:100]	鼠标悬停在('link', 'PowerMyMac')
+INFO	2021-10-09 16:45:54,318	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:45:54,393	[test_head.py:37]	点击PowerMyMac下拉框
+INFO	2021-10-09 16:45:54,438	[basepage.py:100]	鼠标悬停在('link', 'PowerMyMac')
+INFO	2021-10-09 16:45:54,727	[test_head.py:37]	点击PowerMyMac下拉框
+INFO	2021-10-09 16:45:55,381	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:45:55,466	[basepage.py:100]	鼠标悬停在('link', 'PowerMyMac')
+INFO	2021-10-09 16:45:55,747	[test_head.py:37]	点击PowerMyMac下拉框
+INFO	2021-10-09 16:45:55,824	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:45:55,930	[basepage.py:100]	鼠标悬停在('link', 'Online Tools')
+INFO	2021-10-09 16:45:56,235	[test_head.py:48]	点击OnlineTool下拉框
+INFO	2021-10-09 16:45:56,999	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:45:57,123	[basepage.py:100]	鼠标悬停在('link', 'Online Tools')
+INFO	2021-10-09 16:45:57,447	[test_head.py:48]	点击OnlineTool下拉框
+INFO	2021-10-09 16:45:57,579	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:45:57,703	[basepage.py:100]	鼠标悬停在('link', 'Online Tools')
+INFO	2021-10-09 16:45:58,019	[test_head.py:48]	点击OnlineTool下拉框
+INFO	2021-10-09 16:45:58,825	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:45:58,949	[basepage.py:100]	鼠标悬停在('link', 'Online Tools')
+INFO	2021-10-09 16:45:59,236	[test_head.py:48]	点击OnlineTool下拉框
+INFO	2021-10-09 16:46:17,851	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>a:nth-child(3)')
+INFO	2021-10-09 16:46:19,415	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:46:23,177	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(3)')
+INFO	2021-10-09 16:46:24,632	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:57:16,690	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:57:17,291	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:57:17,352	[basepage.py:88]	点击元素：('css', 'body>nav>div>div.navbar-header>a')
+INFO	2021-10-09 16:57:17,378	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:57:18,047	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:57:18,269	[basepage.py:88]	点击元素：('link', 'PowerMyMac')
+INFO	2021-10-09 16:57:18,341	[basepage.py:88]	点击元素：('link', 'Free PDF Compressor')
+INFO	2021-10-09 16:57:18,359	[test_head.py:27]	点击链接index
+INFO	2021-10-09 16:57:18,603	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:57:19,282	[test_head.py:27]	点击链接PowerMyMac
+INFO	2021-10-09 16:57:19,344	[test_head.py:27]	点击链接PDF-Compressor
+INFO	2021-10-09 16:57:19,458	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:57:19,552	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:57:19,583	[basepage.py:100]	鼠标悬停在('link', 'PowerMyMac')
+INFO	2021-10-09 16:57:20,438	[basepage.py:88]	点击元素：('link', 'Video Converter')
+INFO	2021-10-09 16:57:20,565	[test_head.py:27]	点击链接Support
+INFO	2021-10-09 16:57:20,709	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:57:20,741	[test_head.py:37]	点击PowerMyMac下拉框
+INFO	2021-10-09 16:57:20,814	[basepage.py:100]	鼠标悬停在('link', 'PowerMyMac')
+INFO	2021-10-09 16:57:21,101	[test_head.py:37]	点击PowerMyMac下拉框
+INFO	2021-10-09 16:57:21,444	[test_head.py:27]	点击链接Video-Converter
+INFO	2021-10-09 16:57:21,622	[basepage.py:88]	点击元素：('link', 'Duplicate Finder')
+INFO	2021-10-09 16:57:21,624	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:57:21,694	[basepage.py:100]	鼠标悬停在('link', 'PowerMyMac')
+INFO	2021-10-09 16:57:22,005	[test_head.py:37]	点击PowerMyMac下拉框
+INFO	2021-10-09 16:57:22,202	[basepage.py:88]	点击元素：('link', 'Browser Cleanup')
+INFO	2021-10-09 16:57:22,632	[test_head.py:39]	点击链接Duplicate-Finder
+INFO	2021-10-09 16:57:22,811	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:57:22,918	[basepage.py:100]	鼠标悬停在('link', 'PowerMyMac')
+INFO	2021-10-09 16:57:23,214	[test_head.py:39]	点击链接Browser-Cleanup
+INFO	2021-10-09 16:57:23,313	[test_head.py:37]	点击PowerMyMac下拉框
+INFO	2021-10-09 16:57:23,378	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:57:23,577	[basepage.py:100]	鼠标悬停在('link', 'Online Tools')
+INFO	2021-10-09 16:57:23,865	[test_head.py:48]	点击OnlineTool下拉框
+INFO	2021-10-09 16:57:23,901	[basepage.py:88]	点击元素：('link', 'Mac Uninstaller')
+INFO	2021-10-09 16:57:24,911	[test_head.py:39]	点击链接Mac-Uninstaller
+INFO	2021-10-09 16:57:24,984	[basepage.py:88]	点击元素：('css', '#onlineLabel>ul>li:nth-child(1)>a')
+INFO	2021-10-09 16:57:25,039	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:57:25,118	[basepage.py:100]	鼠标悬停在('link', 'Online Tools')
+INFO	2021-10-09 16:57:25,382	[test_head.py:48]	点击OnlineTool下拉框
+INFO	2021-10-09 16:57:25,989	[test_head.py:50]	点击链接online-Video-Converter
+INFO	2021-10-09 16:57:26,122	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:57:26,220	[basepage.py:100]	鼠标悬停在('link', 'Online Tools')
+INFO	2021-10-09 16:57:26,504	[test_head.py:48]	点击OnlineTool下拉框
+INFO	2021-10-09 16:57:26,701	[basepage.py:88]	点击元素：('link', 'Mac Cleaner')
+INFO	2021-10-09 16:57:27,705	[test_head.py:39]	点击链接Mac-Cleaner
+INFO	2021-10-09 16:57:27,870	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:57:27,919	[basepage.py:100]	鼠标悬停在('link', 'Online Tools')
+INFO	2021-10-09 16:57:28,188	[test_head.py:48]	点击OnlineTool下拉框
+INFO	2021-10-09 16:57:31,321	[basepage.py:88]	点击元素：('css', '#onlineLabel>ul>li:nth-child(2)>a')
+INFO	2021-10-09 16:57:32,326	[test_head.py:50]	点击链接online-Video-Editor
+INFO	2021-10-09 16:57:52,699	[basepage.py:88]	点击元素：('link', 'Store')
+INFO	2021-10-09 16:57:53,711	[test_head.py:27]	点击链接Store
+INFO	2021-10-09 16:57:53,908	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:57:53,953	[basepage.py:100]	鼠标悬停在('link', 'PowerMyMac')
+INFO	2021-10-09 16:57:54,281	[test_head.py:37]	点击PowerMyMac下拉框
+INFO	2021-10-09 16:57:54,768	[basepage.py:88]	点击元素：('link', 'Similar Image Finder')
+INFO	2021-10-09 16:57:55,769	[test_head.py:39]	点击链接Similar-Image-Finder
+INFO	2021-10-09 16:57:58,625	[basepage.py:88]	点击元素：('css', '#onlineLabel>ul>li:nth-child(3)>a')
+INFO	2021-10-09 16:57:59,636	[test_head.py:50]	点击链接online-Photo-Compressor
+INFO	2021-10-09 16:57:59,727	[basepage.py:88]	点击元素：('css', '#onlineLabel>ul>li:nth-child(4)>a')
+INFO	2021-10-09 16:57:59,833	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:57:59,950	[basepage.py:88]	点击元素：('id', 'navSearchBTN')
+INFO	2021-10-09 16:58:00,739	[test_head.py:50]	点击链接online-PDF-Compressor
+INFO	2021-10-09 16:58:00,907	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:58:00,958	[test_head.py:59]	点击搜索按钮
+INFO	2021-10-09 16:58:01,079	[basepage.py:80]	输入文本：Video
+INFO	2021-10-09 16:58:01,080	[test_head.py:61]	输入关键字
+INFO	2021-10-09 16:58:01,113	[basepage.py:88]	点击元素：('id', 'navSearchBTN')
+INFO	2021-10-09 16:58:02,128	[test_head.py:59]	点击搜索按钮
+INFO	2021-10-09 16:58:02,207	[basepage.py:80]	输入文本： 
+INFO	2021-10-09 16:58:02,207	[test_head.py:61]	输入关键字
+INFO	2021-10-09 16:58:34,778	[basepage.py:111]	按下回车
+INFO	2021-10-09 16:58:34,778	[test_head.py:63]	按下回车
+INFO	2021-10-09 16:58:36,244	[basepage.py:111]	按下回车
+INFO	2021-10-09 16:58:36,245	[test_head.py:63]	按下回车
+INFO	2021-10-09 16:58:52,753	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:58:53,004	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:58:53,101	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:58:53,618	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(4)')
+INFO	2021-10-09 16:58:53,842	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:58:53,934	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(1)')
+INFO	2021-10-09 16:58:54,154	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(3)')
+INFO	2021-10-09 16:58:54,728	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:58:54,815	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(2)')
+INFO	2021-10-09 16:58:55,092	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:58:55,287	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:58:55,723	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(5)')
+INFO	2021-10-09 16:58:56,121	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:58:56,398	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(1)')
+INFO	2021-10-09 16:58:56,600	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(6)')
+INFO	2021-10-09 16:58:56,863	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:58:57,536	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:58:57,855	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:58:58,336	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(5)')
+INFO	2021-10-09 16:58:58,635	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(4)')
+INFO	2021-10-09 16:58:59,479	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:58:59,833	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:59:01,322	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w140>div>a:nth-child(4)')
+INFO	2021-10-09 16:59:01,517	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w140>div>a:nth-child(3)')
+INFO	2021-10-09 16:59:02,471	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:59:02,719	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:59:28,535	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(2)')
+INFO	2021-10-09 16:59:29,726	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:59:30,258	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(3)')
+INFO	2021-10-09 16:59:30,566	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w140>div>a:nth-child(1)')
+INFO	2021-10-09 16:59:31,499	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:59:31,839	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:59:32,399	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w140>div>a:nth-child(2)')
+INFO	2021-10-09 16:59:32,460	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w140>div>a:nth-child(5)')
+INFO	2021-10-09 16:59:33,560	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:59:33,729	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:59:33,917	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:59:35,666	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>a:nth-child(3)')
+INFO	2021-10-09 16:59:35,715	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(4)')
+INFO	2021-10-09 16:59:35,974	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>a:nth-child(2)')
+INFO	2021-10-09 16:59:36,958	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:59:37,188	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:59:37,368	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:59:37,782	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:59:37,921	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:59:38,480	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:59:39,280	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(5)')
+INFO	2021-10-09 16:59:39,470	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(1)')
+INFO	2021-10-09 16:59:39,933	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(5)')
+INFO	2021-10-09 16:59:40,389	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:59:40,548	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:59:40,665	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:59:40,876	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:59:41,218	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:59:41,709	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:59:42,394	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w140>div>a:nth-child(1)')
+INFO	2021-10-09 16:59:42,541	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(2)')
+INFO	2021-10-09 16:59:42,858	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(6)')
+INFO	2021-10-09 16:59:43,502	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:59:43,689	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:59:43,780	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:59:44,071	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:59:44,274	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:59:44,693	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:59:45,387	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(3)')
+INFO	2021-10-09 16:59:46,530	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:59:46,636	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w140>div>a:nth-child(2)')
+INFO	2021-10-09 16:59:46,708	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:59:47,059	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(1)')
+INFO	2021-10-09 16:59:47,838	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:59:47,998	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:59:48,221	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(4)')
+INFO	2021-10-09 16:59:48,274	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:59:48,554	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:59:49,457	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:59:49,777	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:59:50,941	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(1)>a')
+INFO	2021-10-09 16:59:52,230	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:59:52,351	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:59:54,881	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(2)>a')
+INFO	2021-10-09 16:59:56,218	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 16:59:56,348	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 16:59:59,601	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(3)>a')
+INFO	2021-10-09 17:00:00,938	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:00:01,063	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:00:03,512	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(4)>a')
+INFO	2021-10-09 17:00:04,839	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:00:04,964	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:00:06,925	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>a:nth-child(1)')
+INFO	2021-10-09 17:00:08,292	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:00:08,431	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:00:09,098	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(2)')
+INFO	2021-10-09 17:00:09,299	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>a:nth-child(2)')
+INFO	2021-10-09 17:00:09,997	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w140>div>a:nth-child(3)')
+INFO	2021-10-09 17:00:10,309	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:00:10,574	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:00:10,895	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:00:11,220	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:00:11,284	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:00:11,886	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(5)>a')
+INFO	2021-10-09 17:00:11,898	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:00:13,404	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:00:13,570	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w140>div>a:nth-child(4)')
+INFO	2021-10-09 17:00:13,589	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:00:14,819	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:00:15,024	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:00:16,541	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w140>div>a:nth-child(5)')
+INFO	2021-10-09 17:00:17,703	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:00:17,894	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:00:17,956	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(6)>a')
+INFO	2021-10-09 17:00:18,825	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(3)')
+INFO	2021-10-09 17:00:19,830	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:00:20,288	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:00:20,354	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:00:20,771	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:00:21,161	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>a:nth-child(3)')
+INFO	2021-10-09 17:00:21,946	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>a:nth-child(1)')
+INFO	2021-10-09 17:00:22,392	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(7)>a')
+INFO	2021-10-09 17:00:23,179	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:00:23,739	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:00:24,168	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:00:25,119	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:00:25,129	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:00:25,732	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(8)>a')
+INFO	2021-10-09 17:00:26,105	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:00:26,751	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:00:27,270	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(10)>a')
+INFO	2021-10-09 17:00:27,749	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:00:28,404	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:00:28,615	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(12)>a')
+INFO	2021-10-09 17:00:28,787	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:00:28,835	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:00:29,754	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:00:29,790	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:00:30,434	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:00:30,675	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(9)>a')
+INFO	2021-10-09 17:00:30,766	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:00:31,611	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(11)>a')
+INFO	2021-10-09 17:00:31,687	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(13)>a')
+INFO	2021-10-09 17:00:32,340	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:00:33,105	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:00:33,183	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(14)>a')
+INFO	2021-10-09 17:00:33,285	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:00:33,401	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:00:33,892	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:00:33,953	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:00:34,746	[basepage.py:88]	点击元素：('id', 'footerSubscribeInput')
+INFO	2021-10-09 17:00:34,885	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:00:35,177	[basepage.py:88]	点击元素：('id', 'subscribeError')
+INFO	2021-10-09 17:00:35,268	[basepage.py:88]	点击元素：('id', 'footerSubscribeBTN')
+INFO	2021-10-09 17:00:35,359	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:00:36,559	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(1)>a')
+INFO	2021-10-09 17:00:36,860	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:00:37,363	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:00:37,480	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:00:37,590	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:00:38,230	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:00:38,240	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:00:38,448	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:00:38,938	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:00:41,198	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(4)>a')
+INFO	2021-10-09 17:00:41,283	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(5)>a')
+INFO	2021-10-09 17:00:41,718	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(2)>a')
+INFO	2021-10-09 17:00:41,815	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(3)>a')
+INFO	2021-10-09 17:00:43,682	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:00:43,695	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:00:44,358	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:00:44,378	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:00:44,487	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:00:44,557	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:00:45,237	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:00:45,269	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:00:46,442	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(7)>a')
+INFO	2021-10-09 17:00:46,733	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(9)>a')
+INFO	2021-10-09 17:00:48,116	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:00:48,434	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:00:48,568	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:00:49,248	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:00:49,375	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(6)>a')
+INFO	2021-10-09 17:00:49,627	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(8)>a')
+INFO	2021-10-09 17:00:50,308	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(11)>a')
+INFO	2021-10-09 17:00:51,140	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(10)>a')
+INFO	2021-10-09 17:00:51,759	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:00:51,778	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:00:51,875	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:00:52,175	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:00:52,238	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:00:52,316	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:00:52,864	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:00:53,888	[basepage.py:80]	输入文本：123.com
+INFO	2021-10-09 17:00:54,266	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(14)>a')
+INFO	2021-10-09 17:00:54,324	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(12)>a')
+INFO	2021-10-09 17:00:54,344	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(13)>a')
+INFO	2021-10-09 17:00:54,347	[basepage.py:88]	点击元素：('id', 'footerSubscribeBTN')
+INFO	2021-10-09 17:00:55,766	[basepage.py:94]	获取到文本：Email Format Error!
+INFO	2021-10-09 17:00:56,020	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:00:56,048	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:00:56,316	[basepage.py:80]	输入文本：
+INFO	2021-10-09 17:00:56,360	[basepage.py:80]	输入文本：123@qq.com
+INFO	2021-10-09 17:00:56,630	[basepage.py:88]	点击元素：('id', 'footerSubscribeBTN')
+INFO	2021-10-09 17:00:56,686	[basepage.py:88]	点击元素：('id', 'footerSubscribeBTN')
+INFO	2021-10-09 17:00:57,674	[basepage.py:94]	获取到文本：Please Enter the Email!
+INFO	2021-10-09 17:00:57,730	[basepage.py:94]	获取到文本：Successfully
+INFO	2021-10-09 17:17:01,439	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:01,537	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:01,819	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:01,844	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:01,923	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:01,946	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:02,190	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:02,279	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:03,953	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(2)')
+INFO	2021-10-09 17:17:03,981	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(4)')
+INFO	2021-10-09 17:17:04,258	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(1)')
+INFO	2021-10-09 17:17:04,270	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(3)')
+INFO	2021-10-09 17:17:05,194	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:05,243	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:05,399	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:05,570	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:05,880	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:05,921	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:06,461	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:06,473	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:07,443	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(6)')
+INFO	2021-10-09 17:17:08,606	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(5)')
+INFO	2021-10-09 17:17:08,642	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:08,738	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:09,815	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:10,090	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:10,164	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(2)')
+INFO	2021-10-09 17:17:10,540	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(4)')
+INFO	2021-10-09 17:17:11,408	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:11,530	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:11,732	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:11,788	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(1)')
+INFO	2021-10-09 17:17:11,931	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:12,709	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(3)')
+INFO	2021-10-09 17:17:13,065	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:13,287	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:13,399	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w140>div>a:nth-child(1)')
+INFO	2021-10-09 17:17:13,887	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w140>div>a:nth-child(2)')
+INFO	2021-10-09 17:17:13,970	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:14,048	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:14,738	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:14,944	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:15,235	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:15,524	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(5)')
+INFO	2021-10-09 17:17:15,741	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:15,826	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w140>div>a:nth-child(5)')
+INFO	2021-10-09 17:17:16,811	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:17,244	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:17,272	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:17,413	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w140>div>a:nth-child(3)')
+INFO	2021-10-09 17:17:17,509	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:18,831	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:19,214	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:20,013	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>a:nth-child(3)')
+INFO	2021-10-09 17:17:20,764	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>a:nth-child(1)')
+INFO	2021-10-09 17:17:20,896	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w140>div>a:nth-child(4)')
+INFO	2021-10-09 17:17:21,060	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(2)>a')
+INFO	2021-10-09 17:17:21,543	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:21,736	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:22,531	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:22,877	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:22,920	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:22,949	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:23,502	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:23,571	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:23,953	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:25,922	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:26,235	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>a:nth-child(2)')
+INFO	2021-10-09 17:17:26,653	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:26,755	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(4)>a')
+INFO	2021-10-09 17:17:28,250	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(1)>a')
+INFO	2021-10-09 17:17:28,782	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:28,990	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(3)>a')
+INFO	2021-10-09 17:17:29,002	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:29,037	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:29,417	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:29,992	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:30,813	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:31,477	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:31,823	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:32,510	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(10)>a')
+INFO	2021-10-09 17:17:33,013	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(5)>a')
+INFO	2021-10-09 17:17:33,150	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(6)>a')
+INFO	2021-10-09 17:17:33,825	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:33,945	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:35,024	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(8)>a')
+INFO	2021-10-09 17:17:35,396	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:35,614	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:35,879	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(12)>a')
+INFO	2021-10-09 17:17:35,949	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:36,011	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:37,518	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:37,747	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:38,197	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:38,236	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:38,342	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(7)>a')
+INFO	2021-10-09 17:17:38,356	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(11)>a')
+INFO	2021-10-09 17:17:40,652	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:40,799	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(13)>a')
+INFO	2021-10-09 17:17:41,071	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:41,204	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(9)>a')
+INFO	2021-10-09 17:17:42,594	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:42,952	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:42,965	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:43,009	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:43,257	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(14)>a')
+INFO	2021-10-09 17:17:43,465	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:43,484	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:44,724	[basepage.py:88]	点击元素：('id', 'subscribeError')
+INFO	2021-10-09 17:17:44,876	[basepage.py:88]	点击元素：('id', 'footerSubscribeInput')
+INFO	2021-10-09 17:17:44,885	[basepage.py:88]	点击元素：('id', 'footerSubscribeBTN')
+INFO	2021-10-09 17:17:44,971	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:45,125	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:46,384	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(1)>a')
+INFO	2021-10-09 17:17:46,821	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:46,919	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:47,628	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:47,758	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:47,971	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:48,131	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:48,738	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:48,808	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:51,209	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(2)>a')
+INFO	2021-10-09 17:17:51,243	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(5)>a')
+INFO	2021-10-09 17:17:51,693	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(3)>a')
+INFO	2021-10-09 17:17:51,897	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(4)>a')
+INFO	2021-10-09 17:17:53,962	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:54,178	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:54,190	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:54,401	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:54,492	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:54,707	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:54,777	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:55,236	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:17:57,227	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(7)>a')
+INFO	2021-10-09 17:17:57,304	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(9)>a')
+INFO	2021-10-09 17:17:57,947	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(8)>a')
+INFO	2021-10-09 17:17:58,903	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(6)>a')
+INFO	2021-10-09 17:17:58,937	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:17:59,520	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:18:00,590	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:18:01,025	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:18:01,335	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:18:01,512	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(11)>a')
+INFO	2021-10-09 17:18:01,555	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:18:01,960	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:18:02,706	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:18:03,283	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:18:03,491	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(13)>a')
+INFO	2021-10-09 17:18:03,643	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(12)>a')
+INFO	2021-10-09 17:18:03,693	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:18:04,828	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(10)>a')
+INFO	2021-10-09 17:18:05,488	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(14)>a')
+INFO	2021-10-09 17:22:27,881	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:22:27,932	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:22:28,027	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:22:28,138	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:22:28,148	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:22:28,177	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:22:28,208	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:22:28,234	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:22:30,018	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(2)')
+INFO	2021-10-09 17:22:30,220	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(3)')
+INFO	2021-10-09 17:22:30,255	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(1)')
+INFO	2021-10-09 17:22:30,290	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(4)')
+INFO	2021-10-09 17:22:31,152	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:22:31,243	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:22:31,554	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:22:31,554	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:22:31,683	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:22:31,921	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:22:31,933	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:22:31,959	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:22:32,659	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(6)')
+INFO	2021-10-09 17:22:33,955	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(5)')
+INFO	2021-10-09 17:22:33,977	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:22:34,153	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:22:35,162	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:22:35,364	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:22:37,044	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(1)')
+INFO	2021-10-09 17:22:37,828	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(2)')
+INFO	2021-10-09 17:22:37,914	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(3)')
+INFO	2021-10-09 17:22:37,931	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(4)')
+INFO	2021-10-09 17:22:38,200	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:22:38,363	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:22:39,325	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:22:39,783	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:22:39,799	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:22:40,054	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:22:40,250	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:22:40,436	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:22:42,114	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w140>div>a:nth-child(5)')
+INFO	2021-10-09 17:22:42,622	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(5)')
+INFO	2021-10-09 17:22:42,764	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w140>div>a:nth-child(2)')
+INFO	2021-10-09 17:22:42,868	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w140>div>a:nth-child(1)')
+INFO	2021-10-09 17:22:43,262	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:22:43,370	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:22:43,924	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:22:44,233	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:22:44,354	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:22:44,468	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:22:44,690	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:22:45,008	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:22:46,746	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w140>div>a:nth-child(3)')
+INFO	2021-10-09 17:22:47,269	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>a:nth-child(1)')
+INFO	2021-10-09 17:22:47,987	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:22:48,184	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:22:48,722	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(2)>a')
+INFO	2021-10-09 17:22:49,418	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:22:50,115	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:22:50,222	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>a:nth-child(3)')
+INFO	2021-10-09 17:22:50,256	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w140>div>a:nth-child(4)')
+INFO	2021-10-09 17:22:50,864	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:22:51,163	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:22:51,948	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:22:52,591	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:22:52,764	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:22:53,216	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:22:54,311	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>a:nth-child(2)')
+INFO	2021-10-09 17:22:54,326	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:22:54,958	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(3)>a')
+INFO	2021-10-09 17:22:55,715	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(4)>a')
+INFO	2021-10-09 17:22:56,698	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:22:57,088	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:22:57,288	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:22:57,358	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:22:57,616	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:22:58,402	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:22:58,771	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:22:59,448	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:22:59,853	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(1)>a')
+INFO	2021-10-09 17:23:01,518	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(8)>a')
+INFO	2021-10-09 17:23:01,572	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(6)>a')
+INFO	2021-10-09 17:23:01,594	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:23:01,806	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:23:03,938	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(11)>a')
+INFO	2021-10-09 17:23:03,948	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:23:03,968	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:23:04,360	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(5)>a')
+INFO	2021-10-09 17:23:04,442	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:23:04,475	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:23:05,484	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:23:06,239	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:23:06,695	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(9)>a')
+INFO	2021-10-09 17:23:06,698	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(7)>a')
+INFO	2021-10-09 17:23:06,805	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:23:07,415	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:23:08,498	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(12)>a')
+INFO	2021-10-09 17:23:08,625	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:23:08,633	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:23:09,143	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:23:09,210	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:23:09,294	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(10)>a')
+INFO	2021-10-09 17:23:10,748	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:23:10,951	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:23:11,175	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:23:11,323	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(13)>a')
+INFO	2021-10-09 17:23:11,372	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:23:11,542	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(14)>a')
+INFO	2021-10-09 17:23:12,661	[basepage.py:88]	点击元素：('id', 'footerSubscribeInput')
+INFO	2021-10-09 17:23:12,917	[basepage.py:88]	点击元素：('id', 'footerSubscribeBTN')
+INFO	2021-10-09 17:23:12,937	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:23:13,065	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:23:13,152	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:23:13,246	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:23:14,354	[basepage.py:88]	点击元素：('id', 'subscribeError')
+INFO	2021-10-09 17:23:14,765	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(1)>a')
+INFO	2021-10-09 17:23:14,982	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:23:15,223	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:23:15,887	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:23:16,548	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:23:16,606	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:23:16,888	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:23:17,507	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:23:18,167	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:23:18,202	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:23:18,914	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:23:20,609	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(5)>a')
+INFO	2021-10-09 17:23:20,985	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(4)>a')
+INFO	2021-10-09 17:23:21,290	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(3)>a')
+INFO	2021-10-09 17:23:22,078	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(6)>a')
+INFO	2021-10-09 17:23:23,214	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:23:23,729	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:23:23,862	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:23:23,947	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:23:24,255	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:23:24,626	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:23:24,792	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:23:25,648	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:23:26,594	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(9)>a')
+INFO	2021-10-09 17:23:26,917	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(7)>a')
+INFO	2021-10-09 17:23:27,362	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(8)>a')
+INFO	2021-10-09 17:23:28,209	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:23:28,234	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:23:28,528	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:23:28,981	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:23:29,005	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:23:29,199	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:23:29,966	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:23:30,487	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:23:30,819	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(14)>a')
+INFO	2021-10-09 17:23:31,048	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(13)>a')
+INFO	2021-10-09 17:23:32,136	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(11)>a')
+INFO	2021-10-09 17:27:18,107	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:27:18,164	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:27:18,263	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:27:18,342	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:27:18,423	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:27:18,535	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:27:18,552	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:27:18,624	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:27:20,165	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(1)')
+INFO	2021-10-09 17:27:20,371	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(2)')
+INFO	2021-10-09 17:27:20,573	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(4)')
+INFO	2021-10-09 17:27:20,633	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(3)')
+INFO	2021-10-09 17:27:21,342	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:27:21,412	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:27:21,578	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:27:21,780	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:27:21,912	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:27:22,214	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:27:22,453	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:27:22,665	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:27:23,235	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(5)')
+INFO	2021-10-09 17:27:23,944	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(6)')
+INFO	2021-10-09 17:27:24,481	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:27:24,572	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:29:06,625	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:29:06,677	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:29:09,162	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:29:09,192	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:29:09,289	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:29:09,326	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:29:09,329	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:29:09,425	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:29:16,966	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(3)')
+INFO	2021-10-09 17:29:17,329	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(2)')
+INFO	2021-10-09 17:29:17,731	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(4)')
+INFO	2021-10-09 17:29:18,203	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:29:18,286	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:29:18,567	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:29:18,717	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:29:19,403	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:29:19,752	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:29:20,574	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(6)')
+INFO	2021-10-09 17:29:20,595	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(1)')
+INFO	2021-10-09 17:29:20,863	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(1)')
+INFO	2021-10-09 17:29:21,803	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:29:21,816	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:29:22,070	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:29:22,148	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:29:22,749	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:29:23,187	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:29:59,751	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:29:59,847	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:29:59,974	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:30:00,120	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:30:00,168	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:30:00,213	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:30:00,214	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:30:00,275	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:30:01,890	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(4)')
+INFO	2021-10-09 17:30:02,186	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(3)')
+INFO	2021-10-09 17:30:02,201	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(1)')
+INFO	2021-10-09 17:30:02,259	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(2)')
+INFO	2021-10-09 17:30:03,052	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:30:03,124	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:30:03,521	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:30:03,536	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:30:03,555	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:30:03,729	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:30:03,853	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:30:03,888	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:30:05,315	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(6)')
+INFO	2021-10-09 17:30:05,797	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(1)')
+INFO	2021-10-09 17:30:05,880	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(2)')
+INFO	2021-10-09 17:30:06,142	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div>div>a:nth-child(5)')
+INFO	2021-10-09 17:30:06,432	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:30:06,477	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:30:07,138	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:30:07,162	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:30:07,511	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:30:07,608	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:30:07,676	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:30:08,285	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:30:08,753	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(4)')
+INFO	2021-10-09 17:30:09,731	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w120>div>a:nth-child(5)')
+INFO	2021-10-09 17:33:54,595	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:33:54,650	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:33:54,888	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:33:54,947	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:33:54,974	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:33:55,029	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:33:55,506	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:33:55,552	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:33:56,225	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(1)>a')
+INFO	2021-10-09 17:33:57,622	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:33:57,805	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:33:58,546	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(2)>a')
+INFO	2021-10-09 17:33:59,249	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(4)>a')
+INFO	2021-10-09 17:33:59,511	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(3)>a')
+INFO	2021-10-09 17:34:00,407	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:34:00,900	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:34:01,296	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:34:01,340	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(5)>a')
+INFO	2021-10-09 17:34:01,608	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:34:01,695	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:34:01,874	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:34:02,945	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:34:03,201	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:34:03,465	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(7)>a')
+INFO	2021-10-09 17:34:04,210	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(6)>a')
+INFO	2021-10-09 17:34:04,528	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(8)>a')
+INFO	2021-10-09 17:34:04,871	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:34:05,054	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(9)>a')
+INFO	2021-10-09 17:34:05,368	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:34:06,567	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:34:06,765	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:34:07,102	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:34:07,171	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:34:07,304	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:34:07,423	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(12)>a')
+INFO	2021-10-09 17:34:07,539	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:34:09,005	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:34:09,171	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(13)>a')
+INFO	2021-10-09 17:34:09,213	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(10)>a')
+INFO	2021-10-09 17:34:09,369	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:34:09,985	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(11)>a')
+INFO	2021-10-09 17:34:11,084	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(14)>a')
+INFO	2021-10-09 17:34:42,409	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:34:42,457	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:34:43,100	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:34:43,135	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:34:43,185	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:34:43,211	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:34:43,293	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:34:43,349	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:34:43,618	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(1)>a')
+INFO	2021-10-09 17:34:45,011	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:34:45,130	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:34:47,175	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(2)>a')
+INFO	2021-10-09 17:34:47,346	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(3)>a')
+INFO	2021-10-09 17:34:47,979	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(5)>a')
+INFO	2021-10-09 17:34:48,186	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(4)>a')
+INFO	2021-10-09 17:34:49,176	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:34:49,522	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:34:49,968	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:34:50,193	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:34:50,225	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:34:50,565	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:34:50,606	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:34:50,809	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:34:51,630	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(7)>a')
+INFO	2021-10-09 17:34:52,184	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(9)>a')
+INFO	2021-10-09 17:34:53,029	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:34:53,434	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(6)>a')
+INFO	2021-10-09 17:34:53,518	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:34:53,648	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:34:53,964	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:34:54,551	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(8)>a')
+INFO	2021-10-09 17:34:55,812	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(11)>a')
+INFO	2021-10-09 17:34:56,318	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:34:57,069	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:34:57,198	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:34:57,300	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(12)>a')
+INFO	2021-10-09 17:34:57,316	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:34:57,486	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:34:57,799	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:34:59,144	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(10)>a')
+INFO	2021-10-09 17:34:59,292	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(13)>a')
+INFO	2021-10-09 17:34:59,519	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(14)>a')
+INFO	2021-10-09 17:35:55,927	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:35:55,975	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:35:56,148	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:35:56,202	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:35:56,750	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:35:56,806	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:35:56,920	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:35:56,983	[basepage.py:88]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
+INFO	2021-10-09 17:39:17,177	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:39:17,966	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:39:18,252	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-10-09 17:39:18,518	[basepage.py:32]	打开网页https://www.imymac.com/index.html

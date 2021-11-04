@@ -1,0 +1,41 @@
+[ {
+  "uid" : "eae41b2bce1471f3",
+  "name" : "简介栏内容测试",
+  "time" : {
+    "start" : 1635931835754,
+    "stop" : 1635931835779,
+    "duration" : 25
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "34806a3c39bb879e",
+  "name" : "简介栏内容测试",
+  "time" : {
+    "start" : 1635931835577,
+    "stop" : 1635931835615,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd1d624551aecd11",
+  "name" : "简介栏内容测试",
+  "time" : {
+    "start" : 1635931834551,
+    "stop" : 1635931834599,
+    "duration" : 48
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a13ef0c8ca6f686d",
+  "name" : "邮箱链接测试",
+  "time" : {
+    "start" : 1635931834642,
+    "stop" : 1635931834712,
+    "duration" : 70
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,207 @@
+INFO	2021-10-28 17:39:33,105	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:39:33,199	[basepage.py:81]	输入文本：('imymac',)
+INFO	2021-10-28 17:39:33,354	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:39:33,420	[basepage.py:81]	输入文本：('python',)
+INFO	2021-10-28 17:39:34,141	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:39:34,251	[basepage.py:81]	输入文本：('java',)
+INFO	2021-10-28 17:39:35,009	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>form>button')
+INFO	2021-10-28 17:39:35,054	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>form>button')
+INFO	2021-10-28 17:39:36,047	[basepage.py:95]	获取到文本：iMyMac | Smart Cleanup and Optimize Your Mac
+www.imymac.com
+iMyMac aims to develop apps that make your Mac powerful like a superman. You can use 20+ features in one tool in a click. Clean, protect and optimize your ...
+INFO	2021-10-28 17:39:36,099	[basepage.py:95]	获取到文本：Como atualizar o Python no Mac com facilidade e rapidez
+www.imymac.com › ... › How to Update Python on Mac Easily and Quickly
+Recent Mac editions include Python 2.7; nevertheless, several more Python subscribers might have to update Python within Mac towards something such as a ...
+INFO	2021-10-28 17:39:36,252	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>form>button')
+INFO	2021-10-28 17:39:37,294	[basepage.py:95]	获取到文本：¿Cómo desinstalo Java en Mac?
+www.imymac.com › PowerMyMac
+Aug 6, 2021 ... Desinstalar Java en Mac solo implica tres pasos. Pero, estos deben hacerse manualmente, así como eliminar los complementos relacionados de ...
+INFO	2021-10-28 17:39:47,589	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:39:47,595	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:39:47,698	[basepage.py:81]	输入文本：('imymac',)
+INFO	2021-10-28 17:39:47,698	[basepage.py:81]	输入文本：('python',)
+INFO	2021-10-28 17:39:49,712	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>form>button')
+INFO	2021-10-28 17:39:49,855	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:39:49,944	[basepage.py:81]	输入文本：('java',)
+INFO	2021-10-28 17:39:50,156	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>form>button')
+INFO	2021-10-28 17:39:50,750	[basepage.py:95]	获取到文本：Como atualizar o Python no Mac com facilidade e rapidez
+www.imymac.com › ... › How to Update Python on Mac Easily and Quickly
+Recent Mac editions include Python 2.7; nevertheless, several more Python subscribers might have to update Python within Mac towards something such as a ...
+INFO	2021-10-28 17:39:51,203	[basepage.py:95]	获取到文本：iMyMac | Smart Cleanup and Optimize Your Mac
+www.imymac.com
+iMyMac aims to develop apps that make your Mac powerful like a superman. You can use 20+ features in one tool in a click. Clean, protect and optimize your ...
+INFO	2021-10-28 17:39:51,667	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>form>button')
+INFO	2021-10-28 17:39:52,697	[basepage.py:95]	获取到文本：¿Cómo desinstalo Java en Mac?
+www.imymac.com › PowerMyMac
+Aug 6, 2021 ... Desinstalar Java en Mac solo implica tres pasos. Pero, estos deben hacerse manualmente, así como eliminar los complementos relacionados de ...
+INFO	2021-10-28 17:40:33,401	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:40:33,515	[basepage.py:81]	输入文本：('python',)
+INFO	2021-10-28 17:40:34,368	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:40:34,468	[basepage.py:81]	输入文本：('java',)
+INFO	2021-10-28 17:40:34,654	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:40:34,732	[basepage.py:81]	输入文本：('java',)
+INFO	2021-10-28 17:40:35,610	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>form>button')
+INFO	2021-10-28 17:40:36,054	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>form>button')
+INFO	2021-10-28 17:40:36,745	[basepage.py:95]	获取到文本：Como atualizar o Python no Mac com facilidade e rapidez
+www.imymac.com › ... › How to Update Python on Mac Easily and Quickly
+Recent Mac editions include Python 2.7; nevertheless, several more Python subscribers might have to update Python within Mac towards something such as a ...
+INFO	2021-10-28 17:40:37,122	[basepage.py:95]	获取到文本：¿Cómo desinstalo Java en Mac?
+www.imymac.com › PowerMyMac
+Aug 6, 2021 ... Desinstalar Java en Mac solo implica tres pasos. Pero, estos deben hacerse manualmente, así como eliminar los complementos relacionados de ...
+INFO	2021-10-28 17:40:38,340	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:40:38,498	[basepage.py:81]	输入文本：('imymac',)
+INFO	2021-10-28 17:40:40,505	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>form>button')
+INFO	2021-10-28 17:40:41,587	[basepage.py:95]	获取到文本：iMyMac | Smart Cleanup and Optimize Your Mac
+www.imymac.com
+iMyMac aims to develop apps that make your Mac powerful like a superman. You can use 20+ features in one tool in a click. Clean, protect and optimize your ...
+INFO	2021-10-28 17:40:43,285	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:40:43,389	[basepage.py:81]	输入文本：('python',)
+INFO	2021-10-28 17:40:43,763	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:40:43,834	[basepage.py:81]	输入文本：('java',)
+INFO	2021-10-28 17:40:44,500	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>form>button')
+INFO	2021-10-28 17:40:45,035	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>form>button')
+INFO	2021-10-28 17:40:45,532	[basepage.py:95]	获取到文本：Como atualizar o Python no Mac com facilidade e rapidez
+www.imymac.com › ... › How to Update Python on Mac Easily and Quickly
+Recent Mac editions include Python 2.7; nevertheless, several more Python subscribers might have to update Python within Mac towards something such as a ...
+INFO	2021-10-28 17:40:46,082	[basepage.py:95]	获取到文本：¿Cómo desinstalo Java en Mac?
+www.imymac.com › PowerMyMac
+Aug 6, 2021 ... Desinstalar Java en Mac solo implica tres pasos. Pero, estos deben hacerse manualmente, así como eliminar los complementos relacionados de ...
+INFO	2021-10-28 17:40:46,649	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:40:46,726	[basepage.py:81]	输入文本：('imymac',)
+INFO	2021-10-28 17:40:47,377	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:40:47,459	[basepage.py:81]	输入文本：('python',)
+INFO	2021-10-28 17:40:48,100	[basepage.py:112]	按下回车
+INFO	2021-10-28 17:40:48,142	[basepage.py:95]	获取到文本：iMyMac | Smart Cleanup and Optimize Your Mac
+www.imymac.com
+iMyMac aims to develop apps that make your Mac powerful like a superman. You can use 20+ features in one tool in a click. Clean, protect and optimize your ...
+INFO	2021-10-28 17:40:48,408	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:40:48,478	[basepage.py:81]	输入文本：('imymac',)
+INFO	2021-10-28 17:40:48,627	[basepage.py:112]	按下回车
+INFO	2021-10-28 17:40:48,666	[basepage.py:95]	获取到文本：Como atualizar o Python no Mac com facilidade e rapidez
+www.imymac.com › ... › How to Update Python on Mac Easily and Quickly
+Recent Mac editions include Python 2.7; nevertheless, several more Python subscribers might have to update Python within Mac towards something such as a ...
+INFO	2021-10-28 17:40:49,579	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>form>button')
+INFO	2021-10-28 17:40:50,607	[basepage.py:95]	获取到文本：iMyMac | Smart Cleanup and Optimize Your Mac
+www.imymac.com
+iMyMac aims to develop apps that make your Mac powerful like a superman. You can use 20+ features in one tool in a click. Clean, protect and optimize your ...
+INFO	2021-10-28 17:40:51,874	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:40:54,273	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:40:54,338	[basepage.py:81]	输入文本：('imymac',)
+INFO	2021-10-28 17:40:55,123	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:40:55,198	[basepage.py:81]	输入文本：('python',)
+INFO	2021-10-28 17:40:55,412	[basepage.py:112]	按下回车
+INFO	2021-10-28 17:40:55,438	[basepage.py:95]	获取到文本：iMyMac | Smart Cleanup and Optimize Your Mac
+www.imymac.com
+iMyMac aims to develop apps that make your Mac powerful like a superman. You can use 20+ features in one tool in a click. Clean, protect and optimize your ...
+INFO	2021-10-28 17:40:56,572	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:40:56,682	[basepage.py:112]	按下回车
+INFO	2021-10-28 17:40:56,733	[basepage.py:95]	获取到文本：Como atualizar o Python no Mac com facilidade e rapidez
+www.imymac.com › ... › How to Update Python on Mac Easily and Quickly
+Recent Mac editions include Python 2.7; nevertheless, several more Python subscribers might have to update Python within Mac towards something such as a ...
+INFO	2021-10-28 17:40:58,036	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:40:58,250	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:40:59,544	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:02,789	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:03,920	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:04,850	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:05,901	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:06,151	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:06,550	[basepage.py:112]	按下回车
+INFO	2021-10-28 17:41:06,584	[basepage.py:95]	获取到文本：¿Cómo desinstalo Java en Mac?
+www.imymac.com › PowerMyMac
+Aug 6, 2021 ... Desinstalar Java en Mac solo implica tres pasos. Pero, estos deben hacerse manualmente, así como eliminar los complementos relacionados de ...
+INFO	2021-10-28 17:41:07,255	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:10,178	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:11,292	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:12,440	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:13,735	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:13,842	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:13,906	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:13,913	[basepage.py:81]	输入文本：('java',)
+INFO	2021-10-28 17:41:15,219	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:15,676	[basepage.py:112]	按下回车
+INFO	2021-10-28 17:41:15,710	[basepage.py:95]	获取到文本：¿Cómo desinstalo Java en Mac?
+www.imymac.com › PowerMyMac
+Aug 6, 2021 ... Desinstalar Java en Mac solo implica tres pasos. Pero, estos deben hacerse manualmente, así como eliminar los complementos relacionados de ...
+INFO	2021-10-28 17:41:17,434	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:17,458	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:18,631	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:20,021	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:21,329	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:21,597	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:22,895	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:24,162	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:24,807	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:25,890	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:25,970	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:27,660	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:28,888	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:29,175	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:30,453	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:31,593	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(5)>div:nth-child(2)>div:nth-child(2)>div>div:nth-child(1)>p:nth-child(1)>a')
+INFO	2021-10-28 17:41:32,562	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:32,582	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:33,849	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:33,871	[basepage.py:95]	获取到文本：How to Easily and Totally Remove TeamViewer from Mac
+INFO	2021-10-28 17:41:34,827	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(5)>div:nth-child(2)>div:nth-child(2)>ul>li:nth-child(2)>a')
+INFO	2021-10-28 17:41:34,892	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:35,225	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:35,506	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(5)>div:nth-child(2)>div:nth-child(2)>div>div:nth-child(1)>a')
+INFO	2021-10-28 17:41:35,888	[basepage.py:128]	获取到class元素的值==》active
+INFO	2021-10-28 17:41:35,931	[basepage.py:95]	获取到文本：How to Easily and Totally Remove TeamViewer from Mac
+INFO	2021-10-28 17:41:36,794	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:36,818	[basepage.py:95]	获取到文本：How to Easily and Totally Remove TeamViewer from Mac
+INFO	2021-10-28 17:41:37,774	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(5)>div:nth-child(2)>div:nth-child(2)>ul>li:nth-child(3)>a')
+INFO	2021-10-28 17:41:38,795	[basepage.py:128]	获取到class元素的值==》active
+INFO	2021-10-28 17:41:38,815	[basepage.py:95]	获取到文本：2 Effective Methods to Completely Uninstall VLC on Mac
+INFO	2021-10-28 17:41:39,744	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:40,676	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(5)>div:nth-child(2)>div:nth-child(2)>ul>li:first-child>a')
+INFO	2021-10-28 17:41:42,467	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:42,496	[basepage.py:95]	获取到文本：How to Easily and Totally Remove TeamViewer from Mac
+INFO	2021-10-28 17:41:42,719	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(5)>div:nth-child(2)>div:nth-child(2)>ul>li:last-child>a')
+INFO	2021-10-28 17:41:43,380	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(5)>div:nth-child(2)>div:nth-child(2)>ul>li:nth-child(2)>a')
+INFO	2021-10-28 17:41:43,731	[basepage.py:128]	获取到class元素的值==》
+INFO	2021-10-28 17:41:44,408	[basepage.py:128]	获取到class元素的值==》active
+INFO	2021-10-28 17:41:44,436	[basepage.py:95]	获取到文本：How to Easily and Totally Remove TeamViewer from Mac
+INFO	2021-10-28 17:41:45,521	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:45,542	[basepage.py:95]	获取到文本：How to Easily and Totally Remove TeamViewer from Mac
+INFO	2021-10-28 17:41:46,392	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(5)>div:nth-child(2)>div:nth-child(2)>ul>li:nth-child(5)>a')
+INFO	2021-10-28 17:41:47,420	[basepage.py:128]	获取到class元素的值==》
+INFO	2021-10-28 17:41:49,414	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:49,521	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(5)>div:nth-child(2)>div:nth-child(2)>div>div:nth-child(1)>p:nth-child(1)>a')
+INFO	2021-10-28 17:41:49,977	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:50,914	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(5)>div:nth-child(2)>div:nth-child(2)>ul>li:first-child>a')
+INFO	2021-10-28 17:41:53,288	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(5)>div:nth-child(2)>div:nth-child(2)>ul>li:last-child>a')
+INFO	2021-10-28 17:41:53,534	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:53,556	[basepage.py:95]	获取到文本：How to Easily and Totally Remove TeamViewer from Mac
+INFO	2021-10-28 17:41:54,315	[basepage.py:128]	获取到class元素的值==》
+INFO	2021-10-28 17:41:54,418	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(5)>div:nth-child(2)>div:nth-child(2)>ul>li:nth-child(5)>a')
+INFO	2021-10-28 17:41:54,633	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:55,334	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(5)>div:nth-child(2)>div:nth-child(2)>div>div:nth-child(1)>a')
+INFO	2021-10-28 17:41:55,457	[basepage.py:128]	获取到class元素的值==》
+INFO	2021-10-28 17:41:55,644	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:56,660	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(5)>div:nth-child(2)>div:nth-child(2)>ul>li:first-child>a')
+INFO	2021-10-28 17:41:57,076	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:41:57,141	[basepage.py:81]	输入文本：('adggwgwdqw',)
+INFO	2021-10-28 17:41:57,688	[basepage.py:128]	获取到class元素的值==》active
+INFO	2021-10-28 17:42:02,450	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:42:02,470	[basepage.py:95]	获取到文本：How to Easily and Totally Remove TeamViewer from Mac
+INFO	2021-10-28 17:42:03,584	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(5)>div:nth-child(2)>div:nth-child(2)>ul>li:nth-child(4)>a')
+INFO	2021-10-28 17:42:04,605	[basepage.py:128]	获取到class元素的值==》active
+INFO	2021-10-28 17:42:04,623	[basepage.py:95]	获取到文本：How to Properly Uninstall GoToMeeting on Mac
+INFO	2021-10-28 17:42:08,605	[basepage.py:33]	打开网页https://www.imymac.com/resource/
+INFO	2021-10-28 17:42:08,625	[basepage.py:95]	获取到文本：How to Easily and Totally Remove TeamViewer from Mac
+INFO	2021-10-28 17:42:10,089	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(5)>div:nth-child(2)>div:nth-child(2)>ul>li:nth-child(6)>a')
+INFO	2021-10-28 17:42:11,111	[basepage.py:128]	获取到class元素的值==》
+WARNING	2021-10-28 17:42:17,165	[connectionpool.py:780]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B81E8E1940>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/39580f6f4a9ecd1b11ad339b5b52c6f6/timeouts
+WARNING	2021-10-28 17:42:19,198	[connectionpool.py:780]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B81E9B6E50>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/39580f6f4a9ecd1b11ad339b5b52c6f6/timeouts
+WARNING	2021-10-28 17:42:20,567	[connectionpool.py:780]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DEBAB51910>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/d5058ecaacd06d1cdb2623a3dec8de20/timeouts
+WARNING	2021-10-28 17:42:21,233	[connectionpool.py:780]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B81E9B6490>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/39580f6f4a9ecd1b11ad339b5b52c6f6/timeouts
+WARNING	2021-10-28 17:42:22,590	[connectionpool.py:780]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DEBAC19460>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/d5058ecaacd06d1cdb2623a3dec8de20/timeouts
+WARNING	2021-10-28 17:42:24,627	[connectionpool.py:780]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DEBAC199A0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/d5058ecaacd06d1cdb2623a3dec8de20/timeouts
+WARNING	2021-10-28 17:42:25,474	[connectionpool.py:780]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B81FD0BBE0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/39580f6f4a9ecd1b11ad339b5b52c6f6
+WARNING	2021-10-28 17:42:27,501	[connectionpool.py:780]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B81FCCD3D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/39580f6f4a9ecd1b11ad339b5b52c6f6
+WARNING	2021-10-28 17:42:28,807	[connectionpool.py:780]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DEBB006BE0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/d5058ecaacd06d1cdb2623a3dec8de20
+WARNING	2021-10-28 17:42:29,532	[connectionpool.py:780]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B81FCCD040>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/39580f6f4a9ecd1b11ad339b5b52c6f6
+WARNING	2021-10-28 17:42:30,844	[connectionpool.py:780]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DEBAED0AC0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/d5058ecaacd06d1cdb2623a3dec8de20
+WARNING	2021-10-28 17:42:32,873	[connectionpool.py:780]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DEBAED0760>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/d5058ecaacd06d1cdb2623a3dec8de20

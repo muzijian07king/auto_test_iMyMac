@@ -1,0 +1,19 @@
+free-download: 'css=body > div>div>div>div> a:nth-child(1)'  #下载链接
+buy: 'css=body > div>div>div>div> a:nth-child(2)'  #购买链接
+buy-class: 'css=body>div.buyBg'
+index: 'css=body > div>div>div>div.guideBox.techBox> a:nth-child(1)'              #video-tech页面
+guide: 'css=body > div>div>div>div.guideBox.techBox> a:nth-child(2)'              #技巧按钮
+guide-handle: 'css=body > div.container > div:nth-child(2) > h1'
+support-body: 'css=body > div> div.w780.vc-guide > div'       #支持内容
+support-handle: 'css=body > div> div.w780.vc-guide > h1'     #支持标题
+article-class: 'css=body > div>div.w780>div.tipsBox'      #文章class
+#文章链接
+article-link:
+  convert-m4a-to-mp3: 'css=body > div>div.w780>div.tipsBox>a:nth-child(2)'
+  mp3-to-midi: 'css=body > div>div.w780>div.tipsBox>a:nth-child(3)'
+  convert-wma-to-mp3: 'css=body > div>div.w780>div.tipsBox>a:nth-child(4)'
+  convert-flac-to-mp3: 'css=body > div>div.w780>div.tipsBox>a:nth-child(5)'
+  convert-webm-to-mp4: 'css=body > div>div.w780>div.tipsBox>a:nth-child(6)'
+  rotate-a-video: 'css=body > div>div.w780>div.tipsBox>a:nth-child(7)'
+article-body: 'css=body>div.container.relative'   #文章内容
+article-handle: 'css=body > div.container.relative > div > h1'  #文章标题

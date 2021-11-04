@@ -1,0 +1,57 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "简介栏内容测试",
+    "uid" : "fd1d624551aecd11",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635931834551,
+      "stop" : 1635931834599,
+      "duration" : 48
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'iMyMac Supporter Email: support@imymac.com'", "'email'" ]
+  }, {
+    "name" : "邮箱链接测试",
+    "uid" : "a13ef0c8ca6f686d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635931834642,
+      "stop" : 1635931834712,
+      "duration" : 70
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "简介栏内容测试",
+    "uid" : "34806a3c39bb879e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635931835577,
+      "stop" : 1635931835615,
+      "duration" : 38
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'If you have any suggestions, such as the website and service, contact us by email.'", "'suggestion'" ]
+  }, {
+    "name" : "简介栏内容测试",
+    "uid" : "eae41b2bce1471f3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635931835754,
+      "stop" : 1635931835779,
+      "duration" : 25
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'If you prepare to purchase or had bought products from iMyMac, please feel free to contact us by email with any questions.'", "'question'" ]
+  } ]
+}

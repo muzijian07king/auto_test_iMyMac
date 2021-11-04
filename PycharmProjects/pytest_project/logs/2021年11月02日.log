@@ -1,0 +1,165 @@
+INFO	2021-11-02 17:08:47,152	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:08:47,173	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:08:47,327	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:08:47,934	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(1)>a')
+INFO	2021-11-02 17:08:48,047	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(1)>a')
+INFO	2021-11-02 17:08:48,397	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(1)>a')
+INFO	2021-11-02 17:08:49,201	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:08:49,528	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(1)>a')
+INFO	2021-11-02 17:08:49,682	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:08:50,008	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(1)>a')
+INFO	2021-11-02 17:08:53,899	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:08:55,043	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(1)>a')
+INFO	2021-11-02 17:19:23,566	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:19:23,674	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:19:23,777	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:19:24,252	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(1)>a')
+INFO	2021-11-02 17:19:24,352	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(1)>a')
+INFO	2021-11-02 17:19:24,554	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(1)>a')
+INFO	2021-11-02 17:19:30,986	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:19:31,147	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:19:31,395	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(1)>a')
+INFO	2021-11-02 17:19:31,447	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:19:31,590	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(1)>a')
+INFO	2021-11-02 17:19:31,867	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(1)>a')
+INFO	2021-11-02 17:19:32,836	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:19:32,922	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:19:33,298	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:19:33,406	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(1)>a')
+INFO	2021-11-02 17:19:33,621	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:19:33,985	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(1)>a')
+INFO	2021-11-02 17:19:34,241	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(1)>a')
+WARNING	2021-11-02 17:19:43,837	[connectionpool.py:780]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E233B4F4F0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/a1fc79413d3381369287f9a911a45404/timeouts
+WARNING	2021-11-02 17:19:44,445	[connectionpool.py:780]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002830A919490>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/ca32b0c2e74be0a9d715bd8fb94dd160/timeouts
+WARNING	2021-11-02 17:19:44,861	[connectionpool.py:780]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000016907A794F0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/b807d7e74b79c4da483bb519ee2aac4d/timeouts
+WARNING	2021-11-02 17:19:45,888	[connectionpool.py:780]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E233C017C0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/a1fc79413d3381369287f9a911a45404/timeouts
+WARNING	2021-11-02 17:19:46,469	[connectionpool.py:780]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002830A9CF640>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/ca32b0c2e74be0a9d715bd8fb94dd160/timeouts
+WARNING	2021-11-02 17:19:46,903	[connectionpool.py:780]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000016907B15280>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/b807d7e74b79c4da483bb519ee2aac4d/timeouts
+WARNING	2021-11-02 17:19:47,932	[connectionpool.py:780]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E233C016A0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/a1fc79413d3381369287f9a911a45404/timeouts
+WARNING	2021-11-02 17:19:48,522	[connectionpool.py:780]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002830A9CF7C0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/ca32b0c2e74be0a9d715bd8fb94dd160/timeouts
+WARNING	2021-11-02 17:19:48,955	[connectionpool.py:780]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000016907B152B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/b807d7e74b79c4da483bb519ee2aac4d/timeouts
+WARNING	2021-11-02 17:19:52,144	[connectionpool.py:780]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E233F487F0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/a1fc79413d3381369287f9a911a45404
+WARNING	2021-11-02 17:19:52,736	[connectionpool.py:780]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002830ACC5790>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/ca32b0c2e74be0a9d715bd8fb94dd160
+WARNING	2021-11-02 17:19:53,187	[connectionpool.py:780]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000016907E5E4F0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/b807d7e74b79c4da483bb519ee2aac4d
+WARNING	2021-11-02 17:19:53,390	[connectionpool.py:780]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020F9A8694F0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/39025cf1f7393bf3553a6d375d30449f/timeouts
+WARNING	2021-11-02 17:19:54,184	[connectionpool.py:780]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E233EC13D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/a1fc79413d3381369287f9a911a45404
+WARNING	2021-11-02 17:19:54,782	[connectionpool.py:780]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002830ABF43D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/ca32b0c2e74be0a9d715bd8fb94dd160
+WARNING	2021-11-02 17:19:55,222	[connectionpool.py:780]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000016907E76D30>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/b807d7e74b79c4da483bb519ee2aac4d
+WARNING	2021-11-02 17:19:55,427	[connectionpool.py:780]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020F9A8EDD60>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/39025cf1f7393bf3553a6d375d30449f/timeouts
+WARNING	2021-11-02 17:19:56,205	[connectionpool.py:780]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E233EC1280>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/a1fc79413d3381369287f9a911a45404
+WARNING	2021-11-02 17:19:56,809	[connectionpool.py:780]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002830ABF4280>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/ca32b0c2e74be0a9d715bd8fb94dd160
+WARNING	2021-11-02 17:19:57,251	[connectionpool.py:780]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000016907E76BE0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/b807d7e74b79c4da483bb519ee2aac4d
+WARNING	2021-11-02 17:19:57,483	[connectionpool.py:780]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020F9A8ED8E0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/39025cf1f7393bf3553a6d375d30449f/timeouts
+WARNING	2021-11-02 17:20:01,658	[connectionpool.py:780]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020F9A8ED8B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/39025cf1f7393bf3553a6d375d30449f
+WARNING	2021-11-02 17:20:03,689	[connectionpool.py:780]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020F9AB38250>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/39025cf1f7393bf3553a6d375d30449f
+WARNING	2021-11-02 17:20:05,741	[connectionpool.py:780]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020F9AB38640>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/39025cf1f7393bf3553a6d375d30449f
+INFO	2021-11-02 17:24:21,753	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:24:21,885	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:24:21,940	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:24:22,118	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:24:22,409	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(1)>a')
+INFO	2021-11-02 17:24:22,559	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(1)>a')
+INFO	2021-11-02 17:24:22,606	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(1)>a')
+INFO	2021-11-02 17:24:22,825	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(1)>a')
+INFO	2021-11-02 17:24:23,607	[basepage.py:95]	获取到文本：General FAQs
+INFO	2021-11-02 17:24:23,863	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:24:24,251	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(1)>a')
+INFO	2021-11-02 17:24:30,130	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:24:30,451	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(1)>a')
+INFO	2021-11-02 17:24:30,605	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:24:30,920	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(1)>a')
+INFO	2021-11-02 17:24:32,182	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:24:32,482	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:24:32,931	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(1)>a')
+WARNING	2021-11-02 17:24:34,638	[connectionpool.py:780]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E4A5F194F0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/aed7ad83782623d6dbb4f8cfb359d9e1/timeouts
+WARNING	2021-11-02 17:24:34,993	[connectionpool.py:780]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A023D79490>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/0a2e34f70c84cfd765c232984cdad851/timeouts
+WARNING	2021-11-02 17:24:36,676	[connectionpool.py:780]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E4A5FB5670>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/aed7ad83782623d6dbb4f8cfb359d9e1/timeouts
+WARNING	2021-11-02 17:24:37,048	[connectionpool.py:780]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A023DB7760>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/0a2e34f70c84cfd765c232984cdad851/timeouts
+WARNING	2021-11-02 17:24:38,718	[connectionpool.py:780]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E4A5FB5190>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/aed7ad83782623d6dbb4f8cfb359d9e1/timeouts
+WARNING	2021-11-02 17:24:39,067	[connectionpool.py:780]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A023DB79A0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/0a2e34f70c84cfd765c232984cdad851/timeouts
+WARNING	2021-11-02 17:24:42,898	[connectionpool.py:780]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E4A62FC4F0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/aed7ad83782623d6dbb4f8cfb359d9e1
+WARNING	2021-11-02 17:24:43,239	[connectionpool.py:780]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A02415D5E0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/0a2e34f70c84cfd765c232984cdad851
+WARNING	2021-11-02 17:24:43,333	[connectionpool.py:780]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F1666194C0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/2539edd0629edfc8d2b0f456fab88a07/timeouts
+WARNING	2021-11-02 17:24:44,932	[connectionpool.py:780]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E4A6315D30>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/aed7ad83782623d6dbb4f8cfb359d9e1
+WARNING	2021-11-02 17:24:45,276	[connectionpool.py:780]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A024053400>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/0a2e34f70c84cfd765c232984cdad851
+WARNING	2021-11-02 17:24:45,370	[connectionpool.py:780]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F1666CF670>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/2539edd0629edfc8d2b0f456fab88a07/timeouts
+WARNING	2021-11-02 17:24:46,947	[connectionpool.py:780]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E4A6315BE0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/aed7ad83782623d6dbb4f8cfb359d9e1
+WARNING	2021-11-02 17:24:47,305	[connectionpool.py:780]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A0240533D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/0a2e34f70c84cfd765c232984cdad851
+WARNING	2021-11-02 17:24:47,416	[connectionpool.py:780]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F1666CF7F0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/2539edd0629edfc8d2b0f456fab88a07/timeouts
+WARNING	2021-11-02 17:24:51,609	[connectionpool.py:780]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F1669C97C0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/2539edd0629edfc8d2b0f456fab88a07
+WARNING	2021-11-02 17:24:52,155	[connectionpool.py:780]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000214A127A490>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/1e498ccbb0a9869819544ab64f650c01/timeouts
+WARNING	2021-11-02 17:24:53,649	[connectionpool.py:780]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F1669673D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/2539edd0629edfc8d2b0f456fab88a07
+WARNING	2021-11-02 17:24:54,191	[connectionpool.py:780]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000214A12FBEB0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/1e498ccbb0a9869819544ab64f650c01/timeouts
+WARNING	2021-11-02 17:24:55,670	[connectionpool.py:780]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F166967280>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/2539edd0629edfc8d2b0f456fab88a07
+WARNING	2021-11-02 17:24:56,219	[connectionpool.py:780]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000214A12FB580>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/1e498ccbb0a9869819544ab64f650c01/timeouts
+WARNING	2021-11-02 17:25:00,387	[connectionpool.py:780]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000214A12FB100>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/1e498ccbb0a9869819544ab64f650c01
+WARNING	2021-11-02 17:25:02,428	[connectionpool.py:780]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000214A15481C0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/1e498ccbb0a9869819544ab64f650c01
+WARNING	2021-11-02 17:25:04,466	[connectionpool.py:780]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000214A1548280>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/1e498ccbb0a9869819544ab64f650c01
+INFO	2021-11-02 17:29:21,954	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:29:22,187	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:29:22,191	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:29:22,402	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:29:22,778	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(1)>a')
+INFO	2021-11-02 17:29:23,125	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(1)>a')
+INFO	2021-11-02 17:29:23,157	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(1)>a')
+INFO	2021-11-02 17:29:23,271	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(1)>a')
+INFO	2021-11-02 17:29:24,165	[basepage.py:95]	获取到文本：General FAQs
+INFO	2021-11-02 17:29:24,466	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:29:24,986	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(1)>a')
+INFO	2021-11-02 17:29:25,265	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:29:25,659	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(1)>a')
+INFO	2021-11-02 17:29:25,775	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:34:59,218	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:34:59,244	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:34:59,412	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:34:59,496	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:34:59,844	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(3)>a')
+INFO	2021-11-02 17:34:59,962	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(4)>a')
+INFO	2021-11-02 17:35:00,184	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(2)>a')
+INFO	2021-11-02 17:35:00,732	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(1)>a')
+INFO	2021-11-02 17:35:00,881	[basepage.py:95]	获取到文本：PowerMyMac FAQ
+INFO	2021-11-02 17:35:01,042	[basepage.py:95]	获取到文本：Mac Cleaner FAQs
+INFO	2021-11-02 17:35:01,183	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:35:01,770	[basepage.py:95]	获取到文本：General FAQs
+INFO	2021-11-02 17:35:02,042	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:35:02,777	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(5)>a')
+INFO	2021-11-02 17:35:03,814	[basepage.py:95]	获取到文本：Video Converter FAQ
+INFO	2021-11-02 17:35:06,639	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:35:07,207	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(6)>a')
+INFO	2021-11-02 17:35:08,236	[basepage.py:95]	获取到文本：PDF Compressor FAQ
+INFO	2021-11-02 17:40:56,037	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:40:56,041	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:40:56,094	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:40:56,133	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:40:56,775	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(4)>a')
+INFO	2021-11-02 17:40:56,845	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(2)>a')
+INFO	2021-11-02 17:40:57,021	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(1)>a')
+INFO	2021-11-02 17:40:57,021	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(3)>a')
+INFO	2021-11-02 17:40:57,821	[basepage.py:95]	获取到文本：Mac Cleaner FAQs
+INFO	2021-11-02 17:40:58,083	[basepage.py:95]	获取到文本：General FAQs
+INFO	2021-11-02 17:40:58,084	[basepage.py:95]	获取到文本：PowerMyMac FAQ
+INFO	2021-11-02 17:40:58,444	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:40:58,450	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:40:59,067	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(5)>a')
+INFO	2021-11-02 17:40:59,669	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:41:00,103	[basepage.py:95]	获取到文本：Video Converter FAQ
+INFO	2021-11-02 17:41:00,229	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(6)>a')
+INFO	2021-11-02 17:41:01,261	[basepage.py:95]	获取到文本：PDF Compressor FAQ
+INFO	2021-11-02 17:47:07,922	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:47:08,161	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:47:08,457	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:47:08,561	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:47:08,725	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(2)>a')
+INFO	2021-11-02 17:47:09,061	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(1)>a')
+INFO	2021-11-02 17:47:09,250	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(4)>a')
+INFO	2021-11-02 17:47:09,295	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(3)>a')
+INFO	2021-11-02 17:47:09,765	[basepage.py:95]	获取到文本：Sales FAQ
+INFO	2021-11-02 17:47:10,020	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:47:10,127	[basepage.py:95]	获取到文本：General FAQs
+INFO	2021-11-02 17:47:10,314	[basepage.py:95]	获取到文本：Mac Cleaner FAQs
+INFO	2021-11-02 17:47:10,395	[basepage.py:95]	获取到文本：PowerMyMac FAQ
+INFO	2021-11-02 17:47:10,513	[basepage.py:33]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-02 17:47:10,878	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(6)>a')
+INFO	2021-11-02 17:47:11,161	[basepage.py:89]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(5)>a')
+INFO	2021-11-02 17:47:11,902	[basepage.py:95]	获取到文本：PDF Compressor FAQ
+INFO	2021-11-02 17:47:12,189	[basepage.py:95]	获取到文本：Video Converter FAQ

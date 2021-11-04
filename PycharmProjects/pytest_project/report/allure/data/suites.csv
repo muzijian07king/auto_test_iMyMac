@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Nov 03 17:30:35 CST 2021","Wed Nov 03 17:30:35 CST 2021","25","TestCase.contact_test_case","test_contact","TestBody","","","简介栏内容测试",""
+"passed","Wed Nov 03 17:30:35 CST 2021","Wed Nov 03 17:30:35 CST 2021","38","TestCase.contact_test_case","test_contact","TestBody","","","简介栏内容测试",""
+"passed","Wed Nov 03 17:30:34 CST 2021","Wed Nov 03 17:30:34 CST 2021","48","TestCase.contact_test_case","test_contact","TestBody","","","简介栏内容测试",""
+"passed","Wed Nov 03 17:30:34 CST 2021","Wed Nov 03 17:30:34 CST 2021","70","TestCase.contact_test_case","test_contact","TestBody","","","邮箱链接测试",""

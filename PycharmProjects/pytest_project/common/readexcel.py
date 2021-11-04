@@ -1,0 +1,74 @@
+import xlrd, os
+
+
+def get_excel_data_file_name(name):
+    excel_data_dir = 'C:/Users/123/PycharmProjects/pytest_project/excel_data/'
+    return os.path.join(excel_data_dir, name)
+
+
+def getExcelAllData(name, file_name):
+    """
+    根获取所有数据
+    :param name:sheet名
+    :param file_name:excel文件在excel_data目录下路径
+    :return:
+    """
+    data = []
+    # 打开xlsx文件
+    book = xlrd.open_workbook(get_excel_data_file_name(file_name))
+    # 读取sheet
+    sheet = book.sheet_by_name(name)
+    for row in range(1, sheet.nrows):
+        data.append(tuple(sheet.row_values(row, 0, sheet.ncols)))
+    return data
+
+
+def getExcelByRow(name, row_first, row_num, file_name):
+    """
+    根据行获取所有数据
+    :param name: sheet名
+    :param row_first: 多少行开始
+    :param row_num: 需要多少行
+    :param file_name:    文件地址
+    :return:
+    """
+    data = []
+    # 打开xlsx文件
+    book = xlrd.open_workbook(get_excel_data_file_name(file_name))
+    # 读取sheet
+    sheet = book.sheet_by_name(name)
+    for row in range(row_first, row_num + row_first):
+        try:
+            data.append(tuple(sheet.row_values(row, 0, sheet.ncols)))
+        except IndexError:
+            raise IndexError('请检查xlrd文件==》{}下第{}行没有数据'.format(get_excel_data_file_name(file_name), row + row_first - 1))
+    return data
+
+
+def getExcelOneCol(name, col_index, file_name):
+    """
+    获取某一列所有数据
+    :param name: sheet名
+    :param col_index:  列索引
+    :param file_name:    文件地址
+    :return:
+    """
+    data = []
+    # 打开xlsx文件
+    book = xlrd.open_workbook(get_excel_data_file_name(file_name))
+    # 读取sheet
+    sheet = book.sheet_by_name(name)
+
+    if col_index <= sheet.ncols:
+        for row in range(1, sheet.nrows):
+            data.append(sheet.cell_value(row, col_index - 1))
+        return data
+    else:
+        raise IndexError('请检查xlrd文件==》{}下第{}列没有数据'.format(get_excel_data_file_name(file_name), col_index))
+
+
+if __name__ == '__main__':
+    # print(getExcelAllData(name='邮箱错误'))
+    # print(getExcelByRow('优惠码错误', 1, 3))
+    # print(getExcelOneCol('搜索文章', 1, 'Support/support.xlsx'))
+    print(getExcelOneCol('搜索文章', 1,  'Resource/resource.xlsx'))

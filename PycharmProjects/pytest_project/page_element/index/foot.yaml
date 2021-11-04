@@ -1,0 +1,41 @@
+Uninstall-Apps: 'css=body>footer>div>div>div>div>a:nth-child(1)'
+Speed-Up-Mac: 'css=body>footer>div>div>div>div>a:nth-child(2)'
+Mac-Purgeable: 'css=body>footer>div>div>div>div>a:nth-child(3)'
+Find-Duplicate-file: 'css=body>footer>div>div>div>div>a:nth-child(4)'
+Startup-disk: 'css=body>footer>div>div>div>div>a:nth-child(5)'
+Photo-Management-Software: 'css=body>footer>div>div>div>div>a:nth-child(6)'
+Company: 'css=body>footer>div>div>div.w120>div>a:nth-child(1)'
+Resource: 'css=body>footer>div>div>div.w120>div>a:nth-child(2)'
+FAQ: 'css=body>footer>div>div>div.w120>div>a:nth-child(3)'
+Contact: 'css=body>footer>div>div>div.w120>div>a:nth-child(4)'
+Student-Discount: 'css=body>footer>div>div>div.w120>div>a:nth-child(5)'
+Privacy: 'css=body>footer>div>div>div.w140>div>a:nth-child(1)'
+Terms: 'css=body>footer>div>div>div.w140>div>a:nth-child(2)'
+Refund: 'css=body>footer>div>div>div.w140>div>a:nth-child(3)'
+License-Agreement: 'css=body>footer>div>div>div.w140>div>a:nth-child(4)'
+SiteMap: 'css=body>footer>div>div>div.w140>div>a:nth-child(5)'
+FaceBook: 'css=body>footer>div>div>div.w166>div>div>a:nth-child(1)'
+Twitter: 'css=body>footer>div>div>div.w166>div>div>a:nth-child(2)'
+Youtube: 'css=body>footer>div>div>div.w166>div>div>a:nth-child(3)'
+Language-drop-down: 'css=body>footer>div>div>div.w166>div>a'   #语言下拉栏
+Language:  #语言
+  com: 'css=body>footer>div>div>div.w166>div>div>dl>dt:nth-child(1)>a'
+  fr: 'css=body>footer>div>div>div.w166>div>div>dl>dt:nth-child(2)>a'
+  de: 'css=body>footer>div>div>div.w166>div>div>dl>dt:nth-child(3)>a'
+  es: 'css=body>footer>div>div>div.w166>div>div>dl>dt:nth-child(4)>a'
+  jp: 'css=body>footer>div>div>div.w166>div>div>dl>dt:nth-child(5)>a'
+  tw: 'css=body>footer>div>div>div.w166>div>div>dl>dt:nth-child(6)>a'
+  zh: 'css=body>footer>div>div>div.w166>div>div>dl>dt:nth-child(7)>a'
+  it: 'css=body>footer>div>div>div.w166>div>div>dl>dt:nth-child(8)>a'
+  ko: 'css=body>footer>div>div>div.w166>div>div>dl>dt:nth-child(9)>a'
+  nl: 'css=body>footer>div>div>div.w166>div>div>dl>dt:nth-child(10)>a'
+  pl: 'css=body>footer>div>div>div.w166>div>div>dl>dt:nth-child(11)>a'
+  ru: 'css=body>footer>div>div>div.w166>div>div>dl>dt:nth-child(12)>a'
+  pt: 'css=body>footer>div>div>div.w166>div>div>dl>dt:nth-child(13)>a'
+  ar: 'css=body>footer>div>div>div.w166>div>div>dl>dt:nth-child(14)>a'
+SearchInput: 'id=footerSubscribeInput'  #提交内容输入框
+SearchButton: 'id=footerSubscribeBTN'   #提交按钮
+ErrorText: 'id=subscribeError'   #错误信息
+
+
+

@@ -1,0 +1,77 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-9RE2F6C",
+    "children" : [ {
+      "name" : "20188-MainThread",
+      "children" : [ {
+        "name" : "简介栏内容测试",
+        "uid" : "34806a3c39bb879e",
+        "parentUid" : "b7a2f4fd5034751175e8160c3a1af7e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635931835577,
+          "stop" : 1635931835615,
+          "duration" : 38
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'If you have any suggestions, such as the website and service, contact us by email.'", "'suggestion'" ]
+      } ],
+      "uid" : "b7a2f4fd5034751175e8160c3a1af7e1"
+    }, {
+      "name" : "1448-MainThread",
+      "children" : [ {
+        "name" : "简介栏内容测试",
+        "uid" : "eae41b2bce1471f3",
+        "parentUid" : "664668acfbbd3ab22695d4559c6fb56a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635931835754,
+          "stop" : 1635931835779,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'If you prepare to purchase or had bought products from iMyMac, please feel free to contact us by email with any questions.'", "'question'" ]
+      } ],
+      "uid" : "664668acfbbd3ab22695d4559c6fb56a"
+    }, {
+      "name" : "4288-MainThread",
+      "children" : [ {
+        "name" : "简介栏内容测试",
+        "uid" : "fd1d624551aecd11",
+        "parentUid" : "146b0450c22ddf07bd534746206445e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635931834551,
+          "stop" : 1635931834599,
+          "duration" : 48
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'iMyMac Supporter Email: support@imymac.com'", "'email'" ]
+      } ],
+      "uid" : "146b0450c22ddf07bd534746206445e6"
+    }, {
+      "name" : "9680-MainThread",
+      "children" : [ {
+        "name" : "邮箱链接测试",
+        "uid" : "a13ef0c8ca6f686d",
+        "parentUid" : "7f0060a41a02500904de084c64d231c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635931834642,
+          "stop" : 1635931834712,
+          "duration" : 70
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7f0060a41a02500904de084c64d231c2"
+    } ],
+    "uid" : "226e950d083396eac1a77a94af12ec15"
+  } ]
+}

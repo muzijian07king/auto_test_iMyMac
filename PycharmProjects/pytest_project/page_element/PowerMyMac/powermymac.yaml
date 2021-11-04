@@ -1,0 +1,31 @@
+free-download: 'css=body > div.banner.text-center > div > div.row > div.col-md-6 >div.btn-group>a:nth-child(1)'    #下载ppm按钮
+buy: 'css=body > div.banner.text-center > div > div.row > div.col-md-6 >div.btn-group>a:nth-child(2)'     #订阅会员按钮
+PowerMyMac: 'css=body > div:nth-child(5) > div>a:nth-child(1)'   #产品页
+guide: 'css=body > div:nth-child(5) > div>a:nth-child(2)'     #产品指南页
+article-link:
+  find-similar-images: 'css=body > div.container>div.articleLink>a:nth-child(2)'
+  delete-cookies: 'css=body > div.container>div.articleLink>a:nth-child(3)'
+  open-rar-files: 'css=body > div.container>div.articleLink>a:nth-child(4)'
+  free-up-disk-space: 'css=body > div.container>div.articleLink>a:nth-child(5)'
+  uninstall-photoshop: 'css=body > div.container>div.articleLink>a:nth-child(6)'
+  find-wifi-password: 'css=body > div.container>div.articleLink>a:nth-child(7)'
+carousel-li: 'css=#carousel-review>ol>li:nth-child(2)>div'      #轮播图第二个按钮
+carousel-inner: 'css=#carousel-review>div>div:nth-child(2)'     #轮播图第二张图
+fix-menu: 'css=body>div.menu>div'   #小导航栏
+menu:       #小导航栏下的按钮
+  PowerMyMac: 'css=body>div.menu>div>div>a:nth-child(1)'
+  guide: 'css=body>div.menu>div>div>a:nth-child(2)'
+  free-download: 'css=body>div.menu>div>div>a:nth-child(3)'
+  buy: 'css=body>div.menu>div>div>a:nth-child(4)'
+footbuy:
+  free-download: 'css=body>div.footerBg>div>div>div:nth-child(2)>div>div>a:nth-child(1)'    #下载按钮
+  buy: 'css=body>div.footerBg>div>div>div:nth-child(2)>div>div>a:nth-child(2)'    #订阅按钮
+buy-month: 'id=powermymac-one-month'      #购买一个月按钮
+guide-handline: 'css=body>div.container>h1'     #指南标题
+cleaner-handline: 'css=body > div.banner.text-center > div > div > div:nth-child(2) > h1'   #首页标题
+menu-css: 'css=body>div.menu'     #小导航栏
+article-body: 'css=body>div.container.relative'   #文章内容
+guide-class: 'css=body >div:nth-child(5) > div'    #下滑弹出guide栏
+footerBg-class: 'css=body>div.footerBg'   #底部下载栏
+container-text-center-class: 'css=body > div.container>div.articleLink'   #文章链接栏
+carousel-comment-class: 'id=carousel-review' #轮播图class

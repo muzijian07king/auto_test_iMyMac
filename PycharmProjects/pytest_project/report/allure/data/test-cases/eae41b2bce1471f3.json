@@ -1,0 +1,207 @@
+{
+  "uid" : "eae41b2bce1471f3",
+  "name" : "简介栏内容测试",
+  "fullName" : "TestCase.contact_test_case.test_contact.TestBody#test_002",
+  "historyId" : "46a71cc399b644c0fc8101c58ba66873",
+  "time" : {
+    "start" : 1635931835754,
+    "stop" : 1635931835779,
+    "duration" : 25
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1635931830612,
+      "stop" : 1635931830612,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1635931830612,
+      "stop" : 1635931830612,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1635931830613,
+      "stop" : 1635931833084,
+      "duration" : 2471
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1635931833085,
+      "stop" : 1635931833085,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1635931833085,
+      "stop" : 1635931833085,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "open_url",
+    "time" : {
+      "start" : 1635931833085,
+      "stop" : 1635931835753,
+      "duration" : 2668
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "获取question下的描述",
+      "time" : {
+        "start" : 1635931835755,
+        "stop" : 1635931835779,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "9b2048cfe2d0b967",
+      "name" : "log",
+      "source" : "9b2048cfe2d0b967.txt",
+      "type" : "text/plain",
+      "size" : 260
+    }, {
+      "uid" : "111eb8f947847b23",
+      "name" : "stderr",
+      "source" : "111eb8f947847b23.txt",
+      "type" : "text/plain",
+      "size" : 277
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "drivers::fn",
+    "time" : {
+      "start" : 1635931835788,
+      "stop" : 1635931837900,
+      "duration" : 2112
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "question栏的简介"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.contact_test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_contact"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBody"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "1448-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.contact_test_case.test_contact"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "context",
+    "value" : "'If you prepare to purchase or had bought products from iMyMac, please feel free to contact us by email with any questions.'"
+  }, {
+    "name" : "title",
+    "value" : "'question'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "question栏的简介" ]
+  },
+  "source" : "eae41b2bce1471f3.json",
+  "parameterValues" : [ "'If you prepare to purchase or had bought products from iMyMac, please feel free to contact us by email with any questions.'", "'question'" ]
+}

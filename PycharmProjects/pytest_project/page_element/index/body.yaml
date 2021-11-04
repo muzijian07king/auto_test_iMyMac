@@ -1,0 +1,28 @@
+left-carousel-control: 'css=#indexBannerCarousel>a:nth-child(2)'     #第一个轮播图左侧按钮
+right-carousel-control: 'css=#indexBannerCarousel>a:nth-child(3)'    #第一个轮播图右侧按钮
+PowerMyMac:
+  free-download: 'css=#indexBannerCarousel>div>div:nth-child(1)>div>div>div>a:nth-child(1)'   #下载按钮
+  learn-more: 'css=#indexBannerCarousel>div>div:nth-child(1)>div>div>div>a:nth-child(2)'      #详情按钮
+video:
+  free-download: 'css=#indexBannerCarousel>div>div:nth-child(2)>div>div>div>a:nth-child(1)'   #下载按钮
+  learn-more: 'css=#indexBannerCarousel>div>div:nth-child(2)>div>div>div>a:nth-child(2)'      #详情按钮
+featureItem:    #功能介绍
+  system-junk: 'link=System Junk'
+  duplicate-finder: 'link=Duplicate Finder'
+  similar-image: 'link=Similar Photo'
+  mac-uninstaller: 'link=App Uninstaller'
+  large: 'link=Large & Old Files'
+  itunes: 'link=iTunes Junk'
+  mail: 'link=Email Junk'
+  mac-cleaner: 'link=Trash Bins'
+  browser-cleanup: 'link=Privacy Protection'
+  video-converter: 'css=body>div:nth-child(5)>div>div:nth-child(5)>div:nth-child(2)>a'
+  pdf-compressor: 'link=PDF Compressor'
+  user-guide: 'link=More Guides'
+media-left: 'css=#users-media>a:nth-child(2)'    #第二个轮播图左侧按钮
+media-right: 'css=#users-media>a:nth-child(3)'   #第二个轮播图右侧按钮
+chooseItemBox: 'css=body>div:nth-child(7)>div>div>div>div>p'    #choose栏标题
+carousel: 'css=#indexBannerCarousel>div>div'    #第一个轮播图
+media: 'css=#users-media>div>div:nth-child(2)'  #第二个轮播图
+container: 'css=body>div:nth-child(7)'      #choose栏
+top-button: 'id=top-btn'   #回到顶部按钮
