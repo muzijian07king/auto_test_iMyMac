@@ -151,6 +151,7 @@ class WebPage(object):
     def jsInDriver(self, js):
         """使用js"""
         log.info('使用js操控浏览器==》{}'.format(js))
+        sleep()
         self.driver.execute_script(js)
 
     def scroll_to_loc(self, loc):
@@ -214,3 +215,8 @@ class WebPage(object):
         """显形等待元素可见"""
         log.info('等待元素可见==》{}'.format(loc[1]))
         self.wait.until(EC.visibility_of_element_located(self.element_loc(loc)))
+
+    def get_diver_title(self):
+        """获取网页标签页标题"""
+        log.info('获取到title==>{}'.format(self.driver.title))
+        return self.driver.title

@@ -1,0 +1,3 @@
+INFO	2021-11-11 17:12:20,452	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-11 17:12:21,100	[basepage.py:90]	点击元素：('css', 'body>div:nth-child(4)>div>div>div>div:nth-child(2)>ul>li:nth-child(1)>a')
+INFO	2021-11-11 17:12:22,105	[basepage.py:221]	获取到title==>About Us

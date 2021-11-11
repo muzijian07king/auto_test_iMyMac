@@ -1,4 +1,4 @@
-from pytest_project.page_object.support.supportpage import SupportPage
+from pytest_project.page_object.support.support_page import SupportPage
 from pytest_project.common.readconfig import ini
 import pytest, allure
 from pytest_project.common.readexcel import getExcelAllData, getExcelOneCol

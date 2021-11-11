@@ -1,0 +1,246 @@
+{
+  "uid" : "1a80eeb3605609bc",
+  "name" : "menu导航栏下进入buy页面测试",
+  "fullName" : "TestCase.powermymac_test_case.test_similar_image.TestBody#test_010",
+  "historyId" : "2be1e50318a1b3fbe127a8e2b3200896",
+  "time" : {
+    "start" : 1636621880449,
+    "stop" : 1636621884689,
+    "duration" : 4240
+  },
+  "description" : "点击menu导航栏下进入buy链接",
+  "descriptionHtml" : "<p>点击menu导航栏下进入buy链接</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1636621659658,
+      "stop" : 1636621659658,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1636621659658,
+      "stop" : 1636621659658,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1636621659658,
+      "stop" : 1636621660928,
+      "duration" : 1270
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1636621660928,
+      "stop" : 1636621660928,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1636621879810,
+      "stop" : 1636621879810,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "open_clear",
+    "time" : {
+      "start" : 1636621879811,
+      "stop" : 1636621880448,
+      "duration" : 637
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "点击menu导航栏下进入buy链接",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "页面滑动到menu上",
+      "time" : {
+        "start" : 1636621880450,
+        "stop" : 1636621883532,
+        "duration" : 3082
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "去购买页面",
+      "time" : {
+        "start" : 1636621883532,
+        "stop" : 1636621884670,
+        "duration" : 1138
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "loc",
+        "value" : "('css', 'body>div.menu>div>div>a:nth-child(4)')"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "判断跳转购买页面内容与实际相同",
+      "time" : {
+        "start" : 1636621884671,
+        "stop" : 1636621884689,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "655c6841296d9ddb",
+      "name" : "log",
+      "source" : "655c6841296d9ddb.txt",
+      "type" : "text/plain",
+      "size" : 383
+    }, {
+      "uid" : "232c56cd6a63a9fe",
+      "name" : "stderr",
+      "source" : "232c56cd6a63a9fe.txt",
+      "type" : "text/plain",
+      "size" : 416
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1636622478205,
+      "stop" : 1636622480529,
+      "duration" : 2324
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "点击buy按钮"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "PowerMyMac下拉栏中页面测试"
+  }, {
+    "name" : "story",
+    "value" : "similar-image页面内容测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.powermymac_test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_similar_image"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBody"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "26388-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.powermymac_test_case.test_similar_image"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "点击buy按钮" ]
+  },
+  "source" : "1a80eeb3605609bc.json",
+  "parameterValues" : [ ]
+}

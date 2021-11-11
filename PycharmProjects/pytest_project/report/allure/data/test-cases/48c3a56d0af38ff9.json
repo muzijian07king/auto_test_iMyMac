@@ -1,0 +1,228 @@
+{
+  "uid" : "48c3a56d0af38ff9",
+  "name" : "Products下的链接测试",
+  "fullName" : "TestCase.sitemap_test_case.test_sitemap.TestBody#test_011",
+  "historyId" : "cc115926d1c69218a8b6e00ba9f8a357",
+  "time" : {
+    "start" : 1636621948175,
+    "stop" : 1636621949403,
+    "duration" : 1228
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1636621659658,
+      "stop" : 1636621659658,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1636621659658,
+      "stop" : 1636621659658,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1636621659658,
+      "stop" : 1636621661114,
+      "duration" : 1456
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1636621661114,
+      "stop" : 1636621661114,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1636621948107,
+      "stop" : 1636621948107,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "open_url",
+    "time" : {
+      "start" : 1636621948108,
+      "stop" : 1636621948174,
+      "duration" : 66
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击Products下的链接",
+      "time" : {
+        "start" : 1636621948176,
+        "stop" : 1636621949382,
+        "duration" : 1206
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "key",
+        "value" : "'PowerMyMac'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "判断链接是否成功",
+      "time" : {
+        "start" : 1636621949383,
+        "stop" : 1636621949402,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "aa8a09af6b33a620",
+      "name" : "log",
+      "source" : "aa8a09af6b33a620.txt",
+      "type" : "text/plain",
+      "size" : 331
+    }, {
+      "uid" : "df4cc424d0c07d0b",
+      "name" : "stderr",
+      "source" : "df4cc424d0c07d0b.txt",
+      "type" : "text/plain",
+      "size" : 356
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1636622480645,
+      "stop" : 1636622482739,
+      "duration" : 2094
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "PowerMyMac链接"
+  }, {
+    "name" : "feature",
+    "value" : "网址地图页面测试"
+  }, {
+    "name" : "story",
+    "value" : "功能测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.sitemap_test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_sitemap"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBody"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "436-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.sitemap_test_case.test_sitemap"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "key",
+    "value" : "'PowerMyMac'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "PowerMyMac链接" ]
+  },
+  "source" : "48c3a56d0af38ff9.json",
+  "parameterValues" : [ "'PowerMyMac'" ]
+}

@@ -1,0 +1,4 @@
+[32mINFO    [0m root:basepage.py:32 打开网页https://www.imymac.com/store/
+[32mINFO    [0m root:basepage.py:90 点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(1)>div:nth-child(2)>a:nth-child(6)')
+[32mINFO    [0m root:basepage.py:211 获取到text==》['1-Month License', '1-Year License', 'Lifetime License']
+[32mINFO    [0m root:basepage.py:211 获取到text==》['9.95', '1.66/Month', '29.95']

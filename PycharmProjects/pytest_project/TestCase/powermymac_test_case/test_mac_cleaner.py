@@ -1,7 +1,7 @@
 import allure
 import pytest
 
-from pytest_project.page_object.powermymac.cleanerpage import CleanerPage
+from pytest_project.page_object.powermymac.cleaner_page import CleanerPage
 from pytest_project.common.readconfig import ini
 from pytest_project.common.readelement import Element, get_branch_all_value, get_recursion_key
 

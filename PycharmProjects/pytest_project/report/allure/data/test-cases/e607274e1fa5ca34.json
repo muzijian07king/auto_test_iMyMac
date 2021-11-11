@@ -1,0 +1,234 @@
+{
+  "uid" : "e607274e1fa5ca34",
+  "name" : "切换语言==》中文繁体",
+  "fullName" : "TestCase.index_test_case.test_foot.TestFoot#test_002",
+  "historyId" : "1868d453550e746167ca0efa3e5e3208",
+  "time" : {
+    "start" : 1636621744814,
+    "stop" : 1636621752599,
+    "duration" : 7785
+  },
+  "description" : "切换语言",
+  "descriptionHtml" : "<p>切换语言</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1636621659658,
+      "stop" : 1636621659658,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1636621659658,
+      "stop" : 1636621659658,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1636621659658,
+      "stop" : 1636621661114,
+      "duration" : 1456
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1636621661114,
+      "stop" : 1636621661114,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1636621744109,
+      "stop" : 1636621744109,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "open_index",
+    "time" : {
+      "start" : 1636621744109,
+      "stop" : 1636621744813,
+      "duration" : 704
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "切换语言",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击下拉框",
+      "time" : {
+        "start" : 1636621744814,
+        "stop" : 1636621746060,
+        "duration" : 1246
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "切换语言",
+      "time" : {
+        "start" : 1636621746060,
+        "stop" : 1636621752590,
+        "duration" : 6530
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "language",
+        "value" : "'tw'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "3a2e0611e28dfbce",
+      "name" : "log",
+      "source" : "3a2e0611e28dfbce.txt",
+      "type" : "text/plain",
+      "size" : 304
+    }, {
+      "uid" : "a48637cb6ab34cca",
+      "name" : "stderr",
+      "source" : "a48637cb6ab34cca.txt",
+      "type" : "text/plain",
+      "size" : 329
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1636622480645,
+      "stop" : 1636622482739,
+      "duration" : 2094
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "语言切换为中文繁体"
+  }, {
+    "name" : "story",
+    "value" : "底部超链接测试"
+  }, {
+    "name" : "feature",
+    "value" : "首页测试"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.index_test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_foot"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFoot"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "436-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.index_test_case.test_foot"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "lge",
+    "value" : "'tw'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "语言切换为中文繁体" ]
+  },
+  "source" : "e607274e1fa5ca34.json",
+  "parameterValues" : [ "'tw'" ]
+}

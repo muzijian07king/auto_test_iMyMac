@@ -1,0 +1,5 @@
+INFO	2021-11-11 17:21:16,484	[basepage.py:32]	打开网页https://www.imymac.com/video-converter/tech.html
+INFO	2021-11-11 17:21:16,485	[basepage.py:159]	页面滚到元素('css', 'body > div>div.w780>div.tipsBox')
+INFO	2021-11-11 17:21:17,510	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-11 17:21:19,608	[basepage.py:90]	点击元素：('css', 'body > div>div.w780>div.tipsBox>a:nth-child(2)')
+INFO	2021-11-11 17:21:20,640	[basepage.py:96]	获取到文本：Convert M4A to MP3 on Mac- Quick and Easy Guide

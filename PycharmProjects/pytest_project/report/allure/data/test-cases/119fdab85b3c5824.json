@@ -1,0 +1,228 @@
+{
+  "uid" : "119fdab85b3c5824",
+  "name" : "menu导航栏测试",
+  "fullName" : "TestCase.powermymac_test_case.test_ppm.TestBody#test_006",
+  "historyId" : "6d4a2292af56b9132611ad6e22800a96",
+  "time" : {
+    "start" : 1636621786507,
+    "stop" : 1636621789591,
+    "duration" : 3084
+  },
+  "description" : "滑动到一定位置是否弹出menu",
+  "descriptionHtml" : "<p>滑动到一定位置是否弹出menu</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1636621659658,
+      "stop" : 1636621659658,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1636621659658,
+      "stop" : 1636621659658,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1636621659658,
+      "stop" : 1636621660928,
+      "duration" : 1270
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1636621660928,
+      "stop" : 1636621660928,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1636621786235,
+      "stop" : 1636621786235,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "open_clear",
+    "time" : {
+      "start" : 1636621786235,
+      "stop" : 1636621786506,
+      "duration" : 271
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "滑动到一定位置是否弹出menu",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "页面滑动到menu上",
+      "time" : {
+        "start" : 1636621786508,
+        "stop" : 1636621789563,
+        "duration" : 3055
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "判断滑动到中间位置后menu是否出现",
+      "time" : {
+        "start" : 1636621789563,
+        "stop" : 1636621789590,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "58ebb84b304ff3be",
+      "name" : "log",
+      "source" : "58ebb84b304ff3be.txt",
+      "type" : "text/plain",
+      "size" : 356
+    }, {
+      "uid" : "7d562d0bb034ebed",
+      "name" : "stderr",
+      "source" : "7d562d0bb034ebed.txt",
+      "type" : "text/plain",
+      "size" : 389
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1636622478205,
+      "stop" : 1636622480529,
+      "duration" : 2324
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "弹出menu导航栏"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "PowerMyMac下拉栏中页面测试"
+  }, {
+    "name" : "story",
+    "value" : "pmm页面内容测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.powermymac_test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_ppm"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBody"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "26388-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.powermymac_test_case.test_ppm"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "弹出menu导航栏" ]
+  },
+  "source" : "119fdab85b3c5824.json",
+  "parameterValues" : [ ]
+}

@@ -1,2 +1,0 @@
-INFO	2021-11-05 17:54:01,474	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
-INFO	2021-11-05 17:54:02,120	[basepage.py:96]	获取到文本：The Best Photo Management Software on Mac (2021 Update)

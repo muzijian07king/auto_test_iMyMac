@@ -1,7 +1,7 @@
 import allure
 import pytest
 
-from pytest_project.page_object.discount.discountpage import DiscountPage
+from pytest_project.page_object.discount.discount_page import DiscountPage
 from pytest_project.common.readconfig import ini
 from pytest_project.common.readexcel import getExcelAllData, getExcelOneCol
 

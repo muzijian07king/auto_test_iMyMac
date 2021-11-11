@@ -1,0 +1,2 @@
+INFO	2021-11-11 17:10:14,895	[basepage.py:32]	打开网页https://www.imymac.com/mac-cleaner/
+INFO	2021-11-11 17:10:15,061	[basepage.py:90]	点击元素：('css', 'body>div.cleanerBanner>div>div>div.bannerBox>div>a:nth-child(2)')

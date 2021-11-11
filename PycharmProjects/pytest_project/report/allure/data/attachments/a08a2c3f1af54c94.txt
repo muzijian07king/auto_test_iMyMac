@@ -1,0 +1,4 @@
+INFO	2021-11-11 17:09:23,885	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-11 17:09:24,192	[basepage.py:82]	输入文本：123.com
+INFO	2021-11-11 17:09:24,396	[basepage.py:90]	点击元素：('id', 'footerSubscribeBTN')
+INFO	2021-11-11 17:09:25,508	[basepage.py:96]	获取到文本：Email Format Error!

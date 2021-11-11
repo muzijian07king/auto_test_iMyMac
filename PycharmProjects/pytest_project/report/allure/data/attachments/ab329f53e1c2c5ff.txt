@@ -1,4 +1,0 @@
-INFO	2021-11-05 17:53:50,076	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
-INFO	2021-11-05 17:53:54,914	[basepage.py:96]	获取到文本：How to Force Quit Mac Applications
-INFO	2021-11-05 17:53:54,956	[basepage.py:96]	获取到文本：How to Force Quit Mac Applications
-INFO	2021-11-05 17:53:55,021	[basepage.py:96]	获取到文本：How to Force Quit Mac Applications

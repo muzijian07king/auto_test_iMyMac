@@ -1,7 +1,7 @@
 import allure
 import pytest
 from pytest_project.common.readconfig import ini
-from pytest_project.page_object.index.footpage import FootPage
+from pytest_project.page_object.index.foot_page import FootPage
 from pytest_project.common.readelement import Element, get_recursion_key
 
 language = Element('index/language')

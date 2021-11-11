@@ -1,0 +1,216 @@
+{
+  "uid" : "2f9c8ec5765857b5",
+  "name" : "步骤内容测试",
+  "fullName" : "TestCase.discount_test_case.test_discount.TestBody#test_001",
+  "historyId" : "6d5d75c8be15661990ec0d9f7489b91f",
+  "time" : {
+    "start" : 1636621663445,
+    "stop" : 1636621663465,
+    "duration" : 20
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1636621659658,
+      "stop" : 1636621660972,
+      "duration" : 1314
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1636621659658,
+      "stop" : 1636621659658,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1636621659658,
+      "stop" : 1636621659658,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1636621660972,
+      "stop" : 1636621660972,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1636621662729,
+      "stop" : 1636621662729,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "open_url",
+    "time" : {
+      "start" : 1636621662729,
+      "stop" : 1636621663444,
+      "duration" : 715
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "判断步骤文案是否正确",
+      "time" : {
+        "start" : 1636621663445,
+        "stop" : 1636621663465,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "62db2abbbf7002ef",
+      "name" : "log",
+      "source" : "62db2abbbf7002ef.txt",
+      "type" : "text/plain",
+      "size" : 213
+    }, {
+      "uid" : "49130d5768610c59",
+      "name" : "stderr",
+      "source" : "49130d5768610c59.txt",
+      "type" : "text/plain",
+      "size" : 230
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1636622473811,
+      "stop" : 1636622475899,
+      "duration" : 2088
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "step-2==>We’ll review your email and verify, then send you a coupon code."
+  }, {
+    "name" : "feature",
+    "value" : "学生优惠申请页面测试"
+  }, {
+    "name" : "story",
+    "value" : "功能测试"
+  }, {
+    "name" : "severity",
+    "value" : "trivial"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.discount_test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_discount"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBody"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "16904-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.discount_test_case.test_discount"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "context",
+    "value" : "'We’ll review your email and verify, then send you a coupon code.'"
+  }, {
+    "name" : "step",
+    "value" : "'step-2'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "trivial",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "step-2==>We’ll review your email and verify, then send you a coupon code." ]
+  },
+  "source" : "2f9c8ec5765857b5.json",
+  "parameterValues" : [ "'We’ll review your email and verify, then send you a coupon code.'", "'step-2'" ]
+}

@@ -1,0 +1,5 @@
+INFO	2021-11-11 17:20:59,203	[basepage.py:32]	打开网页https://www.imymac.com/video-converter/guide.html
+INFO	2021-11-11 17:20:59,205	[basepage.py:159]	页面滚到元素('css', 'body > div>div.w780>div.tipsBox')
+INFO	2021-11-11 17:21:00,234	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-11 17:21:02,355	[basepage.py:90]	点击元素：('css', 'body > div>div.w780>div.tipsBox>a:nth-child(3)')
+INFO	2021-11-11 17:21:03,387	[basepage.py:96]	获取到文本：Convert MP3 to MIDI: Best Free Online Tools in 2021

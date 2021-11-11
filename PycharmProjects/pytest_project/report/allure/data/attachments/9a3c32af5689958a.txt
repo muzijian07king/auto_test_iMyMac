@@ -1,0 +1,4 @@
+INFO	2021-11-11 17:11:03,781	[basepage.py:32]	打开网页https://www.imymac.com/browser-cleanup/
+INFO	2021-11-11 17:11:03,783	[basepage.py:159]	页面滚到元素('css', 'body>div.menu')
+INFO	2021-11-11 17:11:04,811	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-11 17:11:06,977	[basepage.py:90]	点击元素：('css', 'body>div.menu>div>div>a:nth-child(4)')

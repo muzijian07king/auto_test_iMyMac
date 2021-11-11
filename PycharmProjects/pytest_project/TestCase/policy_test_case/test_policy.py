@@ -1,6 +1,6 @@
 import allure
 
-from pytest_project.page_object.protocol.context import ProtocolPage
+from pytest_project.page_object.protocol.context_page import ProtocolPage
 import pytest
 from pytest_project.common.readexcel import getExcelOneCol, getSheetNames, getValueByIndex
 from pytest_project.common.readconfig import ini

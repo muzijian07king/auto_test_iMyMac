@@ -1,0 +1,2 @@
+[32mINFO    [0m root:basepage.py:32 打开网页https://www.imymac.com/powermymac/
+[32mINFO    [0m root:basepage.py:90 点击元素：('css', 'body > div.banner.text-center > div > div.row > div.col-md-6 >div.btn-group>a:nth-child(1)')

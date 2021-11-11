@@ -1,0 +1,2 @@
+INFO	2021-11-11 17:07:53,724	[basepage.py:32]	打开网页https://www.imymac.com/student-discount/
+INFO	2021-11-11 17:08:00,381	[basepage.py:90]	点击元素：('css', 'body > div > div > div> div > div:nth-child(3) > p > a')

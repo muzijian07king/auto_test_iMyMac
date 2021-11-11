@@ -1,7 +1,7 @@
 import allure
 import pytest
 
-from pytest_project.page_object.powermymac.powermymacpage import PMMPage
+from pytest_project.page_object.powermymac.power_my_mac_page import PMMPage
 from pytest_project.common.readconfig import ini
 from pytest_project.common.readelement import Element, get_branch_all_value, get_branch_all_keys
 

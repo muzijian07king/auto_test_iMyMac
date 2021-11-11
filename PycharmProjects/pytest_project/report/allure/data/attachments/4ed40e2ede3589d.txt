@@ -1,0 +1,1 @@
+INFO	2021-11-11 17:08:45,912	[basepage.py:32]	打开网页https://www.imymac.com/index.html

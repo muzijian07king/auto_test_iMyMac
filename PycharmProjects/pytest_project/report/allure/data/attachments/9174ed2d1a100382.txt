@@ -1,0 +1,16 @@
+INFO	2021-11-11 17:16:38,499	[basepage.py:32]	打开网页https://www.imymac.com/store/
+INFO	2021-11-11 17:16:38,549	[basepage.py:90]	点击元素：('css', '#powermymac-one-month')
+INFO	2021-11-11 17:16:39,564	[basepage.py:181]	切换frame==>pf_631115
+INFO	2021-11-11 17:16:42,044	[basepage.py:153]	使用js操控浏览器==》document.querySelector("#root > div > div.sc-bBjRSN.kEYJmH").style.display="none";
+INFO	2021-11-11 17:16:43,193	[basepage.py:82]	输入文本：123@123.com
+INFO	2021-11-11 17:16:43,294	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div>div>button')
+INFO	2021-11-11 17:16:44,296	[basepage.py:186]	下拉框value选择==》CN
+INFO	2021-11-11 17:16:44,438	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div:nth-child(3)>div>button')
+INFO	2021-11-11 17:16:45,524	[basepage.py:90]	点击元素：('css', '#root > div > div> div> div > div > div >div:nth-child(3)>div>div:nth-child(1)>button')
+INFO	2021-11-11 17:16:48,922	[basepage.py:82]	输入文本：:62122 62502 00918 2455
+INFO	2021-11-11 17:16:49,114	[basepage.py:82]	输入文本：lin
+INFO	2021-11-11 17:16:49,225	[basepage.py:82]	输入文本：24
+INFO	2021-11-11 17:16:49,340	[basepage.py:82]	输入文本：2022
+INFO	2021-11-11 17:16:49,433	[basepage.py:82]	输入文本：568
+INFO	2021-11-11 17:16:49,508	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>div:nth-child(3)>form>div:nth-child(2)>div>button')
+INFO	2021-11-11 17:16:51,538	[basepage.py:211]	获取到text==》['您输入的期限月份无效。']

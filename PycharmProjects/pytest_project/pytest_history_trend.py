@@ -1,4 +1,4 @@
-import json
+import json, os
 
 """
 本地进行记录测试结果，并在allure上显示

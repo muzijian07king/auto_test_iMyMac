@@ -1,4 +1,0 @@
-INFO	2021-11-05 17:55:06,146	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
-INFO	2021-11-05 17:55:07,301	[basepage.py:96]	获取到文本：How To Clear Search History On Chrome, Safari, Firefox
-INFO	2021-11-05 17:55:07,317	[basepage.py:96]	获取到文本：How To Clear Search History On Chrome, Safari, Firefox
-INFO	2021-11-05 17:55:07,333	[basepage.py:96]	获取到文本：How To Clear Search History On Chrome, Safari, Firefox

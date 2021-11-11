@@ -2,7 +2,7 @@ import allure
 import pytest
 
 from pytest_project.common.readexcel import getExcelOneCol
-from pytest_project.page_object.faq.faqspage import FAQSPage
+from pytest_project.page_object.faq.faqs_page import FAQSPage
 from pytest_project.common.readconfig import ini
 from pytest_project.common.readelement import Element, get_branch_all_keys
 

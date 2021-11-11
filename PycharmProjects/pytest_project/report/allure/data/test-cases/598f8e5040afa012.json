@@ -1,0 +1,234 @@
+{
+  "uid" : "598f8e5040afa012",
+  "name" : "测试PDF-Compressor链接",
+  "fullName" : "TestCase.index_test_case.test_head.TestHead#test_001",
+  "historyId" : "f6040c0bc680261ad6f1977365c4d01b",
+  "time" : {
+    "start" : 1636621751247,
+    "stop" : 1636621753404,
+    "duration" : 2157
+  },
+  "description" : "点击网站logo链接",
+  "descriptionHtml" : "<p>点击网站logo链接</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1636621659658,
+      "stop" : 1636621660972,
+      "duration" : 1314
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1636621659658,
+      "stop" : 1636621659658,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1636621659658,
+      "stop" : 1636621659658,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1636621660972,
+      "stop" : 1636621660972,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1636621750899,
+      "stop" : 1636621750900,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "open_index",
+    "time" : {
+      "start" : 1636621750900,
+      "stop" : 1636621751245,
+      "duration" : 345
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "打开谷歌浏览器进入官网",
+      "time" : {
+        "start" : 1636621750900,
+        "stop" : 1636621751245,
+        "duration" : 345
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "drivers",
+        "value" : "<selenium.webdriver.chrome.webdriver.WebDriver (session=\"268c0dacb0617bf164ffc34b97029044\")>"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "点击网站logo链接",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击PDF-Compressor超链接",
+      "time" : {
+        "start" : 1636621751248,
+        "stop" : 1636621753347,
+        "duration" : 2099
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "f721fce187995160",
+      "name" : "log",
+      "source" : "f721fce187995160.txt",
+      "type" : "text/plain",
+      "size" : 234
+    }, {
+      "uid" : "51211cdf650e352a",
+      "name" : "stderr",
+      "source" : "51211cdf650e352a.txt",
+      "type" : "text/plain",
+      "size" : 259
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1636622473811,
+      "stop" : 1636622475899,
+      "duration" : 2088
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "链接测试"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "首页测试"
+  }, {
+    "name" : "story",
+    "value" : "导航栏测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.index_test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_head"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestHead"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "16904-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.index_test_case.test_head"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "link",
+    "value" : "'PDF-Compressor'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "链接测试" ]
+  },
+  "source" : "598f8e5040afa012.json",
+  "parameterValues" : [ "'PDF-Compressor'" ]
+}

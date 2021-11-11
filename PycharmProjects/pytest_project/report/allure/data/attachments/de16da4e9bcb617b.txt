@@ -1,0 +1,3 @@
+INFO	2021-11-11 17:09:19,012	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-11 17:09:30,860	[basepage.py:90]	点击元素：('link', 'Video Converter')
+INFO	2021-11-11 17:09:31,865	[test_head.py:28]	点击链接Video-Converter

@@ -1,6 +1,6 @@
 import allure
 import pytest
-from pytest_project.page_object.store.buypage import BuyPage
+from pytest_project.page_object.store.buy_page import BuyPage
 from pytest_project.common.readconfig import ini
 from pytest_project.common.readelement import Element
 from pytest_project.common.readexcel import getExcelAllData

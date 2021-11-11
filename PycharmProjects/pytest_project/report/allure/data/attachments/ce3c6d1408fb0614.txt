@@ -1,2 +1,0 @@
-INFO	2021-11-05 17:53:55,831	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
-INFO	2021-11-05 17:53:56,838	[basepage.py:96]	获取到文本：How to Securely Delete Files on Mac to Protect Privacy

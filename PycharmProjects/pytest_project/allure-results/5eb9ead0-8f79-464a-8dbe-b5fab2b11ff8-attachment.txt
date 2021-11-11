@@ -1,2 +1,0 @@
-INFO	2021-11-05 17:53:56,449	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
-INFO	2021-11-05 17:53:57,417	[basepage.py:96]	获取到文本：The Best Mac File Shredder in 2021

@@ -1,0 +1,16 @@
+INFO	2021-11-11 17:18:09,287	[basepage.py:32]	打开网页https://www.imymac.com/store/
+INFO	2021-11-11 17:18:09,337	[basepage.py:90]	点击元素：('css', '#powermymac-one-month')
+INFO	2021-11-11 17:18:10,349	[basepage.py:181]	切换frame==>pf_631115
+INFO	2021-11-11 17:18:19,971	[basepage.py:153]	使用js操控浏览器==》document.querySelector("#root > div > div.sc-bBjRSN.kEYJmH").style.display="none";
+INFO	2021-11-11 17:18:21,082	[basepage.py:82]	输入文本：123@123.com
+INFO	2021-11-11 17:18:21,169	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div>div>button')
+INFO	2021-11-11 17:18:22,183	[basepage.py:186]	下拉框value选择==》CN
+INFO	2021-11-11 17:18:22,679	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div:nth-child(3)>div>button')
+INFO	2021-11-11 17:18:24,256	[basepage.py:90]	点击元素：('css', '#root > div > div> div> div > div > div >div:nth-child(3)>div>div:nth-child(1)>button')
+INFO	2021-11-11 17:18:27,409	[basepage.py:82]	输入文本：:62122 62502 00918 2455
+INFO	2021-11-11 17:18:27,477	[basepage.py:82]	输入文本：lin
+INFO	2021-11-11 17:18:27,534	[basepage.py:82]	输入文本：2
+INFO	2021-11-11 17:18:27,600	[basepage.py:82]	输入文本：2022
+INFO	2021-11-11 17:18:27,662	[basepage.py:82]	输入文本：56
+INFO	2021-11-11 17:18:27,727	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>div:nth-child(3)>form>div:nth-child(2)>div>button')
+INFO	2021-11-11 17:18:29,759	[basepage.py:211]	获取到text==》['您输入的 CVV 无效。']

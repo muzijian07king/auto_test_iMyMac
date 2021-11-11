@@ -1,7 +1,7 @@
 import allure
 import pytest
 from pytest_project.common.readconfig import ini
-from pytest_project.page_object.source.sourcepage import SourcePage
+from pytest_project.page_object.source.source_page import SourcePage
 from pytest_project.common.readexcel import getExcelAllData, getExcelOneCol
 
 

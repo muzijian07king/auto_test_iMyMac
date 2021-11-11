@@ -18,10 +18,10 @@ class ConfigManager(object):
     ELEMENT_DIR = os.path.join(BASE_DIR, 'page_element')
 
     # 报告文件文件夹路径
-    REPORT_DIR = os.path.join(BASE_DIR, 'report/pytest_html')
+    REPORT_DIR = os.path.join(BASE_DIR, 'report'+os.sep+'pytest_html')
 
     # 浏览器下载文件默认地址
-    download_dir = r'C:\Users\123\Downloads'
+    download_dir = os.path.join(BASE_DIR, 'download-dir')
 
     # 最新报告文件路径方法
     def get_report_file(self):
@@ -92,4 +92,4 @@ class ConfigManager(object):
 
 cm = ConfigManager()
 if __name__ == '__main__':
-    print(cm.XLSX_DIR)
+    print(cm.REPORT_DIR)

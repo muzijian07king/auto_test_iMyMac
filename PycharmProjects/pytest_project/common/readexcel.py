@@ -1,10 +1,12 @@
-import xlrd, os
+import os
+import xlrd
+from pathlib import Path
 from pytest_project.config.conf import cm
 
 
 def get_excel_data_file_name(name):
     """获取xlsx目录"""
-    file_name = os.path.join(cm.XLSX_DIR, name)
+    file_name = cm.XLSX_DIR / Path(name)
     if os.path.isfile(file_name):
         return file_name
     else:
@@ -101,4 +103,5 @@ if __name__ == '__main__':
     # print(getExcelAllData(name='邮箱错误'))
     # print(getExcelByRow('优惠码错误', 1, 3))
     # print(getExcelOneCol('搜索文章', 1, 'Support/support.xlsx'))
-    print(getSheetNames('Protocol/protocol.xlsx').remove('refund'))
+    # print(getSheetNames('Protocol/protocol.xlsx').remove('refund'))
+    print(get_excel_data_file_name('Protocol/protocol.xlsx'))

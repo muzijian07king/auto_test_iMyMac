@@ -1,0 +1,3 @@
+INFO	2021-11-11 17:11:30,073	[basepage.py:32]	打开网页https://www.imymac.com/mac-uninstaller/
+INFO	2021-11-11 17:11:30,759	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div.whiteBG.w100>div>a:nth-child(2)')
+INFO	2021-11-11 17:11:31,800	[basepage.py:96]	获取到文本：PowerMyMac User Guide

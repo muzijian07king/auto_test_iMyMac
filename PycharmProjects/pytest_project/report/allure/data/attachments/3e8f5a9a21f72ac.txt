@@ -1,0 +1,5 @@
+INFO	2021-11-11 17:20:51,792	[basepage.py:32]	打开网页https://www.imymac.com/video-converter/
+INFO	2021-11-11 17:20:51,794	[basepage.py:159]	页面滚到元素('css', 'body>div.container>div.articleLink')
+INFO	2021-11-11 17:20:52,820	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-11 17:20:55,209	[basepage.py:90]	点击元素：('css', 'body>div.container>div.articleLink>a:nth-child(6)')
+INFO	2021-11-11 17:20:56,254	[basepage.py:96]	获取到文本：How to Convert WebM to MP4 Free Online or Offline

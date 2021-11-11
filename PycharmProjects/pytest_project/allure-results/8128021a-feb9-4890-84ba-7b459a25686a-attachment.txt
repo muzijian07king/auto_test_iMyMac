@@ -1,0 +1,3 @@
+INFO	2021-11-11 17:11:48,751	[basepage.py:32]	打开网页https://www.imymac.com/about-us/
+INFO	2021-11-11 17:11:48,905	[basepage.py:90]	点击元素：('css', 'body>div:nth-child(5)>div>div>div:nth-child(3)>div>p>a')
+INFO	2021-11-11 17:11:49,980	[basepage.py:96]	获取到文本：iMyMac Video Converter

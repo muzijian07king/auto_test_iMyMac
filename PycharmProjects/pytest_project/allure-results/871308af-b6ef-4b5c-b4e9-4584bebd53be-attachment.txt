@@ -1,0 +1,4 @@
+[32mINFO    [0m root:basepage.py:32 打开网页https://www.imymac.com/support/
+[32mINFO    [0m root:basepage.py:90 点击元素：('css', 'body>div:nth-child(4)>div>div:nth-child(2)>a')
+[32mINFO    [0m root:basepage.py:82 输入文本：adggwgwdqw
+[32mINFO    [0m root:basepage.py:90 点击元素：('css', 'body>div:nth-child(4)>div>div>form>button')

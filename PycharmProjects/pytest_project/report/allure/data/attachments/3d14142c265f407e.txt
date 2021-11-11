@@ -1,0 +1,4 @@
+INFO	2021-11-11 17:08:07,258	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-11 17:08:07,876	[basepage.py:90]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(4)>a')
+INFO	2021-11-11 17:08:08,927	[basepage.py:90]	点击元素：('css', 'body>div:nth-child(5)>div:nth-child(2)>div:nth-child(1)>div>div:nth-child(2)>p')
+INFO	2021-11-11 17:08:09,945	[basepage.py:134]	获取到class元素的值==》faqItem faqAnswer-show

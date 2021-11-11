@@ -1,6 +1,6 @@
 import allure
 import pytest
-from pytest_project.page_object.store.storepage import StorePage
+from pytest_project.page_object.store.store_page import StorePage
 from pytest_project.common.readconfig import ini
 from pytest_project.common.readelement import Element, get_values_in_name
 from pytest_project.common.readexcel import getExcelAllData, getExcelOneCol, getExcelByRow
@@ -48,6 +48,8 @@ class TestBody(object):
         """pmm购买页面填写错误格式邮箱功能测试"""
         allure.dynamic.tag('邮箱为==》{}'.format(email_data))
         self.driver.pmm_buy_first_step()
+        self.driver.send_email('')
+        self.driver.confirm_email()
         self.driver.send_email(email_data)
         self.driver.confirm_email()
         assert self.driver.return_email_error_text() == error_text
@@ -85,6 +87,7 @@ class TestBody(object):
         """pmm购买页面未填写地区功能测试"""
         allure.dynamic.tag('地区为空提交')
         self.driver.pmm_buy_two_step()
+        self.driver.js_disable_into_none()
         self.driver.region_select_by_index(0)
         self.driver.confirm_region()
         assert self.driver.return_region_null_error_text()
@@ -209,6 +212,8 @@ class TestBody(object):
         """video购买页面填写错误格式邮箱功能测试"""
         allure.dynamic.tag('邮箱为==》{}'.format(email_data))
         self.driver.video_buy_first_step()
+        self.driver.send_email('')
+        self.driver.confirm_email()
         self.driver.send_email(email_data)
         self.driver.confirm_email()
         assert self.driver.return_email_error_text() == error_text
@@ -241,11 +246,13 @@ class TestBody(object):
         self.driver.region_select(lg)
         assert self.driver.return_region_option_text(language)
 
+    @pytest.mark.skip('设计已修改地区禁止填写为空')
     @allure.title('video购买页面未填写地区测试')
     def test_025(self):
         """video购买页面未填写地区功能测试"""
         allure.dynamic.tag('地区为空提交')
         self.driver.video_buy_two_step()
+        self.driver.js_disable_into_none()
         self.driver.region_select_by_index(0)
         self.driver.confirm_region()
         assert self.driver.return_region_null_error_text()

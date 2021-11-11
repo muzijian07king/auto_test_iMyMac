@@ -1,0 +1,9 @@
+INFO	2021-11-11 17:15:19,242	[basepage.py:32]	打开网页https://www.imymac.com/store/
+INFO	2021-11-11 17:15:19,278	[basepage.py:90]	点击元素：('css', '#powermymac-one-month')
+INFO	2021-11-11 17:15:20,285	[basepage.py:181]	切换frame==>pf_631115
+INFO	2021-11-11 17:15:22,074	[basepage.py:153]	使用js操控浏览器==》document.querySelector("#root > div > div.sc-bBjRSN.kEYJmH").style.display="none";
+INFO	2021-11-11 17:15:23,177	[basepage.py:82]	输入文本：123@123.com
+INFO	2021-11-11 17:15:23,251	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div>div>button')
+INFO	2021-11-11 17:15:24,259	[basepage.py:186]	下拉框value选择==》CN
+INFO	2021-11-11 17:15:24,382	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div:nth-child(3)>div>button')
+INFO	2021-11-11 17:15:25,408	[basepage.py:96]	获取到文本：US$9.95

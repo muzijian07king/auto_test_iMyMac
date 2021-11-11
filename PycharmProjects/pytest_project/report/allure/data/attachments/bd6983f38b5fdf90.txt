@@ -1,0 +1,2 @@
+INFO	2021-11-11 17:14:20,108	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-11 17:14:23,106	[basepage.py:96]	获取到文本：3 Ways to Find and Remove Dropbox Duplicate Files

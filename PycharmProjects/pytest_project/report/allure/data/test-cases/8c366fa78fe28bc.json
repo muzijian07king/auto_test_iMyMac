@@ -1,0 +1,477 @@
+{
+  "uid" : "8c366fa78fe28bc",
+  "name" : "pmm购买页面添加支付卡信息错误测试",
+  "fullName" : "TestCase.store_test_case.test_store.TestBody#test_016",
+  "historyId" : "f099a1dce240f703706a0c34e9dabc87",
+  "time" : {
+    "start" : 1636622051101,
+    "stop" : 1636622066530,
+    "duration" : 15429
+  },
+  "description" : "pmm购买页面添加支付卡信息错误功能测试",
+  "descriptionHtml" : "<p>pmm购买页面添加支付卡信息错误功能测试</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1636621659658,
+      "stop" : 1636621659658,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1636621659658,
+      "stop" : 1636621659658,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1636621659658,
+      "stop" : 1636621661114,
+      "duration" : 1456
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1636621661114,
+      "stop" : 1636621661114,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1636622050887,
+      "stop" : 1636622050887,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "open_url",
+    "time" : {
+      "start" : 1636622050887,
+      "stop" : 1636622051100,
+      "duration" : 213
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "pmm购买页面添加支付卡信息错误功能测试",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "进入购买ppm第三步页面",
+      "time" : {
+        "start" : 1636622051101,
+        "stop" : 1636622060464,
+        "duration" : 9363
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "进入购买ppm第二步页面",
+        "time" : {
+          "start" : 1636622051101,
+          "stop" : 1636622059310,
+          "duration" : 8209
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "进入购买ppm第一步页面",
+          "time" : {
+            "start" : 1636622051101,
+            "stop" : 1636622058068,
+            "duration" : 6967
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "切换到pmm购买页面",
+            "time" : {
+              "start" : 1636622052150,
+              "stop" : 1636622057060,
+              "duration" : 4910
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 1,
+          "hasContent" : true
+        }, {
+          "name" : "输入邮箱",
+          "time" : {
+            "start" : 1636622058069,
+            "stop" : 1636622058193,
+            "duration" : 124
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "text",
+            "value" : "'123@123.com'"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "点击确认邮箱按钮",
+          "time" : {
+            "start" : 1636622058193,
+            "stop" : 1636622059310,
+            "duration" : 1117
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 4,
+        "hasContent" : true
+      }, {
+        "name" : "点击地区下拉框",
+        "time" : {
+          "start" : 1636622059310,
+          "stop" : 1636622059364,
+          "duration" : 54
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "language",
+          "value" : "'CN'"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "点击确认地区",
+        "time" : {
+          "start" : 1636622059364,
+          "stop" : 1636622060464,
+          "duration" : 1100
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 7,
+      "hasContent" : true
+    }, {
+      "name" : "选择卡片支付",
+      "time" : {
+        "start" : 1636622060464,
+        "stop" : 1636622064078,
+        "duration" : 3614
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入卡号",
+      "time" : {
+        "start" : 1636622064078,
+        "stop" : 1636622064149,
+        "duration" : 71
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "number",
+        "value" : "'12347'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "输入持卡人",
+      "time" : {
+        "start" : 1636622064149,
+        "stop" : 1636622064203,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "''"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "输入截至月",
+      "time" : {
+        "start" : 1636622064203,
+        "stop" : 1636622064268,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "month",
+        "value" : "''"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "输入截至年",
+      "time" : {
+        "start" : 1636622064268,
+        "stop" : 1636622064340,
+        "duration" : 72
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "year",
+        "value" : "'2022'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "输入安全码",
+      "time" : {
+        "start" : 1636622064340,
+        "stop" : 1636622064407,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "pwd",
+        "value" : "'568'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "提交输入卡信息",
+      "time" : {
+        "start" : 1636622064408,
+        "stop" : 1636622066493,
+        "duration" : 2085
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "判断卡支付错误信息",
+      "time" : {
+        "start" : 1636622066493,
+        "stop" : 1636622066530,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "a9e94e4731103850",
+      "name" : "log",
+      "source" : "a9e94e4731103850.txt",
+      "type" : "text/plain",
+      "size" : 1526
+    }, {
+      "uid" : "d39a5a60ccf9b3ce",
+      "name" : "stderr",
+      "source" : "d39a5a60ccf9b3ce.txt",
+      "type" : "text/plain",
+      "size" : 1655
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 16,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1636622480645,
+      "stop" : 1636622482739,
+      "duration" : 2094
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "填写支付卡信息"
+  }, {
+    "name" : "story",
+    "value" : "Store主页内容测试"
+  }, {
+    "name" : "feature",
+    "value" : "Store页面测试"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.store_test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_store"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBody"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "436-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.store_test_case.test_store"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "error_text",
+    "value" : "'您输入的信用卡无效。'"
+  }, {
+    "name" : "month",
+    "value" : "''"
+  }, {
+    "name" : "name",
+    "value" : "''"
+  }, {
+    "name" : "number",
+    "value" : "'12347'"
+  }, {
+    "name" : "pwd",
+    "value" : "'568'"
+  }, {
+    "name" : "year",
+    "value" : "'2022'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "填写支付卡信息" ]
+  },
+  "source" : "8c366fa78fe28bc.json",
+  "parameterValues" : [ "'您输入的信用卡无效。'", "''", "''", "'12347'", "'568'", "'2022'" ]
+}

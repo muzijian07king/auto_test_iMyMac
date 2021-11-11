@@ -1,7 +1,7 @@
 import allure
 import pytest
 
-from pytest_project.page_object.video_converter.videopage import VideoPage
+from pytest_project.page_object.video_converter.video_page import VideoPage
 from pytest_project.common.readconfig import ini
 from pytest_project.common.readelement import Element, get_branch_all_keys
 

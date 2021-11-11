@@ -1,0 +1,4 @@
+INFO	2021-11-11 17:08:42,018	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-11 17:08:42,020	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollTop=1760
+INFO	2021-11-11 17:08:44,175	[basepage.py:90]	点击元素：('id', 'top-btn')
+INFO	2021-11-11 17:08:46,257	[basepage.py:134]	获取到class元素的值==》top-btn t4s

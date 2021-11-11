@@ -2,7 +2,7 @@ import allure
 import pytest
 
 from pytest_project.common.readexcel import getExcelAllData
-from pytest_project.page_object.contact.index import ContactPage
+from pytest_project.page_object.contact.index_page import ContactPage
 from pytest_project.common.readconfig import ini
 
 

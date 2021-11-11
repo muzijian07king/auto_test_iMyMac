@@ -1,0 +1,5 @@
+INFO	2021-11-11 17:10:13,332	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-11 17:10:13,335	[basepage.py:159]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-11 17:10:14,431	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-11 17:10:17,023	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(4)')
+INFO	2021-11-11 17:10:18,155	[basepage.py:211]	获取到text==》['IMPORTANT--READ CAREFULLY', 'SOFTWARE PRODUCT LICENSE', 'LIMITED WARRANTY', 'NO WARRANTIES', 'SEVERABILITY', 'NO LIABILITY FOR DAMAGES', 'MISCELLANEOUS', 'DISCLAIMER', 'PRIVACY STATEMENT', 'OTHER TERMS']

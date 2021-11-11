@@ -1,9 +1,8 @@
 import os
 from builtins import isinstance
-from typing import Any
-
 import yaml
 from pytest_project.config.conf import cm
+from pathlib import Path
 
 
 class Element(object):
@@ -13,12 +12,12 @@ class Element(object):
     '''
 
     def __init__(self, name):
-        '''
+        """
         读取yaml位置以及内容
         :param name:
-        '''
+        """
         self.file_name = '%s.yaml' % name
-        self.element_path = os.path.join(cm.ELEMENT_DIR, self.file_name)
+        self.element_path = cm.ELEMENT_DIR / Path(self.file_name)
         if not os.path.exists(self.element_path):
             raise FileExistsError('%s 文件不存在' % self.element_path)
         with open(self.element_path, encoding='utf-8') as f:
@@ -55,12 +54,9 @@ def get_any_key_info(key_name="", yaml_data=None):
                 return value
 
 
-keys = []
-
-
 class get_recursion_key(object):
     def __init__(self):
-        keys.clear()
+        self.keys = []
 
     def get_recursion_key(self, datas):
         """递归获取所有的键值对的key"""
@@ -73,17 +69,14 @@ class get_recursion_key(object):
                 if recursion is None:
                     return recursion
             else:
-                keys.append(self.key)
-        return keys
-
-
-list_root = []
+                self.keys.append(self.key)
+        return self.keys
 
 
 class get_root_all_value(object):
 
     def __init__(self):
-        list_root.clear()
+        self.list_root = []
 
     def get_root_all_value(self, datas):
         """
@@ -98,17 +91,14 @@ class get_root_all_value(object):
                     return values
             else:
                 k, v = self.value.split('=', 1)
-                list_root.append((k, v))
-        return list_root
-
-
-list_branch = []
+                self.list_root.append((k, v))
+        return self.list_root
 
 
 class get_branch_all_value(object):
 
     def __init__(self):
-        list_branch.clear()
+        self.list_branch = []
 
     def get_branch_all_value(self, datas, name=''):
         """
@@ -128,19 +118,16 @@ class get_branch_all_value(object):
                             return values
                     else:
                         tuple_key, tuple_value = value.split('=', 1)
-                        list_branch.append((tuple_key, tuple_value))
+                        self.list_branch.append((tuple_key, tuple_value))
             else:
                 tuple_1, tuple_2 = get_any_key_info(name, datas)
-                list_branch.append((tuple_1, tuple_2))
-            return list_branch
-
-
-list_keys = []
+                self.list_branch.append((tuple_1, tuple_2))
+            return self.list_branch
 
 
 class get_branch_all_keys(object):
     def __init__(self):
-        list_keys.clear()
+        self.list_keys = []
 
     def get_branch_all_keys(self, datas=None, name=''):
         """
@@ -159,21 +146,21 @@ class get_branch_all_keys(object):
                         if self.value is None:
                             return values
                     else:
-                        list_keys.append(self.key)
+                        self.list_keys.append(self.key)
             else:
                 for i in get_recursion_key().get_recursion_key(datas):
-                    list_keys.append(i)
-            return list_keys
+                    self.list_keys.append(i)
+            return self.list_keys
 
 
 list_value = []
 
 
 class get_values_in_name(object):
-
     """
     根据name获取所有的value
     """
+
     def __init__(self):
         list_value.clear()
 
@@ -195,11 +182,39 @@ class get_values_in_name(object):
         return list_value
 
 
-if __name__ == '__main__':
-    index = Element('Discount/discount')
+def get_branch_value_with_key(key, data, branch=None):
+    """
+    获取某个节点下的某一个元素的值
+    :param key: 元素key
+    :param data:yaml数据
+    :param branch: 节点名 默认为空
+    :return:key对应的值
+    """
+    if branch is None:
+        "判断节点是否为空"
+        return data[key]
+    elif isinstance(data[branch], dict):
+        for i in data[branch].keys():
+            "遍历该节点下的所有key"
+            if i == key:
+                return tuple(data[branch][i].split('=', 1))
+            elif type(data[branch][i]) == dict:
+                "key对应的value是字典就递归"
+                value = get_branch_value_with_key(key, data[branch], i)
+                if value is not None:
+                    return value
 
+
+if __name__ == '__main__':
+    body = Element('Store/body')
+    print(body.element_path)
+    # print(body['cancelCouponButton'])
+    # print(get_branch_all_keys().get_branch_all_keys(sitemap.data, 'Company'))
+    # print(get_branch_all_keys().get_branch_all_keys(sitemap.data, 'Products'))
+    # print(get_branch_all_keys().get_branch_all_keys(sitemap.data, 'Help'))
+    # print(get_branch_all_keys().get_branch_all_keys(sitemap.data, 'More'))
     # # print(get_recursion_key(foot.data))
-    print(get_any_key_info('sql', index.data))
+    # print(get_branch_value_with_key('PowerMyMac', sitemap.data, 'More'))
     # # print(foot['Youtube'])
     # # print(get_branch_all_value(foot.data))
     # # print(get_recursion_key(foot.data))

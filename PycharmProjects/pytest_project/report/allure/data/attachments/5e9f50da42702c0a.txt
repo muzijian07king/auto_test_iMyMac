@@ -1,0 +1,5 @@
+INFO	2021-11-11 17:10:57,208	[basepage.py:32]	打开网页https://www.imymac.com/similar-image-finder/
+INFO	2021-11-11 17:10:57,210	[basepage.py:159]	页面滚到元素('id', 'carousel-review')
+INFO	2021-11-11 17:10:58,246	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-11 17:11:00,351	[basepage.py:90]	点击元素：('css', '#carousel-review>ol>li:nth-child(2)>div')
+INFO	2021-11-11 17:11:01,386	[basepage.py:134]	获取到class元素的值==》item active

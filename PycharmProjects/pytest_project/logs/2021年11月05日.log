@@ -576,3 +576,107 @@ WARNING	2021-11-05 17:55:20,875	[connectionpool.py:780]	Retrying (Retry(total=0,
 WARNING	2021-11-05 17:55:25,096	[connectionpool.py:780]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A14B9CFBB0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/d78e90dbd9913cba749f16f9c14c45ef
 WARNING	2021-11-05 17:55:27,121	[connectionpool.py:780]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A14B899EB0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/d78e90dbd9913cba749f16f9c14c45ef
 WARNING	2021-11-05 17:55:29,149	[connectionpool.py:780]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A14B899A00>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/d78e90dbd9913cba749f16f9c14c45ef
+INFO	2021-11-05 18:01:56,736	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 18:01:57,814	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 18:01:57,938	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 18:01:57,939	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 18:01:59,892	[basepage.py:96]	获取到文本：How to Flush DNS Cache on Mac
+INFO	2021-11-05 18:01:59,967	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 18:02:00,513	[basepage.py:96]	获取到文本：How to Force Quit Mac Applications
+INFO	2021-11-05 18:02:00,529	[basepage.py:96]	获取到文本：How to Force Quit Mac Applications
+INFO	2021-11-05 18:02:00,542	[basepage.py:96]	获取到文本：How to Force Quit Mac Applications
+INFO	2021-11-05 18:02:00,876	[basepage.py:96]	获取到文本：Your Best File Manager for Mac as of 2021
+INFO	2021-11-05 18:02:00,942	[basepage.py:96]	获取到文本：How to Delete System Log Files on Mac
+INFO	2021-11-05 18:02:00,966	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 18:02:01,032	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 18:02:02,267	[basepage.py:96]	获取到文本：How to Fix MacBook Running Slow
+INFO	2021-11-05 18:02:02,346	[basepage.py:96]	获取到文本：How to Securely Delete Files on Mac to Protect Privacy
+INFO	2021-11-05 18:02:02,387	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 18:02:02,499	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 18:02:03,202	[basepage.py:96]	获取到文本：How to Format A Flash Drive on Mac
+INFO	2021-11-05 18:02:03,288	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 18:02:03,626	[basepage.py:96]	获取到文本：How to find my stolen MacBook?
+INFO	2021-11-05 18:02:03,750	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 18:02:03,912	[basepage.py:96]	获取到文本：How to Hide Files on Mac
+INFO	2021-11-05 18:02:04,003	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 18:02:04,420	[basepage.py:96]	获取到文本：Find Duplicate Files on Mac to Remove for Free
+INFO	2021-11-05 18:02:04,537	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 18:02:04,811	[basepage.py:96]	获取到文本：The Best Duplicate Photo Finder on Mac in 2021
+INFO	2021-11-05 18:02:04,827	[basepage.py:96]	获取到文本：The Best Duplicate Photo Finder on Mac in 2021
+INFO	2021-11-05 18:02:04,842	[basepage.py:96]	获取到文本：The Best Duplicate Photo Finder on Mac in 2021
+INFO	2021-11-05 18:02:05,253	[basepage.py:96]	获取到文本：How to Use NTFS
+INFO	2021-11-05 18:02:05,353	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 18:02:06,610	[basepage.py:96]	获取到文本：3 Ways to Find and Remove Dropbox Duplicate Files
+INFO	2021-11-05 18:02:06,678	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 18:02:06,850	[basepage.py:96]	获取到文本：How to Clean Up Macbook Storage
+INFO	2021-11-05 18:02:06,942	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 18:02:07,290	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 18:02:07,858	[basepage.py:96]	获取到文本：The Best Mac File Shredder in 2021
+INFO	2021-11-05 18:02:07,979	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 18:02:08,442	[basepage.py:96]	获取到文本：How To Clear Search History On Chrome, Safari, Firefox
+INFO	2021-11-05 18:02:08,460	[basepage.py:96]	获取到文本：How To Clear Search History On Chrome, Safari, Firefox
+INFO	2021-11-05 18:02:08,473	[basepage.py:96]	获取到文本：How To Clear Search History On Chrome, Safari, Firefox
+INFO	2021-11-05 18:02:08,678	[basepage.py:96]	获取到文本：How to Force Quit Mac Applications
+INFO	2021-11-05 18:02:08,692	[basepage.py:96]	获取到文本：How to Force Quit Mac Applications
+INFO	2021-11-05 18:02:08,707	[basepage.py:96]	获取到文本：How to Force Quit Mac Applications
+INFO	2021-11-05 18:02:09,181	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 18:02:09,423	[basepage.py:96]	获取到文本：Startup Disk Full on Mac? 11 Tips to Free up Space!
+INFO	2021-11-05 18:02:09,550	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 18:02:10,584	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 18:02:10,757	[basepage.py:96]	获取到文本：The Best Photo Management Software on Mac (2021 Update)
+INFO	2021-11-05 18:02:10,885	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 18:02:11,034	[basepage.py:96]	获取到文本：How to Speed Up Mac? 11 Tricks to Make Your Mac Run Faster
+INFO	2021-11-05 18:02:11,037	[basepage.py:96]	获取到文本：The Best Duplicate Photo Finder on Mac in 2021
+INFO	2021-11-05 18:02:11,083	[basepage.py:96]	获取到文本：The Best Duplicate Photo Finder on Mac in 2021
+INFO	2021-11-05 18:02:11,106	[basepage.py:96]	获取到文本：The Best Duplicate Photo Finder on Mac in 2021
+INFO	2021-11-05 18:02:11,193	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 18:02:11,759	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 18:02:11,853	[basepage.py:96]	获取到文本：Cut the Clutter: Arrange and Organize Mac Files
+INFO	2021-11-05 18:02:11,872	[basepage.py:96]	获取到文本：Cut the Clutter: Arrange and Organize Mac Files
+INFO	2021-11-05 18:02:11,894	[basepage.py:96]	获取到文本：Cut the Clutter: Arrange and Organize Mac Files
+INFO	2021-11-05 18:02:13,005	[basepage.py:96]	获取到文本：How to Find Similar Images on Your Mac?
+INFO	2021-11-05 18:02:13,077	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 18:02:14,655	[basepage.py:96]	获取到文本：How to Clear Cookies on Mac
+INFO	2021-11-05 18:02:14,790	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 18:02:14,848	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 18:02:14,877	[basepage.py:96]	获取到文本：App Not Safe on Mac? Full Solution Are Offered Here
+INFO	2021-11-05 18:02:15,049	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 18:02:15,508	[basepage.py:96]	获取到文本：How To Clear Search History On Chrome, Safari, Firefox
+INFO	2021-11-05 18:02:15,529	[basepage.py:96]	获取到文本：How To Clear Search History On Chrome, Safari, Firefox
+INFO	2021-11-05 18:02:15,578	[basepage.py:96]	获取到文本：How To Clear Search History On Chrome, Safari, Firefox
+INFO	2021-11-05 18:02:16,023	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 18:02:16,057	[basepage.py:96]	获取到文本：How to Enable or Disable Mac Extensions
+INFO	2021-11-05 18:02:16,168	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 18:02:17,263	[basepage.py:96]	获取到文本：How to Completely Uninstall Microsoft Office on Mac [2021 Update]
+INFO	2021-11-05 18:02:17,356	[basepage.py:96]	获取到文本：Firefox Keeps Crashing on Mac? Top Solutions in 2021
+INFO	2021-11-05 18:02:17,432	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 18:02:17,725	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 18:02:17,727	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 18:02:17,952	[basepage.py:96]	获取到文本：How to Uninstall Apps on Mac with Its Related Files
+INFO	2021-11-05 18:02:18,282	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 18:02:18,498	[basepage.py:96]	获取到文本：Cut the Clutter: Arrange and Organize Mac Files
+INFO	2021-11-05 18:02:18,517	[basepage.py:96]	获取到文本：Cut the Clutter: Arrange and Organize Mac Files
+INFO	2021-11-05 18:02:18,533	[basepage.py:96]	获取到文本：Cut the Clutter: Arrange and Organize Mac Files
+INFO	2021-11-05 18:02:19,002	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 18:02:19,164	[basepage.py:96]	获取到文本：Useful Tips & Tricks on How to Convert PDF to Word on Mac
+INFO	2021-11-05 18:02:19,292	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 18:02:19,786	[basepage.py:96]	获取到文本：How to Edit a PDF on Mac for Free Using Preview
+INFO	2021-11-05 18:02:19,948	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 18:02:20,436	[basepage.py:96]	获取到文本：How to Resize An Image on Mac?
+INFO	2021-11-05 18:02:20,515	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 18:02:20,773	[basepage.py:96]	获取到文本：Convert M4A to MP3 on Mac- Quick and Easy Guide
+INFO	2021-11-05 18:02:22,201	[basepage.py:96]	获取到文本：Convert WMA to MP3 Online for Free with High Quality
+INFO	2021-11-05 18:02:22,212	[basepage.py:96]	获取到文本：Convert WMA to MP3 Online for Free with High Quality
+INFO	2021-11-05 18:02:22,225	[basepage.py:96]	获取到文本：Convert WMA to MP3 Online for Free with High Quality
+INFO	2021-11-05 18:02:23,483	[basepage.py:96]	获取到文本：Big Bonus in 2021: What Are The Best Free PDF Editors for Mac
+INFO	2021-11-05 18:02:23,555	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 18:02:27,665	[basepage.py:96]	获取到文本：How to Compress A PDF on Mac with Original Quality (Free)
+INFO	2021-11-05 18:02:27,735	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-05 18:02:29,616	[basepage.py:96]	获取到文本：Convert MP3 to MIDI: Best Free Online Tools in 2021
+INFO	2021-11-05 18:02:30,764	[basepage.py:96]	获取到文本：Convert FLAC to MP3 on Mac - Best Guide in 2021
+WARNING	2021-11-05 18:02:31,685	[connectionpool.py:780]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002358EC0F610>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/4f06cf60b731329377bc44c9245b7ad0/timeouts
+WARNING	2021-11-05 18:02:33,704	[connectionpool.py:780]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002358ECF3DF0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/4f06cf60b731329377bc44c9245b7ad0/timeouts
+WARNING	2021-11-05 18:02:35,733	[connectionpool.py:780]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002358ECF3E80>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/4f06cf60b731329377bc44c9245b7ad0/timeouts
+WARNING	2021-11-05 18:02:39,928	[connectionpool.py:780]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002358F0ABCD0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/4f06cf60b731329377bc44c9245b7ad0
+WARNING	2021-11-05 18:02:41,963	[connectionpool.py:780]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002358EFCFDF0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/4f06cf60b731329377bc44c9245b7ad0
+WARNING	2021-11-05 18:02:44,000	[connectionpool.py:780]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002358EFCFBB0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/4f06cf60b731329377bc44c9245b7ad0

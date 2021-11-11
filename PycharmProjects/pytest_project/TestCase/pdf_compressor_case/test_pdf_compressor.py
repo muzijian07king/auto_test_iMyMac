@@ -1,7 +1,7 @@
 import allure
 import pytest
 
-from pytest_project.page_object.pdf_compressor.compressorpage import CompressorPage
+from pytest_project.page_object.pdf_compressor.compressor_page import CompressorPage
 from pytest_project.common.readconfig import ini
 from pytest_project.common.readelement import Element, get_branch_all_value
 

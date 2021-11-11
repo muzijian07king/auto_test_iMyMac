@@ -1,0 +1,5 @@
+INFO	2021-11-11 17:20:47,059	[basepage.py:32]	打开网页https://www.imymac.com/video-converter/
+INFO	2021-11-11 17:20:47,061	[basepage.py:159]	页面滚到元素('css', 'body>div.container>div.articleLink')
+INFO	2021-11-11 17:20:48,091	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-11 17:20:50,661	[basepage.py:90]	点击元素：('css', 'body>div.container>div.articleLink>a:nth-child(5)')
+INFO	2021-11-11 17:20:51,709	[basepage.py:96]	获取到文本：Convert FLAC to MP3 on Mac - Best Guide in 2021

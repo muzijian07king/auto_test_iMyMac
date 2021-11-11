@@ -1,0 +1,4 @@
+[32mINFO    [0m root:basepage.py:32 打开网页https://www.imymac.com/mac-cleaner/
+[32mINFO    [0m root:basepage.py:159 页面滚到元素('css', 'body>div.container.text-center>div.articleLink')
+[32mINFO    [0m root:basepage.py:153 使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+[32mINFO    [0m root:basepage.py:90 点击元素：('css', 'body>div.container.text-center>div.articleLink>a:nth-child(3)')

@@ -1,2 +1,0 @@
-INFO	2021-11-05 17:53:54,766	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
-INFO	2021-11-05 17:53:56,205	[basepage.py:96]	获取到文本：How to Clean Up Macbook Storage

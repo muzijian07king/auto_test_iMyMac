@@ -1,2 +1,0 @@
-INFO	2021-11-05 17:54:04,107	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
-INFO	2021-11-05 17:54:04,767	[basepage.py:96]	获取到文本：How to Enable or Disable Mac Extensions

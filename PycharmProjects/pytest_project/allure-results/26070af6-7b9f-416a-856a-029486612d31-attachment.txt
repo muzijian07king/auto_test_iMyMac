@@ -1,0 +1,5 @@
+[32mINFO    [0m root:basepage.py:32 打开网页https://www.imymac.com/index.html
+[32mINFO    [0m root:basepage.py:159 页面滚到元素('css', 'body>footer')
+[32mINFO    [0m root:basepage.py:153 使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+[32mINFO    [0m root:basepage.py:90 点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(3)')
+[32mINFO    [0m root:basepage.py:211 获取到text==》['Money Back Guarantee', 'Circumstances of No Refund', 'Circumstances of Eligible Refund']

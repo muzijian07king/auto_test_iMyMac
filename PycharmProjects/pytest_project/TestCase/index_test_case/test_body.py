@@ -1,7 +1,7 @@
 import allure
 import pytest
 from pytest_project.common.readconfig import ini
-from pytest_project.page_object.index.bodypage import BodyPage
+from pytest_project.page_object.index.body_page import BodyPage
 from pytest_project.common.readelement import Element, get_branch_all_keys
 from pytest_project.config.conf import cm
 

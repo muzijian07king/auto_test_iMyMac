@@ -1,0 +1,5 @@
+INFO	2021-11-11 17:07:43,973	[basepage.py:32]	打开网页https://www.imymac.com/student-discount/
+INFO	2021-11-11 17:07:44,034	[basepage.py:82]	输入文本：123@123.123
+INFO	2021-11-11 17:07:44,069	[basepage.py:90]	点击元素：('css', 'body>div:nth-child(4)>div>div:nth-child(3)>div>button')
+INFO	2021-11-11 17:07:45,078	[basepage.py:216]	等待元素可见==》body>div:nth-child(4)>div>div:nth-child(3)>div>div
+INFO	2021-11-11 17:07:45,111	[basepage.py:96]	获取到文本：Please check out if your student email on the below list.

@@ -1,2 +1,0 @@
-INFO	2021-11-05 17:53:50,420	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
-INFO	2021-11-05 17:53:54,609	[basepage.py:96]	获取到文本：How to Flush DNS Cache on Mac

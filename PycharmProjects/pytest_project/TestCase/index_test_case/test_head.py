@@ -3,7 +3,7 @@ import pytest
 
 from pytest_project.common.readconfig import ini
 
-from pytest_project.page_object.index.headpage import HeadPage
+from pytest_project.page_object.index.head_page import HeadPage
 from pytest_project.common.readelement import Element, get_recursion_key
 from pytest_project.utils.logger import log
 

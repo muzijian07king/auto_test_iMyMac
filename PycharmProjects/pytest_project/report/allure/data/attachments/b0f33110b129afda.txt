@@ -1,2 +1,0 @@
-INFO	2021-11-05 17:54:00,970	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
-INFO	2021-11-05 17:54:02,117	[basepage.py:96]	获取到文本：Startup Disk Full on Mac? 11 Tips to Free up Space!

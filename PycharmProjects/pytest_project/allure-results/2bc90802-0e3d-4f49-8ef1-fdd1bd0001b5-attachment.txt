@@ -1,0 +1,6 @@
+INFO	2021-11-11 17:13:30,942	[basepage.py:32]	打开网页https://www.imymac.com/store/
+INFO	2021-11-11 17:13:30,985	[basepage.py:90]	点击元素：('css', '#powermymac-one-month')
+INFO	2021-11-11 17:13:31,997	[basepage.py:181]	切换frame==>pf_631115
+INFO	2021-11-11 17:13:36,901	[basepage.py:153]	使用js操控浏览器==》document.querySelector("#root > div > div.sc-bBjRSN.kEYJmH").style.display="none";
+INFO	2021-11-11 17:13:37,914	[basepage.py:186]	下拉框value选择==》2
+INFO	2021-11-11 17:13:40,994	[basepage.py:96]	获取到文本：US$19.90
