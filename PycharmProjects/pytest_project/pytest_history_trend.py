@@ -6,7 +6,7 @@ import json, os
 
 
 def t():
-    with open('history-trend.json', 'r') as file:
+    with open('utils/history-trend.json', 'r') as file:
         before_data = json.load(file)
 
     with open('report/allure/widgets/history-trend.json', 'r') as file:
@@ -22,7 +22,7 @@ def t():
         before_data.sort(key=lambda x: x["buildOrder"], reverse=True)
         json.dump(before_data, file)
 
-    with open('history-trend.json', 'w') as file:
+    with open('utils/history-trend.json', 'w') as file:
         json.dump(before_data, file)
 
 

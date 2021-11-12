@@ -1,1 +1,10 @@
-[ ]
+[ {
+  "name" : "Jenkins",
+  "type" : "jenkins",
+  "url" : "http://localhost:8080/jenkins/",
+  "buildOrder" : 17,
+  "buildName" : "项目空间 #17",
+  "buildUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/17/",
+  "reportName" : "AllureReport",
+  "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/17/allure"
+} ]

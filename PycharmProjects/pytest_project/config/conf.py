@@ -1,5 +1,6 @@
-import os
+import os, sys
 from selenium.webdriver.common.by import By
+
 from pytest_project.utils.times import datetime_format
 
 
@@ -18,7 +19,7 @@ class ConfigManager(object):
     ELEMENT_DIR = os.path.join(BASE_DIR, 'page_element')
 
     # 报告文件文件夹路径
-    REPORT_DIR = os.path.join(BASE_DIR, 'report'+os.sep+'pytest_html')
+    REPORT_DIR = os.path.join(BASE_DIR, 'report' + os.sep + 'pytest_html')
 
     # 浏览器下载文件默认地址
     download_dir = os.path.join(BASE_DIR, 'download-dir')
@@ -92,4 +93,4 @@ class ConfigManager(object):
 
 cm = ConfigManager()
 if __name__ == '__main__':
-    print(cm.REPORT_DIR)
+    print(sys.path)

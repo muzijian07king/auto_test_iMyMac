@@ -1,10 +1,11 @@
 import os
-from pytest_project.config.conf import cm
+
+download_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'download-dir')
 
 
 def clear_download_files():
-    for i in os.listdir(cm.download_dir):
-        os.remove(cm.download_dir + os.sep + i)
+    for i in os.listdir(download_dir):
+        os.remove(download_dir + os.sep + i)
 
 
 clear_download_files()

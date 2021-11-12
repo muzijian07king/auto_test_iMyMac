@@ -24,7 +24,7 @@ def drivers():
     option.add_experimental_option('prefs', prefs)
     global driver
     if driver is None:
-        driver = webdriver.Chrome(chrome_options=option)
+        driver = webdriver.Chrome(options=option)
     yield driver
     driver.quit()
 

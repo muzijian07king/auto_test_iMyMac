@@ -1,1 +1,101 @@
-[ ]
+[ {
+  "uid" : "3fb79d04a0e25c3c",
+  "name" : "提交邮箱测试",
+  "time" : {
+    "start" : 1636709207249,
+    "stop" : 1636709207249,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "9aaa8b449bbd6cfc",
+  "name" : "提交邮箱测试",
+  "time" : {
+    "start" : 1636709225738,
+    "stop" : 1636709225739,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "bb4ccabb235011e4",
+  "name" : "步骤内容测试",
+  "time" : {
+    "start" : 1636709225703,
+    "stop" : 1636709225725,
+    "duration" : 22
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "8ac2c987027c746",
+  "name" : "购买链接测试",
+  "time" : {
+    "start" : 1636709207346,
+    "stop" : 1636709209094,
+    "duration" : 1748
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "83693f3079bc0c3",
+  "name" : "支持优惠邮箱测试",
+  "time" : {
+    "start" : 1636709207727,
+    "stop" : 1636709208063,
+    "duration" : 336
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "cf2165c31fe9316f",
+  "name" : "步骤内容测试",
+  "time" : {
+    "start" : 1636709207212,
+    "stop" : 1636709207234,
+    "duration" : 22
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "ac4c0c64c9b7dce1",
+  "name" : "步骤内容测试",
+  "time" : {
+    "start" : 1636709209246,
+    "stop" : 1636709209267,
+    "duration" : 21
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "21d9d6df548aa792",
+  "name" : "查询邮箱拥有优惠测试",
+  "time" : {
+    "start" : 1636709207251,
+    "stop" : 1636709207251,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "ac9b56784994849a",
+  "name" : "提交邮箱测试",
+  "time" : {
+    "start" : 1636709209281,
+    "stop" : 1636709209281,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "c219dabfc0a4a968",
+  "name" : "打开邮箱工具测试",
+  "time" : {
+    "start" : 1636709209752,
+    "stop" : 1636709209771,
+    "duration" : 19
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

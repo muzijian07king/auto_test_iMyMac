@@ -1,4 +1,15 @@
 {
-  "total" : 0,
-  "items" : [ ]
+  "total" : 1,
+  "items" : [ {
+    "uid" : "2799013b8521dfa239f099678d002ed3",
+    "name" : "TestCase.discount_test_case",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 4,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 10
+    }
+  } ]
 }

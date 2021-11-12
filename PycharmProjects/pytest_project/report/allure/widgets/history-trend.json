@@ -1,1 +1,25 @@
-[{"data": {"failed": 0, "broken": 0, "skipped": 0, "passed": 0, "unknown": 0, "total": 0}, "buildOrder": 5}, {"data": {"failed": 0, "broken": 0, "skipped": 4, "passed": 532, "unknown": 0, "total": 536}, "buildOrder": 4}, {"data": {"failed": 0, "broken": 10, "skipped": 4, "passed": 522, "unknown": 0, "total": 536}, "buildOrder": 3}, {"data": {"failed": 1, "broken": 7, "skipped": 3, "passed": 525, "unknown": 0, "total": 536}, "buildOrder": 2}, {"data": {"failed": 0, "broken": 80, "skipped": 3, "passed": 453, "unknown": 0, "total": 536}, "buildOrder": 1}]
+[ {
+  "buildOrder" : 17,
+  "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/17/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 4,
+    "passed" : 6,
+    "unknown" : 0,
+    "total" : 10
+  }
+}, {
+  "buildOrder" : 16,
+  "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/16/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 4,
+    "passed" : 6,
+    "unknown" : 0,
+    "total" : 10
+  }
+} ]

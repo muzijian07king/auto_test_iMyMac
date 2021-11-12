@@ -1,5 +1,147 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "TestCase.discount_test_case",
+    "children" : [ {
+      "name" : "test_discount",
+      "children" : [ {
+        "name" : "TestBody",
+        "children" : [ {
+          "name" : "步骤内容测试",
+          "uid" : "cf2165c31fe9316f",
+          "parentUid" : "a9e25998cb592bf2ee7d99887c7d5f9b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636709207212,
+            "stop" : 1636709207234,
+            "duration" : 22
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'Apply your discount with the coupon code after choosing desired product in https://www.imymac.com/store/'", "'step-3'" ]
+        }, {
+          "name" : "提交邮箱测试",
+          "uid" : "3fb79d04a0e25c3c",
+          "parentUid" : "a9e25998cb592bf2ee7d99887c7d5f9b",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1636709207249,
+            "stop" : 1636709207249,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'123@ac.uk'", "'Your applying message has been sent successfully, we will contact you asap!'" ]
+        }, {
+          "name" : "查询邮箱拥有优惠测试",
+          "uid" : "21d9d6df548aa792",
+          "parentUid" : "a9e25998cb592bf2ee7d99887c7d5f9b",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1636709207251,
+            "stop" : 1636709207251,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "购买链接测试",
+          "uid" : "8ac2c987027c746",
+          "parentUid" : "a9e25998cb592bf2ee7d99887c7d5f9b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636709207346,
+            "stop" : 1636709209094,
+            "duration" : 1748
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "支持优惠邮箱测试",
+          "uid" : "83693f3079bc0c3",
+          "parentUid" : "a9e25998cb592bf2ee7d99887c7d5f9b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636709207727,
+            "stop" : 1636709208063,
+            "duration" : 336
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "步骤内容测试",
+          "uid" : "ac4c0c64c9b7dce1",
+          "parentUid" : "a9e25998cb592bf2ee7d99887c7d5f9b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636709209246,
+            "stop" : 1636709209267,
+            "duration" : 21
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'We’ll review your email and verify, then send you a coupon code.'", "'step-2'" ]
+        }, {
+          "name" : "提交邮箱测试",
+          "uid" : "ac9b56784994849a",
+          "parentUid" : "a9e25998cb592bf2ee7d99887c7d5f9b",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1636709209281,
+            "stop" : 1636709209281,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'123@123.123'", "'Please check out if your student email on the below list.'" ]
+        }, {
+          "name" : "打开邮箱工具测试",
+          "uid" : "c219dabfc0a4a968",
+          "parentUid" : "a9e25998cb592bf2ee7d99887c7d5f9b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636709209752,
+            "stop" : 1636709209771,
+            "duration" : 19
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "步骤内容测试",
+          "uid" : "bb4ccabb235011e4",
+          "parentUid" : "a9e25998cb592bf2ee7d99887c7d5f9b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636709225703,
+            "stop" : 1636709225725,
+            "duration" : 22
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'Submit your email in the box below.'", "'step-1'" ]
+        }, {
+          "name" : "提交邮箱测试",
+          "uid" : "9aaa8b449bbd6cfc",
+          "parentUid" : "a9e25998cb592bf2ee7d99887c7d5f9b",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1636709225738,
+            "stop" : 1636709225739,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "''", "'Please type your student email.'" ]
+        } ],
+        "uid" : "a9e25998cb592bf2ee7d99887c7d5f9b"
+      } ],
+      "uid" : "01a8c9f833610af9a728105e7d8e681b"
+    } ],
+    "uid" : "2799013b8521dfa239f099678d002ed3"
+  } ]
 }

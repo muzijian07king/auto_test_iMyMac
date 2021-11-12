@@ -429,7 +429,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
 }
 </script>
     <h1>2021年11月12日测试报告</h1>
-    <p>Report generated on 12-Nov-2021 at 14:22:08 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
+    <p>Report generated on 12-Nov-2021 at 17:27:07 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -450,8 +450,8 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
     <h2>Summary</h2>
     <p>所属部门：测试小组</p>
     <p>测试执行人：李健</p>
-    <p>0 tests ran in 1.54 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">0 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">4 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>, <input checked="true" class="filter" data-test-result="rerun" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="rerun">0 rerun</span>
+    <p>6 tests ran in 25.15 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">6 passed</span>, <input checked="true" class="filter" data-test-result="skipped" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">4 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>, <input checked="true" class="filter" data-test-result="rerun" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="rerun">0 rerun</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -463,39 +463,93 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
           <th class="sortable links" col="links">Links</th></tr>
         <tr hidden="true" id="not-found-message">
           <th colspan="5">No results found. Try to check the filters</th></tr></thead>
-      <tbody class="error results-table-row">
+      <tbody class="skipped results-table-row">
         <tr>
-          <td class="col-result">Error</td>
-          <td class="col-name">::collect</td>
-          <td class="col-duration"></td>
+          <td class="col-result">Skipped</td>
+          <td class="col-name">TestCase/discount_test_case/test_discount.py::TestBody::test_003[123@ac.uk-Your applying message has been sent successfully, we will contact you asap!]</td>
+          <td class="col-duration">0.00</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">c:\users\123\appdata\local\programs\python\python39\lib\site-packages\_pytest\config\__init__.py:570: in _importconftest<br/>    mod = import_path(conftestpath, mode=importmode)<br/>c:\users\123\appdata\local\programs\python\python39\lib\site-packages\_pytest\pathlib.py:544: in import_path<br/>    raise ImportPathMismatchError(module_name, module_file, path)<br/><span class="error">E   _pytest.pathlib.ImportPathMismatchError: (&#x27;pytest_project.conftest&#x27;, &#x27;D:\\auto_test_iMyMac\\PycharmProjects\\pytest_project\\conftest.py&#x27;, WindowsPath(&#x27;D:/auto_test_iMyMac/PycharmProjects/pytest_project/PycharmProjects/pytest_project/conftest.py&#x27;))</span><br/></div></td></tr></tbody>
-      <tbody class="error results-table-row">
+            <div class="log">[gw2] win32 -- Python 3.9.6 c:\users\123\appdata\local\programs\python\python39\python.exe<br/>[gw2] win32 -- Python 3.9.6 c:\users\123\appdata\local\programs\python\python39\python.exe<br/>(&#x27;D:\\auto_test_iMyMac\\PycharmProjects\\pytest_project\\TestCase\\discount_test_case\\test_discount.py&#x27;, 32, &#x27;Skipped: 功能暂时取消&#x27;)[gw2] win32 -- Python 3.9.6 c:\users\123\appdata\local\programs\python\python39\python.exe<br/></div></td></tr></tbody>
+      <tbody class="skipped results-table-row">
         <tr>
-          <td class="col-result">Error</td>
-          <td class="col-name">::collect</td>
-          <td class="col-duration"></td>
+          <td class="col-result">Skipped</td>
+          <td class="col-name">TestCase/discount_test_case/test_discount.py::TestBody::test_005</td>
+          <td class="col-duration">0.00</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">c:\users\123\appdata\local\programs\python\python39\lib\site-packages\_pytest\config\__init__.py:570: in _importconftest<br/>    mod = import_path(conftestpath, mode=importmode)<br/>c:\users\123\appdata\local\programs\python\python39\lib\site-packages\_pytest\pathlib.py:544: in import_path<br/>    raise ImportPathMismatchError(module_name, module_file, path)<br/><span class="error">E   _pytest.pathlib.ImportPathMismatchError: (&#x27;pytest_project.conftest&#x27;, &#x27;D:\\auto_test_iMyMac\\PycharmProjects\\pytest_project\\conftest.py&#x27;, WindowsPath(&#x27;D:/auto_test_iMyMac/PycharmProjects/pytest_project/PycharmProjects/pytest_project/conftest.py&#x27;))</span><br/></div></td></tr></tbody>
-      <tbody class="error results-table-row">
+            <div class="log">[gw2] win32 -- Python 3.9.6 c:\users\123\appdata\local\programs\python\python39\python.exe<br/>[gw2] win32 -- Python 3.9.6 c:\users\123\appdata\local\programs\python\python39\python.exe<br/>(&#x27;D:\\auto_test_iMyMac\\PycharmProjects\\pytest_project\\TestCase\\discount_test_case\\test_discount.py&#x27;, 48, &#x27;Skipped: 功能未完成&#x27;)[gw2] win32 -- Python 3.9.6 c:\users\123\appdata\local\programs\python\python39\python.exe<br/></div></td></tr></tbody>
+      <tbody class="skipped results-table-row">
         <tr>
-          <td class="col-result">Error</td>
-          <td class="col-name">::collect</td>
-          <td class="col-duration"></td>
+          <td class="col-result">Skipped</td>
+          <td class="col-name">TestCase/discount_test_case/test_discount.py::TestBody::test_003[123@123.123-Please check out if your student email on the below list.]</td>
+          <td class="col-duration">2.06</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">c:\users\123\appdata\local\programs\python\python39\lib\site-packages\_pytest\config\__init__.py:570: in _importconftest<br/>    mod = import_path(conftestpath, mode=importmode)<br/>c:\users\123\appdata\local\programs\python\python39\lib\site-packages\_pytest\pathlib.py:544: in import_path<br/>    raise ImportPathMismatchError(module_name, module_file, path)<br/><span class="error">E   _pytest.pathlib.ImportPathMismatchError: (&#x27;pytest_project.conftest&#x27;, &#x27;D:\\auto_test_iMyMac\\PycharmProjects\\pytest_project\\conftest.py&#x27;, WindowsPath(&#x27;D:/auto_test_iMyMac/PycharmProjects/pytest_project/PycharmProjects/pytest_project/conftest.py&#x27;))</span><br/></div></td></tr></tbody>
-      <tbody class="error results-table-row">
+            <div class="log">[gw1] win32 -- Python 3.9.6 c:\users\123\appdata\local\programs\python\python39\python.exe<br/>[gw1] win32 -- Python 3.9.6 c:\users\123\appdata\local\programs\python\python39\python.exe<br/>(&#x27;D:\\auto_test_iMyMac\\PycharmProjects\\pytest_project\\TestCase\\discount_test_case\\test_discount.py&#x27;, 32, &#x27;Skipped: 功能暂时取消&#x27;)[gw1] win32 -- Python 3.9.6 c:\users\123\appdata\local\programs\python\python39\python.exe<br/></div></td></tr></tbody>
+      <tbody class="skipped results-table-row">
         <tr>
-          <td class="col-result">Error</td>
-          <td class="col-name">::collect</td>
-          <td class="col-duration"></td>
+          <td class="col-result">Skipped</td>
+          <td class="col-name">TestCase/discount_test_case/test_discount.py::TestBody::test_003[-Please type your student email.]</td>
+          <td class="col-duration">2.04</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">c:\users\123\appdata\local\programs\python\python39\lib\site-packages\_pytest\config\__init__.py:570: in _importconftest<br/>    mod = import_path(conftestpath, mode=importmode)<br/>c:\users\123\appdata\local\programs\python\python39\lib\site-packages\_pytest\pathlib.py:544: in import_path<br/>    raise ImportPathMismatchError(module_name, module_file, path)<br/><span class="error">E   _pytest.pathlib.ImportPathMismatchError: (&#x27;pytest_project.conftest&#x27;, &#x27;D:\\auto_test_iMyMac\\PycharmProjects\\pytest_project\\conftest.py&#x27;, WindowsPath(&#x27;D:/auto_test_iMyMac/PycharmProjects/pytest_project/PycharmProjects/pytest_project/conftest.py&#x27;))</span><br/></div></td></tr></tbody></table></body></html>
+            <div class="log">[gw0] win32 -- Python 3.9.6 c:\users\123\appdata\local\programs\python\python39\python.exe<br/>[gw0] win32 -- Python 3.9.6 c:\users\123\appdata\local\programs\python\python39\python.exe<br/>(&#x27;D:\\auto_test_iMyMac\\PycharmProjects\\pytest_project\\TestCase\\discount_test_case\\test_discount.py&#x27;, 32, &#x27;Skipped: 功能暂时取消&#x27;)[gw0] win32 -- Python 3.9.6 c:\users\123\appdata\local\programs\python\python39\python.exe<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">TestCase/discount_test_case/test_discount.py::TestBody::test_001[step-3-Apply your discount with the coupon code after choosing desired product in https://www.imymac.com/store/]</td>
+          <td class="col-duration">3.12</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">通过的用例未捕获日志输出.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">TestCase/discount_test_case/test_discount.py::TestBody::test_002</td>
+          <td class="col-duration">4.97</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">通过的用例未捕获日志输出.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">TestCase/discount_test_case/test_discount.py::TestBody::test_001[step-2-Weâll review your email and verify, then send you a coupon code.]</td>
+          <td class="col-duration">5.15</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">通过的用例未捕获日志输出.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">TestCase/discount_test_case/test_discount.py::TestBody::test_006</td>
+          <td class="col-duration">2.88</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">通过的用例未捕获日志输出.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">TestCase/discount_test_case/test_discount.py::TestBody::test_004</td>
+          <td class="col-duration">2.71</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">通过的用例未捕获日志输出.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">TestCase/discount_test_case/test_discount.py::TestBody::test_001[step-1-Submit your email in the box below.]</td>
+          <td class="col-duration">21.61</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">通过的用例未捕获日志输出.</div></td></tr></tbody></table></body></html>
