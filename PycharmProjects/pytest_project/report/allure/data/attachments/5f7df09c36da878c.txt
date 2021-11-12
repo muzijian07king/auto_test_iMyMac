@@ -1,2 +1,0 @@
-[32mINFO    [0m root:basepage.py:32 打开网页https://www.imymac.com/contact/
-[32mINFO    [0m root:basepage.py:134 获取到href元素的值==》mailto:support@imymac.com

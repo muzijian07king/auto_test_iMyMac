@@ -1,4 +1,0 @@
-INFO	2021-11-11 17:11:14,279	[basepage.py:32]	打开网页https://www.imymac.com/resource/
-INFO	2021-11-11 17:11:14,300	[basepage.py:96]	获取到文本：Removal Guide: How to Uninstall Perian on Mac Properly
-INFO	2021-11-11 17:11:21,233	[basepage.py:90]	点击元素：('css', 'body>div:nth-child(5)>div>div:nth-child(2)>div>div:nth-child(1)>p:nth-child(1)>a')
-INFO	2021-11-11 17:11:22,260	[basepage.py:96]	获取到文本：Removal Guide: How to Uninstall Perian on Mac Properly

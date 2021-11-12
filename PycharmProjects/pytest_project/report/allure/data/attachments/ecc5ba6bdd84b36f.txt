@@ -1,2 +1,0 @@
-INFO	2021-11-11 17:12:59,944	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
-INFO	2021-11-11 17:13:11,120	[basepage.py:96]	获取到文本：How to Speed Up Mac? 11 Tricks to Make Your Mac Run Faster

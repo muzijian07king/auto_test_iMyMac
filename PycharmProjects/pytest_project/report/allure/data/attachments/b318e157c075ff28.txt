@@ -1,9 +1,0 @@
-INFO	2021-11-11 17:10:18,249	[basepage.py:32]	打开网页https://www.imymac.com/index.html
-INFO	2021-11-11 17:10:18,252	[basepage.py:159]	页面滚到元素('css', 'body>footer')
-INFO	2021-11-11 17:10:19,316	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
-INFO	2021-11-11 17:10:21,928	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(1)')
-INFO	2021-11-11 17:10:22,963	[basepage.py:148]	获取到href元素的值==》mailto:support@imymac.com
-INFO	2021-11-11 17:10:22,972	[basepage.py:148]	获取到href元素的值==》mailto:support@imymac.com
-INFO	2021-11-11 17:10:22,979	[basepage.py:148]	获取到href元素的值==》mailto:support@imymac.com
-INFO	2021-11-11 17:10:22,988	[basepage.py:148]	获取到href元素的值==》mailto:support@imymac.com
-INFO	2021-11-11 17:10:22,998	[basepage.py:148]	获取到href元素的值==》mailto:support@imymac.com

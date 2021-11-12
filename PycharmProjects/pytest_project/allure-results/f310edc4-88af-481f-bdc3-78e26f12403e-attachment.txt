@@ -1,3 +1,0 @@
-INFO	2021-11-11 17:10:22,058	[basepage.py:32]	打开网页https://www.imymac.com/resource/
-INFO	2021-11-11 17:10:23,534	[basepage.py:90]	点击元素：('css', 'body>div:nth-child(5)>div:nth-child(2)>div>div:nth-child(2)>a:nth-child(2)')
-INFO	2021-11-11 17:10:24,562	[basepage.py:96]	获取到文本：Cleaner

@@ -1,4 +1,0 @@
-INFO	2021-11-11 17:09:09,581	[basepage.py:32]	打开网页https://www.imymac.com/index.html
-INFO	2021-11-11 17:09:09,759	[basepage.py:82]	输入文本：123@qq.com
-INFO	2021-11-11 17:09:09,824	[basepage.py:90]	点击元素：('id', 'footerSubscribeBTN')
-INFO	2021-11-11 17:09:10,865	[basepage.py:96]	获取到文本：Successfully

@@ -1,4 +1,0 @@
-INFO	2021-11-11 17:13:02,603	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
-INFO	2021-11-11 17:13:03,327	[basepage.py:90]	点击元素：('css', 'body >div:nth-child(4)>div>div>div:nth-child(2)>div>div:nth-child(6)>a')
-INFO	2021-11-11 17:13:04,435	[basepage.py:90]	点击元素：('xpath', "//div[@class='productBox'][1]/ol/li[1]/a")
-INFO	2021-11-11 17:13:05,447	[basepage.py:221]	获取到title==>How to Clear Cookies on Mac In All Browsers? [One-click]

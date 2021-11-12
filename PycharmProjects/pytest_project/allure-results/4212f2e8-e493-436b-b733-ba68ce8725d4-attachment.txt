@@ -1,2 +1,0 @@
-INFO	2021-11-11 17:08:39,551	[basepage.py:32]	打开网页https://www.imymac.com/index.html
-INFO	2021-11-11 17:08:40,876	[basepage.py:90]	点击元素：('link', 'More Guides')

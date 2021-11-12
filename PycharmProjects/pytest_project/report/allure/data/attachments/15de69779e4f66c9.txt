@@ -1,5 +1,0 @@
-[32mINFO    [0m root:basepage.py:32 打开网页https://www.imymac.com/student-discount/
-[32mINFO    [0m root:basepage.py:82 输入文本：123@123.123
-[32mINFO    [0m root:basepage.py:90 点击元素：('css', 'body>div:nth-child(4)>div>div:nth-child(3)>div>button')
-[32mINFO    [0m root:basepage.py:216 等待元素可见==》body>div:nth-child(4)>div>div:nth-child(3)>div>div
-[32mINFO    [0m root:basepage.py:96 获取到文本：Please check out if your student email on the below list.

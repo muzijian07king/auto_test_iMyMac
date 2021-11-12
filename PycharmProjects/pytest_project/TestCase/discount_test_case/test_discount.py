@@ -29,6 +29,7 @@ class TestBody(object):
         self.driver.click_store_link()
         assert self.driver.if_goto_store()
 
+    @pytest.mark.skip('功能暂时取消')
     @pytest.mark.parametrize('email,feedback', getExcelAllData('提交反馈信息', 'Discount/discount.xlsx'))
     @allure.title('提交邮箱测试')
     @allure.severity('critical')

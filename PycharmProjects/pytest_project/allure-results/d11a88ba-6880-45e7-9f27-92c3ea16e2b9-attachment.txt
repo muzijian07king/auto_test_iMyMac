@@ -1,3 +1,0 @@
-INFO	2021-11-11 17:12:57,479	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
-INFO	2021-11-11 17:12:58,318	[basepage.py:90]	点击元素：('css', 'body >div:nth-child(4)>div>div>div:nth-child(2)>div>div:nth-child(5)>a')
-INFO	2021-11-11 17:12:59,345	[basepage.py:96]	获取到文本：Duplicate Finder

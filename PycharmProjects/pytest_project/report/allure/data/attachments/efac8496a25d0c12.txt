@@ -1,2 +1,0 @@
-INFO	2021-11-11 17:07:42,692	[basepage.py:32]	打开网页https://www.imymac.com/contact/
-INFO	2021-11-11 17:07:42,715	[basepage.py:96]	获取到文本：If you prepare to purchase or had bought products from iMyMac, please feel free to contact us by email with any questions.

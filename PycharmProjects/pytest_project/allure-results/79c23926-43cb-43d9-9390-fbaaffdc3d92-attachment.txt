@@ -1,3 +1,0 @@
-INFO	2021-11-11 17:08:31,167	[basepage.py:32]	打开网页https://www.imymac.com/index.html
-INFO	2021-11-11 17:08:31,222	[basepage.py:90]	点击元素：('css', '#indexBannerCarousel>a:nth-child(3)')
-INFO	2021-11-11 17:08:32,253	[basepage.py:134]	获取到class元素的值==》item

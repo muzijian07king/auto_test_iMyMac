@@ -1,2 +1,0 @@
-INFO	2021-11-11 17:08:38,862	[basepage.py:32]	打开网页https://www.imymac.com/index.html
-INFO	2021-11-11 17:08:40,073	[basepage.py:90]	点击元素：('css', '#indexBannerCarousel>div>div:nth-child(1)>div>div>div>a:nth-child(1)')

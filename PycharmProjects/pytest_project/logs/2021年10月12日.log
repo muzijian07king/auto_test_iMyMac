@@ -1,4 +1,0 @@
-INFO	2021-10-12 17:11:03,260	[basepage.py:132]	使用js操控浏览器==》document.documentElement.scrollTop=1100
-INFO	2021-10-12 17:11:52,477	[basepage.py:132]	使用js操控浏览器==》document.documentElement.scrollTop=1100
-INFO	2021-10-12 17:12:49,895	[basepage.py:132]	使用js操控浏览器==》document.documentElement.scrollTop=1100
-INFO	2021-10-12 17:12:51,032	[basepage.py:88]	点击元素：('css', 'body>div.menu>div>div>a:nth-child(1)')

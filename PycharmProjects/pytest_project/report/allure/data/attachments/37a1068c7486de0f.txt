@@ -1,3 +1,0 @@
-INFO	2021-11-11 17:12:42,276	[basepage.py:32]	打开网页https://www.imymac.com/store/
-INFO	2021-11-11 17:12:42,368	[basepage.py:90]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(1)>div:nth-child(2)>a:nth-child(6)')
-INFO	2021-11-11 17:12:43,395	[basepage.py:96]	获取到文本：Select Your PowerMyMac License

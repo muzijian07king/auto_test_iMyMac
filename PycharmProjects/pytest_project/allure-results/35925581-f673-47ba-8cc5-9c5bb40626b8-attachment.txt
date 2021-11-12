@@ -1,3 +1,0 @@
-INFO	2021-11-11 17:10:55,864	[basepage.py:32]	打开网页https://www.imymac.com/similar-image-finder/
-INFO	2021-11-11 17:10:55,959	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div.whiteBG.w100>div>a:nth-child(1)')
-INFO	2021-11-11 17:10:56,984	[basepage.py:96]	获取到文本：PowerMyMac - Similar Image Finder

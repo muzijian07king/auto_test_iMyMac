@@ -1,7 +1,0 @@
-[32mINFO    [0m root:basepage.py:32 打开网页https://www.imymac.com/resource/
-[32mINFO    [0m root:basepage.py:82 输入文本：imymac
-[32mINFO    [0m root:basepage.py:90 点击元素：('css', 'body>div:nth-child(4)>div>div>form>button')
-[32mINFO    [0m root:basepage.py:96 获取到文本：iMyMac | Smart Cleanup and Optimize Your Mac
-www.imymac.com
-iMyMac aims to develop apps that make your Mac powerful like a superman. You can use 20+ features in one tool in a click. Clean, protect and optimize your ...
-[32mINFO    [0m root:basepage.py:96 获取到文本：imymac

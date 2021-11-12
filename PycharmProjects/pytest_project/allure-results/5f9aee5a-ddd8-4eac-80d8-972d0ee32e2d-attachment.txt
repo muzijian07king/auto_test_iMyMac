@@ -1,5 +1,0 @@
-[32mINFO    [0m root:basepage.py:32 打开网页https://www.imymac.com/mac-uninstaller/
-[32mINFO    [0m root:basepage.py:159 页面滚到元素('css', 'body>div.borderBG2')
-[32mINFO    [0m root:basepage.py:153 使用js操控浏览器==》document.documentElement.scrollBy(0,1)
-[32mINFO    [0m root:basepage.py:90 点击元素：('css', '#carousel-review-other>ol>li:nth-child(2)')
-[32mINFO    [0m root:basepage.py:134 获取到class元素的值==》item active

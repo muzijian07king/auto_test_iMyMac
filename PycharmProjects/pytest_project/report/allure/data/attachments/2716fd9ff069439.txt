@@ -1,3 +1,0 @@
-INFO	2021-11-11 17:19:49,243	[basepage.py:32]	打开网页https://www.imymac.com/support/
-INFO	2021-11-11 17:19:49,764	[basepage.py:90]	点击元素：('css', 'body>div:nth-child(4)>div>div:nth-child(4)>a')
-INFO	2021-11-11 17:19:50,793	[basepage.py:96]	获取到文本：Refund Policy

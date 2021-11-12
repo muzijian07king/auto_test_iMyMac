@@ -1,5 +1,0 @@
-[32mINFO    [0m root:basepage.py:32 打开网页https://www.imymac.com/faqs.html
-[32mINFO    [0m root:basepage.py:90 点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(1)>a')
-[32mINFO    [0m root:basepage.py:90 点击元素：('css', 'body>div:nth-child(5)>div:nth-child(2)>div:nth-child(1)>div>div:nth-child(2)>p')
-[32mINFO    [0m root:basepage.py:90 点击元素：('css', 'body>div:nth-child(5)>div:nth-child(2)>div:nth-child(1)>div>div:nth-child(2)>p')
-[32mINFO    [0m root:basepage.py:134 获取到class元素的值==》faqItem

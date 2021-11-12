@@ -1,6 +1,0 @@
-[32mINFO    [0m root:basepage.py:32 打开网页https://www.imymac.com/store/
-[32mINFO    [0m root:basepage.py:90 点击元素：('css', '#video-converter-one-year')
-[32mINFO    [0m root:basepage.py:181 切换frame==>pf_588082
-[32mINFO    [0m root:basepage.py:153 使用js操控浏览器==》document.querySelector("#root > div > div.sc-bBjRSN.kEYJmH").style.display="none";
-[32mINFO    [0m root:basepage.py:186 下拉框value选择==》10
-[32mINFO    [0m root:basepage.py:96 获取到文本：US$199.50

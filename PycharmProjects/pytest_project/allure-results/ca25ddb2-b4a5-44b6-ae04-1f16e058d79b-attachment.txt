@@ -1,5 +1,0 @@
-INFO	2021-11-11 17:09:29,852	[basepage.py:32]	打开网页https://www.imymac.com/index.html
-INFO	2021-11-11 17:09:29,941	[basepage.py:102]	鼠标悬停在('link', 'PowerMyMac')
-INFO	2021-11-11 17:09:30,219	[test_head.py:39]	点击PowerMyMac下拉框
-INFO	2021-11-11 17:09:30,880	[basepage.py:90]	点击元素：('link', 'Similar Image Finder')
-INFO	2021-11-11 17:09:31,881	[test_head.py:41]	点击链接Similar-Image-Finder

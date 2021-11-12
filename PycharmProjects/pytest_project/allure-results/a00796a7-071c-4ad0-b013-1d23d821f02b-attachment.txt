@@ -1,2 +1,0 @@
-INFO	2021-11-11 17:12:18,793	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
-INFO	2021-11-11 17:12:19,238	[basepage.py:96]	获取到文本：Convert M4A to MP3 on Mac- Quick and Easy Guide

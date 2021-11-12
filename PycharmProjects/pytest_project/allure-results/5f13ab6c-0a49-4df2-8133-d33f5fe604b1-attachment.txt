@@ -1,3 +1,0 @@
-INFO	2021-11-11 17:20:56,271	[basepage.py:32]	打开网页https://www.imymac.com/video-converter/guide.html
-INFO	2021-11-11 17:20:56,369	[basepage.py:90]	点击元素：('css', 'body > div.container > div:nth-child(1) > div > div.guideBox > a:nth-child(1)')
-INFO	2021-11-11 17:20:57,413	[basepage.py:96]	获取到文本：iMyMac Video Converter

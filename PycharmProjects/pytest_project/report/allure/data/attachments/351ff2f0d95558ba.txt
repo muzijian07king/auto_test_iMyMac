@@ -1,3 +1,0 @@
-INFO	2021-11-11 17:09:07,495	[basepage.py:32]	打开网页https://www.imymac.com/index.html
-INFO	2021-11-11 17:09:08,061	[basepage.py:90]	点击元素：('css', 'body>footer>div>div>div.w166>div>a')
-INFO	2021-11-11 17:09:10,359	[basepage.py:90]	点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(8)>a')

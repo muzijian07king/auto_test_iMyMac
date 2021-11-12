@@ -1,2 +1,0 @@
-INFO	2021-11-11 17:11:28,708	[basepage.py:32]	打开网页https://www.imymac.com/mac-uninstaller/
-INFO	2021-11-11 17:11:28,916	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div.bannerInfo>div>a:nth-child(2)')

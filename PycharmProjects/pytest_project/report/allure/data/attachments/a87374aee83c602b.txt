@@ -1,7 +1,0 @@
-INFO	2021-11-11 17:09:36,076	[basepage.py:32]	打开网页https://www.imymac.com/index.html
-INFO	2021-11-11 17:09:36,192	[basepage.py:90]	点击元素：('id', 'navSearchBTN')
-INFO	2021-11-11 17:09:37,200	[test_head.py:63]	点击搜索按钮
-INFO	2021-11-11 17:09:37,270	[basepage.py:82]	输入文本： 
-INFO	2021-11-11 17:09:37,270	[test_head.py:65]	输入关键字
-INFO	2021-11-11 17:09:38,856	[basepage.py:113]	按下回车
-INFO	2021-11-11 17:09:38,856	[test_head.py:67]	按下回车

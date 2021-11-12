@@ -1,2 +1,0 @@
-INFO	2021-11-11 17:07:53,419	[basepage.py:32]	打开网页https://www.imymac.com/student-discount/
-INFO	2021-11-11 17:07:53,442	[basepage.py:96]	获取到文本：Apply your discount with the coupon code after choosing desired product in https://www.imymac.com/store/

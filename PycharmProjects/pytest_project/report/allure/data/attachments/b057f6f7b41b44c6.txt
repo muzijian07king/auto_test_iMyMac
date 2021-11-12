@@ -1,5 +1,0 @@
-INFO	2021-11-11 17:09:58,387	[basepage.py:32]	打开网页https://www.imymac.com/index.html
-INFO	2021-11-11 17:09:58,389	[basepage.py:159]	页面滚到元素('css', 'body>footer')
-INFO	2021-11-11 17:09:59,468	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
-INFO	2021-11-11 17:10:02,225	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(1)')
-INFO	2021-11-11 17:10:03,337	[basepage.py:211]	获取到text==》['Applicability Of This Privacy Policy', 'Information We Collect and Receive', 'Cookies', 'Collection Information from Children', 'Use of Your Personal Information', 'How We Share And Disclose Information', "Third Parties' Applications and Products", 'Data Storage, Transfer, Retention, And Deletion', 'Updates to our Privacy Policy', 'How to Contact Us']

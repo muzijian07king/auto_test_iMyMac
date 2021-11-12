@@ -1,3 +1,0 @@
-INFO	2021-11-11 17:12:29,538	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
-INFO	2021-11-11 17:12:41,596	[basepage.py:90]	点击元素：('css', 'body>div:nth-child(4)>div>div>div>div:nth-child(3)>ul>li:nth-child(2)>a')
-INFO	2021-11-11 17:12:42,603	[basepage.py:221]	获取到title==>Mac Cleaner - Easily Clean Up Your Mac with iMyMac

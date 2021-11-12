@@ -1,3 +1,0 @@
-INFO	2021-11-11 17:07:54,145	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
-INFO	2021-11-11 17:07:54,819	[basepage.py:90]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(4)>a')
-INFO	2021-11-11 17:07:55,852	[basepage.py:96]	获取到文本：Mac Cleaner FAQs

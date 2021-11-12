@@ -1,9 +1,0 @@
-INFO	2021-11-11 17:12:51,936	[basepage.py:32]	打开网页https://www.imymac.com/store/
-INFO	2021-11-11 17:12:51,975	[basepage.py:90]	点击元素：('css', '#powermymac-one-month')
-INFO	2021-11-11 17:12:52,989	[basepage.py:181]	切换frame==>pf_631115
-INFO	2021-11-11 17:12:54,965	[basepage.py:153]	使用js操控浏览器==》document.querySelector("#root > div > div.sc-bBjRSN.kEYJmH").style.display="none";
-INFO	2021-11-11 17:12:56,029	[basepage.py:82]	输入文本：
-INFO	2021-11-11 17:12:56,114	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div>div>button')
-INFO	2021-11-11 17:12:57,208	[basepage.py:82]	输入文本：m111
-INFO	2021-11-11 17:12:57,318	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div>div>button')
-INFO	2021-11-11 17:12:58,354	[basepage.py:96]	获取到文本：您输入的邮箱无效。

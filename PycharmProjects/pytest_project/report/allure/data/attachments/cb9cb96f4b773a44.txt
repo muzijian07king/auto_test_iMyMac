@@ -1,5 +1,0 @@
-INFO	2021-11-11 17:09:13,721	[basepage.py:32]	打开网页https://www.imymac.com/index.html
-INFO	2021-11-11 17:09:14,165	[basepage.py:102]	鼠标悬停在('link', 'PowerMyMac')
-INFO	2021-11-11 17:09:14,495	[test_head.py:39]	点击PowerMyMac下拉框
-INFO	2021-11-11 17:09:15,316	[basepage.py:90]	点击元素：('link', 'Duplicate Finder')
-INFO	2021-11-11 17:09:16,317	[test_head.py:41]	点击链接Duplicate-Finder

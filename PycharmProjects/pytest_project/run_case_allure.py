@@ -18,7 +18,7 @@ def main():
                                                                             "allure-results -c  -o report/allure",
         "python pytest_history_trend.py" if HISTORY else "",
         "python clear_download_dir.py" if DOWNLOAD else "",
-        "allure open report/allure " if WIN else ""
+        "allure open report/allure " if False else ""
     ]
     for step in steps:
         subprocess.run("call " + step if WIN else step, shell=True)
