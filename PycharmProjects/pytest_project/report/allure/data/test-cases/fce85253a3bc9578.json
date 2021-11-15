@@ -1,12 +1,12 @@
 {
-  "uid" : "ac9b56784994849a",
+  "uid" : "fce85253a3bc9578",
   "name" : "提交邮箱测试",
   "fullName" : "TestCase.discount_test_case.test_discount.TestBody#test_003",
-  "historyId" : "a2731de00f51105f6661c52df295bd2c",
+  "historyId" : "b6fd644f85210cd3091a2380ce39733b",
   "time" : {
-    "start" : 1636709209281,
-    "stop" : 1636709209281,
-    "duration" : 0
+    "start" : 1636709225738,
+    "stop" : 1636709225739,
+    "duration" : 1
   },
   "status" : "skipped",
   "statusMessage" : "Skipped: 功能暂时取消",
@@ -14,26 +14,11 @@
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "_verify_url",
-    "time" : {
-      "start" : 1636709204117,
-      "stop" : 1636709204117,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
     "name" : "drivers",
     "time" : {
       "start" : 1636709204117,
-      "stop" : 1636709205435,
-      "duration" : 1318
+      "stop" : 1636709205395,
+      "duration" : 1278
     },
     "status" : "passed",
     "steps" : [ ],
@@ -59,11 +44,26 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1636709204117,
+      "stop" : 1636709204117,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
     "name" : "sensitive_url",
     "time" : {
-      "start" : 1636709205435,
-      "stop" : 1636709205435,
-      "duration" : 0
+      "start" : 1636709205395,
+      "stop" : 1636709205396,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -77,9 +77,9 @@
   "afterStages" : [ {
     "name" : "drivers::0",
     "time" : {
-      "start" : 1636709209284,
-      "stop" : 1636709211343,
-      "duration" : 2059
+      "start" : 1636709225742,
+      "stop" : 1636709227786,
+      "duration" : 2044
     },
     "status" : "passed",
     "steps" : [ ],
@@ -116,7 +116,7 @@
     "value" : "DESKTOP-9RE2F6C"
   }, {
     "name" : "thread",
-    "value" : "13856-MainThread"
+    "value" : "5024-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -132,10 +132,10 @@
   } ],
   "parameters" : [ {
     "name" : "email",
-    "value" : "'123@123.123'"
+    "value" : "''"
   }, {
     "name" : "feedback",
-    "value" : "'Please check out if your student email on the below list.'"
+    "value" : "'Please type your student email.'"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -148,25 +148,35 @@
       "statistic" : {
         "failed" : 0,
         "broken" : 0,
-        "skipped" : 2,
+        "skipped" : 3,
         "passed" : 0,
         "unknown" : 0,
-        "total" : 2
+        "total" : 3
       },
       "items" : [ {
-        "uid" : "ac34f67c7dceca97",
-        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/16/allure/#testresult/ac34f67c7dceca97",
+        "uid" : "9aaa8b449bbd6cfc",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/17/allure/#testresult/9aaa8b449bbd6cfc",
         "status" : "skipped",
         "statusDetails" : "Skipped: 功能暂时取消",
         "time" : {
-          "start" : 1636709209281,
-          "stop" : 1636709209281,
-          "duration" : 0
+          "start" : 1636709225738,
+          "stop" : 1636709225739,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "328908f4d038ab14",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/16/allure/#testresult/328908f4d038ab14",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: 功能暂时取消",
+        "time" : {
+          "start" : 1636709225738,
+          "stop" : 1636709225739,
+          "duration" : 1
         }
       } ]
     },
     "tags" : [ "@pytest.mark.skip('功能暂时取消')" ]
   },
-  "source" : "ac9b56784994849a.json",
-  "parameterValues" : [ "'123@123.123'", "'Please check out if your student email on the below list.'" ]
+  "source" : "fce85253a3bc9578.json",
+  "parameterValues" : [ "''", "'Please type your student email.'" ]
 }

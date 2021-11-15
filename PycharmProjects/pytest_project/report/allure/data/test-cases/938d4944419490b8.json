@@ -1,5 +1,5 @@
 {
-  "uid" : "21d9d6df548aa792",
+  "uid" : "938d4944419490b8",
   "name" : "查询邮箱拥有优惠测试",
   "fullName" : "TestCase.discount_test_case.test_discount.TestBody#test_005",
   "historyId" : "40b746ae69c1e19f051631edff65ba73",
@@ -172,12 +172,22 @@
       "statistic" : {
         "failed" : 0,
         "broken" : 0,
-        "skipped" : 2,
+        "skipped" : 3,
         "passed" : 0,
         "unknown" : 0,
-        "total" : 2
+        "total" : 3
       },
       "items" : [ {
+        "uid" : "21d9d6df548aa792",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/17/allure/#testresult/21d9d6df548aa792",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: 功能未完成",
+        "time" : {
+          "start" : 1636709207251,
+          "stop" : 1636709207251,
+          "duration" : 0
+        }
+      }, {
         "uid" : "199bc6ebdf6237e",
         "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/16/allure/#testresult/199bc6ebdf6237e",
         "status" : "skipped",
@@ -191,6 +201,6 @@
     },
     "tags" : [ "@pytest.mark.skip('功能未完成')" ]
   },
-  "source" : "21d9d6df548aa792.json",
+  "source" : "938d4944419490b8.json",
   "parameterValues" : [ ]
 }

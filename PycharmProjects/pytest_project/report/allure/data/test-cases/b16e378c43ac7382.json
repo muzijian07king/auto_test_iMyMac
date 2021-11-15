@@ -1,17 +1,32 @@
 {
-  "uid" : "ac4c0c64c9b7dce1",
+  "uid" : "b16e378c43ac7382",
   "name" : "步骤内容测试",
   "fullName" : "TestCase.discount_test_case.test_discount.TestBody#test_001",
-  "historyId" : "6d5d75c8be15661990ec0d9f7489b91f",
+  "historyId" : "ae526d4dc095c204d59d4fd9005a2c55",
   "time" : {
-    "start" : 1636709209246,
-    "stop" : 1636709209267,
-    "duration" : 21
+    "start" : 1636709207212,
+    "stop" : 1636709207234,
+    "duration" : 22
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1636709204117,
+      "stop" : 1636709204117,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
     "name" : "_verify_url",
     "time" : {
       "start" : 1636709204117,
@@ -30,23 +45,8 @@
     "name" : "drivers",
     "time" : {
       "start" : 1636709204117,
-      "stop" : 1636709205435,
-      "duration" : 1318
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
-    "name" : "base_url",
-    "time" : {
-      "start" : 1636709204117,
-      "stop" : 1636709204117,
-      "duration" : 0
+      "stop" : 1636709205476,
+      "duration" : 1359
     },
     "status" : "passed",
     "steps" : [ ],
@@ -59,8 +59,8 @@
   }, {
     "name" : "sensitive_url",
     "time" : {
-      "start" : 1636709205435,
-      "stop" : 1636709205435,
+      "start" : 1636709205477,
+      "stop" : 1636709205477,
       "duration" : 0
     },
     "status" : "passed",
@@ -74,24 +74,9 @@
   }, {
     "name" : "_skip_sensitive",
     "time" : {
-      "start" : 1636709205436,
-      "stop" : 1636709205436,
+      "start" : 1636709205477,
+      "stop" : 1636709205477,
       "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
-    "name" : "open_url",
-    "time" : {
-      "start" : 1636709205436,
-      "stop" : 1636709209245,
-      "duration" : 3809
     },
     "status" : "passed",
     "steps" : [ ],
@@ -107,9 +92,9 @@
     "steps" : [ {
       "name" : "判断步骤文案是否正确",
       "time" : {
-        "start" : 1636709209246,
-        "stop" : 1636709209267,
-        "duration" : 21
+        "start" : 1636709207212,
+        "stop" : 1636709207234,
+        "duration" : 22
       },
       "status" : "passed",
       "steps" : [ ],
@@ -121,17 +106,17 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "931addee175e3e1d",
+      "uid" : "5d0ee0e7e53da8c7",
       "name" : "log",
-      "source" : "931addee175e3e1d.txt",
+      "source" : "5d0ee0e7e53da8c7.txt",
       "type" : "text/plain",
-      "size" : 213
+      "size" : 251
     }, {
-      "uid" : "c85e13fb4f44b63b",
+      "uid" : "3e35c472933a4e8f",
       "name" : "stderr",
-      "source" : "c85e13fb4f44b63b.txt",
+      "source" : "3e35c472933a4e8f.txt",
       "type" : "text/plain",
-      "size" : 230
+      "size" : 268
     } ],
     "parameters" : [ ],
     "shouldDisplayMessage" : false,
@@ -142,9 +127,9 @@
   "afterStages" : [ {
     "name" : "drivers::0",
     "time" : {
-      "start" : 1636709209284,
-      "stop" : 1636709211343,
-      "duration" : 2059
+      "start" : 1636709208065,
+      "stop" : 1636709210134,
+      "duration" : 2069
     },
     "status" : "passed",
     "steps" : [ ],
@@ -157,16 +142,16 @@
   } ],
   "labels" : [ {
     "name" : "tag",
-    "value" : "step-2==>We’ll review your email and verify, then send you a coupon code."
+    "value" : "step-3==>Apply your discount with the coupon code after choosing desired product in https://www.imymac.com/store/"
+  }, {
+    "name" : "feature",
+    "value" : "学生优惠申请页面测试"
   }, {
     "name" : "severity",
     "value" : "trivial"
   }, {
     "name" : "story",
     "value" : "功能测试"
-  }, {
-    "name" : "feature",
-    "value" : "学生优惠申请页面测试"
   }, {
     "name" : "parentSuite",
     "value" : "TestCase.discount_test_case"
@@ -181,7 +166,7 @@
     "value" : "DESKTOP-9RE2F6C"
   }, {
     "name" : "thread",
-    "value" : "13856-MainThread"
+    "value" : "16504-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -197,10 +182,10 @@
   } ],
   "parameters" : [ {
     "name" : "context",
-    "value" : "'We’ll review your email and verify, then send you a coupon code.'"
+    "value" : "'Apply your discount with the coupon code after choosing desired product in https://www.imymac.com/store/'"
   }, {
     "name" : "step",
-    "value" : "'step-2'"
+    "value" : "'step-3'"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -214,23 +199,32 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 2,
+        "passed" : 3,
         "unknown" : 0,
-        "total" : 2
+        "total" : 3
       },
       "items" : [ {
-        "uid" : "6376e53686f8ad4e",
-        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/16/allure/#testresult/6376e53686f8ad4e",
+        "uid" : "cf2165c31fe9316f",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/17/allure/#testresult/cf2165c31fe9316f",
         "status" : "passed",
         "time" : {
-          "start" : 1636709209246,
-          "stop" : 1636709209267,
-          "duration" : 21
+          "start" : 1636709207212,
+          "stop" : 1636709207234,
+          "duration" : 22
+        }
+      }, {
+        "uid" : "a2c5060e5725c40d",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/16/allure/#testresult/a2c5060e5725c40d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636709207212,
+          "stop" : 1636709207234,
+          "duration" : 22
         }
       } ]
     },
-    "tags" : [ "step-2==>We’ll review your email and verify, then send you a coupon code." ]
+    "tags" : [ "step-3==>Apply your discount with the coupon code after choosing desired product in https://www.imymac.com/store/" ]
   },
-  "source" : "ac4c0c64c9b7dce1.json",
-  "parameterValues" : [ "'We’ll review your email and verify, then send you a coupon code.'", "'step-2'" ]
+  "source" : "b16e378c43ac7382.json",
+  "parameterValues" : [ "'Apply your discount with the coupon code after choosing desired product in https://www.imymac.com/store/'", "'step-3'" ]
 }

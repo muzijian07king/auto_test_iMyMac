@@ -1,5 +1,5 @@
 {
-  "uid" : "c219dabfc0a4a968",
+  "uid" : "66ce3e629c82eadd",
   "name" : "打开邮箱工具测试",
   "fullName" : "TestCase.discount_test_case.test_discount.TestBody#test_004",
   "historyId" : "bec36c3638441ff50d5e44bae890c539",
@@ -121,15 +121,15 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "8142b9e81904184d",
+      "uid" : "95db7a3e9796009c",
       "name" : "log",
-      "source" : "8142b9e81904184d.txt",
+      "source" : "95db7a3e9796009c.txt",
       "type" : "text/plain",
       "size" : 185
     }, {
-      "uid" : "fed4d19e60c43b21",
+      "uid" : "19b66a8815e728c6",
       "name" : "stderr",
-      "source" : "fed4d19e60c43b21.txt",
+      "source" : "19b66a8815e728c6.txt",
       "type" : "text/plain",
       "size" : 202
     } ],
@@ -208,11 +208,20 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 2,
+        "passed" : 3,
         "unknown" : 0,
-        "total" : 2
+        "total" : 3
       },
       "items" : [ {
+        "uid" : "c219dabfc0a4a968",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/17/allure/#testresult/c219dabfc0a4a968",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636709209752,
+          "stop" : 1636709209771,
+          "duration" : 19
+        }
+      }, {
         "uid" : "da8370732027e0bd",
         "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/16/allure/#testresult/da8370732027e0bd",
         "status" : "passed",
@@ -225,6 +234,6 @@
     },
     "tags" : [ "链接测试" ]
   },
-  "source" : "c219dabfc0a4a968.json",
+  "source" : "66ce3e629c82eadd.json",
   "parameterValues" : [ ]
 }

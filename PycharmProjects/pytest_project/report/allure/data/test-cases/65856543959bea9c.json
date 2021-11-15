@@ -1,21 +1,23 @@
 {
-  "uid" : "8ac2c987027c746",
-  "name" : "购买链接测试",
-  "fullName" : "TestCase.discount_test_case.test_discount.TestBody#test_002",
-  "historyId" : "c4ab61f305443be34357405aecbeb500",
+  "uid" : "65856543959bea9c",
+  "name" : "提交邮箱测试",
+  "fullName" : "TestCase.discount_test_case.test_discount.TestBody#test_003",
+  "historyId" : "a44eb391ed78dbb79298f241aab3197c",
   "time" : {
-    "start" : 1636709207346,
-    "stop" : 1636709209094,
-    "duration" : 1748
+    "start" : 1636709207249,
+    "stop" : 1636709207249,
+    "duration" : 0
   },
-  "status" : "passed",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: 功能暂时取消",
+  "statusTrace" : "('D:\\\\auto_test_iMyMac\\\\PycharmProjects\\\\pytest_project\\\\TestCase\\\\discount_test_case\\\\test_discount.py', 32, 'Skipped: 功能暂时取消')",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "base_url",
     "time" : {
-      "start" : 1636709204116,
-      "stop" : 1636709204116,
+      "start" : 1636709204117,
+      "stop" : 1636709204117,
       "duration" : 0
     },
     "status" : "passed",
@@ -45,8 +47,8 @@
     "name" : "drivers",
     "time" : {
       "start" : 1636709204117,
-      "stop" : 1636709205511,
-      "duration" : 1394
+      "stop" : 1636709205476,
+      "duration" : 1359
     },
     "status" : "passed",
     "steps" : [ ],
@@ -59,9 +61,9 @@
   }, {
     "name" : "sensitive_url",
     "time" : {
-      "start" : 1636709205511,
-      "stop" : 1636709205512,
-      "duration" : 1
+      "start" : 1636709205477,
+      "stop" : 1636709205477,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -74,9 +76,9 @@
   }, {
     "name" : "open_url",
     "time" : {
-      "start" : 1636709205512,
-      "stop" : 1636709207346,
-      "duration" : 1834
+      "start" : 1636709207255,
+      "stop" : 1636709207727,
+      "duration" : 472
     },
     "status" : "passed",
     "steps" : [ ],
@@ -89,8 +91,8 @@
   }, {
     "name" : "_skip_sensitive",
     "time" : {
-      "start" : 1636709205512,
-      "stop" : 1636709205512,
+      "start" : 1636709207255,
+      "stop" : 1636709207255,
       "duration" : 0
     },
     "status" : "passed",
@@ -102,64 +104,12 @@
     "stepsCount" : 0,
     "hasContent" : false
   } ],
-  "testStage" : {
-    "status" : "passed",
-    "steps" : [ {
-      "name" : "点击购买链接",
-      "time" : {
-        "start" : 1636709207346,
-        "stop" : 1636709209090,
-        "duration" : 1744
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "判断是否跳转store",
-      "time" : {
-        "start" : 1636709209090,
-        "stop" : 1636709209094,
-        "duration" : 4
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : false
-    } ],
-    "attachments" : [ {
-      "uid" : "443487b3d9a36263",
-      "name" : "log",
-      "source" : "443487b3d9a36263.txt",
-      "type" : "text/plain",
-      "size" : 209
-    }, {
-      "uid" : "397791967c0cb7a7",
-      "name" : "stderr",
-      "source" : "397791967c0cb7a7.txt",
-      "type" : "text/plain",
-      "size" : 226
-    } ],
-    "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 2,
-    "stepsCount" : 2,
-    "hasContent" : true
-  },
   "afterStages" : [ {
     "name" : "drivers::0",
     "time" : {
-      "start" : 1636709209773,
-      "stop" : 1636709211816,
-      "duration" : 2043
+      "start" : 1636709208065,
+      "stop" : 1636709210134,
+      "duration" : 2069
     },
     "status" : "passed",
     "steps" : [ ],
@@ -174,14 +124,14 @@
     "name" : "severity",
     "value" : "critical"
   }, {
-    "name" : "tag",
-    "value" : "链接测试"
-  }, {
     "name" : "feature",
     "value" : "学生优惠申请页面测试"
   }, {
     "name" : "story",
     "value" : "功能测试"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip('功能暂时取消')"
   }, {
     "name" : "parentSuite",
     "value" : "TestCase.discount_test_case"
@@ -196,7 +146,7 @@
     "value" : "DESKTOP-9RE2F6C"
   }, {
     "name" : "thread",
-    "value" : "3284-MainThread"
+    "value" : "16504-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -210,12 +160,14 @@
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
-  "parameters" : [ ],
-  "links" : [ {
-    "name" : "购买链接",
-    "url" : "https://www.imymac.com/store/",
-    "type" : "link"
+  "parameters" : [ {
+    "name" : "email",
+    "value" : "'123@ac.uk'"
+  }, {
+    "name" : "feedback",
+    "value" : "'Your applying message has been sent successfully, we will contact you asap!'"
   } ],
+  "links" : [ ],
   "hidden" : false,
   "retry" : false,
   "extra" : {
@@ -226,24 +178,35 @@
       "statistic" : {
         "failed" : 0,
         "broken" : 0,
-        "skipped" : 0,
-        "passed" : 2,
+        "skipped" : 3,
+        "passed" : 0,
         "unknown" : 0,
-        "total" : 2
+        "total" : 3
       },
       "items" : [ {
-        "uid" : "65cf546d8d4272d7",
-        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/16/allure/#testresult/65cf546d8d4272d7",
-        "status" : "passed",
+        "uid" : "3fb79d04a0e25c3c",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/17/allure/#testresult/3fb79d04a0e25c3c",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: 功能暂时取消",
         "time" : {
-          "start" : 1636709207346,
-          "stop" : 1636709209094,
-          "duration" : 1748
+          "start" : 1636709207249,
+          "stop" : 1636709207249,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "be09347831426b1a",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/16/allure/#testresult/be09347831426b1a",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: 功能暂时取消",
+        "time" : {
+          "start" : 1636709207249,
+          "stop" : 1636709207249,
+          "duration" : 0
         }
       } ]
     },
-    "tags" : [ "链接测试" ]
+    "tags" : [ "@pytest.mark.skip('功能暂时取消')" ]
   },
-  "source" : "8ac2c987027c746.json",
-  "parameterValues" : [ ]
+  "source" : "65856543959bea9c.json",
+  "parameterValues" : [ "'123@ac.uk'", "'Your applying message has been sent successfully, we will contact you asap!'" ]
 }

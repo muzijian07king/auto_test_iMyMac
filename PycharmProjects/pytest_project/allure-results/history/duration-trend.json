@@ -1,4 +1,11 @@
 [ {
+  "buildOrder" : 17,
+  "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/17/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 18527
+  }
+}, {
   "buildOrder" : 16,
   "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/16/allure",
   "reportName" : "AllureReport",

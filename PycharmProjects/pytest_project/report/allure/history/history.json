@@ -3,12 +3,22 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 2,
+      "skipped" : 3,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "38b77a6eb9365ea8",
+      "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/19/allure/#testresult/38b77a6eb9365ea8",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 功能暂时取消",
+      "time" : {
+        "start" : 1636709209281,
+        "stop" : 1636709209281,
+        "duration" : 0
+      }
+    }, {
       "uid" : "ac9b56784994849a",
       "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/17/allure/#testresult/ac9b56784994849a",
       "status" : "skipped",
@@ -35,11 +45,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "66ce3e629c82eadd",
+      "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/19/allure/#testresult/66ce3e629c82eadd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636709209752,
+        "stop" : 1636709209771,
+        "duration" : 19
+      }
+    }, {
       "uid" : "c219dabfc0a4a968",
       "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/17/allure/#testresult/c219dabfc0a4a968",
       "status" : "passed",
@@ -63,12 +82,22 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 2,
+      "skipped" : 3,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "65856543959bea9c",
+      "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/19/allure/#testresult/65856543959bea9c",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 功能暂时取消",
+      "time" : {
+        "start" : 1636709207249,
+        "stop" : 1636709207249,
+        "duration" : 0
+      }
+    }, {
       "uid" : "3fb79d04a0e25c3c",
       "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/17/allure/#testresult/3fb79d04a0e25c3c",
       "status" : "skipped",
@@ -95,11 +124,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "b16e378c43ac7382",
+      "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/19/allure/#testresult/b16e378c43ac7382",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636709207212,
+        "stop" : 1636709207234,
+        "duration" : 22
+      }
+    }, {
       "uid" : "cf2165c31fe9316f",
       "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/17/allure/#testresult/cf2165c31fe9316f",
       "status" : "passed",
@@ -123,12 +161,22 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 2,
+      "skipped" : 3,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "938d4944419490b8",
+      "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/19/allure/#testresult/938d4944419490b8",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 功能未完成",
+      "time" : {
+        "start" : 1636709207251,
+        "stop" : 1636709207251,
+        "duration" : 0
+      }
+    }, {
       "uid" : "21d9d6df548aa792",
       "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/17/allure/#testresult/21d9d6df548aa792",
       "status" : "skipped",
@@ -155,11 +203,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "f1b445e4ebc526c7",
+      "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/19/allure/#testresult/f1b445e4ebc526c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636709207727,
+        "stop" : 1636709208063,
+        "duration" : 336
+      }
+    }, {
       "uid" : "83693f3079bc0c3",
       "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/17/allure/#testresult/83693f3079bc0c3",
       "status" : "passed",
@@ -184,11 +241,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "58edd75f6a01596",
+      "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/19/allure/#testresult/58edd75f6a01596",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636709207346,
+        "stop" : 1636709209094,
+        "duration" : 1748
+      }
+    }, {
       "uid" : "8ac2c987027c746",
       "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/17/allure/#testresult/8ac2c987027c746",
       "status" : "passed",
@@ -213,11 +279,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "c3ef515a51558ea1",
+      "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/19/allure/#testresult/c3ef515a51558ea1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636709209246,
+        "stop" : 1636709209267,
+        "duration" : 21
+      }
+    }, {
       "uid" : "ac4c0c64c9b7dce1",
       "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/17/allure/#testresult/ac4c0c64c9b7dce1",
       "status" : "passed",
@@ -241,12 +316,22 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 2,
+      "skipped" : 3,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "fce85253a3bc9578",
+      "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/19/allure/#testresult/fce85253a3bc9578",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 功能暂时取消",
+      "time" : {
+        "start" : 1636709225738,
+        "stop" : 1636709225739,
+        "duration" : 1
+      }
+    }, {
       "uid" : "9aaa8b449bbd6cfc",
       "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/17/allure/#testresult/9aaa8b449bbd6cfc",
       "status" : "skipped",
@@ -273,11 +358,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "97280a098574225",
+      "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/19/allure/#testresult/97280a098574225",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636709225703,
+        "stop" : 1636709225725,
+        "duration" : 22
+      }
+    }, {
       "uid" : "bb4ccabb235011e4",
       "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/17/allure/#testresult/bb4ccabb235011e4",
       "status" : "passed",
