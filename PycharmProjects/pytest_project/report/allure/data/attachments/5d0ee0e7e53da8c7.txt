@@ -1,2 +1,0 @@
-[32mINFO    [0m root:basepage.py:32 打开网页https://www.imymac.com/student-discount/
-[32mINFO    [0m root:basepage.py:96 获取到文本：Apply your discount with the coupon code after choosing desired product in https://www.imymac.com/store/

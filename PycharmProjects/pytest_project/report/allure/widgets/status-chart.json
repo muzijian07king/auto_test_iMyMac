@@ -1,101 +1,41 @@
 [ {
-  "uid" : "b16e378c43ac7382",
-  "name" : "步骤内容测试",
+  "uid" : "2390fd8722e808a3",
+  "name" : "简介栏内容测试",
   "time" : {
-    "start" : 1636709207212,
-    "stop" : 1636709207234,
-    "duration" : 22
+    "start" : 1637025384302,
+    "stop" : 1637025384334,
+    "duration" : 32
   },
   "status" : "passed",
   "severity" : "trivial"
 }, {
-  "uid" : "c3ef515a51558ea1",
-  "name" : "步骤内容测试",
+  "uid" : "59e7609a8ee61f98",
+  "name" : "简介栏内容测试",
   "time" : {
-    "start" : 1636709209246,
-    "stop" : 1636709209267,
-    "duration" : 21
+    "start" : 1637025387415,
+    "stop" : 1637025387441,
+    "duration" : 26
   },
   "status" : "passed",
   "severity" : "trivial"
 }, {
-  "uid" : "65856543959bea9c",
-  "name" : "提交邮箱测试",
+  "uid" : "bbd1d3348d299cf4",
+  "name" : "邮箱链接测试",
   "time" : {
-    "start" : 1636709207249,
-    "stop" : 1636709207249,
-    "duration" : 0
+    "start" : 1637025384794,
+    "stop" : 1637025384826,
+    "duration" : 32
   },
-  "status" : "skipped",
+  "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "f1b445e4ebc526c7",
-  "name" : "支持优惠邮箱测试",
+  "uid" : "23ccda7ea7465f71",
+  "name" : "简介栏内容测试",
   "time" : {
-    "start" : 1636709207727,
-    "stop" : 1636709208063,
-    "duration" : 336
+    "start" : 1637025384380,
+    "stop" : 1637025384409,
+    "duration" : 29
   },
   "status" : "passed",
   "severity" : "trivial"
-}, {
-  "uid" : "58edd75f6a01596",
-  "name" : "购买链接测试",
-  "time" : {
-    "start" : 1636709207346,
-    "stop" : 1636709209094,
-    "duration" : 1748
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "97280a098574225",
-  "name" : "步骤内容测试",
-  "time" : {
-    "start" : 1636709225703,
-    "stop" : 1636709225725,
-    "duration" : 22
-  },
-  "status" : "passed",
-  "severity" : "trivial"
-}, {
-  "uid" : "38b77a6eb9365ea8",
-  "name" : "提交邮箱测试",
-  "time" : {
-    "start" : 1636709209281,
-    "stop" : 1636709209281,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "critical"
-}, {
-  "uid" : "66ce3e629c82eadd",
-  "name" : "打开邮箱工具测试",
-  "time" : {
-    "start" : 1636709209752,
-    "stop" : 1636709209771,
-    "duration" : 19
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "938d4944419490b8",
-  "name" : "查询邮箱拥有优惠测试",
-  "time" : {
-    "start" : 1636709207251,
-    "stop" : 1636709207251,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "critical"
-}, {
-  "uid" : "fce85253a3bc9578",
-  "name" : "提交邮箱测试",
-  "time" : {
-    "start" : 1636709225738,
-    "stop" : 1636709225739,
-    "duration" : 1
-  },
-  "status" : "skipped",
-  "severity" : "critical"
 } ]

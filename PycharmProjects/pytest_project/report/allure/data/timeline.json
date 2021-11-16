@@ -4,151 +4,73 @@
   "children" : [ {
     "name" : "DESKTOP-9RE2F6C",
     "children" : [ {
-      "name" : "16504-MainThread",
+      "name" : "10136-MainThread",
       "children" : [ {
-        "name" : "步骤内容测试",
-        "uid" : "b16e378c43ac7382",
-        "parentUid" : "47c788cf1cd1268c660456c7e8b39a4b",
+        "name" : "邮箱链接测试",
+        "uid" : "bbd1d3348d299cf4",
+        "parentUid" : "b1cf53502cbb702cedf7d713d4913408",
         "status" : "passed",
         "time" : {
-          "start" : 1636709207212,
-          "stop" : 1636709207234,
-          "duration" : 22
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'Apply your discount with the coupon code after choosing desired product in https://www.imymac.com/store/'", "'step-3'" ]
-      }, {
-        "name" : "查询邮箱拥有优惠测试",
-        "uid" : "938d4944419490b8",
-        "parentUid" : "47c788cf1cd1268c660456c7e8b39a4b",
-        "status" : "skipped",
-        "time" : {
-          "start" : 1636709207251,
-          "stop" : 1636709207251,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "提交邮箱测试",
-        "uid" : "65856543959bea9c",
-        "parentUid" : "47c788cf1cd1268c660456c7e8b39a4b",
-        "status" : "skipped",
-        "time" : {
-          "start" : 1636709207249,
-          "stop" : 1636709207249,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'123@ac.uk'", "'Your applying message has been sent successfully, we will contact you asap!'" ]
-      }, {
-        "name" : "支持优惠邮箱测试",
-        "uid" : "f1b445e4ebc526c7",
-        "parentUid" : "47c788cf1cd1268c660456c7e8b39a4b",
-        "status" : "passed",
-        "time" : {
-          "start" : 1636709207727,
-          "stop" : 1636709208063,
-          "duration" : 336
+          "start" : 1637025384794,
+          "stop" : 1637025384826,
+          "duration" : 32
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "47c788cf1cd1268c660456c7e8b39a4b"
+      "uid" : "b1cf53502cbb702cedf7d713d4913408"
     }, {
-      "name" : "5024-MainThread",
+      "name" : "12940-MainThread",
       "children" : [ {
-        "name" : "提交邮箱测试",
-        "uid" : "fce85253a3bc9578",
-        "parentUid" : "6ed06fe5f9bcb7b3279f9be421443688",
-        "status" : "skipped",
-        "time" : {
-          "start" : 1636709225738,
-          "stop" : 1636709225739,
-          "duration" : 1
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "''", "'Please type your student email.'" ]
-      }, {
-        "name" : "步骤内容测试",
-        "uid" : "97280a098574225",
-        "parentUid" : "6ed06fe5f9bcb7b3279f9be421443688",
+        "name" : "简介栏内容测试",
+        "uid" : "2390fd8722e808a3",
+        "parentUid" : "5c4bca4e334379dc27aef929d34f00f5",
         "status" : "passed",
         "time" : {
-          "start" : 1636709225703,
-          "stop" : 1636709225725,
-          "duration" : 22
+          "start" : 1637025384302,
+          "stop" : 1637025384334,
+          "duration" : 32
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'Submit your email in the box below.'", "'step-1'" ]
+        "parameters" : [ "'If you have any suggestions, such as the website and service, contact us by email.'", "'suggestion'" ]
       } ],
-      "uid" : "6ed06fe5f9bcb7b3279f9be421443688"
+      "uid" : "5c4bca4e334379dc27aef929d34f00f5"
     }, {
-      "name" : "3284-MainThread",
+      "name" : "11080-MainThread",
       "children" : [ {
-        "name" : "打开邮箱工具测试",
-        "uid" : "66ce3e629c82eadd",
-        "parentUid" : "8f2f819a58fe7a75fdbbe774bea28a39",
+        "name" : "简介栏内容测试",
+        "uid" : "59e7609a8ee61f98",
+        "parentUid" : "b84a8b01d2633476114516f9d8238990",
         "status" : "passed",
         "time" : {
-          "start" : 1636709209752,
-          "stop" : 1636709209771,
-          "duration" : 19
+          "start" : 1637025387415,
+          "stop" : 1637025387441,
+          "duration" : 26
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "购买链接测试",
-        "uid" : "58edd75f6a01596",
-        "parentUid" : "8f2f819a58fe7a75fdbbe774bea28a39",
-        "status" : "passed",
-        "time" : {
-          "start" : 1636709207346,
-          "stop" : 1636709209094,
-          "duration" : 1748
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
+        "parameters" : [ "'iMyMac Supporter Email: support@imymac.com'", "'email'" ]
       } ],
-      "uid" : "8f2f819a58fe7a75fdbbe774bea28a39"
+      "uid" : "b84a8b01d2633476114516f9d8238990"
     }, {
-      "name" : "13856-MainThread",
+      "name" : "16756-MainThread",
       "children" : [ {
-        "name" : "步骤内容测试",
-        "uid" : "c3ef515a51558ea1",
-        "parentUid" : "001541b5e542632ab227c6284351f3c6",
+        "name" : "简介栏内容测试",
+        "uid" : "23ccda7ea7465f71",
+        "parentUid" : "5ea943d1360fa8283613ce461c2d7ff9",
         "status" : "passed",
         "time" : {
-          "start" : 1636709209246,
-          "stop" : 1636709209267,
-          "duration" : 21
+          "start" : 1637025384380,
+          "stop" : 1637025384409,
+          "duration" : 29
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'We’ll review your email and verify, then send you a coupon code.'", "'step-2'" ]
-      }, {
-        "name" : "提交邮箱测试",
-        "uid" : "38b77a6eb9365ea8",
-        "parentUid" : "001541b5e542632ab227c6284351f3c6",
-        "status" : "skipped",
-        "time" : {
-          "start" : 1636709209281,
-          "stop" : 1636709209281,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'123@123.123'", "'Please check out if your student email on the below list.'" ]
+        "parameters" : [ "'If you prepare to purchase or had bought products from iMyMac, please feel free to contact us by email with any questions.'", "'question'" ]
       } ],
-      "uid" : "001541b5e542632ab227c6284351f3c6"
+      "uid" : "5ea943d1360fa8283613ce461c2d7ff9"
     } ],
     "uid" : "226e950d083396eac1a77a94af12ec15"
   } ]

@@ -9,14 +9,18 @@ DOWNLOAD = True
 def main():
     """主函数"""
     steps = [
-        "venv\\Script\\activate" if WIN else "source venv/bin/activate",
-        "pytest  --alluredir allure-results --clean-alluredir",
-        "copy utils\\environment.properties allure-results\\environment.properties" if WIN else 'cp utils\environment'
+        "venv\\Script\\activate" if WIN else "",
+        "pytest TestCase/contact_test_case/test_contact.py --alluredir allure-results --clean-alluredir" if WIN else "/usr/local/python39/bin/pytest "
+                                                                                                                     "--alluredir allure-results "
+                                                                                                                     "--clean-alluredir",
+        "copy utils\\environment.properties allure-results\\environment.properties" if WIN else 'cp utils/environment'
                                                                                                 '.properties '
                                                                                                 "allure-results"
                                                                                                 "/environment"
                                                                                                 '.properties',
-        "allure generate allure-results -c  -o report/allure" if False else "",
+        "allure generate allure-results -c  -o report/allure" if WIN else "/usr/local/allure-2.13.6/bin/allure "
+                                                                          "generate allure-results -c  -o "
+                                                                          "report/allure",
         "python pytest_history_trend.py" if HISTORY else "",
         "python clear_download_dir.py" if DOWNLOAD else "",
         "allure open report/allure " if False else ""

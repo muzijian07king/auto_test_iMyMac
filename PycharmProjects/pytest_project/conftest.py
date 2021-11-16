@@ -16,11 +16,13 @@ driver = None
 
 @pytest.fixture(scope='session', autouse=True)
 def drivers():
-    ''' 无头浏览器 '''
+    """ 无头浏览器 """
     option = webdriver.ChromeOptions()
-    option.add_argument('--headless')
+    option.add_argument('--headless')  # 无头显示
     option.add_argument('--window-size=1920,1080')
-    prefs = {'download.default_directory': cm.download_dir}
+    option.add_argument('--no-sandbox')  # 设置浏览器大小
+    prefs = {'download.default_directory': cm.download_dir,  # 设置默认下载路径
+             "profile.managed_default_content_settings.images": 2}  # 禁止图片
     option.add_experimental_option('prefs', prefs)
     global driver
     if driver is None:

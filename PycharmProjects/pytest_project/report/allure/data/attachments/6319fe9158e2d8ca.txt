@@ -1,2 +1,0 @@
-INFO	2021-11-12 17:26:49,245	[basepage.py:32]	打开网页https://www.imymac.com/student-discount/
-INFO	2021-11-12 17:26:49,266	[basepage.py:96]	获取到文本：We’ll review your email and verify, then send you a coupon code.

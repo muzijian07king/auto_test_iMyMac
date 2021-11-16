@@ -1,0 +1,8 @@
+INFO	2021-11-16 09:16:24,299	[basepage.py:32]	打开网页https://www.imymac.com/contact/
+INFO	2021-11-16 09:16:24,332	[basepage.py:96]	获取到文本：If you have any suggestions, such as the website and service, contact us by email.
+INFO	2021-11-16 09:16:24,378	[basepage.py:32]	打开网页https://www.imymac.com/contact/
+INFO	2021-11-16 09:16:24,408	[basepage.py:96]	获取到文本：If you prepare to purchase or had bought products from iMyMac, please feel free to contact us by email with any questions.
+INFO	2021-11-16 09:16:24,790	[basepage.py:32]	打开网页https://www.imymac.com/contact/
+INFO	2021-11-16 09:16:24,820	[basepage.py:134]	获取到href元素的值==》mailto:support@imymac.com
+INFO	2021-11-16 09:16:27,414	[basepage.py:32]	打开网页https://www.imymac.com/contact/
+INFO	2021-11-16 09:16:27,440	[basepage.py:96]	获取到文本：iMyMac Supporter Email: support@imymac.com
