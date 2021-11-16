@@ -1,0 +1,260 @@
+{
+  "uid" : "c812f795bba4a4c9",
+  "name" : "测试下载ppm",
+  "fullName" : "TestCase.index_test_case.test_body.TestBody#test_003",
+  "historyId" : "473c12fa908de1a43b6e93ff88df24fb",
+  "time" : {
+    "start" : 1637047068065,
+    "stop" : 1637047070120,
+    "duration" : 2055
+  },
+  "description" : "下载ppm",
+  "descriptionHtml" : "<p>下载ppm</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1637046945113,
+      "stop" : 1637046945113,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1637046945113,
+      "stop" : 1637046947894,
+      "duration" : 2781
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1637046945113,
+      "stop" : 1637046945113,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1637046947894,
+      "stop" : 1637046947894,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1637047067324,
+      "stop" : 1637047067324,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "open_index",
+    "time" : {
+      "start" : 1637047067324,
+      "stop" : 1637047068064,
+      "duration" : 740
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "下载ppm",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击下载按钮",
+      "time" : {
+        "start" : 1637047068065,
+        "stop" : 1637047070119,
+        "duration" : 2054
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "90b32696ce352387",
+      "name" : "log",
+      "source" : "90b32696ce352387.txt",
+      "type" : "text/plain",
+      "size" : 216
+    }, {
+      "uid" : "3db234e89bf8a24a",
+      "name" : "stderr",
+      "source" : "3db234e89bf8a24a.txt",
+      "type" : "text/plain",
+      "size" : 233
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1637048786165,
+      "stop" : 1637048788278,
+      "duration" : 2113
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "下载ppm"
+  }, {
+    "name" : "feature",
+    "value" : "首页测试"
+  }, {
+    "name" : "story",
+    "value" : "body内容测试"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.index_test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_body"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBody"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "19400-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.index_test_case.test_body"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "d452f6872497f080",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/d452f6872497f080",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637045130537,
+          "stop" : 1637045132520,
+          "duration" : 1983
+        }
+      }, {
+        "uid" : "a287e62de36f24e0",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/26/allure/#testresult/a287e62de36f24e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637043047642,
+          "stop" : 1637043049650,
+          "duration" : 2008
+        }
+      }, {
+        "uid" : "bc970cf96234aedd",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/23/allure/#testresult/bc970cf96234aedd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636967334848,
+          "stop" : 1636967337388,
+          "duration" : 2540
+        }
+      }, {
+        "uid" : "698c0a05d3673172",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/22/allure/#testresult/698c0a05d3673172",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636940544031,
+          "stop" : 1636940546299,
+          "duration" : 2268
+        }
+      } ]
+    },
+    "tags" : [ "下载ppm" ]
+  },
+  "source" : "c812f795bba4a4c9.json",
+  "parameterValues" : [ ]
+}

@@ -13,6 +13,7 @@ class TestBody(object):
     def open_url(self, drivers):
         self.driver = DiscountPage(drivers)
         self.driver.get_url(ini.get_url('discount'))
+        self.driver.click_sale_off_link()
 
     @pytest.mark.parametrize('step,context', getExcelAllData('步骤介绍', 'Discount/discount.xlsx'))
     @allure.title('步骤内容测试')

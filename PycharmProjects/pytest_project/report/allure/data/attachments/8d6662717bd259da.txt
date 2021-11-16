@@ -1,4 +1,0 @@
-INFO	2021-11-16 14:49:02,326	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
-INFO	2021-11-16 14:49:04,428	[basepage.py:96]	获取到文本：Cut the Clutter: Arrange and Organize Mac Files
-INFO	2021-11-16 14:49:04,444	[basepage.py:96]	获取到文本：Cut the Clutter: Arrange and Organize Mac Files
-INFO	2021-11-16 14:49:04,465	[basepage.py:96]	获取到文本：Cut the Clutter: Arrange and Organize Mac Files

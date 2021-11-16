@@ -16,6 +16,7 @@ class TestBody(object):
     def open_clear(self, drivers):
         self.driver = CleanerPage(drivers)
         self.driver.get_url(ini.get_url('mac-cleaner'))
+        self.driver.click_sale_off_link()
 
     @allure.severity('blocker')
     @allure.title('下载PowerMyMac测试')

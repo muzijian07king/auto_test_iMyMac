@@ -1,0 +1,1 @@
+[32mINFO    [0m root:basepage.py:32 打开网页https://www.imymac.com/about-us/

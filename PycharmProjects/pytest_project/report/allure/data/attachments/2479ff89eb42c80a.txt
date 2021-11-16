@@ -1,0 +1,8 @@
+INFO	2021-11-16 15:20:09,648	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-16 15:20:09,781	[basepage.py:82]	输入文本：123@qq.com
+INFO	2021-11-16 15:20:09,867	[basepage.py:90]	点击元素：('id', 'footerSubscribeBTN')
+INFO	2021-11-16 15:20:10,913	[basepage.py:96]	获取到文本：Submit
+INFO	2021-11-16 15:20:16,787	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-16 15:20:17,332	[basepage.py:82]	输入文本：123@qq.com
+INFO	2021-11-16 15:20:17,464	[basepage.py:90]	点击元素：('id', 'footerSubscribeBTN')
+INFO	2021-11-16 15:20:18,496	[basepage.py:96]	获取到文本：Successfully

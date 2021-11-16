@@ -1,0 +1,8 @@
+INFO	2021-11-16 15:19:39,481	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-16 15:19:39,484	[basepage.py:159]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-16 15:19:40,592	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-16 15:19:43,403	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(3)')
+INFO	2021-11-16 15:20:00,482	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-16 15:20:00,484	[basepage.py:159]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-16 15:20:01,575	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-16 15:20:04,330	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(3)')

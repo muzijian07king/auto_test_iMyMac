@@ -1,0 +1,261 @@
+{
+  "uid" : "d3f81d585290f158",
+  "name" : "查询邮箱拥有优惠测试",
+  "fullName" : "TestCase.discount_test_case.test_discount.TestBody#test_005",
+  "historyId" : "40b746ae69c1e19f051631edff65ba73",
+  "time" : {
+    "start" : 1637047012361,
+    "stop" : 1637047012361,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: 功能未完成",
+  "statusTrace" : "('D:\\\\auto_test_iMyMac\\\\PycharmProjects\\\\pytest_project\\\\TestCase\\\\discount_test_case\\\\test_discount.py', 48, 'Skipped: 功能未完成')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1637046945113,
+      "stop" : 1637046947347,
+      "duration" : 2234
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1637046945113,
+      "stop" : 1637046945113,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1637046945113,
+      "stop" : 1637046945113,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1637046947347,
+      "stop" : 1637046947347,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1637047012365,
+      "stop" : 1637047012365,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1637048787269,
+      "stop" : 1637048789373,
+      "duration" : 2104
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "功能测试"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "学生优惠申请页面测试"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip('功能未完成')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.discount_test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_discount"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBody"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "9696-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.discount_test_case.test_discount"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 10,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "c9e05bec249abaaa",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/c9e05bec249abaaa",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: 功能未完成",
+        "time" : {
+          "start" : 1637045086924,
+          "stop" : 1637045086924,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "94c7d1bd1a8809b6",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/26/allure/#testresult/94c7d1bd1a8809b6",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: 功能未完成",
+        "time" : {
+          "start" : 1637042947764,
+          "stop" : 1637042947764,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "8e11797fe65be9f4",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/25/allure/#testresult/8e11797fe65be9f4",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: 功能未完成",
+        "time" : {
+          "start" : 1637041800117,
+          "stop" : 1637041800117,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b959fe4dd35e90eb",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/23/allure/#testresult/b959fe4dd35e90eb",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: 功能未完成",
+        "time" : {
+          "start" : 1636967276901,
+          "stop" : 1636967276901,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a99daaefa32b6cfd",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/22/allure/#testresult/a99daaefa32b6cfd",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: 功能未完成",
+        "time" : {
+          "start" : 1636940503432,
+          "stop" : 1636940503432,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9caa470ed316c47",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/20/allure/#testresult/9caa470ed316c47",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: 功能未完成",
+        "time" : {
+          "start" : 1636709207251,
+          "stop" : 1636709207251,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "938d4944419490b8",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/19/allure/#testresult/938d4944419490b8",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: 功能未完成",
+        "time" : {
+          "start" : 1636709207251,
+          "stop" : 1636709207251,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "21d9d6df548aa792",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/17/allure/#testresult/21d9d6df548aa792",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: 功能未完成",
+        "time" : {
+          "start" : 1636709207251,
+          "stop" : 1636709207251,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "199bc6ebdf6237e",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/16/allure/#testresult/199bc6ebdf6237e",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: 功能未完成",
+        "time" : {
+          "start" : 1636709207251,
+          "stop" : 1636709207251,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.skip('功能未完成')" ]
+  },
+  "source" : "d3f81d585290f158.json",
+  "parameterValues" : [ ]
+}

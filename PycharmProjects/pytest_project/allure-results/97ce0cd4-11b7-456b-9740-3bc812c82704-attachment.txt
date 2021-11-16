@@ -1,2 +1,0 @@
-INFO	2021-11-16 14:50:01,854	[basepage.py:32]	打开网页https://www.imymac.com/store/
-INFO	2021-11-16 14:50:01,900	[basepage.py:90]	点击元素：('css', '#powermymac-one-month')

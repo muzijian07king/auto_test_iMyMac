@@ -1,3 +1,0 @@
-INFO	2021-11-16 14:49:07,842	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
-INFO	2021-11-16 14:49:08,492	[basepage.py:90]	点击元素：('css', 'body >div:nth-child(4)>div>div>div:nth-child(2)>div>div:nth-child(9)>a')
-INFO	2021-11-16 14:49:09,530	[basepage.py:96]	获取到文本：iMyMac PDF Compressor

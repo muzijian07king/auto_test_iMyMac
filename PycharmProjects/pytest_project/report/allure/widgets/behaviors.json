@@ -1,68 +1,57 @@
 {
   "total" : 12,
   "items" : [ {
-    "uid" : "0cddf83003600142888c51e4932e5352",
-    "name" : "Store页面测试",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 2
-    }
-  }, {
     "uid" : "016822b8e93f17afa4e162f3b11b872d",
     "name" : "PowerMyMac下拉栏中页面测试",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 4,
       "unknown" : 0,
       "total" : 6
-    }
-  }, {
-    "uid" : "830984583063d73ef6940169959a6880",
-    "name" : "首页测试",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 3,
-      "unknown" : 0,
-      "total" : 3
-    }
-  }, {
-    "uid" : "6d9a9045caeb8b949f7e5a76c4bae7ab",
-    "name" : "VideoConverter页面测试",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 3,
-      "unknown" : 0,
-      "total" : 3
     }
   }, {
     "uid" : "7ef0e323012e93af6fcea647d52b4bc9",
     "name" : "网址地图页面测试",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "0cddf83003600142888c51e4932e5352",
+    "name" : "Store页面测试",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "830984583063d73ef6940169959a6880",
+    "name" : "首页测试",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 2,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     }
   }, {
     "uid" : "157903148b986387a6fb8aa996a9894b",
     "name" : "邮箱咨询页面测试",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     }
@@ -71,9 +60,9 @@
     "name" : "学生优惠申请页面测试",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     }
@@ -82,20 +71,9 @@
     "name" : "FAQ页面测试",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "1b9be4e654e76ade1ff2b8874a737619",
-    "name" : "pdf-compressor页面测试",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     }
@@ -104,9 +82,31 @@
     "name" : "协议内容测试",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "fc3aeb603bdd8c5aa8a44697e2416205",
+    "name" : "文章搜索页面测试",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "43d59ed6b7ef3192f2816a6748367d47",
+    "name" : "Support页面测试",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     }

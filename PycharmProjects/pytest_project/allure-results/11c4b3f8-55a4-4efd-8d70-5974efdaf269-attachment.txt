@@ -1,4 +1,0 @@
-INFO	2021-11-16 14:49:18,964	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
-INFO	2021-11-16 14:49:20,216	[basepage.py:96]	获取到文本：Convert WMA to MP3 Online for Free with High Quality
-INFO	2021-11-16 14:49:20,228	[basepage.py:96]	获取到文本：Convert WMA to MP3 Online for Free with High Quality
-INFO	2021-11-16 14:49:20,237	[basepage.py:96]	获取到文本：Convert WMA to MP3 Online for Free with High Quality

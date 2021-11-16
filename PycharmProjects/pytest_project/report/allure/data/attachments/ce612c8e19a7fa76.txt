@@ -1,0 +1,5 @@
+INFO	2021-11-16 15:18:41,892	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-16 15:18:41,938	[basepage.py:102]	鼠标悬停在('link', 'PowerMyMac')
+INFO	2021-11-16 15:18:42,212	[test_head.py:39]	点击PowerMyMac下拉框
+INFO	2021-11-16 15:18:42,370	[basepage.py:90]	点击元素：('link', 'Browser Cleanup')
+INFO	2021-11-16 15:18:43,377	[test_head.py:41]	点击链接Browser-Cleanup

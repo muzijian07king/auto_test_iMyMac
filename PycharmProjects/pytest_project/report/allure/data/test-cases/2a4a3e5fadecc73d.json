@@ -1,0 +1,281 @@
+{
+  "uid" : "2a4a3e5fadecc73d",
+  "name" : "点击文章==》mp3-to-midi",
+  "fullName" : "TestCase.video_test_case.test_video_converter.TestBody#test_006",
+  "historyId" : "b16ed61688b0bd4f80c6db6d883e663f",
+  "time" : {
+    "start" : 1637048732169,
+    "stop" : 1637048738150,
+    "duration" : 5981
+  },
+  "description" : "文章链接功能测试",
+  "descriptionHtml" : "<p>文章链接功能测试</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1637046945113,
+      "stop" : 1637046947524,
+      "duration" : 2411
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1637046945113,
+      "stop" : 1637046945113,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1637046945113,
+      "stop" : 1637046945113,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1637046947525,
+      "stop" : 1637046947525,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1637048732101,
+      "stop" : 1637048732101,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "open_clear",
+    "time" : {
+      "start" : 1637048732101,
+      "stop" : 1637048732168,
+      "duration" : 67
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "文章链接功能测试",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "页面滑动到container_enhancement上",
+      "time" : {
+        "start" : 1637048732169,
+        "stop" : 1637048735216,
+        "duration" : 3047
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击文章链接",
+      "time" : {
+        "start" : 1637048735216,
+        "stop" : 1637048738113,
+        "duration" : 2897
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "article_name",
+        "value" : "'mp3-to-midi'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "13b45a2e57c34524",
+      "name" : "log",
+      "source" : "13b45a2e57c34524.txt",
+      "type" : "text/plain",
+      "size" : 520
+    }, {
+      "uid" : "715a5863f6d95deb",
+      "name" : "stderr",
+      "source" : "715a5863f6d95deb.txt",
+      "type" : "text/plain",
+      "size" : 561
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1637048791608,
+      "stop" : 1637048793756,
+      "duration" : 2148
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "mp3-to-midi"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "VideoConverter主页内容测试"
+  }, {
+    "name" : "feature",
+    "value" : "VideoConverter页面测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.video_test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_video_converter"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBody"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "8092-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.video_test_case.test_video_converter"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "video_article_name",
+    "value" : "'mp3-to-midi'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "dc1f16710a4523ec",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/dc1f16710a4523ec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637045894934,
+          "stop" : 1637045899493,
+          "duration" : 4559
+        }
+      }, {
+        "uid" : "341363d784723c30",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/26/allure/#testresult/341363d784723c30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637044298301,
+          "stop" : 1637044302505,
+          "duration" : 4204
+        }
+      }, {
+        "uid" : "7d5b167ed5a7f66e",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/23/allure/#testresult/7d5b167ed5a7f66e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636968442762,
+          "stop" : 1636968447405,
+          "duration" : 4643
+        }
+      }, {
+        "uid" : "face948ecfb6f101",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/22/allure/#testresult/face948ecfb6f101",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636941486742,
+          "stop" : 1636941491592,
+          "duration" : 4850
+        }
+      } ]
+    },
+    "tags" : [ "mp3-to-midi" ]
+  },
+  "source" : "2a4a3e5fadecc73d.json",
+  "parameterValues" : [ "'mp3-to-midi'" ]
+}

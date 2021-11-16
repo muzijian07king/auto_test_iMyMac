@@ -1,0 +1,35 @@
+INFO	2021-11-16 15:17:24,106	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-16 15:17:24,604	[basepage.py:90]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(5)>a')
+INFO	2021-11-16 15:17:25,667	[basepage.py:82]	输入文本：imymac
+INFO	2021-11-16 15:17:26,906	[basepage.py:90]	点击元素：('css', 'body>div:nth-child(4)>div>div>form>button')
+INFO	2021-11-16 15:17:27,978	[basepage.py:96]	获取到文本：iMyMac | Smart Cleanup and Optimize Your Mac
+www.imymac.com
+iMyMac aims to develop apps that make your Mac powerful like a superman. You can use 20+ features in one tool in a click. Clean, protect and optimize your ...
+Free PDF Compressor: Reduce Your PDF Size on Mac | iMyMac
+www.imymac.com › free-imymac-pdf-compressor
+iMyMac PDF Compressor is the best Mac software to reduce PDF size. Keep the same PDF quality less file size. The tool is free to you.
+Mac Cleaner - Easily Clean Up Your Mac with iMyMac
+www.imymac.com › mac-cleaner
+It shows you your Mac system status, the status of CPU, Memory, Disk. It makes a deep scanning on your Mac, including iTunes Backup, Mail Attachment, Trash bins ...
+PowerMyMac - The Best Mac Cleanup Tool in 2020 for MacOS.
+www.imymac.com › powermymac
+Connect with iMyMac. Subscribe for latest updates and offers. Submit. captcha. Copyright © 2021 iMyMac. All rights reserved.
+iMyMac Video Converter - Convert videos to any formats.
+www.imymac.com › video-converter
+iMyMac Video Converter. Convert videos and audios to any formats you desired losslessly with lightning speed. A powerful tool with multiple functions and ...
+스마트 정리 및 Mac 최적화 - iMyMac
+www.imymac.com › ...
+iMyMac은 Mac을 수퍼맨처럼 강력하게 만드는 응용 프로그램을 개발하는 것을 목표로합니다. 한 번의 클릭으로 20 + 기능을 하나의 도구에서 사용할 수 있습니다.
+iMyMac | Limpia inteligente y optimiza tu Mac
+www.imymac.com › ...
+iMyMac tiene como objetivo desarrollar aplicaciones que hagan que tu Mac sea tan potente como un superhombre. Puede utilizar las características de 20 + en ...
+iMyMac | Nettoyage intelligent et optimisation de votre Mac
+www.imymac.com › ...
+iMyMac vise à développer des applications qui rendent votre Mac puissant comme un superman. Vous pouvez utiliser les fonctionnalités de 20 + dans un seul ...
+iMyMac Online PDF Compressor
+www.imymac.com › online-pdf-compressor
+iMyMac Online PDF Compressor is a totally free and online tool you can use to compress your PDF files without losing quality.
+iMyMac | Ihr persönlicher Anbieter von Mac-Lösungen
+www.imymac.com › ...
+iMyMac ist bestrebt, leistungsstarke Tools zu entwickeln und nützliche Lösungen zu teilen, um Menschen dabei zu helfen, den Mac besser zu nutzen, ...
+INFO	2021-11-16 15:17:27,994	[basepage.py:96]	获取到文本：imymac

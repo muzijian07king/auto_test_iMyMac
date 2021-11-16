@@ -1,2 +1,0 @@
-[32mINFO    [0m root:basepage.py:32 打开网页https://www.imymac.com/similar-image-finder/
-[32mINFO    [0m root:basepage.py:90 点击元素：('css', 'body>div.container>div>div.bannerInfo>div>a:nth-child(2)')

@@ -1,0 +1,321 @@
+{
+  "uid" : "1b3dee231fe647fe",
+  "name" : "购买链接测试",
+  "fullName" : "TestCase.discount_test_case.test_discount.TestBody#test_002",
+  "historyId" : "c4ab61f305443be34357405aecbeb500",
+  "time" : {
+    "start" : 1637046978134,
+    "stop" : 1637046980139,
+    "duration" : 2005
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1637046945113,
+      "stop" : 1637046947524,
+      "duration" : 2411
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1637046945113,
+      "stop" : 1637046945113,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1637046945113,
+      "stop" : 1637046945113,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1637046947525,
+      "stop" : 1637046947525,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "open_url",
+    "time" : {
+      "start" : 1637046977456,
+      "stop" : 1637046978133,
+      "duration" : 677
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1637046977456,
+      "stop" : 1637046977456,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击购买链接",
+      "time" : {
+        "start" : 1637046978134,
+        "stop" : 1637046980135,
+        "duration" : 2001
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "判断是否跳转store",
+      "time" : {
+        "start" : 1637046980135,
+        "stop" : 1637046980139,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "e94011e332720667",
+      "name" : "log",
+      "source" : "e94011e332720667.txt",
+      "type" : "text/plain",
+      "size" : 209
+    }, {
+      "uid" : "b70389bd57169071",
+      "name" : "stderr",
+      "source" : "b70389bd57169071.txt",
+      "type" : "text/plain",
+      "size" : 226
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1637048791608,
+      "stop" : 1637048793756,
+      "duration" : 2148
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "学生优惠申请页面测试"
+  }, {
+    "name" : "tag",
+    "value" : "链接测试"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "功能测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.discount_test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_discount"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBody"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "8092-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.discount_test_case.test_discount"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "购买链接",
+    "url" : "https://www.imymac.com/store/",
+    "type" : "link"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "503f304dd4447da8",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/503f304dd4447da8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637045086535,
+          "stop" : 1637045088246,
+          "duration" : 1711
+        }
+      }, {
+        "uid" : "1494af66e379afb2",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/26/allure/#testresult/1494af66e379afb2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637042932844,
+          "stop" : 1637042934811,
+          "duration" : 1967
+        }
+      }, {
+        "uid" : "192a4b438e78d3ad",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/25/allure/#testresult/192a4b438e78d3ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637041808322,
+          "stop" : 1637041812858,
+          "duration" : 4536
+        }
+      }, {
+        "uid" : "62810ae13dc929d6",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/23/allure/#testresult/62810ae13dc929d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636967276380,
+          "stop" : 1636967278338,
+          "duration" : 1958
+        }
+      }, {
+        "uid" : "b47fa8325254f5fd",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/22/allure/#testresult/b47fa8325254f5fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636940503197,
+          "stop" : 1636940504836,
+          "duration" : 1639
+        }
+      }, {
+        "uid" : "d0d823f175b8491c",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/20/allure/#testresult/d0d823f175b8491c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636709207346,
+          "stop" : 1636709209094,
+          "duration" : 1748
+        }
+      }, {
+        "uid" : "58edd75f6a01596",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/19/allure/#testresult/58edd75f6a01596",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636709207346,
+          "stop" : 1636709209094,
+          "duration" : 1748
+        }
+      }, {
+        "uid" : "8ac2c987027c746",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/17/allure/#testresult/8ac2c987027c746",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636709207346,
+          "stop" : 1636709209094,
+          "duration" : 1748
+        }
+      }, {
+        "uid" : "65cf546d8d4272d7",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/16/allure/#testresult/65cf546d8d4272d7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636709207346,
+          "stop" : 1636709209094,
+          "duration" : 1748
+        }
+      } ]
+    },
+    "tags" : [ "链接测试" ]
+  },
+  "source" : "1b3dee231fe647fe.json",
+  "parameterValues" : [ ]
+}

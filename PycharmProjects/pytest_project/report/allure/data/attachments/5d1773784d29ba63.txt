@@ -1,4 +1,0 @@
-[32mINFO    [0m root:basepage.py:32 打开网页https://www.imymac.com/index.html
-[32mINFO    [0m root:basepage.py:82 输入文本：123.com
-[32mINFO    [0m root:basepage.py:90 点击元素：('id', 'footerSubscribeBTN')
-[32mINFO    [0m root:basepage.py:96 获取到文本：Email Format Error!

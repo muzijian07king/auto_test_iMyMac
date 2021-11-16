@@ -1,0 +1,16 @@
+INFO	2021-11-16 15:40:32,041	[basepage.py:32]	打开网页https://www.imymac.com/store/
+INFO	2021-11-16 15:40:32,094	[basepage.py:90]	点击元素：('css', '#powermymac-one-month')
+INFO	2021-11-16 15:40:33,102	[basepage.py:181]	切换frame==>pf_631115
+INFO	2021-11-16 15:40:35,453	[basepage.py:186]	下拉框value选择==》zh-Hans
+INFO	2021-11-16 15:40:35,607	[basepage.py:82]	输入文本：123@123.com
+INFO	2021-11-16 15:40:35,676	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div>div>button')
+INFO	2021-11-16 15:40:36,684	[basepage.py:186]	下拉框value选择==》CN
+INFO	2021-11-16 15:40:36,813	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div:nth-child(3)>div>button')
+INFO	2021-11-16 15:40:37,870	[basepage.py:90]	点击元素：('css', '#root > div > div> div> div > div > div >div:nth-child(3)>div>div:nth-child(1)>button')
+INFO	2021-11-16 15:40:40,930	[basepage.py:82]	输入文本：
+INFO	2021-11-16 15:40:40,982	[basepage.py:82]	输入文本：
+INFO	2021-11-16 15:40:41,036	[basepage.py:82]	输入文本：
+INFO	2021-11-16 15:40:41,099	[basepage.py:82]	输入文本：2022
+INFO	2021-11-16 15:40:41,158	[basepage.py:82]	输入文本：56
+INFO	2021-11-16 15:40:41,222	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>div:nth-child(3)>form>div:nth-child(2)>div>button')
+INFO	2021-11-16 15:40:43,287	[basepage.py:211]	获取到text==》['您输入的名称无效。', '您输入的信用卡无效。', '您输入的期限月份无效。', '您输入的 CVV 无效。']

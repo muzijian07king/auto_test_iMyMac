@@ -1,4 +1,0 @@
-[32mINFO    [0m root:basepage.py:32 打开网页https://www.imymac.com/duplicate-finder/
-[32mINFO    [0m root:basepage.py:159 页面滚到元素('css', 'body>div.footerBg')
-[32mINFO    [0m root:basepage.py:153 使用js操控浏览器==》document.documentElement.scrollBy(0,1)
-[32mINFO    [0m root:basepage.py:90 点击元素：('css', 'body>div.footerBg>div>div>div.col-md-8>div>div>a:nth-child(1)')

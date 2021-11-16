@@ -1,0 +1,4 @@
+INFO	2021-11-16 15:18:17,306	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-16 15:18:17,819	[basepage.py:90]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(4)>a')
+INFO	2021-11-16 15:18:35,043	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-16 15:18:35,553	[basepage.py:90]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(4)>a')

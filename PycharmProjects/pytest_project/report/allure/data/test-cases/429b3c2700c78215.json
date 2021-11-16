@@ -1,0 +1,470 @@
+{
+  "uid" : "429b3c2700c78215",
+  "name" : "video购买页面移除优惠码测试",
+  "fullName" : "TestCase.store_test_case.test_store.TestBody#test_031",
+  "historyId" : "fa1a6318ab0648a3bc11db5a92bdee09",
+  "time" : {
+    "start" : 1637048432102,
+    "stop" : 1637048440356,
+    "duration" : 8254
+  },
+  "description" : "video购买页面移除优惠码功能测试",
+  "descriptionHtml" : "<p>video购买页面移除优惠码功能测试</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1637046945113,
+      "stop" : 1637046945113,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1637046945113,
+      "stop" : 1637046945113,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1637046945113,
+      "stop" : 1637046947725,
+      "duration" : 2612
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1637046947726,
+      "stop" : 1637046947727,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1637048431897,
+      "stop" : 1637048431897,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "open_url",
+    "time" : {
+      "start" : 1637048431898,
+      "stop" : 1637048432101,
+      "duration" : 203
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "video购买页面移除优惠码功能测试",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "添加video优惠码步骤",
+      "time" : {
+        "start" : 1637048432102,
+        "stop" : 1637048439262,
+        "duration" : 7160
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "进入购买video第三步页面",
+        "time" : {
+          "start" : 1637048432102,
+          "stop" : 1637048437059,
+          "duration" : 4957
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "进入购买video第二步页面",
+          "time" : {
+            "start" : 1637048432102,
+            "stop" : 1637048435928,
+            "duration" : 3826
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "进入购买video第一步页面",
+            "time" : {
+              "start" : 1637048432102,
+              "stop" : 1637048434754,
+              "duration" : 2652
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "切换到video购买页面",
+              "time" : {
+                "start" : 1637048433149,
+                "stop" : 1637048434688,
+                "duration" : 1539
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "hasContent" : false,
+              "shouldDisplayMessage" : false,
+              "attachmentsCount" : 0
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "hasContent" : true,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0
+          }, {
+            "name" : "输入邮箱",
+            "time" : {
+              "start" : 1637048434754,
+              "stop" : 1637048434842,
+              "duration" : 88
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "text",
+              "value" : "'123@123.com'"
+            } ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0
+          }, {
+            "name" : "点击确认邮箱按钮",
+            "time" : {
+              "start" : 1637048434843,
+              "stop" : 1637048435928,
+              "duration" : 1085
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 4,
+          "hasContent" : true,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "点击地区下拉框",
+          "time" : {
+            "start" : 1637048435928,
+            "stop" : 1637048435977,
+            "duration" : 49
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "language",
+            "value" : "'CN'"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "点击确认地区",
+          "time" : {
+            "start" : 1637048435977,
+            "stop" : 1637048437059,
+            "duration" : 1082
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 7,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "点击添加优惠卷链接",
+        "time" : {
+          "start" : 1637048437059,
+          "stop" : 1637048438114,
+          "duration" : 1055
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "输入优惠码",
+        "time" : {
+          "start" : 1637048438114,
+          "stop" : 1637048438195,
+          "duration" : 81
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "text",
+          "value" : "'testnewpmm'"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "提交优惠码",
+        "time" : {
+          "start" : 1637048438195,
+          "stop" : 1637048439262,
+          "duration" : 1067
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "code",
+        "value" : "'testnewpmm'"
+      } ],
+      "stepsCount" : 11,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "移除优惠码",
+      "time" : {
+        "start" : 1637048439262,
+        "stop" : 1637048440336,
+        "duration" : 1074
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "判断优惠后价格是否正确",
+      "time" : {
+        "start" : 1637048440336,
+        "stop" : 1637048440356,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "6d09fa085595038f",
+      "name" : "log",
+      "source" : "6d09fa085595038f.txt",
+      "type" : "text/plain",
+      "size" : 1264
+    }, {
+      "uid" : "d12ca157352e232b",
+      "name" : "stderr",
+      "source" : "d12ca157352e232b.txt",
+      "type" : "text/plain",
+      "size" : 1369
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 14,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1637048803679,
+      "stop" : 1637048805774,
+      "duration" : 2095
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "移除优惠码"
+  }, {
+    "name" : "story",
+    "value" : "Store主页内容测试"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "Store页面测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.store_test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_store"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBody"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "1832-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.store_test_case.test_store"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "code",
+    "value" : "'testnewpmm'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "e0f15c59315737b7",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/e0f15c59315737b7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637045616970,
+          "stop" : 1637045626325,
+          "duration" : 9355
+        }
+      }, {
+        "uid" : "d6a7854a3aeff7a5",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/26/allure/#testresult/d6a7854a3aeff7a5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637043965321,
+          "stop" : 1637043977593,
+          "duration" : 12272
+        }
+      }, {
+        "uid" : "75ed6c01009f3366",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/23/allure/#testresult/75ed6c01009f3366",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636968155901,
+          "stop" : 1636968175388,
+          "duration" : 19487
+        }
+      }, {
+        "uid" : "5497567eee5991e8",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/22/allure/#testresult/5497567eee5991e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636941115775,
+          "stop" : 1636941126115,
+          "duration" : 10340
+        }
+      } ]
+    },
+    "tags" : [ "移除优惠码" ]
+  },
+  "source" : "429b3c2700c78215.json",
+  "parameterValues" : [ "'testnewpmm'" ]
+}

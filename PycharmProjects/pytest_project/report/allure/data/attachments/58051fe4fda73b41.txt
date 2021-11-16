@@ -1,0 +1,5 @@
+INFO	2021-11-16 15:20:24,798	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-16 15:20:24,927	[basepage.py:102]	鼠标悬停在('link', 'Online Tools')
+INFO	2021-11-16 15:20:25,225	[test_head.py:51]	点击OnlineTool下拉框
+INFO	2021-11-16 15:20:30,741	[basepage.py:90]	点击元素：('css', '#onlineLabel>ul>li:nth-child(1)>a')
+INFO	2021-11-16 15:20:31,749	[test_head.py:53]	点击链接online-Video-Converter

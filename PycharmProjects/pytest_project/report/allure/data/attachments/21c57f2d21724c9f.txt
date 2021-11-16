@@ -1,0 +1,2 @@
+INFO	2021-11-16 15:29:22,611	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-16 15:29:38,685	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/

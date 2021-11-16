@@ -1,0 +1,5 @@
+INFO	2021-11-16 15:18:57,413	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-16 15:18:57,447	[basepage.py:102]	鼠标悬停在('link', 'PowerMyMac')
+INFO	2021-11-16 15:18:57,727	[test_head.py:39]	点击PowerMyMac下拉框
+INFO	2021-11-16 15:18:59,039	[basepage.py:90]	点击元素：('link', 'Mac Uninstaller')
+INFO	2021-11-16 15:19:00,046	[test_head.py:41]	点击链接Mac-Uninstaller

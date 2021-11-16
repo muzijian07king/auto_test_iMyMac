@@ -1,3 +1,0 @@
-INFO	2021-11-16 14:57:28,310	[basepage.py:32]	打开网页https://www.imymac.com/support/
-INFO	2021-11-16 14:57:28,839	[basepage.py:90]	点击元素：('css', 'body>div:nth-child(4)>div>div:nth-child(3)>a')
-INFO	2021-11-16 14:57:29,863	[basepage.py:134]	获取到href元素的值==》mailto:support@imymac.com

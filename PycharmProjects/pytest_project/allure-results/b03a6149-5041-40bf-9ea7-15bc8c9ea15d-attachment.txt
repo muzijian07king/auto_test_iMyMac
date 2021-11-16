@@ -1,4 +1,0 @@
-INFO	2021-11-16 14:58:26,682	[basepage.py:32]	打开网页https://www.imymac.com/video-converter/
-INFO	2021-11-16 14:58:26,683	[basepage.py:159]	页面滚到元素('css', 'body > div.container.enhancement.flexCenter.flexBetween')
-INFO	2021-11-16 14:58:27,701	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
-INFO	2021-11-16 14:58:29,746	[basepage.py:96]	获取到文本：Video Enhancement

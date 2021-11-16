@@ -1,2 +1,0 @@
-INFO	2021-11-16 14:49:12,598	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
-INFO	2021-11-16 14:49:14,865	[basepage.py:96]	获取到文本：Useful Tips & Tricks on How to Convert PDF to Word on Mac

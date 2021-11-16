@@ -17,6 +17,7 @@ class TestBody(object):
     def open_clear(self, drivers):
         self.driver = UninstallerPage(drivers)
         self.driver.get_url(ini.get_url('mac-uninstaller'))
+        self.driver.click_sale_off_link()
 
     @allure.title('下载PowerMyMac测试')
     @allure.severity('blocker')

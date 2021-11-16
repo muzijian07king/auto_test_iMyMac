@@ -2,640 +2,2047 @@
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
   "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "AssertionError: assert 'You need to ...mail address.' == '您需要输入一个有效邮箱。'\n  - 您需要输入一个有效邮箱。\n  + You need to enter a valid email address.",
-      "children" : [ {
-        "name" : "video购买页面填写错误格式邮箱测试",
-        "uid" : "52e4ccc132cda15a",
-        "parentUid" : "d6069c7f3391908a5e3c67b60cacda6d",
-        "status" : "failed",
-        "time" : {
-          "start" : 1637045476174,
-          "stop" : 1637045484709,
-          "duration" : 8535
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "''", "'您需要输入一个有效邮箱。'" ]
-      } ],
-      "uid" : "d6069c7f3391908a5e3c67b60cacda6d"
-    }, {
-      "name" : "AssertionError: assert 'The email ad...is not valid.' == '您输入的邮箱无效。'\n  - 您输入的邮箱无效。\n  + The email address you entered is not valid.",
-      "children" : [ {
-        "name" : "video购买页面填写错误格式邮箱测试",
-        "uid" : "b6f77af941bd3b33",
-        "parentUid" : "996a3191575026b1096d9ca57f0fa7a4",
-        "status" : "failed",
-        "time" : {
-          "start" : 1637045500690,
-          "stop" : 1637045510433,
-          "duration" : 9743
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'m111'", "'您输入的邮箱无效。'" ]
-      } ],
-      "uid" : "996a3191575026b1096d9ca57f0fa7a4"
-    }, {
-      "name" : "AssertionError: assert 'You need to ... coupon code.' == '您需要输入一个有效优惠码。'\n  - 您需要输入一个有效优惠码。\n  + You need to enter a valid coupon code.",
-      "children" : [ {
-        "name" : "video购买页面填写错误优惠码测试",
-        "uid" : "f7170bee3cd39a46",
-        "parentUid" : "042282656d80306f0bbe6bdf74f58213",
-        "status" : "failed",
-        "time" : {
-          "start" : 1637045556549,
-          "stop" : 1637045565402,
-          "duration" : 8853
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'1111'", "'您需要输入一个有效优惠码。'" ]
-      } ],
-      "uid" : "042282656d80306f0bbe6bdf74f58213"
-    }, {
-      "name" : "AssertionError: assert 'This coupon ...o many times.' == '本优惠券已被使用太多次。'\n  - 本优惠券已被使用太多次。\n  + This coupon has been used too many times.",
-      "children" : [ {
-        "name" : "video购买页面填写错误优惠码测试",
-        "uid" : "9346b34fccc9f97f",
-        "parentUid" : "f47b362d8919a1f5f274ac6d4104e5ce",
-        "status" : "failed",
-        "time" : {
-          "start" : 1637045580062,
-          "stop" : 1637045588866,
-          "duration" : 8804
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'youhuima2021'", "'本优惠券已被使用太多次。'" ]
-      } ],
-      "uid" : "f47b362d8919a1f5f274ac6d4104e5ce"
-    }, {
-      "name" : "AssertionError: assert '您输入的信用卡无效。' in ['The credit card you entered is not valid.']\n +  where ['The credit card you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18CB1D00>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18CB1D00>> = <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18CB1D00>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18CB1D00> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x0000025A18CB1070>.driver",
-      "children" : [ {
-        "name" : "video购买页面添加支付卡信息错误测试",
-        "uid" : "bced59bd79d27bbe",
-        "parentUid" : "ab73c7e7a345ae6f36a10fb86bdbe743",
-        "status" : "failed",
-        "time" : {
-          "start" : 1637045603904,
-          "stop" : 1637045619940,
-          "duration" : 16036
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'您输入的信用卡无效。'", "'2'", "'lin'", "'12345'", "'568'", "'2022'" ]
-      } ],
-      "uid" : "ab73c7e7a345ae6f36a10fb86bdbe743"
-    }, {
-      "name" : "AssertionError: assert '您输入的名称无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF39186790>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF39186790>> = <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF39186790>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF39186790> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x000001BF39135A90>.driver",
-      "children" : [ {
-        "name" : "video购买页面添加支付卡信息错误测试",
-        "uid" : "67095ab6bfe4bd2b",
-        "parentUid" : "6f4b94367a9a49bd2524be28ad49227d",
-        "status" : "failed",
-        "time" : {
-          "start" : 1637045615003,
-          "stop" : 1637045627712,
-          "duration" : 12709
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'您输入的名称无效。'", "''", "''", "''", "''", "''" ]
-      } ],
-      "uid" : "6f4b94367a9a49bd2524be28ad49227d"
-    }, {
-      "name" : "AssertionError: assert '您输入的信用卡无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18C874C0>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18C874C0>> = <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18C874C0>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18C874C0> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x0000025A18C87AC0>.driver",
-      "children" : [ {
-        "name" : "video购买页面添加支付卡信息错误测试",
-        "uid" : "9fd4bd59c36403b2",
-        "parentUid" : "6124fe1076e6838270aafc212c5489bc",
-        "status" : "failed",
-        "time" : {
-          "start" : 1637045641938,
-          "stop" : 1637045656368,
-          "duration" : 14430
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'您输入的信用卡无效。'", "'2'", "''", "'12346'", "'568'", "'2022'" ]
-      } ],
-      "uid" : "6124fe1076e6838270aafc212c5489bc"
-    }, {
-      "name" : "AssertionError: assert '您输入的期限月份无效。' in ['The expiry month you entered is not valid.']\n +  where ['The expiry month you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF39154F70>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF39154F70>> = <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF39154F70>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF39154F70> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x000001BF39154AF0>.driver",
-      "children" : [ {
-        "name" : "video购买页面添加支付卡信息错误测试",
-        "uid" : "857c8155d63fb78",
-        "parentUid" : "52e2ed8a48a3455ed2560940c5684497",
-        "status" : "failed",
-        "time" : {
-          "start" : 1637045646061,
-          "stop" : 1637045657806,
-          "duration" : 11745
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'您输入的期限月份无效。'", "'24'", "'lin'", "':62122 62502 00918 2455'", "'568'", "'2022'" ]
-      } ],
-      "uid" : "52e2ed8a48a3455ed2560940c5684497"
-    }, {
-      "name" : "AssertionError: assert '您输入的期限年份无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry year you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry year you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A8F47FD0>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A8F47FD0>> = <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A8F47FD0>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A8F47FD0> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x00000245A8F4C6A0>.driver",
-      "children" : [ {
-        "name" : "video购买页面添加支付卡信息错误测试",
-        "uid" : "53f61a0d046a3323",
-        "parentUid" : "f9383b3896678999ea592905695f22b9",
-        "status" : "failed",
-        "time" : {
-          "start" : 1637045653068,
-          "stop" : 1637045667228,
-          "duration" : 14160
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'您输入的期限年份无效。'", "'12'", "''", "''", "'568'", "'1000'" ]
-      } ],
-      "uid" : "f9383b3896678999ea592905695f22b9"
-    }, {
-      "name" : "AssertionError: assert '您输入的 CVV 无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000029CC4A8D880>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000029CC4A8D880>> = <pytest_project.page_object.store.store_page.StorePage object at 0x0000029CC4A8D880>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x0000029CC4A8D880> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x0000029CC4A8D250>.driver",
-      "children" : [ {
-        "name" : "video购买页面添加支付卡信息错误测试",
-        "uid" : "998c4e08fd4d5b26",
-        "parentUid" : "81e8ccee7fa54d9c1257e9effbb011a6",
-        "status" : "failed",
-        "time" : {
-          "start" : 1637045653174,
-          "stop" : 1637045665123,
-          "duration" : 11949
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'您输入的 CVV 无效。'", "''", "''", "''", "'56'", "''" ]
-      } ],
-      "uid" : "81e8ccee7fa54d9c1257e9effbb011a6"
-    }, {
-      "name" : "AssertionError: assert '您输入的期限月份无效。' in ['The credit card you entered is not valid.', 'The expiry month you entered is not valid.']\n +  where ['The credit card you entered is not valid.', 'The expiry month you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF392090D0>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF392090D0>> = <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF392090D0>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF392090D0> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x000001BF39154D30>.driver",
-      "children" : [ {
-        "name" : "video购买页面添加支付卡信息错误测试",
-        "uid" : "b1728725cb26deb5",
-        "parentUid" : "0443c6b64197cd5565aa631e5d20f91d",
-        "status" : "failed",
-        "time" : {
-          "start" : 1637045676407,
-          "stop" : 1637045688644,
-          "duration" : 12237
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'您输入的期限月份无效。'", "'24'", "'lin'", "''", "'568'", "'2022'" ]
-      } ],
-      "uid" : "0443c6b64197cd5565aa631e5d20f91d"
-    }, {
-      "name" : "AssertionError: assert '您输入的信用卡无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18BDFAF0>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18BDFAF0>> = <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18BDFAF0>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18BDFAF0> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x0000025A18BDF460>.driver",
-      "children" : [ {
-        "name" : "video购买页面添加支付卡信息错误测试",
-        "uid" : "330947d0d2534fef",
-        "parentUid" : "6deb1e2810103b2167b03e5d1d36f9dc",
-        "status" : "failed",
-        "time" : {
-          "start" : 1637045677013,
-          "stop" : 1637045690736,
-          "duration" : 13723
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'您输入的信用卡无效。'", "''", "''", "'12347'", "'568'", "'2022'" ]
-      } ],
-      "uid" : "6deb1e2810103b2167b03e5d1d36f9dc"
-    }, {
-      "name" : "AssertionError: assert '您输入的 CVV 无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000029CC4A9A730>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000029CC4A9A730>> = <pytest_project.page_object.store.store_page.StorePage object at 0x0000029CC4A9A730>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x0000029CC4A9A730> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x0000029CC4A9A460>.driver",
-      "children" : [ {
-        "name" : "video购买页面添加支付卡信息错误测试",
-        "uid" : "f3a24e0f67659771",
-        "parentUid" : "3e2e31c623d1db2b3f0e39efe6558ee5",
-        "status" : "failed",
-        "time" : {
-          "start" : 1637045683249,
-          "stop" : 1637045696058,
-          "duration" : 12809
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'您输入的 CVV 无效。'", "''", "''", "''", "''", "''" ]
-      } ],
-      "uid" : "3e2e31c623d1db2b3f0e39efe6558ee5"
-    }, {
-      "name" : "AssertionError: assert '您输入的期限年份无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A8FF4E50>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A8FF4E50>> = <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A8FF4E50>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A8FF4E50> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x00000245A8FF4C70>.driver",
-      "children" : [ {
-        "name" : "video购买页面添加支付卡信息错误测试",
-        "uid" : "fb94bea6ff9fd1e8",
-        "parentUid" : "e37ff1fbdd85d4e34b482ac6d997ae9d",
-        "status" : "failed",
-        "time" : {
-          "start" : 1637045687891,
-          "stop" : 1637045703621,
-          "duration" : 15730
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'您输入的期限年份无效。'", "''", "''", "''", "'568'", "'1000'" ]
-      } ],
-      "uid" : "e37ff1fbdd85d4e34b482ac6d997ae9d"
-    }, {
-      "name" : "AssertionError: assert '您输入的期限月份无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF3922B850>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF3922B850>> = <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF3922B850>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF3922B850> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x000001BF3922BCD0>.driver",
-      "children" : [ {
-        "name" : "video购买页面添加支付卡信息错误测试",
-        "uid" : "b696116bcc057ce1",
-        "parentUid" : "efcd4027c5d8b9aa219f2f58f477bd65",
-        "status" : "failed",
-        "time" : {
-          "start" : 1637045706541,
-          "stop" : 1637045719596,
-          "duration" : 13055
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'您输入的期限月份无效。'", "'24'", "''", "''", "'568'", "'2022'" ]
-      } ],
-      "uid" : "efcd4027c5d8b9aa219f2f58f477bd65"
-    }, {
-      "name" : "AssertionError: assert '您输入的信用卡无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18C5EE50>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18C5EE50>> = <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18C5EE50>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18C5EE50> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x0000025A18C5ED30>.driver",
-      "children" : [ {
-        "name" : "video购买页面添加支付卡信息错误测试",
-        "uid" : "62427b0ceb2bb52b",
-        "parentUid" : "7940c5e79c4d85ffdead2c8851ac58be",
-        "status" : "failed",
-        "time" : {
-          "start" : 1637045710318,
-          "stop" : 1637045723841,
-          "duration" : 13523
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'您输入的信用卡无效。'", "''", "''", "'12348'", "'569'", "''" ]
-      } ],
-      "uid" : "7940c5e79c4d85ffdead2c8851ac58be"
-    }, {
-      "name" : "AssertionError: assert '本次付款被您的银行拒绝。请重试，或使用另外的支付方式。联系您的银行以获取进一步的信息。' in 'This payment was declined by your bank. Please try again, or use a different payment method. Contact your bank for further information.'\n +  where 'This payment was declined by your bank. Please try again, or use a different payment method. Contact your bank for further information.' = <bound method StorePage.return_card_pay_BANK_error_text of <pytest_project.page_object.store.store_page.StorePage object at 0x0000029CC491F820>>()\n +    where <bound method StorePage.return_card_pay_BANK_error_text of <pytest_project.page_object.store.store_page.StorePage object at 0x0000029CC491F820>> = <pytest_project.page_object.store.store_page.StorePage object at 0x0000029CC491F820>.return_card_pay_BANK_error_text\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x0000029CC491F820> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x0000029CC48DC400>.driver",
-      "children" : [ {
-        "name" : "video购买页面添加支付卡信息银行拒绝测试",
-        "uid" : "769f3b721f19d16f",
-        "parentUid" : "18bf003e2460b93e27c93090fa1a604f",
-        "status" : "failed",
-        "time" : {
-          "start" : 1637045714313,
-          "stop" : 1637045726282,
-          "duration" : 11969
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'本次付款被您的银行拒绝。请重试，或使用另外的支付方式。联系您的银行以获取进一步的信息。'", "'2'", "'lin'", "'62122 62502 00918 2455'", "'568'", "'2022'" ]
-      } ],
-      "uid" : "18bf003e2460b93e27c93090fa1a604f"
-    }, {
-      "name" : "AssertionError: assert '您输入的期限年份无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A9008FD0>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A9008FD0>> = <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A9008FD0>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A9008FD0> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x00000245A9008400>.driver",
-      "children" : [ {
-        "name" : "video购买页面添加支付卡信息错误测试",
-        "uid" : "762db858569066e",
-        "parentUid" : "25dcf0ff59ae327d00559f753d8b6f00",
-        "status" : "failed",
-        "time" : {
-          "start" : 1637045723665,
-          "stop" : 1637045736374,
-          "duration" : 12709
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'您输入的期限年份无效。'", "''", "''", "''", "''", "'1000'" ]
-      } ],
-      "uid" : "25dcf0ff59ae327d00559f753d8b6f00"
-    }, {
-      "name" : "AssertionError: assert '您输入的期限月份无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF39209760>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF39209760>> = <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF39209760>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF39209760> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x000001BF39209190>.driver",
-      "children" : [ {
-        "name" : "video购买页面添加支付卡信息错误测试",
-        "uid" : "1da6de5a02312fea",
-        "parentUid" : "c5fc3fd0ff3d3858885abfe97547433e",
-        "status" : "failed",
-        "time" : {
-          "start" : 1637045739225,
-          "stop" : 1637045751768,
-          "duration" : 12543
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'您输入的期限月份无效。'", "'24'", "''", "''", "'568'", "''" ]
-      } ],
-      "uid" : "c5fc3fd0ff3d3858885abfe97547433e"
-    }, {
-      "name" : "AssertionError: assert '您输入的信用卡无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18CD78E0>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18CD78E0>> = <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18CD78E0>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18CD78E0> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x0000025A18CD79D0>.driver",
-      "children" : [ {
-        "name" : "video购买页面添加支付卡信息错误测试",
-        "uid" : "7931bb325d1ab6b8",
-        "parentUid" : "b596c527354f4c472399ef5f35b46788",
-        "status" : "failed",
-        "time" : {
-          "start" : 1637045743242,
-          "stop" : 1637045757003,
-          "duration" : 13761
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'您输入的信用卡无效。'", "''", "''", "'12349'", "''", "''" ]
-      } ],
-      "uid" : "b596c527354f4c472399ef5f35b46788"
-    }, {
-      "name" : "AssertionError: assert '本次付款被您的银行拒绝。请重试，或使用另外的支付方式。联系您的银行以获取进一步的信息。' in 'This payment was declined by your bank. Please try again, or use a different payment method. Contact your bank for further information.'\n +  where 'This payment was declined by your bank. Please try again, or use a different payment method. Contact your bank for further information.' = <bound method StorePage.return_card_pay_BANK_error_text of <pytest_project.page_object.store.store_page.StorePage object at 0x0000029CC4A7F130>>()\n +    where <bound method StorePage.return_card_pay_BANK_error_text of <pytest_project.page_object.store.store_page.StorePage object at 0x0000029CC4A7F130>> = <pytest_project.page_object.store.store_page.StorePage object at 0x0000029CC4A7F130>.return_card_pay_BANK_error_text\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x0000029CC4A7F130> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x0000029CC48F1C10>.driver",
-      "children" : [ {
-        "name" : "video购买页面添加支付卡信息银行拒绝测试",
-        "uid" : "929d3edbba69a81b",
-        "parentUid" : "f91584eec6de6c633d1e2e8275e2fc9f",
-        "status" : "failed",
-        "time" : {
-          "start" : 1637045747860,
-          "stop" : 1637045762625,
-          "duration" : 14765
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'本次付款被您的银行拒绝。请重试，或使用另外的支付方式。联系您的银行以获取进一步的信息。'", "'2'", "'lin'", "'62284 80088 14184 8874'", "'568'", "'2022'" ]
-      } ],
-      "uid" : "f91584eec6de6c633d1e2e8275e2fc9f"
-    }, {
-      "name" : "AssertionError: assert '您输入的期限年份无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A8F75F10>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A8F75F10>> = <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A8F75F10>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A8F75F10> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x00000245A8F288B0>.driver",
-      "children" : [ {
-        "name" : "video购买页面添加支付卡信息错误测试",
-        "uid" : "9cba717da1075753",
-        "parentUid" : "10a07e3a202740341ee388d09ba8f83a",
-        "status" : "failed",
-        "time" : {
-          "start" : 1637045758494,
-          "stop" : 1637045773131,
-          "duration" : 14637
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'您输入的期限年份无效。'", "''", "''", "''", "''", "''" ]
-      } ],
-      "uid" : "10a07e3a202740341ee388d09ba8f83a"
-    }, {
-      "name" : "AssertionError: assert '您输入的期限月份无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF3919BD30>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF3919BD30>> = <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF3919BD30>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF3919BD30> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x000001BF3915FBE0>.driver",
-      "children" : [ {
-        "name" : "video购买页面添加支付卡信息错误测试",
-        "uid" : "9bf69453961bd020",
-        "parentUid" : "a4bfc627da278a6586543c390058e5a8",
-        "status" : "failed",
-        "time" : {
-          "start" : 1637045769915,
-          "stop" : 1637045783601,
-          "duration" : 13686
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'您输入的期限月份无效。'", "'24'", "''", "''", "''", "''" ]
-      } ],
-      "uid" : "a4bfc627da278a6586543c390058e5a8"
-    }, {
-      "name" : "AssertionError: assert '您输入的信用卡无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18CD7AF0>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18CD7AF0>> = <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18CD7AF0>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18CD7AF0> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x0000025A1824B640>.driver",
-      "children" : [ {
-        "name" : "video购买页面添加支付卡信息错误测试",
-        "uid" : "63e7a703b6a4934a",
-        "parentUid" : "b0c389e27d77574049c4c48bf937dbe0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1637045777520,
-          "stop" : 1637045797388,
-          "duration" : 19868
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'您输入的信用卡无效。'", "''", "''", "''", "''", "''" ]
-      } ],
-      "uid" : "b0c389e27d77574049c4c48bf937dbe0"
-    }, {
-      "name" : "AssertionError: assert '您输入的 CVV 无效。' in ['The CVV you entered is not valid.']\n +  where ['The CVV you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A8FF4E80>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A8FF4E80>> = <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A8FF4E80>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A8FF4E80> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x00000245A8FF4760>.driver",
-      "children" : [ {
-        "name" : "video购买页面添加支付卡信息错误测试",
-        "uid" : "373bc3c570498147",
-        "parentUid" : "395ad34e6899c4b3fde0dca192885bff",
-        "status" : "failed",
-        "time" : {
-          "start" : 1637045796629,
-          "stop" : 1637045813699,
-          "duration" : 17070
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'您输入的 CVV 无效。'", "'2'", "'lin'", "':62122 62502 00918 2455'", "'56'", "'2022'" ]
-      } ],
-      "uid" : "395ad34e6899c4b3fde0dca192885bff"
-    }, {
-      "name" : "AssertionError: assert '您输入的期限月份无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF3929B340>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF3929B340>> = <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF3929B340>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF3929B340> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x000001BF3929B6A0>.driver",
-      "children" : [ {
-        "name" : "video购买页面添加支付卡信息错误测试",
-        "uid" : "363fcd2baad47776",
-        "parentUid" : "1e357ba35c30b27aab2cd2fce25e9882",
-        "status" : "failed",
-        "time" : {
-          "start" : 1637045803091,
-          "stop" : 1637045815768,
-          "duration" : 12677
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'您输入的期限月份无效。'", "''", "''", "''", "''", "''" ]
-      } ],
-      "uid" : "1e357ba35c30b27aab2cd2fce25e9882"
-    }, {
-      "name" : "AssertionError: assert '您输入的名称无效。' in ['The name you entered is not valid.']\n +  where ['The name you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18C82E50>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18C82E50>> = <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18C82E50>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18C82E50> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x0000025A18C82B50>.driver",
-      "children" : [ {
-        "name" : "video购买页面添加支付卡信息错误测试",
-        "uid" : "bf24d453f3af2fc",
-        "parentUid" : "b33a96c9f679ea4f8c86f7d9d8696f6a",
-        "status" : "failed",
-        "time" : {
-          "start" : 1637045817982,
-          "stop" : 1637045832159,
-          "duration" : 14177
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'您输入的名称无效。'", "'2'", "'李'", "':62122 62502 00918 2455'", "'568'", "'2022'" ]
-      } ],
-      "uid" : "b33a96c9f679ea4f8c86f7d9d8696f6a"
-    }, {
-      "name" : "AssertionError: assert '您输入的期限年份无效。' in ['The expiry year you entered is not valid.']\n +  where ['The expiry year you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF39194A90>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF39194A90>> = <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF39194A90>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF39194A90> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x000001BF391942E0>.driver",
-      "children" : [ {
-        "name" : "video购买页面添加支付卡信息错误测试",
-        "uid" : "20db93046344d672",
-        "parentUid" : "6b3a437466575335fa9e53683141ee50",
-        "status" : "failed",
-        "time" : {
-          "start" : 1637045833568,
-          "stop" : 1637045846665,
-          "duration" : 13097
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'您输入的期限年份无效。'", "'12'", "'lin'", "':62122 62502 00918 2455'", "'568'", "'1000'" ]
-      } ],
-      "uid" : "6b3a437466575335fa9e53683141ee50"
-    }, {
-      "name" : "AssertionError: assert '您输入的 CVV 无效。' in ['The credit card you entered is not valid.', 'The CVV you entered is not valid.']\n +  where ['The credit card you entered is not valid.', 'The CVV you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A90A9460>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A90A9460>> = <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A90A9460>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A90A9460> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x00000245A90A9EB0>.driver",
-      "children" : [ {
-        "name" : "video购买页面添加支付卡信息错误测试",
-        "uid" : "e071b5138c043588",
-        "parentUid" : "f88174e7d47c47a27c157334b8c07161",
-        "status" : "failed",
-        "time" : {
-          "start" : 1637045835325,
-          "stop" : 1637045849012,
-          "duration" : 13687
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'您输入的 CVV 无效。'", "'2'", "'lin'", "''", "'56'", "'2022'" ]
-      } ],
-      "uid" : "f88174e7d47c47a27c157334b8c07161"
-    }, {
-      "name" : "AssertionError: assert '您输入的名称无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18CAC2E0>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18CAC2E0>> = <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18CAC2E0>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18CAC2E0> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x0000025A18CACD90>.driver",
-      "children" : [ {
-        "name" : "video购买页面添加支付卡信息错误测试",
-        "uid" : "9e24b724222b407a",
-        "parentUid" : "b6e6bb28b2ade2aac1526ea47b993e02",
-        "status" : "failed",
-        "time" : {
-          "start" : 1637045851012,
-          "stop" : 1637045863370,
-          "duration" : 12358
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'您输入的名称无效。'", "'2'", "'李'", "''", "'568'", "'2022'" ]
-      } ],
-      "uid" : "b6e6bb28b2ade2aac1526ea47b993e02"
-    }, {
-      "name" : "AssertionError: assert '您输入的期限年份无效。' in ['The credit card you entered is not valid.', 'The expiry year you entered is not valid.']\n +  where ['The credit card you entered is not valid.', 'The expiry year you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF3923CFA0>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF3923CFA0>> = <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF3923CFA0>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF3923CFA0> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x000001BF3923C820>.driver",
-      "children" : [ {
-        "name" : "video购买页面添加支付卡信息错误测试",
-        "uid" : "ba3af6de2e155427",
-        "parentUid" : "ea03489ad2d280c5ab8ba178466e1ad5",
-        "status" : "failed",
-        "time" : {
-          "start" : 1637045865018,
-          "stop" : 1637045876807,
-          "duration" : 11789
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'您输入的期限年份无效。'", "'12'", "'lin'", "''", "'568'", "'1000'" ]
-      } ],
-      "uid" : "ea03489ad2d280c5ab8ba178466e1ad5"
-    }, {
-      "name" : "AssertionError: assert '您输入的 CVV 无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The CVV you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The CVV you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A9044190>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A9044190>> = <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A9044190>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A9044190> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x00000245A90449A0>.driver",
-      "children" : [ {
-        "name" : "video购买页面添加支付卡信息错误测试",
-        "uid" : "f8e294b59b2fc506",
-        "parentUid" : "a7ffe5d73d38a7b4408a214d81c40288",
-        "status" : "failed",
-        "time" : {
-          "start" : 1637045870351,
-          "stop" : 1637045884527,
-          "duration" : 14176
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'您输入的 CVV 无效。'", "'2'", "''", "''", "'56'", "'2022'" ]
-      } ],
-      "uid" : "a7ffe5d73d38a7b4408a214d81c40288"
-    }, {
-      "name" : "AssertionError: assert '您输入的名称无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18AD72E0>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18AD72E0>> = <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18AD72E0>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18AD72E0> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x0000025A18A2AD00>.driver",
-      "children" : [ {
-        "name" : "video购买页面添加支付卡信息错误测试",
-        "uid" : "b371de03482edeac",
-        "parentUid" : "5d4fdd6eda025359a7661f0c4dad61a7",
-        "status" : "failed",
-        "time" : {
-          "start" : 1637045882112,
-          "stop" : 1637045894484,
-          "duration" : 12372
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'您输入的名称无效。'", "''", "'李'", "''", "'568'", "'2022'" ]
-      } ],
-      "uid" : "5d4fdd6eda025359a7661f0c4dad61a7"
-    }, {
-      "name" : "AssertionError: assert '您输入的 CVV 无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The CVV you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The CVV you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A901E490>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A901E490>> = <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A901E490>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A901E490> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x00000245A901E250>.driver",
-      "children" : [ {
-        "name" : "video购买页面添加支付卡信息错误测试",
-        "uid" : "96efeed7afb3a3d8",
-        "parentUid" : "1bca89e151b8d154e6a15cf84d3b861a",
-        "status" : "failed",
-        "time" : {
-          "start" : 1637045904845,
-          "stop" : 1637045917760,
-          "duration" : 12915
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'您输入的 CVV 无效。'", "''", "''", "''", "'56'", "'2022'" ]
-      } ],
-      "uid" : "1bca89e151b8d154e6a15cf84d3b861a"
-    }, {
-      "name" : "AssertionError: assert '您输入的名称无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18B8BCD0>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18B8BCD0>> = <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18B8BCD0>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18B8BCD0> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x0000025A18B6DA30>.driver",
-      "children" : [ {
-        "name" : "video购买页面添加支付卡信息错误测试",
-        "uid" : "2a17f96682dd3596",
-        "parentUid" : "f3dac1e0f7458cfa499d30f4b3a13add",
-        "status" : "failed",
-        "time" : {
-          "start" : 1637045912951,
-          "stop" : 1637045924984,
-          "duration" : 12033
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'您输入的名称无效。'", "''", "'李'", "''", "'568'", "''" ]
-      } ],
-      "uid" : "f3dac1e0f7458cfa499d30f4b3a13add"
-    }, {
-      "name" : "AssertionError: assert '您输入的名称无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18BD2790>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18BD2790>> = <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18BD2790>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18BD2790> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x0000025A18BD21C0>.driver",
-      "children" : [ {
-        "name" : "video购买页面添加支付卡信息错误测试",
-        "uid" : "844e52a590fa530f",
-        "parentUid" : "bc5d24e47842f3fe211f51ed9b7d1e92",
-        "status" : "failed",
-        "time" : {
-          "start" : 1637045943770,
-          "stop" : 1637045955490,
-          "duration" : 11720
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'您输入的名称无效。'", "''", "'李'", "''", "''", "''" ]
-      } ],
-      "uid" : "bc5d24e47842f3fe211f51ed9b7d1e92"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  }, {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "selenium.common.exceptions.JavascriptException: Message: javascript error: Cannot read properties of null (reading 'style')\n  (Session info: headless chrome=95.0.4638.69)",
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
       "children" : [ {
-        "name" : "video购买页面填写空优惠码测试",
-        "uid" : "86e8ab44fba7115f",
-        "parentUid" : "d9759b5952a528c23ae7d588ba1eb373",
+        "name" : "简介栏内容测试",
+        "uid" : "cc68e059a22b7ca3",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
         "status" : "broken",
         "time" : {
-          "start" : 1637045603107,
-          "stop" : 1637045607047,
-          "duration" : 3940
+          "start" : 1637046966056,
+          "stop" : 1637046976595,
+          "duration" : 10539
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "''", "'优惠码不能为空。'" ]
+        "parameters" : [ "'If you prepare to purchase or had bought products from iMyMac, please feel free to contact us by email with any questions.'", "'question'" ]
+      }, {
+        "name" : "简介栏内容测试",
+        "uid" : "128ef9517b1d0b88",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637046966531,
+          "stop" : 1637046977070,
+          "duration" : 10539
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'If you have any suggestions, such as the website and service, contact us by email.'", "'suggestion'" ]
+      }, {
+        "name" : "邮箱链接测试",
+        "uid" : "bd3e37caf686a95",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637046972551,
+          "stop" : 1637046983110,
+          "duration" : 10559
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "简介栏内容测试",
+        "uid" : "542aa5700da8ee71",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637046986570,
+          "stop" : 1637046997121,
+          "duration" : 10551
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'iMyMac Supporter Email: support@imymac.com'", "'email'" ]
+      }, {
+        "name" : "步骤内容测试",
+        "uid" : "d93e0e5edf12a4f5",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637046993927,
+          "stop" : 1637047004445,
+          "duration" : 10518
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'We’ll review your email and verify, then send you a coupon code.'", "'step-2'" ]
+      }, {
+        "name" : "打开邮箱工具测试",
+        "uid" : "77b5ec15c7658f48",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637046997281,
+          "stop" : 1637047007846,
+          "duration" : 10565
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "步骤内容测试",
+        "uid" : "22f1c5f6c1f76df6",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047001526,
+          "stop" : 1637047012093,
+          "duration" : 10567
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Submit your email in the box below.'", "'step-1'" ]
+      }, {
+        "name" : "步骤内容测试",
+        "uid" : "2bee76a0b79a59e5",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047014850,
+          "stop" : 1637047025386,
+          "duration" : 10536
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Apply your discount with the coupon code after choosing desired product in https://www.imymac.com/store/'", "'step-3'" ]
+      }, {
+        "name" : "进入常见问题页面测试",
+        "uid" : "295d62670d0559b",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047025439,
+          "stop" : 1637047037580,
+          "duration" : 12141
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Mac-Cleaner'" ]
+      }, {
+        "name" : "展开faq测试",
+        "uid" : "703213ddeeac519b",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047033374,
+          "stop" : 1637047045341,
+          "duration" : 11967
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Mac-Cleaner'" ]
+      }, {
+        "name" : "折叠faq测试",
+        "uid" : "f0e3f24556e83f93",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047063009,
+          "stop" : 1637047075021,
+          "duration" : 12012
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Mac-Cleaner'" ]
+      }, {
+        "name" : "搜索文章测试",
+        "uid" : "b975dda07e9fbb54",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047072310,
+          "stop" : 1637047084374,
+          "duration" : 12064
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Mac-Cleaner'", "'java'" ]
+      }, {
+        "name" : "搜索文章测试",
+        "uid" : "1276282280b5a646",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047103465,
+          "stop" : 1637047115508,
+          "duration" : 12043
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Mac-Cleaner'", "'python'" ]
+      }, {
+        "name" : "搜索文章测试",
+        "uid" : "1323471fa5b418fa",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047115045,
+          "stop" : 1637047127093,
+          "duration" : 12048
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Mac-Cleaner'", "'imymac'" ]
+      }, {
+        "name" : "搜索不到文章测试",
+        "uid" : "ff3262c4eb1ee1cf",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047143326,
+          "stop" : 1637047155318,
+          "duration" : 11992
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Mac-Cleaner'", "'adggwgwdqw'" ]
+      }, {
+        "name" : "大标题测试",
+        "uid" : "e6e3f62edd055750",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047162696,
+          "stop" : 1637047178836,
+          "duration" : 16140
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'terms'" ]
+      }, {
+        "name" : "大标题测试",
+        "uid" : "9ad535881b699787",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047200484,
+          "stop" : 1637047215902,
+          "duration" : 15418
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'refund'" ]
+      }, {
+        "name" : "点击video-converter链接",
+        "uid" : "8069360b8d860f6f",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047220787,
+          "stop" : 1637047231324,
+          "duration" : 10537
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'video-converter'" ]
+      }, {
+        "name" : "大标题测试",
+        "uid" : "308c640bfc530114",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047237891,
+          "stop" : 1637047253372,
+          "duration" : 15481
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'license'" ]
+      }, {
+        "name" : "大标题测试",
+        "uid" : "2b1175b8237f97f4",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047256193,
+          "stop" : 1637047271539,
+          "duration" : 15346
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'privacy'" ]
+      }, {
+        "name" : "小标题测试",
+        "uid" : "ab094497599e1c6f",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047275151,
+          "stop" : 1637047331065,
+          "duration" : 55914
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'privacy'" ]
+      }, {
+        "name" : "进入PowerMyMac首页",
+        "uid" : "bdce67f2464afaa8",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047294957,
+          "stop" : 1637047308565,
+          "duration" : 13608
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "小标题测试",
+        "uid" : "10376fc5d2698776",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047352240,
+          "stop" : 1637047370090,
+          "duration" : 17850
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'terms'" ]
+      }, {
+        "name" : "小标题测试",
+        "uid" : "6fa7aa66336c8a9f",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047392770,
+          "stop" : 1637047408456,
+          "duration" : 15686
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'refund'" ]
+      }, {
+        "name" : "标签栏测试",
+        "uid" : "64ed99594f411f80",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047400503,
+          "stop" : 1637047411035,
+          "duration" : 10532
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Cleaner'" ]
+      }, {
+        "name" : "小标题测试",
+        "uid" : "37cb0e6d03b26729",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047429765,
+          "stop" : 1637047444875,
+          "duration" : 15110
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'license'" ]
+      }, {
+        "name" : "标签栏测试",
+        "uid" : "67ca26e1f23d7ef8",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047430151,
+          "stop" : 1637047440677,
+          "duration" : 10526
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'iTunes'" ]
+      }, {
+        "name" : "标签栏测试",
+        "uid" : "9253bf92b68802b5",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047459806,
+          "stop" : 1637047470345,
+          "duration" : 10539
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'iCloud'" ]
+      }, {
+        "name" : "标签栏测试",
+        "uid" : "439eca82da416816",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047491156,
+          "stop" : 1637047501717,
+          "duration" : 10561
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Duplicate'" ]
+      }, {
+        "name" : "标签栏测试",
+        "uid" : "67bc4214670a1be7",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047522482,
+          "stop" : 1637047533007,
+          "duration" : 10525
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Shredder'" ]
+      }, {
+        "name" : "搜索文章测试",
+        "uid" : "90eee16a7b06e42e",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047523776,
+          "stop" : 1637047534304,
+          "duration" : 10528
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'java'" ]
+      }, {
+        "name" : "进入用户指南页面测试",
+        "uid" : "fd557243843de02e",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047539302,
+          "stop" : 1637047552895,
+          "duration" : 13593
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "标签栏测试",
+        "uid" : "f57c0406313b2440",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047552453,
+          "stop" : 1637047563003,
+          "duration" : 10550
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Similar'" ]
+      }, {
+        "name" : "搜索文章测试",
+        "uid" : "6803bf6f8780efb0",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047552651,
+          "stop" : 1637047563190,
+          "duration" : 10539
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'python'" ]
+      }, {
+        "name" : "Mac Cleaner热门文章链接测试",
+        "uid" : "324d80102c66a5a0",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047570917,
+          "stop" : 1637047581428,
+          "duration" : 10511
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "6" ]
+      }, {
+        "name" : "标签栏测试",
+        "uid" : "9fe5fa89286cc401",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047582727,
+          "stop" : 1637047593282,
+          "duration" : 10555
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Uninstaller'" ]
+      }, {
+        "name" : "搜索文章测试",
+        "uid" : "220fd166fca15f9f",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047583104,
+          "stop" : 1637047593672,
+          "duration" : 10568
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'imymac'" ]
+      }, {
+        "name" : "Company下的链接测试",
+        "uid" : "382bd32559f304c2",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047589135,
+          "stop" : 1637047599684,
+          "duration" : 10549
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'About Us'" ]
+      }, {
+        "name" : "Mac Cleaner热门文章链接测试",
+        "uid" : "f4f7efd9c30ca286",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047599390,
+          "stop" : 1637047609956,
+          "duration" : 10566
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "7" ]
+      }, {
+        "name" : "搜索文章回车测试",
+        "uid" : "fd17024608f78b1e",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047612310,
+          "stop" : 1637047622830,
+          "duration" : 10520
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'java'" ]
+      }, {
+        "name" : "标签栏测试",
+        "uid" : "45f687af0e2d8178",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047616112,
+          "stop" : 1637047626666,
+          "duration" : 10554
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Extension'" ]
+      }, {
+        "name" : "Company下的链接测试",
+        "uid" : "f95414a90e4e8693",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047616260,
+          "stop" : 1637047626823,
+          "duration" : 10563
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Contact Us'" ]
+      }, {
+        "name" : "File Shredder热门文章链接测试",
+        "uid" : "768839e7f1e7c1d7",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047626464,
+          "stop" : 1637047637037,
+          "duration" : 10573
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "8" ]
+      }, {
+        "name" : "搜索文章回车测试",
+        "uid" : "83fd055db224e7d5",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047641801,
+          "stop" : 1637047652345,
+          "duration" : 10544
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'python'" ]
+      }, {
+        "name" : "Company下的链接测试",
+        "uid" : "938f3f25fd2b2f6a",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047643304,
+          "stop" : 1637047653829,
+          "duration" : 10525
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Terms of Use'" ]
+      }, {
+        "name" : "标签栏测试",
+        "uid" : "5efc297bf4075996",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047647016,
+          "stop" : 1637047657553,
+          "duration" : 10537
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Browser'" ]
+      }, {
+        "name" : "File Shredder热门文章链接测试",
+        "uid" : "2994cab35c62ffda",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047653574,
+          "stop" : 1637047664103,
+          "duration" : 10529
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "9" ]
+      }, {
+        "name" : "搜索文章回车测试",
+        "uid" : "da4a49136c34f32d",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047670145,
+          "stop" : 1637047680710,
+          "duration" : 10565
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'imymac'" ]
+      }, {
+        "name" : "Company下的链接测试",
+        "uid" : "94182afbe3f7a9d6",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047670354,
+          "stop" : 1637047680914,
+          "duration" : 10560
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Privacy Policy'" ]
+      }, {
+        "name" : "File Shredder热门文章链接测试",
+        "uid" : "15d108806452f79",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047681042,
+          "stop" : 1637047691579,
+          "duration" : 10537
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "10" ]
+      }, {
+        "name" : "标签栏测试",
+        "uid" : "58206c3ec43fb99b",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047681546,
+          "stop" : 1637047692093,
+          "duration" : 10547
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Storage'" ]
+      }, {
+        "name" : "Products下的链接测试",
+        "uid" : "72f3d48c7e68814d",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047697429,
+          "stop" : 1637047707965,
+          "duration" : 10536
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'PowerMyMac'" ]
+      }, {
+        "name" : "标签栏测试",
+        "uid" : "e78d07fd64d8aecf",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047698634,
+          "stop" : 1637047709163,
+          "duration" : 10529
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Eraser'" ]
+      }, {
+        "name" : "File Shredder热门文章链接测试",
+        "uid" : "79895384fc68f0c0",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047708071,
+          "stop" : 1637047718638,
+          "duration" : 10567
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "11" ]
+      }, {
+        "name" : "标签栏测试",
+        "uid" : "38838f9488e29d21",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047710485,
+          "stop" : 1637047721048,
+          "duration" : 10563
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Junk Files'" ]
+      }, {
+        "name" : "Products下的链接测试",
+        "uid" : "af18dc6ac3b99c8",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047724484,
+          "stop" : 1637047735052,
+          "duration" : 10568
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Mac Cleaner'" ]
+      }, {
+        "name" : "更多类中的文章测试",
+        "uid" : "a6045b1e48f812f1",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047725701,
+          "stop" : 1637047736212,
+          "duration" : 10511
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'iMyMac PDF Compressor'" ]
+      }, {
+        "name" : "Duplicate Finder热门文章链接测试",
+        "uid" : "b48225cd5abb8a6f",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047735890,
+          "stop" : 1637047746424,
+          "duration" : 10534
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "12" ]
+      }, {
+        "name" : "标签栏测试",
+        "uid" : "2eaa8200cd4308c8",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047739061,
+          "stop" : 1637047749602,
+          "duration" : 10541
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Mac Tips'" ]
+      }, {
+        "name" : "Help下的链接测试",
+        "uid" : "b7cdaf56904f6586",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047751580,
+          "stop" : 1637047762121,
+          "duration" : 10541
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Support'" ]
+      }, {
+        "name" : "更多类中的文章测试",
+        "uid" : "8ee514c58b9852c3",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047752751,
+          "stop" : 1637047763319,
+          "duration" : 10568
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Video Converter'" ]
+      }, {
+        "name" : "Duplicate Finder热门文章链接测试",
+        "uid" : "860ab38b389e6f18",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047763963,
+          "stop" : 1637047774481,
+          "duration" : 10518
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "13" ]
+      }, {
+        "name" : "标签栏测试",
+        "uid" : "54e329ef67205249",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047769222,
+          "stop" : 1637047779759,
+          "duration" : 10537
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'PDF'" ]
+      }, {
+        "name" : "Help下的链接测试",
+        "uid" : "ae203d2a83f759b3",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047778686,
+          "stop" : 1637047789241,
+          "duration" : 10555
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Sales FAQ'" ]
+      }, {
+        "name" : "购买pmm套餐1支付弹窗测试",
+        "uid" : "63a621ccb72c241a",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047781247,
+          "stop" : 1637047791764,
+          "duration" : 10517
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Duplicate Finder热门文章链接测试",
+        "uid" : "3e684d653b54bb9",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047791441,
+          "stop" : 1637047802002,
+          "duration" : 10561
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "14" ]
+      }, {
+        "name" : "标签栏测试",
+        "uid" : "edac16b7762a7043",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047798477,
+          "stop" : 1637047809039,
+          "duration" : 10562
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Convert Videos'" ]
+      }, {
+        "name" : "Help下的链接测试",
+        "uid" : "f2030904b2c38f51",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047805782,
+          "stop" : 1637047816336,
+          "duration" : 10554
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Refund Policy'" ]
+      }, {
+        "name" : "购买pmm套餐2支付弹窗测试",
+        "uid" : "66d455ac17198814",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047809579,
+          "stop" : 1637047820128,
+          "duration" : 10549
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Duplicate Finder热门文章链接测试",
+        "uid" : "a6d8b8fd10a7b3bb",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047819468,
+          "stop" : 1637047830002,
+          "duration" : 10534
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "15" ]
+      }, {
+        "name" : "标签栏测试",
+        "uid" : "c437b599cdba4d13",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047827829,
+          "stop" : 1637047838386,
+          "duration" : 10557
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Edit Video'" ]
+      }, {
+        "name" : "点击更多测试",
+        "uid" : "cfee82451e9e9479",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047832817,
+          "stop" : 1637047843355,
+          "duration" : 10538
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'PowerMyMac'" ]
+      }, {
+        "name" : "购买pmm套餐3支付弹窗测试",
+        "uid" : "49751e33a783d61c",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047837942,
+          "stop" : 1637047848473,
+          "duration" : 10531
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Browser Cleanup热门文章链接测试",
+        "uid" : "c1016fdd2a00b5f5",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047846892,
+          "stop" : 1637047857445,
+          "duration" : 10553
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "16" ]
+      }, {
+        "name" : "标签栏测试",
+        "uid" : "329a2ce6e588119f",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047858075,
+          "stop" : 1637047868611,
+          "duration" : 10536
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Hide'" ]
+      }, {
+        "name" : "点击更多测试",
+        "uid" : "67d46a4893ed24a5",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047859874,
+          "stop" : 1637047870422,
+          "duration" : 10548
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Mac Cleaner'" ]
+      }, {
+        "name" : "购买video套餐1支付弹窗测试",
+        "uid" : "91df68216f310b96",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047866262,
+          "stop" : 1637047876823,
+          "duration" : 10561
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Browser Cleanup热门文章链接测试",
+        "uid" : "2c9dbf88c3da8d43",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047874741,
+          "stop" : 1637047885301,
+          "duration" : 10560
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "17" ]
+      }, {
+        "name" : "点击更多测试",
+        "uid" : "d50b29861ef42c1a",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047887070,
+          "stop" : 1637047897623,
+          "duration" : 10553
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'File Shredder'" ]
+      }, {
+        "name" : "跳转文章测试",
+        "uid" : "81e2dbeec81db08d",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047887469,
+          "stop" : 1637047898013,
+          "duration" : 10544
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "购买video套餐2支付弹窗测试",
+        "uid" : "54ea66e0a2a62ba2",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047894625,
+          "stop" : 1637047905164,
+          "duration" : 10539
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Browser Cleanup热门文章链接测试",
+        "uid" : "b7a0ccd1bdc53812",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047901815,
+          "stop" : 1637047912365,
+          "duration" : 10550
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "18" ]
+      }, {
+        "name" : "点击更多测试",
+        "uid" : "361e44705c5a9e40",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047914147,
+          "stop" : 1637047924684,
+          "duration" : 10537
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Duplicate Finder'" ]
+      }, {
+        "name" : "点击文章标签测试",
+        "uid" : "d4cb8b56553af4b2",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047916919,
+          "stop" : 1637047927478,
+          "duration" : 10559
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "购买video套餐3支付弹窗测试",
+        "uid" : "ec17cc0ce9a44a20",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047923418,
+          "stop" : 1637047933984,
+          "duration" : 10566
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Browser Cleanup热门文章链接测试",
+        "uid" : "3db77fcce3b4264f",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047928851,
+          "stop" : 1637047939382,
+          "duration" : 10531
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "19" ]
+      }, {
+        "name" : "点击更多测试",
+        "uid" : "85986c45cc567f4e",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047941570,
+          "stop" : 1637047952099,
+          "duration" : 10529
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Browser Cleanup'" ]
+      }, {
+        "name" : "切换页码测试",
+        "uid" : "a9c84b02e32923f6",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047947461,
+          "stop" : 1637047958031,
+          "duration" : 10570
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'2'" ]
+      }, {
+        "name" : "pmm套餐价格测试",
+        "uid" : "9af00b19b7db198",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047951787,
+          "stop" : 1637047962331,
+          "duration" : 10544
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Similar Image Finder热门文章链接测试",
+        "uid" : "d0c7c8b820eb8c42",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047955863,
+          "stop" : 1637047966417,
+          "duration" : 10554
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "20" ]
+      }, {
+        "name" : "点击更多测试",
+        "uid" : "f2d25a09acf17328",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047968614,
+          "stop" : 1637047979141,
+          "duration" : 10527
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Similar Image Finder'" ]
+      }, {
+        "name" : "切换页码测试",
+        "uid" : "7e3f99d6d2d882f3",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047977073,
+          "stop" : 1637047987606,
+          "duration" : 10533
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'4'" ]
+      }, {
+        "name" : "video套餐价格测试",
+        "uid" : "44692ed3a203eeec",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047980062,
+          "stop" : 1637047990591,
+          "duration" : 10529
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Similar Image Finder热门文章链接测试",
+        "uid" : "be0421878502a446",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047983404,
+          "stop" : 1637047993955,
+          "duration" : 10551
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "21" ]
+      }, {
+        "name" : "点击更多测试",
+        "uid" : "fa7ca7eee95ccb2e",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047995660,
+          "stop" : 1637048006221,
+          "duration" : 10561
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Mac Uninstaller'" ]
+      }, {
+        "name" : "切换家庭永久套餐测试",
+        "uid" : "2261cb98933837bc",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048009240,
+          "stop" : 1637048019780,
+          "duration" : 10540
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Similar Image Finder热门文章链接测试",
+        "uid" : "cd8bc521bd572653",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048010510,
+          "stop" : 1637048021058,
+          "duration" : 10548
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "22" ]
+      }, {
+        "name" : "点击更多测试",
+        "uid" : "ddaf776d292b0876",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048023342,
+          "stop" : 1637048033862,
+          "duration" : 10520
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'iMyMac PDF Compressor'" ]
+      }, {
+        "name" : "切换页码测试",
+        "uid" : "1d14a9376415ccc5",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048025881,
+          "stop" : 1637048036444,
+          "duration" : 10563
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'5'" ]
+      }, {
+        "name" : "Similar Image Finder热门文章链接测试",
+        "uid" : "75311a012b3545cf",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048037590,
+          "stop" : 1637048048113,
+          "duration" : 10523
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "23" ]
+      }, {
+        "name" : "切换个人永久套餐测试",
+        "uid" : "c60e915668b7fa84",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048037639,
+          "stop" : 1637048048161,
+          "duration" : 10522
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击更多测试",
+        "uid" : "e5ecf32757fef144",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048050343,
+          "stop" : 1637048060889,
+          "duration" : 10546
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Video Converter'" ]
+      }, {
+        "name" : "上一页测试",
+        "uid" : "c3e0524e57e27776",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048054445,
+          "stop" : 1637048064995,
+          "duration" : 10550
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Mac Uninstaller热门文章链接测试",
+        "uid" : "ed205c8dd1a6fd98",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048064836,
+          "stop" : 1637048075398,
+          "duration" : 10562
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "24" ]
+      }, {
+        "name" : "pmm栏点击更多选项按钮测试",
+        "uid" : "7318a022a1427460",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048070518,
+          "stop" : 1637048081056,
+          "duration" : 10538
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击更多测试",
+        "uid" : "a104ae10b9200f64",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048077442,
+          "stop" : 1637048087987,
+          "duration" : 10545
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Free Photo Compressor'" ]
+      }, {
+        "name" : "搜索不到文章测试",
+        "uid" : "73e70593f9ef23fe",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048082748,
+          "stop" : 1637048093296,
+          "duration" : 10548
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'adggwgwdqw'" ]
+      }, {
+        "name" : "Mac Uninstaller热门文章链接测试",
+        "uid" : "a654f5be95a064e5",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048091934,
+          "stop" : 1637048102500,
+          "duration" : 10566
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "25" ]
+      }, {
+        "name" : "video栏点击更多选项按钮测试",
+        "uid" : "76a9d0359f0eb607",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048098925,
+          "stop" : 1637048109473,
+          "duration" : 10548
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "更多类中的文章测试",
+        "uid" : "dcf97cc8891a560f",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048104522,
+          "stop" : 1637048115048,
+          "duration" : 10526
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'PowerMyMac'" ]
+      }, {
+        "name" : "产品链接测试",
+        "uid" : "55702971711aa190",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048110613,
+          "stop" : 1637048121192,
+          "duration" : 10579
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'PowerMyMac'" ]
+      }, {
+        "name" : "Mac Uninstaller热门文章链接测试",
+        "uid" : "501b563f1f28fce2",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048119015,
+          "stop" : 1637048129532,
+          "duration" : 10517
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "26" ]
+      }, {
+        "name" : "更多类中的文章测试",
+        "uid" : "737c8791656d9c8",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048131595,
+          "stop" : 1637048142160,
+          "duration" : 10565
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Mac Cleaner'" ]
+      }, {
+        "name" : "产品链接测试",
+        "uid" : "73c020e555b1748a",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048137712,
+          "stop" : 1637048148291,
+          "duration" : 10579
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Mac Cleaner'" ]
+      }, {
+        "name" : "Mac Uninstaller热门文章链接测试",
+        "uid" : "f58aca7adbfdd482",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048146065,
+          "stop" : 1637048156585,
+          "duration" : 10520
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "27" ]
+      }, {
+        "name" : "更多类中的文章测试",
+        "uid" : "9f0b4dd81502c0f8",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048158685,
+          "stop" : 1637048169213,
+          "duration" : 10528
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'File Shredder'" ]
+      }, {
+        "name" : "产品链接测试",
+        "uid" : "8a5110776a1bd7f5",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048164799,
+          "stop" : 1637048175319,
+          "duration" : 10520
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Video Converter'" ]
+      }, {
+        "name" : "iMyMac PDF Compressor热门文章链接测试",
+        "uid" : "b6f9c98386c175f7",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048173087,
+          "stop" : 1637048183643,
+          "duration" : 10556
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "28" ]
+      }, {
+        "name" : "更多类中的文章测试",
+        "uid" : "bef872d1858266ef",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048185741,
+          "stop" : 1637048196281,
+          "duration" : 10540
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Duplicate Finder'" ]
+      }, {
+        "name" : "产品链接测试",
+        "uid" : "d890c2e0c1b0d769",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048191901,
+          "stop" : 1637048202441,
+          "duration" : 10540
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'PDF Compressor'" ]
+      }, {
+        "name" : "iMyMac PDF Compressor热门文章链接测试",
+        "uid" : "e524cdedb18377ab",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048200531,
+          "stop" : 1637048211095,
+          "duration" : 10564
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "29" ]
+      }, {
+        "name" : "更多类中的文章测试",
+        "uid" : "628586fecaacab7e",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048212782,
+          "stop" : 1637048223339,
+          "duration" : 10557
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Browser Cleanup'" ]
+      }, {
+        "name" : "PowerMyMac热门文章链接测试",
+        "uid" : "52ab2e4cb0efe76c",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048219192,
+          "stop" : 1637048229716,
+          "duration" : 10524
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0" ]
+      }, {
+        "name" : "iMyMac PDF Compressor热门文章链接测试",
+        "uid" : "d9a7010d40acbbff",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048228164,
+          "stop" : 1637048238699,
+          "duration" : 10535
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "30" ]
+      }, {
+        "name" : "更多类中的文章测试",
+        "uid" : "b5afceab5bfe4f50",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048239905,
+          "stop" : 1637048250451,
+          "duration" : 10546
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Similar Image Finder'" ]
+      }, {
+        "name" : "PowerMyMac热门文章链接测试",
+        "uid" : "2aabd936d249c56e",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048246212,
+          "stop" : 1637048256777,
+          "duration" : 10565
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1" ]
+      }, {
+        "name" : "iMyMac PDF Compressor热门文章链接测试",
+        "uid" : "5981f6c7eaa949ee",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048255618,
+          "stop" : 1637048266167,
+          "duration" : 10549
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "31" ]
+      }, {
+        "name" : "更多类中的文章测试",
+        "uid" : "7f8223b9cf28078a",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048267010,
+          "stop" : 1637048277537,
+          "duration" : 10527
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Mac Uninstaller'" ]
+      }, {
+        "name" : "PowerMyMac热门文章链接测试",
+        "uid" : "8689d452dbcbf4be",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048273382,
+          "stop" : 1637048283896,
+          "duration" : 10514
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2" ]
+      }, {
+        "name" : "Video Converter热门文章链接测试",
+        "uid" : "6b4894a99bcc72a6",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048282669,
+          "stop" : 1637048293211,
+          "duration" : 10542
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "32" ]
+      }, {
+        "name" : "PowerMyMac热门文章链接测试",
+        "uid" : "8e202b1d7b9ccef1",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048300418,
+          "stop" : 1637048310953,
+          "duration" : 10535
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3" ]
+      }, {
+        "name" : "Video Converter热门文章链接测试",
+        "uid" : "92f2093bcb3b8c3d",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048309697,
+          "stop" : 1637048320227,
+          "duration" : 10530
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "33" ]
+      }, {
+        "name" : "Mac Cleaner热门文章链接测试",
+        "uid" : "7ec9015b3a475a2c",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048327868,
+          "stop" : 1637048338386,
+          "duration" : 10518
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "4" ]
+      }, {
+        "name" : "Video Converter热门文章链接测试",
+        "uid" : "32fb7052e89ea5cb",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048336803,
+          "stop" : 1637048347363,
+          "duration" : 10560
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "34" ]
+      }, {
+        "name" : "Mac Cleaner热门文章链接测试",
+        "uid" : "44612dc92b934204",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048354927,
+          "stop" : 1637048365451,
+          "duration" : 10524
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "5" ]
+      }, {
+        "name" : "Video Converter热门文章链接测试",
+        "uid" : "f264c90d0e735760",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048363885,
+          "stop" : 1637048374453,
+          "duration" : 10568
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "35" ]
+      }, {
+        "name" : "跳转到sales_faq链接测试",
+        "uid" : "bc5110b6d842f8a0",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048585286,
+          "stop" : 1637048595798,
+          "duration" : 10512
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sales展开faq测试",
+        "uid" : "559b6d871270cf4f",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048609437,
+          "stop" : 1637048620005,
+          "duration" : 10568
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "跳转到product_fa链接测试",
+        "uid" : "cccb51ca0f170878",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048612420,
+          "stop" : 1637048622937,
+          "duration" : 10517
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sales搜索文章测试",
+        "uid" : "cbae0014e10e36d0",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048620342,
+          "stop" : 1637048630894,
+          "duration" : 10552
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'imymac'" ]
+      }, {
+        "name" : "sales折叠faq测试",
+        "uid" : "d7d537e2a1d1ff09",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048636606,
+          "stop" : 1637048647155,
+          "duration" : 10549
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "跳转到registration_code链接测试",
+        "uid" : "278ff8d7c8ae0054",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048639598,
+          "stop" : 1637048650151,
+          "duration" : 10553
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "product搜索不到文章测试",
+        "uid" : "3d6dcb9ce8e17b9c",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048640256,
+          "stop" : 1637048650821,
+          "duration" : 10565
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'adggwgwdqw'" ]
+      }, {
+        "name" : "product搜索文章测试",
+        "uid" : "bcff1116925bfff4",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048647573,
+          "stop" : 1637048658142,
+          "duration" : 10569
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'java'" ]
+      }, {
+        "name" : "product展开faq测试",
+        "uid" : "5ee34a084d54ea86",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048664352,
+          "stop" : 1637048674919,
+          "duration" : 10567
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "跳转到refund_policy链接测试",
+        "uid" : "966cdb47190b1263",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048666745,
+          "stop" : 1637048677258,
+          "duration" : 10513
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "写邮件链接测试",
+        "uid" : "ac6332f4982c0a7",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048667404,
+          "stop" : 1637048677975,
+          "duration" : 10571
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "product搜索文章测试",
+        "uid" : "c4cc90e7640daf0e",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048674656,
+          "stop" : 1637048685172,
+          "duration" : 10516
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'python'" ]
+      }, {
+        "name" : "product折叠faq测试",
+        "uid" : "cd90d402ff3a4c6f",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048691513,
+          "stop" : 1637048702026,
+          "duration" : 10513
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "首页邮件链接测试",
+        "uid" : "f3dd8c590a54b4aa",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048694738,
+          "stop" : 1637048705261,
+          "duration" : 10523
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "product搜索文章测试",
+        "uid" : "3010fa975af30aea",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048701709,
+          "stop" : 1637048712249,
+          "duration" : 10540
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'imymac'" ]
+      }, {
+        "name" : "sales搜索文章测试",
+        "uid" : "199b197f08585017",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048718952,
+          "stop" : 1637048729491,
+          "duration" : 10539
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'java'" ]
+      }, {
+        "name" : "sales搜索不到文章测试",
+        "uid" : "eccdd009990c03bc",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048728909,
+          "stop" : 1637048739447,
+          "duration" : 10538
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'adggwgwdqw'" ]
+      }, {
+        "name" : "sales搜索文章测试",
+        "uid" : "3f3c65a40ffa0772",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637048746127,
+          "stop" : 1637048756680,
+          "duration" : 10553
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'python'" ]
       } ],
-      "uid" : "d9759b5952a528c23ae7d588ba1eb373"
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+    }, {
+      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class=\"guideLink\" href=\"/powermymac/user-guide.html#masterScan\">...</a> is not clickable at point (1021, 23). Other element would receive the click: <div class=\"container menuBox\">...</div>\n  (Session info: headless chrome=95.0.4638.69)",
+      "children" : [ {
+        "name" : "进入用户指南页面测试",
+        "uid" : "c271edc3a531b586",
+        "parentUid" : "63c595664454078778e84cd59dd6850c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047229612,
+          "stop" : 1637047233741,
+          "duration" : 4129
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "63c595664454078778e84cd59dd6850c"
+    }, {
+      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class=\"guideLink active\" href=\"/mac-cleaner/\">...</a> is not clickable at point (893, 23). Other element would receive the click: <div class=\"container menuBox\">...</div>\n  (Session info: headless chrome=95.0.4638.69)",
+      "children" : [ {
+        "name" : "进入cleaner首页",
+        "uid" : "f58062af78b5ce6b",
+        "parentUid" : "ccacd5d52ceca105e3d26b6a284083e3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637047245157,
+          "stop" : 1637047249296,
+          "duration" : 4139
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ccacd5d52ceca105e3d26b6a284083e3"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]

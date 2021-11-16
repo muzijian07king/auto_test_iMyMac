@@ -1,0 +1,4 @@
+INFO	2021-11-16 16:18:22,568	[basepage.py:32]	打开网页https://www.imymac.com/student-discount/
+INFO	2021-11-16 16:18:22,568	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-16 16:18:22,770	[basepage.py:90]	点击元素：('css', 'div.close-tag')
+INFO	2021-11-16 16:18:23,807	[basepage.py:96]	获取到文本：Apply your discount with the coupon code after choosing desired product in https://www.imymac.com/store/

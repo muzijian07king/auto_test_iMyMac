@@ -1,5 +1,0 @@
-INFO	2021-11-16 14:49:02,778	[basepage.py:32]	打开网页https://www.imymac.com/powermymac/
-INFO	2021-11-16 14:49:02,780	[basepage.py:159]	页面滚到元素('css', 'body >div:nth-child(5) > div')
-INFO	2021-11-16 14:49:03,804	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
-INFO	2021-11-16 14:49:06,432	[basepage.py:90]	点击元素：('css', 'body > div:nth-child(5) > div>a:nth-child(2)')
-INFO	2021-11-16 14:49:07,467	[basepage.py:96]	获取到文本：PowerMyMac User Guide

@@ -16,6 +16,7 @@ class TestBody(object):
     def open_url(self, drivers):
         self.driver = BuyPage(drivers)
         self.driver.get_url(ini.get_url('store'))
+        self.driver.click_sale_off_link()
 
     @allure.title('购买pmm套餐1支付弹窗测试')
     def test_001(self):

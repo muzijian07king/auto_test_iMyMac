@@ -1,0 +1,7 @@
+INFO	2021-11-16 15:39:54,504	[basepage.py:32]	打开网页https://www.imymac.com/store/
+INFO	2021-11-16 15:39:54,565	[basepage.py:90]	点击元素：('css', '#video-converter-one-year')
+INFO	2021-11-16 15:39:55,578	[basepage.py:181]	切换frame==>pf_588082
+INFO	2021-11-16 15:39:59,071	[basepage.py:186]	下拉框value选择==》zh-Hans
+INFO	2021-11-16 15:39:59,235	[basepage.py:82]	输入文本：123@123.com
+INFO	2021-11-16 15:39:59,325	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div>div>button')
+INFO	2021-11-16 15:40:00,383	[basepage.py:90]	点击元素：('css', '#root>div>div>div:nth-child(2)>div:nth-child(2)>div:nth-child(2)>span:nth-child(2)')

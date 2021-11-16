@@ -1,0 +1,12 @@
+INFO	2021-11-16 15:40:17,099	[basepage.py:32]	打开网页https://www.imymac.com/store/
+INFO	2021-11-16 15:40:17,146	[basepage.py:90]	点击元素：('css', '#video-converter-one-year')
+INFO	2021-11-16 15:40:18,160	[basepage.py:181]	切换frame==>pf_588082
+INFO	2021-11-16 15:40:19,588	[basepage.py:186]	下拉框value选择==》zh-Hans
+INFO	2021-11-16 15:40:19,741	[basepage.py:82]	输入文本：123@123.com
+INFO	2021-11-16 15:40:19,822	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div>div>button')
+INFO	2021-11-16 15:40:20,835	[basepage.py:186]	下拉框value选择==》CN
+INFO	2021-11-16 15:40:20,963	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div:nth-child(3)>div>button')
+INFO	2021-11-16 15:40:22,028	[basepage.py:90]	点击元素：('css', '#root > div > div> div> div:nth-child(2) > div > div > div:nth-child(2)>span>a')
+INFO	2021-11-16 15:40:23,084	[basepage.py:82]	输入文本：
+INFO	2021-11-16 15:40:23,150	[basepage.py:90]	点击元素：('css', 'form>div:nth-child(2)>div>button')
+INFO	2021-11-16 15:40:24,185	[basepage.py:96]	获取到文本：优惠码不能为空。

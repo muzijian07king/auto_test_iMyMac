@@ -220,3 +220,9 @@ class WebPage(object):
         """获取网页标签页标题"""
         log.info('获取到title==>{}'.format(self.driver.title))
         return self.driver.title
+
+    def click_sale_off_link(self):
+        """关闭黑色星期五链接"""
+        log.info('关闭黑色星期五优惠链接')
+        if self.find_element(('css', 'div.close-tag')):
+            self.is_click(('css', 'div.close-tag'))

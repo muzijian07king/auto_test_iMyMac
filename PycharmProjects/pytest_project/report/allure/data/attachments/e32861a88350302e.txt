@@ -1,7 +1,0 @@
-[32mINFO    [0m root:basepage.py:32 打开网页https://www.imymac.com/index.html
-[32mINFO    [0m root:basepage.py:90 点击元素：('id', 'navSearchBTN')
-[32mINFO    [0m root:test_head.py:63 点击搜索按钮
-[32mINFO    [0m root:basepage.py:82 输入文本： 
-[32mINFO    [0m root:test_head.py:65 输入关键字
-[32mINFO    [0m root:basepage.py:113 按下回车
-[32mINFO    [0m root:test_head.py:67 按下回车

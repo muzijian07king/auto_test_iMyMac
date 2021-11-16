@@ -1,5 +1,0 @@
-INFO	2021-11-16 14:49:56,378	[basepage.py:32]	打开网页https://www.imymac.com/store/
-INFO	2021-11-16 14:49:56,449	[basepage.py:90]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(1)>div:nth-child(2)>a:nth-child(6)')
-INFO	2021-11-16 14:49:57,495	[basepage.py:90]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(3)>p:nth-child(2)>span:nth-child(3)')
-INFO	2021-11-16 14:49:58,519	[basepage.py:134]	获取到class元素的值==》selectButton chosenRight
-INFO	2021-11-16 14:49:58,555	[basepage.py:211]	获取到text==》['9.95', '1.66/Month', '49.95']

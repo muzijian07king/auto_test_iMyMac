@@ -1,4 +1,0 @@
-INFO	2021-11-16 14:49:34,151	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
-INFO	2021-11-16 14:49:34,678	[basepage.py:90]	点击元素：('css', 'body >div:nth-child(4)>div>div>div:nth-child(2)>div>div:nth-child(9)>a')
-INFO	2021-11-16 14:49:36,060	[basepage.py:90]	点击元素：('xpath', "//div[@class='productBox'][1]/ol/li[1]/a")
-INFO	2021-11-16 14:49:37,075	[basepage.py:221]	获取到title==>How to Edit a PDF on Mac for Free Using Preview

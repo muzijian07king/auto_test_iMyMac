@@ -13,6 +13,7 @@ class TestBody(object):
     def open_url(self, drivers):
         self.driver = ContactPage(drivers)
         self.driver.get_url(ini.get_url('contact'))
+        self.driver.click_sale_off_link()
 
     @allure.title('邮箱链接测试')
     @allure.tag('写邮件')

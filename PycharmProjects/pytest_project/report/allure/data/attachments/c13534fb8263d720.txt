@@ -1,0 +1,2 @@
+INFO	2021-11-16 15:19:26,449	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-16 15:19:28,691	[basepage.py:90]	点击元素：('link', 'Trash Bins')

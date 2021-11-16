@@ -1,0 +1,5 @@
+INFO	2021-11-16 15:46:20,687	[basepage.py:32]	打开网页https://www.imymac.com/video-converter/tech.html
+INFO	2021-11-16 15:46:20,688	[basepage.py:159]	页面滚到元素('css', 'body > div>div.w780>div.tipsBox')
+INFO	2021-11-16 15:46:21,711	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-16 15:46:25,307	[basepage.py:90]	点击元素：('css', 'body > div>div.w780>div.tipsBox>a:nth-child(4)')
+INFO	2021-11-16 15:46:26,327	[basepage.py:96]	获取到文本：Convert WMA to MP3 Online for Free with High Quality

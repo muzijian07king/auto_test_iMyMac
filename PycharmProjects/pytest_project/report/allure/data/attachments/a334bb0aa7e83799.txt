@@ -1,0 +1,5 @@
+INFO	2021-11-16 15:25:59,427	[basepage.py:32]	打开网页https://www.imymac.com/duplicate-finder/
+INFO	2021-11-16 15:25:59,430	[basepage.py:159]	页面滚到元素('css', 'body>div.menu')
+INFO	2021-11-16 15:26:00,451	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-16 15:26:02,549	[basepage.py:90]	点击元素：('css', 'body>div.menu>div>div>a:nth-child(1)')
+INFO	2021-11-16 15:26:03,581	[basepage.py:96]	获取到文本：PowerMyMac - Duplicate Finder

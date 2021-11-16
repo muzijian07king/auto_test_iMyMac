@@ -1,0 +1,12 @@
+INFO	2021-11-16 15:37:45,588	[basepage.py:32]	打开网页https://www.imymac.com/store/
+INFO	2021-11-16 15:37:45,630	[basepage.py:90]	点击元素：('css', '#powermymac-one-month')
+INFO	2021-11-16 15:37:46,634	[basepage.py:181]	切换frame==>pf_631115
+INFO	2021-11-16 15:37:49,255	[basepage.py:186]	下拉框value选择==》zh-Hans
+INFO	2021-11-16 15:37:49,412	[basepage.py:82]	输入文本：123@123.com
+INFO	2021-11-16 15:37:49,484	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div>div>button')
+INFO	2021-11-16 15:37:50,488	[basepage.py:186]	下拉框value选择==》CN
+INFO	2021-11-16 15:37:50,724	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div:nth-child(3)>div>button')
+INFO	2021-11-16 15:37:52,596	[basepage.py:90]	点击元素：('css', '#root > div > div> div> div:nth-child(2) > div > div > div:nth-child(2)>span>a')
+INFO	2021-11-16 15:37:53,673	[basepage.py:82]	输入文本：youhuima2021
+INFO	2021-11-16 15:37:53,728	[basepage.py:90]	点击元素：('css', 'form>div:nth-child(2)>div>button')
+INFO	2021-11-16 15:37:54,751	[basepage.py:96]	获取到文本：本优惠券已被使用太多次。

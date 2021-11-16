@@ -1,0 +1,3 @@
+INFO	2021-11-16 15:17:09,272	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-16 15:17:09,874	[basepage.py:90]	点击元素：('css', 'body>div:nth-child(4)>div>div>div:nth-child(5)>a')
+INFO	2021-11-16 15:17:10,895	[basepage.py:96]	获取到文本：Video Converter FAQ

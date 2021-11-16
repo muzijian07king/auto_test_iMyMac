@@ -1,0 +1,4 @@
+[32mINFO    [0m root:basepage.py:32 打开网页https://www.imymac.com/contact/
+[32mINFO    [0m root:basepage.py:226 关闭黑色星期五优惠链接
+[32mINFO    [0m root:basepage.py:90 点击元素：('css', 'div.close-tag')
+[32mINFO    [0m root:basepage.py:96 获取到文本：If you prepare to purchase or had bought products from iMyMac, please feel free to contact us by email with any questions.

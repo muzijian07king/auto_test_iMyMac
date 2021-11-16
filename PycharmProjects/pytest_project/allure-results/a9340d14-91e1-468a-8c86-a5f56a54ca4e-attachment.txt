@@ -1,6 +1,0 @@
-INFO	2021-11-16 14:52:24,867	[basepage.py:32]	打开网页https://www.imymac.com/store/
-INFO	2021-11-16 14:52:24,912	[basepage.py:90]	点击元素：('css', '#video-converter-one-year')
-INFO	2021-11-16 14:52:25,925	[basepage.py:181]	切换frame==>pf_588082
-INFO	2021-11-16 14:52:31,029	[basepage.py:153]	使用js操控浏览器==》document.querySelector("#root > div > div.sc-bBjRSN.kEYJmH").style.display="none";
-INFO	2021-11-16 14:52:32,033	[basepage.py:186]	下拉框value选择==》2
-INFO	2021-11-16 14:52:35,112	[basepage.py:96]	获取到文本：US$39.90

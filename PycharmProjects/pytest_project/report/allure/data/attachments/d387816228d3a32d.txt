@@ -1,2 +1,0 @@
-INFO	2021-11-16 14:44:46,177	[basepage.py:32]	打开网页https://www.imymac.com/contact/
-INFO	2021-11-16 14:44:46,201	[basepage.py:134]	获取到href元素的值==》mailto:support@imymac.com

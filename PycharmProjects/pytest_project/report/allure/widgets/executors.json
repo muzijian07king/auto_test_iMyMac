@@ -2,9 +2,9 @@
   "name" : "Jenkins",
   "type" : "jenkins",
   "url" : "http://localhost:8080/jenkins/",
-  "buildOrder" : 27,
-  "buildName" : "项目空间 #27",
-  "buildUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/",
+  "buildOrder" : 28,
+  "buildName" : "项目空间 #28",
+  "buildUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/28/",
   "reportName" : "AllureReport",
-  "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure"
+  "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/28/allure"
 } ]

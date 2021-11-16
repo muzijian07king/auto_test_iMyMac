@@ -1,0 +1,6 @@
+[32mINFO    [0m root:basepage.py:32 打开网页https://www.imymac.com/store/
+[32mINFO    [0m root:basepage.py:90 点击元素：('css', '#powermymac-one-month')
+[32mINFO    [0m root:basepage.py:181 切换frame==>pf_631115
+[32mINFO    [0m root:basepage.py:186 下拉框value选择==》zh-Hans
+[32mINFO    [0m root:basepage.py:186 下拉框value选择==》25
+[32mINFO    [0m root:basepage.py:96 获取到文本：US$248.75

@@ -1,0 +1,315 @@
+{
+  "uid" : "e6e3f62edd055750",
+  "name" : "大标题测试",
+  "fullName" : "TestCase.policy_test_case.test_policy.TestBody#test_001",
+  "historyId" : "8a7adeeca206db15bbe7b4f268b90df4",
+  "time" : {
+    "start" : 1637047162696,
+    "stop" : 1637047178836,
+    "duration" : 16140
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+  "statusTrace" : "self = <pytest_project.TestCase.policy_test_case.test_policy.TestBody object at 0x0000026AEB1676D0>\nsheet_name = 'terms'\n\n    @pytest.mark.parametrize('sheet_name', getSheetNames('Protocol/protocol.xlsx'))\n    @allure.title('大标题测试')\n    def test_001(self, sheet_name):\n        allure.dynamic.tag('{}的标题'.format(sheet_name))\n        self.driver.goto_protocol(sheet_name)\n>       assert self.driver.if_headline(getValueByIndex(1, 2, sheet_name, 'Protocol/protocol.xlsx'))\n\nTestCase\\policy_test_case\\test_policy.py:23: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\npage_object\\protocol\\context_page.py:19: in if_headline\n    return self.element_txet(get_any_key_info('title-h1', policy.data)) == title\npage\\basepage.py:95: in element_txet\n    _text = self.find_element(loc).text\npage\\basepage.py:49: in find_element\n    WebPage.element_locator(lambda *args: self.wait.until(EC.presence_of_element_located(args)), loc)\npage\\basepage.py:40: in element_locator\n    return func(cm.LOCATE_MODE[name], value)\npage\\basepage.py:49: in <lambda>\n    WebPage.element_locator(lambda *args: self.wait.until(EC.presence_of_element_located(args)), loc)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"edfa82b985453c34a269236fa9d0f61b\")>\nmethod = <selenium.webdriver.support.expected_conditions.presence_of_element_located object at 0x0000026AEAF63490>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nc:\\users\\123\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1637046945113,
+      "stop" : 1637046945113,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1637046945113,
+      "stop" : 1637046947894,
+      "duration" : 2781
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1637046945113,
+      "stop" : 1637046945113,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1637046947894,
+      "stop" : 1637046947894,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "open_url",
+    "time" : {
+      "start" : 1637047162303,
+      "stop" : 1637047162694,
+      "duration" : 391
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1637047162303,
+      "stop" : 1637047162303,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+    "statusTrace" : "self = <pytest_project.TestCase.policy_test_case.test_policy.TestBody object at 0x0000026AEB1676D0>\nsheet_name = 'terms'\n\n    @pytest.mark.parametrize('sheet_name', getSheetNames('Protocol/protocol.xlsx'))\n    @allure.title('大标题测试')\n    def test_001(self, sheet_name):\n        allure.dynamic.tag('{}的标题'.format(sheet_name))\n        self.driver.goto_protocol(sheet_name)\n>       assert self.driver.if_headline(getValueByIndex(1, 2, sheet_name, 'Protocol/protocol.xlsx'))\n\nTestCase\\policy_test_case\\test_policy.py:23: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\npage_object\\protocol\\context_page.py:19: in if_headline\n    return self.element_txet(get_any_key_info('title-h1', policy.data)) == title\npage\\basepage.py:95: in element_txet\n    _text = self.find_element(loc).text\npage\\basepage.py:49: in find_element\n    WebPage.element_locator(lambda *args: self.wait.until(EC.presence_of_element_located(args)), loc)\npage\\basepage.py:40: in element_locator\n    return func(cm.LOCATE_MODE[name], value)\npage\\basepage.py:49: in <lambda>\n    WebPage.element_locator(lambda *args: self.wait.until(EC.presence_of_element_located(args)), loc)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"edfa82b985453c34a269236fa9d0f61b\")>\nmethod = <selenium.webdriver.support.expected_conditions.presence_of_element_located object at 0x0000026AEAF63490>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nc:\\users\\123\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+    "steps" : [ {
+      "name" : "打开terms页面",
+      "time" : {
+        "start" : 1637047162697,
+        "stop" : 1637047168292,
+        "duration" : 5595
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "判断大标题",
+      "time" : {
+        "start" : 1637047168294,
+        "stop" : 1637047178834,
+        "duration" : 10540
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: \n\n",
+      "statusTrace" : "  File \"D:\\auto_test_iMyMac\\PycharmProjects\\pytest_project\\page_object\\protocol\\context_page.py\", line 19, in if_headline\n    return self.element_txet(get_any_key_info('title-h1', policy.data)) == title\n  File \"D:\\auto_test_iMyMac\\PycharmProjects\\pytest_project\\page\\basepage.py\", line 95, in element_txet\n    _text = self.find_element(loc).text\n  File \"D:\\auto_test_iMyMac\\PycharmProjects\\pytest_project\\page\\basepage.py\", line 49, in find_element\n    WebPage.element_locator(lambda *args: self.wait.until(EC.presence_of_element_located(args)), loc)\n  File \"D:\\auto_test_iMyMac\\PycharmProjects\\pytest_project\\page\\basepage.py\", line 40, in element_locator\n    return func(cm.LOCATE_MODE[name], value)\n  File \"D:\\auto_test_iMyMac\\PycharmProjects\\pytest_project\\page\\basepage.py\", line 49, in <lambda>\n    WebPage.element_locator(lambda *args: self.wait.until(EC.presence_of_element_located(args)), loc)\n  File \"c:\\users\\123\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "添加失败截图...",
+      "time" : {
+        "start" : 1637047179015,
+        "stop" : 1637047179193,
+        "duration" : 178
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8b10e36759a8e0c3",
+        "name" : "失败截图",
+        "source" : "8b10e36759a8e0c3.png",
+        "type" : "image/png",
+        "size" : 151701
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "bdddaac2a0b9010b",
+      "name" : "log",
+      "source" : "bdddaac2a0b9010b.txt",
+      "type" : "text/plain",
+      "size" : 769
+    }, {
+      "uid" : "550299a061c5aeed",
+      "name" : "stderr",
+      "source" : "550299a061c5aeed.txt",
+      "type" : "text/plain",
+      "size" : 834
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1637048786165,
+      "stop" : 1637048788278,
+      "duration" : 2113
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "terms的标题"
+  }, {
+    "name" : "story",
+    "value" : "文章测试"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "feature",
+    "value" : "协议内容测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.policy_test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_policy"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBody"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "19400-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.policy_test_case.test_policy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "sheet_name",
+    "value" : "'terms'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ {
+      "uid" : "bf33d38ca247d240",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1637047139881,
+        "stop" : 1637047156917,
+        "duration" : 17036
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "581fc0ffc3204318",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/581fc0ffc3204318",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637045183819,
+          "stop" : 1637045188628,
+          "duration" : 4809
+        }
+      }, {
+        "uid" : "24dbb477390e2c67",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/26/allure/#testresult/24dbb477390e2c67",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637043044622,
+          "stop" : 1637043049343,
+          "duration" : 4721
+        }
+      }, {
+        "uid" : "d865e0f25cfe8a2d",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/23/allure/#testresult/d865e0f25cfe8a2d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636967412818,
+          "stop" : 1636967417641,
+          "duration" : 4823
+        }
+      }, {
+        "uid" : "85a65f740e3a494d",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/22/allure/#testresult/85a65f740e3a494d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636940587501,
+          "stop" : 1636940592175,
+          "duration" : 4674
+        }
+      } ]
+    },
+    "tags" : [ "terms的标题" ]
+  },
+  "source" : "e6e3f62edd055750.json",
+  "parameterValues" : [ "'terms'" ]
+}

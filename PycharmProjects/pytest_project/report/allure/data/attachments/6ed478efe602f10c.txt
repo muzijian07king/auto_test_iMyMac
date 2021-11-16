@@ -1,2 +1,0 @@
-INFO	2021-11-16 14:48:33,965	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
-INFO	2021-11-16 14:48:34,895	[basepage.py:96]	获取到文本：How to Fix MacBook Running Slow

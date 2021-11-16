@@ -1,0 +1,2 @@
+INFO	2021-11-16 15:25:47,555	[basepage.py:32]	打开网页https://www.imymac.com/duplicate-finder/
+INFO	2021-11-16 15:25:47,668	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div.bannerInfo>div>a:nth-child(2)')

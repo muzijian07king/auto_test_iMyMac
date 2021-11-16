@@ -1,0 +1,8 @@
+INFO	2021-11-16 15:40:43,719	[basepage.py:32]	打开网页https://www.imymac.com/store/
+INFO	2021-11-16 15:40:43,759	[basepage.py:90]	点击元素：('css', '#video-converter-one-year')
+INFO	2021-11-16 15:40:44,770	[basepage.py:181]	切换frame==>pf_588082
+INFO	2021-11-16 15:40:48,001	[basepage.py:186]	下拉框value选择==》zh-Hans
+INFO	2021-11-16 15:40:48,202	[basepage.py:82]	输入文本：123@123.com
+INFO	2021-11-16 15:40:48,276	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div>div>button')
+INFO	2021-11-16 15:40:49,286	[basepage.py:186]	下拉框value选择==》CN
+INFO	2021-11-16 15:40:49,611	[basepage.py:202]	当前选中的选项是==》China

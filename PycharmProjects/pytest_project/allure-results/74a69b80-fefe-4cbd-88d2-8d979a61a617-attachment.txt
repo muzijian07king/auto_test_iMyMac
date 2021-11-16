@@ -1,2 +1,0 @@
-INFO	2021-11-16 14:49:14,905	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
-INFO	2021-11-16 14:49:16,826	[basepage.py:96]	获取到文本：Big Bonus in 2021: What Are The Best Free PDF Editors for Mac

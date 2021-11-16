@@ -1,0 +1,4 @@
+INFO	2021-11-16 15:44:38,461	[basepage.py:32]	打开网页https://www.imymac.com/video-converter/
+INFO	2021-11-16 15:44:38,463	[basepage.py:159]	页面滚到元素('css', 'body>div.conversion.text-center')
+INFO	2021-11-16 15:44:39,483	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-16 15:44:41,520	[basepage.py:96]	获取到文本：Video Conversion

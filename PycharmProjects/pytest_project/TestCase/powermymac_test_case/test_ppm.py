@@ -17,6 +17,7 @@ class TestBody(object):
     def open_clear(self, drivers):
         self.driver = PMMPage(drivers)
         self.driver.get_url(ini.get_url('pmm'))
+        self.driver.click_sale_off_link()
 
     @allure.severity('blocker')
     @allure.title('下载PowerMyMac测试')

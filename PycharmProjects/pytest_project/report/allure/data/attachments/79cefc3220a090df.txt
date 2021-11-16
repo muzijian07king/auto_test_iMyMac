@@ -1,5 +1,0 @@
-INFO	2021-11-16 14:48:03,946	[basepage.py:32]	打开网页https://www.imymac.com/mac-uninstaller/
-INFO	2021-11-16 14:48:03,947	[basepage.py:159]	页面滚到元素('id', 'carousel-review')
-INFO	2021-11-16 14:48:04,974	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
-INFO	2021-11-16 14:48:07,038	[basepage.py:90]	点击元素：('css', '#carousel-review>ol>li:nth-child(2)>div')
-INFO	2021-11-16 14:48:08,068	[basepage.py:134]	获取到class元素的值==》item active

@@ -1,0 +1,300 @@
+{
+  "uid" : "d4cb8b56553af4b2",
+  "name" : "点击文章标签测试",
+  "fullName" : "TestCase.resource_test_case.test_resource.TestBody#test_005",
+  "historyId" : "2a2ab2d4b5c13c1f89f295b77fcbd1dd",
+  "time" : {
+    "start" : 1637047916919,
+    "stop" : 1637047927478,
+    "duration" : 10559
+  },
+  "description" : "点击文章标签",
+  "descriptionHtml" : "<p>点击文章标签</p>\n",
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+  "statusTrace" : "self = <pytest_project.TestCase.resource_test_case.test_resource.TestBody object at 0x00000191A4A87400>\n\n    @allure.title('点击文章标签测试')\n    def test_005(self):\n        \"\"\"点击文章标签\"\"\"\n        allure.dynamic.tag('文章标签按钮')\n>       self.driver.click_article_topics()\n\nTestCase\\resource_test_case\\test_resource.py:58: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\npage_object\\source\\source_page.py:68: in click_article_topics\n    self.is_click(resource['article-topics'])\npage\\basepage.py:89: in is_click\n    self.find_element(loc).click()\npage\\basepage.py:49: in find_element\n    WebPage.element_locator(lambda *args: self.wait.until(EC.presence_of_element_located(args)), loc)\npage\\basepage.py:40: in element_locator\n    return func(cm.LOCATE_MODE[name], value)\npage\\basepage.py:49: in <lambda>\n    WebPage.element_locator(lambda *args: self.wait.until(EC.presence_of_element_located(args)), loc)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"5f2579f0bcaa0685a7aca00ae6f90dae\")>\nmethod = <selenium.webdriver.support.expected_conditions.presence_of_element_located object at 0x00000191A4A87910>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nc:\\users\\123\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1637046945113,
+      "stop" : 1637046947524,
+      "duration" : 2411
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1637046945113,
+      "stop" : 1637046945113,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1637046945113,
+      "stop" : 1637046945113,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1637046947525,
+      "stop" : 1637046947525,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "open_url",
+    "time" : {
+      "start" : 1637047915483,
+      "stop" : 1637047916919,
+      "duration" : 1436
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1637047915483,
+      "stop" : 1637047915483,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "点击文章标签",
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+    "statusTrace" : "self = <pytest_project.TestCase.resource_test_case.test_resource.TestBody object at 0x00000191A4A87400>\n\n    @allure.title('点击文章标签测试')\n    def test_005(self):\n        \"\"\"点击文章标签\"\"\"\n        allure.dynamic.tag('文章标签按钮')\n>       self.driver.click_article_topics()\n\nTestCase\\resource_test_case\\test_resource.py:58: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\npage_object\\source\\source_page.py:68: in click_article_topics\n    self.is_click(resource['article-topics'])\npage\\basepage.py:89: in is_click\n    self.find_element(loc).click()\npage\\basepage.py:49: in find_element\n    WebPage.element_locator(lambda *args: self.wait.until(EC.presence_of_element_located(args)), loc)\npage\\basepage.py:40: in element_locator\n    return func(cm.LOCATE_MODE[name], value)\npage\\basepage.py:49: in <lambda>\n    WebPage.element_locator(lambda *args: self.wait.until(EC.presence_of_element_located(args)), loc)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"5f2579f0bcaa0685a7aca00ae6f90dae\")>\nmethod = <selenium.webdriver.support.expected_conditions.presence_of_element_located object at 0x00000191A4A87910>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nc:\\users\\123\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+    "steps" : [ {
+      "name" : "点击文章标签",
+      "time" : {
+        "start" : 1637047916920,
+        "stop" : 1637047927478,
+        "duration" : 10558
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: \n\n",
+      "statusTrace" : "  File \"c:\\users\\123\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\allure_commons\\_allure.py\", line 172, in impl\n    return func(*a, **kw)\n  File \"D:\\auto_test_iMyMac\\PycharmProjects\\pytest_project\\page_object\\source\\source_page.py\", line 68, in click_article_topics\n    self.is_click(resource['article-topics'])\n  File \"D:\\auto_test_iMyMac\\PycharmProjects\\pytest_project\\page\\basepage.py\", line 89, in is_click\n    self.find_element(loc).click()\n  File \"D:\\auto_test_iMyMac\\PycharmProjects\\pytest_project\\page\\basepage.py\", line 49, in find_element\n    WebPage.element_locator(lambda *args: self.wait.until(EC.presence_of_element_located(args)), loc)\n  File \"D:\\auto_test_iMyMac\\PycharmProjects\\pytest_project\\page\\basepage.py\", line 40, in element_locator\n    return func(cm.LOCATE_MODE[name], value)\n  File \"D:\\auto_test_iMyMac\\PycharmProjects\\pytest_project\\page\\basepage.py\", line 49, in <lambda>\n    WebPage.element_locator(lambda *args: self.wait.until(EC.presence_of_element_located(args)), loc)\n  File \"c:\\users\\123\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "添加失败截图...",
+      "time" : {
+        "start" : 1637047927625,
+        "stop" : 1637047927774,
+        "duration" : 149
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "206a5d663179b8af",
+        "name" : "失败截图",
+        "source" : "206a5d663179b8af.png",
+        "type" : "image/png",
+        "size" : 187340
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "177cf9ebb8822509",
+      "name" : "log",
+      "source" : "177cf9ebb8822509.txt",
+      "type" : "text/plain",
+      "size" : 165
+    }, {
+      "uid" : "71c38c5cdae9dd96",
+      "name" : "stderr",
+      "source" : "71c38c5cdae9dd96.txt",
+      "type" : "text/plain",
+      "size" : 182
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1637048791608,
+      "stop" : 1637048793756,
+      "duration" : 2148
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "文章标签按钮"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "文章搜索页面功能测试"
+  }, {
+    "name" : "feature",
+    "value" : "文章搜索页面测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.resource_test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_resource"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBody"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "8092-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.resource_test_case.test_resource"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "c063de2cdc7491da",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1637047899638,
+        "stop" : 1637047910200,
+        "duration" : 10562
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "3a4578531f9ffea3",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/3a4578531f9ffea3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637045267353,
+          "stop" : 1637045268988,
+          "duration" : 1635
+        }
+      }, {
+        "uid" : "2ec96cb96d18a30d",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/26/allure/#testresult/2ec96cb96d18a30d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637043332665,
+          "stop" : 1637043334291,
+          "duration" : 1626
+        }
+      }, {
+        "uid" : "1df92b454cba0930",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/23/allure/#testresult/1df92b454cba0930",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636967471484,
+          "stop" : 1636967473107,
+          "duration" : 1623
+        }
+      }, {
+        "uid" : "7fe4f7642a50bd0c",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/22/allure/#testresult/7fe4f7642a50bd0c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636940678074,
+          "stop" : 1636940679723,
+          "duration" : 1649
+        }
+      } ]
+    },
+    "tags" : [ "文章标签按钮" ]
+  },
+  "source" : "d4cb8b56553af4b2.json",
+  "parameterValues" : [ ]
+}

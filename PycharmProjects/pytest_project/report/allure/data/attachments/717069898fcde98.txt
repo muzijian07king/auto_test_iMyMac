@@ -1,3 +1,0 @@
-INFO	2021-11-16 14:49:11,374	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
-INFO	2021-11-16 14:49:11,878	[basepage.py:90]	点击元素：('css', 'body >div:nth-child(4)>div>div>div:nth-child(2)>div>div:nth-child(11)>a')
-INFO	2021-11-16 14:49:12,910	[basepage.py:96]	获取到文本：Free Photo Compressor

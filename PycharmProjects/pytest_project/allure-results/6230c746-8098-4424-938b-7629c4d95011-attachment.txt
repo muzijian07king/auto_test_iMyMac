@@ -1,7 +1,0 @@
-INFO	2021-11-16 14:49:26,764	[basepage.py:32]	打开网页https://www.imymac.com/resource/
-INFO	2021-11-16 14:49:26,817	[basepage.py:82]	输入文本：python
-INFO	2021-11-16 14:49:27,986	[basepage.py:113]	按下回车
-INFO	2021-11-16 14:49:28,016	[basepage.py:96]	获取到文本：Como atualizar o Python no Mac com facilidade e rapidez
-www.imymac.com › ... › How to Update Python on Mac Easily and Quickly
-Recent Mac editions include Python 2.7; nevertheless, several more Python subscribers might have to update Python within Mac towards something such as a ...
-INFO	2021-11-16 14:49:28,033	[basepage.py:96]	获取到文本：python

@@ -1,0 +1,2 @@
+INFO	2021-11-16 15:16:20,646	[basepage.py:32]	打开网页https://www.imymac.com/student-discount/
+INFO	2021-11-16 15:16:37,279	[basepage.py:32]	打开网页https://www.imymac.com/student-discount/

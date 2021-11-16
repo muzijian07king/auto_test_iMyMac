@@ -12,6 +12,7 @@ class TestBody(object):
     def open_url(self, drivers):
         self.driver = SupportPage(drivers)
         self.driver.get_url(ini.get_url('support'))
+        self.driver.click_sale_off_link()
 
     @allure.title('跳转到sales_faq链接测试')
     @allure.tag('跳转链接')

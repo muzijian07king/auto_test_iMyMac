@@ -15,6 +15,7 @@ class TestBody(object):
     def open_index(self, drivers):
         self.driver = BodyPage(drivers)
         self.driver.get_url(ini.url)
+        self.driver.click_sale_off_link()
 
     @allure.title('测试轮播按钮')
     def test_001(self):

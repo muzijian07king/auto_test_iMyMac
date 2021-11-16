@@ -1,3 +1,0 @@
-INFO	2021-11-16 14:47:26,870	[basepage.py:32]	打开网页https://www.imymac.com/resource/
-INFO	2021-11-16 14:47:27,475	[basepage.py:90]	点击元素：('css', 'body>div:nth-child(5)>div:nth-child(2)>div>div:nth-child(4)>a:nth-child(4)')
-INFO	2021-11-16 14:47:28,505	[basepage.py:96]	获取到文本：Junk Files

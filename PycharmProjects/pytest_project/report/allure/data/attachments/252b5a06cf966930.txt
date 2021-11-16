@@ -1,0 +1,12 @@
+[32mINFO    [0m root:basepage.py:32 打开网页https://www.imymac.com/store/
+[32mINFO    [0m root:basepage.py:90 点击元素：('css', '#video-converter-one-year')
+[32mINFO    [0m root:basepage.py:181 切换frame==>pf_588082
+[32mINFO    [0m root:basepage.py:186 下拉框value选择==》zh-Hans
+[32mINFO    [0m root:basepage.py:82 输入文本：123@123.com
+[32mINFO    [0m root:basepage.py:90 点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div>div>button')
+[32mINFO    [0m root:basepage.py:186 下拉框value选择==》CN
+[32mINFO    [0m root:basepage.py:90 点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div:nth-child(3)>div>button')
+[32mINFO    [0m root:basepage.py:90 点击元素：('css', '#root > div > div> div> div:nth-child(2) > div > div > div:nth-child(2)>span>a')
+[32mINFO    [0m root:basepage.py:82 输入文本：youhuima2021
+[32mINFO    [0m root:basepage.py:90 点击元素：('css', 'form>div:nth-child(2)>div>button')
+[32mINFO    [0m root:basepage.py:96 获取到文本：本优惠券已被使用太多次。

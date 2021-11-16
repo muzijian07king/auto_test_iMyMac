@@ -13,6 +13,7 @@ class TestBody(object):
     def open_url(self, drivers):
         self.driver = SourcePage(drivers)
         self.driver.get_url(ini.get_url('resource'))
+        self.driver.click_sale_off_link()
 
     @pytest.mark.parametrize('search', getExcelOneCol('搜索文章', 1, 'Resource/resource.xlsx'))
     @allure.title('搜索文章测试')

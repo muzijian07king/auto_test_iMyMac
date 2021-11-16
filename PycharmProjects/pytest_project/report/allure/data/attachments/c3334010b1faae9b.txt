@@ -1,0 +1,4 @@
+INFO	2021-11-16 15:20:33,272	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-16 15:20:33,275	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollTop=1760
+INFO	2021-11-16 15:20:35,413	[basepage.py:90]	点击元素：('css', '#users-media>a:nth-child(3)')
+INFO	2021-11-16 15:20:36,443	[basepage.py:134]	获取到class元素的值==》item

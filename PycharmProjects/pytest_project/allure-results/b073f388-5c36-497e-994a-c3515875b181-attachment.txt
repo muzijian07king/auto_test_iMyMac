@@ -1,2 +1,0 @@
-INFO	2021-11-16 14:48:39,882	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
-INFO	2021-11-16 14:48:40,129	[basepage.py:96]	获取到文本：Find Duplicate Files on Mac to Remove for Free

@@ -14,6 +14,7 @@ class TestBody(object):
     def open_url(self, drivers):
         self.driver = ProtocolPage(drivers)
         self.driver.get_url(ini.url)
+        self.driver.click_sale_off_link()
 
     @pytest.mark.parametrize('sheet_name', getSheetNames('Protocol/protocol.xlsx'))
     @allure.title('大标题测试')

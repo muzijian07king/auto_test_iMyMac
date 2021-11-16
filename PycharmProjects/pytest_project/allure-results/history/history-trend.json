@@ -1,4 +1,16 @@
 [ {
+  "buildOrder" : 27,
+  "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 36,
+    "broken" : 1,
+    "skipped" : 7,
+    "passed" : 492,
+    "unknown" : 0,
+    "total" : 536
+  }
+}, {
   "buildOrder" : 26,
   "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/26/allure",
   "reportName" : "AllureReport",

@@ -1,5 +1,0 @@
-INFO	2021-11-16 14:47:49,902	[basepage.py:32]	打开网页https://www.imymac.com/resource/
-INFO	2021-11-16 14:47:49,925	[basepage.py:96]	获取到文本：2 Ways to Uninstall TextWrangler on Mac Efficiently
-INFO	2021-11-16 14:47:50,917	[basepage.py:90]	点击元素：('css', 'body>div:nth-child(5)>div:nth-child(2)>div:nth-child(2)>ul>li:nth-child(3)>a')
-INFO	2021-11-16 14:47:51,939	[basepage.py:134]	获取到class元素的值==》active
-INFO	2021-11-16 14:47:51,962	[basepage.py:96]	获取到文本：Removal Guide: Uninstall World of Tanks on Mac Properly

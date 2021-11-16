@@ -21,6 +21,7 @@ def drivers():
     option.add_argument('--headless')  # 无头显示
     option.add_argument('--window-size=1920,1080')
     option.add_argument('--no-sandbox')  # 设置浏览器大小
+    option.add_argument('--incognito')
     prefs = {'download.default_directory': cm.download_dir,  # 设置默认下载路径
              "profile.managed_default_content_settings.images": 2}  # 禁止图片
     option.add_experimental_option('prefs', prefs)

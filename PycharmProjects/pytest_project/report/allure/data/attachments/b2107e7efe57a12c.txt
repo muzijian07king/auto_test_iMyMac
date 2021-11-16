@@ -1,0 +1,2 @@
+INFO	2021-11-16 15:22:20,208	[basepage.py:32]	打开网页https://www.imymac.com/free-imymac-pdf-compressor/
+INFO	2021-11-16 15:22:52,279	[basepage.py:90]	点击元素：('css', 'body>div>div>div>div>p>a')

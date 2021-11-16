@@ -1,5 +1,0 @@
-[32mINFO    [0m root:basepage.py:32 打开网页https://www.imymac.com/index.html
-[32mINFO    [0m root:basepage.py:102 鼠标悬停在('link', 'Online Tools')
-[32mINFO    [0m root:test_head.py:51 点击OnlineTool下拉框
-[32mINFO    [0m root:basepage.py:90 点击元素：('css', '#onlineLabel>ul>li:nth-child(1)>a')
-[32mINFO    [0m root:test_head.py:53 点击链接online-Video-Converter

@@ -1,3 +1,0 @@
-[32mINFO    [0m root:basepage.py:32 打开网页https://www.imymac.com/index.html
-[32mINFO    [0m root:basepage.py:90 点击元素：('css', 'body>footer>div>div>div.w166>div>a')
-[32mINFO    [0m root:basepage.py:90 点击元素：('css', 'body>footer>div>div>div.w166>div>div>dl>dt:nth-child(7)>a')
