@@ -1,0 +1,5 @@
+INFO	2021-11-16 14:57:53,060	[basepage.py:32]	打开网页https://www.imymac.com/video-converter/
+INFO	2021-11-16 14:57:53,061	[basepage.py:159]	页面滚到元素('css', 'body>div.editing')
+INFO	2021-11-16 14:57:54,084	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-16 14:57:56,141	[basepage.py:90]	点击元素：('css', '#vc-carousel > div.edit-way.edit-bg > ol > li:nth-child(1)')
+INFO	2021-11-16 14:57:57,160	[basepage.py:134]	获取到class元素的值==》item edit-bg active 

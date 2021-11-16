@@ -1,0 +1,17 @@
+INFO	2021-11-16 14:50:06,411	[basepage.py:32]	打开网页https://www.imymac.com/store/
+INFO	2021-11-16 14:50:06,448	[basepage.py:90]	点击元素：('css', '#powermymac-one-month')
+INFO	2021-11-16 14:50:07,457	[basepage.py:181]	切换frame==>pf_631115
+INFO	2021-11-16 14:50:09,165	[basepage.py:186]	下拉框value选择==》zh-Hans
+INFO	2021-11-16 14:50:10,024	[basepage.py:153]	使用js操控浏览器==》document.querySelector("#root > div > div.sc-bBjRSN.kEYJmH").style.display="none";
+INFO	2021-11-16 14:50:11,126	[basepage.py:82]	输入文本：123@123.com
+INFO	2021-11-16 14:50:11,202	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div>div>button')
+INFO	2021-11-16 14:50:12,202	[basepage.py:186]	下拉框value选择==》CN
+INFO	2021-11-16 14:50:12,333	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div:nth-child(3)>div>button')
+INFO	2021-11-16 14:50:13,408	[basepage.py:90]	点击元素：('css', '#root > div > div> div> div > div > div >div:nth-child(3)>div>div:nth-child(1)>button')
+INFO	2021-11-16 14:50:16,553	[basepage.py:82]	输入文本：62284 80088 14184 8874
+INFO	2021-11-16 14:50:16,612	[basepage.py:82]	输入文本：lin
+INFO	2021-11-16 14:50:16,666	[basepage.py:82]	输入文本：2
+INFO	2021-11-16 14:50:16,726	[basepage.py:82]	输入文本：2022
+INFO	2021-11-16 14:50:16,796	[basepage.py:82]	输入文本：568
+INFO	2021-11-16 14:50:16,865	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>div:nth-child(3)>form>div:nth-child(2)>div>button')
+INFO	2021-11-16 14:50:22,708	[basepage.py:96]	获取到文本：本次付款被您的银行拒绝。请重试，或使用另外的支付方式。联系您的银行以获取进一步的信息。

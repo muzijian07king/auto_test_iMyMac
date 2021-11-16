@@ -1,0 +1,5 @@
+INFO	2021-11-16 14:48:11,664	[basepage.py:32]	打开网页https://www.imymac.com/mac-uninstaller/
+INFO	2021-11-16 14:48:11,666	[basepage.py:159]	页面滚到元素('css', 'body>div.menu')
+INFO	2021-11-16 14:48:12,692	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-16 14:48:14,798	[basepage.py:90]	点击元素：('css', 'body>div.menu>div>div>a:nth-child(1)')
+INFO	2021-11-16 14:48:15,873	[basepage.py:96]	获取到文本：PowerMyMac - Mac Uninstaller

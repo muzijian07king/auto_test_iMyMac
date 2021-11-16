@@ -1,0 +1,7 @@
+INFO	2021-11-16 14:49:21,208	[basepage.py:32]	打开网页https://www.imymac.com/resource/
+INFO	2021-11-16 14:49:21,262	[basepage.py:82]	输入文本：imymac
+INFO	2021-11-16 14:49:22,465	[basepage.py:90]	点击元素：('css', 'body>div:nth-child(4)>div>div>form>button')
+INFO	2021-11-16 14:49:23,504	[basepage.py:96]	获取到文本：iMyMac | Smart Cleanup and Optimize Your Mac
+www.imymac.com
+iMyMac aims to develop apps that make your Mac powerful like a superman. You can use 20+ features in one tool in a click. Clean, protect and optimize your ...
+INFO	2021-11-16 14:49:23,522	[basepage.py:96]	获取到文本：imymac

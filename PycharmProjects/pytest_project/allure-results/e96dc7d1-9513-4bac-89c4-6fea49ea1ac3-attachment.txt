@@ -1,0 +1,5 @@
+[32mINFO    [0m root:basepage.py:32 打开网页https://www.imymac.com/index.html
+[32mINFO    [0m root:basepage.py:102 鼠标悬停在('link', 'PowerMyMac')
+[32mINFO    [0m root:test_head.py:39 点击PowerMyMac下拉框
+[32mINFO    [0m root:basepage.py:90 点击元素：('link', 'Similar Image Finder')
+[32mINFO    [0m root:test_head.py:41 点击链接Similar-Image-Finder

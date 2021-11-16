@@ -5,6 +5,7 @@ video:
   buy-button: 'css=#video-converter-one-year'      #video购买按钮
   options: 'css=body>div:nth-child(4)>div>div>div:nth-child(2)>div:nth-child(2)>a:nth-child(6)' #video更多按钮
 iframe: 'css=body>iframe'
+language: 'css=#root>div>div>div>select'     # 语言切换按钮
 send-email: 'css=#root>div>div>div>div:nth-child(2)>div>div>form>div>div>input'   #邮箱输入框
 price: 'css=#root>div>div>div>div:nth-child(2)>div>div>form>div:nth-child(3)>div>div>span:nth-child(2)>span>var' #金额
 '继续':

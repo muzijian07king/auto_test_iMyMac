@@ -1,0 +1,7 @@
+INFO	2021-11-16 14:52:06,034	[basepage.py:32]	打开网页https://www.imymac.com/store/
+INFO	2021-11-16 14:52:06,071	[basepage.py:90]	点击元素：('css', '#video-converter-one-year')
+INFO	2021-11-16 14:52:07,082	[basepage.py:181]	切换frame==>pf_588082
+INFO	2021-11-16 14:52:12,007	[basepage.py:153]	使用js操控浏览器==》document.querySelector("#root > div > div.sc-bBjRSN.kEYJmH").style.display="none";
+INFO	2021-11-16 14:52:13,124	[basepage.py:82]	输入文本：lelee9895@gamil.com
+INFO	2021-11-16 14:52:13,211	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div>div>button')
+INFO	2021-11-16 14:52:14,238	[basepage.py:96]	获取到文本：lelee9895@gamil.com

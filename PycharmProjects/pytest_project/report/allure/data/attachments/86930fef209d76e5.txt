@@ -1,0 +1,8 @@
+INFO	2021-11-16 14:56:55,601	[basepage.py:32]	打开网页https://www.imymac.com/support/
+INFO	2021-11-16 14:56:56,171	[basepage.py:90]	点击元素：('css', 'body>div:nth-child(4)>div>div:nth-child(1)>a')
+INFO	2021-11-16 14:56:57,244	[basepage.py:82]	输入文本：java
+INFO	2021-11-16 14:56:58,558	[basepage.py:90]	点击元素：('css', 'body>div:nth-child(4)>div>div>form>button')
+INFO	2021-11-16 14:56:59,590	[basepage.py:96]	获取到文本：How Do I Uninstall Java on Mac?
+www.imymac.com › PowerMyMac
+Aug 6, 2021 ... Uninstalling Java on Mac only involves three steps. But, these should be done manually as well as removing variously related plug-ins found ...
+INFO	2021-11-16 14:56:59,611	[basepage.py:96]	获取到文本：java

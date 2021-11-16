@@ -1,0 +1,4 @@
+INFO	2021-11-16 14:49:28,152	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-16 14:49:28,671	[basepage.py:90]	点击元素：('css', 'body >div:nth-child(4)>div>div>div:nth-child(2)>div>div:nth-child(7)>a')
+INFO	2021-11-16 14:49:30,060	[basepage.py:90]	点击元素：('xpath', "//div[@class='productBox'][1]/ol/li[1]/a")
+INFO	2021-11-16 14:49:31,077	[basepage.py:221]	获取到title==>Best Photo Management Software for Mac [Organize Photos 2021]

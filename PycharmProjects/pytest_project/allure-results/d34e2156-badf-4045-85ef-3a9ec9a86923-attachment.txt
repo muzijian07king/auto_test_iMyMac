@@ -1,0 +1,2 @@
+INFO	2021-11-16 14:50:04,136	[basepage.py:32]	打开网页https://www.imymac.com/store/
+INFO	2021-11-16 14:50:04,177	[basepage.py:90]	点击元素：('css', '#video-converter-one-year')

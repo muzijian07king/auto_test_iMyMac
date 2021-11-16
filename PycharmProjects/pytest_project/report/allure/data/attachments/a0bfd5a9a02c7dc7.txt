@@ -1,0 +1,5 @@
+INFO	2021-11-16 14:46:21,213	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-16 14:46:21,459	[basepage.py:102]	鼠标悬停在('link', 'Online Tools')
+INFO	2021-11-16 14:46:21,734	[test_head.py:51]	点击OnlineTool下拉框
+INFO	2021-11-16 14:46:22,805	[basepage.py:90]	点击元素：('css', '#onlineLabel>ul>li:nth-child(3)>a')
+INFO	2021-11-16 14:46:23,808	[test_head.py:53]	点击链接online-Photo-Compressor

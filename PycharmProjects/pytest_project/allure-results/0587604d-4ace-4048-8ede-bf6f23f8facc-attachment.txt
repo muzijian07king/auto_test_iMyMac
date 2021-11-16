@@ -1,0 +1,32 @@
+INFO	2021-11-16 14:54:25,724	[basepage.py:32]	打开网页https://www.imymac.com/store/
+INFO	2021-11-16 14:54:25,773	[basepage.py:90]	点击元素：('css', '#video-converter-one-year')
+INFO	2021-11-16 14:54:26,782	[basepage.py:181]	切换frame==>pf_588082
+INFO	2021-11-16 14:54:28,797	[basepage.py:153]	使用js操控浏览器==》document.querySelector("#root > div > div.sc-bBjRSN.kEYJmH").style.display="none";
+INFO	2021-11-16 14:54:29,906	[basepage.py:82]	输入文本：123@123.com
+INFO	2021-11-16 14:54:29,987	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div>div>button')
+INFO	2021-11-16 14:54:30,990	[basepage.py:186]	下拉框value选择==》CN
+INFO	2021-11-16 14:54:31,121	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div:nth-child(3)>div>button')
+INFO	2021-11-16 14:54:32,210	[basepage.py:90]	点击元素：('css', '#root > div > div> div> div > div > div >div:nth-child(3)>div>div:nth-child(1)>button')
+INFO	2021-11-16 14:54:35,279	[basepage.py:82]	输入文本：
+INFO	2021-11-16 14:54:35,341	[basepage.py:82]	输入文本：
+INFO	2021-11-16 14:54:35,395	[basepage.py:82]	输入文本：
+INFO	2021-11-16 14:54:35,446	[basepage.py:82]	输入文本：
+INFO	2021-11-16 14:54:35,506	[basepage.py:82]	输入文本：
+INFO	2021-11-16 14:54:35,583	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>div:nth-child(3)>form>div:nth-child(2)>div>button')
+INFO	2021-11-16 14:54:37,647	[basepage.py:211]	获取到text==》['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.']
+INFO	2021-11-16 14:54:43,247	[basepage.py:32]	打开网页https://www.imymac.com/store/
+INFO	2021-11-16 14:54:43,291	[basepage.py:90]	点击元素：('css', '#video-converter-one-year')
+INFO	2021-11-16 14:54:44,308	[basepage.py:181]	切换frame==>pf_588082
+INFO	2021-11-16 14:54:46,225	[basepage.py:153]	使用js操控浏览器==》document.querySelector("#root > div > div.sc-bBjRSN.kEYJmH").style.display="none";
+INFO	2021-11-16 14:54:47,330	[basepage.py:82]	输入文本：123@123.com
+INFO	2021-11-16 14:54:47,419	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div>div>button')
+INFO	2021-11-16 14:54:48,435	[basepage.py:186]	下拉框value选择==》CN
+INFO	2021-11-16 14:54:49,507	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div:nth-child(3)>div>button')
+INFO	2021-11-16 14:54:50,575	[basepage.py:90]	点击元素：('css', '#root > div > div> div> div > div > div >div:nth-child(3)>div>div:nth-child(1)>button')
+INFO	2021-11-16 14:54:53,643	[basepage.py:82]	输入文本：
+INFO	2021-11-16 14:54:53,696	[basepage.py:82]	输入文本：
+INFO	2021-11-16 14:54:53,752	[basepage.py:82]	输入文本：
+INFO	2021-11-16 14:54:53,806	[basepage.py:82]	输入文本：
+INFO	2021-11-16 14:54:53,861	[basepage.py:82]	输入文本：
+INFO	2021-11-16 14:54:53,988	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>div:nth-child(3)>form>div:nth-child(2)>div>button')
+INFO	2021-11-16 14:54:56,058	[basepage.py:211]	获取到text==》['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.']

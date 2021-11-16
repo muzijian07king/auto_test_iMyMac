@@ -1,0 +1,392 @@
+{
+  "uid" : "ccb951800c476378",
+  "name" : "video购买页面使用paypal支付测试",
+  "fullName" : "TestCase.store_test_case.test_store.TestBody#test_036",
+  "historyId" : "d2b5a1c10cfd9a7ece1b1e11c528f4ed",
+  "time" : {
+    "start" : 1637045775290,
+    "stop" : 1637045784107,
+    "duration" : 8817
+  },
+  "description" : "video购买页面使用paypal支付功能测试",
+  "descriptionHtml" : "<p>video购买页面使用paypal支付功能测试</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1637045081635,
+      "stop" : 1637045081635,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1637045081635,
+      "stop" : 1637045084369,
+      "duration" : 2734
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1637045081635,
+      "stop" : 1637045081635,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1637045084369,
+      "stop" : 1637045084369,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "open_url",
+    "time" : {
+      "start" : 1637045774746,
+      "stop" : 1637045775290,
+      "duration" : 544
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1637045774746,
+      "stop" : 1637045774746,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "video购买页面使用paypal支付功能测试",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "进入购买video第三步页面",
+      "time" : {
+        "start" : 1637045775290,
+        "stop" : 1637045782333,
+        "duration" : 7043
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "进入购买video第二步页面",
+        "time" : {
+          "start" : 1637045775290,
+          "stop" : 1637045781199,
+          "duration" : 5909
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "进入购买video第一步页面",
+          "time" : {
+            "start" : 1637045775291,
+            "stop" : 1637045780023,
+            "duration" : 4732
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "切换到video购买页面",
+            "time" : {
+              "start" : 1637045776348,
+              "stop" : 1637045779016,
+              "duration" : 2668
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "输入邮箱",
+          "time" : {
+            "start" : 1637045780023,
+            "stop" : 1637045780103,
+            "duration" : 80
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "text",
+            "value" : "'123@123.com'"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "点击确认邮箱按钮",
+          "time" : {
+            "start" : 1637045780103,
+            "stop" : 1637045781199,
+            "duration" : 1096
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 4,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击地区下拉框",
+        "time" : {
+          "start" : 1637045781199,
+          "stop" : 1637045781252,
+          "duration" : 53
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "language",
+          "value" : "'CN'"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击确认地区",
+        "time" : {
+          "start" : 1637045781253,
+          "stop" : 1637045782333,
+          "duration" : 1080
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "选择paypal支付",
+      "time" : {
+        "start" : 1637045782333,
+        "stop" : 1637045784096,
+        "duration" : 1763
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "判断弹出PayPal支付页面",
+      "time" : {
+        "start" : 1637045784096,
+        "stop" : 1637045784107,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "610eaa10700af001",
+      "name" : "log",
+      "source" : "610eaa10700af001.txt",
+      "type" : "text/plain",
+      "size" : 930
+    }, {
+      "uid" : "29c9c02403fee7dc",
+      "name" : "stderr",
+      "source" : "29c9c02403fee7dc.txt",
+      "type" : "text/plain",
+      "size" : 1003
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1637045940184,
+      "stop" : 1637045942278,
+      "duration" : 2094
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "paypal支付方式"
+  }, {
+    "name" : "story",
+    "value" : "Store主页内容测试"
+  }, {
+    "name" : "feature",
+    "value" : "Store页面测试"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.store_test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_store"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBody"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "10840-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.store_test_case.test_store"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "368b7ee649fb8838",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/26/allure/#testresult/368b7ee649fb8838",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637044231384,
+          "stop" : 1637044239022,
+          "duration" : 7638
+        }
+      }, {
+        "uid" : "158088d41c34b12a",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/23/allure/#testresult/158088d41c34b12a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636968392302,
+          "stop" : 1636968401818,
+          "duration" : 9516
+        }
+      }, {
+        "uid" : "2f72d44d114d947d",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/22/allure/#testresult/2f72d44d114d947d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636941463195,
+          "stop" : 1636941471704,
+          "duration" : 8509
+        }
+      } ]
+    },
+    "tags" : [ "paypal支付方式" ]
+  },
+  "source" : "ccb951800c476378.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,2 @@
+INFO	2021-11-16 14:49:05,870	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-16 14:49:09,822	[basepage.py:96]	获取到文本：App Not Safe on Mac? Full Solution Are Offered Here

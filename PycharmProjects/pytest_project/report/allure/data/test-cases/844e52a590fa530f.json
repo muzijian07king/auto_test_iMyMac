@@ -1,0 +1,556 @@
+{
+  "uid" : "844e52a590fa530f",
+  "name" : "video购买页面添加支付卡信息错误测试",
+  "fullName" : "TestCase.store_test_case.test_store.TestBody#test_033",
+  "historyId" : "af00c21c62dfa51bf4a625b0f19d65cb",
+  "time" : {
+    "start" : 1637045943770,
+    "stop" : 1637045955490,
+    "duration" : 11720
+  },
+  "description" : "video购买页面添加支付卡信息错误功能测试",
+  "descriptionHtml" : "<p>video购买页面添加支付卡信息错误功能测试</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '您输入的名称无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18BD2790>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18BD2790>> = <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18BD2790>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18BD2790> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x0000025A18BD21C0>.driver",
+  "statusTrace" : "self = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x0000025A18BD21C0>\nnumber = '', name = '李', month = '', year = '', pwd = ''\nerror_text = '您输入的名称无效。'\n\n    @pytest.mark.parametrize('number,name,month,year,pwd,error_text', getExcelAllData('卡片支付', 'Store/store.xlsx'))\n    @allure.title('video购买页面添加支付卡信息错误测试')\n    def test_033(self, number, name, month, year, pwd, error_text):\n        \"\"\"video购买页面添加支付卡信息错误功能测试\"\"\"\n        allure.dynamic.tag('填写支付卡信息')\n        self.driver.video_buy_three_step()\n        self.driver.card_to_pay()\n        self.driver.send_cardNumber(number)\n        self.driver.send_cardName(name)\n        self.driver.send_cardMonth(month)\n        self.driver.send_cardYear(year)\n        self.driver.send_cardPwd(pwd)\n        self.driver.submit_card()\n>       assert error_text in self.driver.return_card_pay_error_texts()\nE       AssertionError: assert '您输入的名称无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.']\nE        +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18BD2790>>()\nE        +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18BD2790>> = <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18BD2790>.return_card_pay_error_texts\nE        +      where <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18BD2790> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x0000025A18BD21C0>.driver\n\nTestCase\\store_test_case\\test_store.py:330: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1637045081634,
+      "stop" : 1637045081634,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1637045081634,
+      "stop" : 1637045084528,
+      "duration" : 2894
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1637045081634,
+      "stop" : 1637045081634,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1637045084528,
+      "stop" : 1637045084528,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1637045943565,
+      "stop" : 1637045943565,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "open_url",
+    "time" : {
+      "start" : 1637045943565,
+      "stop" : 1637045943768,
+      "duration" : 203
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "video购买页面添加支付卡信息错误功能测试",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '您输入的名称无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18BD2790>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18BD2790>> = <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18BD2790>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18BD2790> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x0000025A18BD21C0>.driver",
+    "statusTrace" : "self = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x0000025A18BD21C0>\nnumber = '', name = '李', month = '', year = '', pwd = ''\nerror_text = '您输入的名称无效。'\n\n    @pytest.mark.parametrize('number,name,month,year,pwd,error_text', getExcelAllData('卡片支付', 'Store/store.xlsx'))\n    @allure.title('video购买页面添加支付卡信息错误测试')\n    def test_033(self, number, name, month, year, pwd, error_text):\n        \"\"\"video购买页面添加支付卡信息错误功能测试\"\"\"\n        allure.dynamic.tag('填写支付卡信息')\n        self.driver.video_buy_three_step()\n        self.driver.card_to_pay()\n        self.driver.send_cardNumber(number)\n        self.driver.send_cardName(name)\n        self.driver.send_cardMonth(month)\n        self.driver.send_cardYear(year)\n        self.driver.send_cardPwd(pwd)\n        self.driver.submit_card()\n>       assert error_text in self.driver.return_card_pay_error_texts()\nE       AssertionError: assert '您输入的名称无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.']\nE        +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18BD2790>>()\nE        +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18BD2790>> = <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18BD2790>.return_card_pay_error_texts\nE        +      where <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18BD2790> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x0000025A18BD21C0>.driver\n\nTestCase\\store_test_case\\test_store.py:330: AssertionError",
+    "steps" : [ {
+      "name" : "进入购买video第三步页面",
+      "time" : {
+        "start" : 1637045943770,
+        "stop" : 1637045950025,
+        "duration" : 6255
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "进入购买video第二步页面",
+        "time" : {
+          "start" : 1637045943770,
+          "stop" : 1637045948902,
+          "duration" : 5132
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "进入购买video第一步页面",
+          "time" : {
+            "start" : 1637045943770,
+            "stop" : 1637045947725,
+            "duration" : 3955
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "切换到video购买页面",
+            "time" : {
+              "start" : 1637045944816,
+              "stop" : 1637045946717,
+              "duration" : 1901
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "输入邮箱",
+          "time" : {
+            "start" : 1637045947725,
+            "stop" : 1637045947812,
+            "duration" : 87
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "text",
+            "value" : "'123@123.com'"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "点击确认邮箱按钮",
+          "time" : {
+            "start" : 1637045947812,
+            "stop" : 1637045948902,
+            "duration" : 1090
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 4,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击地区下拉框",
+        "time" : {
+          "start" : 1637045948902,
+          "stop" : 1637045948948,
+          "duration" : 46
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "language",
+          "value" : "'CN'"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击确认地区",
+        "time" : {
+          "start" : 1637045948948,
+          "stop" : 1637045950025,
+          "duration" : 1077
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "选择卡片支付",
+      "time" : {
+        "start" : 1637045950025,
+        "stop" : 1637045953086,
+        "duration" : 3061
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入卡号",
+      "time" : {
+        "start" : 1637045953086,
+        "stop" : 1637045953141,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "number",
+        "value" : "''"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入持卡人",
+      "time" : {
+        "start" : 1637045953141,
+        "stop" : 1637045953205,
+        "duration" : 64
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "'李'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入截至月",
+      "time" : {
+        "start" : 1637045953205,
+        "stop" : 1637045953257,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "month",
+        "value" : "''"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入截至年",
+      "time" : {
+        "start" : 1637045953257,
+        "stop" : 1637045953310,
+        "duration" : 53
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "year",
+        "value" : "''"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入安全码",
+      "time" : {
+        "start" : 1637045953310,
+        "stop" : 1637045953362,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "pwd",
+        "value" : "''"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "提交输入卡信息",
+      "time" : {
+        "start" : 1637045953362,
+        "stop" : 1637045955440,
+        "duration" : 2078
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "判断卡支付错误信息",
+      "time" : {
+        "start" : 1637045955440,
+        "stop" : 1637045955489,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "添加失败截图...",
+      "time" : {
+        "start" : 1637045955679,
+        "stop" : 1637045955865,
+        "duration" : 186
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f44eb85a85b5eefa",
+        "name" : "失败截图",
+        "source" : "f44eb85a85b5eefa.png",
+        "type" : "image/png",
+        "size" : 308904
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "6883507277b64cae",
+      "name" : "log",
+      "source" : "6883507277b64cae.txt",
+      "type" : "text/plain",
+      "size" : 3261
+    }, {
+      "uid" : "69b4c90140bfebc5",
+      "name" : "stderr",
+      "source" : "69b4c90140bfebc5.txt",
+      "type" : "text/plain",
+      "size" : 3518
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 17,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1637045965186,
+      "stop" : 1637045967292,
+      "duration" : 2106
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "填写支付卡信息"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "Store主页内容测试"
+  }, {
+    "name" : "feature",
+    "value" : "Store页面测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.store_test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_store"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBody"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "12596-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.store_test_case.test_store"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "error_text",
+    "value" : "'您输入的名称无效。'"
+  }, {
+    "name" : "month",
+    "value" : "''"
+  }, {
+    "name" : "name",
+    "value" : "'李'"
+  }, {
+    "name" : "number",
+    "value" : "''"
+  }, {
+    "name" : "pwd",
+    "value" : "''"
+  }, {
+    "name" : "year",
+    "value" : "''"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "8ef667b2d5e90ef9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '您输入的名称无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18C7EC10>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18C7EC10>> = <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18C7EC10>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18C7EC10> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x0000025A18B8B340>.driver",
+      "time" : {
+        "start" : 1637045925964,
+        "stop" : 1637045938178,
+        "duration" : 12214
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 4,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "114df27e501e17ed",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/26/allure/#testresult/114df27e501e17ed",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '您输入的名称无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000002423D4E56A0>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000002423D4E56A0>> = <pytest_project.page_object.store.store_page.StorePage object at 0x000002423D4E56A0>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x000002423D4E56A0> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x000002423D6C8040>.driver",
+        "time" : {
+          "start" : 1637044235116,
+          "stop" : 1637044249321,
+          "duration" : 14205
+        }
+      }, {
+        "uid" : "5c0e21378fb74937",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/23/allure/#testresult/5c0e21378fb74937",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '您输入的名称无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000001B1D9426940>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000001B1D9426940>> = <pytest_project.page_object.store.store_page.StorePage object at 0x000001B1D9426940>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x000001B1D9426940> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x000001B1D9426520>.driver",
+        "time" : {
+          "start" : 1636968305344,
+          "stop" : 1636968318457,
+          "duration" : 13113
+        }
+      }, {
+        "uid" : "84c1ab14e79dbd76",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/22/allure/#testresult/84c1ab14e79dbd76",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '您输入的名称无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000001D4F2D3DBE0>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000001D4F2D3DBE0>> = <pytest_project.page_object.store.store_page.StorePage object at 0x000001D4F2D3DBE0>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x000001D4F2D3DBE0> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x000001D4F2D0E370>.driver",
+        "time" : {
+          "start" : 1636941375555,
+          "stop" : 1636941389087,
+          "duration" : 13532
+        }
+      } ]
+    },
+    "tags" : [ "填写支付卡信息" ]
+  },
+  "source" : "844e52a590fa530f.json",
+  "parameterValues" : [ "'您输入的名称无效。'", "''", "'李'", "''", "''", "''" ]
+}

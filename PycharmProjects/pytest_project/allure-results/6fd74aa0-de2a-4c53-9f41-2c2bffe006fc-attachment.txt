@@ -1,0 +1,4 @@
+INFO	2021-11-16 14:47:42,945	[basepage.py:32]	打开网页https://www.imymac.com/resource/
+INFO	2021-11-16 14:47:42,975	[basepage.py:96]	获取到文本：2 Ways to Uninstall TextWrangler on Mac Efficiently
+INFO	2021-11-16 14:47:45,371	[basepage.py:90]	点击元素：('css', 'body>div:nth-child(5)>div>div:nth-child(2)>div>div:nth-child(1)>p:nth-child(1)>a')
+INFO	2021-11-16 14:47:46,403	[basepage.py:96]	获取到文本：2 Ways to Uninstall TextWrangler on Mac Efficiently

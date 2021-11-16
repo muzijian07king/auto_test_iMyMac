@@ -1,5 +1,642 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 'You need to ...mail address.' == '您需要输入一个有效邮箱。'\n  - 您需要输入一个有效邮箱。\n  + You need to enter a valid email address.",
+      "children" : [ {
+        "name" : "video购买页面填写错误格式邮箱测试",
+        "uid" : "52e4ccc132cda15a",
+        "parentUid" : "d6069c7f3391908a5e3c67b60cacda6d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045476174,
+          "stop" : 1637045484709,
+          "duration" : 8535
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "'您需要输入一个有效邮箱。'" ]
+      } ],
+      "uid" : "d6069c7f3391908a5e3c67b60cacda6d"
+    }, {
+      "name" : "AssertionError: assert 'The email ad...is not valid.' == '您输入的邮箱无效。'\n  - 您输入的邮箱无效。\n  + The email address you entered is not valid.",
+      "children" : [ {
+        "name" : "video购买页面填写错误格式邮箱测试",
+        "uid" : "b6f77af941bd3b33",
+        "parentUid" : "996a3191575026b1096d9ca57f0fa7a4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045500690,
+          "stop" : 1637045510433,
+          "duration" : 9743
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'m111'", "'您输入的邮箱无效。'" ]
+      } ],
+      "uid" : "996a3191575026b1096d9ca57f0fa7a4"
+    }, {
+      "name" : "AssertionError: assert 'You need to ... coupon code.' == '您需要输入一个有效优惠码。'\n  - 您需要输入一个有效优惠码。\n  + You need to enter a valid coupon code.",
+      "children" : [ {
+        "name" : "video购买页面填写错误优惠码测试",
+        "uid" : "f7170bee3cd39a46",
+        "parentUid" : "042282656d80306f0bbe6bdf74f58213",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045556549,
+          "stop" : 1637045565402,
+          "duration" : 8853
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'1111'", "'您需要输入一个有效优惠码。'" ]
+      } ],
+      "uid" : "042282656d80306f0bbe6bdf74f58213"
+    }, {
+      "name" : "AssertionError: assert 'This coupon ...o many times.' == '本优惠券已被使用太多次。'\n  - 本优惠券已被使用太多次。\n  + This coupon has been used too many times.",
+      "children" : [ {
+        "name" : "video购买页面填写错误优惠码测试",
+        "uid" : "9346b34fccc9f97f",
+        "parentUid" : "f47b362d8919a1f5f274ac6d4104e5ce",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045580062,
+          "stop" : 1637045588866,
+          "duration" : 8804
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'youhuima2021'", "'本优惠券已被使用太多次。'" ]
+      } ],
+      "uid" : "f47b362d8919a1f5f274ac6d4104e5ce"
+    }, {
+      "name" : "AssertionError: assert '您输入的信用卡无效。' in ['The credit card you entered is not valid.']\n +  where ['The credit card you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18CB1D00>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18CB1D00>> = <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18CB1D00>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18CB1D00> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x0000025A18CB1070>.driver",
+      "children" : [ {
+        "name" : "video购买页面添加支付卡信息错误测试",
+        "uid" : "bced59bd79d27bbe",
+        "parentUid" : "ab73c7e7a345ae6f36a10fb86bdbe743",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045603904,
+          "stop" : 1637045619940,
+          "duration" : 16036
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'您输入的信用卡无效。'", "'2'", "'lin'", "'12345'", "'568'", "'2022'" ]
+      } ],
+      "uid" : "ab73c7e7a345ae6f36a10fb86bdbe743"
+    }, {
+      "name" : "AssertionError: assert '您输入的名称无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF39186790>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF39186790>> = <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF39186790>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF39186790> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x000001BF39135A90>.driver",
+      "children" : [ {
+        "name" : "video购买页面添加支付卡信息错误测试",
+        "uid" : "67095ab6bfe4bd2b",
+        "parentUid" : "6f4b94367a9a49bd2524be28ad49227d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045615003,
+          "stop" : 1637045627712,
+          "duration" : 12709
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'您输入的名称无效。'", "''", "''", "''", "''", "''" ]
+      } ],
+      "uid" : "6f4b94367a9a49bd2524be28ad49227d"
+    }, {
+      "name" : "AssertionError: assert '您输入的信用卡无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18C874C0>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18C874C0>> = <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18C874C0>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18C874C0> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x0000025A18C87AC0>.driver",
+      "children" : [ {
+        "name" : "video购买页面添加支付卡信息错误测试",
+        "uid" : "9fd4bd59c36403b2",
+        "parentUid" : "6124fe1076e6838270aafc212c5489bc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045641938,
+          "stop" : 1637045656368,
+          "duration" : 14430
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'您输入的信用卡无效。'", "'2'", "''", "'12346'", "'568'", "'2022'" ]
+      } ],
+      "uid" : "6124fe1076e6838270aafc212c5489bc"
+    }, {
+      "name" : "AssertionError: assert '您输入的期限月份无效。' in ['The expiry month you entered is not valid.']\n +  where ['The expiry month you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF39154F70>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF39154F70>> = <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF39154F70>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF39154F70> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x000001BF39154AF0>.driver",
+      "children" : [ {
+        "name" : "video购买页面添加支付卡信息错误测试",
+        "uid" : "857c8155d63fb78",
+        "parentUid" : "52e2ed8a48a3455ed2560940c5684497",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045646061,
+          "stop" : 1637045657806,
+          "duration" : 11745
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'您输入的期限月份无效。'", "'24'", "'lin'", "':62122 62502 00918 2455'", "'568'", "'2022'" ]
+      } ],
+      "uid" : "52e2ed8a48a3455ed2560940c5684497"
+    }, {
+      "name" : "AssertionError: assert '您输入的期限年份无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry year you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry year you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A8F47FD0>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A8F47FD0>> = <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A8F47FD0>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A8F47FD0> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x00000245A8F4C6A0>.driver",
+      "children" : [ {
+        "name" : "video购买页面添加支付卡信息错误测试",
+        "uid" : "53f61a0d046a3323",
+        "parentUid" : "f9383b3896678999ea592905695f22b9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045653068,
+          "stop" : 1637045667228,
+          "duration" : 14160
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'您输入的期限年份无效。'", "'12'", "''", "''", "'568'", "'1000'" ]
+      } ],
+      "uid" : "f9383b3896678999ea592905695f22b9"
+    }, {
+      "name" : "AssertionError: assert '您输入的 CVV 无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000029CC4A8D880>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000029CC4A8D880>> = <pytest_project.page_object.store.store_page.StorePage object at 0x0000029CC4A8D880>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x0000029CC4A8D880> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x0000029CC4A8D250>.driver",
+      "children" : [ {
+        "name" : "video购买页面添加支付卡信息错误测试",
+        "uid" : "998c4e08fd4d5b26",
+        "parentUid" : "81e8ccee7fa54d9c1257e9effbb011a6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045653174,
+          "stop" : 1637045665123,
+          "duration" : 11949
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'您输入的 CVV 无效。'", "''", "''", "''", "'56'", "''" ]
+      } ],
+      "uid" : "81e8ccee7fa54d9c1257e9effbb011a6"
+    }, {
+      "name" : "AssertionError: assert '您输入的期限月份无效。' in ['The credit card you entered is not valid.', 'The expiry month you entered is not valid.']\n +  where ['The credit card you entered is not valid.', 'The expiry month you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF392090D0>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF392090D0>> = <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF392090D0>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF392090D0> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x000001BF39154D30>.driver",
+      "children" : [ {
+        "name" : "video购买页面添加支付卡信息错误测试",
+        "uid" : "b1728725cb26deb5",
+        "parentUid" : "0443c6b64197cd5565aa631e5d20f91d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045676407,
+          "stop" : 1637045688644,
+          "duration" : 12237
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'您输入的期限月份无效。'", "'24'", "'lin'", "''", "'568'", "'2022'" ]
+      } ],
+      "uid" : "0443c6b64197cd5565aa631e5d20f91d"
+    }, {
+      "name" : "AssertionError: assert '您输入的信用卡无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18BDFAF0>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18BDFAF0>> = <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18BDFAF0>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18BDFAF0> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x0000025A18BDF460>.driver",
+      "children" : [ {
+        "name" : "video购买页面添加支付卡信息错误测试",
+        "uid" : "330947d0d2534fef",
+        "parentUid" : "6deb1e2810103b2167b03e5d1d36f9dc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045677013,
+          "stop" : 1637045690736,
+          "duration" : 13723
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'您输入的信用卡无效。'", "''", "''", "'12347'", "'568'", "'2022'" ]
+      } ],
+      "uid" : "6deb1e2810103b2167b03e5d1d36f9dc"
+    }, {
+      "name" : "AssertionError: assert '您输入的 CVV 无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000029CC4A9A730>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000029CC4A9A730>> = <pytest_project.page_object.store.store_page.StorePage object at 0x0000029CC4A9A730>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x0000029CC4A9A730> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x0000029CC4A9A460>.driver",
+      "children" : [ {
+        "name" : "video购买页面添加支付卡信息错误测试",
+        "uid" : "f3a24e0f67659771",
+        "parentUid" : "3e2e31c623d1db2b3f0e39efe6558ee5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045683249,
+          "stop" : 1637045696058,
+          "duration" : 12809
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'您输入的 CVV 无效。'", "''", "''", "''", "''", "''" ]
+      } ],
+      "uid" : "3e2e31c623d1db2b3f0e39efe6558ee5"
+    }, {
+      "name" : "AssertionError: assert '您输入的期限年份无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A8FF4E50>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A8FF4E50>> = <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A8FF4E50>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A8FF4E50> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x00000245A8FF4C70>.driver",
+      "children" : [ {
+        "name" : "video购买页面添加支付卡信息错误测试",
+        "uid" : "fb94bea6ff9fd1e8",
+        "parentUid" : "e37ff1fbdd85d4e34b482ac6d997ae9d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045687891,
+          "stop" : 1637045703621,
+          "duration" : 15730
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'您输入的期限年份无效。'", "''", "''", "''", "'568'", "'1000'" ]
+      } ],
+      "uid" : "e37ff1fbdd85d4e34b482ac6d997ae9d"
+    }, {
+      "name" : "AssertionError: assert '您输入的期限月份无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF3922B850>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF3922B850>> = <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF3922B850>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF3922B850> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x000001BF3922BCD0>.driver",
+      "children" : [ {
+        "name" : "video购买页面添加支付卡信息错误测试",
+        "uid" : "b696116bcc057ce1",
+        "parentUid" : "efcd4027c5d8b9aa219f2f58f477bd65",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045706541,
+          "stop" : 1637045719596,
+          "duration" : 13055
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'您输入的期限月份无效。'", "'24'", "''", "''", "'568'", "'2022'" ]
+      } ],
+      "uid" : "efcd4027c5d8b9aa219f2f58f477bd65"
+    }, {
+      "name" : "AssertionError: assert '您输入的信用卡无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18C5EE50>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18C5EE50>> = <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18C5EE50>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18C5EE50> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x0000025A18C5ED30>.driver",
+      "children" : [ {
+        "name" : "video购买页面添加支付卡信息错误测试",
+        "uid" : "62427b0ceb2bb52b",
+        "parentUid" : "7940c5e79c4d85ffdead2c8851ac58be",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045710318,
+          "stop" : 1637045723841,
+          "duration" : 13523
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'您输入的信用卡无效。'", "''", "''", "'12348'", "'569'", "''" ]
+      } ],
+      "uid" : "7940c5e79c4d85ffdead2c8851ac58be"
+    }, {
+      "name" : "AssertionError: assert '本次付款被您的银行拒绝。请重试，或使用另外的支付方式。联系您的银行以获取进一步的信息。' in 'This payment was declined by your bank. Please try again, or use a different payment method. Contact your bank for further information.'\n +  where 'This payment was declined by your bank. Please try again, or use a different payment method. Contact your bank for further information.' = <bound method StorePage.return_card_pay_BANK_error_text of <pytest_project.page_object.store.store_page.StorePage object at 0x0000029CC491F820>>()\n +    where <bound method StorePage.return_card_pay_BANK_error_text of <pytest_project.page_object.store.store_page.StorePage object at 0x0000029CC491F820>> = <pytest_project.page_object.store.store_page.StorePage object at 0x0000029CC491F820>.return_card_pay_BANK_error_text\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x0000029CC491F820> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x0000029CC48DC400>.driver",
+      "children" : [ {
+        "name" : "video购买页面添加支付卡信息银行拒绝测试",
+        "uid" : "769f3b721f19d16f",
+        "parentUid" : "18bf003e2460b93e27c93090fa1a604f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045714313,
+          "stop" : 1637045726282,
+          "duration" : 11969
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'本次付款被您的银行拒绝。请重试，或使用另外的支付方式。联系您的银行以获取进一步的信息。'", "'2'", "'lin'", "'62122 62502 00918 2455'", "'568'", "'2022'" ]
+      } ],
+      "uid" : "18bf003e2460b93e27c93090fa1a604f"
+    }, {
+      "name" : "AssertionError: assert '您输入的期限年份无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A9008FD0>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A9008FD0>> = <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A9008FD0>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A9008FD0> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x00000245A9008400>.driver",
+      "children" : [ {
+        "name" : "video购买页面添加支付卡信息错误测试",
+        "uid" : "762db858569066e",
+        "parentUid" : "25dcf0ff59ae327d00559f753d8b6f00",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045723665,
+          "stop" : 1637045736374,
+          "duration" : 12709
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'您输入的期限年份无效。'", "''", "''", "''", "''", "'1000'" ]
+      } ],
+      "uid" : "25dcf0ff59ae327d00559f753d8b6f00"
+    }, {
+      "name" : "AssertionError: assert '您输入的期限月份无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF39209760>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF39209760>> = <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF39209760>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF39209760> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x000001BF39209190>.driver",
+      "children" : [ {
+        "name" : "video购买页面添加支付卡信息错误测试",
+        "uid" : "1da6de5a02312fea",
+        "parentUid" : "c5fc3fd0ff3d3858885abfe97547433e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045739225,
+          "stop" : 1637045751768,
+          "duration" : 12543
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'您输入的期限月份无效。'", "'24'", "''", "''", "'568'", "''" ]
+      } ],
+      "uid" : "c5fc3fd0ff3d3858885abfe97547433e"
+    }, {
+      "name" : "AssertionError: assert '您输入的信用卡无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18CD78E0>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18CD78E0>> = <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18CD78E0>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18CD78E0> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x0000025A18CD79D0>.driver",
+      "children" : [ {
+        "name" : "video购买页面添加支付卡信息错误测试",
+        "uid" : "7931bb325d1ab6b8",
+        "parentUid" : "b596c527354f4c472399ef5f35b46788",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045743242,
+          "stop" : 1637045757003,
+          "duration" : 13761
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'您输入的信用卡无效。'", "''", "''", "'12349'", "''", "''" ]
+      } ],
+      "uid" : "b596c527354f4c472399ef5f35b46788"
+    }, {
+      "name" : "AssertionError: assert '本次付款被您的银行拒绝。请重试，或使用另外的支付方式。联系您的银行以获取进一步的信息。' in 'This payment was declined by your bank. Please try again, or use a different payment method. Contact your bank for further information.'\n +  where 'This payment was declined by your bank. Please try again, or use a different payment method. Contact your bank for further information.' = <bound method StorePage.return_card_pay_BANK_error_text of <pytest_project.page_object.store.store_page.StorePage object at 0x0000029CC4A7F130>>()\n +    where <bound method StorePage.return_card_pay_BANK_error_text of <pytest_project.page_object.store.store_page.StorePage object at 0x0000029CC4A7F130>> = <pytest_project.page_object.store.store_page.StorePage object at 0x0000029CC4A7F130>.return_card_pay_BANK_error_text\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x0000029CC4A7F130> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x0000029CC48F1C10>.driver",
+      "children" : [ {
+        "name" : "video购买页面添加支付卡信息银行拒绝测试",
+        "uid" : "929d3edbba69a81b",
+        "parentUid" : "f91584eec6de6c633d1e2e8275e2fc9f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045747860,
+          "stop" : 1637045762625,
+          "duration" : 14765
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'本次付款被您的银行拒绝。请重试，或使用另外的支付方式。联系您的银行以获取进一步的信息。'", "'2'", "'lin'", "'62284 80088 14184 8874'", "'568'", "'2022'" ]
+      } ],
+      "uid" : "f91584eec6de6c633d1e2e8275e2fc9f"
+    }, {
+      "name" : "AssertionError: assert '您输入的期限年份无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A8F75F10>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A8F75F10>> = <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A8F75F10>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A8F75F10> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x00000245A8F288B0>.driver",
+      "children" : [ {
+        "name" : "video购买页面添加支付卡信息错误测试",
+        "uid" : "9cba717da1075753",
+        "parentUid" : "10a07e3a202740341ee388d09ba8f83a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045758494,
+          "stop" : 1637045773131,
+          "duration" : 14637
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'您输入的期限年份无效。'", "''", "''", "''", "''", "''" ]
+      } ],
+      "uid" : "10a07e3a202740341ee388d09ba8f83a"
+    }, {
+      "name" : "AssertionError: assert '您输入的期限月份无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF3919BD30>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF3919BD30>> = <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF3919BD30>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF3919BD30> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x000001BF3915FBE0>.driver",
+      "children" : [ {
+        "name" : "video购买页面添加支付卡信息错误测试",
+        "uid" : "9bf69453961bd020",
+        "parentUid" : "a4bfc627da278a6586543c390058e5a8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045769915,
+          "stop" : 1637045783601,
+          "duration" : 13686
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'您输入的期限月份无效。'", "'24'", "''", "''", "''", "''" ]
+      } ],
+      "uid" : "a4bfc627da278a6586543c390058e5a8"
+    }, {
+      "name" : "AssertionError: assert '您输入的信用卡无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18CD7AF0>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18CD7AF0>> = <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18CD7AF0>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18CD7AF0> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x0000025A1824B640>.driver",
+      "children" : [ {
+        "name" : "video购买页面添加支付卡信息错误测试",
+        "uid" : "63e7a703b6a4934a",
+        "parentUid" : "b0c389e27d77574049c4c48bf937dbe0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045777520,
+          "stop" : 1637045797388,
+          "duration" : 19868
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'您输入的信用卡无效。'", "''", "''", "''", "''", "''" ]
+      } ],
+      "uid" : "b0c389e27d77574049c4c48bf937dbe0"
+    }, {
+      "name" : "AssertionError: assert '您输入的 CVV 无效。' in ['The CVV you entered is not valid.']\n +  where ['The CVV you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A8FF4E80>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A8FF4E80>> = <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A8FF4E80>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A8FF4E80> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x00000245A8FF4760>.driver",
+      "children" : [ {
+        "name" : "video购买页面添加支付卡信息错误测试",
+        "uid" : "373bc3c570498147",
+        "parentUid" : "395ad34e6899c4b3fde0dca192885bff",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045796629,
+          "stop" : 1637045813699,
+          "duration" : 17070
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'您输入的 CVV 无效。'", "'2'", "'lin'", "':62122 62502 00918 2455'", "'56'", "'2022'" ]
+      } ],
+      "uid" : "395ad34e6899c4b3fde0dca192885bff"
+    }, {
+      "name" : "AssertionError: assert '您输入的期限月份无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF3929B340>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF3929B340>> = <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF3929B340>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF3929B340> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x000001BF3929B6A0>.driver",
+      "children" : [ {
+        "name" : "video购买页面添加支付卡信息错误测试",
+        "uid" : "363fcd2baad47776",
+        "parentUid" : "1e357ba35c30b27aab2cd2fce25e9882",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045803091,
+          "stop" : 1637045815768,
+          "duration" : 12677
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'您输入的期限月份无效。'", "''", "''", "''", "''", "''" ]
+      } ],
+      "uid" : "1e357ba35c30b27aab2cd2fce25e9882"
+    }, {
+      "name" : "AssertionError: assert '您输入的名称无效。' in ['The name you entered is not valid.']\n +  where ['The name you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18C82E50>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18C82E50>> = <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18C82E50>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18C82E50> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x0000025A18C82B50>.driver",
+      "children" : [ {
+        "name" : "video购买页面添加支付卡信息错误测试",
+        "uid" : "bf24d453f3af2fc",
+        "parentUid" : "b33a96c9f679ea4f8c86f7d9d8696f6a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045817982,
+          "stop" : 1637045832159,
+          "duration" : 14177
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'您输入的名称无效。'", "'2'", "'李'", "':62122 62502 00918 2455'", "'568'", "'2022'" ]
+      } ],
+      "uid" : "b33a96c9f679ea4f8c86f7d9d8696f6a"
+    }, {
+      "name" : "AssertionError: assert '您输入的期限年份无效。' in ['The expiry year you entered is not valid.']\n +  where ['The expiry year you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF39194A90>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF39194A90>> = <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF39194A90>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF39194A90> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x000001BF391942E0>.driver",
+      "children" : [ {
+        "name" : "video购买页面添加支付卡信息错误测试",
+        "uid" : "20db93046344d672",
+        "parentUid" : "6b3a437466575335fa9e53683141ee50",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045833568,
+          "stop" : 1637045846665,
+          "duration" : 13097
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'您输入的期限年份无效。'", "'12'", "'lin'", "':62122 62502 00918 2455'", "'568'", "'1000'" ]
+      } ],
+      "uid" : "6b3a437466575335fa9e53683141ee50"
+    }, {
+      "name" : "AssertionError: assert '您输入的 CVV 无效。' in ['The credit card you entered is not valid.', 'The CVV you entered is not valid.']\n +  where ['The credit card you entered is not valid.', 'The CVV you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A90A9460>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A90A9460>> = <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A90A9460>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A90A9460> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x00000245A90A9EB0>.driver",
+      "children" : [ {
+        "name" : "video购买页面添加支付卡信息错误测试",
+        "uid" : "e071b5138c043588",
+        "parentUid" : "f88174e7d47c47a27c157334b8c07161",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045835325,
+          "stop" : 1637045849012,
+          "duration" : 13687
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'您输入的 CVV 无效。'", "'2'", "'lin'", "''", "'56'", "'2022'" ]
+      } ],
+      "uid" : "f88174e7d47c47a27c157334b8c07161"
+    }, {
+      "name" : "AssertionError: assert '您输入的名称无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18CAC2E0>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18CAC2E0>> = <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18CAC2E0>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18CAC2E0> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x0000025A18CACD90>.driver",
+      "children" : [ {
+        "name" : "video购买页面添加支付卡信息错误测试",
+        "uid" : "9e24b724222b407a",
+        "parentUid" : "b6e6bb28b2ade2aac1526ea47b993e02",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045851012,
+          "stop" : 1637045863370,
+          "duration" : 12358
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'您输入的名称无效。'", "'2'", "'李'", "''", "'568'", "'2022'" ]
+      } ],
+      "uid" : "b6e6bb28b2ade2aac1526ea47b993e02"
+    }, {
+      "name" : "AssertionError: assert '您输入的期限年份无效。' in ['The credit card you entered is not valid.', 'The expiry year you entered is not valid.']\n +  where ['The credit card you entered is not valid.', 'The expiry year you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF3923CFA0>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF3923CFA0>> = <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF3923CFA0>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x000001BF3923CFA0> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x000001BF3923C820>.driver",
+      "children" : [ {
+        "name" : "video购买页面添加支付卡信息错误测试",
+        "uid" : "ba3af6de2e155427",
+        "parentUid" : "ea03489ad2d280c5ab8ba178466e1ad5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045865018,
+          "stop" : 1637045876807,
+          "duration" : 11789
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'您输入的期限年份无效。'", "'12'", "'lin'", "''", "'568'", "'1000'" ]
+      } ],
+      "uid" : "ea03489ad2d280c5ab8ba178466e1ad5"
+    }, {
+      "name" : "AssertionError: assert '您输入的 CVV 无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The CVV you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The CVV you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A9044190>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A9044190>> = <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A9044190>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A9044190> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x00000245A90449A0>.driver",
+      "children" : [ {
+        "name" : "video购买页面添加支付卡信息错误测试",
+        "uid" : "f8e294b59b2fc506",
+        "parentUid" : "a7ffe5d73d38a7b4408a214d81c40288",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045870351,
+          "stop" : 1637045884527,
+          "duration" : 14176
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'您输入的 CVV 无效。'", "'2'", "''", "''", "'56'", "'2022'" ]
+      } ],
+      "uid" : "a7ffe5d73d38a7b4408a214d81c40288"
+    }, {
+      "name" : "AssertionError: assert '您输入的名称无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18AD72E0>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18AD72E0>> = <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18AD72E0>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18AD72E0> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x0000025A18A2AD00>.driver",
+      "children" : [ {
+        "name" : "video购买页面添加支付卡信息错误测试",
+        "uid" : "b371de03482edeac",
+        "parentUid" : "5d4fdd6eda025359a7661f0c4dad61a7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045882112,
+          "stop" : 1637045894484,
+          "duration" : 12372
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'您输入的名称无效。'", "''", "'李'", "''", "'568'", "'2022'" ]
+      } ],
+      "uid" : "5d4fdd6eda025359a7661f0c4dad61a7"
+    }, {
+      "name" : "AssertionError: assert '您输入的 CVV 无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The CVV you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The CVV you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A901E490>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A901E490>> = <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A901E490>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x00000245A901E490> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x00000245A901E250>.driver",
+      "children" : [ {
+        "name" : "video购买页面添加支付卡信息错误测试",
+        "uid" : "96efeed7afb3a3d8",
+        "parentUid" : "1bca89e151b8d154e6a15cf84d3b861a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045904845,
+          "stop" : 1637045917760,
+          "duration" : 12915
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'您输入的 CVV 无效。'", "''", "''", "''", "'56'", "'2022'" ]
+      } ],
+      "uid" : "1bca89e151b8d154e6a15cf84d3b861a"
+    }, {
+      "name" : "AssertionError: assert '您输入的名称无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18B8BCD0>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18B8BCD0>> = <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18B8BCD0>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18B8BCD0> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x0000025A18B6DA30>.driver",
+      "children" : [ {
+        "name" : "video购买页面添加支付卡信息错误测试",
+        "uid" : "2a17f96682dd3596",
+        "parentUid" : "f3dac1e0f7458cfa499d30f4b3a13add",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045912951,
+          "stop" : 1637045924984,
+          "duration" : 12033
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'您输入的名称无效。'", "''", "'李'", "''", "'568'", "''" ]
+      } ],
+      "uid" : "f3dac1e0f7458cfa499d30f4b3a13add"
+    }, {
+      "name" : "AssertionError: assert '您输入的名称无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry month you entered is not valid.', 'The expiry year you entered is not valid.', 'The CVV you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18BD2790>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18BD2790>> = <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18BD2790>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x0000025A18BD2790> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x0000025A18BD21C0>.driver",
+      "children" : [ {
+        "name" : "video购买页面添加支付卡信息错误测试",
+        "uid" : "844e52a590fa530f",
+        "parentUid" : "bc5d24e47842f3fe211f51ed9b7d1e92",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045943770,
+          "stop" : 1637045955490,
+          "duration" : 11720
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'您输入的名称无效。'", "''", "'李'", "''", "''", "''" ]
+      } ],
+      "uid" : "bc5d24e47842f3fe211f51ed9b7d1e92"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.JavascriptException: Message: javascript error: Cannot read properties of null (reading 'style')\n  (Session info: headless chrome=95.0.4638.69)",
+      "children" : [ {
+        "name" : "video购买页面填写空优惠码测试",
+        "uid" : "86e8ab44fba7115f",
+        "parentUid" : "d9759b5952a528c23ae7d588ba1eb373",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637045603107,
+          "stop" : 1637045607047,
+          "duration" : 3940
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "'优惠码不能为空。'" ]
+      } ],
+      "uid" : "d9759b5952a528c23ae7d588ba1eb373"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

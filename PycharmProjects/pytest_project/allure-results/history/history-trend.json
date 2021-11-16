@@ -1,4 +1,52 @@
 [ {
+  "buildOrder" : 26,
+  "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/26/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 36,
+    "broken" : 60,
+    "skipped" : 7,
+    "passed" : 433,
+    "unknown" : 0,
+    "total" : 536
+  }
+}, {
+  "buildOrder" : 25,
+  "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/25/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 4,
+    "passed" : 18,
+    "unknown" : 0,
+    "total" : 22
+  }
+}, {
+  "buildOrder" : 24,
+  "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/24/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 4,
+    "unknown" : 0,
+    "total" : 4
+  }
+}, {
+  "buildOrder" : 23,
+  "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/23/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 70,
+    "broken" : 6,
+    "skipped" : 7,
+    "passed" : 453,
+    "unknown" : 0,
+    "total" : 536
+  }
+}, {
   "buildOrder" : 22,
   "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/22/allure",
   "reportName" : "AllureReport",

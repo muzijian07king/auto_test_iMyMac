@@ -1,0 +1,32 @@
+INFO	2021-11-16 14:53:48,301	[basepage.py:32]	打开网页https://www.imymac.com/store/
+INFO	2021-11-16 14:53:48,358	[basepage.py:90]	点击元素：('css', '#video-converter-one-year')
+INFO	2021-11-16 14:53:49,361	[basepage.py:181]	切换frame==>pf_588082
+INFO	2021-11-16 14:53:51,556	[basepage.py:153]	使用js操控浏览器==》document.querySelector("#root > div > div.sc-bBjRSN.kEYJmH").style.display="none";
+INFO	2021-11-16 14:53:52,659	[basepage.py:82]	输入文本：123@123.com
+INFO	2021-11-16 14:53:52,742	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div>div>button')
+INFO	2021-11-16 14:53:53,753	[basepage.py:186]	下拉框value选择==》CN
+INFO	2021-11-16 14:53:53,873	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div:nth-child(3)>div>button')
+INFO	2021-11-16 14:53:54,923	[basepage.py:90]	点击元素：('css', '#root > div > div> div> div > div > div >div:nth-child(3)>div>div:nth-child(1)>button')
+INFO	2021-11-16 14:53:58,086	[basepage.py:82]	输入文本：:62122 62502 00918 2455
+INFO	2021-11-16 14:53:58,146	[basepage.py:82]	输入文本：lin
+INFO	2021-11-16 14:53:58,217	[basepage.py:82]	输入文本：24
+INFO	2021-11-16 14:53:58,283	[basepage.py:82]	输入文本：2022
+INFO	2021-11-16 14:53:58,344	[basepage.py:82]	输入文本：568
+INFO	2021-11-16 14:53:58,412	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>div:nth-child(3)>form>div:nth-child(2)>div>button')
+INFO	2021-11-16 14:54:00,448	[basepage.py:211]	获取到text==》['The expiry month you entered is not valid.']
+INFO	2021-11-16 14:54:06,059	[basepage.py:32]	打开网页https://www.imymac.com/store/
+INFO	2021-11-16 14:54:06,103	[basepage.py:90]	点击元素：('css', '#video-converter-one-year')
+INFO	2021-11-16 14:54:07,105	[basepage.py:181]	切换frame==>pf_588082
+INFO	2021-11-16 14:54:08,781	[basepage.py:153]	使用js操控浏览器==》document.querySelector("#root > div > div.sc-bBjRSN.kEYJmH").style.display="none";
+INFO	2021-11-16 14:54:09,888	[basepage.py:82]	输入文本：123@123.com
+INFO	2021-11-16 14:54:09,966	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div>div>button')
+INFO	2021-11-16 14:54:10,977	[basepage.py:186]	下拉框value选择==》CN
+INFO	2021-11-16 14:54:11,109	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div:nth-child(3)>div>button')
+INFO	2021-11-16 14:54:12,172	[basepage.py:90]	点击元素：('css', '#root > div > div> div> div > div > div >div:nth-child(3)>div>div:nth-child(1)>button')
+INFO	2021-11-16 14:54:15,350	[basepage.py:82]	输入文本：:62122 62502 00918 2455
+INFO	2021-11-16 14:54:15,416	[basepage.py:82]	输入文本：lin
+INFO	2021-11-16 14:54:15,489	[basepage.py:82]	输入文本：24
+INFO	2021-11-16 14:54:15,587	[basepage.py:82]	输入文本：2022
+INFO	2021-11-16 14:54:15,687	[basepage.py:82]	输入文本：568
+INFO	2021-11-16 14:54:15,768	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>div:nth-child(3)>form>div:nth-child(2)>div>button')
+INFO	2021-11-16 14:54:17,806	[basepage.py:211]	获取到text==》['The expiry month you entered is not valid.']

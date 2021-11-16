@@ -19,7 +19,7 @@ class StorePage(WebPage):
     def pmm_buy_first_step(self):
         self.is_click(get_values_in_name().get_values_in_name(store.data, 'buy-button')[0])
         self.switch_to_pmm()
-        self.jsInDriver('document.querySelector("#root > div > div.sc-bBjRSN.kEYJmH").style.display="none";')
+        self.select_by_value(store['language'], 'zh-Hans')
 
     @allure.step('进入购买ppm第二步页面')
     def pmm_buy_two_step(self):
@@ -51,7 +51,7 @@ class StorePage(WebPage):
     def video_buy_first_step(self):
         self.is_click(get_values_in_name().get_values_in_name(store.data, 'buy-button')[1])
         self.switch_to_video()
-        self.jsInDriver('document.querySelector("#root > div > div.sc-bBjRSN.kEYJmH").style.display="none";')
+        self.select_by_value(store['language'], 'zh-Hans')
 
     @allure.step('进入购买video第二步页面')
     def video_buy_two_step(self):

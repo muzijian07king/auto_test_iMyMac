@@ -1,0 +1,7 @@
+[32mINFO    [0m root:basepage.py:32 打开网页https://www.imymac.com/resource/
+[32mINFO    [0m root:basepage.py:82 输入文本：python
+[32mINFO    [0m root:basepage.py:113 按下回车
+[32mINFO    [0m root:basepage.py:96 获取到文本：Como atualizar o Python no Mac com facilidade e rapidez
+www.imymac.com › ... › How to Update Python on Mac Easily and Quickly
+Recent Mac editions include Python 2.7; nevertheless, several more Python subscribers might have to update Python within Mac towards something such as a ...
+[32mINFO    [0m root:basepage.py:96 获取到文本：python

@@ -1,0 +1,2 @@
+INFO	2021-11-16 14:49:04,538	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-16 14:49:05,774	[basepage.py:96]	获取到文本：How to Resize An Image on Mac?

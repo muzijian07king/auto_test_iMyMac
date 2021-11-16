@@ -1,0 +1,272 @@
+{
+  "uid" : "d8cf8edaa3067bc7",
+  "name" : "简介栏内容测试",
+  "fullName" : "TestCase.contact_test_case.test_contact.TestBody#test_002",
+  "historyId" : "99bba21c394f098a438251c0b0f53c68",
+  "time" : {
+    "start" : 1637045085732,
+    "stop" : 1637045085758,
+    "duration" : 26
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1637045081634,
+      "stop" : 1637045081634,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1637045081634,
+      "stop" : 1637045084003,
+      "duration" : 2369
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1637045081634,
+      "stop" : 1637045081634,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1637045084003,
+      "stop" : 1637045084003,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "open_url",
+    "time" : {
+      "start" : 1637045084004,
+      "stop" : 1637045085731,
+      "duration" : 1727
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1637045084004,
+      "stop" : 1637045084004,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "获取suggestion下的描述",
+      "time" : {
+        "start" : 1637045085732,
+        "stop" : 1637045085757,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "b1aa626c68cd932c",
+      "name" : "log",
+      "source" : "b1aa626c68cd932c.txt",
+      "type" : "text/plain",
+      "size" : 220
+    }, {
+      "uid" : "b0ffc0137d547099",
+      "name" : "stderr",
+      "source" : "b0ffc0137d547099.txt",
+      "type" : "text/plain",
+      "size" : 237
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1637045944450,
+      "stop" : 1637045946601,
+      "duration" : 2151
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "suggestion栏的简介"
+  }, {
+    "name" : "feature",
+    "value" : "邮箱咨询页面测试"
+  }, {
+    "name" : "story",
+    "value" : "功能测试"
+  }, {
+    "name" : "severity",
+    "value" : "trivial"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.contact_test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_contact"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBody"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "20792-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.contact_test_case.test_contact"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "context",
+    "value" : "'If you have any suggestions, such as the website and service, contact us by email.'"
+  }, {
+    "name" : "title",
+    "value" : "'suggestion'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "trivial",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "e133bcf052751dff",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/26/allure/#testresult/e133bcf052751dff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637042932013,
+          "stop" : 1637042932035,
+          "duration" : 22
+        }
+      }, {
+        "uid" : "aa4bb79f7bbce716",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/25/allure/#testresult/aa4bb79f7bbce716",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637041806667,
+          "stop" : 1637041806690,
+          "duration" : 23
+        }
+      }, {
+        "uid" : "34b409f0b07ed400",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/24/allure/#testresult/34b409f0b07ed400",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637041408211,
+          "stop" : 1637041408234,
+          "duration" : 23
+        }
+      }, {
+        "uid" : "31ec5b97d3647461",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/23/allure/#testresult/31ec5b97d3647461",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636967275646,
+          "stop" : 1636967275677,
+          "duration" : 31
+        }
+      }, {
+        "uid" : "6f04b055c5c346b0",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/22/allure/#testresult/6f04b055c5c346b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636940502384,
+          "stop" : 1636940502412,
+          "duration" : 28
+        }
+      } ]
+    },
+    "tags" : [ "suggestion栏的简介" ]
+  },
+  "source" : "d8cf8edaa3067bc7.json",
+  "parameterValues" : [ "'If you have any suggestions, such as the website and service, contact us by email.'", "'suggestion'" ]
+}

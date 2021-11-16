@@ -1,4 +1,36 @@
 [ {
+  "buildOrder" : 26,
+  "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/26/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 536,
+    "retry" : 99
+  }
+}, {
+  "buildOrder" : 25,
+  "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/25/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 22,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 24,
+  "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/24/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 4,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 23,
+  "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/23/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 536,
+    "retry" : 81
+  }
+}, {
   "buildOrder" : 22,
   "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/22/allure",
   "reportName" : "AllureReport",

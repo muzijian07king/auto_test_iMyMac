@@ -1,0 +1,3 @@
+INFO	2021-11-16 14:48:05,007	[basepage.py:32]	打开网页https://www.imymac.com/about-us/
+INFO	2021-11-16 14:48:08,778	[basepage.py:90]	点击元素：('css', 'body>div:nth-child(5)>div>div>div:nth-child(1)>div>p>a')
+INFO	2021-11-16 14:48:09,816	[basepage.py:96]	获取到文本：PowerMyMac

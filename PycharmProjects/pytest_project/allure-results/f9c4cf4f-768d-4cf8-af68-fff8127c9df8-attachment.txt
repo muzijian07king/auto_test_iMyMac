@@ -1,0 +1,2 @@
+[32mINFO    [0m root:basepage.py:32 打开网页https://www.imymac.com/student-discount/
+[32mINFO    [0m root:basepage.py:96 获取到文本：We’ll review your email and verify, then send you a coupon code.

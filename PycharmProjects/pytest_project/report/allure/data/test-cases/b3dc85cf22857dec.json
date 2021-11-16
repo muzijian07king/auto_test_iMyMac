@@ -1,0 +1,299 @@
+{
+  "uid" : "b3dc85cf22857dec",
+  "name" : "步骤内容测试",
+  "fullName" : "TestCase.discount_test_case.test_discount.TestBody#test_001",
+  "historyId" : "6d5d75c8be15661990ec0d9f7489b91f",
+  "time" : {
+    "start" : 1637045087670,
+    "stop" : 1637045087698,
+    "duration" : 28
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1637045081635,
+      "stop" : 1637045081635,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1637045081635,
+      "stop" : 1637045084369,
+      "duration" : 2734
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1637045081635,
+      "stop" : 1637045081635,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1637045084369,
+      "stop" : 1637045084369,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "open_url",
+    "time" : {
+      "start" : 1637045086206,
+      "stop" : 1637045087670,
+      "duration" : 1464
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1637045086206,
+      "stop" : 1637045086206,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "判断步骤文案是否正确",
+      "time" : {
+        "start" : 1637045087671,
+        "stop" : 1637045087698,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "b7b6d15aed357325",
+      "name" : "log",
+      "source" : "b7b6d15aed357325.txt",
+      "type" : "text/plain",
+      "size" : 213
+    }, {
+      "uid" : "c4c93f972b9252a6",
+      "name" : "stderr",
+      "source" : "c4c93f972b9252a6.txt",
+      "type" : "text/plain",
+      "size" : 230
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1637045940184,
+      "stop" : 1637045942278,
+      "duration" : 2094
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "step-2==>We’ll review your email and verify, then send you a coupon code."
+  }, {
+    "name" : "feature",
+    "value" : "学生优惠申请页面测试"
+  }, {
+    "name" : "story",
+    "value" : "功能测试"
+  }, {
+    "name" : "severity",
+    "value" : "trivial"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.discount_test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_discount"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBody"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "10840-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.discount_test_case.test_discount"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "context",
+    "value" : "'We’ll review your email and verify, then send you a coupon code.'"
+  }, {
+    "name" : "step",
+    "value" : "'step-2'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "trivial",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 9,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "64fa4c4b5ceaaa07",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/26/allure/#testresult/64fa4c4b5ceaaa07",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637042953077,
+          "stop" : 1637042953098,
+          "duration" : 21
+        }
+      }, {
+        "uid" : "fb7b2928e9c9b31",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/25/allure/#testresult/fb7b2928e9c9b31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637041810886,
+          "stop" : 1637041810907,
+          "duration" : 21
+        }
+      }, {
+        "uid" : "fbe78f2753f6e85d",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/23/allure/#testresult/fbe78f2753f6e85d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636967275915,
+          "stop" : 1636967275936,
+          "duration" : 21
+        }
+      }, {
+        "uid" : "57a16f4c4be5056f",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/22/allure/#testresult/57a16f4c4be5056f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636940503630,
+          "stop" : 1636940503652,
+          "duration" : 22
+        }
+      }, {
+        "uid" : "28d51d7c3d1bf450",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/20/allure/#testresult/28d51d7c3d1bf450",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636709209246,
+          "stop" : 1636709209267,
+          "duration" : 21
+        }
+      }, {
+        "uid" : "c3ef515a51558ea1",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/19/allure/#testresult/c3ef515a51558ea1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636709209246,
+          "stop" : 1636709209267,
+          "duration" : 21
+        }
+      }, {
+        "uid" : "ac4c0c64c9b7dce1",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/17/allure/#testresult/ac4c0c64c9b7dce1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636709209246,
+          "stop" : 1636709209267,
+          "duration" : 21
+        }
+      }, {
+        "uid" : "6376e53686f8ad4e",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/16/allure/#testresult/6376e53686f8ad4e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636709209246,
+          "stop" : 1636709209267,
+          "duration" : 21
+        }
+      } ]
+    },
+    "tags" : [ "step-2==>We’ll review your email and verify, then send you a coupon code." ]
+  },
+  "source" : "b3dc85cf22857dec.json",
+  "parameterValues" : [ "'We’ll review your email and verify, then send you a coupon code.'", "'step-2'" ]
+}

@@ -1,0 +1,5 @@
+INFO	2021-11-16 14:47:55,967	[basepage.py:32]	打开网页https://www.imymac.com/resource/
+INFO	2021-11-16 14:47:55,989	[basepage.py:96]	获取到文本：2 Ways to Uninstall TextWrangler on Mac Efficiently
+INFO	2021-11-16 14:47:56,941	[basepage.py:90]	点击元素：('css', 'body>div:nth-child(5)>div:nth-child(2)>div:nth-child(2)>ul>li:nth-child(6)>a')
+INFO	2021-11-16 14:47:57,963	[basepage.py:134]	获取到class元素的值==》active
+INFO	2021-11-16 14:47:57,985	[basepage.py:96]	获取到文本：How to Uninstall DivX on Mac: A Complete Guide

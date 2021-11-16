@@ -1,0 +1,4 @@
+INFO	2021-11-16 14:49:12,950	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-16 14:49:14,134	[basepage.py:90]	点击元素：('css', 'body >div:nth-child(4)>div>div>div:nth-child(2)>div>div:nth-child(2)>a')
+INFO	2021-11-16 14:49:15,574	[basepage.py:90]	点击元素：('xpath', "//div[@class='productBox'][1]/ol/li[1]/a")
+INFO	2021-11-16 14:49:16,591	[basepage.py:221]	获取到title==>How to Use NTFS

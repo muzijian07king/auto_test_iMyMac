@@ -1,0 +1,2 @@
+INFO	2021-11-16 14:45:39,404	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-16 14:45:41,094	[basepage.py:90]	点击元素：('link', 'Privacy Protection')

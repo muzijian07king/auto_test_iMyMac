@@ -1,0 +1,5 @@
+INFO	2021-11-16 14:46:55,053	[basepage.py:32]	打开网页https://www.imymac.com/mac-cleaner/
+INFO	2021-11-16 14:46:55,056	[basepage.py:159]	页面滚到元素('css', 'body>div.whiteBG.hide-visible>div')
+INFO	2021-11-16 14:46:56,144	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-16 14:46:59,067	[basepage.py:90]	点击元素：('css', 'body>div.whiteBG.hide-visible.tipsup>div>a:nth-child(2)')
+INFO	2021-11-16 14:47:00,102	[basepage.py:96]	获取到文本：PowerMyMac User Guide

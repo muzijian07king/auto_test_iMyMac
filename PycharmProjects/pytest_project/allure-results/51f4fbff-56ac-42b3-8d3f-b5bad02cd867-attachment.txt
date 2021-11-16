@@ -1,0 +1,10 @@
+INFO	2021-11-16 14:56:03,213	[basepage.py:32]	打开网页https://www.imymac.com/store/
+INFO	2021-11-16 14:56:03,263	[basepage.py:90]	点击元素：('css', '#video-converter-one-year')
+INFO	2021-11-16 14:56:04,269	[basepage.py:181]	切换frame==>pf_588082
+INFO	2021-11-16 14:56:07,215	[basepage.py:153]	使用js操控浏览器==》document.querySelector("#root > div > div.sc-bBjRSN.kEYJmH").style.display="none";
+INFO	2021-11-16 14:56:08,314	[basepage.py:82]	输入文本：123@123.com
+INFO	2021-11-16 14:56:08,397	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div>div>button')
+INFO	2021-11-16 14:56:09,405	[basepage.py:186]	下拉框value选择==》CN
+INFO	2021-11-16 14:56:09,527	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div:nth-child(3)>div>button')
+INFO	2021-11-16 14:56:10,649	[basepage.py:90]	点击元素：('css', '#root > div > div> div> div > div > div >div:nth-child(3)>div>div:nth-child(1)>button')
+INFO	2021-11-16 14:56:13,716	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>div:nth-child(3)>div>button')

@@ -1,0 +1,2 @@
+INFO	2021-11-16 14:44:46,977	[basepage.py:32]	打开网页https://www.imymac.com/contact/
+INFO	2021-11-16 14:44:47,013	[basepage.py:96]	获取到文本：iMyMac Supporter Email: support@imymac.com

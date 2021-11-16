@@ -1,0 +1,2 @@
+INFO	2021-11-16 14:44:46,881	[basepage.py:32]	打开网页https://www.imymac.com/student-discount/
+INFO	2021-11-16 14:44:46,906	[basepage.py:96]	获取到文本：Submit your email in the box below.

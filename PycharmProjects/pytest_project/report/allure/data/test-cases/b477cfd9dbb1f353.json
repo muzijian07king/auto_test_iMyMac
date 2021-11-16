@@ -1,0 +1,338 @@
+{
+  "uid" : "b477cfd9dbb1f353",
+  "name" : "video购买页面填写错误格式邮箱测试",
+  "fullName" : "TestCase.store_test_case.test_store.TestBody#test_021",
+  "historyId" : "a3fc5063a38eb14c3ecfc756261297e6",
+  "time" : {
+    "start" : 1637045457767,
+    "stop" : 1637045470070,
+    "duration" : 12303
+  },
+  "description" : "video购买页面填写错误格式邮箱功能测试",
+  "descriptionHtml" : "<p>video购买页面填写错误格式邮箱功能测试</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'You need to ...mail address.' == '您需要输入一个有效邮箱。'\n  - 您需要输入一个有效邮箱。\n  + You need to enter a valid email address.",
+  "statusTrace" : "self = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x0000025A18B7B0D0>\nemail_data = '', error_text = '您需要输入一个有效邮箱。'\n\n    @pytest.mark.parametrize('email_data, error_text', getExcelAllData('邮箱错误', 'Store/store.xlsx'))\n    @allure.title('video购买页面填写错误格式邮箱测试')\n    def test_021(self, email_data, error_text):\n        \"\"\"video购买页面填写错误格式邮箱功能测试\"\"\"\n        allure.dynamic.tag('邮箱为==》{}'.format(email_data))\n        self.driver.video_buy_first_step()\n        self.driver.send_email('')\n        self.driver.confirm_email()\n        self.driver.send_email(email_data)\n        self.driver.confirm_email()\n>       assert self.driver.return_email_error_text() == error_text\nE       AssertionError: assert 'You need to ...mail address.' == '您需要输入一个有效邮箱。'\nE         - 您需要输入一个有效邮箱。\nE         + You need to enter a valid email address.\n\nTestCase\\store_test_case\\test_store.py:219: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1637045081634,
+      "stop" : 1637045081634,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1637045081634,
+      "stop" : 1637045084528,
+      "duration" : 2894
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1637045081634,
+      "stop" : 1637045081634,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1637045084528,
+      "stop" : 1637045084528,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "open_url",
+    "time" : {
+      "start" : 1637045457195,
+      "stop" : 1637045457766,
+      "duration" : 571
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1637045457195,
+      "stop" : 1637045457195,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "video购买页面填写错误格式邮箱功能测试",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 'You need to ...mail address.' == '您需要输入一个有效邮箱。'\n  - 您需要输入一个有效邮箱。\n  + You need to enter a valid email address.",
+    "statusTrace" : "self = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x0000025A18B7B0D0>\nemail_data = '', error_text = '您需要输入一个有效邮箱。'\n\n    @pytest.mark.parametrize('email_data, error_text', getExcelAllData('邮箱错误', 'Store/store.xlsx'))\n    @allure.title('video购买页面填写错误格式邮箱测试')\n    def test_021(self, email_data, error_text):\n        \"\"\"video购买页面填写错误格式邮箱功能测试\"\"\"\n        allure.dynamic.tag('邮箱为==》{}'.format(email_data))\n        self.driver.video_buy_first_step()\n        self.driver.send_email('')\n        self.driver.confirm_email()\n        self.driver.send_email(email_data)\n        self.driver.confirm_email()\n>       assert self.driver.return_email_error_text() == error_text\nE       AssertionError: assert 'You need to ...mail address.' == '您需要输入一个有效邮箱。'\nE         - 您需要输入一个有效邮箱。\nE         + You need to enter a valid email address.\n\nTestCase\\store_test_case\\test_store.py:219: AssertionError",
+    "steps" : [ {
+      "name" : "进入购买video第一步页面",
+      "time" : {
+        "start" : 1637045457767,
+        "stop" : 1637045467784,
+        "duration" : 10017
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "切换到video购买页面",
+        "time" : {
+          "start" : 1637045458824,
+          "stop" : 1637045466779,
+          "duration" : 7955
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入邮箱",
+      "time" : {
+        "start" : 1637045467784,
+        "stop" : 1637045467856,
+        "duration" : 72
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "''"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击确认邮箱按钮",
+      "time" : {
+        "start" : 1637045467856,
+        "stop" : 1637045468953,
+        "duration" : 1097
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入邮箱",
+      "time" : {
+        "start" : 1637045468953,
+        "stop" : 1637045468989,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "''"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击确认邮箱按钮",
+      "time" : {
+        "start" : 1637045468989,
+        "stop" : 1637045470044,
+        "duration" : 1055
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "判断错误邮箱信息",
+      "time" : {
+        "start" : 1637045470044,
+        "stop" : 1637045470068,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "添加失败截图...",
+      "time" : {
+        "start" : 1637045470770,
+        "stop" : 1637045470956,
+        "duration" : 186
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d3013698ecb8e5d2",
+        "name" : "失败截图",
+        "source" : "d3013698ecb8e5d2.png",
+        "type" : "image/png",
+        "size" : 297086
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "4f8c373bd06a6660",
+      "name" : "log",
+      "source" : "4f8c373bd06a6660.txt",
+      "type" : "text/plain",
+      "size" : 841
+    }, {
+      "uid" : "49cfabdf117251da",
+      "name" : "stderr",
+      "source" : "49cfabdf117251da.txt",
+      "type" : "text/plain",
+      "size" : 914
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1637045965186,
+      "stop" : 1637045967292,
+      "duration" : 2106
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "邮箱为==》"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "Store主页内容测试"
+  }, {
+    "name" : "feature",
+    "value" : "Store页面测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.store_test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_store"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBody"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "12596-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.store_test_case.test_store"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "email_data",
+    "value" : "''"
+  }, {
+    "name" : "error_text",
+    "value" : "'您需要输入一个有效邮箱。'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "邮箱为==》" ]
+  },
+  "source" : "b477cfd9dbb1f353.json",
+  "parameterValues" : [ "''", "'您需要输入一个有效邮箱。'" ]
+}

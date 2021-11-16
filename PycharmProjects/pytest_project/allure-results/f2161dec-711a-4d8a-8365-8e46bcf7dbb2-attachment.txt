@@ -1,0 +1,3 @@
+[32mINFO    [0m root:basepage.py:32 打开网页https://www.imymac.com/video-converter/guide.html
+[32mINFO    [0m root:basepage.py:90 点击元素：('css', 'body > div.container > div:nth-child(1) > div > div.guideBox > a:nth-child(1)')
+[32mINFO    [0m root:basepage.py:96 获取到文本：iMyMac Video Converter

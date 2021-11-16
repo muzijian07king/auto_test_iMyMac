@@ -1,0 +1,2 @@
+INFO	2021-11-16 14:58:48,037	[basepage.py:32]	打开网页https://www.imymac.com/video-converter/tech.html
+INFO	2021-11-16 14:58:48,139	[basepage.py:90]	点击元素：('css', 'body > div>div>div>div> a:nth-child(2)')
