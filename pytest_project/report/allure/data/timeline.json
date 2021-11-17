@@ -1,0 +1,77 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-9RE2F6C",
+    "children" : [ {
+      "name" : "19348-MainThread",
+      "children" : [ {
+        "name" : "邮箱链接测试",
+        "uid" : "9c8e722f840b470e",
+        "parentUid" : "14ef36a329fcdbdfccc8763b367d57e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637117396941,
+          "stop" : 1637117396968,
+          "duration" : 27
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "14ef36a329fcdbdfccc8763b367d57e9"
+    }, {
+      "name" : "18028-MainThread",
+      "children" : [ {
+        "name" : "简介栏内容测试",
+        "uid" : "2f175de2cd794434",
+        "parentUid" : "bf58bb844a20d59951ad8053a743ed06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637117395471,
+          "stop" : 1637117395617,
+          "duration" : 146
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'If you have any suggestions, such as the website and service, contact us by email.'", "'suggestion'" ]
+      } ],
+      "uid" : "bf58bb844a20d59951ad8053a743ed06"
+    }, {
+      "name" : "19004-MainThread",
+      "children" : [ {
+        "name" : "简介栏内容测试",
+        "uid" : "25b4fce16a14c366",
+        "parentUid" : "f444b8b17eb256fa0aab2b71a3f3ee62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637117395971,
+          "stop" : 1637117396021,
+          "duration" : 50
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'iMyMac Supporter Email: support@imymac.com'", "'email'" ]
+      } ],
+      "uid" : "f444b8b17eb256fa0aab2b71a3f3ee62"
+    }, {
+      "name" : "18348-MainThread",
+      "children" : [ {
+        "name" : "简介栏内容测试",
+        "uid" : "610fd935dc67540c",
+        "parentUid" : "79ad930b9b3b36d078aeb137044b8245",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637117395322,
+          "stop" : 1637117395401,
+          "duration" : 79
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'If you prepare to purchase or had bought products from iMyMac, please feel free to contact us by email with any questions.'", "'question'" ]
+      } ],
+      "uid" : "79ad930b9b3b36d078aeb137044b8245"
+    } ],
+    "uid" : "226e950d083396eac1a77a94af12ec15"
+  } ]
+}

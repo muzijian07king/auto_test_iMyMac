@@ -1,3 +1,0 @@
-[32mINFO    [0m root:basepage.py:32 打开网页https://www.imymac.com/video-converter/tech.html
-[32mINFO    [0m root:basepage.py:90 点击元素：('css', 'body > div>div>div>div.guideBox.techBox> a:nth-child(1)')
-[32mINFO    [0m root:basepage.py:96 获取到文本：Supported Elements for Video Converter

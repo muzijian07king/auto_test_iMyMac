@@ -1,6 +1,0 @@
-INFO	2021-11-16 15:21:13,583	[basepage.py:32]	打开网页https://www.imymac.com/powermymac/
-INFO	2021-11-16 15:21:13,585	[basepage.py:159]	页面滚到元素('css', 'body >div:nth-child(5) > div')
-INFO	2021-11-16 15:21:14,612	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
-INFO	2021-11-16 15:21:34,955	[basepage.py:32]	打开网页https://www.imymac.com/powermymac/
-INFO	2021-11-16 15:21:34,957	[basepage.py:159]	页面滚到元素('css', 'body >div:nth-child(5) > div')
-INFO	2021-11-16 15:21:35,986	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)

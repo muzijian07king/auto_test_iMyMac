@@ -1,0 +1,10 @@
+[ {
+  "values" : [ "win10" ],
+  "name" : "systemVersion"
+}, {
+  "values" : [ "3.9.6" ],
+  "name" : "pythonVersion"
+}, {
+  "values" : [ "2.9.43" ],
+  "name" : "allureVersion"
+} ]

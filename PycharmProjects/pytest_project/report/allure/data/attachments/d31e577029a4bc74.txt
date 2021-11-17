@@ -1,4 +1,0 @@
-INFO	2021-11-16 15:19:20,607	[basepage.py:32]	打开网页https://www.imymac.com/duplicate-finder/
-INFO	2021-11-16 15:19:20,611	[basepage.py:159]	页面滚到元素('css', 'body>div.footerBg')
-INFO	2021-11-16 15:19:21,750	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
-INFO	2021-11-16 15:19:24,267	[basepage.py:90]	点击元素：('css', 'body>div.footerBg>div>div>div.col-md-8>div>div>a:nth-child(2)')

@@ -1,0 +1,69 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "TestCase.contact_test_case",
+    "children" : [ {
+      "name" : "test_contact",
+      "children" : [ {
+        "name" : "TestBody",
+        "children" : [ {
+          "name" : "简介栏内容测试",
+          "uid" : "610fd935dc67540c",
+          "parentUid" : "7014bbfe9807e8e21b30fb86ea386555",
+          "status" : "passed",
+          "time" : {
+            "start" : 1637117395322,
+            "stop" : 1637117395401,
+            "duration" : 79
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'If you prepare to purchase or had bought products from iMyMac, please feel free to contact us by email with any questions.'", "'question'" ]
+        }, {
+          "name" : "简介栏内容测试",
+          "uid" : "2f175de2cd794434",
+          "parentUid" : "7014bbfe9807e8e21b30fb86ea386555",
+          "status" : "passed",
+          "time" : {
+            "start" : 1637117395471,
+            "stop" : 1637117395617,
+            "duration" : 146
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'If you have any suggestions, such as the website and service, contact us by email.'", "'suggestion'" ]
+        }, {
+          "name" : "简介栏内容测试",
+          "uid" : "25b4fce16a14c366",
+          "parentUid" : "7014bbfe9807e8e21b30fb86ea386555",
+          "status" : "passed",
+          "time" : {
+            "start" : 1637117395971,
+            "stop" : 1637117396021,
+            "duration" : 50
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'iMyMac Supporter Email: support@imymac.com'", "'email'" ]
+        }, {
+          "name" : "邮箱链接测试",
+          "uid" : "9c8e722f840b470e",
+          "parentUid" : "7014bbfe9807e8e21b30fb86ea386555",
+          "status" : "passed",
+          "time" : {
+            "start" : 1637117396941,
+            "stop" : 1637117396968,
+            "duration" : 27
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7014bbfe9807e8e21b30fb86ea386555"
+      } ],
+      "uid" : "8b026e1f79082ac983eb205b674c46f4"
+    } ],
+    "uid" : "4d21659a7669e61da5f982ae889943aa"
+  } ]
+}

@@ -1,4 +1,0 @@
-INFO	2021-11-16 15:18:51,475	[basepage.py:32]	打开网页https://www.imymac.com/index.html
-INFO	2021-11-16 15:18:51,559	[basepage.py:82]	输入文本：
-INFO	2021-11-16 15:18:51,605	[basepage.py:90]	点击元素：('id', 'footerSubscribeBTN')
-INFO	2021-11-16 15:18:52,641	[basepage.py:96]	获取到文本：Please Enter the Email!

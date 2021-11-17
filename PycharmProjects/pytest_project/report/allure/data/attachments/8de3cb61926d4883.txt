@@ -1,6 +1,0 @@
-INFO	2021-11-16 15:20:18,424	[basepage.py:32]	打开网页https://www.imymac.com/mac-cleaner/
-INFO	2021-11-16 15:20:18,426	[basepage.py:159]	页面滚到元素('css', 'body>div.whiteBG.hide-visible>div')
-INFO	2021-11-16 15:20:19,452	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
-INFO	2021-11-16 15:20:29,610	[basepage.py:32]	打开网页https://www.imymac.com/mac-cleaner/
-INFO	2021-11-16 15:20:29,611	[basepage.py:159]	页面滚到元素('css', 'body>div.whiteBG.hide-visible>div')
-INFO	2021-11-16 15:20:30,652	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)

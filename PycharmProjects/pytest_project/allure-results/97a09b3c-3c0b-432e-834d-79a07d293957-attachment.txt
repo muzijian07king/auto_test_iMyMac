@@ -1,4 +1,0 @@
-INFO	2021-11-16 16:18:22,983	[basepage.py:32]	打开网页https://www.imymac.com/student-discount/
-INFO	2021-11-16 16:18:22,984	[basepage.py:226]	关闭黑色星期五优惠链接
-INFO	2021-11-16 16:18:23,024	[basepage.py:90]	点击元素：('css', 'div.close-tag')
-INFO	2021-11-16 16:18:24,054	[basepage.py:96]	获取到文本：Submit your email in the box below.

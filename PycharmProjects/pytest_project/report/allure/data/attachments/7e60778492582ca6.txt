@@ -1,5 +1,0 @@
-INFO	2021-11-16 15:24:10,596	[basepage.py:32]	打开网页https://www.imymac.com/similar-image-finder/
-INFO	2021-11-16 15:24:10,598	[basepage.py:159]	页面滚到元素('css', 'body>div.menu')
-INFO	2021-11-16 15:24:11,638	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
-INFO	2021-11-16 15:24:13,792	[basepage.py:90]	点击元素：('css', 'body>div.menu>div>div>a:nth-child(1)')
-INFO	2021-11-16 15:24:14,828	[basepage.py:96]	获取到文本：PowerMyMac - Similar Image Finder

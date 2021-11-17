@@ -1,7 +1,0 @@
-INFO	2021-11-16 15:36:06,916	[basepage.py:32]	打开网页https://www.imymac.com/store/
-INFO	2021-11-16 15:36:06,954	[basepage.py:90]	点击元素：('css', '#powermymac-one-month')
-INFO	2021-11-16 15:36:07,955	[basepage.py:181]	切换frame==>pf_631115
-INFO	2021-11-16 15:36:11,064	[basepage.py:186]	下拉框value选择==》zh-Hans
-INFO	2021-11-16 15:36:11,228	[basepage.py:82]	输入文本：lelee9895@gamil.com
-INFO	2021-11-16 15:36:11,301	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div>div>button')
-INFO	2021-11-16 15:36:12,324	[basepage.py:96]	获取到文本：lelee9895@gamil.com

@@ -1,4 +1,0 @@
-INFO	2021-11-16 15:44:51,069	[basepage.py:32]	打开网页https://www.imymac.com/video-converter/
-INFO	2021-11-16 15:44:51,071	[basepage.py:159]	页面滚到元素('css', 'body>div.menu')
-INFO	2021-11-16 15:44:52,099	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
-INFO	2021-11-16 15:44:55,203	[basepage.py:90]	点击元素：('css', 'body>div.menu>div>div>a:nth-child(3)')

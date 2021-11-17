@@ -1,9 +1,0 @@
-INFO	2021-11-16 15:42:12,431	[basepage.py:32]	打开网页https://www.imymac.com/store/
-INFO	2021-11-16 15:42:12,475	[basepage.py:90]	点击元素：('css', '#video-converter-one-year')
-INFO	2021-11-16 15:42:13,484	[basepage.py:181]	切换frame==>pf_588082
-INFO	2021-11-16 15:42:16,210	[basepage.py:186]	下拉框value选择==》zh-Hans
-INFO	2021-11-16 15:42:16,318	[basepage.py:82]	输入文本：
-INFO	2021-11-16 15:42:16,391	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div>div>button')
-INFO	2021-11-16 15:42:17,450	[basepage.py:82]	输入文本：m111
-INFO	2021-11-16 15:42:17,499	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div>div>button')
-INFO	2021-11-16 15:42:18,532	[basepage.py:96]	获取到文本：您输入的邮箱无效。

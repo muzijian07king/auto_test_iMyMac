@@ -1,3 +1,0 @@
-INFO	2021-11-16 15:21:29,859	[basepage.py:32]	打开网页https://www.imymac.com/index.html
-INFO	2021-11-16 15:21:30,489	[basepage.py:90]	点击元素：('css', 'body>nav>div>div.navbar-header>a')
-INFO	2021-11-16 15:21:31,499	[test_head.py:28]	点击链接index

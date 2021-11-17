@@ -1,2 +1,0 @@
-INFO	2021-11-16 15:23:56,693	[basepage.py:32]	打开网页https://www.imymac.com/similar-image-finder/
-INFO	2021-11-16 15:23:56,909	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div.bannerInfo>div>a:nth-child(1)')

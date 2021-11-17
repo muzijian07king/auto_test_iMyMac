@@ -1,2 +1,0 @@
-INFO	2021-11-16 15:17:43,358	[basepage.py:32]	打开网页https://www.imymac.com/index.html
-INFO	2021-11-16 15:17:45,656	[basepage.py:90]	点击元素：('link', 'Email Junk')
