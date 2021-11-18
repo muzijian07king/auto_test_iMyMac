@@ -1,5 +1,56 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "children" : [ {
+        "name" : "标签栏测试",
+        "uid" : "fd37411e849df1e5",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637223381284,
+          "stop" : 1637223411625,
+          "duration" : 30341
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Cleaner'" ]
+      }, {
+        "name" : "切换家庭永久套餐测试",
+        "uid" : "3ba82553c07b8468",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637223392259,
+          "stop" : 1637223426108,
+          "duration" : 33849
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+    }, {
+      "name" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=14233): Max retries exceeded with url: /session/36a2a6933c874cebaeacf7786b334b5b/timeouts (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023B8EE51700>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "children" : [ {
+        "name" : "切换个人永久套餐测试",
+        "uid" : "1476650189e7f2e9",
+        "parentUid" : "826ca56cfdc77228eeabee15fe838ce2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637223469837,
+          "stop" : 1637223469837,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "826ca56cfdc77228eeabee15fe838ce2"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

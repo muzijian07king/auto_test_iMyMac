@@ -1,4 +1,0 @@
-INFO	2021-11-17 10:49:55,857	[basepage.py:32]	打开网页https://www.imymac.com/contact/
-INFO	2021-11-17 10:49:55,858	[basepage.py:226]	关闭黑色星期五优惠链接
-INFO	2021-11-17 10:49:55,934	[basepage.py:90]	点击元素：('css', 'div.close-tag')
-INFO	2021-11-17 10:49:56,963	[basepage.py:134]	获取到href元素的值==》mailto:support@imymac.com

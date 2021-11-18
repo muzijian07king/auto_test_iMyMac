@@ -1,29 +1,29 @@
 Company:      #company链接
-  About Us: 'css=body>div:nth-child(4)>div>div>div>div:nth-child(2)>ul>li:nth-child(1)>a'
-  Contact Us: 'css=body>div:nth-child(4)>div>div>div>div:nth-child(2)>ul>li:nth-child(2)>a'
-  Terms of Use: 'css=body>div:nth-child(4)>div>div>div>div:nth-child(2)>ul>li:nth-child(3)>a'
-  Privacy Policy: 'css=body>div:nth-child(4)>div>div>div>div:nth-child(2)>ul>li:nth-child(4)>a'
+  About Us: 'css=body>div.whiteBG>div>div>div>div:nth-child(2)>ul>li:nth-child(1)>a'
+  Contact Us: 'css=body>div.whiteBG>div>div>div>div:nth-child(2)>ul>li:nth-child(2)>a'
+  Terms of Use: 'css=body>div.whiteBG>div>div>div>div:nth-child(2)>ul>li:nth-child(3)>a'
+  Privacy Policy: 'css=body>div.whiteBG>div>div>div>div:nth-child(2)>ul>li:nth-child(4)>a'
 Products:     #products链接
-  PowerMyMac: 'css=body>div:nth-child(4)>div>div>div>div:nth-child(3)>ul>li:nth-child(1)>a'
-  Mac Cleaner: 'css=body>div:nth-child(4)>div>div>div>div:nth-child(3)>ul>li:nth-child(2)>a'
+  PowerMyMac: 'css=body>div.whiteBG>div>div>div>div:nth-child(3)>ul>li:nth-child(1)>a'
+  Mac Cleaner: 'css=body>div.whiteBG>div>div>div>div:nth-child(3)>ul>li:nth-child(2)>a'
 Help:    #help链接
-  Support: 'css=body>div:nth-child(4)>div>div>div>div:nth-child(4)>ul>li:nth-child(1)>a'
-  Sales FAQ: 'css=body>div:nth-child(4)>div>div>div>div:nth-child(4)>ul>li:nth-child(2)>a'
-  Refund Policy: 'css=body>div:nth-child(4)>div>div>div>div:nth-child(4)>ul>li:nth-child(3)>a'
+  Support: 'css=body>div.whiteBG>div>div>div>div:nth-child(4)>ul>li:nth-child(1)>a'
+  Sales FAQ: 'css=body>div.whiteBG>div>div>div>div:nth-child(4)>ul>li:nth-child(2)>a'
+  Refund Policy: 'css=body>div.whiteBG>div>div>div>div:nth-child(4)>ul>li:nth-child(3)>a'
 articles-class: 'css=body > div.whiteBG > div > div > div.col-md-9 > div > p'    #文章类别
 More:     #更多按钮
-  PowerMyMac: 'css=body >div:nth-child(4)>div>div>div:nth-child(2)>div>div:nth-child(2)>a'
-  Mac Cleaner: 'css=body >div:nth-child(4)>div>div>div:nth-child(2)>div>div:nth-child(3)>a'
-  File Shredder: 'css=body >div:nth-child(4)>div>div>div:nth-child(2)>div>div:nth-child(4)>a'
-  Duplicate Finder: 'css=body >div:nth-child(4)>div>div>div:nth-child(2)>div>div:nth-child(5)>a'
-  Browser Cleanup: 'css=body >div:nth-child(4)>div>div>div:nth-child(2)>div>div:nth-child(6)>a'
-  Similar Image Finder: 'css=body >div:nth-child(4)>div>div>div:nth-child(2)>div>div:nth-child(7)>a'
-  Mac Uninstaller: 'css=body >div:nth-child(4)>div>div>div:nth-child(2)>div>div:nth-child(8)>a'
-  iMyMac PDF Compressor: 'css=body >div:nth-child(4)>div>div>div:nth-child(2)>div>div:nth-child(9)>a'
-  Video Converter: 'css=body >div:nth-child(4)>div>div>div:nth-child(2)>div>div:nth-child(10)>a'
-  Free Photo Compressor: 'css=body >div:nth-child(4)>div>div>div:nth-child(2)>div>div:nth-child(11)>a'
-articles-links: 'css=body >div:nth-child(4)>div>div>div:nth-child(2)>div>div>ul>li>a'    #热门文章链接
-articles-title: 'css=body >div:nth-child(5)>div>h1'             #文章标题
+  PowerMyMac: 'css=body >div.whiteBG>div>div>div:nth-child(2)>div>div:nth-child(2)>a'
+  Mac Cleaner: 'css=body >div.whiteBG>div>div>div:nth-child(2)>div>div:nth-child(3)>a'
+  File Shredder: 'css=body >div.whiteBG>div>div>div:nth-child(2)>div>div:nth-child(4)>a'
+  Duplicate Finder: 'css=body >div.whiteBG>div>div>div:nth-child(2)>div>div:nth-child(5)>a'
+  Browser Cleanup: 'css=body >div.whiteBG>div>div>div:nth-child(2)>div>div:nth-child(6)>a'
+  Similar Image Finder: 'css=body >div.whiteBG>div>div>div:nth-child(2)>div>div:nth-child(7)>a'
+  Mac Uninstaller: 'css=body >div.whiteBG>div>div>div:nth-child(2)>div>div:nth-child(8)>a'
+  iMyMac PDF Compressor: 'css=body >div.whiteBG>div>div>div:nth-child(2)>div>div:nth-child(9)>a'
+  Video Converter: 'css=body >div.whiteBG>div>div>div:nth-child(2)>div>div:nth-child(10)>a'
+  Free Photo Compressor: 'css=body >div.whiteBG>div>div>div:nth-child(2)>div>div:nth-child(11)>a'
+articles-links: 'css=body >div.whiteBG>div>div>div:nth-child(2)>div>div>ul>li>a'    #热门文章链接
+articles-title: 'css=div.pageBody>h1'             #文章标题
 articles-link: "xpath=//div[@class='productBox'][1]/ol/li[1]/a"  #某标签更多文章中的第一篇
 
 

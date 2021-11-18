@@ -20,10 +20,10 @@ def t():
 
         before_data.extend(after_data)
         before_data.sort(key=lambda x: x["buildOrder"], reverse=True)
-        json.dump(before_data, file)
+        json.dump(before_data[:15], file)
 
     with open('utils/history-trend.json', 'w') as file:
-        json.dump(before_data, file)
+        json.dump(before_data[:15], file)
 
 
 t()

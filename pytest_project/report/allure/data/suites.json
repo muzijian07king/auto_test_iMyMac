@@ -2,68 +2,281 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "TestCase.contact_test_case",
+    "name" : "TestCase.index_test_case",
     "children" : [ {
-      "name" : "test_contact",
+      "name" : "test_foot",
+      "children" : [ {
+        "name" : "TestFoot",
+        "children" : [ {
+          "name" : "切换语言==》中文繁体",
+          "uid" : "a43f06547de2660c",
+          "parentUid" : "0333960994c7b6e06e7c4bf26d386cc3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1637223330373,
+            "stop" : 1637223336597,
+            "duration" : 6224
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'tw'" ]
+        }, {
+          "name" : "切换语言==》日语",
+          "uid" : "6a5fd174e8c674cb",
+          "parentUid" : "0333960994c7b6e06e7c4bf26d386cc3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1637223338739,
+            "stop" : 1637223342498,
+            "duration" : 3759
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'jp'" ]
+        } ],
+        "uid" : "0333960994c7b6e06e7c4bf26d386cc3"
+      } ],
+      "uid" : "a8ecb749e5e5e49bd3dc562e0c096714"
+    } ],
+    "uid" : "767d4c646f84549a1ceda16d28bdaec5"
+  }, {
+    "name" : "TestCase.store_test_case",
+    "children" : [ {
+      "name" : "test_buy_option",
       "children" : [ {
         "name" : "TestBody",
         "children" : [ {
-          "name" : "简介栏内容测试",
-          "uid" : "610fd935dc67540c",
-          "parentUid" : "7014bbfe9807e8e21b30fb86ea386555",
+          "name" : "购买pmm套餐2支付弹窗测试",
+          "uid" : "b0e2b0af02abc344",
+          "parentUid" : "fc98eb43b2ed2b954ab49713bdc5afad",
           "status" : "passed",
           "time" : {
-            "start" : 1637117395322,
-            "stop" : 1637117395401,
-            "duration" : 79
+            "start" : 1637223338170,
+            "stop" : 1637223340800,
+            "duration" : 2630
           },
           "flaky" : false,
           "newFailed" : false,
-          "parameters" : [ "'If you prepare to purchase or had bought products from iMyMac, please feel free to contact us by email with any questions.'", "'question'" ]
+          "parameters" : [ ]
         }, {
-          "name" : "简介栏内容测试",
-          "uid" : "2f175de2cd794434",
-          "parentUid" : "7014bbfe9807e8e21b30fb86ea386555",
+          "name" : "购买video套餐2支付弹窗测试",
+          "uid" : "6902d8a8d931efd2",
+          "parentUid" : "fc98eb43b2ed2b954ab49713bdc5afad",
           "status" : "passed",
           "time" : {
-            "start" : 1637117395471,
-            "stop" : 1637117395617,
-            "duration" : 146
+            "start" : 1637223341957,
+            "stop" : 1637223344732,
+            "duration" : 2775
           },
           "flaky" : false,
           "newFailed" : false,
-          "parameters" : [ "'If you have any suggestions, such as the website and service, contact us by email.'", "'suggestion'" ]
+          "parameters" : [ ]
         }, {
-          "name" : "简介栏内容测试",
-          "uid" : "25b4fce16a14c366",
-          "parentUid" : "7014bbfe9807e8e21b30fb86ea386555",
+          "name" : "购买video套餐3支付弹窗测试",
+          "uid" : "bddb57e733b54d7b",
+          "parentUid" : "fc98eb43b2ed2b954ab49713bdc5afad",
           "status" : "passed",
           "time" : {
-            "start" : 1637117395971,
-            "stop" : 1637117396021,
-            "duration" : 50
+            "start" : 1637223345897,
+            "stop" : 1637223348108,
+            "duration" : 2211
           },
           "flaky" : false,
           "newFailed" : false,
-          "parameters" : [ "'iMyMac Supporter Email: support@imymac.com'", "'email'" ]
+          "parameters" : [ ]
         }, {
-          "name" : "邮箱链接测试",
-          "uid" : "9c8e722f840b470e",
-          "parentUid" : "7014bbfe9807e8e21b30fb86ea386555",
+          "name" : "video套餐价格测试",
+          "uid" : "d4c560eb677f794a",
+          "parentUid" : "fc98eb43b2ed2b954ab49713bdc5afad",
           "status" : "passed",
           "time" : {
-            "start" : 1637117396941,
-            "stop" : 1637117396968,
-            "duration" : 27
+            "start" : 1637223349335,
+            "stop" : 1637223350573,
+            "duration" : 1238
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "购买pmm套餐1支付弹窗测试",
+          "uid" : "d84fb633a6d82095",
+          "parentUid" : "fc98eb43b2ed2b954ab49713bdc5afad",
+          "status" : "passed",
+          "time" : {
+            "start" : 1637223356739,
+            "stop" : 1637223363606,
+            "duration" : 6867
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pmm套餐价格测试",
+          "uid" : "e701fe77e8133564",
+          "parentUid" : "fc98eb43b2ed2b954ab49713bdc5afad",
+          "status" : "passed",
+          "time" : {
+            "start" : 1637223364844,
+            "stop" : 1637223366102,
+            "duration" : 1258
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "购买pmm套餐3支付弹窗测试",
+          "uid" : "3951f0e9b70352f6",
+          "parentUid" : "fc98eb43b2ed2b954ab49713bdc5afad",
+          "status" : "passed",
+          "time" : {
+            "start" : 1637223380469,
+            "stop" : 1637223382831,
+            "duration" : 2362
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "切换家庭永久套餐测试",
+          "uid" : "3ba82553c07b8468",
+          "parentUid" : "fc98eb43b2ed2b954ab49713bdc5afad",
+          "status" : "broken",
+          "time" : {
+            "start" : 1637223392259,
+            "stop" : 1637223426108,
+            "duration" : 33849
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "购买video套餐1支付弹窗测试",
+          "uid" : "61f0b2f06e2e6fd5",
+          "parentUid" : "fc98eb43b2ed2b954ab49713bdc5afad",
+          "status" : "passed",
+          "time" : {
+            "start" : 1637223413831,
+            "stop" : 1637223416863,
+            "duration" : 3032
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "切换个人永久套餐测试",
+          "uid" : "1476650189e7f2e9",
+          "parentUid" : "fc98eb43b2ed2b954ab49713bdc5afad",
+          "status" : "broken",
+          "time" : {
+            "start" : 1637223469837,
+            "stop" : 1637223469837,
+            "duration" : 0
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         } ],
-        "uid" : "7014bbfe9807e8e21b30fb86ea386555"
+        "uid" : "fc98eb43b2ed2b954ab49713bdc5afad"
       } ],
-      "uid" : "8b026e1f79082ac983eb205b674c46f4"
+      "uid" : "4e2fb142ae20c9c00e6247a53775bd7d"
+    }, {
+      "name" : "test_store",
+      "children" : [ {
+        "name" : "TestBody",
+        "children" : [ {
+          "name" : "pmm购买页面填写正确优惠码测试",
+          "uid" : "95922d5d7eb5594",
+          "parentUid" : "b63437c0e3caa1340e250ed308d807de",
+          "status" : "passed",
+          "time" : {
+            "start" : 1637223367248,
+            "stop" : 1637223381014,
+            "duration" : 13766
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'testnewpmm'", "0.0" ]
+        }, {
+          "name" : "pmm购买页面添加支付卡信息错误测试",
+          "uid" : "c17d65d7105bb118",
+          "parentUid" : "b63437c0e3caa1340e250ed308d807de",
+          "status" : "passed",
+          "time" : {
+            "start" : 1637223382333,
+            "stop" : 1637223402284,
+            "duration" : 19951
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'您输入的名称无效。'", "''", "''", "''", "''", "''" ]
+        }, {
+          "name" : "video购买页面移除优惠码测试",
+          "uid" : "821bb37fab696c02",
+          "parentUid" : "b63437c0e3caa1340e250ed308d807de",
+          "status" : "passed",
+          "time" : {
+            "start" : 1637223384017,
+            "stop" : 1637223398097,
+            "duration" : 14080
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'testnewpmm'" ]
+        } ],
+        "uid" : "b63437c0e3caa1340e250ed308d807de"
+      } ],
+      "uid" : "a1c3ec3638f9e660455eb7cbb2e8c7d6"
     } ],
-    "uid" : "4d21659a7669e61da5f982ae889943aa"
+    "uid" : "ee12983eb44ed69151a6cae4a19509e0"
+  }, {
+    "name" : "TestCase.powermymac_test_case",
+    "children" : [ {
+      "name" : "test_mac_cleaner",
+      "children" : [ {
+        "name" : "TestBody",
+        "children" : [ {
+          "name" : "footbuy导航栏下进入buy页面测试",
+          "uid" : "bb656dd985069fc4",
+          "parentUid" : "b3fc1a3942d2d6098b738008711cf7d9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1637223359800,
+            "stop" : 1637223375099,
+            "duration" : 15299
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b3fc1a3942d2d6098b738008711cf7d9"
+      } ],
+      "uid" : "a30cc78fd8fda9fe77ccaaceb7f272b4"
+    } ],
+    "uid" : "3b5f41c99ca00ee5d475c83496be6326"
+  }, {
+    "name" : "TestCase.resource_test_case",
+    "children" : [ {
+      "name" : "test_resource",
+      "children" : [ {
+        "name" : "TestBody",
+        "children" : [ {
+          "name" : "标签栏测试",
+          "uid" : "fd37411e849df1e5",
+          "parentUid" : "dfb1662a995fa3738d89b01105909b8e",
+          "status" : "broken",
+          "time" : {
+            "start" : 1637223381284,
+            "stop" : 1637223411625,
+            "duration" : 30341
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'Cleaner'" ]
+        } ],
+        "uid" : "dfb1662a995fa3738d89b01105909b8e"
+      } ],
+      "uid" : "6d396fd41f099105ce21cb9878e51716"
+    } ],
+    "uid" : "bbfa521d46d57c82f321898c97dd0c83"
   } ]
 }

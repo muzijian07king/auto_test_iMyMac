@@ -1,41 +1,171 @@
 [ {
-  "uid" : "2f175de2cd794434",
-  "name" : "简介栏内容测试",
+  "uid" : "6a5fd174e8c674cb",
+  "name" : "切换语言==》日语",
   "time" : {
-    "start" : 1637117395471,
-    "stop" : 1637117395617,
-    "duration" : 146
-  },
-  "status" : "passed",
-  "severity" : "trivial"
-}, {
-  "uid" : "25b4fce16a14c366",
-  "name" : "简介栏内容测试",
-  "time" : {
-    "start" : 1637117395971,
-    "stop" : 1637117396021,
-    "duration" : 50
-  },
-  "status" : "passed",
-  "severity" : "trivial"
-}, {
-  "uid" : "610fd935dc67540c",
-  "name" : "简介栏内容测试",
-  "time" : {
-    "start" : 1637117395322,
-    "stop" : 1637117395401,
-    "duration" : 79
-  },
-  "status" : "passed",
-  "severity" : "trivial"
-}, {
-  "uid" : "9c8e722f840b470e",
-  "name" : "邮箱链接测试",
-  "time" : {
-    "start" : 1637117396941,
-    "stop" : 1637117396968,
-    "duration" : 27
+    "start" : 1637223338739,
+    "stop" : 1637223342498,
+    "duration" : 3759
   },
   "status" : "passed",
   "severity" : "critical"
+}, {
+  "uid" : "95922d5d7eb5594",
+  "name" : "pmm购买页面填写正确优惠码测试",
+  "time" : {
+    "start" : 1637223367248,
+    "stop" : 1637223381014,
+    "duration" : 13766
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "821bb37fab696c02",
+  "name" : "video购买页面移除优惠码测试",
+  "time" : {
+    "start" : 1637223384017,
+    "stop" : 1637223398097,
+    "duration" : 14080
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "bddb57e733b54d7b",
+  "name" : "购买video套餐3支付弹窗测试",
+  "time" : {
+    "start" : 1637223345897,
+    "stop" : 1637223348108,
+    "duration" : 2211
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1476650189e7f2e9",
+  "name" : "切换个人永久套餐测试",
+  "time" : {
+    "start" : 1637223469837,
+    "stop" : 1637223469837,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "blocker"
+}, {
+  "uid" : "bb656dd985069fc4",
+  "name" : "footbuy导航栏下进入buy页面测试",
+  "time" : {
+    "start" : 1637223359800,
+    "stop" : 1637223375099,
+    "duration" : 15299
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d4c560eb677f794a",
+  "name" : "video套餐价格测试",
+  "time" : {
+    "start" : 1637223349335,
+    "stop" : 1637223350573,
+    "duration" : 1238
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "61f0b2f06e2e6fd5",
+  "name" : "购买video套餐1支付弹窗测试",
+  "time" : {
+    "start" : 1637223413831,
+    "stop" : 1637223416863,
+    "duration" : 3032
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "c17d65d7105bb118",
+  "name" : "pmm购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1637223382333,
+    "stop" : 1637223402284,
+    "duration" : 19951
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b0e2b0af02abc344",
+  "name" : "购买pmm套餐2支付弹窗测试",
+  "time" : {
+    "start" : 1637223338170,
+    "stop" : 1637223340800,
+    "duration" : 2630
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "fd37411e849df1e5",
+  "name" : "标签栏测试",
+  "time" : {
+    "start" : 1637223381284,
+    "stop" : 1637223411625,
+    "duration" : 30341
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "3ba82553c07b8468",
+  "name" : "切换家庭永久套餐测试",
+  "time" : {
+    "start" : 1637223392259,
+    "stop" : 1637223426108,
+    "duration" : 33849
+  },
+  "status" : "broken",
+  "severity" : "blocker"
+}, {
+  "uid" : "d84fb633a6d82095",
+  "name" : "购买pmm套餐1支付弹窗测试",
+  "time" : {
+    "start" : 1637223356739,
+    "stop" : 1637223363606,
+    "duration" : 6867
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "a43f06547de2660c",
+  "name" : "切换语言==》中文繁体",
+  "time" : {
+    "start" : 1637223330373,
+    "stop" : 1637223336597,
+    "duration" : 6224
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6902d8a8d931efd2",
+  "name" : "购买video套餐2支付弹窗测试",
+  "time" : {
+    "start" : 1637223341957,
+    "stop" : 1637223344732,
+    "duration" : 2775
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "e701fe77e8133564",
+  "name" : "pmm套餐价格测试",
+  "time" : {
+    "start" : 1637223364844,
+    "stop" : 1637223366102,
+    "duration" : 1258
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3951f0e9b70352f6",
+  "name" : "购买pmm套餐3支付弹窗测试",
+  "time" : {
+    "start" : 1637223380469,
+    "stop" : 1637223382831,
+    "duration" : 2362
+  },
+  "status" : "passed",
+  "severity" : "blocker"
 } ]

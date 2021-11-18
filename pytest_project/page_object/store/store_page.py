@@ -250,7 +250,6 @@ class StorePage(WebPage):
     @allure.step('提交输入卡信息')
     def submit_card(self):
         self.is_click(store['cardSubmit'])
-        sleep()
 
     @allure.step('点击使用其他支付方式按钮')
     def cancel_pay(self):

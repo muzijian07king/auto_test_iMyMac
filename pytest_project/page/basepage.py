@@ -20,7 +20,7 @@ class WebPage(object):
 
     def __init__(self, driver):
         self.driver = driver
-        self.timeout = 10
+        self.timeout = 30
         self.wait = WebDriverWait(self.driver, self.timeout)
 
     def get_url(self, url):
@@ -224,5 +224,4 @@ class WebPage(object):
     def click_sale_off_link(self):
         """关闭黑色星期五链接"""
         log.info('关闭黑色星期五优惠链接')
-        if self.find_element(('css', 'div.close-tag')):
-            self.is_click(('css', 'div.close-tag'))
+        self.jsInDriver("document.querySelector('div.close-tag').click()")

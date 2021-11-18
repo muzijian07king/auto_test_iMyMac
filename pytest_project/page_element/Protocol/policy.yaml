@@ -1,7 +1,7 @@
 context:
   email: "xpath=//a[text()='support@imymac.com']"    #文章内容里的邮箱
-  title-l: 'css=body > div:nth-child(4) > div>p.title-l'   #小标题
-  title-h1: 'css=body > div:nth-child(4) > div>h1'        #大标题
+  title-l: 'css=body > div.container > div>p.title-l'   #小标题
+  title-h1: 'css=body > div.container > div>h1'        #大标题
 link:                                             #协议链接
   privacy: 'css=footer>div>div>div:nth-child(3)>div>a:nth-child(1)'
   terms: 'css=footer>div>div>div:nth-child(3)>div>a:nth-child(2)'

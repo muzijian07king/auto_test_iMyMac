@@ -84,6 +84,7 @@ class TestBody(object):
         assert self.driver.return_region_option_text(language)
 
     @allure.title('pmm购买页面未填写地区测试')
+    @pytest.mark.skip("不能填写为空")
     def test_008(self):
         """pmm购买页面未填写地区功能测试"""
         allure.dynamic.tag('地区为空提交')

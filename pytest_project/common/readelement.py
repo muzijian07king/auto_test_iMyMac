@@ -207,7 +207,7 @@ def get_branch_value_with_key(key, data, branch=None):
 
 if __name__ == '__main__':
     body = Element('Store/body')
-    print(body.element_path)
+    print(body['price'])
     # print(body['cancelCouponButton'])
     # print(get_branch_all_keys().get_branch_all_keys(sitemap.data, 'Company'))
     # print(get_branch_all_keys().get_branch_all_keys(sitemap.data, 'Products'))

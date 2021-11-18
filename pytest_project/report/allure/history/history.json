@@ -1672,11 +1672,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "6a5fd174e8c674cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637223338739,
+        "stop" : 1637223342498,
+        "duration" : 3759
+      }
+    }, {
       "uid" : "79e9cf065abe6cea",
       "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/79e9cf065abe6cea",
       "status" : "passed",
@@ -2385,11 +2393,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "821bb37fab696c02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637223384017,
+        "stop" : 1637223398097,
+        "duration" : 14080
+      }
+    }, {
       "uid" : "e0f15c59315737b7",
       "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/e0f15c59315737b7",
       "status" : "passed",
@@ -3004,11 +3020,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "d4c560eb677f794a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637223349335,
+        "stop" : 1637223350573,
+        "duration" : 1238
+      }
+    }, {
       "uid" : "a394ea28707b9cae",
       "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/a394ea28707b9cae",
       "status" : "passed",
@@ -3432,11 +3456,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "d84fb633a6d82095",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637223356739,
+        "stop" : 1637223363606,
+        "duration" : 6867
+      }
+    }, {
       "uid" : "b765d5e9f4977348",
       "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/b765d5e9f4977348",
       "status" : "passed",
@@ -5657,11 +5689,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "6902d8a8d931efd2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637223341957,
+        "stop" : 1637223344732,
+        "duration" : 2775
+      }
+    }, {
       "uid" : "dd1db904c9b6efbc",
       "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/dd1db904c9b6efbc",
       "status" : "passed",
@@ -10133,13 +10173,22 @@
   "28ac136cc50ecaf9957b4b2d4e93d4e6" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 4,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "fd37411e849df1e5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1637223381284,
+        "stop" : 1637223411625,
+        "duration" : 30341
+      }
+    }, {
       "uid" : "29d0a13c5eab0846",
       "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/29d0a13c5eab0846",
       "status" : "passed",
@@ -10605,11 +10654,19 @@
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "95922d5d7eb5594",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637223367248,
+        "stop" : 1637223381014,
+        "duration" : 13766
+      }
+    }, {
       "uid" : "ab02bd1051290dca",
       "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/ab02bd1051290dca",
       "status" : "passed",
@@ -10798,11 +10855,19 @@
       "failed" : 2,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "c17d65d7105bb118",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637223382333,
+        "stop" : 1637223402284,
+        "duration" : 19951
+      }
+    }, {
       "uid" : "7aee32938a105c7e",
       "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/7aee32938a105c7e",
       "status" : "passed",
@@ -11279,19 +11344,11 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 7
+      "total" : 6
     },
     "items" : [ {
-      "uid" : "610fd935dc67540c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1637117395322,
-        "stop" : 1637117395401,
-        "duration" : 79
-      }
-    }, {
       "uid" : "46767071edc78338",
       "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/46767071edc78338",
       "status" : "passed",
@@ -12582,11 +12639,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "61f0b2f06e2e6fd5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637223413831,
+        "stop" : 1637223416863,
+        "duration" : 3032
+      }
+    }, {
       "uid" : "62ba23d2dd2402af",
       "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/62ba23d2dd2402af",
       "status" : "passed",
@@ -14449,19 +14514,11 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 7
+      "total" : 6
     },
     "items" : [ {
-      "uid" : "9c8e722f840b470e",
-      "status" : "passed",
-      "time" : {
-        "start" : 1637117396941,
-        "stop" : 1637117396968,
-        "duration" : 27
-      }
-    }, {
       "uid" : "8daf956d59d8c5ed",
       "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/8daf956d59d8c5ed",
       "status" : "passed",
@@ -15661,11 +15718,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "3951f0e9b70352f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637223380469,
+        "stop" : 1637223382831,
+        "duration" : 2362
+      }
+    }, {
       "uid" : "d17558346abfdc79",
       "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/d17558346abfdc79",
       "status" : "passed",
@@ -17804,19 +17869,11 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 7
+      "total" : 6
     },
     "items" : [ {
-      "uid" : "25b4fce16a14c366",
-      "status" : "passed",
-      "time" : {
-        "start" : 1637117395971,
-        "stop" : 1637117396021,
-        "duration" : 50
-      }
-    }, {
       "uid" : "5cdb35fc27346ab4",
       "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/5cdb35fc27346ab4",
       "status" : "passed",
@@ -18395,13 +18452,22 @@
   "3584c46ea446d6c75e98e8ab46b24d55" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 4,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "1476650189e7f2e9",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=14233): Max retries exceeded with url: /session/36a2a6933c874cebaeacf7786b334b5b/timeouts (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023B8EE51700>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1637223469837,
+        "stop" : 1637223469837,
+        "duration" : 0
+      }
+    }, {
       "uid" : "e2cabe2b98172931",
       "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/e2cabe2b98172931",
       "status" : "passed",
@@ -19926,13 +19992,22 @@
   "1963a9e435ca0224e8c6d424305e2afc" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 4,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "3ba82553c07b8468",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1637223392259,
+        "stop" : 1637223426108,
+        "duration" : 33849
+      }
+    }, {
       "uid" : "69c78fd000b2f22d",
       "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/69c78fd000b2f22d",
       "status" : "passed",
@@ -20398,11 +20473,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "bddb57e733b54d7b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637223345897,
+        "stop" : 1637223348108,
+        "duration" : 2211
+      }
+    }, {
       "uid" : "fcef1f797e5f1579",
       "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/fcef1f797e5f1579",
       "status" : "passed",
@@ -22308,11 +22391,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "e701fe77e8133564",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637223364844,
+        "stop" : 1637223366102,
+        "duration" : 1258
+      }
+    }, {
       "uid" : "426058b6e861b3d0",
       "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/426058b6e861b3d0",
       "status" : "passed",
@@ -22500,11 +22591,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "b0e2b0af02abc344",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637223338170,
+        "stop" : 1637223340800,
+        "duration" : 2630
+      }
+    }, {
       "uid" : "d485b60056a276c7",
       "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/d485b60056a276c7",
       "status" : "passed",
@@ -22790,11 +22889,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "a43f06547de2660c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637223330373,
+        "stop" : 1637223336597,
+        "duration" : 6224
+      }
+    }, {
       "uid" : "38a2a9987f3502fa",
       "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/38a2a9987f3502fa",
       "status" : "passed",
@@ -22978,19 +23085,11 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 7
+      "total" : 6
     },
     "items" : [ {
-      "uid" : "2f175de2cd794434",
-      "status" : "passed",
-      "time" : {
-        "start" : 1637117395471,
-        "stop" : 1637117395617,
-        "duration" : 146
-      }
-    }, {
       "uid" : "d8cf8edaa3067bc7",
       "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/d8cf8edaa3067bc7",
       "status" : "passed",
@@ -23338,11 +23437,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "bb656dd985069fc4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637223359800,
+        "stop" : 1637223375099,
+        "duration" : 15299
+      }
+    }, {
       "uid" : "86e6f89d4dc8a60c",
       "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/86e6f89d4dc8a60c",
       "status" : "passed",
