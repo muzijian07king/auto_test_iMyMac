@@ -47,6 +47,7 @@ class TestBody(object):
     @pytest.mark.parametrize('search', getExcelOneCol('搜索文章', 1, 'Support/support.xlsx'))
     @allure.title('搜索文章测试')
     @allure.severity('critical')
+    @pytest.mark.skipif(cm.VPN_Switch, reason='阿里云没有VPN')
     def test_004(self, faq_name, search):
         """product搜索文章功能测试"""
         allure.dynamic.tag('搜索文章，关键字为==》{}'.format(search))
