@@ -1,0 +1,314 @@
+{
+  "uid" : "ded3a2379be2f535",
+  "name" : "展开faq测试",
+  "fullName" : "TestCase.faq_test_case.test_index.TestBody#test_002",
+  "historyId" : "c2561150994eb915b22bdbc05b2beb39",
+  "time" : {
+    "start" : 1637303035626,
+    "stop" : 1637303038925,
+    "duration" : 3299
+  },
+  "description" : "展开faq功能测试",
+  "descriptionHtml" : "<p>展开faq功能测试</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1637303020678,
+      "stop" : 1637303020799,
+      "duration" : 121
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1637303020800,
+      "stop" : 1637303020800,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1637303020800,
+      "stop" : 1637303020800,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1637303020800,
+      "stop" : 1637303023816,
+      "duration" : 3016
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1637303023816,
+      "stop" : 1637303023816,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1637303034354,
+      "stop" : 1637303034354,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "open_url",
+    "time" : {
+      "start" : 1637303034354,
+      "stop" : 1637303035625,
+      "duration" : 1271
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "展开faq功能测试",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击PowerMyMac常见问题项",
+      "time" : {
+        "start" : 1637303035626,
+        "stop" : 1637303037855,
+        "duration" : 2229
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "展开第二个faq",
+      "time" : {
+        "start" : 1637303037855,
+        "stop" : 1637303038904,
+        "duration" : 1049
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "判断是否成功展开",
+      "time" : {
+        "start" : 1637303038904,
+        "stop" : 1637303038924,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "a2f374096336997e",
+      "name" : "log",
+      "source" : "a2f374096336997e.txt",
+      "type" : "text/plain",
+      "size" : 613
+    }, {
+      "uid" : "7ae290f709a43d63",
+      "name" : "stderr",
+      "source" : "7ae290f709a43d63.txt",
+      "type" : "text/plain",
+      "size" : 662
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1637303084249,
+      "stop" : 1637303086293,
+      "duration" : 2044
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "展开PowerMyMac的faq"
+  }, {
+    "name" : "feature",
+    "value" : "FAQ页面测试"
+  }, {
+    "name" : "story",
+    "value" : "各个模块常见问题测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.faq_test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_index"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBody"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "4144-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.faq_test_case.test_index"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "faq_name",
+    "value" : "'PowerMyMac'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "d9e72872e6422ae0",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/d9e72872e6422ae0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637045093256,
+          "stop" : 1637045095949,
+          "duration" : 2693
+        }
+      }, {
+        "uid" : "1188504b2d416959",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/26/allure/#testresult/1188504b2d416959",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637042959074,
+          "stop" : 1637042962489,
+          "duration" : 3415
+        }
+      }, {
+        "uid" : "e828985de622c70c",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/25/allure/#testresult/e828985de622c70c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637041807107,
+          "stop" : 1637041809794,
+          "duration" : 2687
+        }
+      }, {
+        "uid" : "c715f72d81708b28",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/23/allure/#testresult/c715f72d81708b28",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636967285514,
+          "stop" : 1636967288712,
+          "duration" : 3198
+        }
+      }, {
+        "uid" : "29907ba39915695e",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/22/allure/#testresult/29907ba39915695e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636940508118,
+          "stop" : 1636940510906,
+          "duration" : 2788
+        }
+      } ]
+    },
+    "tags" : [ "展开PowerMyMac的faq" ]
+  },
+  "source" : "ded3a2379be2f535.json",
+  "parameterValues" : [ "'PowerMyMac'" ]
+}

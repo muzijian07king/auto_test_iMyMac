@@ -1,0 +1,296 @@
+{
+  "uid" : "ca23aeadac173915",
+  "name" : "进入常见问题页面测试",
+  "fullName" : "TestCase.faq_test_case.test_index.TestBody#test_001",
+  "historyId" : "e5e04cc9d9ee9f413b23e445dfa08578",
+  "time" : {
+    "start" : 1637303032807,
+    "stop" : 1637303034348,
+    "duration" : 1541
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1637303020678,
+      "stop" : 1637303020799,
+      "duration" : 121
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1637303020800,
+      "stop" : 1637303020800,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1637303020800,
+      "stop" : 1637303020800,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1637303020800,
+      "stop" : 1637303023816,
+      "duration" : 3016
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1637303023816,
+      "stop" : 1637303023816,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1637303031567,
+      "stop" : 1637303031567,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "open_url",
+    "time" : {
+      "start" : 1637303031567,
+      "stop" : 1637303032806,
+      "duration" : 1239
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击Video-Converter常见问题项",
+      "time" : {
+        "start" : 1637303032807,
+        "stop" : 1637303034328,
+        "duration" : 1521
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "判断是否进入对应页面",
+      "time" : {
+        "start" : 1637303034328,
+        "stop" : 1637303034348,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "b5eb2daa0e6c8f38",
+      "name" : "log",
+      "source" : "b5eb2daa0e6c8f38.txt",
+      "type" : "text/plain",
+      "size" : 456
+    }, {
+      "uid" : "f91f0f6097f233e4",
+      "name" : "stderr",
+      "source" : "f91f0f6097f233e4.txt",
+      "type" : "text/plain",
+      "size" : 497
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1637303084249,
+      "stop" : 1637303086293,
+      "duration" : 2044
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "进入Video-Converter的常见问题页面"
+  }, {
+    "name" : "feature",
+    "value" : "FAQ页面测试"
+  }, {
+    "name" : "story",
+    "value" : "各个模块常见问题测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.faq_test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_index"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBody"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "4144-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.faq_test_case.test_index"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "faq_name",
+    "value" : "'Video-Converter'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "dcc300dba58c4f98",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/dcc300dba58c4f98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637045091284,
+          "stop" : 1637045092920,
+          "duration" : 1636
+        }
+      }, {
+        "uid" : "6fa75e9d270162cb",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/26/allure/#testresult/6fa75e9d270162cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637042956644,
+          "stop" : 1637042958711,
+          "duration" : 2067
+        }
+      }, {
+        "uid" : "55c7847de9a01d03",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/25/allure/#testresult/55c7847de9a01d03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637041804985,
+          "stop" : 1637041806775,
+          "duration" : 1790
+        }
+      }, {
+        "uid" : "738de759cc3296d5",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/23/allure/#testresult/738de759cc3296d5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636967282508,
+          "stop" : 1636967284799,
+          "duration" : 2291
+        }
+      }, {
+        "uid" : "184d99435e27d57",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/22/allure/#testresult/184d99435e27d57",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636940506281,
+          "stop" : 1636940507870,
+          "duration" : 1589
+        }
+      } ]
+    },
+    "tags" : [ "进入Video-Converter的常见问题页面" ]
+  },
+  "source" : "ca23aeadac173915.json",
+  "parameterValues" : [ "'Video-Converter'" ]
+}

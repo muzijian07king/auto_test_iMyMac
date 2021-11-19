@@ -9,8 +9,7 @@ DOWNLOAD = True
 def main():
     """主函数"""
     steps = [
-        "venv\\Script\\activate" if WIN else "source venv/bin/activate",
-        "pytest --alluredir allure-results --clean-alluredir" if WIN else "pytest --alluredir allure-results "
+        "pytest TestCase/faq_test_case/test_index.py --alluredir allure-results --clean-alluredir" if WIN else "pytest --alluredir allure-results "
                                                                                "--clean-alluredir ",
         "copy utils\\environment.properties allure-results\\environment.properties" if WIN else 'cp utils/environment'
                                                                                                 '.properties '

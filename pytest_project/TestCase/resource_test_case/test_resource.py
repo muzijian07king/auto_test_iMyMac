@@ -1,8 +1,9 @@
 import allure
 import pytest
 from pytest_project.common.readconfig import ini
+from pytest_project.config.conf import cm
 from pytest_project.page_object.source.source_page import SourcePage
-from pytest_project.common.readexcel import getExcelAllData, getExcelOneCol
+from pytest_project.common.readexcel import getExcelOneCol
 
 
 @allure.feature('文章搜索页面测试')
@@ -16,6 +17,7 @@ class TestBody(object):
         self.driver.click_sale_off_link()
 
     @pytest.mark.parametrize('search', getExcelOneCol('搜索文章', 1, 'Resource/resource.xlsx'))
+    @pytest.mark.skipif(cm.VPN_Switch, reason='阿里云没有VPN')
     @allure.title('搜索文章测试')
     def test_001(self, search):
         """搜索文章功能测试"""
@@ -26,6 +28,7 @@ class TestBody(object):
 
     @pytest.mark.parametrize('search', getExcelOneCol('搜索文章', 1, 'Resource/resource.xlsx'))
     @allure.title('搜索文章回车测试')
+    @pytest.mark.skipif(cm.VPN_Switch, reason='阿里云没有VPN')
     @allure.severity('minor')
     def test_002(self, search):
         """搜索文章回车功能测试"""
@@ -90,6 +93,7 @@ class TestBody(object):
 
     @pytest.mark.parametrize('key', getExcelOneCol('搜索不到文章', 1, 'Resource/resource.xlsx'))
     @allure.title('搜索不到文章测试')
+    @pytest.mark.skipif(cm.VPN_Switch, reason='阿里云没有VPN')
     @allure.severity('minor')
     def test_010(self, key):
         allure.dynamic.tag('输入关键字')

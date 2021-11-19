@@ -1,7 +1,5 @@
 [ {
-  "data" : {
-    "Test defects" : 3
-  }
+  "data" : { }
 }, {
   "buildOrder" : 27,
   "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure",

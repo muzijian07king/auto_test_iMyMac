@@ -2,261 +2,558 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "首页测试",
+    "name" : "FAQ页面测试",
     "children" : [ {
-      "name" : "底部超链接测试",
+      "name" : "各个模块常见问题测试",
       "children" : [ {
-        "name" : "切换语言==》中文繁体",
-        "uid" : "a43f06547de2660c",
-        "parentUid" : "8f7b4997eeee5b61c628316d0d4344e9",
+        "name" : "进入常见问题页面测试",
+        "uid" : "a3e9bc54fd6082a2",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
         "status" : "passed",
         "time" : {
-          "start" : 1637223330373,
-          "stop" : 1637223336597,
-          "duration" : 6224
+          "start" : 1637303027420,
+          "stop" : 1637303029057,
+          "duration" : 1637
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'tw'" ]
+        "parameters" : [ "'Sales-FAQ'" ]
       }, {
-        "name" : "切换语言==》日语",
-        "uid" : "6a5fd174e8c674cb",
-        "parentUid" : "8f7b4997eeee5b61c628316d0d4344e9",
+        "name" : "进入常见问题页面测试",
+        "uid" : "5487da20f467a5e9",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
         "status" : "passed",
         "time" : {
-          "start" : 1637223338739,
-          "stop" : 1637223342498,
-          "duration" : 3759
+          "start" : 1637303029954,
+          "stop" : 1637303031561,
+          "duration" : 1607
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'jp'" ]
+        "parameters" : [ "'General-FAQs'" ]
+      }, {
+        "name" : "进入常见问题页面测试",
+        "uid" : "532b115fc412927f",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637303030307,
+          "stop" : 1637303031807,
+          "duration" : 1500
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'PDF-Compressor'" ]
+      }, {
+        "name" : "进入常见问题页面测试",
+        "uid" : "5d88492b037a4c76",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637303032512,
+          "stop" : 1637303034368,
+          "duration" : 1856
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Mac-Cleaner'" ]
+      }, {
+        "name" : "进入常见问题页面测试",
+        "uid" : "ca23aeadac173915",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637303032807,
+          "stop" : 1637303034348,
+          "duration" : 1541
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Video-Converter'" ]
+      }, {
+        "name" : "展开faq测试",
+        "uid" : "f5f4e78ec28f31c6",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637303033069,
+          "stop" : 1637303035641,
+          "duration" : 2572
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Mac-Cleaner'" ]
+      }, {
+        "name" : "展开faq测试",
+        "uid" : "ded3a2379be2f535",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637303035626,
+          "stop" : 1637303038925,
+          "duration" : 3299
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'PowerMyMac'" ]
+      }, {
+        "name" : "展开faq测试",
+        "uid" : "585a9becfac97bf6",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637303035659,
+          "stop" : 1637303039049,
+          "duration" : 3390
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Sales-FAQ'" ]
+      }, {
+        "name" : "展开faq测试",
+        "uid" : "6a06e8b0fc349c08",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637303036902,
+          "stop" : 1637303039447,
+          "duration" : 2545
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Video-Converter'" ]
+      }, {
+        "name" : "折叠faq测试",
+        "uid" : "e3d189a32fde21f0",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637303040351,
+          "stop" : 1637303043747,
+          "duration" : 3396
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Mac-Cleaner'" ]
+      }, {
+        "name" : "折叠faq测试",
+        "uid" : "2017afdfed713344",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637303040387,
+          "stop" : 1637303043966,
+          "duration" : 3579
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Sales-FAQ'" ]
+      }, {
+        "name" : "展开faq测试",
+        "uid" : "b224380f2674a9b8",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637303040722,
+          "stop" : 1637303043090,
+          "duration" : 2368
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'PDF-Compressor'" ]
+      }, {
+        "name" : "折叠faq测试",
+        "uid" : "f6562e407960a4be",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637303044996,
+          "stop" : 1637303048600,
+          "duration" : 3604
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'General-FAQs'" ]
+      }, {
+        "name" : "折叠faq测试",
+        "uid" : "613dc4a82e247752",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637303045166,
+          "stop" : 1637303048987,
+          "duration" : 3821
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Video-Converter'" ]
+      }, {
+        "name" : "折叠faq测试",
+        "uid" : "8800270827b17c24",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637303045290,
+          "stop" : 1637303048770,
+          "duration" : 3480
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'PowerMyMac'" ]
+      }, {
+        "name" : "折叠faq测试",
+        "uid" : "4e81e47e11beb4",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637303049844,
+          "stop" : 1637303053264,
+          "duration" : 3420
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'PDF-Compressor'" ]
+      }, {
+        "name" : "搜索文章测试",
+        "uid" : "61c797c46c002e1c",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637303050018,
+          "stop" : 1637303054679,
+          "duration" : 4661
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'PowerMyMac'", "'java'" ]
+      }, {
+        "name" : "搜索文章测试",
+        "uid" : "b65967c9a7583cf6",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637303050264,
+          "stop" : 1637303054192,
+          "duration" : 3928
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Sales-FAQ'", "'java'" ]
+      }, {
+        "name" : "搜索文章测试",
+        "uid" : "281cb2b01f0af441",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637303054527,
+          "stop" : 1637303058200,
+          "duration" : 3673
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'General-FAQs'", "'java'" ]
+      }, {
+        "name" : "搜索文章测试",
+        "uid" : "e0ec49ea93043dc9",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637303055503,
+          "stop" : 1637303058987,
+          "duration" : 3484
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Video-Converter'", "'java'" ]
+      }, {
+        "name" : "搜索文章测试",
+        "uid" : "1c8e126604672e8c",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637303055937,
+          "stop" : 1637303059768,
+          "duration" : 3831
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Mac-Cleaner'", "'java'" ]
+      }, {
+        "name" : "搜索文章测试",
+        "uid" : "7f976288811b3050",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637303059492,
+          "stop" : 1637303063009,
+          "duration" : 3517
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'PDF-Compressor'", "'java'" ]
+      }, {
+        "name" : "搜索文章测试",
+        "uid" : "31dae2f0ea6d3834",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637303060269,
+          "stop" : 1637303064103,
+          "duration" : 3834
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'General-FAQs'", "'python'" ]
+      }, {
+        "name" : "搜索文章测试",
+        "uid" : "ed2cc824fc75e3b5",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637303061046,
+          "stop" : 1637303064806,
+          "duration" : 3760
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Sales-FAQ'", "'python'" ]
+      }, {
+        "name" : "搜索文章测试",
+        "uid" : "7e7f25f5ee2edc6f",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637303064272,
+          "stop" : 1637303068190,
+          "duration" : 3918
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'PowerMyMac'", "'python'" ]
+      }, {
+        "name" : "进入常见问题页面测试",
+        "uid" : "2fa9d9474217461e",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637303064289,
+          "stop" : 1637303066954,
+          "duration" : 2665
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'PowerMyMac'" ]
+      }, {
+        "name" : "搜索文章测试",
+        "uid" : "78fe54fd8f3fda14",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637303065668,
+          "stop" : 1637303069355,
+          "duration" : 3687
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Mac-Cleaner'", "'python'" ]
+      }, {
+        "name" : "搜索文章测试",
+        "uid" : "a52f96324f8545fb",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637303066088,
+          "stop" : 1637303069630,
+          "duration" : 3542
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Video-Converter'", "'python'" ]
+      }, {
+        "name" : "展开faq测试",
+        "uid" : "ec31710508d6dea2",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637303068236,
+          "stop" : 1637303070932,
+          "duration" : 2696
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'General-FAQs'" ]
+      }, {
+        "name" : "搜索文章测试",
+        "uid" : "b5ca4cde0e107d3b",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637303069503,
+          "stop" : 1637303073131,
+          "duration" : 3628
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'PDF-Compressor'", "'python'" ]
+      }, {
+        "name" : "搜索文章测试",
+        "uid" : "ed0282acc5edcc",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637303070697,
+          "stop" : 1637303074272,
+          "duration" : 3575
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'General-FAQs'", "'imymac'" ]
+      }, {
+        "name" : "搜索文章测试",
+        "uid" : "20136ee7cdff3c3",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637303070918,
+          "stop" : 1637303074544,
+          "duration" : 3626
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Sales-FAQ'", "'imymac'" ]
+      }, {
+        "name" : "搜索文章测试",
+        "uid" : "411911b1f1b57a89",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637303072287,
+          "stop" : 1637303076108,
+          "duration" : 3821
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'PowerMyMac'", "'imymac'" ]
+      }, {
+        "name" : "搜索文章测试",
+        "uid" : "d9d6abbb21a0a490",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637303074372,
+          "stop" : 1637303078108,
+          "duration" : 3736
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Mac-Cleaner'", "'imymac'" ]
+      }, {
+        "name" : "搜索文章测试",
+        "uid" : "1417b0da70ed4b5e",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637303075554,
+          "stop" : 1637303079117,
+          "duration" : 3563
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Video-Converter'", "'imymac'" ]
+      }, {
+        "name" : "搜索文章测试",
+        "uid" : "11b10619318b15fe",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637303075835,
+          "stop" : 1637303079548,
+          "duration" : 3713
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'PDF-Compressor'", "'imymac'" ]
+      }, {
+        "name" : "搜索不到文章测试",
+        "uid" : "3f3e4e92ae5876cd",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637303077422,
+          "stop" : 1637303081039,
+          "duration" : 3617
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'General-FAQs'", "'adggwgwdqw'" ]
+      }, {
+        "name" : "搜索不到文章测试",
+        "uid" : "8735364e39420635",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637303079422,
+          "stop" : 1637303082903,
+          "duration" : 3481
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Sales-FAQ'", "'adggwgwdqw'" ]
+      }, {
+        "name" : "搜索不到文章测试",
+        "uid" : "3d106642b4aa1f45",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637303080383,
+          "stop" : 1637303083954,
+          "duration" : 3571
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'PowerMyMac'", "'adggwgwdqw'" ]
+      }, {
+        "name" : "搜索不到文章测试",
+        "uid" : "985db5f69400613a",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637303080853,
+          "stop" : 1637303084242,
+          "duration" : 3389
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Mac-Cleaner'", "'adggwgwdqw'" ]
+      }, {
+        "name" : "搜索不到文章测试",
+        "uid" : "78ee396ee488ec8",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637303082307,
+          "stop" : 1637303085949,
+          "duration" : 3642
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Video-Converter'", "'adggwgwdqw'" ]
+      }, {
+        "name" : "搜索不到文章测试",
+        "uid" : "881abe46509a38fa",
+        "parentUid" : "c12a5a942c71a6746cab4bc7d6a98a14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637303084187,
+          "stop" : 1637303087615,
+          "duration" : 3428
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'PDF-Compressor'", "'adggwgwdqw'" ]
       } ],
-      "uid" : "8f7b4997eeee5b61c628316d0d4344e9"
+      "uid" : "c12a5a942c71a6746cab4bc7d6a98a14"
     } ],
-    "uid" : "830984583063d73ef6940169959a6880"
-  }, {
-    "name" : "Store页面测试",
-    "children" : [ {
-      "name" : "套餐购买页面内容测试",
-      "children" : [ {
-        "name" : "购买pmm套餐2支付弹窗测试",
-        "uid" : "b0e2b0af02abc344",
-        "parentUid" : "070006062e268f6449ad083eb8da6985",
-        "status" : "passed",
-        "time" : {
-          "start" : 1637223338170,
-          "stop" : 1637223340800,
-          "duration" : 2630
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "购买video套餐2支付弹窗测试",
-        "uid" : "6902d8a8d931efd2",
-        "parentUid" : "070006062e268f6449ad083eb8da6985",
-        "status" : "passed",
-        "time" : {
-          "start" : 1637223341957,
-          "stop" : 1637223344732,
-          "duration" : 2775
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "购买video套餐3支付弹窗测试",
-        "uid" : "bddb57e733b54d7b",
-        "parentUid" : "070006062e268f6449ad083eb8da6985",
-        "status" : "passed",
-        "time" : {
-          "start" : 1637223345897,
-          "stop" : 1637223348108,
-          "duration" : 2211
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "video套餐价格测试",
-        "uid" : "d4c560eb677f794a",
-        "parentUid" : "070006062e268f6449ad083eb8da6985",
-        "status" : "passed",
-        "time" : {
-          "start" : 1637223349335,
-          "stop" : 1637223350573,
-          "duration" : 1238
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "购买pmm套餐1支付弹窗测试",
-        "uid" : "d84fb633a6d82095",
-        "parentUid" : "070006062e268f6449ad083eb8da6985",
-        "status" : "passed",
-        "time" : {
-          "start" : 1637223356739,
-          "stop" : 1637223363606,
-          "duration" : 6867
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "pmm套餐价格测试",
-        "uid" : "e701fe77e8133564",
-        "parentUid" : "070006062e268f6449ad083eb8da6985",
-        "status" : "passed",
-        "time" : {
-          "start" : 1637223364844,
-          "stop" : 1637223366102,
-          "duration" : 1258
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "购买pmm套餐3支付弹窗测试",
-        "uid" : "3951f0e9b70352f6",
-        "parentUid" : "070006062e268f6449ad083eb8da6985",
-        "status" : "passed",
-        "time" : {
-          "start" : 1637223380469,
-          "stop" : 1637223382831,
-          "duration" : 2362
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "切换家庭永久套餐测试",
-        "uid" : "3ba82553c07b8468",
-        "parentUid" : "070006062e268f6449ad083eb8da6985",
-        "status" : "broken",
-        "time" : {
-          "start" : 1637223392259,
-          "stop" : 1637223426108,
-          "duration" : 33849
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "购买video套餐1支付弹窗测试",
-        "uid" : "61f0b2f06e2e6fd5",
-        "parentUid" : "070006062e268f6449ad083eb8da6985",
-        "status" : "passed",
-        "time" : {
-          "start" : 1637223413831,
-          "stop" : 1637223416863,
-          "duration" : 3032
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "切换个人永久套餐测试",
-        "uid" : "1476650189e7f2e9",
-        "parentUid" : "070006062e268f6449ad083eb8da6985",
-        "status" : "broken",
-        "time" : {
-          "start" : 1637223469837,
-          "stop" : 1637223469837,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "070006062e268f6449ad083eb8da6985"
-    }, {
-      "name" : "Store主页内容测试",
-      "children" : [ {
-        "name" : "pmm购买页面填写正确优惠码测试",
-        "uid" : "95922d5d7eb5594",
-        "parentUid" : "e941039f6c813950d3281675e6e94e07",
-        "status" : "passed",
-        "time" : {
-          "start" : 1637223367248,
-          "stop" : 1637223381014,
-          "duration" : 13766
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'testnewpmm'", "0.0" ]
-      }, {
-        "name" : "pmm购买页面添加支付卡信息错误测试",
-        "uid" : "c17d65d7105bb118",
-        "parentUid" : "e941039f6c813950d3281675e6e94e07",
-        "status" : "passed",
-        "time" : {
-          "start" : 1637223382333,
-          "stop" : 1637223402284,
-          "duration" : 19951
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'您输入的名称无效。'", "''", "''", "''", "''", "''" ]
-      }, {
-        "name" : "video购买页面移除优惠码测试",
-        "uid" : "821bb37fab696c02",
-        "parentUid" : "e941039f6c813950d3281675e6e94e07",
-        "status" : "passed",
-        "time" : {
-          "start" : 1637223384017,
-          "stop" : 1637223398097,
-          "duration" : 14080
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'testnewpmm'" ]
-      } ],
-      "uid" : "e941039f6c813950d3281675e6e94e07"
-    } ],
-    "uid" : "0cddf83003600142888c51e4932e5352"
-  }, {
-    "name" : "PowerMyMac下拉栏中页面测试",
-    "children" : [ {
-      "name" : "mac-cleaner页面内容测试",
-      "children" : [ {
-        "name" : "footbuy导航栏下进入buy页面测试",
-        "uid" : "bb656dd985069fc4",
-        "parentUid" : "f341b1a34c7a07793d671634f33289db",
-        "status" : "passed",
-        "time" : {
-          "start" : 1637223359800,
-          "stop" : 1637223375099,
-          "duration" : 15299
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "f341b1a34c7a07793d671634f33289db"
-    } ],
-    "uid" : "016822b8e93f17afa4e162f3b11b872d"
-  }, {
-    "name" : "文章搜索页面测试",
-    "children" : [ {
-      "name" : "文章搜索页面功能测试",
-      "children" : [ {
-        "name" : "标签栏测试",
-        "uid" : "fd37411e849df1e5",
-        "parentUid" : "5896064e352734b3d97bff0b5ca6bad8",
-        "status" : "broken",
-        "time" : {
-          "start" : 1637223381284,
-          "stop" : 1637223411625,
-          "duration" : 30341
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'Cleaner'" ]
-      } ],
-      "uid" : "5896064e352734b3d97bff0b5ca6bad8"
-    } ],
-    "uid" : "fc3aeb603bdd8c5aa8a44697e2416205"
+    "uid" : "5003aef5f695a04bb65ac9ec2ba249df"
   } ]
 }

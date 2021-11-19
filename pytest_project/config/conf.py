@@ -90,7 +90,11 @@ class ConfigManager(object):
         screen_file = os.path.join(screenshot_dir, '{}.png'.format(now_time))
         return now_time, screen_file
 
+    @property
+    def VPN_Switch(self):
+        return sys.platform.startswith('win')
+
 
 cm = ConfigManager()
 if __name__ == '__main__':
-    print(cm.BASE_DIR)
+    print(cm.VPN_Switch)

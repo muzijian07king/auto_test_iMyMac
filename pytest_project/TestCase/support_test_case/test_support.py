@@ -1,3 +1,4 @@
+from pytest_project.config.conf import cm
 from pytest_project.page_object.support.support_page import SupportPage
 from pytest_project.common.readconfig import ini
 import pytest, allure
@@ -75,6 +76,7 @@ class TestBody(object):
         assert self.driver.return_fold_item_class()
 
     @pytest.mark.parametrize('search', getExcelOneCol('搜索文章', 1, 'Support/support.xlsx'))
+    @pytest.mark.skipif(cm.VPN_Switch, reason='阿里云没有VPN')
     @allure.title('sales搜索文章测试')
     def test_009(self, search):
         """sales搜索文章功能测试"""
@@ -85,6 +87,7 @@ class TestBody(object):
         assert self.driver.return_succeed_search(search)
 
     @pytest.mark.parametrize('search', getExcelOneCol('搜索文章', 1, 'Support/support.xlsx'))
+    @pytest.mark.skipif(cm.VPN_Switch, reason='阿里云没有VPN')
     @allure.title('product搜索文章测试')
     def test_010(self, search):
         """product搜索文章功能测试"""
@@ -95,6 +98,7 @@ class TestBody(object):
         assert self.driver.return_succeed_search(search)
 
     @pytest.mark.parametrize('search', getExcelOneCol('搜索不到文章', 1, 'Support/support.xlsx'))
+    @pytest.mark.skipif(cm.VPN_Switch, reason='阿里云没有VPN')
     @allure.title('sales搜索不到文章测试')
     @allure.severity('normal')
     def test_011(self, search):
@@ -106,6 +110,7 @@ class TestBody(object):
         assert self.driver.return_fail_search()
 
     @pytest.mark.parametrize('search',  getExcelOneCol('搜索不到文章', 1, 'Support/support.xlsx'))
+    @pytest.mark.skipif(cm.VPN_Switch, reason='阿里云没有VPN')
     @allure.title('product搜索不到文章测试')
     @allure.severity('normal')
     def test_012(self, search):

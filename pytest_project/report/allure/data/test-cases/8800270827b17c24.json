@@ -1,0 +1,311 @@
+{
+  "uid" : "8800270827b17c24",
+  "name" : "折叠faq测试",
+  "fullName" : "TestCase.faq_test_case.test_index.TestBody#test_003",
+  "historyId" : "4ac3c65cd1b70df051e50d783811627c",
+  "time" : {
+    "start" : 1637303045290,
+    "stop" : 1637303048770,
+    "duration" : 3480
+  },
+  "description" : "sales折叠faq功能测试",
+  "descriptionHtml" : "<p>sales折叠faq功能测试</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1637303020678,
+      "stop" : 1637303020799,
+      "duration" : 121
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1637303020800,
+      "stop" : 1637303020800,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1637303020800,
+      "stop" : 1637303020800,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1637303020800,
+      "stop" : 1637303023816,
+      "duration" : 3016
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1637303023816,
+      "stop" : 1637303023816,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1637303043974,
+      "stop" : 1637303043974,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "open_url",
+    "time" : {
+      "start" : 1637303043974,
+      "stop" : 1637303045289,
+      "duration" : 1315
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "sales折叠faq功能测试",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击PowerMyMac常见问题项",
+      "time" : {
+        "start" : 1637303045291,
+        "stop" : 1637303046681,
+        "duration" : 1390
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "折叠第二个faq",
+      "time" : {
+        "start" : 1637303046681,
+        "stop" : 1637303048755,
+        "duration" : 2074
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "判断是否成功折叠",
+      "time" : {
+        "start" : 1637303048755,
+        "stop" : 1637303048770,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "b158a69405b0641c",
+      "name" : "log",
+      "source" : "b158a69405b0641c.txt",
+      "type" : "text/plain",
+      "size" : 738
+    }, {
+      "uid" : "300e645c2a0708aa",
+      "name" : "stderr",
+      "source" : "300e645c2a0708aa.txt",
+      "type" : "text/plain",
+      "size" : 795
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1637303084249,
+      "stop" : 1637303086293,
+      "duration" : 2044
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "FAQ页面测试"
+  }, {
+    "name" : "story",
+    "value" : "各个模块常见问题测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.faq_test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_index"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBody"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "4144-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.faq_test_case.test_index"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "faq_name",
+    "value" : "'PowerMyMac'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "3b7270d0123f2278",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/3b7270d0123f2278",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637045096673,
+          "stop" : 1637045100247,
+          "duration" : 3574
+        }
+      }, {
+        "uid" : "36fc47db14cdc4d6",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/26/allure/#testresult/36fc47db14cdc4d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637042963126,
+          "stop" : 1637042966703,
+          "duration" : 3577
+        }
+      }, {
+        "uid" : "1d87f7e43c286693",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/25/allure/#testresult/1d87f7e43c286693",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637041810089,
+          "stop" : 1637041813684,
+          "duration" : 3595
+        }
+      }, {
+        "uid" : "c9989239ba3ef20b",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/23/allure/#testresult/c9989239ba3ef20b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636967290956,
+          "stop" : 1636967295273,
+          "duration" : 4317
+        }
+      }, {
+        "uid" : "8f7c969837766930",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/22/allure/#testresult/8f7c969837766930",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636940512979,
+          "stop" : 1636940516441,
+          "duration" : 3462
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8800270827b17c24.json",
+  "parameterValues" : [ "'PowerMyMac'" ]
+}

@@ -2,6 +2,7 @@ import allure
 import pytest
 
 from pytest_project.common.readconfig import ini
+from pytest_project.config.conf import cm
 
 from pytest_project.page_object.index.head_page import HeadPage
 from pytest_project.common.readelement import Element, get_recursion_key
@@ -57,6 +58,7 @@ class TestHead(object):
     @allure.tag('搜索文章')
     @allure.severity('critical')
     @pytest.mark.parametrize('text', ['Video', ' '])
+    @pytest.mark.skipif(cm.VPN_Switch, reason='阿里云没有VPN')
     def test_004(self, text):
         """搜索栏输入关键字搜索测试"""
         allure.dynamic.title('测试输入{}关键字'.format(text))

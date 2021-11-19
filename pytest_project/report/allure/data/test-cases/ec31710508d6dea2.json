@@ -1,0 +1,314 @@
+{
+  "uid" : "ec31710508d6dea2",
+  "name" : "展开faq测试",
+  "fullName" : "TestCase.faq_test_case.test_index.TestBody#test_002",
+  "historyId" : "31ccca57fc1cb7e05390af2a1a513560",
+  "time" : {
+    "start" : 1637303068236,
+    "stop" : 1637303070932,
+    "duration" : 2696
+  },
+  "description" : "展开faq功能测试",
+  "descriptionHtml" : "<p>展开faq功能测试</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1637303020678,
+      "stop" : 1637303020798,
+      "duration" : 120
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1637303020798,
+      "stop" : 1637303020798,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1637303020798,
+      "stop" : 1637303020798,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1637303020798,
+      "stop" : 1637303024018,
+      "duration" : 3220
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1637303024018,
+      "stop" : 1637303024018,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1637303066960,
+      "stop" : 1637303066961,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "open_url",
+    "time" : {
+      "start" : 1637303066961,
+      "stop" : 1637303068235,
+      "duration" : 1274
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "展开faq功能测试",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击General-FAQs常见问题项",
+      "time" : {
+        "start" : 1637303068236,
+        "stop" : 1637303069871,
+        "duration" : 1635
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "展开第二个faq",
+      "time" : {
+        "start" : 1637303069871,
+        "stop" : 1637303070909,
+        "duration" : 1038
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "判断是否成功展开",
+      "time" : {
+        "start" : 1637303070909,
+        "stop" : 1637303070932,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "4bd8c05585c46683",
+      "name" : "log",
+      "source" : "4bd8c05585c46683.txt",
+      "type" : "text/plain",
+      "size" : 613
+    }, {
+      "uid" : "b6ebdbe021b9046a",
+      "name" : "stderr",
+      "source" : "b6ebdbe021b9046a.txt",
+      "type" : "text/plain",
+      "size" : 662
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1637303085952,
+      "stop" : 1637303087991,
+      "duration" : 2039
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "展开General-FAQs的faq"
+  }, {
+    "name" : "story",
+    "value" : "各个模块常见问题测试"
+  }, {
+    "name" : "feature",
+    "value" : "FAQ页面测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.faq_test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_index"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBody"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "6644-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.faq_test_case.test_index"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "faq_name",
+    "value" : "'General-FAQs'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "f0c626630f07622b",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/f0c626630f07622b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637045090605,
+          "stop" : 1637045093308,
+          "duration" : 2703
+        }
+      }, {
+        "uid" : "2d7fc494c8423c74",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/26/allure/#testresult/2d7fc494c8423c74",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637042956062,
+          "stop" : 1637042959086,
+          "duration" : 3024
+        }
+      }, {
+        "uid" : "bdfddb579f633e3e",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/25/allure/#testresult/bdfddb579f633e3e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637041803941,
+          "stop" : 1637041806715,
+          "duration" : 2774
+        }
+      }, {
+        "uid" : "13d697cacccf7a29",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/23/allure/#testresult/13d697cacccf7a29",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636967282797,
+          "stop" : 1636967286090,
+          "duration" : 3293
+        }
+      }, {
+        "uid" : "ba8eee24c6d4b419",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/22/allure/#testresult/ba8eee24c6d4b419",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636940507408,
+          "stop" : 1636940509936,
+          "duration" : 2528
+        }
+      } ]
+    },
+    "tags" : [ "展开General-FAQs的faq" ]
+  },
+  "source" : "ec31710508d6dea2.json",
+  "parameterValues" : [ "'General-FAQs'" ]
+}

@@ -54,13 +54,13 @@ class ReadConfig(object):
     def get_url_all(self):
         return self._getAll(HOST)
 
+
 '''
 饿汉式
 '''
 ini = ReadConfig()
 
 if __name__ == '__main__':
-
     # list_url = ini.get_url_all
     # for i in range(len(list_url)):
     #     for j in range(len(list_url[0])):

@@ -1,41 +1,8 @@
 {
-  "total" : 4,
+  "total" : 1,
   "items" : [ {
-    "uid" : "0cddf83003600142888c51e4932e5352",
-    "name" : "Store页面测试",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 2
-    }
-  }, {
-    "uid" : "fc3aeb603bdd8c5aa8a44697e2416205",
-    "name" : "文章搜索页面测试",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "830984583063d73ef6940169959a6880",
-    "name" : "首页测试",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "016822b8e93f17afa4e162f3b11b872d",
-    "name" : "PowerMyMac下拉栏中页面测试",
+    "uid" : "5003aef5f695a04bb65ac9ec2ba249df",
+    "name" : "FAQ页面测试",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

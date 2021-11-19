@@ -1,0 +1,7 @@
+INFO	2021-11-19 14:24:04,143	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-19 14:24:04,144	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-19 14:24:04,144	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-19 14:24:05,878	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(5)>a')
+INFO	2021-11-19 14:24:06,919	[basepage.py:90]	点击元素：('css', 'body>div.container>div:nth-child(2)>div:nth-child(1)>div>div:nth-child(2)>p')
+INFO	2021-11-19 14:24:07,961	[basepage.py:90]	点击元素：('css', 'body>div.container>div:nth-child(2)>div:nth-child(1)>div>div:nth-child(2)>p')
+INFO	2021-11-19 14:24:08,983	[basepage.py:134]	获取到class元素的值==》faqItem
