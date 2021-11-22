@@ -92,7 +92,7 @@ class ConfigManager(object):
 
     @property
     def VPN_Switch(self):
-        return sys.platform.startswith('win')
+        return sys.platform.startswith('linux')
 
 
 cm = ConfigManager()
