@@ -4,7 +4,7 @@ source-content: 'css=div:nth-child(1)>div:nth-child(1)>div>div>a.gs-title'   #�
 source-text: "css=span[class$='query']"    #google搜索的关键字
 topics:    #左侧栏标签
   Eraser: 'css=body>div.container>div:nth-child(2)>div>div:nth-child(2)>a:nth-child(1)'
-  Cleaner: 'css=body>div.container)>div:nth-child(2)>div>div:nth-child(2)>a:nth-child(2)'
+  Cleaner: 'css=body>div.container>div:nth-child(2)>div>div:nth-child(2)>a:nth-child(2)'
   iTunes: 'css=body>div.container>div:nth-child(2)>div>div:nth-child(2)>a:nth-child(3)'
   iCloud: 'css=body>div.container>div:nth-child(2)>div>div:nth-child(2)>a:nth-child(4)'
   Duplicate: 'css=body>div.container>div:nth-child(2)>div>div:nth-child(3)>a:nth-child(1)'
