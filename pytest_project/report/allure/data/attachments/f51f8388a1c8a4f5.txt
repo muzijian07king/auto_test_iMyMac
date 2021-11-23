@@ -1,0 +1,37 @@
+[32mINFO    [0m root:basepage.py:32 打开网页https://www.imymac.com/faqs.html
+[32mINFO    [0m root:basepage.py:226 关闭黑色星期五优惠链接
+[32mINFO    [0m root:basepage.py:153 使用js操控浏览器==》document.querySelector('div.close-tag').click()
+[32mINFO    [0m root:basepage.py:90 点击元素：('css', 'body>div.container>div>div>div:nth-child(2)>a')
+[32mINFO    [0m root:basepage.py:82 输入文本：java
+[32mINFO    [0m root:basepage.py:90 点击元素：('css', 'body>div.faqBG>div>div>form>button')
+[32mINFO    [0m root:basepage.py:96 获取到文本：How Do I Uninstall Java on Mac?
+www.imymac.com › PowerMyMac
+Aug 6, 2021 ... Uninstalling Java on Mac only involves three steps. But, these should be done manually as well as removing variously related plug-ins found ...
+Hoe u Java eenvoudig en snel op Mac kunt installeren
+www.imymac.com › ... › How to Install Java on Mac Easily and Quickly
+Creating Kubernetes docker containers allows Java programmers to easily bundle as well as distribute cloud-based services across different cloud settings, then ...
+كيف يمكنني إلغاء تثبيت Java على جهاز Mac؟
+www.imymac.com › PowerMyMac › How Do I Uninstall Java on Mac?
+ومع ذلك ، توقف Mac عن استخدام جافا على نظام التشغيل الخاص به بسبب مشكلات أمنية. قم بإلغاء تثبيت Java على Mac. الجزء 2. قم بإلغاء تثبيت Java على Mac باستخدام ...
+Come disinstallare Java su Mac?
+www.imymac.com › PowerMyMac
+Come si disinstalla Java sul Mac? Qui, imparerai come rimuovere e eliminare completamente Java su Mac e offriamo tool Uninstaller per disinstallalzione ...
+Hoe verwijder ik Java op Mac?
+www.imymac.com › PowerMyMac › How Do I Uninstall Java on Mac?
+Enkele krachtige tools die u mogelijk enige tijd nodig heeft. Daarom wilt u ze verwijderen voor meer opslagruimte. Hier leert u hoe u Java op Mac ...
+Como faço para desinstalar o Java no Mac?
+www.imymac.com › PowerMyMac › How Do I Uninstall Java on Mac?
+Oct 14, 2020 ... O que é Java? A maioria dos navegadores e programas que normalmente usamos precisam Java para funcionar sem problemas. Java é um software ...
+Как удалить Java на Mac?
+www.imymac.com › PowerMyMac › How Do I Uninstall Java on Mac?
+Aug 6, 2021 ... Но это следует делать вручную, а также удалять различные связанные плагины, обнаруженные в macOS. Узнайте, как вы можете удалить Java на Mac ...
+¿Cómo desinstalo Java en Mac?
+www.imymac.com › PowerMyMac
+Aug 6, 2021 ... Desinstalar Java en Mac solo implica tres pasos. Pero, estos deben hacerse manualmente, así como eliminar los complementos relacionados de ...
+Jak odinstalować Javę na komputerze Mac?
+www.imymac.com › PowerMyMac › How Do I Uninstall Java on Mac?
+Wtyczki związane z Javą są rozproszone i znalezienie każdego z nich może być skomplikowane. Jest inny sposób odinstaluj Java na Macu i to znaczy korzystać z ...
+如何在Mac上卸载Java？
+www.imymac.com › PowerMyMac › How Do I Uninstall Java on Mac?
+Jun 28, 2021 ... 虽然卸载java只需要几个步骤，但是当我们将它从Mac上完全删除时，我们通常会执行的常规应用程序与此过程不同。 Java是非常有用的软件，但已被标记为易受 ...
+[32mINFO    [0m root:basepage.py:96 获取到文本：java
