@@ -1,0 +1,308 @@
+{
+  "uid" : "348a5a1bc97248a4",
+  "name" : "menu导航栏cleaner的下载测试",
+  "fullName" : "TestCase.powermymac_test_case.test_ppm.TestBody#test_009",
+  "historyId" : "6b3133de576cb2e81875138c99ceac87",
+  "time" : {
+    "start" : 1637660640561,
+    "stop" : 1637660645666,
+    "duration" : 5105
+  },
+  "description" : "点击menu下的下载链接",
+  "descriptionHtml" : "<p>点击menu下的下载链接</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1637660374487,
+      "stop" : 1637660374671,
+      "duration" : 184
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1637660374671,
+      "stop" : 1637660374671,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1637660374671,
+      "stop" : 1637660374671,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1637660374671,
+      "stop" : 1637660377597,
+      "duration" : 2926
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1637660377598,
+      "stop" : 1637660377598,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1637660639480,
+      "stop" : 1637660639480,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "open_clear",
+    "time" : {
+      "start" : 1637660639480,
+      "stop" : 1637660640560,
+      "duration" : 1080
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "点击menu下的下载链接",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "页面滑动到menu上",
+      "time" : {
+        "start" : 1637660640562,
+        "stop" : 1637660643808,
+        "duration" : 3246
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击下载链接",
+      "time" : {
+        "start" : 1637660643808,
+        "stop" : 1637660645662,
+        "duration" : 1854
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "loc",
+        "value" : "('css', 'body>div.menu>div>div>a:nth-child(3)')"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "判断下载是否成功",
+      "time" : {
+        "start" : 1637660645662,
+        "stop" : 1637660645664,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "78c79bc02228fe9a",
+      "name" : "log",
+      "source" : "78c79bc02228fe9a.txt",
+      "type" : "text/plain",
+      "size" : 561
+    }, {
+      "uid" : "f5f5a6935e84a7b",
+      "name" : "stderr",
+      "source" : "f5f5a6935e84a7b.txt",
+      "type" : "text/plain",
+      "size" : 610
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1637661250971,
+      "stop" : 1637661253061,
+      "duration" : 2090
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "点击下载按钮"
+  }, {
+    "name" : "story",
+    "value" : "pmm页面内容测试"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "PowerMyMac下拉栏中页面测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.powermymac_test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_ppm"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBody"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "16552-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.powermymac_test_case.test_ppm"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "bb1d196efa5b6c6a",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/bb1d196efa5b6c6a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637045211393,
+          "stop" : 1637045218446,
+          "duration" : 7053
+        }
+      }, {
+        "uid" : "96c4bfb46bfd73",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/26/allure/#testresult/96c4bfb46bfd73",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637043961899,
+          "stop" : 1637044004352,
+          "duration" : 42453
+        }
+      }, {
+        "uid" : "fb61660896bfb88",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/23/allure/#testresult/fb61660896bfb88",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636967432778,
+          "stop" : 1636967437273,
+          "duration" : 4495
+        }
+      }, {
+        "uid" : "db168a56b97d6b3e",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/22/allure/#testresult/db168a56b97d6b3e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636940625215,
+          "stop" : 1636940630550,
+          "duration" : 5335
+        }
+      } ]
+    },
+    "tags" : [ "点击下载按钮" ]
+  },
+  "source" : "348a5a1bc97248a4.json",
+  "parameterValues" : [ ]
+}

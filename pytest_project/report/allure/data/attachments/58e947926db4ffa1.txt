@@ -1,0 +1,7 @@
+INFO	2021-11-23 17:54:09,883	[basepage.py:32]	打开网页https://www.imymac.com/video-converter/tech.html
+INFO	2021-11-23 17:54:09,883	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-23 17:54:09,883	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-23 17:54:10,906	[basepage.py:159]	页面滚到元素('css', 'body > div>div.w780>div.tipsBox')
+INFO	2021-11-23 17:54:11,925	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-23 17:54:14,658	[basepage.py:90]	点击元素：('css', 'body > div>div.w780>div.tipsBox>a:nth-child(7)')
+INFO	2021-11-23 17:54:15,679	[basepage.py:96]	获取到文本：How to Rotate A Video 90 Degrees on Mac?

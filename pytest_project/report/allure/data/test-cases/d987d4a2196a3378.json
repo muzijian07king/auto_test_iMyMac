@@ -1,0 +1,296 @@
+{
+  "uid" : "d987d4a2196a3378",
+  "name" : "测试Support链接",
+  "fullName" : "TestCase.index_test_case.test_head.TestHead#test_001",
+  "historyId" : "bd0c7ad59d1cc8c8e9ad1842fdfca7c1",
+  "time" : {
+    "start" : 1637660524041,
+    "stop" : 1637660526905,
+    "duration" : 2864
+  },
+  "description" : "点击网站logo链接",
+  "descriptionHtml" : "<p>点击网站logo链接</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1637660374485,
+      "stop" : 1637660374680,
+      "duration" : 195
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1637660374680,
+      "stop" : 1637660374680,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1637660374681,
+      "stop" : 1637660374681,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1637660374681,
+      "stop" : 1637660377392,
+      "duration" : 2711
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1637660377392,
+      "stop" : 1637660377392,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1637660522870,
+      "stop" : 1637660522871,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "open_index",
+    "time" : {
+      "start" : 1637660522871,
+      "stop" : 1637660524040,
+      "duration" : 1169
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "打开谷歌浏览器进入官网",
+      "time" : {
+        "start" : 1637660522871,
+        "stop" : 1637660524039,
+        "duration" : 1168
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "drivers",
+        "value" : "<selenium.webdriver.chrome.webdriver.WebDriver (session=\"1987d6d882283abc5974c63b07a85043\")>"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "点击网站logo链接",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击Support超链接",
+      "time" : {
+        "start" : 1637660524042,
+        "stop" : 1637660526896,
+        "duration" : 2854
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "f6d7db1b6cf5f204",
+      "name" : "log",
+      "source" : "f6d7db1b6cf5f204.txt",
+      "type" : "text/plain",
+      "size" : 403
+    }, {
+      "uid" : "7a5380f10c90e12",
+      "name" : "stderr",
+      "source" : "7a5380f10c90e12.txt",
+      "type" : "text/plain",
+      "size" : 444
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1637661250216,
+      "stop" : 1637661252349,
+      "duration" : 2133
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "导航栏测试"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "链接测试"
+  }, {
+    "name" : "feature",
+    "value" : "首页测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.index_test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_head"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestHead"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "24136-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.index_test_case.test_head"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "link",
+    "value" : "'Support'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "d435ae3e522dc0d5",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/d435ae3e522dc0d5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637045177396,
+          "stop" : 1637045178972,
+          "duration" : 1576
+        }
+      }, {
+        "uid" : "d610e768402e25a6",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/26/allure/#testresult/d610e768402e25a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637043035985,
+          "stop" : 1637043037586,
+          "duration" : 1601
+        }
+      }, {
+        "uid" : "8045292ffce59cc5",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/23/allure/#testresult/8045292ffce59cc5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636967388623,
+          "stop" : 1636967397534,
+          "duration" : 8911
+        }
+      }, {
+        "uid" : "5d6fd6d5779c952d",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/22/allure/#testresult/5d6fd6d5779c952d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636940624041,
+          "stop" : 1636940625718,
+          "duration" : 1677
+        }
+      } ]
+    },
+    "tags" : [ "链接测试" ]
+  },
+  "source" : "d987d4a2196a3378.json",
+  "parameterValues" : [ "'Support'" ]
+}

@@ -1,0 +1,305 @@
+{
+  "uid" : "ecea42ee65f6c930",
+  "name" : "购买pmm套餐3支付弹窗测试",
+  "fullName" : "TestCase.store_test_case.test_buy_option.TestBody#test_003",
+  "historyId" : "c19599e844aad7f6646d3f65dd2aa6f7",
+  "time" : {
+    "start" : 1637660901891,
+    "stop" : 1637660904048,
+    "duration" : 2157
+  },
+  "description" : "购买pmm套餐3支付弹窗功能测试",
+  "descriptionHtml" : "<p>购买pmm套餐3支付弹窗功能测试</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1637660374487,
+      "stop" : 1637660374673,
+      "duration" : 186
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1637660374673,
+      "stop" : 1637660374674,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1637660374674,
+      "stop" : 1637660374674,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1637660374674,
+      "stop" : 1637660377968,
+      "duration" : 3294
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1637660377969,
+      "stop" : 1637660377969,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "open_url",
+    "time" : {
+      "start" : 1637660900814,
+      "stop" : 1637660901891,
+      "duration" : 1077
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1637660900814,
+      "stop" : 1637660900814,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "购买pmm套餐3支付弹窗功能测试",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击pmm的更多选项按钮",
+      "time" : {
+        "start" : 1637660901892,
+        "stop" : 1637660902980,
+        "duration" : 1088
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "单击购买套餐3按钮",
+      "time" : {
+        "start" : 1637660902980,
+        "stop" : 1637660904039,
+        "duration" : 1059
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "判断是否弹出支付弹窗",
+      "time" : {
+        "start" : 1637660904039,
+        "stop" : 1637660904047,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "b2b04825de5d3c8b",
+      "name" : "log",
+      "source" : "b2b04825de5d3c8b.txt",
+      "type" : "text/plain",
+      "size" : 511
+    }, {
+      "uid" : "ce695cf244aa0313",
+      "name" : "stderr",
+      "source" : "ce695cf244aa0313.txt",
+      "type" : "text/plain",
+      "size" : 552
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1637661252250,
+      "stop" : 1637661254329,
+      "duration" : 2079
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "购买套餐3"
+  }, {
+    "name" : "feature",
+    "value" : "Store页面测试"
+  }, {
+    "name" : "story",
+    "value" : "套餐购买页面内容测试"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.store_test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_buy_option"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBody"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "22336-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.store_test_case.test_buy_option"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "d17558346abfdc79",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/d17558346abfdc79",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637045385053,
+          "stop" : 1637045387195,
+          "duration" : 2142
+        }
+      }, {
+        "uid" : "653a945ce583ad99",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/26/allure/#testresult/653a945ce583ad99",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637043532235,
+          "stop" : 1637043534506,
+          "duration" : 2271
+        }
+      }, {
+        "uid" : "532e109a44a807f6",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/23/allure/#testresult/532e109a44a807f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636967711953,
+          "stop" : 1636967714113,
+          "duration" : 2160
+        }
+      }, {
+        "uid" : "37a5b4077afdf469",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/22/allure/#testresult/37a5b4077afdf469",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636940767374,
+          "stop" : 1636940769522,
+          "duration" : 2148
+        }
+      } ]
+    },
+    "tags" : [ "购买套餐3" ]
+  },
+  "source" : "ecea42ee65f6c930.json",
+  "parameterValues" : [ ]
+}

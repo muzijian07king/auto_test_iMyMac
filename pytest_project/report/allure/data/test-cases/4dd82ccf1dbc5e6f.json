@@ -1,0 +1,287 @@
+{
+  "uid" : "4dd82ccf1dbc5e6f",
+  "name" : "点击更多测试",
+  "fullName" : "TestCase.sitemap_test_case.test_sitemap.TestBody#test_013",
+  "historyId" : "adbb8c84291e9c26d35fa9c99814f3dd",
+  "time" : {
+    "start" : 1637660929553,
+    "stop" : 1637660931893,
+    "duration" : 2340
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1637660374485,
+      "stop" : 1637660374680,
+      "duration" : 195
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1637660374680,
+      "stop" : 1637660374680,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1637660374681,
+      "stop" : 1637660374681,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1637660374681,
+      "stop" : 1637660377392,
+      "duration" : 2711
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1637660377392,
+      "stop" : 1637660377392,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1637660928486,
+      "stop" : 1637660928486,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "open_url",
+    "time" : {
+      "start" : 1637660928486,
+      "stop" : 1637660929551,
+      "duration" : 1065
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击Mac Uninstaller栏下的更多按钮",
+      "time" : {
+        "start" : 1637660929553,
+        "stop" : 1637660931877,
+        "duration" : 2324
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "判断更多按钮是否跳转",
+      "time" : {
+        "start" : 1637660931877,
+        "stop" : 1637660931892,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "f3496ede2ac65a95",
+      "name" : "log",
+      "source" : "f3496ede2ac65a95.txt",
+      "type" : "text/plain",
+      "size" : 471
+    }, {
+      "uid" : "73bbd91fe1b97a0f",
+      "name" : "stderr",
+      "source" : "73bbd91fe1b97a0f.txt",
+      "type" : "text/plain",
+      "size" : 512
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1637661250216,
+      "stop" : 1637661252349,
+      "duration" : 2133
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Mac Uninstaller下的更多"
+  }, {
+    "name" : "feature",
+    "value" : "网址地图页面测试"
+  }, {
+    "name" : "story",
+    "value" : "功能测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.sitemap_test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_sitemap"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBody"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "24136-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.sitemap_test_case.test_sitemap"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "title",
+    "value" : "'Mac Uninstaller'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "fc4092016c427e55",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/fc4092016c427e55",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637045388367,
+          "stop" : 1637045390026,
+          "duration" : 1659
+        }
+      }, {
+        "uid" : "c67209cdc025e700",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/26/allure/#testresult/c67209cdc025e700",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637043499101,
+          "stop" : 1637043500682,
+          "duration" : 1581
+        }
+      }, {
+        "uid" : "6a565bb5d2e0ef2e",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/23/allure/#testresult/6a565bb5d2e0ef2e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636967612595,
+          "stop" : 1636967614408,
+          "duration" : 1813
+        }
+      }, {
+        "uid" : "3fcda124023e642a",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/22/allure/#testresult/3fcda124023e642a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636940749270,
+          "stop" : 1636940750916,
+          "duration" : 1646
+        }
+      } ]
+    },
+    "tags" : [ "Mac Uninstaller下的更多" ]
+  },
+  "source" : "4dd82ccf1dbc5e6f.json",
+  "parameterValues" : [ "'Mac Uninstaller'" ]
+}

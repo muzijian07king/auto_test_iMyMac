@@ -1,0 +1,269 @@
+{
+  "uid" : "7052ae18ee8642ea",
+  "name" : "产品链接测试",
+  "fullName" : "TestCase.sitemap_test_case.test_about.TestBody#test_001",
+  "historyId" : "a42e89559ea0d75916ffe83ac65ac38b",
+  "time" : {
+    "start" : 1637660751395,
+    "stop" : 1637660752666,
+    "duration" : 1271
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1637660374488,
+      "stop" : 1637660374678,
+      "duration" : 190
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1637660374679,
+      "stop" : 1637660374679,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1637660374680,
+      "stop" : 1637660374680,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1637660374681,
+      "stop" : 1637660377790,
+      "duration" : 3109
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1637660377790,
+      "stop" : 1637660377790,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "open_url",
+    "time" : {
+      "start" : 1637660750323,
+      "stop" : 1637660751393,
+      "duration" : 1070
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1637660750323,
+      "stop" : 1637660750323,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "判断产品链接是否正确",
+      "time" : {
+        "start" : 1637660752643,
+        "stop" : 1637660752666,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "1532f3ed2cfd466a",
+      "name" : "log",
+      "source" : "1532f3ed2cfd466a.txt",
+      "type" : "text/plain",
+      "size" : 470
+    }, {
+      "uid" : "61bff60ab8929b3c",
+      "name" : "stderr",
+      "source" : "61bff60ab8929b3c.txt",
+      "type" : "text/plain",
+      "size" : 511
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1637661255686,
+      "stop" : 1637661257775,
+      "duration" : 2089
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "关于我们功能测试"
+  }, {
+    "name" : "feature",
+    "value" : "网址地图页面测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.sitemap_test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_about"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBody"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "17960-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.sitemap_test_case.test_about"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "product",
+    "value" : "'Mac Cleaner'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "cc559ae372bff0aa",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/cc559ae372bff0aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637045289919,
+          "stop" : 1637045291107,
+          "duration" : 1188
+        }
+      }, {
+        "uid" : "b689177787625c4b",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/26/allure/#testresult/b689177787625c4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637043369622,
+          "stop" : 1637043370791,
+          "duration" : 1169
+        }
+      }, {
+        "uid" : "43a4b6df5ac99d83",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/23/allure/#testresult/43a4b6df5ac99d83",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636967496740,
+          "stop" : 1636967497938,
+          "duration" : 1198
+        }
+      }, {
+        "uid" : "3c7c77a52e05f456",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/22/allure/#testresult/3c7c77a52e05f456",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636940696335,
+          "stop" : 1636940698043,
+          "duration" : 1708
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7052ae18ee8642ea.json",
+  "parameterValues" : [ "'Mac Cleaner'" ]
+}

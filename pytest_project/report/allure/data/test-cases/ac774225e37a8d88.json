@@ -1,0 +1,296 @@
+{
+  "uid" : "ac774225e37a8d88",
+  "name" : "标签栏测试",
+  "fullName" : "TestCase.resource_test_case.test_resource.TestBody#test_003",
+  "historyId" : "95d5033309a0f8225e8c2ae41db64c50",
+  "time" : {
+    "start" : 1637660691238,
+    "stop" : 1637660693546,
+    "duration" : 2308
+  },
+  "description" : "标签栏功能测试",
+  "descriptionHtml" : "<p>标签栏功能测试</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1637660374488,
+      "stop" : 1637660374678,
+      "duration" : 190
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1637660374679,
+      "stop" : 1637660374679,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1637660374680,
+      "stop" : 1637660374680,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1637660374681,
+      "stop" : 1637660377790,
+      "duration" : 3109
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1637660377790,
+      "stop" : 1637660377790,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1637660688550,
+      "stop" : 1637660688551,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "open_url",
+    "time" : {
+      "start" : 1637660688551,
+      "stop" : 1637660691237,
+      "duration" : 2686
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "标签栏功能测试",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击左侧的标签",
+      "time" : {
+        "start" : 1637660691239,
+        "stop" : 1637660693516,
+        "duration" : 2277
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "topics",
+        "value" : "'Mac Tips'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "对标签进行检索",
+      "time" : {
+        "start" : 1637660693516,
+        "stop" : 1637660693546,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "8789c41ff235fd4d",
+      "name" : "log",
+      "source" : "8789c41ff235fd4d.txt",
+      "type" : "text/plain",
+      "size" : 471
+    }, {
+      "uid" : "460be4e6181c0c83",
+      "name" : "stderr",
+      "source" : "460be4e6181c0c83.txt",
+      "type" : "text/plain",
+      "size" : 512
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1637661255686,
+      "stop" : 1637661257775,
+      "duration" : 2089
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "点击标签==》Mac Tips"
+  }, {
+    "name" : "feature",
+    "value" : "文章搜索页面测试"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "文章搜索页面功能测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.resource_test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_resource"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBody"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "17960-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.resource_test_case.test_resource"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "topics",
+    "value" : "'Mac Tips'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "a5be7190e4a7534d",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/a5be7190e4a7534d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637045249762,
+          "stop" : 1637045251498,
+          "duration" : 1736
+        }
+      }, {
+        "uid" : "5cdfc9ea2e15af05",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/26/allure/#testresult/5cdfc9ea2e15af05",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637043310618,
+          "stop" : 1637043312396,
+          "duration" : 1778
+        }
+      }, {
+        "uid" : "e21722c60c7adba3",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/23/allure/#testresult/e21722c60c7adba3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636967451791,
+          "stop" : 1636967453537,
+          "duration" : 1746
+        }
+      }, {
+        "uid" : "47489332cebcc93c",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/22/allure/#testresult/47489332cebcc93c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636940662943,
+          "stop" : 1636940664559,
+          "duration" : 1616
+        }
+      } ]
+    },
+    "tags" : [ "点击标签==》Mac Tips" ]
+  },
+  "source" : "ac774225e37a8d88.json",
+  "parameterValues" : [ "'Mac Tips'" ]
+}

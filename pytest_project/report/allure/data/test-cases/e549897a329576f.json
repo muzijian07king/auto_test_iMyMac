@@ -1,0 +1,296 @@
+{
+  "uid" : "e549897a329576f",
+  "name" : "video编辑功能轮播图测试",
+  "fullName" : "TestCase.video_test_case.test_video_converter.TestBody#test_005",
+  "historyId" : "d48ffc9c9657cc2581a3925f8e12f949",
+  "time" : {
+    "start" : 1637661203353,
+    "stop" : 1637661207487,
+    "duration" : 4134
+  },
+  "description" : "video编辑功能轮播图功能测试",
+  "descriptionHtml" : "<p>video编辑功能轮播图功能测试</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1637660374487,
+      "stop" : 1637660374673,
+      "duration" : 186
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1637660374673,
+      "stop" : 1637660374674,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1637660374674,
+      "stop" : 1637660374674,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1637660374674,
+      "stop" : 1637660377968,
+      "duration" : 3294
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1637660377969,
+      "stop" : 1637660377969,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "open_clear",
+    "time" : {
+      "start" : 1637661202222,
+      "stop" : 1637661203351,
+      "duration" : 1129
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1637661202222,
+      "stop" : 1637661202222,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "video编辑功能轮播图功能测试",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "页面滑动到editing上",
+      "time" : {
+        "start" : 1637661203354,
+        "stop" : 1637661206414,
+        "duration" : 3060
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击editing切换按钮",
+      "time" : {
+        "start" : 1637661206414,
+        "stop" : 1637661207464,
+        "duration" : 1050
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "index",
+        "value" : "8"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "6f7f5abe4eb5a0ef",
+      "name" : "log",
+      "source" : "6f7f5abe4eb5a0ef.txt",
+      "type" : "text/plain",
+      "size" : 681
+    }, {
+      "uid" : "9efef46979a65b08",
+      "name" : "stderr",
+      "source" : "9efef46979a65b08.txt",
+      "type" : "text/plain",
+      "size" : 738
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1637661252250,
+      "stop" : 1637661254329,
+      "duration" : 2079
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "点击编辑功能轮播图第8个按钮"
+  }, {
+    "name" : "story",
+    "value" : "VideoConverter主页内容测试"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "VideoConverter页面测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.video_test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_video_converter"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBody"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "22336-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.video_test_case.test_video_converter"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "button_index",
+    "value" : "8"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "2346885a05eb5891",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/2346885a05eb5891",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637045893525,
+          "stop" : 1637045897643,
+          "duration" : 4118
+        }
+      }, {
+        "uid" : "201c87485ca44d1",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/26/allure/#testresult/201c87485ca44d1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637044293946,
+          "stop" : 1637044298072,
+          "duration" : 4126
+        }
+      }, {
+        "uid" : "947a0d59995f98f4",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/23/allure/#testresult/947a0d59995f98f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636968438399,
+          "stop" : 1636968442533,
+          "duration" : 4134
+        }
+      }, {
+        "uid" : "ea1c628e0b7f4cc7",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/22/allure/#testresult/ea1c628e0b7f4cc7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636941509116,
+          "stop" : 1636941513230,
+          "duration" : 4114
+        }
+      } ]
+    },
+    "tags" : [ "点击编辑功能轮播图第8个按钮" ]
+  },
+  "source" : "e549897a329576f.json",
+  "parameterValues" : [ "8" ]
+}

@@ -1,0 +1,5 @@
+[32mINFO    [0m root:basepage.py:32 打开网页https://www.imymac.com/sitemap/
+[32mINFO    [0m root:basepage.py:226 关闭黑色星期五优惠链接
+[32mINFO    [0m root:basepage.py:153 使用js操控浏览器==》document.querySelector('div.close-tag').click()
+[32mINFO    [0m root:basepage.py:90 点击元素：('css', 'body>div.whiteBG>div>div>div>div:nth-child(2)>ul>li:nth-child(1)>a')
+[32mINFO    [0m root:basepage.py:221 获取到title==>About Us

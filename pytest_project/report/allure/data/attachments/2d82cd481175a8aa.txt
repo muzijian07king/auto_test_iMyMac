@@ -1,0 +1,7 @@
+INFO	2021-11-23 17:45:27,274	[basepage.py:32]	打开网页https://www.imymac.com/similar-image-finder/
+INFO	2021-11-23 17:45:27,275	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-23 17:45:27,275	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-23 17:45:28,304	[basepage.py:159]	页面滚到元素('id', 'carousel-review')
+INFO	2021-11-23 17:45:29,358	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-23 17:45:31,447	[basepage.py:90]	点击元素：('css', '#carousel-review>ol>li:nth-child(2)>div')
+INFO	2021-11-23 17:45:32,486	[basepage.py:134]	获取到class元素的值==》item active

@@ -1,0 +1,8 @@
+INFO	2021-11-23 17:48:58,002	[basepage.py:32]	打开网页https://www.imymac.com/store/
+INFO	2021-11-23 17:48:58,003	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-23 17:48:58,003	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-23 17:48:59,070	[basepage.py:90]	点击元素：('css', '#video-converter-one-year')
+INFO	2021-11-23 17:49:00,071	[basepage.py:181]	切换frame==>pf_588082
+INFO	2021-11-23 17:49:01,155	[basepage.py:186]	下拉框value选择==》zh-Hans
+INFO	2021-11-23 17:49:02,081	[basepage.py:186]	下拉框value选择==》2
+INFO	2021-11-23 17:49:05,191	[basepage.py:96]	获取到文本：US$39.90

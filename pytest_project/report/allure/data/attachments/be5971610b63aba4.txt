@@ -1,0 +1,7 @@
+INFO	2021-11-23 17:43:02,428	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-23 17:43:02,429	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-23 17:43:02,429	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-23 17:43:03,530	[basepage.py:102]	鼠标悬停在('link', 'Online Tools')
+INFO	2021-11-23 17:43:03,828	[test_head.py:53]	点击OnlineTool下拉框
+INFO	2021-11-23 17:43:06,468	[basepage.py:90]	点击元素：('css', '#onlineLabel>ul>li:nth-child(1)>a')
+INFO	2021-11-23 17:43:07,472	[test_head.py:55]	点击链接online-Video-Converter

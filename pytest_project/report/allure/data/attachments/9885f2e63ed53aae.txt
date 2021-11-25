@@ -1,0 +1,7 @@
+INFO	2021-11-23 17:43:15,776	[basepage.py:32]	打开网页https://www.imymac.com/index.html
+INFO	2021-11-23 17:43:15,777	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-23 17:43:15,778	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-23 17:43:17,319	[basepage.py:159]	页面滚到元素('css', 'body>footer')
+INFO	2021-11-23 17:43:18,491	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-23 17:43:22,097	[basepage.py:90]	点击元素：('css', 'footer>div>div>div:nth-child(3)>div>a:nth-child(1)')
+INFO	2021-11-23 17:43:23,284	[basepage.py:96]	获取到文本：Private Privacy

@@ -1,0 +1,7 @@
+INFO	2021-11-23 17:45:33,172	[basepage.py:32]	打开网页https://www.imymac.com/resource/
+INFO	2021-11-23 17:45:33,172	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-23 17:45:33,172	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-23 17:45:34,226	[basepage.py:96]	获取到文本：How to Uninstall Final Cut Pro on Mac Completely
+INFO	2021-11-23 17:45:35,558	[basepage.py:90]	点击元素：('css', 'body>div.container>div:nth-child(2)>div:nth-child(2)>ul>li:nth-child(6)>a')
+INFO	2021-11-23 17:45:36,581	[basepage.py:134]	获取到class元素的值==》active
+INFO	2021-11-23 17:45:36,602	[basepage.py:96]	获取到文本：Removing Silverlight from Mac: Uninstallation Guide

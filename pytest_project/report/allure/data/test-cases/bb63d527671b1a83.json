@@ -1,0 +1,296 @@
+{
+  "uid" : "bb63d527671b1a83",
+  "name" : "切换语言==》法语",
+  "fullName" : "TestCase.index_test_case.test_foot.TestFoot#test_002",
+  "historyId" : "b7d8956fcd414fbf98bbf76e0ecbe46d",
+  "time" : {
+    "start" : 1637660613182,
+    "stop" : 1637660617793,
+    "duration" : 4611
+  },
+  "description" : "切换语言",
+  "descriptionHtml" : "<p>切换语言</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1637660374487,
+      "stop" : 1637660374673,
+      "duration" : 186
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1637660374673,
+      "stop" : 1637660374674,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1637660374674,
+      "stop" : 1637660374674,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1637660374674,
+      "stop" : 1637660377968,
+      "duration" : 3294
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1637660377969,
+      "stop" : 1637660377969,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "open_index",
+    "time" : {
+      "start" : 1637660611445,
+      "stop" : 1637660613180,
+      "duration" : 1735
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1637660611445,
+      "stop" : 1637660611445,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "切换语言",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击下拉框",
+      "time" : {
+        "start" : 1637660613182,
+        "stop" : 1637660614299,
+        "duration" : 1117
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "切换语言",
+      "time" : {
+        "start" : 1637660614300,
+        "stop" : 1637660617783,
+        "duration" : 3483
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "language",
+        "value" : "'fr'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "d10f2ffd88ef8679",
+      "name" : "log",
+      "source" : "d10f2ffd88ef8679.txt",
+      "type" : "text/plain",
+      "size" : 492
+    }, {
+      "uid" : "5400d6f05c9243e6",
+      "name" : "stderr",
+      "source" : "5400d6f05c9243e6.txt",
+      "type" : "text/plain",
+      "size" : 533
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1637661252250,
+      "stop" : 1637661254329,
+      "duration" : 2079
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "语言切换为法语"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "首页测试"
+  }, {
+    "name" : "story",
+    "value" : "底部超链接测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.index_test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_foot"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFoot"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "22336-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.index_test_case.test_foot"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "lge",
+    "value" : "'fr'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "d9bdf3920e3d269a",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/d9bdf3920e3d269a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637045154518,
+          "stop" : 1637045158732,
+          "duration" : 4214
+        }
+      }, {
+        "uid" : "ffb752f6c13f9249",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/26/allure/#testresult/ffb752f6c13f9249",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637043162252,
+          "stop" : 1637043167371,
+          "duration" : 5119
+        }
+      }, {
+        "uid" : "54424d446ac470a7",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/23/allure/#testresult/54424d446ac470a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636967370292,
+          "stop" : 1636967374901,
+          "duration" : 4609
+        }
+      }, {
+        "uid" : "55978660e2eef836",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/22/allure/#testresult/55978660e2eef836",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636940561572,
+          "stop" : 1636940565248,
+          "duration" : 3676
+        }
+      } ]
+    },
+    "tags" : [ "语言切换为法语" ]
+  },
+  "source" : "bb63d527671b1a83.json",
+  "parameterValues" : [ "'fr'" ]
+}

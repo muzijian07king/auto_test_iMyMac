@@ -1,0 +1,542 @@
+{
+  "uid" : "b9a1ac0d40fee949",
+  "name" : "pmm购买页面添加支付卡信息错误测试",
+  "fullName" : "TestCase.store_test_case.test_store.TestBody#test_016",
+  "historyId" : "daeb223d69eccf94bb7c3d52e2eb757d",
+  "time" : {
+    "start" : 1637660987832,
+    "stop" : 1637660998802,
+    "duration" : 10970
+  },
+  "description" : "pmm购买页面添加支付卡信息错误功能测试",
+  "descriptionHtml" : "<p>pmm购买页面添加支付卡信息错误功能测试</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1637660374485,
+      "stop" : 1637660374680,
+      "duration" : 195
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1637660374680,
+      "stop" : 1637660374680,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1637660374681,
+      "stop" : 1637660374681,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1637660374681,
+      "stop" : 1637660377392,
+      "duration" : 2711
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1637660377392,
+      "stop" : 1637660377392,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1637660986711,
+      "stop" : 1637660986711,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "open_url",
+    "time" : {
+      "start" : 1637660986711,
+      "stop" : 1637660987830,
+      "duration" : 1119
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "pmm购买页面添加支付卡信息错误功能测试",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "进入购买ppm第三步页面",
+      "time" : {
+        "start" : 1637660987832,
+        "stop" : 1637660993636,
+        "duration" : 5804
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "进入购买ppm第二步页面",
+        "time" : {
+          "start" : 1637660987832,
+          "stop" : 1637660992131,
+          "duration" : 4299
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "进入购买ppm第一步页面",
+          "time" : {
+            "start" : 1637660987832,
+            "stop" : 1637660990880,
+            "duration" : 3048
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "切换到pmm购买页面",
+            "time" : {
+              "start" : 1637660988909,
+              "stop" : 1637660990100,
+              "duration" : 1191
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "hasContent" : true,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "输入邮箱",
+          "time" : {
+            "start" : 1637660990881,
+            "stop" : 1637660990992,
+            "duration" : 111
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "text",
+            "value" : "'123@123.com'"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "点击确认邮箱按钮",
+          "time" : {
+            "start" : 1637660990993,
+            "stop" : 1637660992131,
+            "duration" : 1138
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 4,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "点击地区下拉框",
+        "time" : {
+          "start" : 1637660992131,
+          "stop" : 1637660992574,
+          "duration" : 443
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "language",
+          "value" : "'CN'"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "点击确认地区",
+        "time" : {
+          "start" : 1637660992574,
+          "stop" : 1637660993636,
+          "duration" : 1062
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "选择卡片支付",
+      "time" : {
+        "start" : 1637660993636,
+        "stop" : 1637660997348,
+        "duration" : 3712
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "输入卡号",
+      "time" : {
+        "start" : 1637660997348,
+        "stop" : 1637660997418,
+        "duration" : 70
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "number",
+        "value" : "''"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "输入持卡人",
+      "time" : {
+        "start" : 1637660997418,
+        "stop" : 1637660997469,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "''"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "输入截至月",
+      "time" : {
+        "start" : 1637660997470,
+        "stop" : 1637660997538,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "month",
+        "value" : "'12'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "输入截至年",
+      "time" : {
+        "start" : 1637660997538,
+        "stop" : 1637660997619,
+        "duration" : 81
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "year",
+        "value" : "'1000'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "输入安全码",
+      "time" : {
+        "start" : 1637660997619,
+        "stop" : 1637660997682,
+        "duration" : 63
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "pwd",
+        "value" : "'568'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "提交输入卡信息",
+      "time" : {
+        "start" : 1637660997682,
+        "stop" : 1637660998758,
+        "duration" : 1076
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "判断卡支付错误信息",
+      "time" : {
+        "start" : 1637660998758,
+        "stop" : 1637660998802,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "c936caacef65bbbf",
+      "name" : "log",
+      "source" : "c936caacef65bbbf.txt",
+      "type" : "text/plain",
+      "size" : 1633
+    }, {
+      "uid" : "501202c6258857b4",
+      "name" : "stderr",
+      "source" : "501202c6258857b4.txt",
+      "type" : "text/plain",
+      "size" : 1778
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 16,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1637661250216,
+      "stop" : 1637661252349,
+      "duration" : 2133
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "填写支付卡信息"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "Store页面测试"
+  }, {
+    "name" : "story",
+    "value" : "Store主页内容测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.store_test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_store"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBody"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "24136-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.store_test_case.test_store"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "error_text",
+    "value" : "'您输入的期限年份无效。'"
+  }, {
+    "name" : "month",
+    "value" : "'12'"
+  }, {
+    "name" : "name",
+    "value" : "''"
+  }, {
+    "name" : "number",
+    "value" : "''"
+  }, {
+    "name" : "pwd",
+    "value" : "'568'"
+  }, {
+    "name" : "year",
+    "value" : "'1000'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "822a716c98cfb89e",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/822a716c98cfb89e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637045456381,
+          "stop" : 1637045470258,
+          "duration" : 13877
+        }
+      }, {
+        "uid" : "f49e4dec3471fed6",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/26/allure/#testresult/f49e4dec3471fed6",
+        "status" : "broken",
+        "statusDetails" : "ArithmeticError: Store/body.yaml中不存在关键字：language",
+        "time" : {
+          "start" : 1637043653531,
+          "stop" : 1637043658308,
+          "duration" : 4777
+        }
+      }, {
+        "uid" : "ec51776f8bb26bc",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/23/allure/#testresult/ec51776f8bb26bc",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '您输入的期限年份无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry year you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry year you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000002C5A2075550>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x000002C5A2075550>> = <pytest_project.page_object.store.store_page.StorePage object at 0x000002C5A2075550>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x000002C5A2075550> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x000002C5A2075C70>.driver",
+        "time" : {
+          "start" : 1636967807906,
+          "stop" : 1636967822463,
+          "duration" : 14557
+        }
+      }, {
+        "uid" : "14d9caa308627b85",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/22/allure/#testresult/14d9caa308627b85",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '您输入的期限年份无效。' in ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry year you entered is not valid.']\n +  where ['The name you entered is not valid.', 'The credit card you entered is not valid.', 'The expiry year you entered is not valid.'] = <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x00000200DAA26F10>>()\n +    where <bound method StorePage.return_card_pay_error_texts of <pytest_project.page_object.store.store_page.StorePage object at 0x00000200DAA26F10>> = <pytest_project.page_object.store.store_page.StorePage object at 0x00000200DAA26F10>.return_card_pay_error_texts\n +      where <pytest_project.page_object.store.store_page.StorePage object at 0x00000200DAA26F10> = <pytest_project.TestCase.store_test_case.test_store.TestBody object at 0x00000200DAA26D00>.driver",
+        "time" : {
+          "start" : 1636940937198,
+          "stop" : 1636940949078,
+          "duration" : 11880
+        }
+      } ]
+    },
+    "tags" : [ "填写支付卡信息" ]
+  },
+  "source" : "b9a1ac0d40fee949.json",
+  "parameterValues" : [ "'您输入的期限年份无效。'", "'12'", "''", "''", "'568'", "'1000'" ]
+}

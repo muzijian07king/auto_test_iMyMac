@@ -1,0 +1,323 @@
+{
+  "uid" : "e7990bb759bd7291",
+  "name" : "步骤内容测试",
+  "fullName" : "TestCase.discount_test_case.test_discount.TestBody#test_001",
+  "historyId" : "ee98676e0f6e9bcb461de6b15ea48ebe",
+  "time" : {
+    "start" : 1637660383831,
+    "stop" : 1637660383863,
+    "duration" : 32
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1637660374488,
+      "stop" : 1637660374678,
+      "duration" : 190
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1637660374679,
+      "stop" : 1637660374679,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1637660374680,
+      "stop" : 1637660374680,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1637660374681,
+      "stop" : 1637660377790,
+      "duration" : 3109
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1637660377790,
+      "stop" : 1637660377790,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "open_url",
+    "time" : {
+      "start" : 1637660381080,
+      "stop" : 1637660383830,
+      "duration" : 2750
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1637660381080,
+      "stop" : 1637660381080,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "判断步骤文案是否正确",
+      "time" : {
+        "start" : 1637660383831,
+        "stop" : 1637660383862,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "3120cf74a895358c",
+      "name" : "log",
+      "source" : "3120cf74a895358c.txt",
+      "type" : "text/plain",
+      "size" : 370
+    }, {
+      "uid" : "1a72ee4dd8c531f0",
+      "name" : "stderr",
+      "source" : "1a72ee4dd8c531f0.txt",
+      "type" : "text/plain",
+      "size" : 403
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1637661255686,
+      "stop" : 1637661257775,
+      "duration" : 2089
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "step-1==>Submit your email in the box below."
+  }, {
+    "name" : "feature",
+    "value" : "学生优惠申请页面测试"
+  }, {
+    "name" : "story",
+    "value" : "功能测试"
+  }, {
+    "name" : "severity",
+    "value" : "trivial"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.discount_test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_discount"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBody"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "17960-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.discount_test_case.test_discount"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "context",
+    "value" : "'Submit your email in the box below.'"
+  }, {
+    "name" : "step",
+    "value" : "'step-1'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "trivial",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "89171f4deb328d68",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/89171f4deb328d68",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637045086883,
+          "stop" : 1637045086907,
+          "duration" : 24
+        }
+      }, {
+        "uid" : "af24c54cfa5619b",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/26/allure/#testresult/af24c54cfa5619b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637042947734,
+          "stop" : 1637042947755,
+          "duration" : 21
+        }
+      }, {
+        "uid" : "56a9a45e7d540f89",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/25/allure/#testresult/56a9a45e7d540f89",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637041800084,
+          "stop" : 1637041800106,
+          "duration" : 22
+        }
+      }, {
+        "uid" : "ee9bcf0fe554a185",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/23/allure/#testresult/ee9bcf0fe554a185",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636967276871,
+          "stop" : 1636967276893,
+          "duration" : 22
+        }
+      }, {
+        "uid" : "bd4954be93723234",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/22/allure/#testresult/bd4954be93723234",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636940503398,
+          "stop" : 1636940503423,
+          "duration" : 25
+        }
+      }, {
+        "uid" : "1d3f69fe7a92ee1b",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/20/allure/#testresult/1d3f69fe7a92ee1b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636709225703,
+          "stop" : 1636709225725,
+          "duration" : 22
+        }
+      }, {
+        "uid" : "97280a098574225",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/19/allure/#testresult/97280a098574225",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636709225703,
+          "stop" : 1636709225725,
+          "duration" : 22
+        }
+      }, {
+        "uid" : "bb4ccabb235011e4",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/17/allure/#testresult/bb4ccabb235011e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636709225703,
+          "stop" : 1636709225725,
+          "duration" : 22
+        }
+      }, {
+        "uid" : "4850b4809fcbecbd",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/16/allure/#testresult/4850b4809fcbecbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636709225703,
+          "stop" : 1636709225725,
+          "duration" : 22
+        }
+      } ]
+    },
+    "tags" : [ "step-1==>Submit your email in the box below." ]
+  },
+  "source" : "e7990bb759bd7291.json",
+  "parameterValues" : [ "'Submit your email in the box below.'", "'step-1'" ]
+}

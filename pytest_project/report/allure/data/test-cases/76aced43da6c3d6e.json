@@ -1,0 +1,293 @@
+{
+  "uid" : "76aced43da6c3d6e",
+  "name" : "下载compressor测试",
+  "fullName" : "TestCase.pdf_compressor_case.test_pdf_compressor.TestBody#test_001",
+  "historyId" : "784f9a96201c8d6e145be92ab52cafec",
+  "time" : {
+    "start" : 1637660536533,
+    "stop" : 1637660538146,
+    "duration" : 1613
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1637660374485,
+      "stop" : 1637660374680,
+      "duration" : 195
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1637660374680,
+      "stop" : 1637660374680,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1637660374681,
+      "stop" : 1637660374681,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1637660374681,
+      "stop" : 1637660377392,
+      "duration" : 2711
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1637660377392,
+      "stop" : 1637660377392,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1637660535244,
+      "stop" : 1637660535244,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "openurl",
+    "time" : {
+      "start" : 1637660535244,
+      "stop" : 1637660536532,
+      "duration" : 1288
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "下载PDF-Compressor",
+      "time" : {
+        "start" : 1637660536533,
+        "stop" : 1637660538144,
+        "duration" : 1611
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "loc",
+        "value" : "('css', 'body>div>div>div>div>p>a')"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "判断下载是否成功启动",
+      "time" : {
+        "start" : 1637660538144,
+        "stop" : 1637660538146,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "5c67477226cb2461",
+      "name" : "log",
+      "source" : "5c67477226cb2461.txt",
+      "type" : "text/plain",
+      "size" : 377
+    }, {
+      "uid" : "af032d87ad3a95e8",
+      "name" : "stderr",
+      "source" : "af032d87ad3a95e8.txt",
+      "type" : "text/plain",
+      "size" : 410
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1637661250216,
+      "stop" : 1637661252349,
+      "duration" : 2133
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "pdf-compressor页面测试"
+  }, {
+    "name" : "story",
+    "value" : "pdf-compressor页面内容测试"
+  }, {
+    "name" : "tag",
+    "value" : "下载compressor"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.pdf_compressor_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_pdf_compressor"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBody"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "24136-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.pdf_compressor_case.test_pdf_compressor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "download",
+    "value" : "('css', 'body>div>div>div>div>p>a')"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "4076c443389f8c44",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/4076c443389f8c44",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637045184471,
+          "stop" : 1637045187557,
+          "duration" : 3086
+        }
+      }, {
+        "uid" : "9cc11811413e8e2f",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/26/allure/#testresult/9cc11811413e8e2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637043042863,
+          "stop" : 1637043044548,
+          "duration" : 1685
+        }
+      }, {
+        "uid" : "2014bb45a72d5725",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/23/allure/#testresult/2014bb45a72d5725",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636967408755,
+          "stop" : 1636967410245,
+          "duration" : 1490
+        }
+      }, {
+        "uid" : "8d3b56db61a3913c",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/22/allure/#testresult/8d3b56db61a3913c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636940631350,
+          "stop" : 1636940632806,
+          "duration" : 1456
+        }
+      } ]
+    },
+    "tags" : [ "下载compressor" ]
+  },
+  "source" : "76aced43da6c3d6e.json",
+  "parameterValues" : [ "('css', 'body>div>div>div>div>p>a')" ]
+}

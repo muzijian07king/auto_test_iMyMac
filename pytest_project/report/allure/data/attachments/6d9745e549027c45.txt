@@ -1,0 +1,6 @@
+INFO	2021-11-23 17:48:39,235	[basepage.py:32]	打开网页https://www.imymac.com/store/
+INFO	2021-11-23 17:48:39,235	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-23 17:48:39,235	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-23 17:48:40,378	[basepage.py:90]	点击元素：('css', 'body>div.storeBG>div>div>div:nth-child(1)>div:nth-child(2)>a:nth-child(6)')
+INFO	2021-11-23 17:48:41,424	[basepage.py:211]	获取到text==》['1-Month License', '1-Year License', 'Lifetime License']
+INFO	2021-11-23 17:48:41,457	[basepage.py:211]	获取到text==》['9.95', '1.66/Month', '29.95']

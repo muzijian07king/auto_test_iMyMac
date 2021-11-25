@@ -1,0 +1,332 @@
+{
+  "uid" : "883889af52f4de8",
+  "name" : "搜索文章测试",
+  "fullName" : "TestCase.faq_test_case.test_index.TestBody#test_004",
+  "historyId" : "82aff2e4c15a4da562403e9bfd0885d1",
+  "time" : {
+    "start" : 1637660438602,
+    "stop" : 1637660456085,
+    "duration" : 17483
+  },
+  "description" : "product搜索文章功能测试",
+  "descriptionHtml" : "<p>product搜索文章功能测试</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1637660374487,
+      "stop" : 1637660374673,
+      "duration" : 186
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1637660374673,
+      "stop" : 1637660374674,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1637660374674,
+      "stop" : 1637660374674,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1637660374674,
+      "stop" : 1637660377968,
+      "duration" : 3294
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1637660377969,
+      "stop" : 1637660377969,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1637660432228,
+      "stop" : 1637660432228,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "open_url",
+    "time" : {
+      "start" : 1637660432228,
+      "stop" : 1637660438601,
+      "duration" : 6373
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "product搜索文章功能测试",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击PowerMyMac常见问题项",
+      "time" : {
+        "start" : 1637660438602,
+        "stop" : 1637660440615,
+        "duration" : 2013
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "输入搜索关键字",
+      "time" : {
+        "start" : 1637660440615,
+        "stop" : 1637660440671,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "search",
+        "value" : "'imymac'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击搜索按钮",
+      "time" : {
+        "start" : 1637660440671,
+        "stop" : 1637660456002,
+        "duration" : 15331
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "判断是否成功搜索",
+      "time" : {
+        "start" : 1637660456002,
+        "stop" : 1637660456085,
+        "duration" : 83
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "5144a6d3285fe032",
+      "name" : "log",
+      "source" : "5144a6d3285fe032.txt",
+      "type" : "text/plain",
+      "size" : 3022
+    }, {
+      "uid" : "edcc843a691d6611",
+      "name" : "stderr",
+      "source" : "edcc843a691d6611.txt",
+      "type" : "text/plain",
+      "size" : 3087
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1637661252250,
+      "stop" : 1637661254329,
+      "duration" : 2079
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "搜索文章，关键字为==》imymac"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "各个模块常见问题测试"
+  }, {
+    "name" : "feature",
+    "value" : "FAQ页面测试"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skipif(False, reason='阿里云没有VPN')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.faq_test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_index"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBody"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "22336-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.faq_test_case.test_index"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "faq_name",
+    "value" : "'PowerMyMac'"
+  }, {
+    "name" : "search",
+    "value" : "'imymac'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "9b9bd85c451f9917",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/9b9bd85c451f9917",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637045117621,
+          "stop" : 1637045121721,
+          "duration" : 4100
+        }
+      }, {
+        "uid" : "9439fef0e61e5d6e",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/26/allure/#testresult/9439fef0e61e5d6e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637043020708,
+          "stop" : 1637043026006,
+          "duration" : 5298
+        }
+      }, {
+        "uid" : "c079054b046501c7",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/23/allure/#testresult/c079054b046501c7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636967317556,
+          "stop" : 1636967322688,
+          "duration" : 5132
+        }
+      }, {
+        "uid" : "157c29ebf8343057",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/22/allure/#testresult/157c29ebf8343057",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636940531441,
+          "stop" : 1636940535302,
+          "duration" : 3861
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.skipif(False, reason='阿里云没有VPN')", "搜索文章，关键字为==》imymac" ]
+  },
+  "source" : "883889af52f4de8.json",
+  "parameterValues" : [ "'PowerMyMac'", "'imymac'" ]
+}

@@ -1,0 +1,6 @@
+INFO	2021-11-23 17:46:39,694	[basepage.py:32]	打开网页https://www.imymac.com/mac-uninstaller/
+INFO	2021-11-23 17:46:39,695	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-23 17:46:39,695	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-23 17:46:40,721	[basepage.py:159]	页面滚到元素('css', 'body>div.footerBg')
+INFO	2021-11-23 17:46:41,822	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-23 17:46:43,969	[basepage.py:90]	点击元素：('css', 'body>div.footerBg>div>div>div.col-md-8>div>div>a:nth-child(2)')

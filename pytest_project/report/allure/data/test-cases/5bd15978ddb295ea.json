@@ -1,0 +1,302 @@
+{
+  "uid" : "5bd15978ddb295ea",
+  "name" : "评价轮播图测试",
+  "fullName" : "TestCase.powermymac_test_case.test_duplicate_finder.TestBody#test_005",
+  "historyId" : "e6eb9bb0b5d27b430b6f954cbfde9aa2",
+  "time" : {
+    "start" : 1637660722249,
+    "stop" : 1637660726398,
+    "duration" : 4149
+  },
+  "description" : "点击评价轮播图索引图片是否变动",
+  "descriptionHtml" : "<p>点击评价轮播图索引图片是否变动</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1637660374485,
+      "stop" : 1637660374680,
+      "duration" : 195
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1637660374680,
+      "stop" : 1637660374680,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1637660374681,
+      "stop" : 1637660374681,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1637660374681,
+      "stop" : 1637660377392,
+      "duration" : 2711
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1637660377392,
+      "stop" : 1637660377392,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1637660721119,
+      "stop" : 1637660721119,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "open_clear",
+    "time" : {
+      "start" : 1637660721119,
+      "stop" : 1637660722249,
+      "duration" : 1130
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "点击评价轮播图索引图片是否变动",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "页面滑动到carousel_comment上",
+      "time" : {
+        "start" : 1637660722250,
+        "stop" : 1637660725311,
+        "duration" : 3061
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "切换轮播图",
+      "time" : {
+        "start" : 1637660725311,
+        "stop" : 1637660726369,
+        "duration" : 1058
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "判断评论轮播图是否切换成功",
+      "time" : {
+        "start" : 1637660726369,
+        "stop" : 1637660726397,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "19a48a7d2e3d3a96",
+      "name" : "log",
+      "source" : "19a48a7d2e3d3a96.txt",
+      "type" : "text/plain",
+      "size" : 653
+    }, {
+      "uid" : "6a49171956fbabab",
+      "name" : "stderr",
+      "source" : "6a49171956fbabab.txt",
+      "type" : "text/plain",
+      "size" : 710
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1637661250216,
+      "stop" : 1637661252349,
+      "duration" : 2133
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "查看第二张轮播图"
+  }, {
+    "name" : "story",
+    "value" : "duplicate-finde页面内容测试"
+  }, {
+    "name" : "feature",
+    "value" : "PowerMyMac下拉栏中页面测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.powermymac_test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_duplicate_finder"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBody"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "24136-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.powermymac_test_case.test_duplicate_finder"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "3fbcebe98f2bd344",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/3fbcebe98f2bd344",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637045319374,
+          "stop" : 1637045323508,
+          "duration" : 4134
+        }
+      }, {
+        "uid" : "7daaede7a15f84da",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/26/allure/#testresult/7daaede7a15f84da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637043179320,
+          "stop" : 1637043183455,
+          "duration" : 4135
+        }
+      }, {
+        "uid" : "af2c4f784f6536",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/23/allure/#testresult/af2c4f784f6536",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636967610529,
+          "stop" : 1636967614643,
+          "duration" : 4114
+        }
+      }, {
+        "uid" : "3063df046cd4eb2e",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/22/allure/#testresult/3063df046cd4eb2e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636940708337,
+          "stop" : 1636940712468,
+          "duration" : 4131
+        }
+      } ]
+    },
+    "tags" : [ "查看第二张轮播图" ]
+  },
+  "source" : "5bd15978ddb295ea.json",
+  "parameterValues" : [ ]
+}

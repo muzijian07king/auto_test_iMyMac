@@ -1,0 +1,7 @@
+INFO	2021-11-23 17:47:00,435	[basepage.py:32]	打开网页https://www.imymac.com/resource/
+INFO	2021-11-23 17:47:00,435	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-23 17:47:00,436	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-23 17:47:01,510	[basepage.py:82]	输入文本：python
+INFO	2021-11-23 17:47:03,104	[basepage.py:90]	点击元素：('css', 'body>div.bannerBG>div>div>form>button')
+INFO	2021-11-23 17:47:04,141	[basepage.py:96]	获取到文本：Como atualizar o Python no Mac com facilidade e rapidez
+INFO	2021-11-23 17:47:04,171	[basepage.py:96]	获取到文本：python

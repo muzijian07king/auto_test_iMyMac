@@ -1,0 +1,10 @@
+INFO	2021-11-23 17:52:40,337	[basepage.py:32]	打开网页https://www.imymac.com/support/
+INFO	2021-11-23 17:52:40,339	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-23 17:52:40,339	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-23 17:52:41,951	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div:nth-child(1)>a')
+INFO	2021-11-23 17:52:43,021	[basepage.py:82]	输入文本：python
+INFO	2021-11-23 17:52:49,206	[basepage.py:90]	点击元素：('css', 'body>div.faqBG>div>div>form>button')
+INFO	2021-11-23 17:52:50,241	[basepage.py:96]	获取到文本：Como atualizar o Python no Mac com facilidade e rapidez
+www.imymac.com › ... › How to Update Python on Mac Easily and Quickly
+Recent Mac editions include Python 2.7; nevertheless, several more Python subscribers might have to update Python within Mac towards something such as a ...
+INFO	2021-11-23 17:52:50,259	[basepage.py:96]	获取到文本：python

@@ -1,0 +1,6 @@
+INFO	2021-11-23 17:48:08,799	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-23 17:48:08,799	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-23 17:48:08,800	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-23 17:48:11,121	[basepage.py:90]	点击元素：('css', 'body >div.whiteBG>div>div>div:nth-child(2)>div>div:nth-child(10)>a')
+INFO	2021-11-23 17:48:13,119	[basepage.py:90]	点击元素：('xpath', "//div[@class='productBox'][1]/ol/li[1]/a")
+INFO	2021-11-23 17:48:14,134	[basepage.py:221]	获取到title==>MP3 to MIDI: Best Free Online Converts in 2021

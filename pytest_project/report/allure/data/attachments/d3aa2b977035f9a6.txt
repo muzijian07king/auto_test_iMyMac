@@ -1,0 +1,6 @@
+INFO	2021-11-23 17:47:28,957	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-23 17:47:28,958	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-23 17:47:28,959	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-23 17:47:32,404	[basepage.py:90]	点击元素：('css', 'body >div.whiteBG>div>div>div:nth-child(2)>div>div:nth-child(2)>a')
+INFO	2021-11-23 17:47:34,060	[basepage.py:90]	点击元素：('xpath', "//div[@class='productBox'][1]/ol/li[1]/a")
+INFO	2021-11-23 17:47:35,070	[basepage.py:221]	获取到title==>How to Use NTFS

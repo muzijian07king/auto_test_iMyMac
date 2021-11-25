@@ -1,0 +1,6 @@
+INFO	2021-11-23 17:48:04,194	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-23 17:48:04,195	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-23 17:48:04,196	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-23 17:48:06,240	[basepage.py:90]	点击元素：('css', 'body >div.whiteBG>div>div>div:nth-child(2)>div>div:nth-child(9)>a')
+INFO	2021-11-23 17:48:07,713	[basepage.py:90]	点击元素：('xpath', "//div[@class='productBox'][1]/ol/li[1]/a")
+INFO	2021-11-23 17:48:08,729	[basepage.py:221]	获取到title==>How to Edit a PDF on Mac for Free Using Preview

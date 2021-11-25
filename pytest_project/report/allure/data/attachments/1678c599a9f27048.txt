@@ -1,0 +1,6 @@
+INFO	2021-11-23 17:43:59,937	[basepage.py:32]	打开网页https://www.imymac.com/browser-cleanup/
+INFO	2021-11-23 17:43:59,937	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-23 17:43:59,938	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-23 17:44:00,979	[basepage.py:159]	页面滚到元素('css', 'body>div.menu')
+INFO	2021-11-23 17:44:02,047	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-23 17:44:04,085	[basepage.py:134]	获取到class元素的值==》fixMenu fixIt

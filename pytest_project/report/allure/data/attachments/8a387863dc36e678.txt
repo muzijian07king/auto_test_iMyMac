@@ -1,5 +1,0 @@
-INFO	2021-11-23 15:20:32,985	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
-INFO	2021-11-23 15:20:32,986	[basepage.py:226]	关闭黑色星期五优惠链接
-INFO	2021-11-23 15:20:32,986	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
-INFO	2021-11-23 15:20:34,771	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(1)>a')
-INFO	2021-11-23 15:20:35,802	[basepage.py:96]	获取到文本：General FAQs

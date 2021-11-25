@@ -1,0 +1,305 @@
+{
+  "uid" : "784b2b89bbb8d4f8",
+  "name" : "展开faq测试",
+  "fullName" : "TestCase.faq_test_case.test_index.TestBody#test_002",
+  "historyId" : "cb5580027aa2f9d0f5ffe0e67145ea38",
+  "time" : {
+    "start" : 1637660399115,
+    "stop" : 1637660401578,
+    "duration" : 2463
+  },
+  "description" : "展开faq功能测试",
+  "descriptionHtml" : "<p>展开faq功能测试</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1637660374487,
+      "stop" : 1637660374671,
+      "duration" : 184
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1637660374671,
+      "stop" : 1637660374671,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1637660374671,
+      "stop" : 1637660374671,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1637660374671,
+      "stop" : 1637660377597,
+      "duration" : 2926
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1637660377598,
+      "stop" : 1637660377598,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "open_url",
+    "time" : {
+      "start" : 1637660397834,
+      "stop" : 1637660399114,
+      "duration" : 1280
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1637660397834,
+      "stop" : 1637660397834,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "展开faq功能测试",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击PDF-Compressor常见问题项",
+      "time" : {
+        "start" : 1637660399115,
+        "stop" : 1637660400506,
+        "duration" : 1391
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "展开第二个faq",
+      "time" : {
+        "start" : 1637660400506,
+        "stop" : 1637660401558,
+        "duration" : 1052
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "判断是否成功展开",
+      "time" : {
+        "start" : 1637660401558,
+        "stop" : 1637660401577,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "2bab4ca995a2b049",
+      "name" : "log",
+      "source" : "2bab4ca995a2b049.txt",
+      "type" : "text/plain",
+      "size" : 613
+    }, {
+      "uid" : "1c3b0afc3e6dd2bb",
+      "name" : "stderr",
+      "source" : "1c3b0afc3e6dd2bb.txt",
+      "type" : "text/plain",
+      "size" : 662
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1637661250971,
+      "stop" : 1637661253061,
+      "duration" : 2090
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "展开PDF-Compressor的faq"
+  }, {
+    "name" : "story",
+    "value" : "各个模块常见问题测试"
+  }, {
+    "name" : "feature",
+    "value" : "FAQ页面测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.faq_test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_index"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBody"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "16552-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.faq_test_case.test_index"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "faq_name",
+    "value" : "'PDF-Compressor'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "eadc062305a7e9c1",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/27/allure/#testresult/eadc062305a7e9c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637045095542,
+          "stop" : 1637045098299,
+          "duration" : 2757
+        }
+      }, {
+        "uid" : "be51fc22da5a531d",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/26/allure/#testresult/be51fc22da5a531d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637042962725,
+          "stop" : 1637042965507,
+          "duration" : 2782
+        }
+      }, {
+        "uid" : "ea246b95c9a1bb1b",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/23/allure/#testresult/ea246b95c9a1bb1b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636967286577,
+          "stop" : 1636967289793,
+          "duration" : 3216
+        }
+      }, {
+        "uid" : "627244445cd78bc7",
+        "reportUrl" : "http://localhost:8080/jenkins/job/selenium_auto_test_IMyMac/22/allure/#testresult/627244445cd78bc7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636940510643,
+          "stop" : 1636940513237,
+          "duration" : 2594
+        }
+      } ]
+    },
+    "tags" : [ "展开PDF-Compressor的faq" ]
+  },
+  "source" : "784b2b89bbb8d4f8.json",
+  "parameterValues" : [ "'PDF-Compressor'" ]
+}

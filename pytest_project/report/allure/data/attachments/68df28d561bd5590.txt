@@ -1,0 +1,7 @@
+INFO	2021-11-23 17:46:54,539	[basepage.py:32]	打开网页https://www.imymac.com/mac-cleaner/
+INFO	2021-11-23 17:46:54,540	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-23 17:46:54,541	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-23 17:46:55,568	[basepage.py:159]	页面滚到元素('css', 'body>div.whiteBG.hide-visible>div')
+INFO	2021-11-23 17:46:56,597	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
+INFO	2021-11-23 17:47:00,015	[basepage.py:90]	点击元素：('css', 'body>div.whiteBG.hide-visible.tipsup>div>a:nth-child(2)')
+INFO	2021-11-23 17:47:01,044	[basepage.py:96]	获取到文本：PowerMyMac User Guide

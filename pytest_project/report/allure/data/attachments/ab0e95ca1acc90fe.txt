@@ -1,0 +1,5 @@
+INFO	2021-11-23 17:48:33,042	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
+INFO	2021-11-23 17:48:33,043	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-23 17:48:33,043	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-23 17:48:47,434	[basepage.py:90]	点击元素：('css', 'body >div.whiteBG>div>div>div:nth-child(2)>div>div:nth-child(7)>a')
+INFO	2021-11-23 17:48:48,471	[basepage.py:96]	获取到文本：Similar Image Finder

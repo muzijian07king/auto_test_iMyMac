@@ -1,0 +1,14 @@
+INFO	2021-11-23 17:49:56,487	[basepage.py:32]	打开网页https://www.imymac.com/store/
+INFO	2021-11-23 17:49:56,488	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-23 17:49:56,488	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-23 17:49:57,578	[basepage.py:90]	点击元素：('css', '#video-converter-one-year')
+INFO	2021-11-23 17:49:58,586	[basepage.py:181]	切换frame==>pf_588082
+INFO	2021-11-23 17:49:59,325	[basepage.py:186]	下拉框value选择==》zh-Hans
+INFO	2021-11-23 17:50:00,845	[basepage.py:82]	输入文本：123@123.com
+INFO	2021-11-23 17:50:00,921	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div>div>button')
+INFO	2021-11-23 17:50:01,936	[basepage.py:186]	下拉框value选择==》CN
+INFO	2021-11-23 17:50:02,112	[basepage.py:90]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div:nth-child(3)>div>button')
+INFO	2021-11-23 17:50:03,200	[basepage.py:90]	点击元素：('css', '#root > div > div> div> div:nth-child(2) > div > div > div:nth-child(2)>span>a')
+INFO	2021-11-23 17:50:04,280	[basepage.py:82]	输入文本：1111
+INFO	2021-11-23 17:50:04,355	[basepage.py:90]	点击元素：('css', 'form>div:nth-child(2)>div>button')
+INFO	2021-11-23 17:50:05,396	[basepage.py:96]	获取到文本：您需要输入一个有效优惠码。
