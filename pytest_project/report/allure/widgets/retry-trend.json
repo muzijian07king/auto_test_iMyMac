@@ -1,7 +1,7 @@
 [ {
   "data" : {
     "run" : 536,
-    "retry" : 3
+    "retry" : 2
   }
 }, {
   "buildOrder" : 27,

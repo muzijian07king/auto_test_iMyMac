@@ -1,6 +1,0 @@
-INFO	2021-11-23 17:41:57,390	[basepage.py:32]	打开网页https://www.imymac.com/index.html
-INFO	2021-11-23 17:41:57,391	[basepage.py:226]	关闭黑色星期五优惠链接
-INFO	2021-11-23 17:41:57,392	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
-INFO	2021-11-23 17:41:58,538	[basepage.py:82]	输入文本：123.com
-INFO	2021-11-23 17:41:58,622	[basepage.py:90]	点击元素：('id', 'footerSubscribeBTN')
-INFO	2021-11-23 17:41:59,684	[basepage.py:96]	获取到文本：Email Format Error!

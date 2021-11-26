@@ -1,6 +1,0 @@
-INFO	2021-11-23 17:47:19,501	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
-INFO	2021-11-23 17:47:19,501	[basepage.py:226]	关闭黑色星期五优惠链接
-INFO	2021-11-23 17:47:19,502	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
-INFO	2021-11-23 17:47:22,566	[basepage.py:96]	获取到文本：Cut the Clutter: Arrange and Organize Mac Files
-INFO	2021-11-23 17:47:22,578	[basepage.py:96]	获取到文本：Cut the Clutter: Arrange and Organize Mac Files
-INFO	2021-11-23 17:47:22,591	[basepage.py:96]	获取到文本：Cut the Clutter: Arrange and Organize Mac Files

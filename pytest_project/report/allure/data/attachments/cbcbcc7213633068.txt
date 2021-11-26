@@ -1,6 +1,0 @@
-INFO	2021-11-23 17:53:15,272	[basepage.py:32]	打开网页https://www.imymac.com/video-converter/
-INFO	2021-11-23 17:53:15,273	[basepage.py:226]	关闭黑色星期五优惠链接
-INFO	2021-11-23 17:53:15,273	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
-INFO	2021-11-23 17:53:16,292	[basepage.py:159]	页面滚到元素('css', 'body>div.menu')
-INFO	2021-11-23 17:53:17,317	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
-INFO	2021-11-23 17:53:21,177	[basepage.py:90]	点击元素：('css', 'body>div.menu>div>div>a:nth-child(2)')

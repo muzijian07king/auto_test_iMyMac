@@ -7,13 +7,13 @@
       "name" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: headless chrome=96.0.4664.45)",
       "children" : [ {
         "name" : "footbuy导航栏下进入buy页面测试",
-        "uid" : "ed266e0e2d81efec",
+        "uid" : "801ffa287b70fd3f",
         "parentUid" : "cd3975205b2e18ceaedf65a58598f315",
         "status" : "broken",
         "time" : {
-          "start" : 1637660709862,
-          "stop" : 1637660723104,
-          "duration" : 13242
+          "start" : 1637919692818,
+          "stop" : 1637919705968,
+          "duration" : 13150
         },
         "flaky" : false,
         "newFailed" : false,

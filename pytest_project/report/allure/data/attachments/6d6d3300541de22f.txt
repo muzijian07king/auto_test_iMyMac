@@ -1,8 +1,0 @@
-INFO	2021-11-23 17:48:31,598	[basepage.py:32]	打开网页https://www.imymac.com/store/
-INFO	2021-11-23 17:48:31,599	[basepage.py:226]	关闭黑色星期五优惠链接
-INFO	2021-11-23 17:48:31,599	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
-INFO	2021-11-23 17:48:32,661	[basepage.py:90]	点击元素：('css', '#powermymac-one-month')
-INFO	2021-11-23 17:48:33,666	[basepage.py:181]	切换frame==>pf_631115
-INFO	2021-11-23 17:48:34,314	[basepage.py:186]	下拉框value选择==》zh-Hans
-INFO	2021-11-23 17:48:35,252	[basepage.py:186]	下拉框value选择==》25
-INFO	2021-11-23 17:48:38,329	[basepage.py:96]	获取到文本：US$248.75

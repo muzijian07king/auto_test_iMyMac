@@ -1,4 +1,0 @@
-INFO	2021-11-23 17:46:14,782	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
-INFO	2021-11-23 17:46:14,782	[basepage.py:226]	关闭黑色星期五优惠链接
-INFO	2021-11-23 17:46:14,782	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
-INFO	2021-11-23 17:46:16,476	[basepage.py:96]	获取到文本：How to Speed Up Mac? 11 Tricks to Make Your Mac Run Faster

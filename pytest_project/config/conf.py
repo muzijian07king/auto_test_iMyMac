@@ -97,4 +97,4 @@ class ConfigManager(object):
 
 cm = ConfigManager()
 if __name__ == '__main__':
-    print(cm.VPN_Switch)
+    print(cm.log_file.split(os.sep)[-1])

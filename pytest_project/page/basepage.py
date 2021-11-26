@@ -160,7 +160,7 @@ class WebPage(object):
         div = self.find_element(loc)
         self.driver.execute_script('arguments[0].scrollIntoView()', div)
         sleep()
-        self.jsInDriver('document.documentElement.scrollBy(0,1)')
+        self.jsInDriver('document.documentElement.scrollBy(0,2)')
         sleep()
 
     def scroll_to_loc_is_click(self, loc):

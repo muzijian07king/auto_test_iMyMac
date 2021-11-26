@@ -1,7 +1,0 @@
-[32mINFO    [0m root:basepage.py:32 打开网页https://www.imymac.com/index.html
-[32mINFO    [0m root:basepage.py:226 关闭黑色星期五优惠链接
-[32mINFO    [0m root:basepage.py:153 使用js操控浏览器==》document.querySelector('div.close-tag').click()
-[32mINFO    [0m root:basepage.py:102 鼠标悬停在('link', 'PowerMyMac')
-[32mINFO    [0m root:test_head.py:41 点击PowerMyMac下拉框
-[32mINFO    [0m root:basepage.py:90 点击元素：('link', 'Mac Cleaner')
-[32mINFO    [0m root:test_head.py:43 点击链接Mac-Cleaner

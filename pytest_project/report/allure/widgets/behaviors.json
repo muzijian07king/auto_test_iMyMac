@@ -89,8 +89,8 @@
       "total" : 1
     }
   }, {
-    "uid" : "1b9be4e654e76ade1ff2b8874a737619",
-    "name" : "pdf-compressor页面测试",
+    "uid" : "8e51d3d103b3cea929db465c51127b2e",
+    "name" : "协议内容测试",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -100,8 +100,8 @@
       "total" : 1
     }
   }, {
-    "uid" : "8e51d3d103b3cea929db465c51127b2e",
-    "name" : "协议内容测试",
+    "uid" : "1b9be4e654e76ade1ff2b8874a737619",
+    "name" : "pdf-compressor页面测试",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

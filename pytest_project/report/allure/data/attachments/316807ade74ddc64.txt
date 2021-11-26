@@ -1,5 +1,0 @@
-INFO	2021-11-23 17:44:02,103	[basepage.py:32]	打开网页https://www.imymac.com/resource/
-INFO	2021-11-23 17:44:02,103	[basepage.py:226]	关闭黑色星期五优惠链接
-INFO	2021-11-23 17:44:02,104	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
-INFO	2021-11-23 17:44:04,251	[basepage.py:90]	点击元素：('css', 'body>div.container>div:nth-child(2)>div>div:nth-child(3)>a:nth-child(3)')
-INFO	2021-11-23 17:44:05,641	[basepage.py:96]	获取到文本：Similar

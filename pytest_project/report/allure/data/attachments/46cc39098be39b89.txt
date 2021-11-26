@@ -1,6 +1,0 @@
-INFO	2021-11-23 17:47:36,003	[basepage.py:32]	打开网页https://www.imymac.com/sitemap/
-INFO	2021-11-23 17:47:36,004	[basepage.py:226]	关闭黑色星期五优惠链接
-INFO	2021-11-23 17:47:36,004	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
-INFO	2021-11-23 17:47:38,670	[basepage.py:96]	获取到文本：Convert WMA to MP3 Online for Free with High Quality
-INFO	2021-11-23 17:47:38,686	[basepage.py:96]	获取到文本：Convert WMA to MP3 Online for Free with High Quality
-INFO	2021-11-23 17:47:38,703	[basepage.py:96]	获取到文本：Convert WMA to MP3 Online for Free with High Quality

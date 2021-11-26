@@ -1,5 +1,0 @@
-INFO	2021-11-23 17:53:40,590	[basepage.py:32]	打开网页https://www.imymac.com/video-converter/guide.html
-INFO	2021-11-23 17:53:40,591	[basepage.py:226]	关闭黑色星期五优惠链接
-INFO	2021-11-23 17:53:40,593	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
-INFO	2021-11-23 17:53:41,697	[basepage.py:90]	点击元素：('css', 'body > div.container > div:nth-child(1) > div > div.guideBox > a:nth-child(1)')
-INFO	2021-11-23 17:53:42,726	[basepage.py:96]	获取到文本：iMyMac Video Converter

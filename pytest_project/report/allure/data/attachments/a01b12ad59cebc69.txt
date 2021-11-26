@@ -1,7 +1,0 @@
-INFO	2021-11-23 17:53:57,921	[basepage.py:32]	打开网页https://www.imymac.com/video-converter/tech.html
-INFO	2021-11-23 17:53:57,921	[basepage.py:226]	关闭黑色星期五优惠链接
-INFO	2021-11-23 17:53:57,921	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
-INFO	2021-11-23 17:53:58,946	[basepage.py:159]	页面滚到元素('css', 'body > div>div.w780>div.tipsBox')
-INFO	2021-11-23 17:53:59,976	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollBy(0,1)
-INFO	2021-11-23 17:54:02,560	[basepage.py:90]	点击元素：('css', 'body > div>div.w780>div.tipsBox>a:nth-child(2)')
-INFO	2021-11-23 17:54:03,598	[basepage.py:96]	获取到文本：Convert M4A to MP3 on Mac- Quick and Easy Guide

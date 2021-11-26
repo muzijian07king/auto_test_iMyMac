@@ -65,7 +65,7 @@ class CleanerPage(WebPage):
     def scroll_to_footerBuy(self):
         """移动到footerBg栏"""
         allure.step('页面滑动到footerBuy上')
-        self.scroll_to_loc(cleaner['footerBuy-class'])
+        self.jsInDriver('document.documentElement.scrollTop=10000')
 
     @allure.step('页面滑动到guide上')
     def scroll_to_guide(self):

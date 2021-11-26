@@ -1,1 +1,3 @@
 pytest_project/allure-results/*
+pytest_project/.pytest_cache
+pytest_project/report/*
