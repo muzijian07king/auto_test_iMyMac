@@ -5,12 +5,12 @@ WIN = sys.platform.startswith('win')
 HISTORY = True
 DOWNLOAD = True
 
- 
+
 def main():
     """主函数"""
     steps = [
-        "pytest --alluredir allure-results --clean-alluredir" if WIN else "pytest --alluredir allure-results "
-                                                                               "--clean-alluredir ",
+        "pytest  --alluredir allure-results --clean-alluredir" if WIN else "pytest --alluredir allure-results "
+                                                                           "--clean-alluredir ",
         "copy utils\\environment.properties allure-results\\environment.properties" if WIN else 'cp utils/environment'
                                                                                                 '.properties '
                                                                                                 "allure-results"

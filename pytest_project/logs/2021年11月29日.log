@@ -1,0 +1,809 @@
+INFO	2021-11-29 09:30:47,468	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:30:47,469	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:30:47,470	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:30:47,507	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:30:47,508	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:30:47,508	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:30:47,581	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:30:47,581	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:30:47,581	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:30:48,044	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:30:48,044	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:30:48,044	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:30:49,167	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(2)>a')
+INFO	2021-11-29 09:30:49,171	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(4)>a')
+INFO	2021-11-29 09:30:49,231	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(1)>a')
+INFO	2021-11-29 09:30:49,709	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(3)>a')
+INFO	2021-11-29 09:30:50,198	[basepage.py:96]	获取到文本：Mac Cleaner FAQs
+INFO	2021-11-29 09:30:50,266	[basepage.py:96]	获取到文本：General FAQs
+INFO	2021-11-29 09:30:50,589	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:30:50,589	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:30:50,589	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:30:50,644	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:30:50,644	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:30:50,644	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:30:50,718	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:30:50,718	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:30:50,718	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:30:50,743	[basepage.py:96]	获取到文本：PowerMyMac FAQ
+INFO	2021-11-29 09:30:51,286	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:30:51,287	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:30:51,287	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:30:52,077	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(6)>a')
+INFO	2021-11-29 09:30:52,121	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(5)>a')
+INFO	2021-11-29 09:30:52,424	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(2)>a')
+INFO	2021-11-29 09:30:52,788	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(1)>a')
+INFO	2021-11-29 09:30:53,110	[basepage.py:96]	获取到文本：PDF Compressor FAQ
+INFO	2021-11-29 09:30:53,159	[basepage.py:96]	获取到文本：Video Converter FAQ
+INFO	2021-11-29 09:30:53,363	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:30:53,364	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:30:53,364	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:30:53,403	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:30:53,403	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:30:53,404	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:30:53,465	[basepage.py:90]	点击元素：('css', 'body>div.container>div:nth-child(2)>div:nth-child(1)>div>div:nth-child(2)>p')
+INFO	2021-11-29 09:30:53,825	[basepage.py:90]	点击元素：('css', 'body>div.container>div:nth-child(2)>div:nth-child(1)>div>div:nth-child(2)>p')
+INFO	2021-11-29 09:30:54,503	[basepage.py:134]	获取到class元素的值==》faqItem faqAnswer-show
+INFO	2021-11-29 09:30:54,771	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:30:54,771	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:30:54,771	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:30:54,848	[basepage.py:134]	获取到class元素的值==》faqItem faqAnswer-show
+INFO	2021-11-29 09:30:54,875	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(4)>a')
+INFO	2021-11-29 09:30:54,927	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(3)>a')
+INFO	2021-11-29 09:30:55,080	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:30:55,080	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:30:55,080	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:30:55,921	[basepage.py:90]	点击元素：('css', 'body>div.container>div:nth-child(2)>div:nth-child(1)>div>div:nth-child(2)>p')
+INFO	2021-11-29 09:30:55,972	[basepage.py:90]	点击元素：('css', 'body>div.container>div:nth-child(2)>div:nth-child(1)>div>div:nth-child(2)>p')
+INFO	2021-11-29 09:30:56,273	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(5)>a')
+INFO	2021-11-29 09:30:56,555	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(2)>a')
+INFO	2021-11-29 09:30:56,947	[basepage.py:134]	获取到class元素的值==》faqItem faqAnswer-show
+INFO	2021-11-29 09:30:56,994	[basepage.py:134]	获取到class元素的值==》faqItem faqAnswer-show
+INFO	2021-11-29 09:30:57,302	[basepage.py:90]	点击元素：('css', 'body>div.container>div:nth-child(2)>div:nth-child(1)>div>div:nth-child(2)>p')
+INFO	2021-11-29 09:30:57,405	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:30:57,405	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:30:57,405	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:30:57,463	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:30:57,463	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:30:57,463	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:30:57,602	[basepage.py:90]	点击元素：('css', 'body>div.container>div:nth-child(2)>div:nth-child(1)>div>div:nth-child(2)>p')
+INFO	2021-11-29 09:30:58,332	[basepage.py:134]	获取到class元素的值==》faqItem faqAnswer-show
+INFO	2021-11-29 09:30:58,579	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:30:58,579	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:30:58,579	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:30:58,639	[basepage.py:90]	点击元素：('css', 'body>div.container>div:nth-child(2)>div:nth-child(1)>div>div:nth-child(2)>p')
+INFO	2021-11-29 09:30:58,745	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(4)>a')
+INFO	2021-11-29 09:30:58,992	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(6)>a')
+INFO	2021-11-29 09:30:59,670	[basepage.py:134]	获取到class元素的值==》faqItem
+INFO	2021-11-29 09:30:59,792	[basepage.py:90]	点击元素：('css', 'body>div.container>div:nth-child(2)>div:nth-child(1)>div>div:nth-child(2)>p')
+INFO	2021-11-29 09:31:00,033	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:31:00,034	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:31:00,034	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:31:00,042	[basepage.py:90]	点击元素：('css', 'body>div.container>div:nth-child(2)>div:nth-child(1)>div>div:nth-child(2)>p')
+INFO	2021-11-29 09:31:00,112	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(6)>a')
+INFO	2021-11-29 09:31:00,853	[basepage.py:90]	点击元素：('css', 'body>div.container>div:nth-child(2)>div:nth-child(1)>div>div:nth-child(2)>p')
+INFO	2021-11-29 09:31:01,105	[basepage.py:90]	点击元素：('css', 'body>div.container>div:nth-child(2)>div:nth-child(1)>div>div:nth-child(2)>p')
+INFO	2021-11-29 09:31:01,317	[basepage.py:90]	点击元素：('css', 'body>div.container>div:nth-child(2)>div:nth-child(1)>div>div:nth-child(2)>p')
+INFO	2021-11-29 09:31:01,613	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(3)>a')
+INFO	2021-11-29 09:31:01,869	[basepage.py:134]	获取到class元素的值==》faqItem
+INFO	2021-11-29 09:31:02,107	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:31:02,108	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:31:02,108	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:31:02,135	[basepage.py:134]	获取到class元素的值==》faqItem
+INFO	2021-11-29 09:31:02,337	[basepage.py:134]	获取到class元素的值==》faqItem faqAnswer-show
+INFO	2021-11-29 09:31:02,381	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:31:02,381	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:31:02,381	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:31:02,652	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:31:02,652	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:31:02,652	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:31:02,662	[basepage.py:90]	点击元素：('css', 'body>div.container>div:nth-child(2)>div:nth-child(1)>div>div:nth-child(2)>p')
+INFO	2021-11-29 09:31:03,564	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(5)>a')
+INFO	2021-11-29 09:31:03,712	[basepage.py:90]	点击元素：('css', 'body>div.container>div:nth-child(2)>div:nth-child(1)>div>div:nth-child(2)>p')
+INFO	2021-11-29 09:31:03,731	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(1)>a')
+INFO	2021-11-29 09:31:04,573	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(1)>a')
+INFO	2021-11-29 09:31:04,612	[basepage.py:90]	点击元素：('css', 'body>div.container>div:nth-child(2)>div:nth-child(1)>div>div:nth-child(2)>p')
+INFO	2021-11-29 09:31:04,732	[basepage.py:134]	获取到class元素的值==》faqItem
+INFO	2021-11-29 09:31:04,830	[basepage.py:82]	输入文本：java
+INFO	2021-11-29 09:31:05,160	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:31:05,160	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:31:05,161	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:31:05,623	[basepage.py:90]	点击元素：('css', 'body>div.container>div:nth-child(2)>div:nth-child(1)>div>div:nth-child(2)>p')
+INFO	2021-11-29 09:31:05,657	[basepage.py:90]	点击元素：('css', 'body>div.container>div:nth-child(2)>div:nth-child(1)>div>div:nth-child(2)>p')
+INFO	2021-11-29 09:31:06,475	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(2)>a')
+INFO	2021-11-29 09:31:06,572	[basepage.py:90]	点击元素：('css', 'body>div.faqBG>div>div>form>button')
+INFO	2021-11-29 09:31:06,666	[basepage.py:90]	点击元素：('css', 'body>div.container>div:nth-child(2)>div:nth-child(1)>div>div:nth-child(2)>p')
+INFO	2021-11-29 09:31:06,686	[basepage.py:134]	获取到class元素的值==》faqItem
+INFO	2021-11-29 09:31:06,928	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:31:06,928	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:31:06,929	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:31:07,551	[basepage.py:82]	输入文本：java
+INFO	2021-11-29 09:31:07,648	[basepage.py:96]	获取到文本：How Do I Uninstall Java on Mac?
+www.imymac.com › PowerMyMac
+Aug 6, 2021 ... Uninstalling Java on Mac only involves three steps. But, these should be done manually as well as removing variously related plug-ins found ...
+Hoe u Java eenvoudig en snel op Mac kunt installeren
+www.imymac.com › ... › How to Install Java on Mac Easily and Quickly
+Creating Kubernetes docker containers allows Java programmers to easily bundle as well as distribute cloud-based services across different cloud settings, then ...
+Come disinstallare Java su Mac?
+www.imymac.com › PowerMyMac
+Come si disinstalla Java sul Mac? Qui, imparerai come rimuovere e eliminare completamente Java su Mac e offriamo tool Uninstaller per disinstallalzione ...
+كيف يمكنني إلغاء تثبيت Java على جهاز Mac؟
+www.imymac.com › PowerMyMac › How Do I Uninstall Java on Mac?
+ومع ذلك ، توقف Mac عن استخدام جافا على نظام التشغيل الخاص به بسبب مشكلات أمنية. قم بإلغاء تثبيت Java على Mac. الجزء 2. قم بإلغاء تثبيت Java على Mac باستخدام ...
+¿Cómo desinstalo Java en Mac?
+www.imymac.com › PowerMyMac
+Aug 6, 2021 ... Desinstalar Java en Mac solo implica tres pasos. Pero, estos deben hacerse manualmente, así como eliminar los complementos relacionados de ...
+Como faço para desinstalar o Java no Mac?
+www.imymac.com › PowerMyMac › How Do I Uninstall Java on Mac?
+Oct 14, 2020 ... O que é Java? A maioria dos navegadores e programas que normalmente usamos precisam Java para funcionar sem problemas. Java é um software ...
+Hoe verwijder ik Java op Mac?
+www.imymac.com › PowerMyMac › How Do I Uninstall Java on Mac?
+Enkele krachtige tools die u mogelijk enige tijd nodig heeft. Daarom wilt u ze verwijderen voor meer opslagruimte. Hier leert u hoe u Java op Mac ...
+Как удалить Java на Mac?
+www.imymac.com › PowerMyMac › How Do I Uninstall Java on Mac?
+Aug 6, 2021 ... Но это следует делать вручную, а также удалять различные связанные плагины, обнаруженные в macOS. Узнайте, как вы можете удалить Java на Mac ...
+Jak odinstalować Javę na komputerze Mac?
+www.imymac.com › PowerMyMac › How Do I Uninstall Java on Mac?
+Wtyczki związane z Javą są rozproszone i znalezienie każdego z nich może być skomplikowane. Jest inny sposób odinstaluj Java na Macu i to znaczy korzystać z ...
+Comment désinstaller Java sur Mac ?
+www.imymac.com › PowerMyMac
+Aug 30, 2021 ... Supprimer Java sur Mac à l'aide de Terminal.Partie 5. Comment désactiver Java sur Mac ? Partie 1. Qu'est-ce que Java ? La plupart des ...
+INFO	2021-11-29 09:31:07,667	[basepage.py:96]	获取到文本：java
+INFO	2021-11-29 09:31:07,694	[basepage.py:134]	获取到class元素的值==》faqItem
+INFO	2021-11-29 09:31:07,902	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:31:07,903	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:31:07,903	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:31:07,951	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:31:07,951	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:31:07,951	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:31:08,395	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(3)>a')
+INFO	2021-11-29 09:31:09,021	[basepage.py:90]	点击元素：('css', 'body>div.faqBG>div>div>form>button')
+INFO	2021-11-29 09:31:09,288	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(5)>a')
+INFO	2021-11-29 09:31:09,360	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(4)>a')
+INFO	2021-11-29 09:31:09,463	[basepage.py:82]	输入文本：java
+INFO	2021-11-29 09:31:10,094	[basepage.py:96]	获取到文本：How Do I Uninstall Java on Mac?
+www.imymac.com › PowerMyMac
+Aug 6, 2021 ... Uninstalling Java on Mac only involves three steps. But, these should be done manually as well as removing variously related plug-ins found ...
+Hoe u Java eenvoudig en snel op Mac kunt installeren
+www.imymac.com › ... › How to Install Java on Mac Easily and Quickly
+Creating Kubernetes docker containers allows Java programmers to easily bundle as well as distribute cloud-based services across different cloud settings, then ...
+Come disinstallare Java su Mac?
+www.imymac.com › PowerMyMac
+Come si disinstalla Java sul Mac? Qui, imparerai come rimuovere e eliminare completamente Java su Mac e offriamo tool Uninstaller per disinstallalzione ...
+كيف يمكنني إلغاء تثبيت Java على جهاز Mac؟
+www.imymac.com › PowerMyMac › How Do I Uninstall Java on Mac?
+ومع ذلك ، توقف Mac عن استخدام جافا على نظام التشغيل الخاص به بسبب مشكلات أمنية. قم بإلغاء تثبيت Java على Mac. الجزء 2. قم بإلغاء تثبيت Java على Mac باستخدام ...
+¿Cómo desinstalo Java en Mac?
+www.imymac.com › PowerMyMac
+Aug 6, 2021 ... Desinstalar Java en Mac solo implica tres pasos. Pero, estos deben hacerse manualmente, así como eliminar los complementos relacionados de ...
+Como faço para desinstalar o Java no Mac?
+www.imymac.com › PowerMyMac › How Do I Uninstall Java on Mac?
+Oct 14, 2020 ... O que é Java? A maioria dos navegadores e programas que normalmente usamos precisam Java para funcionar sem problemas. Java é um software ...
+Hoe verwijder ik Java op Mac?
+www.imymac.com › PowerMyMac › How Do I Uninstall Java on Mac?
+Enkele krachtige tools die u mogelijk enige tijd nodig heeft. Daarom wilt u ze verwijderen voor meer opslagruimte. Hier leert u hoe u Java op Mac ...
+Как удалить Java на Mac?
+www.imymac.com › PowerMyMac › How Do I Uninstall Java on Mac?
+Aug 6, 2021 ... Но это следует делать вручную, а также удалять различные связанные плагины, обнаруженные в macOS. Узнайте, как вы можете удалить Java на Mac ...
+Jak odinstalować Javę na komputerze Mac?
+www.imymac.com › PowerMyMac › How Do I Uninstall Java on Mac?
+Wtyczki związane z Javą są rozproszone i znalezienie każdego z nich może być skomplikowane. Jest inny sposób odinstaluj Java na Macu i to znaczy korzystać z ...
+Comment désinstaller Java sur Mac ?
+www.imymac.com › PowerMyMac
+Aug 30, 2021 ... Supprimer Java sur Mac à l'aide de Terminal.Partie 5. Comment désactiver Java sur Mac ? Partie 1. Qu'est-ce que Java ? La plupart des ...
+INFO	2021-11-29 09:31:10,114	[basepage.py:96]	获取到文本：java
+INFO	2021-11-29 09:31:10,387	[basepage.py:82]	输入文本：java
+INFO	2021-11-29 09:31:10,405	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:31:10,406	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:31:10,406	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:31:10,433	[basepage.py:82]	输入文本：java
+INFO	2021-11-29 09:31:10,818	[basepage.py:90]	点击元素：('css', 'body>div.faqBG>div>div>form>button')
+INFO	2021-11-29 09:31:11,714	[basepage.py:90]	点击元素：('css', 'body>div.faqBG>div>div>form>button')
+INFO	2021-11-29 09:31:11,882	[basepage.py:96]	获取到文本：How Do I Uninstall Java on Mac?
+www.imymac.com › PowerMyMac
+Aug 6, 2021 ... Uninstalling Java on Mac only involves three steps. But, these should be done manually as well as removing variously related plug-ins found ...
+Hoe u Java eenvoudig en snel op Mac kunt installeren
+www.imymac.com › ... › How to Install Java on Mac Easily and Quickly
+Creating Kubernetes docker containers allows Java programmers to easily bundle as well as distribute cloud-based services across different cloud settings, then ...
+Come disinstallare Java su Mac?
+www.imymac.com › PowerMyMac
+Come si disinstalla Java sul Mac? Qui, imparerai come rimuovere e eliminare completamente Java su Mac e offriamo tool Uninstaller per disinstallalzione ...
+كيف يمكنني إلغاء تثبيت Java على جهاز Mac؟
+www.imymac.com › PowerMyMac › How Do I Uninstall Java on Mac?
+ومع ذلك ، توقف Mac عن استخدام جافا على نظام التشغيل الخاص به بسبب مشكلات أمنية. قم بإلغاء تثبيت Java على Mac. الجزء 2. قم بإلغاء تثبيت Java على Mac باستخدام ...
+¿Cómo desinstalo Java en Mac?
+www.imymac.com › PowerMyMac
+Aug 6, 2021 ... Desinstalar Java en Mac solo implica tres pasos. Pero, estos deben hacerse manualmente, así como eliminar los complementos relacionados de ...
+Como faço para desinstalar o Java no Mac?
+www.imymac.com › PowerMyMac › How Do I Uninstall Java on Mac?
+Oct 14, 2020 ... O que é Java? A maioria dos navegadores e programas que normalmente usamos precisam Java para funcionar sem problemas. Java é um software ...
+Hoe verwijder ik Java op Mac?
+www.imymac.com › PowerMyMac › How Do I Uninstall Java on Mac?
+Enkele krachtige tools die u mogelijk enige tijd nodig heeft. Daarom wilt u ze verwijderen voor meer opslagruimte. Hier leert u hoe u Java op Mac ...
+Как удалить Java на Mac?
+www.imymac.com › PowerMyMac › How Do I Uninstall Java on Mac?
+Aug 6, 2021 ... Но это следует делать вручную, а также удалять различные связанные плагины, обнаруженные в macOS. Узнайте, как вы можете удалить Java на Mac ...
+Jak odinstalować Javę na komputerze Mac?
+www.imymac.com › PowerMyMac › How Do I Uninstall Java on Mac?
+Wtyczki związane z Javą są rozproszone i znalezienie każdego z nich może być skomplikowane. Jest inny sposób odinstaluj Java na Macu i to znaczy korzystać z ...
+Comment désinstaller Java sur Mac ?
+www.imymac.com › PowerMyMac
+Aug 30, 2021 ... Supprimer Java sur Mac à l'aide de Terminal.Partie 5. Comment désactiver Java sur Mac ? Partie 1. Qu'est-ce que Java ? La plupart des ...
+INFO	2021-11-29 09:31:11,893	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(6)>a')
+INFO	2021-11-29 09:31:11,905	[basepage.py:96]	获取到文本：java
+INFO	2021-11-29 09:31:11,916	[basepage.py:90]	点击元素：('css', 'body>div.faqBG>div>div>form>button')
+INFO	2021-11-29 09:31:12,131	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:31:12,132	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:31:12,132	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:31:12,788	[basepage.py:96]	获取到文本：How Do I Uninstall Java on Mac?
+www.imymac.com › PowerMyMac
+Aug 6, 2021 ... Uninstalling Java on Mac only involves three steps. But, these should be done manually as well as removing variously related plug-ins found ...
+Hoe u Java eenvoudig en snel op Mac kunt installeren
+www.imymac.com › ... › How to Install Java on Mac Easily and Quickly
+Creating Kubernetes docker containers allows Java programmers to easily bundle as well as distribute cloud-based services across different cloud settings, then ...
+Come disinstallare Java su Mac?
+www.imymac.com › PowerMyMac
+Come si disinstalla Java sul Mac? Qui, imparerai come rimuovere e eliminare completamente Java su Mac e offriamo tool Uninstaller per disinstallalzione ...
+كيف يمكنني إلغاء تثبيت Java على جهاز Mac؟
+www.imymac.com › PowerMyMac › How Do I Uninstall Java on Mac?
+ومع ذلك ، توقف Mac عن استخدام جافا على نظام التشغيل الخاص به بسبب مشكلات أمنية. قم بإلغاء تثبيت Java على Mac. الجزء 2. قم بإلغاء تثبيت Java على Mac باستخدام ...
+¿Cómo desinstalo Java en Mac?
+www.imymac.com › PowerMyMac
+Aug 6, 2021 ... Desinstalar Java en Mac solo implica tres pasos. Pero, estos deben hacerse manualmente, así como eliminar los complementos relacionados de ...
+Como faço para desinstalar o Java no Mac?
+www.imymac.com › PowerMyMac › How Do I Uninstall Java on Mac?
+Oct 14, 2020 ... O que é Java? A maioria dos navegadores e programas que normalmente usamos precisam Java para funcionar sem problemas. Java é um software ...
+Hoe verwijder ik Java op Mac?
+www.imymac.com › PowerMyMac › How Do I Uninstall Java on Mac?
+Enkele krachtige tools die u mogelijk enige tijd nodig heeft. Daarom wilt u ze verwijderen voor meer opslagruimte. Hier leert u hoe u Java op Mac ...
+Как удалить Java на Mac?
+www.imymac.com › PowerMyMac › How Do I Uninstall Java on Mac?
+Aug 6, 2021 ... Но это следует делать вручную, а также удалять различные связанные плагины, обнаруженные в macOS. Узнайте, как вы можете удалить Java на Mac ...
+Jak odinstalować Javę na komputerze Mac?
+www.imymac.com › PowerMyMac › How Do I Uninstall Java on Mac?
+Wtyczki związane z Javą są rozproszone i znalezienie każdego z nich może być skomplikowane. Jest inny sposób odinstaluj Java na Macu i to znaczy korzystać z ...
+Comment désinstaller Java sur Mac ?
+www.imymac.com › PowerMyMac
+Aug 30, 2021 ... Supprimer Java sur Mac à l'aide de Terminal.Partie 5. Comment désactiver Java sur Mac ? Partie 1. Qu'est-ce que Java ? La plupart des ...
+INFO	2021-11-29 09:31:12,804	[basepage.py:96]	获取到文本：java
+INFO	2021-11-29 09:31:12,950	[basepage.py:82]	输入文本：java
+INFO	2021-11-29 09:31:12,996	[basepage.py:96]	获取到文本：How Do I Uninstall Java on Mac?
+www.imymac.com › PowerMyMac
+Aug 6, 2021 ... Uninstalling Java on Mac only involves three steps. But, these should be done manually as well as removing variously related plug-ins found ...
+Hoe u Java eenvoudig en snel op Mac kunt installeren
+www.imymac.com › ... › How to Install Java on Mac Easily and Quickly
+Creating Kubernetes docker containers allows Java programmers to easily bundle as well as distribute cloud-based services across different cloud settings, then ...
+Come disinstallare Java su Mac?
+www.imymac.com › PowerMyMac
+Come si disinstalla Java sul Mac? Qui, imparerai come rimuovere e eliminare completamente Java su Mac e offriamo tool Uninstaller per disinstallalzione ...
+كيف يمكنني إلغاء تثبيت Java على جهاز Mac؟
+www.imymac.com › PowerMyMac › How Do I Uninstall Java on Mac?
+ومع ذلك ، توقف Mac عن استخدام جافا على نظام التشغيل الخاص به بسبب مشكلات أمنية. قم بإلغاء تثبيت Java على Mac. الجزء 2. قم بإلغاء تثبيت Java على Mac باستخدام ...
+¿Cómo desinstalo Java en Mac?
+www.imymac.com › PowerMyMac
+Aug 6, 2021 ... Desinstalar Java en Mac solo implica tres pasos. Pero, estos deben hacerse manualmente, así como eliminar los complementos relacionados de ...
+Como faço para desinstalar o Java no Mac?
+www.imymac.com › PowerMyMac › How Do I Uninstall Java on Mac?
+Oct 14, 2020 ... O que é Java? A maioria dos navegadores e programas que normalmente usamos precisam Java para funcionar sem problemas. Java é um software ...
+Hoe verwijder ik Java op Mac?
+www.imymac.com › PowerMyMac › How Do I Uninstall Java on Mac?
+Enkele krachtige tools die u mogelijk enige tijd nodig heeft. Daarom wilt u ze verwijderen voor meer opslagruimte. Hier leert u hoe u Java op Mac ...
+Как удалить Java на Mac?
+www.imymac.com › PowerMyMac › How Do I Uninstall Java on Mac?
+Aug 6, 2021 ... Но это следует делать вручную, а также удалять различные связанные плагины, обнаруженные в macOS. Узнайте, как вы можете удалить Java на Mac ...
+Jak odinstalować Javę na komputerze Mac?
+www.imymac.com › PowerMyMac › How Do I Uninstall Java on Mac?
+Wtyczki związane z Javą są rozproszone i znalezienie każdego z nich może być skomplikowane. Jest inny sposób odinstaluj Java na Macu i to znaczy korzystać z ...
+Comment désinstaller Java sur Mac ?
+www.imymac.com › PowerMyMac
+Aug 30, 2021 ... Supprimer Java sur Mac à l'aide de Terminal.Partie 5. Comment désactiver Java sur Mac ? Partie 1. Qu'est-ce que Java ? La plupart des ...
+INFO	2021-11-29 09:31:13,018	[basepage.py:96]	获取到文本：java
+INFO	2021-11-29 09:31:13,034	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:31:13,035	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:31:13,035	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:31:13,263	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:31:13,263	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:31:13,263	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:31:13,592	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(1)>a')
+INFO	2021-11-29 09:31:14,225	[basepage.py:90]	点击元素：('css', 'body>div.faqBG>div>div>form>button')
+INFO	2021-11-29 09:31:14,502	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(2)>a')
+INFO	2021-11-29 09:31:14,656	[basepage.py:82]	输入文本：python
+INFO	2021-11-29 09:31:14,735	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(3)>a')
+INFO	2021-11-29 09:31:15,302	[basepage.py:96]	获取到文本：How Do I Uninstall Java on Mac?
+www.imymac.com › PowerMyMac
+Aug 6, 2021 ... Uninstalling Java on Mac only involves three steps. But, these should be done manually as well as removing variously related plug-ins found ...
+Hoe u Java eenvoudig en snel op Mac kunt installeren
+www.imymac.com › ... › How to Install Java on Mac Easily and Quickly
+Creating Kubernetes docker containers allows Java programmers to easily bundle as well as distribute cloud-based services across different cloud settings, then ...
+Come disinstallare Java su Mac?
+www.imymac.com › PowerMyMac
+Come si disinstalla Java sul Mac? Qui, imparerai come rimuovere e eliminare completamente Java su Mac e offriamo tool Uninstaller per disinstallalzione ...
+كيف يمكنني إلغاء تثبيت Java على جهاز Mac؟
+www.imymac.com › PowerMyMac › How Do I Uninstall Java on Mac?
+ومع ذلك ، توقف Mac عن استخدام جافا على نظام التشغيل الخاص به بسبب مشكلات أمنية. قم بإلغاء تثبيت Java على Mac. الجزء 2. قم بإلغاء تثبيت Java على Mac باستخدام ...
+¿Cómo desinstalo Java en Mac?
+www.imymac.com › PowerMyMac
+Aug 6, 2021 ... Desinstalar Java en Mac solo implica tres pasos. Pero, estos deben hacerse manualmente, así como eliminar los complementos relacionados de ...
+Como faço para desinstalar o Java no Mac?
+www.imymac.com › PowerMyMac › How Do I Uninstall Java on Mac?
+Oct 14, 2020 ... O que é Java? A maioria dos navegadores e programas que normalmente usamos precisam Java para funcionar sem problemas. Java é um software ...
+Hoe verwijder ik Java op Mac?
+www.imymac.com › PowerMyMac › How Do I Uninstall Java on Mac?
+Enkele krachtige tools die u mogelijk enige tijd nodig heeft. Daarom wilt u ze verwijderen voor meer opslagruimte. Hier leert u hoe u Java op Mac ...
+Как удалить Java на Mac?
+www.imymac.com › PowerMyMac › How Do I Uninstall Java on Mac?
+Aug 6, 2021 ... Но это следует делать вручную, а также удалять различные связанные плагины, обнаруженные в macOS. Узнайте, как вы можете удалить Java на Mac ...
+Jak odinstalować Javę na komputerze Mac?
+www.imymac.com › PowerMyMac › How Do I Uninstall Java on Mac?
+Wtyczki związane z Javą są rozproszone i znalezienie każdego z nich może być skomplikowane. Jest inny sposób odinstaluj Java na Macu i to znaczy korzystać z ...
+Comment désinstaller Java sur Mac ?
+www.imymac.com › PowerMyMac
+Aug 30, 2021 ... Supprimer Java sur Mac à l'aide de Terminal.Partie 5. Comment désactiver Java sur Mac ? Partie 1. Qu'est-ce que Java ? La plupart des ...
+INFO	2021-11-29 09:31:15,318	[basepage.py:96]	获取到文本：java
+INFO	2021-11-29 09:31:15,544	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:31:15,544	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:31:15,544	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:31:15,569	[basepage.py:82]	输入文本：python
+INFO	2021-11-29 09:31:15,802	[basepage.py:82]	输入文本：python
+INFO	2021-11-29 09:31:15,967	[basepage.py:90]	点击元素：('css', 'body>div.faqBG>div>div>form>button')
+INFO	2021-11-29 09:31:16,771	[basepage.py:90]	点击元素：('css', 'body>div.faqBG>div>div>form>button')
+INFO	2021-11-29 09:31:16,998	[basepage.py:90]	点击元素：('css', 'body>div.faqBG>div>div>form>button')
+INFO	2021-11-29 09:31:17,040	[basepage.py:96]	获取到文本：Como atualizar o Python no Mac com facilidade e rapidez
+www.imymac.com › ... › How to Update Python on Mac Easily and Quickly
+Recent Mac editions include Python 2.7; nevertheless, several more Python subscribers might have to update Python within Mac towards something such as a ...
+Comment désinstaller Python sur Mac en toute sécurité et ...
+www.imymac.com › PowerMyMac
+Python est une application de programmation utile, mais ses utilisateurs ont parfois du mal à le désinstaller. Ainsi, plusieurs méthodes utiles sont données ...
+كيفية إلغاء تثبيت Python على نظام Mac بأمان وبشكل كامل
+www.imymac.com › powermymac › uninstall-python-mac
+Aug 31, 2020 ... Python هو تطبيق برمجة مفيد ، ولكن في بعض الأحيان يجد مستخدموه صعوبة في إلغاء تثبيته. وبالتالي ، يتم تقديم العديد من الطرق المفيدة للمساعدة ...
+Como desinstalar completamente o Python no Mac de forma segura ...
+www.imymac.com › powermymac › uninstall-python-mac
+Aug 31, 2020 ... For some people, it is hard to uninstall Python on Mac in a proper way. This post will share two ways to completely and safely uninstall ...
+Come disinstallare Python su Mac in modo sicuro e completo
+www.imymac.com › PowerMyMac
+Python è un linguaggio di programmazione open-source comunemente usato sia dai programmatori alle prime armi che da quelli più esperti con altri linguaggi ...
+Hoe Python op Mac veilig en volledig te verwijderen
+www.imymac.com › powermymac › uninstall-python-mac
+Nov 3, 2021 ... For some people, it is hard to uninstall Python on Mac in a proper way. This post will share two ways to completely and safely uninstall ...
+Как удалить Python на Mac безопасно и полностью
+www.imymac.com › powermymac › uninstall-python-mac
+Nov 3, 2021 ... For some people, it is hard to uninstall Python on Mac in a proper way. This post will share two ways to completely and safely uninstall ...
+Jak bezpiecznie i całkowicie odinstalować Python na komputerze Mac
+www.imymac.com › powermymac › uninstall-python-mac
+Aug 31, 2020 ... For some people, it is hard to uninstall Python on Mac in a proper way. This post will share two ways to completely and safely uninstall ...
+Cómo desinstalar Python en Mac de forma segura y completa
+www.imymac.com › PowerMyMac
+Aug 6, 2021 ... Python es una aplicación de programación útil, pero a veces a sus usuarios les resulta difícil de desinstalar. Por lo tanto, se proporcionan ...
+Cómo actualizar Python en Mac de forma fácil y rápida
+www.imymac.com › Consejos Mac
+Oct 14, 2021 ... Aquí hay una guía breve y excelente sobre cómo actualizar Python en Mac y cómo instalar Python si no tiene uno. Lea aquí para obtener más ...
+INFO	2021-11-29 09:31:17,060	[basepage.py:96]	获取到文本：python
+INFO	2021-11-29 09:31:17,155	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(4)>a')
+INFO	2021-11-29 09:31:17,278	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:31:17,278	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:31:17,278	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:31:17,841	[basepage.py:96]	获取到文本：Como atualizar o Python no Mac com facilidade e rapidez
+www.imymac.com › ... › How to Update Python on Mac Easily and Quickly
+Recent Mac editions include Python 2.7; nevertheless, several more Python subscribers might have to update Python within Mac towards something such as a ...
+Comment désinstaller Python sur Mac en toute sécurité et ...
+www.imymac.com › PowerMyMac
+Python est une application de programmation utile, mais ses utilisateurs ont parfois du mal à le désinstaller. Ainsi, plusieurs méthodes utiles sont données ...
+كيفية إلغاء تثبيت Python على نظام Mac بأمان وبشكل كامل
+www.imymac.com › powermymac › uninstall-python-mac
+Aug 31, 2020 ... Python هو تطبيق برمجة مفيد ، ولكن في بعض الأحيان يجد مستخدموه صعوبة في إلغاء تثبيته. وبالتالي ، يتم تقديم العديد من الطرق المفيدة للمساعدة ...
+Como desinstalar completamente o Python no Mac de forma segura ...
+www.imymac.com › powermymac › uninstall-python-mac
+Aug 31, 2020 ... For some people, it is hard to uninstall Python on Mac in a proper way. This post will share two ways to completely and safely uninstall ...
+Come disinstallare Python su Mac in modo sicuro e completo
+www.imymac.com › PowerMyMac
+Python è un linguaggio di programmazione open-source comunemente usato sia dai programmatori alle prime armi che da quelli più esperti con altri linguaggi ...
+Hoe Python op Mac veilig en volledig te verwijderen
+www.imymac.com › powermymac › uninstall-python-mac
+Nov 3, 2021 ... For some people, it is hard to uninstall Python on Mac in a proper way. This post will share two ways to completely and safely uninstall ...
+Как удалить Python на Mac безопасно и полностью
+www.imymac.com › powermymac › uninstall-python-mac
+Nov 3, 2021 ... For some people, it is hard to uninstall Python on Mac in a proper way. This post will share two ways to completely and safely uninstall ...
+Jak bezpiecznie i całkowicie odinstalować Python na komputerze Mac
+www.imymac.com › powermymac › uninstall-python-mac
+Aug 31, 2020 ... For some people, it is hard to uninstall Python on Mac in a proper way. This post will share two ways to completely and safely uninstall ...
+Cómo desinstalar Python en Mac de forma segura y completa
+www.imymac.com › PowerMyMac
+Aug 6, 2021 ... Python es una aplicación de programación útil, pero a veces a sus usuarios les resulta difícil de desinstalar. Por lo tanto, se proporcionan ...
+Cómo actualizar Python en Mac de forma fácil y rápida
+www.imymac.com › Consejos Mac
+Oct 14, 2021 ... Aquí hay una guía breve y excelente sobre cómo actualizar Python en Mac y cómo instalar Python si no tiene uno. Lea aquí para obtener más ...
+INFO	2021-11-29 09:31:17,858	[basepage.py:96]	获取到文本：python
+INFO	2021-11-29 09:31:18,075	[basepage.py:96]	获取到文本：Como atualizar o Python no Mac com facilidade e rapidez
+www.imymac.com › ... › How to Update Python on Mac Easily and Quickly
+Recent Mac editions include Python 2.7; nevertheless, several more Python subscribers might have to update Python within Mac towards something such as a ...
+Comment désinstaller Python sur Mac en toute sécurité et ...
+www.imymac.com › PowerMyMac
+Python est une application de programmation utile, mais ses utilisateurs ont parfois du mal à le désinstaller. Ainsi, plusieurs méthodes utiles sont données ...
+كيفية إلغاء تثبيت Python على نظام Mac بأمان وبشكل كامل
+www.imymac.com › powermymac › uninstall-python-mac
+Aug 31, 2020 ... Python هو تطبيق برمجة مفيد ، ولكن في بعض الأحيان يجد مستخدموه صعوبة في إلغاء تثبيته. وبالتالي ، يتم تقديم العديد من الطرق المفيدة للمساعدة ...
+Como desinstalar completamente o Python no Mac de forma segura ...
+www.imymac.com › powermymac › uninstall-python-mac
+Aug 31, 2020 ... For some people, it is hard to uninstall Python on Mac in a proper way. This post will share two ways to completely and safely uninstall ...
+Come disinstallare Python su Mac in modo sicuro e completo
+www.imymac.com › PowerMyMac
+Python è un linguaggio di programmazione open-source comunemente usato sia dai programmatori alle prime armi che da quelli più esperti con altri linguaggi ...
+Hoe Python op Mac veilig en volledig te verwijderen
+www.imymac.com › powermymac › uninstall-python-mac
+Nov 3, 2021 ... For some people, it is hard to uninstall Python on Mac in a proper way. This post will share two ways to completely and safely uninstall ...
+Как удалить Python на Mac безопасно и полностью
+www.imymac.com › powermymac › uninstall-python-mac
+Nov 3, 2021 ... For some people, it is hard to uninstall Python on Mac in a proper way. This post will share two ways to completely and safely uninstall ...
+Jak bezpiecznie i całkowicie odinstalować Python na komputerze Mac
+www.imymac.com › powermymac › uninstall-python-mac
+Aug 31, 2020 ... For some people, it is hard to uninstall Python on Mac in a proper way. This post will share two ways to completely and safely uninstall ...
+Cómo desinstalar Python en Mac de forma segura y completa
+www.imymac.com › PowerMyMac
+Aug 6, 2021 ... Python es una aplicación de programación útil, pero a veces a sus usuarios les resulta difícil de desinstalar. Por lo tanto, se proporcionan ...
+Cómo actualizar Python en Mac de forma fácil y rápida
+www.imymac.com › Consejos Mac
+Oct 14, 2021 ... Aquí hay una guía breve y excelente sobre cómo actualizar Python en Mac y cómo instalar Python si no tiene uno. Lea aquí para obtener más ...
+INFO	2021-11-29 09:31:18,077	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:31:18,077	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:31:18,077	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:31:18,092	[basepage.py:96]	获取到文本：python
+INFO	2021-11-29 09:31:18,225	[basepage.py:82]	输入文本：python
+INFO	2021-11-29 09:31:18,365	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:31:18,366	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:31:18,366	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:31:18,573	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(5)>a')
+INFO	2021-11-29 09:31:19,382	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(6)>a')
+INFO	2021-11-29 09:31:19,693	[basepage.py:82]	输入文本：python
+INFO	2021-11-29 09:31:19,740	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(1)>a')
+INFO	2021-11-29 09:31:19,799	[basepage.py:90]	点击元素：('css', 'body>div.faqBG>div>div>form>button')
+INFO	2021-11-29 09:31:20,442	[basepage.py:82]	输入文本：python
+INFO	2021-11-29 09:31:20,801	[basepage.py:82]	输入文本：imymac
+INFO	2021-11-29 09:31:20,867	[basepage.py:96]	获取到文本：Как легко и успешно установить Anaconda на Mac
+www.imymac.com › mac-tips › install-anaconda-mac
+Sep 3, 2021 ... Anaconda was a Python installation that also includes a program controller, even an environmental administrator, as well as a compilation of ...
+Hoe Anaconda eenvoudig en succesvol op Mac te installeren
+www.imymac.com › mac-tips › install-anaconda-mac
+Sep 27, 2021 ... Anaconda was een Python-installatie die ook een programmacontroller bevat, zelfs een omgevingsbeheerder, evenals een compilatie van talloze ...
+Краткое руководство о том, как удалить Anaconda на Mac
+www.imymac.com › powermymac › uninstall-anaconda-on-mac
+Nov 9, 2021 ... Помимо хитрой игры Python, Anaconda считается большой и мощной платформой, которая используется наукой, и именно поэтому некоторые люди ...
+Mac에 Anaconda를 쉽고 성공적으로 설치하는 방법
+www.imymac.com › mac-tips › install-anaconda-mac
+Anaconda는 프로그램 컨트롤러, 심지어 환경 관리자와 수많은 오픈 소스 프로그램의 컴파일도 포함하는 Python 설치였습니다. 여기에는 SciPy, sci-kit learns, ...
+Come disinstallare Anaconda su Mac: guida rapida
+www.imymac.com › PowerMyMac
+Cos'è Anaconda Python? Sai come disinstallare Anaconda da Mac? Questo post ti offre guida rapida su come disinstallarlo su Mac.
+A Quick Guide on How to Uninstall Anaconda on Mac
+www.imymac.com › PowerMyMac
+Aside from the clever pun of the Python, Anaconda is considered to be a large and powerful platform that is used by science and this is why some people ...
+Eine Kurzanleitung zur Deinstallation von Anaconda auf dem Mac
+www.imymac.com › PowerMyMac
+Neben dem Wortspiel (Python) wird Anaconda als große und leistungsstarke Plattform von der Wissenschaft geschätzt. Aus diesem Grund verwenden viele Leute ...
+Een beknopte handleiding over het verwijderen van Anaconda op Mac
+www.imymac.com › powermymac › uninstall-anaconda-on-mac
+Afgezien van de slimme woordspeling van de Python, wordt Anaconda beschouwd als een groot en krachtig platform dat door de wetenschap wordt gebruikt en dit ...
+How to Uninstall Homebrew on Mac Completely
+www.imymac.com › Mac Cleaner
+Oct 19, 2021 ... Think of it like yum or apt for Linux and pip for Python. It's great for coders and non-coders. Homebrew allows you to install software ...
+Szybki przewodnik na temat odinstalowywania Anacondy na ...
+www.imymac.com › powermymac › uninstall-anaconda-on-mac
+Nov 9, 2021 ... This program is distributed by the Python and Język programowania R. for the use of scientific computing such as data science, machine learning ...
+INFO	2021-11-29 09:31:20,884	[basepage.py:96]	获取到文本：python
+INFO	2021-11-29 09:31:20,953	[basepage.py:90]	点击元素：('css', 'body>div.faqBG>div>div>form>button')
+INFO	2021-11-29 09:31:21,107	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:31:21,107	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:31:21,107	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:31:21,401	[basepage.py:90]	点击元素：('css', 'body>div.faqBG>div>div>form>button')
+INFO	2021-11-29 09:31:22,011	[basepage.py:96]	获取到文本：Como atualizar o Python no Mac com facilidade e rapidez
+www.imymac.com › ... › How to Update Python on Mac Easily and Quickly
+Recent Mac editions include Python 2.7; nevertheless, several more Python subscribers might have to update Python within Mac towards something such as a ...
+Comment désinstaller Python sur Mac en toute sécurité et ...
+www.imymac.com › PowerMyMac
+Python est une application de programmation utile, mais ses utilisateurs ont parfois du mal à le désinstaller. Ainsi, plusieurs méthodes utiles sont données ...
+كيفية إلغاء تثبيت Python على نظام Mac بأمان وبشكل كامل
+www.imymac.com › powermymac › uninstall-python-mac
+Aug 31, 2020 ... Python هو تطبيق برمجة مفيد ، ولكن في بعض الأحيان يجد مستخدموه صعوبة في إلغاء تثبيته. وبالتالي ، يتم تقديم العديد من الطرق المفيدة للمساعدة ...
+Como desinstalar completamente o Python no Mac de forma segura ...
+www.imymac.com › powermymac › uninstall-python-mac
+Aug 31, 2020 ... For some people, it is hard to uninstall Python on Mac in a proper way. This post will share two ways to completely and safely uninstall ...
+Come disinstallare Python su Mac in modo sicuro e completo
+www.imymac.com › PowerMyMac
+Python è un linguaggio di programmazione open-source comunemente usato sia dai programmatori alle prime armi che da quelli più esperti con altri linguaggi ...
+Hoe Python op Mac veilig en volledig te verwijderen
+www.imymac.com › powermymac › uninstall-python-mac
+Nov 3, 2021 ... For some people, it is hard to uninstall Python on Mac in a proper way. This post will share two ways to completely and safely uninstall ...
+Cómo desinstalar Python en Mac de forma segura y completa
+www.imymac.com › PowerMyMac
+Aug 6, 2021 ... Python es una aplicación de programación útil, pero a veces a sus usuarios les resulta difícil de desinstalar. Por lo tanto, se proporcionan ...
+Как удалить Python на Mac безопасно и полностью
+www.imymac.com › powermymac › uninstall-python-mac
+Nov 3, 2021 ... For some people, it is hard to uninstall Python on Mac in a proper way. This post will share two ways to completely and safely uninstall ...
+Jak bezpiecznie i całkowicie odinstalować Python na komputerze Mac
+www.imymac.com › powermymac › uninstall-python-mac
+Aug 31, 2020 ... For some people, it is hard to uninstall Python on Mac in a proper way. This post will share two ways to completely and safely uninstall ...
+Cómo actualizar Python en Mac de forma fácil y rápida
+www.imymac.com › Consejos Mac
+Oct 14, 2021 ... Aquí hay una guía breve y excelente sobre cómo actualizar Python en Mac y cómo instalar Python si no tiene uno. Lea aquí para obtener más ...
+INFO	2021-11-29 09:31:22,027	[basepage.py:96]	获取到文本：python
+INFO	2021-11-29 09:31:22,245	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:31:22,245	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:31:22,245	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:31:22,305	[basepage.py:90]	点击元素：('css', 'body>div.faqBG>div>div>form>button')
+INFO	2021-11-29 09:31:22,412	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(2)>a')
+INFO	2021-11-29 09:31:22,461	[basepage.py:96]	获取到文本：Como atualizar o Python no Mac com facilidade e rapidez
+www.imymac.com › ... › How to Update Python on Mac Easily and Quickly
+Recent Mac editions include Python 2.7; nevertheless, several more Python subscribers might have to update Python within Mac towards something such as a ...
+Comment désinstaller Python sur Mac en toute sécurité et ...
+www.imymac.com › PowerMyMac
+Python est une application de programmation utile, mais ses utilisateurs ont parfois du mal à le désinstaller. Ainsi, plusieurs méthodes utiles sont données ...
+كيفية إلغاء تثبيت Python على نظام Mac بأمان وبشكل كامل
+www.imymac.com › powermymac › uninstall-python-mac
+Aug 31, 2020 ... Python هو تطبيق برمجة مفيد ، ولكن في بعض الأحيان يجد مستخدموه صعوبة في إلغاء تثبيته. وبالتالي ، يتم تقديم العديد من الطرق المفيدة للمساعدة ...
+Como desinstalar completamente o Python no Mac de forma segura ...
+www.imymac.com › powermymac › uninstall-python-mac
+Aug 31, 2020 ... For some people, it is hard to uninstall Python on Mac in a proper way. This post will share two ways to completely and safely uninstall ...
+Come disinstallare Python su Mac in modo sicuro e completo
+www.imymac.com › PowerMyMac
+Python è un linguaggio di programmazione open-source comunemente usato sia dai programmatori alle prime armi che da quelli più esperti con altri linguaggi ...
+Hoe Python op Mac veilig en volledig te verwijderen
+www.imymac.com › powermymac › uninstall-python-mac
+Nov 3, 2021 ... For some people, it is hard to uninstall Python on Mac in a proper way. This post will share two ways to completely and safely uninstall ...
+Как удалить Python на Mac безопасно и полностью
+www.imymac.com › powermymac › uninstall-python-mac
+Nov 3, 2021 ... For some people, it is hard to uninstall Python on Mac in a proper way. This post will share two ways to completely and safely uninstall ...
+Jak bezpiecznie i całkowicie odinstalować Python na komputerze Mac
+www.imymac.com › powermymac › uninstall-python-mac
+Aug 31, 2020 ... For some people, it is hard to uninstall Python on Mac in a proper way. This post will share two ways to completely and safely uninstall ...
+Cómo desinstalar Python en Mac de forma segura y completa
+www.imymac.com › PowerMyMac
+Aug 6, 2021 ... Python es una aplicación de programación útil, pero a veces a sus usuarios les resulta difícil de desinstalar. Por lo tanto, se proporcionan ...
+Cómo actualizar Python en Mac de forma fácil y rápida
+www.imymac.com › Consejos Mac
+Oct 14, 2021 ... Aquí hay una guía breve y excelente sobre cómo actualizar Python en Mac y cómo instalar Python si no tiene uno. Lea aquí para obtener más ...
+INFO	2021-11-29 09:31:22,478	[basepage.py:96]	获取到文本：python
+INFO	2021-11-29 09:31:22,694	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:31:22,694	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:31:22,695	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:31:23,377	[basepage.py:96]	获取到文本：iMyMac | Smart Cleanup and Optimize Your Mac
+www.imymac.com
+iMyMac aims to develop apps that make your Mac powerful like a superman. You can use 20+ features in one tool in a click. Clean, protect and optimize your ...
+Mac Cleaner - Easily Clean Up Your Mac with iMyMac
+www.imymac.com › mac-cleaner
+It shows you your Mac system status, the status of CPU, Memory, Disk. It makes a deep scanning on your Mac, including iTunes Backup, Mail Attachment, Trash bins ...
+Free PDF Compressor: Reduce Your PDF Size on Mac | iMyMac
+www.imymac.com › free-imymac-pdf-compressor
+iMyMac PDF Compressor is the best Mac software to reduce PDF size. Keep the same PDF quality less file size. The tool is free to you.
+PowerMyMac - The Best Mac Cleanup Tool in 2020 for MacOS.
+www.imymac.com › powermymac
+Connect with iMyMac. Subscribe for latest updates and offers. Submit. captcha. Copyright © 2021 iMyMac. All rights reserved.
+iMyMac Video Converter - Convert videos to any formats.
+www.imymac.com › video-converter
+iMyMac Video Converter. Convert videos and audios to any formats you desired losslessly with lightning speed. A powerful tool with multiple functions and ...
+iMyMac | Limpia inteligente y optimiza tu Mac
+www.imymac.com › ...
+iMyMac tiene como objetivo desarrollar aplicaciones que hagan que tu Mac sea tan potente como un superhombre. Puede utilizar las características de 20 + en ...
+스마트 정리 및 Mac 최적화 - iMyMac
+www.imymac.com › ...
+iMyMac은 Mac을 수퍼맨처럼 강력하게 만드는 응용 프로그램을 개발하는 것을 목표로합니다. 한 번의 클릭으로 20 + 기능을 하나의 도구에서 사용할 수 있습니다.
+iMyMac | Nettoyage intelligent et optimisation de votre Mac
+www.imymac.com › ...
+iMyMac vise à développer des applications qui rendent votre Mac puissant comme un superman. Vous pouvez utiliser les fonctionnalités de 20 + dans un seul ...
+iMyMac Online PDF Compressor
+www.imymac.com › online-pdf-compressor
+iMyMac Online PDF Compressor is a totally free and online tool you can use to compress your PDF files without losing quality.
+iMyMac | Ihr persönlicher Anbieter von Mac-Lösungen
+www.imymac.com › ...
+iMyMac ist bestrebt, leistungsstarke Tools zu entwickeln und nützliche Lösungen zu teilen, um Menschen dabei zu helfen, den Mac besser zu nutzen, ...
+INFO	2021-11-29 09:31:23,392	[basepage.py:96]	获取到文本：imymac
+INFO	2021-11-29 09:31:23,480	[basepage.py:82]	输入文本：imymac
+INFO	2021-11-29 09:31:23,560	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(3)>a')
+INFO	2021-11-29 09:31:23,630	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:31:23,631	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:31:23,631	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:31:24,564	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(4)>a')
+INFO	2021-11-29 09:31:24,615	[basepage.py:82]	输入文本：imymac
+INFO	2021-11-29 09:31:24,949	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(5)>a')
+INFO	2021-11-29 09:31:25,015	[basepage.py:90]	点击元素：('css', 'body>div.faqBG>div>div>form>button')
+INFO	2021-11-29 09:31:25,622	[basepage.py:82]	输入文本：imymac
+INFO	2021-11-29 09:31:25,967	[basepage.py:90]	点击元素：('css', 'body>div.faqBG>div>div>form>button')
+INFO	2021-11-29 09:31:26,021	[basepage.py:82]	输入文本：imymac
+INFO	2021-11-29 09:31:26,092	[basepage.py:96]	获取到文本：iMyMac | Smart Cleanup and Optimize Your Mac
+www.imymac.com
+iMyMac aims to develop apps that make your Mac powerful like a superman. You can use 20+ features in one tool in a click. Clean, protect and optimize your ...
+Mac Cleaner - Easily Clean Up Your Mac with iMyMac
+www.imymac.com › mac-cleaner
+It shows you your Mac system status, the status of CPU, Memory, Disk. It makes a deep scanning on your Mac, including iTunes Backup, Mail Attachment, Trash bins ...
+Free PDF Compressor: Reduce Your PDF Size on Mac | iMyMac
+www.imymac.com › free-imymac-pdf-compressor
+iMyMac PDF Compressor is the best Mac software to reduce PDF size. Keep the same PDF quality less file size. The tool is free to you.
+PowerMyMac - The Best Mac Cleanup Tool in 2020 for MacOS.
+www.imymac.com › powermymac
+Connect with iMyMac. Subscribe for latest updates and offers. Submit. captcha. Copyright © 2021 iMyMac. All rights reserved.
+iMyMac Video Converter - Convert videos to any formats.
+www.imymac.com › video-converter
+iMyMac Video Converter. Convert videos and audios to any formats you desired losslessly with lightning speed. A powerful tool with multiple functions and ...
+iMyMac | Limpia inteligente y optimiza tu Mac
+www.imymac.com › ...
+iMyMac tiene como objetivo desarrollar aplicaciones que hagan que tu Mac sea tan potente como un superhombre. Puede utilizar las características de 20 + en ...
+스마트 정리 및 Mac 최적화 - iMyMac
+www.imymac.com › ...
+iMyMac은 Mac을 수퍼맨처럼 강력하게 만드는 응용 프로그램을 개발하는 것을 목표로합니다. 한 번의 클릭으로 20 + 기능을 하나의 도구에서 사용할 수 있습니다.
+iMyMac | Nettoyage intelligent et optimisation de votre Mac
+www.imymac.com › ...
+iMyMac vise à développer des applications qui rendent votre Mac puissant comme un superman. Vous pouvez utiliser les fonctionnalités de 20 + dans un seul ...
+iMyMac Online PDF Compressor
+www.imymac.com › online-pdf-compressor
+iMyMac Online PDF Compressor is a totally free and online tool you can use to compress your PDF files without losing quality.
+iMyMac | Ihr persönlicher Anbieter von Mac-Lösungen
+www.imymac.com › ...
+iMyMac ist bestrebt, leistungsstarke Tools zu entwickeln und nützliche Lösungen zu teilen, um Menschen dabei zu helfen, den Mac besser zu nutzen, ...
+INFO	2021-11-29 09:31:26,109	[basepage.py:96]	获取到文本：imymac
+INFO	2021-11-29 09:31:26,353	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:31:26,353	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:31:26,353	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:31:27,044	[basepage.py:96]	获取到文本：iMyMac | Smart Cleanup and Optimize Your Mac
+www.imymac.com
+iMyMac aims to develop apps that make your Mac powerful like a superman. You can use 20+ features in one tool in a click. Clean, protect and optimize your ...
+Mac Cleaner - Easily Clean Up Your Mac with iMyMac
+www.imymac.com › mac-cleaner
+It shows you your Mac system status, the status of CPU, Memory, Disk. It makes a deep scanning on your Mac, including iTunes Backup, Mail Attachment, Trash bins ...
+Free PDF Compressor: Reduce Your PDF Size on Mac | iMyMac
+www.imymac.com › free-imymac-pdf-compressor
+iMyMac PDF Compressor is the best Mac software to reduce PDF size. Keep the same PDF quality less file size. The tool is free to you.
+PowerMyMac - The Best Mac Cleanup Tool in 2020 for MacOS.
+www.imymac.com › powermymac
+Connect with iMyMac. Subscribe for latest updates and offers. Submit. captcha. Copyright © 2021 iMyMac. All rights reserved.
+iMyMac Video Converter - Convert videos to any formats.
+www.imymac.com › video-converter
+iMyMac Video Converter. Convert videos and audios to any formats you desired losslessly with lightning speed. A powerful tool with multiple functions and ...
+iMyMac | Limpia inteligente y optimiza tu Mac
+www.imymac.com › ...
+iMyMac tiene como objetivo desarrollar aplicaciones que hagan que tu Mac sea tan potente como un superhombre. Puede utilizar las características de 20 + en ...
+스마트 정리 및 Mac 최적화 - iMyMac
+www.imymac.com › ...
+iMyMac은 Mac을 수퍼맨처럼 강력하게 만드는 응용 프로그램을 개발하는 것을 목표로합니다. 한 번의 클릭으로 20 + 기능을 하나의 도구에서 사용할 수 있습니다.
+iMyMac | Nettoyage intelligent et optimisation de votre Mac
+www.imymac.com › ...
+iMyMac vise à développer des applications qui rendent votre Mac puissant comme un superman. Vous pouvez utiliser les fonctionnalités de 20 + dans un seul ...
+iMyMac Online PDF Compressor
+www.imymac.com › online-pdf-compressor
+iMyMac Online PDF Compressor is a totally free and online tool you can use to compress your PDF files without losing quality.
+iMyMac | Ihr persönlicher Anbieter von Mac-Lösungen
+www.imymac.com › ...
+iMyMac ist bestrebt, leistungsstarke Tools zu entwickeln und nützliche Lösungen zu teilen, um Menschen dabei zu helfen, den Mac besser zu nutzen, ...
+INFO	2021-11-29 09:31:27,063	[basepage.py:96]	获取到文本：imymac
+INFO	2021-11-29 09:31:27,071	[basepage.py:90]	点击元素：('css', 'body>div.faqBG>div>div>form>button')
+INFO	2021-11-29 09:31:27,273	[basepage.py:90]	点击元素：('css', 'body>div.faqBG>div>div>form>button')
+INFO	2021-11-29 09:31:27,286	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:31:27,286	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:31:27,286	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:31:27,710	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(6)>a')
+INFO	2021-11-29 09:31:28,136	[basepage.py:96]	获取到文本：iMyMac | Smart Cleanup and Optimize Your Mac
+www.imymac.com
+iMyMac aims to develop apps that make your Mac powerful like a superman. You can use 20+ features in one tool in a click. Clean, protect and optimize your ...
+Mac Cleaner - Easily Clean Up Your Mac with iMyMac
+www.imymac.com › mac-cleaner
+It shows you your Mac system status, the status of CPU, Memory, Disk. It makes a deep scanning on your Mac, including iTunes Backup, Mail Attachment, Trash bins ...
+Free PDF Compressor: Reduce Your PDF Size on Mac | iMyMac
+www.imymac.com › free-imymac-pdf-compressor
+iMyMac PDF Compressor is the best Mac software to reduce PDF size. Keep the same PDF quality less file size. The tool is free to you.
+PowerMyMac - The Best Mac Cleanup Tool in 2020 for MacOS.
+www.imymac.com › powermymac
+Connect with iMyMac. Subscribe for latest updates and offers. Submit. captcha. Copyright © 2021 iMyMac. All rights reserved.
+iMyMac Video Converter - Convert videos to any formats.
+www.imymac.com › video-converter
+iMyMac Video Converter. Convert videos and audios to any formats you desired losslessly with lightning speed. A powerful tool with multiple functions and ...
+iMyMac | Limpia inteligente y optimiza tu Mac
+www.imymac.com › ...
+iMyMac tiene como objetivo desarrollar aplicaciones que hagan que tu Mac sea tan potente como un superhombre. Puede utilizar las características de 20 + en ...
+스마트 정리 및 Mac 최적화 - iMyMac
+www.imymac.com › ...
+iMyMac은 Mac을 수퍼맨처럼 강력하게 만드는 응용 프로그램을 개발하는 것을 목표로합니다. 한 번의 클릭으로 20 + 기능을 하나의 도구에서 사용할 수 있습니다.
+iMyMac | Nettoyage intelligent et optimisation de votre Mac
+www.imymac.com › ...
+iMyMac vise à développer des applications qui rendent votre Mac puissant comme un superman. Vous pouvez utiliser les fonctionnalités de 20 + dans un seul ...
+iMyMac Online PDF Compressor
+www.imymac.com › online-pdf-compressor
+iMyMac Online PDF Compressor is a totally free and online tool you can use to compress your PDF files without losing quality.
+iMyMac | Ihr persönlicher Anbieter von Mac-Lösungen
+www.imymac.com › ...
+iMyMac ist bestrebt, leistungsstarke Tools zu entwickeln und nützliche Lösungen zu teilen, um Menschen dabei zu helfen, den Mac besser zu nutzen, ...
+INFO	2021-11-29 09:31:28,152	[basepage.py:96]	获取到文本：imymac
+INFO	2021-11-29 09:31:28,347	[basepage.py:96]	获取到文本：iMyMac | Smart Cleanup and Optimize Your Mac
+www.imymac.com
+iMyMac aims to develop apps that make your Mac powerful like a superman. You can use 20+ features in one tool in a click. Clean, protect and optimize your ...
+Mac Cleaner - Easily Clean Up Your Mac with iMyMac
+www.imymac.com › mac-cleaner
+It shows you your Mac system status, the status of CPU, Memory, Disk. It makes a deep scanning on your Mac, including iTunes Backup, Mail Attachment, Trash bins ...
+Free PDF Compressor: Reduce Your PDF Size on Mac | iMyMac
+www.imymac.com › free-imymac-pdf-compressor
+iMyMac PDF Compressor is the best Mac software to reduce PDF size. Keep the same PDF quality less file size. The tool is free to you.
+PowerMyMac - The Best Mac Cleanup Tool in 2020 for MacOS.
+www.imymac.com › powermymac
+Connect with iMyMac. Subscribe for latest updates and offers. Submit. captcha. Copyright © 2021 iMyMac. All rights reserved.
+iMyMac Video Converter - Convert videos to any formats.
+www.imymac.com › video-converter
+iMyMac Video Converter. Convert videos and audios to any formats you desired losslessly with lightning speed. A powerful tool with multiple functions and ...
+iMyMac | Limpia inteligente y optimiza tu Mac
+www.imymac.com › ...
+iMyMac tiene como objetivo desarrollar aplicaciones que hagan que tu Mac sea tan potente como un superhombre. Puede utilizar las características de 20 + en ...
+스마트 정리 및 Mac 최적화 - iMyMac
+www.imymac.com › ...
+iMyMac은 Mac을 수퍼맨처럼 강력하게 만드는 응용 프로그램을 개발하는 것을 목표로합니다. 한 번의 클릭으로 20 + 기능을 하나의 도구에서 사용할 수 있습니다.
+iMyMac | Nettoyage intelligent et optimisation de votre Mac
+www.imymac.com › ...
+iMyMac vise à développer des applications qui rendent votre Mac puissant comme un superman. Vous pouvez utiliser les fonctionnalités de 20 + dans un seul ...
+iMyMac Online PDF Compressor
+www.imymac.com › online-pdf-compressor
+iMyMac Online PDF Compressor is a totally free and online tool you can use to compress your PDF files without losing quality.
+iMyMac | Ihr persönlicher Anbieter von Mac-Lösungen
+www.imymac.com › ...
+iMyMac ist bestrebt, leistungsstarke Tools zu entwickeln und nützliche Lösungen zu teilen, um Menschen dabei zu helfen, den Mac besser zu nutzen, ...
+INFO	2021-11-29 09:31:28,367	[basepage.py:96]	获取到文本：imymac
+INFO	2021-11-29 09:31:28,384	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:31:28,384	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:31:28,384	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:31:28,583	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:31:28,583	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:31:28,583	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:31:28,584	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(1)>a')
+INFO	2021-11-29 09:31:28,778	[basepage.py:82]	输入文本：imymac
+INFO	2021-11-29 09:31:29,657	[basepage.py:82]	输入文本：adggwgwdqw
+INFO	2021-11-29 09:31:29,715	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(3)>a')
+INFO	2021-11-29 09:31:30,009	[basepage.py:90]	点击元素：('css', 'body>div.faqBG>div>div>form>button')
+INFO	2021-11-29 09:31:30,770	[basepage.py:82]	输入文本：adggwgwdqw
+INFO	2021-11-29 09:31:30,865	[basepage.py:90]	点击元素：('css', 'body>div.faqBG>div>div>form>button')
+INFO	2021-11-29 09:31:31,043	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(2)>a')
+INFO	2021-11-29 09:31:31,072	[basepage.py:96]	获取到文本：iMyMac | Smart Cleanup and Optimize Your Mac
+www.imymac.com
+iMyMac aims to develop apps that make your Mac powerful like a superman. You can use 20+ features in one tool in a click. Clean, protect and optimize your ...
+Mac Cleaner - Easily Clean Up Your Mac with iMyMac
+www.imymac.com › mac-cleaner
+It shows you your Mac system status, the status of CPU, Memory, Disk. It makes a deep scanning on your Mac, including iTunes Backup, Mail Attachment, Trash bins ...
+Free PDF Compressor: Reduce Your PDF Size on Mac | iMyMac
+www.imymac.com › free-imymac-pdf-compressor
+iMyMac PDF Compressor is the best Mac software to reduce PDF size. Keep the same PDF quality less file size. The tool is free to you.
+PowerMyMac - The Best Mac Cleanup Tool in 2020 for MacOS.
+www.imymac.com › powermymac
+Connect with iMyMac. Subscribe for latest updates and offers. Submit. captcha. Copyright © 2021 iMyMac. All rights reserved.
+iMyMac Video Converter - Convert videos to any formats.
+www.imymac.com › video-converter
+iMyMac Video Converter. Convert videos and audios to any formats you desired losslessly with lightning speed. A powerful tool with multiple functions and ...
+iMyMac | Limpia inteligente y optimiza tu Mac
+www.imymac.com › ...
+iMyMac tiene como objetivo desarrollar aplicaciones que hagan que tu Mac sea tan potente como un superhombre. Puede utilizar las características de 20 + en ...
+스마트 정리 및 Mac 최적화 - iMyMac
+www.imymac.com › ...
+iMyMac은 Mac을 수퍼맨처럼 강력하게 만드는 응용 프로그램을 개발하는 것을 목표로합니다. 한 번의 클릭으로 20 + 기능을 하나의 도구에서 사용할 수 있습니다.
+iMyMac | Nettoyage intelligent et optimisation de votre Mac
+www.imymac.com › ...
+iMyMac vise à développer des applications qui rendent votre Mac puissant comme un superman. Vous pouvez utiliser les fonctionnalités de 20 + dans un seul ...
+iMyMac Online PDF Compressor
+www.imymac.com › online-pdf-compressor
+iMyMac Online PDF Compressor is a totally free and online tool you can use to compress your PDF files without losing quality.
+iMyMac | Ihr persönlicher Anbieter von Mac-Lösungen
+www.imymac.com › ...
+iMyMac ist bestrebt, leistungsstarke Tools zu entwickeln und nützliche Lösungen zu teilen, um Menschen dabei zu helfen, den Mac besser zu nutzen, ...
+INFO	2021-11-29 09:31:31,088	[basepage.py:96]	获取到文本：imymac
+INFO	2021-11-29 09:31:31,322	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:31:31,322	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:31:31,322	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:31:31,768	[basepage.py:90]	点击元素：('css', 'body>div.faqBG>div>div>form>button')
+INFO	2021-11-29 09:31:32,090	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:31:32,090	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:31:32,091	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:31:32,112	[basepage.py:82]	输入文本：adggwgwdqw
+INFO	2021-11-29 09:31:32,616	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(4)>a')
+INFO	2021-11-29 09:31:33,029	[basepage.py:32]	打开网页https://www.imymac.com/faqs.html
+INFO	2021-11-29 09:31:33,030	[basepage.py:226]	关闭黑色星期五优惠链接
+INFO	2021-11-29 09:31:33,030	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
+INFO	2021-11-29 09:31:33,138	[basepage.py:90]	点击元素：('css', 'body>div.faqBG>div>div>form>button')
+INFO	2021-11-29 09:31:33,381	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(5)>a')
+INFO	2021-11-29 09:31:33,674	[basepage.py:82]	输入文本：adggwgwdqw
+INFO	2021-11-29 09:31:34,326	[basepage.py:90]	点击元素：('css', 'body>div.container>div>div>div:nth-child(6)>a')
+INFO	2021-11-29 09:31:34,451	[basepage.py:82]	输入文本：adggwgwdqw
+INFO	2021-11-29 09:31:34,669	[basepage.py:90]	点击元素：('css', 'body>div.faqBG>div>div>form>button')
+INFO	2021-11-29 09:31:35,398	[basepage.py:82]	输入文本：adggwgwdqw
+INFO	2021-11-29 09:31:35,696	[basepage.py:90]	点击元素：('css', 'body>div.faqBG>div>div>form>button')
+INFO	2021-11-29 09:31:36,560	[basepage.py:90]	点击元素：('css', 'body>div.faqBG>div>div>form>button')

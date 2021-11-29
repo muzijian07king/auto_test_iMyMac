@@ -1,26 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: headless chrome=96.0.4664.45)",
-      "children" : [ {
-        "name" : "footbuy导航栏下进入buy页面测试",
-        "uid" : "801ffa287b70fd3f",
-        "parentUid" : "cd3975205b2e18ceaedf65a58598f315",
-        "status" : "broken",
-        "time" : {
-          "start" : 1637919692818,
-          "stop" : 1637919705968,
-          "duration" : 13150
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "cd3975205b2e18ceaedf65a58598f315"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ]
+  "children" : [ ]
 }
