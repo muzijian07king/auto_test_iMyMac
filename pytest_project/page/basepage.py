@@ -20,7 +20,7 @@ class WebPage(object):
 
     def __init__(self, driver):
         self.driver = driver
-        self.timeout = 30
+        self.timeout = 60
         self.wait = WebDriverWait(self.driver, self.timeout)
 
     def get_url(self, url):
@@ -88,7 +88,7 @@ class WebPage(object):
     def is_click(self, loc):
         self.find_element(loc).click()
         log.info('点击元素：{}'.format(loc))
-        sleep()
+        sleep(2)
 
     def element_txet(self, loc):
         """获取当前的text属性"""
@@ -161,7 +161,7 @@ class WebPage(object):
         self.driver.execute_script('arguments[0].scrollIntoView()', div)
         sleep()
         self.jsInDriver('document.documentElement.scrollBy(0,2)')
-        sleep()
+        sleep(2)
 
     def scroll_to_loc_is_click(self, loc):
         """下拉滑动到某个元素上"""

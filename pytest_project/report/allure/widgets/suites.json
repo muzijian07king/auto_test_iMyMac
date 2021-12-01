@@ -1,15 +1,15 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "271cdb96b0aabce545b7e600b5969c4e",
-    "name" : "TestCase.faq_test_case",
+    "uid" : "3b5f41c99ca00ee5d475c83496be6326",
+    "name" : "TestCase.powermymac_test_case",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 42,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 42
+      "total" : 1
     }
   } ]
 }
