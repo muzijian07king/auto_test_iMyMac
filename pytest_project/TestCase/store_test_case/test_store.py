@@ -16,7 +16,6 @@ class TestBody(object):
     def open_url(self, drivers):
         self.driver = StorePage(drivers)
         self.driver.get_url(ini.get_url('store'))
-        self.driver.click_sale_off_link()
 
     @pytest.mark.parametrize('buy', get_values_in_name().get_values_in_name(store.data, 'buy-button'))
     @allure.title('点击pmm购买按钮测试')

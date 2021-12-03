@@ -15,7 +15,6 @@ class TestBody(object):
     def openurl(self, drivers):
         self.driver = CompressorPage(drivers)
         self.driver.get_url(ini.get_url('pdf-compressor'))
-        self.driver.click_sale_off_link()
 
     @pytest.mark.parametrize('download', get_branch_all_value().get_branch_all_value(compressor.data, 'free-download'))
     @allure.title('下载compressor测试')

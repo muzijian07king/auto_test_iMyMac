@@ -16,7 +16,6 @@ class TestBody(object):
     def open_clear(self, drivers):
         self.driver = GuidePage(drivers)
         self.driver.get_url(ini.get_url('video-guide'))
-        self.driver.click_sale_off_link()
 
     @allure.severity('blocker')
     @allure.title('下载video测试')

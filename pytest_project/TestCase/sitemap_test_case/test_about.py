@@ -15,7 +15,6 @@ class TestBody(object):
     def open_url(self, drivers):
         self.driver = AboutPage(drivers)
         self.driver.get_url(ini.get_url('about'))
-        self.driver.click_sale_off_link()
 
     @allure.title('产品链接测试')
     @pytest.mark.parametrize('product', get_branch_all_keys().get_branch_all_keys(about.data, 'about'))

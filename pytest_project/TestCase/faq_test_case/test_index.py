@@ -17,7 +17,6 @@ class TestBody(object):
     def open_url(self, drivers):
         self.driver = FAQSPage(drivers)
         self.driver.get_url(ini.get_url('faq'))
-        self.driver.click_sale_off_link()
 
     @pytest.mark.parametrize('faq_name', get_branch_all_keys().get_branch_all_keys(faq.data, 'FAQS'))
     @allure.title('进入常见问题页面测试')

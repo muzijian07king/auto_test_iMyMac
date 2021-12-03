@@ -19,7 +19,6 @@ class TestHead(object):
     def open_index(self, drivers):
         self.driver = HeadPage(drivers)
         self.driver.get_url(ini.url)
-        self.driver.click_sale_off_link()
 
     @allure.tag('链接测试')
     @pytest.mark.parametrize('link', get_recursion_key().get_recursion_key(head.data)[:6])

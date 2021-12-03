@@ -15,7 +15,6 @@ class TestBody(object):
     def open_index(self, drivers):
         self.driver = BodyPage(drivers)
         self.driver.get_url(ini.url)
-        self.driver.click_sale_off_link()
 
     @allure.title('测试轮播按钮')
     def test_001(self):
@@ -75,7 +74,6 @@ class TestBody(object):
         self.driver.click_link(link)
         assert link in self.driver.get_current_url()
 
-    @pytest.mark.skip('轮播图第一页初始样式有问题')
     @allure.title('测试轮播按钮')
     def test_008(self):
         """点击评价栏的轮播图左滑动按钮"""

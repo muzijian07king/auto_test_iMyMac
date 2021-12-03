@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable: element has zero size\n  (Session info: headless chrome=96.0.4664.45)",
+      "children" : [ {
+        "name" : "切换语言==》波兰语",
+        "uid" : "27efca789d638a9a",
+        "parentUid" : "f927593ffea6914fce5abc9db5dc3f1f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1638524319125,
+          "stop" : 1638524323324,
+          "duration" : 4199
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'pl'" ]
+      } ],
+      "uid" : "f927593ffea6914fce5abc9db5dc3f1f"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

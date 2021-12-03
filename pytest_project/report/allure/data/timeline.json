@@ -4,22 +4,489 @@
   "children" : [ {
     "name" : "DESKTOP-9RE2F6C",
     "children" : [ {
-      "name" : "33448-MainThread",
+      "name" : "1492-MainThread",
       "children" : [ {
-        "name" : "footbuy导航栏下进入buy页面测试",
-        "uid" : "451d02a1139850e8",
-        "parentUid" : "391c41f64e73899131fc10bb9aac63dd",
+        "name" : "切换语言==》葡萄牙语",
+        "uid" : "f0bac1e7a2def1f8",
+        "parentUid" : "590433a3e8c6b3ff7ba32b8bd7dd9d64",
         "status" : "passed",
         "time" : {
-          "start" : 1638338585403,
-          "stop" : 1638338590215,
-          "duration" : 4812
+          "start" : 1638524322347,
+          "stop" : 1638524328026,
+          "duration" : 5679
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ ]
+        "parameters" : [ "'pt'" ]
+      }, {
+        "name" : "测试Youtube链接",
+        "uid" : "a13d45119ab6b82d",
+        "parentUid" : "590433a3e8c6b3ff7ba32b8bd7dd9d64",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638524300256,
+          "stop" : 1638524305542,
+          "duration" : 5286
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Youtube'" ]
+      }, {
+        "name" : "测试Contact链接",
+        "uid" : "b002ba28f4a1db16",
+        "parentUid" : "590433a3e8c6b3ff7ba32b8bd7dd9d64",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638524294633,
+          "stop" : 1638524297349,
+          "duration" : 2716
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Contact'" ]
+      }, {
+        "name" : "切换语言==》韩语",
+        "uid" : "20ab0dd981b1d0a1",
+        "parentUid" : "590433a3e8c6b3ff7ba32b8bd7dd9d64",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638524313564,
+          "stop" : 1638524321122,
+          "duration" : 7558
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ko'" ]
+      }, {
+        "name" : "测试Find-Duplicate-file链接",
+        "uid" : "54acc1ab979b3762",
+        "parentUid" : "590433a3e8c6b3ff7ba32b8bd7dd9d64",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638524287277,
+          "stop" : 1638524290210,
+          "duration" : 2933
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Find-Duplicate-file'" ]
+      }, {
+        "name" : "错误提交订阅测试",
+        "uid" : "5573416d2d5b85c8",
+        "parentUid" : "590433a3e8c6b3ff7ba32b8bd7dd9d64",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638524328464,
+          "stop" : 1638524331682,
+          "duration" : 3218
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "'Please Enter the Email!'" ]
+      }, {
+        "name" : "测试Resource链接",
+        "uid" : "112f1ac55f6c678d",
+        "parentUid" : "590433a3e8c6b3ff7ba32b8bd7dd9d64",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638524290295,
+          "stop" : 1638524294527,
+          "duration" : 4232
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Resource'" ]
+      }, {
+        "name" : "测试Student-Discount链接",
+        "uid" : "1b5c495337fc5931",
+        "parentUid" : "590433a3e8c6b3ff7ba32b8bd7dd9d64",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638524297421,
+          "stop" : 1638524300132,
+          "duration" : 2711
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Student-Discount'" ]
+      }, {
+        "name" : "切换语言==》西班牙语",
+        "uid" : "4093377e60720fff",
+        "parentUid" : "590433a3e8c6b3ff7ba32b8bd7dd9d64",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638524306481,
+          "stop" : 1638524312721,
+          "duration" : 6240
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'es'" ]
       } ],
-      "uid" : "391c41f64e73899131fc10bb9aac63dd"
+      "uid" : "590433a3e8c6b3ff7ba32b8bd7dd9d64"
+    }, {
+      "name" : "20756-MainThread",
+      "children" : [ {
+        "name" : "测试Privacy链接",
+        "uid" : "118865a5a723ba39",
+        "parentUid" : "fbc5b8d00a650fed0a18c3aa6343be30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638524293297,
+          "stop" : 1638524296005,
+          "duration" : 2708
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Privacy'" ]
+      }, {
+        "name" : "切换语言==》法语",
+        "uid" : "baf9cf06086a6e40",
+        "parentUid" : "fbc5b8d00a650fed0a18c3aa6343be30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638524303313,
+          "stop" : 1638524309840,
+          "duration" : 6527
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'fr'" ]
+      }, {
+        "name" : "切换语言==》中文繁体",
+        "uid" : "b6325860c91df5d",
+        "parentUid" : "fbc5b8d00a650fed0a18c3aa6343be30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638524310246,
+          "stop" : 1638524316610,
+          "duration" : 6364
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'tw'" ]
+      }, {
+        "name" : "切换语言==》阿拉伯语",
+        "uid" : "92027d9912220363",
+        "parentUid" : "fbc5b8d00a650fed0a18c3aa6343be30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638524327247,
+          "stop" : 1638524332455,
+          "duration" : 5208
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ar'" ]
+      }, {
+        "name" : "测试FaceBook链接",
+        "uid" : "f186e2a5a64a703",
+        "parentUid" : "fbc5b8d00a650fed0a18c3aa6343be30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638524298761,
+          "stop" : 1638524302610,
+          "duration" : 3849
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'FaceBook'" ]
+      }, {
+        "name" : "测试Speed-Up-Mac链接",
+        "uid" : "1f908b1f4949450f",
+        "parentUid" : "fbc5b8d00a650fed0a18c3aa6343be30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638524287229,
+          "stop" : 1638524290275,
+          "duration" : 3046
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Speed-Up-Mac'" ]
+      }, {
+        "name" : "切换语言==》荷兰语",
+        "uid" : "ad0e0211ea1a21da",
+        "parentUid" : "fbc5b8d00a650fed0a18c3aa6343be30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638524320108,
+          "stop" : 1638524326673,
+          "duration" : 6565
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'nl'" ]
+      }, {
+        "name" : "测试Terms链接",
+        "uid" : "e80ff657e0532905",
+        "parentUid" : "fbc5b8d00a650fed0a18c3aa6343be30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638524296101,
+          "stop" : 1638524298630,
+          "duration" : 2529
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Terms'" ]
+      }, {
+        "name" : "测试Photo-Management-Software链接",
+        "uid" : "bce8e3069afee690",
+        "parentUid" : "fbc5b8d00a650fed0a18c3aa6343be30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638524290391,
+          "stop" : 1638524293222,
+          "duration" : 2831
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Photo-Management-Software'" ]
+      } ],
+      "uid" : "fbc5b8d00a650fed0a18c3aa6343be30"
+    }, {
+      "name" : "15516-MainThread",
+      "children" : [ {
+        "name" : "正确提交订阅测试",
+        "uid" : "b30a67a42c15b809",
+        "parentUid" : "402284d495bf14ad0560e76c62156a39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638524329968,
+          "stop" : 1638524332601,
+          "duration" : 2633
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Successfully'", "'123@qq.com'" ]
+      }, {
+        "name" : "测试Uninstall-Apps链接",
+        "uid" : "7c0ea1019f357e57",
+        "parentUid" : "402284d495bf14ad0560e76c62156a39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638524287736,
+          "stop" : 1638524290592,
+          "duration" : 2856
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Uninstall-Apps'" ]
+      }, {
+        "name" : "切换语言==》英语",
+        "uid" : "5e0500b954f93482",
+        "parentUid" : "402284d495bf14ad0560e76c62156a39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638524301056,
+          "stop" : 1638524305493,
+          "duration" : 4437
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'com'" ]
+      }, {
+        "name" : "切换语言==》意大利语",
+        "uid" : "a3c1330499dd8260",
+        "parentUid" : "402284d495bf14ad0560e76c62156a39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638524312860,
+          "stop" : 1638524322456,
+          "duration" : 9596
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'it'" ]
+      }, {
+        "name" : "切换语言==》俄语",
+        "uid" : "ecc3c64e442ced05",
+        "parentUid" : "402284d495bf14ad0560e76c62156a39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638524323884,
+          "stop" : 1638524329634,
+          "duration" : 5750
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ru'" ]
+      }, {
+        "name" : "测试License-Agreement链接",
+        "uid" : "f11fa3bd871ef45a",
+        "parentUid" : "402284d495bf14ad0560e76c62156a39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638524298171,
+          "stop" : 1638524300953,
+          "duration" : 2782
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'License-Agreement'" ]
+      }, {
+        "name" : "测试FAQ链接",
+        "uid" : "91d9924707ed8905",
+        "parentUid" : "402284d495bf14ad0560e76c62156a39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638524293657,
+          "stop" : 1638524298085,
+          "duration" : 4428
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'FAQ'" ]
+      }, {
+        "name" : "测试Startup-disk链接",
+        "uid" : "2dce64c543c5673e",
+        "parentUid" : "402284d495bf14ad0560e76c62156a39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638524290945,
+          "stop" : 1638524293563,
+          "duration" : 2618
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Startup-disk'" ]
+      }, {
+        "name" : "切换语言==》日语",
+        "uid" : "e8e3eaa3c92c2fd5",
+        "parentUid" : "402284d495bf14ad0560e76c62156a39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638524305943,
+          "stop" : 1638524311969,
+          "duration" : 6026
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'jp'" ]
+      } ],
+      "uid" : "402284d495bf14ad0560e76c62156a39"
+    }, {
+      "name" : "3596-MainThread",
+      "children" : [ {
+        "name" : "切换语言==》中文",
+        "uid" : "d3567b4c7d480900",
+        "parentUid" : "236419b462dc0827ca973a297167f6ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638524311613,
+          "stop" : 1638524318041,
+          "duration" : 6428
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'zh'" ]
+      }, {
+        "name" : "测试Twitter链接",
+        "uid" : "6181e541b109f9e",
+        "parentUid" : "236419b462dc0827ca973a297167f6ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638524299399,
+          "stop" : 1638524304572,
+          "duration" : 5173
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Twitter'" ]
+      }, {
+        "name" : "测试SiteMap链接",
+        "uid" : "9583220b1c683d16",
+        "parentUid" : "236419b462dc0827ca973a297167f6ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638524296873,
+          "stop" : 1638524299307,
+          "duration" : 2434
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'SiteMap'" ]
+      }, {
+        "name" : "测试Refund链接",
+        "uid" : "87160f981777f174",
+        "parentUid" : "236419b462dc0827ca973a297167f6ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638524294076,
+          "stop" : 1638524296800,
+          "duration" : 2724
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Refund'" ]
+      }, {
+        "name" : "切换语言==》波兰语",
+        "uid" : "27efca789d638a9a",
+        "parentUid" : "236419b462dc0827ca973a297167f6ad",
+        "status" : "broken",
+        "time" : {
+          "start" : 1638524319125,
+          "stop" : 1638524323324,
+          "duration" : 4199
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'pl'" ]
+      }, {
+        "name" : "错误提交订阅测试",
+        "uid" : "9760b8bf8740a2e0",
+        "parentUid" : "236419b462dc0827ca973a297167f6ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638524325766,
+          "stop" : 1638524328896,
+          "duration" : 3130
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'123.com'", "'Email Format Error!'" ]
+      }, {
+        "name" : "测试Mac-Purgeable链接",
+        "uid" : "3f8b1c5f59b0a76c",
+        "parentUid" : "236419b462dc0827ca973a297167f6ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638524287734,
+          "stop" : 1638524290576,
+          "duration" : 2842
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Mac-Purgeable'" ]
+      }, {
+        "name" : "切换语言==》德语",
+        "uid" : "90d54eeaf26a0b57",
+        "parentUid" : "236419b462dc0827ca973a297167f6ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638524305132,
+          "stop" : 1638524311075,
+          "duration" : 5943
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'de'" ]
+      }, {
+        "name" : "测试Company链接",
+        "uid" : "1e338da0e734ce26",
+        "parentUid" : "236419b462dc0827ca973a297167f6ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638524290829,
+          "stop" : 1638524293954,
+          "duration" : 3125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Company'" ]
+      } ],
+      "uid" : "236419b462dc0827ca973a297167f6ad"
     } ],
     "uid" : "226e950d083396eac1a77a94af12ec15"
   } ]

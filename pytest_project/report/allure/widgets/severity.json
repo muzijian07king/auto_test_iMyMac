@@ -1,10 +1,360 @@
 [ {
-  "uid" : "451d02a1139850e8",
-  "name" : "footbuy导航栏下进入buy页面测试",
+  "uid" : "1b5c495337fc5931",
+  "name" : "测试Student-Discount链接",
   "time" : {
-    "start" : 1638338585403,
-    "stop" : 1638338590215,
-    "duration" : 4812
+    "start" : 1638524297421,
+    "stop" : 1638524300132,
+    "duration" : 2711
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d3567b4c7d480900",
+  "name" : "切换语言==》中文",
+  "time" : {
+    "start" : 1638524311613,
+    "stop" : 1638524318041,
+    "duration" : 6428
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "112f1ac55f6c678d",
+  "name" : "测试Resource链接",
+  "time" : {
+    "start" : 1638524290295,
+    "stop" : 1638524294527,
+    "duration" : 4232
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "27efca789d638a9a",
+  "name" : "切换语言==》波兰语",
+  "time" : {
+    "start" : 1638524319125,
+    "stop" : 1638524323324,
+    "duration" : 4199
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "1e338da0e734ce26",
+  "name" : "测试Company链接",
+  "time" : {
+    "start" : 1638524290829,
+    "stop" : 1638524293954,
+    "duration" : 3125
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f0bac1e7a2def1f8",
+  "name" : "切换语言==》葡萄牙语",
+  "time" : {
+    "start" : 1638524322347,
+    "stop" : 1638524328026,
+    "duration" : 5679
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "a13d45119ab6b82d",
+  "name" : "测试Youtube链接",
+  "time" : {
+    "start" : 1638524300256,
+    "stop" : 1638524305542,
+    "duration" : 5286
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e8e3eaa3c92c2fd5",
+  "name" : "切换语言==》日语",
+  "time" : {
+    "start" : 1638524305943,
+    "stop" : 1638524311969,
+    "duration" : 6026
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "87160f981777f174",
+  "name" : "测试Refund链接",
+  "time" : {
+    "start" : 1638524294076,
+    "stop" : 1638524296800,
+    "duration" : 2724
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "20ab0dd981b1d0a1",
+  "name" : "切换语言==》韩语",
+  "time" : {
+    "start" : 1638524313564,
+    "stop" : 1638524321122,
+    "duration" : 7558
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ecc3c64e442ced05",
+  "name" : "切换语言==》俄语",
+  "time" : {
+    "start" : 1638524323884,
+    "stop" : 1638524329634,
+    "duration" : 5750
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f186e2a5a64a703",
+  "name" : "测试FaceBook链接",
+  "time" : {
+    "start" : 1638524298761,
+    "stop" : 1638524302610,
+    "duration" : 3849
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9583220b1c683d16",
+  "name" : "测试SiteMap链接",
+  "time" : {
+    "start" : 1638524296873,
+    "stop" : 1638524299307,
+    "duration" : 2434
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e80ff657e0532905",
+  "name" : "测试Terms链接",
+  "time" : {
+    "start" : 1638524296101,
+    "stop" : 1638524298630,
+    "duration" : 2529
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b6325860c91df5d",
+  "name" : "切换语言==》中文繁体",
+  "time" : {
+    "start" : 1638524310246,
+    "stop" : 1638524316610,
+    "duration" : 6364
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5573416d2d5b85c8",
+  "name" : "错误提交订阅测试",
+  "time" : {
+    "start" : 1638524328464,
+    "stop" : 1638524331682,
+    "duration" : 3218
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e0500b954f93482",
+  "name" : "切换语言==》英语",
+  "time" : {
+    "start" : 1638524301056,
+    "stop" : 1638524305493,
+    "duration" : 4437
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "bce8e3069afee690",
+  "name" : "测试Photo-Management-Software链接",
+  "time" : {
+    "start" : 1638524290391,
+    "stop" : 1638524293222,
+    "duration" : 2831
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "baf9cf06086a6e40",
+  "name" : "切换语言==》法语",
+  "time" : {
+    "start" : 1638524303313,
+    "stop" : 1638524309840,
+    "duration" : 6527
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "54acc1ab979b3762",
+  "name" : "测试Find-Duplicate-file链接",
+  "time" : {
+    "start" : 1638524287277,
+    "stop" : 1638524290210,
+    "duration" : 2933
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3f8b1c5f59b0a76c",
+  "name" : "测试Mac-Purgeable链接",
+  "time" : {
+    "start" : 1638524287734,
+    "stop" : 1638524290576,
+    "duration" : 2842
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1f908b1f4949450f",
+  "name" : "测试Speed-Up-Mac链接",
+  "time" : {
+    "start" : 1638524287229,
+    "stop" : 1638524290275,
+    "duration" : 3046
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b002ba28f4a1db16",
+  "name" : "测试Contact链接",
+  "time" : {
+    "start" : 1638524294633,
+    "stop" : 1638524297349,
+    "duration" : 2716
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "92027d9912220363",
+  "name" : "切换语言==》阿拉伯语",
+  "time" : {
+    "start" : 1638524327247,
+    "stop" : 1638524332455,
+    "duration" : 5208
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ad0e0211ea1a21da",
+  "name" : "切换语言==》荷兰语",
+  "time" : {
+    "start" : 1638524320108,
+    "stop" : 1638524326673,
+    "duration" : 6565
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "90d54eeaf26a0b57",
+  "name" : "切换语言==》德语",
+  "time" : {
+    "start" : 1638524305132,
+    "stop" : 1638524311075,
+    "duration" : 5943
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "2dce64c543c5673e",
+  "name" : "测试Startup-disk链接",
+  "time" : {
+    "start" : 1638524290945,
+    "stop" : 1638524293563,
+    "duration" : 2618
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7c0ea1019f357e57",
+  "name" : "测试Uninstall-Apps链接",
+  "time" : {
+    "start" : 1638524287736,
+    "stop" : 1638524290592,
+    "duration" : 2856
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6181e541b109f9e",
+  "name" : "测试Twitter链接",
+  "time" : {
+    "start" : 1638524299399,
+    "stop" : 1638524304572,
+    "duration" : 5173
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "a3c1330499dd8260",
+  "name" : "切换语言==》意大利语",
+  "time" : {
+    "start" : 1638524312860,
+    "stop" : 1638524322456,
+    "duration" : 9596
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f11fa3bd871ef45a",
+  "name" : "测试License-Agreement链接",
+  "time" : {
+    "start" : 1638524298171,
+    "stop" : 1638524300953,
+    "duration" : 2782
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "118865a5a723ba39",
+  "name" : "测试Privacy链接",
+  "time" : {
+    "start" : 1638524293297,
+    "stop" : 1638524296005,
+    "duration" : 2708
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9760b8bf8740a2e0",
+  "name" : "错误提交订阅测试",
+  "time" : {
+    "start" : 1638524325766,
+    "stop" : 1638524328896,
+    "duration" : 3130
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4093377e60720fff",
+  "name" : "切换语言==》西班牙语",
+  "time" : {
+    "start" : 1638524306481,
+    "stop" : 1638524312721,
+    "duration" : 6240
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b30a67a42c15b809",
+  "name" : "正确提交订阅测试",
+  "time" : {
+    "start" : 1638524329968,
+    "stop" : 1638524332601,
+    "duration" : 2633
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "91d9924707ed8905",
+  "name" : "测试FAQ链接",
+  "time" : {
+    "start" : 1638524293657,
+    "stop" : 1638524298085,
+    "duration" : 4428
   },
   "status" : "passed",
   "severity" : "critical"

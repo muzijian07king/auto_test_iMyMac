@@ -16,7 +16,6 @@ class TestFoot(object):
     def open_index(self, drivers):
         self.driver = FootPage(drivers)
         self.driver.get_url(ini.url)
-        self.driver.click_sale_off_link()
 
     @pytest.mark.parametrize('link', get_recursion_key().get_recursion_key(foot.data)[:19])
     @allure.severity('critical')

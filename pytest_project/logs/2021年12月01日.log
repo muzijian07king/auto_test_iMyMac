@@ -1,5 +1,0 @@
-INFO	2021-12-01 14:03:04,380	[basepage.py:32]	打开网页https://www.imymac.com/mac-cleaner/
-INFO	2021-12-01 14:03:04,381	[basepage.py:226]	关闭黑色星期五优惠链接
-INFO	2021-12-01 14:03:04,381	[basepage.py:153]	使用js操控浏览器==》document.querySelector('div.close-tag').click()
-INFO	2021-12-01 14:03:05,404	[basepage.py:153]	使用js操控浏览器==》document.documentElement.scrollTop=6000
-INFO	2021-12-01 14:03:09,187	[basepage.py:90]	点击元素：('css', 'body>div.footerBuy>div>div>div:nth-child(2)>div>a:nth-child(2)')

@@ -15,7 +15,6 @@ class TestBody(object):
     def open_url(self, drivers):
         self.driver = SitemapPage(drivers)
         self.driver.get_url(ini.get_url('sitemap'))
-        self.driver.click_sale_off_link()
 
     @allure.title('PowerMyMac热门文章链接测试')
     @pytest.mark.parametrize('number', list(range(4)))
