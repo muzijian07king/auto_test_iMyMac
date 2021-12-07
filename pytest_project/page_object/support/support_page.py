@@ -3,6 +3,7 @@ from pytest_project.common.readelement import Element
 from pytest_project.common.readexcel import getExcelAllData
 import allure
 from pytest_project.utils.logger import log
+from pytest_project.utils.times import sleep
 
 support = Element('Support/support')
 
@@ -74,6 +75,7 @@ class SupportPage(WebPage):
     @allure.step('点击搜索按钮')
     def click_search_button(self):
         self.is_click(support['search-button'])
+        sleep(2)
 
     def return_succeed_search(self, search):
         """判断搜索结果是否成功"""

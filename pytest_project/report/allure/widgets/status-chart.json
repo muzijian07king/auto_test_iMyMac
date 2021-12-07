@@ -1,360 +1,5360 @@
 [ {
-  "uid" : "20ab0dd981b1d0a1",
-  "name" : "切换语言==》韩语",
+  "uid" : "80c436acd76fd17f",
+  "name" : "点击更多测试",
   "time" : {
-    "start" : 1638524313564,
-    "stop" : 1638524321122,
+    "start" : 1638839546186,
+    "stop" : 1638839548772,
+    "duration" : 2586
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "844b07a0a58568b",
+  "name" : "video编辑功能轮播图测试",
+  "time" : {
+    "start" : 1638840143919,
+    "stop" : 1638840150088,
+    "duration" : 6169
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b50e89ab849c0c09",
+  "name" : "video编辑功能轮播图测试",
+  "time" : {
+    "start" : 1638840145345,
+    "stop" : 1638840151476,
+    "duration" : 6131
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e50e7ff2671338ce",
+  "name" : "进入常见问题页面测试",
+  "time" : {
+    "start" : 1638839260187,
+    "stop" : 1638839262738,
+    "duration" : 2551
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7197a5077454240d",
+  "name" : "pmm购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839782813,
+    "stop" : 1638839797786,
+    "duration" : 14973
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b21779b69cee5241",
+  "name" : "测试PowerMyMac链接",
+  "time" : {
+    "start" : 1638839385718,
+    "stop" : 1638839389050,
+    "duration" : 3332
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "edc4e282618f98fc",
+  "name" : "video购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638840040887,
+    "stop" : 1638840058209,
+    "duration" : 17322
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "deefaa5147f1699",
+  "name" : "product搜索文章测试",
+  "time" : {
+    "start" : 1638840109638,
+    "stop" : 1638840117271,
+    "duration" : 7633
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "798e4679f4a32fb4",
+  "name" : "技巧栏链接测试",
+  "time" : {
+    "start" : 1638839676443,
+    "stop" : 1638839682672,
+    "duration" : 6229
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae78aa5e73c926b6",
+  "name" : "产品链接测试",
+  "time" : {
+    "start" : 1638839491757,
+    "stop" : 1638839493940,
+    "duration" : 2183
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd990ff1339caaf4",
+  "name" : "menu栏按钮测试",
+  "time" : {
+    "start" : 1638840128323,
+    "stop" : 1638840135215,
+    "duration" : 6892
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c4cd08cd7c496af9",
+  "name" : "menu导航栏测试",
+  "time" : {
+    "start" : 1638839621123,
+    "stop" : 1638839625212,
+    "duration" : 4089
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "be302754370f0f04",
+  "name" : "进入PowerMyMac购买页面测试",
+  "time" : {
+    "start" : 1638839443882,
+    "stop" : 1638839446472,
+    "duration" : 2590
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9097158af6d785c4",
+  "name" : "pmm购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839852245,
+    "stop" : 1638839871110,
+    "duration" : 18865
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f5f4b72e6170cce5",
+  "name" : "标签栏测试",
+  "time" : {
+    "start" : 1638839450178,
+    "stop" : 1638839452809,
+    "duration" : 2631
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "cb3191174832d9e7",
+  "name" : "去订阅购买页面测试",
+  "time" : {
+    "start" : 1638840169990,
+    "stop" : 1638840172296,
+    "duration" : 2306
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c4edea555810fa86",
+  "name" : "文章链接测试",
+  "time" : {
+    "start" : 1638840182937,
+    "stop" : 1638840189078,
+    "duration" : 6141
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "186bd0661a9f905c",
+  "name" : "支持优惠邮箱测试",
+  "time" : {
+    "start" : 1638839258136,
+    "stop" : 1638839258450,
+    "duration" : 314
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "5cfdd2ae2b48a4a0",
+  "name" : "更多类中的文章测试",
+  "time" : {
+    "start" : 1638839568505,
+    "stop" : 1638839574026,
+    "duration" : 5521
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e486e947afed51d",
+  "name" : "点击文章==》rotate-a-video",
+  "time" : {
+    "start" : 1638840156725,
+    "stop" : 1638840168482,
+    "duration" : 11757
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f6aa8710aa4d48d2",
+  "name" : "测试Mac-Uninstaller链接",
+  "time" : {
+    "start" : 1638839395591,
+    "stop" : 1638839402132,
+    "duration" : 6541
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3093bc78024d1ff5",
+  "name" : "折叠faq测试",
+  "time" : {
+    "start" : 1638839274501,
+    "stop" : 1638839280914,
+    "duration" : 6413
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3e090f076e91794c",
+  "name" : "小标题测试",
+  "time" : {
+    "start" : 1638839439750,
+    "stop" : 1638839446397,
+    "duration" : 6647
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "bcccd1a03b017a1a",
+  "name" : "测试Terms链接",
+  "time" : {
+    "start" : 1638839354759,
+    "stop" : 1638839357638,
+    "duration" : 2879
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f0f341d776bd51ba",
+  "name" : "Mac Cleaner热门文章链接测试",
+  "time" : {
+    "start" : 1638839501105,
+    "stop" : 1638839501553,
+    "duration" : 448
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "265d12cee92849d6",
+  "name" : "pmm购买页面未填写地区测试",
+  "time" : {
+    "start" : 1638839634704,
+    "stop" : 1638839634704,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "blocker"
+}, {
+  "uid" : "3d548d1cebd1c60b",
+  "name" : "去index页面测试",
+  "time" : {
+    "start" : 1638840164939,
+    "stop" : 1638840167190,
+    "duration" : 2251
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d20002d486e4ccd6",
+  "name" : "标签栏测试",
+  "time" : {
+    "start" : 1638839590157,
+    "stop" : 1638839592791,
+    "duration" : 2634
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d3bef69abc5ba3be",
+  "name" : "点击更多测试",
+  "time" : {
+    "start" : 1638839548844,
+    "stop" : 1638839551437,
+    "duration" : 2593
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "38717e5d70912c8a",
+  "name" : "评价轮播图测试",
+  "time" : {
+    "start" : 1638840168545,
+    "stop" : 1638840174682,
+    "duration" : 6137
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "16674909cbff3b82",
+  "name" : "技巧栏链接测试",
+  "time" : {
+    "start" : 1638839637954,
+    "stop" : 1638839645512,
     "duration" : 7558
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "b002ba28f4a1db16",
-  "name" : "测试Contact链接",
+  "uid" : "379cecdf3e3795d1",
+  "name" : "menu导航栏下进入buy页面测试",
   "time" : {
-    "start" : 1638524294633,
-    "stop" : 1638524297349,
-    "duration" : 2716
+    "start" : 1638839464843,
+    "stop" : 1638839475400,
+    "duration" : 10557
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "5e0500b954f93482",
-  "name" : "切换语言==》英语",
+  "uid" : "5694aff28cd9e35",
+  "name" : "footbuy导航栏下进入buy页面测试",
   "time" : {
-    "start" : 1638524301056,
-    "stop" : 1638524305493,
-    "duration" : 4437
+    "start" : 1638839713161,
+    "stop" : 1638839719499,
+    "duration" : 6338
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "ad0e0211ea1a21da",
-  "name" : "切换语言==》荷兰语",
+  "uid" : "cab0c9ea0591767a",
+  "name" : "搜索文章测试",
   "time" : {
-    "start" : 1638524320108,
-    "stop" : 1638524326673,
-    "duration" : 6565
+    "start" : 1638839296084,
+    "stop" : 1638839303712,
+    "duration" : 7628
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "9583220b1c683d16",
-  "name" : "测试SiteMap链接",
+  "uid" : "642bd359e7534b2",
+  "name" : "video购买页面添加支付卡信息错误测试",
   "time" : {
-    "start" : 1638524296873,
-    "stop" : 1638524299307,
-    "duration" : 2434
+    "start" : 1638840056572,
+    "stop" : 1638840075866,
+    "duration" : 19294
   },
   "status" : "passed",
-  "severity" : "critical"
+  "severity" : "blocker"
 }, {
-  "uid" : "1e338da0e734ce26",
-  "name" : "测试Company链接",
+  "uid" : "fc43bde0c8084479",
+  "name" : "PowerMyMac热门文章链接测试",
   "time" : {
-    "start" : 1638524290829,
-    "stop" : 1638524293954,
-    "duration" : 3125
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "f0bac1e7a2def1f8",
-  "name" : "切换语言==》葡萄牙语",
-  "time" : {
-    "start" : 1638524322347,
-    "stop" : 1638524328026,
-    "duration" : 5679
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "2dce64c543c5673e",
-  "name" : "测试Startup-disk链接",
-  "time" : {
-    "start" : 1638524290945,
-    "stop" : 1638524293563,
-    "duration" : 2618
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "b6325860c91df5d",
-  "name" : "切换语言==》中文繁体",
-  "time" : {
-    "start" : 1638524310246,
-    "stop" : 1638524316610,
-    "duration" : 6364
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "118865a5a723ba39",
-  "name" : "测试Privacy链接",
-  "time" : {
-    "start" : 1638524293297,
-    "stop" : 1638524296005,
-    "duration" : 2708
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "7c0ea1019f357e57",
-  "name" : "测试Uninstall-Apps链接",
-  "time" : {
-    "start" : 1638524287736,
-    "stop" : 1638524290592,
-    "duration" : 2856
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "baf9cf06086a6e40",
-  "name" : "切换语言==》法语",
-  "time" : {
-    "start" : 1638524303313,
-    "stop" : 1638524309840,
-    "duration" : 6527
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "bce8e3069afee690",
-  "name" : "测试Photo-Management-Software链接",
-  "time" : {
-    "start" : 1638524290391,
-    "stop" : 1638524293222,
-    "duration" : 2831
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "6181e541b109f9e",
-  "name" : "测试Twitter链接",
-  "time" : {
-    "start" : 1638524299399,
-    "stop" : 1638524304572,
-    "duration" : 5173
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "5573416d2d5b85c8",
-  "name" : "错误提交订阅测试",
-  "time" : {
-    "start" : 1638524328464,
-    "stop" : 1638524331682,
-    "duration" : 3218
+    "start" : 1638839496680,
+    "stop" : 1638839497215,
+    "duration" : 535
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "27efca789d638a9a",
+  "uid" : "87a297cc36468b58",
+  "name" : "文章链接测试",
+  "time" : {
+    "start" : 1638840188085,
+    "stop" : 1638840194246,
+    "duration" : 6161
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7610a69d221fa4",
+  "name" : "标签栏测试",
+  "time" : {
+    "start" : 1638839442456,
+    "stop" : 1638839445084,
+    "duration" : 2628
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "64aadeb7e0a9574e",
+  "name" : "Browser Cleanup热门文章链接测试",
+  "time" : {
+    "start" : 1638839508029,
+    "stop" : 1638839508491,
+    "duration" : 462
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a7b4a56a12403bbe",
+  "name" : "pmm购买页面填写正确优惠码测试",
+  "time" : {
+    "start" : 1638839709898,
+    "stop" : 1638839727054,
+    "duration" : 17156
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "46d9afec774ea27c",
+  "name" : "pmm购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839741970,
+    "stop" : 1638839758457,
+    "duration" : 16487
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1332f7098c12a1f5",
+  "name" : "video购买页面填写错误格式邮箱测试",
+  "time" : {
+    "start" : 1638839863638,
+    "stop" : 1638839875720,
+    "duration" : 12082
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "1660410494864b1b",
+  "name" : "video购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839985698,
+    "stop" : 1638840003885,
+    "duration" : 18187
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "d24c3e6d9917f1ce",
+  "name" : "测试下载video",
+  "time" : {
+    "start" : 1638839329273,
+    "stop" : 1638839365653,
+    "duration" : 36380
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "8c7667c948e1ec02",
+  "name" : "测试轮播按钮",
+  "time" : {
+    "start" : 1638839375570,
+    "stop" : 1638839380584,
+    "duration" : 5014
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "10f4acada4567616",
+  "name" : "搜索文章测试",
+  "time" : {
+    "start" : 1638839273254,
+    "stop" : 1638839281375,
+    "duration" : 8121
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "15044c053f588f72",
+  "name" : "Key Features of Duplicate Finder轮播图的切换测试",
+  "time" : {
+    "start" : 1638839689130,
+    "stop" : 1638839695263,
+    "duration" : 6133
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "337290e37d898457",
+  "name" : "上一页测试",
+  "time" : {
+    "start" : 1638839475731,
+    "stop" : 1638839478582,
+    "duration" : 2851
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "eb0690ddf9fa5df7",
+  "name" : "menu导航栏下进入用户指南页面测试",
+  "time" : {
+    "start" : 1638839421601,
+    "stop" : 1638839457892,
+    "duration" : 36291
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ad67dba0f08dea2f",
+  "name" : "video购买页面移除优惠码测试",
+  "time" : {
+    "start" : 1638839902313,
+    "stop" : 1638839921914,
+    "duration" : 19601
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "313ac424950008cd",
+  "name" : "搜索文章测试",
+  "time" : {
+    "start" : 1638839278277,
+    "stop" : 1638839286235,
+    "duration" : 7958
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d0fa5901d4de777",
+  "name" : "进入powerMyMac购买页面测试",
+  "time" : {
+    "start" : 1638839703392,
+    "stop" : 1638839705585,
+    "duration" : 2193
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "50f2d3b363a8e10b",
+  "name" : "menu导航栏下进入主页测试",
+  "time" : {
+    "start" : 1638839520966,
+    "stop" : 1638839527131,
+    "duration" : 6165
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "50fce264e7eeae23",
+  "name" : "pmm购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839827474,
+    "stop" : 1638839842417,
+    "duration" : 14943
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ea2f10eedbc40c62",
+  "name" : "测试输入Video关键字",
+  "time" : {
+    "start" : 1638839406699,
+    "stop" : 1638839411965,
+    "duration" : 5266
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e5b3af0202eee400",
+  "name" : "技巧栏链接测试",
+  "time" : {
+    "start" : 1638839519048,
+    "stop" : 1638839531653,
+    "duration" : 12605
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "fc57b52d157b6db6",
+  "name" : "product搜索文章测试",
+  "time" : {
+    "start" : 1638840115985,
+    "stop" : 1638840124213,
+    "duration" : 8228
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "af3c97012ac74d6a",
+  "name" : "进入用户指南页面测试",
+  "time" : {
+    "start" : 1638839656457,
+    "stop" : 1638839663277,
+    "duration" : 6820
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7f601c1db18fa07d",
+  "name" : "测试下载ppm",
+  "time" : {
+    "start" : 1638839326774,
+    "stop" : 1638839329902,
+    "duration" : 3128
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "a56f05ea57a6f014",
+  "name" : "下载PowerMyMac测试",
+  "time" : {
+    "start" : 1638839701030,
+    "stop" : 1638839703127,
+    "duration" : 2097
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "9e26f7148584c1e5",
+  "name" : "进入similar首页",
+  "time" : {
+    "start" : 1638839449321,
+    "stop" : 1638839451431,
+    "duration" : 2110
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "157ae325e5555b9c",
+  "name" : "邮箱链接测试",
+  "time" : {
+    "start" : 1638839460735,
+    "stop" : 1638839467460,
+    "duration" : 6725
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dbbc5e086e631096",
+  "name" : "pmm购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839889507,
+    "stop" : 1638839909349,
+    "duration" : 19842
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7c6da9bd7a629554",
+  "name" : "video购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839952699,
+    "stop" : 1638839971558,
+    "duration" : 18859
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "4c140013fe38736d",
+  "name" : "pmm购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839739189,
+    "stop" : 1638839753670,
+    "duration" : 14481
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3060864f2b2b9b1f",
+  "name" : "标签栏测试",
+  "time" : {
+    "start" : 1638839453647,
+    "stop" : 1638839456320,
+    "duration" : 2673
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "14414099c3d5e8c5",
+  "name" : "menu导航栏下进入主页测试",
+  "time" : {
+    "start" : 1638839680418,
+    "stop" : 1638839686687,
+    "duration" : 6269
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "425b6aec5a808415",
+  "name" : "pmm购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839798617,
+    "stop" : 1638839818070,
+    "duration" : 19453
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ceecfcf13de38739",
+  "name" : "下载PowerMyMac测试",
+  "time" : {
+    "start" : 1638839605261,
+    "stop" : 1638839607343,
+    "duration" : 2082
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "e8c50d848ea0c1d5",
+  "name" : "进入常见问题页面测试",
+  "time" : {
+    "start" : 1638839260134,
+    "stop" : 1638839262774,
+    "duration" : 2640
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b721020f9fcce084",
+  "name" : "video购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839936356,
+    "stop" : 1638839952485,
+    "duration" : 16129
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "4a7ac9e62539a346",
+  "name" : "video购买页面填写购买数量测试",
+  "time" : {
+    "start" : 1638839766797,
+    "stop" : 1638839775265,
+    "duration" : 8468
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "91c9bab7dad4947f",
+  "name" : "切换语言==》俄语",
+  "time" : {
+    "start" : 1638839372996,
+    "stop" : 1638839378338,
+    "duration" : 5342
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6f80eb9de8e13532",
+  "name" : "点击system-junk链接",
+  "time" : {
+    "start" : 1638839330391,
+    "stop" : 1638839334465,
+    "duration" : 4074
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "27aa1c5f78a507b7",
+  "name" : "Video Converter热门文章链接测试",
+  "time" : {
+    "start" : 1638839515398,
+    "stop" : 1638839515834,
+    "duration" : 436
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "edecd567e5f6128f",
+  "name" : "进入powerMyMac购买页面测试",
+  "time" : {
+    "start" : 1638839654267,
+    "stop" : 1638839656389,
+    "duration" : 2122
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ae2f6dba03eb802",
+  "name" : "文章链接测试",
+  "time" : {
+    "start" : 1638840194755,
+    "stop" : 1638840200903,
+    "duration" : 6148
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4e35b19382b6055f",
+  "name" : "切换页码测试",
+  "time" : {
+    "start" : 1638839471980,
+    "stop" : 1638839474897,
+    "duration" : 2917
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d2a1e00a51d25c52",
+  "name" : "video购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638840058430,
+    "stop" : 1638840078491,
+    "duration" : 20061
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "73e5c3334d60a782",
+  "name" : "menu导航栏下进入用户指南页面测试",
+  "time" : {
+    "start" : 1638839631892,
+    "stop" : 1638839638560,
+    "duration" : 6668
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4c7e6501e636a478",
+  "name" : "pmm套餐价格测试",
+  "time" : {
+    "start" : 1638839611560,
+    "stop" : 1638839613741,
+    "duration" : 2181
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9b4f5dc29ff6e98e",
+  "name" : "搜索不到文章测试",
+  "time" : {
+    "start" : 1638839320975,
+    "stop" : 1638839328605,
+    "duration" : 7630
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "c4066e4e5a9e894a",
+  "name" : "pmm购买页面填写购买数量测试",
+  "time" : {
+    "start" : 1638839675735,
+    "stop" : 1638839682245,
+    "duration" : 6510
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "ea6e3dae81bf9bf4",
+  "name" : "测试轮播按钮",
+  "time" : {
+    "start" : 1638839340390,
+    "stop" : 1638839344743,
+    "duration" : 4353
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a6db715c2ba66119",
+  "name" : "折叠faq测试",
+  "time" : {
+    "start" : 1638839273087,
+    "stop" : 1638839279584,
+    "duration" : 6497
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "265d7595d45c7b7a",
+  "name" : "menu导航栏测试",
+  "time" : {
+    "start" : 1638839676100,
+    "stop" : 1638839680171,
+    "duration" : 4071
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "85c37bb1af623b87",
+  "name" : "文章链接测试",
+  "time" : {
+    "start" : 1638840178308,
+    "stop" : 1638840184773,
+    "duration" : 6465
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ab68b6ce2386f346",
+  "name" : "文章链接测试",
+  "time" : {
+    "start" : 1638840182431,
+    "stop" : 1638840189697,
+    "duration" : 7266
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "57c2968a1312aaf0",
+  "name" : "video购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839990458,
+    "stop" : 1638840006759,
+    "duration" : 16301
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "e41ad28cc7b4ff0b",
+  "name" : "进入PowerMyMac首页",
+  "time" : {
+    "start" : 1638839663336,
+    "stop" : 1638839669529,
+    "duration" : 6193
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ec2f7d53b001d5",
+  "name" : "展开faq测试",
+  "time" : {
+    "start" : 1638839256789,
+    "stop" : 1638839261322,
+    "duration" : 4533
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc40495525c9c597",
+  "name" : "menu导航栏测试",
+  "time" : {
+    "start" : 1638839516632,
+    "stop" : 1638839520697,
+    "duration" : 4065
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "d9d11135ed659568",
+  "name" : "video购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638840081175,
+    "stop" : 1638840098915,
+    "duration" : 17740
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "8bedeba1bab4f993",
+  "name" : "搜索不到文章测试",
+  "time" : {
+    "start" : 1638839314862,
+    "stop" : 1638839322377,
+    "duration" : 7515
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "3f98470a8ff7b92b",
+  "name" : "搜索文章回车测试",
+  "time" : {
+    "start" : 1638839554476,
+    "stop" : 1638839558253,
+    "duration" : 3777
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b5c0755b645f7bb8",
+  "name" : "pmm购买页面填写购买数量测试",
+  "time" : {
+    "start" : 1638839696686,
+    "stop" : 1638839703514,
+    "duration" : 6828
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "afdc8f3d032f424e",
+  "name" : "video购买页面填写错误优惠码测试",
+  "time" : {
+    "start" : 1638839856986,
+    "stop" : 1638839871401,
+    "duration" : 14415
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "6b87d2f141358d4",
+  "name" : "menu导航栏cleaner的下载测试",
+  "time" : {
+    "start" : 1638839534225,
+    "stop" : 1638839540368,
+    "duration" : 6143
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "58b0acb1983e969f",
+  "name" : "video购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638840004100,
+    "stop" : 1638840021756,
+    "duration" : 17656
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "91b0011a0c0639d3",
+  "name" : "展开faq测试",
+  "time" : {
+    "start" : 1638839262998,
+    "stop" : 1638839267587,
+    "duration" : 4589
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "83416b41b3f9b60d",
+  "name" : "点击更多测试",
+  "time" : {
+    "start" : 1638839565430,
+    "stop" : 1638839568387,
+    "duration" : 2957
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d9c27bbf1b58f26c",
+  "name" : "pmm购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839725082,
+    "stop" : 1638839741742,
+    "duration" : 16660
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3f1bb9923000318e",
+  "name" : "搜索文章测试",
+  "time" : {
+    "start" : 1638839548265,
+    "stop" : 1638839553617,
+    "duration" : 5352
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ef621cee411693bd",
+  "name" : "点击文章标签测试",
+  "time" : {
+    "start" : 1638839460713,
+    "stop" : 1638839463431,
+    "duration" : 2718
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e0124baf6c961643",
+  "name" : "测试License-Agreement链接",
+  "time" : {
+    "start" : 1638839350913,
+    "stop" : 1638839353702,
+    "duration" : 2789
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "cf518875b5621900",
+  "name" : "Mac Uninstaller热门文章链接测试",
+  "time" : {
+    "start" : 1638839511959,
+    "stop" : 1638839512374,
+    "duration" : 415
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c7a9686f0b5a502",
+  "name" : "首页邮件链接测试",
+  "time" : {
+    "start" : 1638840129559,
+    "stop" : 1638840129578,
+    "duration" : 19
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e9e096ca12fdb6f0",
+  "name" : "video购买页面填写购买数量测试",
+  "time" : {
+    "start" : 1638839915046,
+    "stop" : 1638839925479,
+    "duration" : 10433
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "2a59f587478e4aec",
+  "name" : "搜索文章测试",
+  "time" : {
+    "start" : 1638839306028,
+    "stop" : 1638839314551,
+    "duration" : 8523
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "de30ad410b87258a",
+  "name" : "步骤内容测试",
+  "time" : {
+    "start" : 1638839252886,
+    "stop" : 1638839252916,
+    "duration" : 30
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "57fc42e208fa9eeb",
+  "name" : "进入cleaner首页",
+  "time" : {
+    "start" : 1638839507831,
+    "stop" : 1638839509949,
+    "duration" : 2118
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c746a04d73c3b98",
+  "name" : "menu导航栏下进入buy页面测试",
+  "time" : {
+    "start" : 1638839586586,
+    "stop" : 1638839592803,
+    "duration" : 6217
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d6524391290d69c0",
+  "name" : "测试Similar-Image-Finder链接",
+  "time" : {
+    "start" : 1638839424437,
+    "stop" : 1638839427249,
+    "duration" : 2812
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4229f4f2a21ba0",
+  "name" : "邮箱链接测试",
+  "time" : {
+    "start" : 1638839467604,
+    "stop" : 1638839474276,
+    "duration" : 6672
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4ef5eae99b8d81f",
+  "name" : "PowerMyMac热门文章链接测试",
+  "time" : {
+    "start" : 1638839498081,
+    "stop" : 1638839498791,
+    "duration" : 710
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d0cc23ab42e2d7bf",
+  "name" : "video购买页面填写空优惠码测试",
+  "time" : {
+    "start" : 1638839871631,
+    "stop" : 1638839887137,
+    "duration" : 15506
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "b9e50050f106f9f6",
+  "name" : "更多类中的文章测试",
+  "time" : {
+    "start" : 1638839598396,
+    "stop" : 1638839603118,
+    "duration" : 4722
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bcde5b4d05089ae5",
+  "name" : "评价轮播图测试",
+  "time" : {
+    "start" : 1638839614775,
+    "stop" : 1638839620893,
+    "duration" : 6118
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d3e6338a9469a0e6",
+  "name" : "video购买页面添加支付卡信息银行拒绝测试",
+  "time" : {
+    "start" : 1638840021672,
+    "stop" : 1638840037507,
+    "duration" : 15835
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "97cbbfbe7608faa9",
+  "name" : "product展开faq测试",
+  "time" : {
+    "start" : 1638840080315,
+    "stop" : 1638840085194,
+    "duration" : 4879
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "a39789c9ff1d0d51",
+  "name" : "切换语言==》韩语",
+  "time" : {
+    "start" : 1638839385013,
+    "stop" : 1638839389797,
+    "duration" : 4784
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e46e21671a77ce8",
+  "name" : "更多类中的文章测试",
+  "time" : {
+    "start" : 1638839574084,
+    "stop" : 1638839579228,
+    "duration" : 5144
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1025323ff83a466d",
+  "name" : "搜索文章测试",
+  "time" : {
+    "start" : 1638839541891,
+    "stop" : 1638839547097,
+    "duration" : 5206
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "52f8bdf9ace52c83",
+  "name" : "技巧栏链接测试",
+  "time" : {
+    "start" : 1638839682798,
+    "stop" : 1638839689052,
+    "duration" : 6254
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d57fbe5332b7f272",
+  "name" : "Similar Image Finder热门文章链接测试",
+  "time" : {
+    "start" : 1638839509382,
+    "stop" : 1638839509840,
+    "duration" : 458
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d4b9d4e656361e3",
+  "name" : "跳转到registration_code链接测试",
+  "time" : {
+    "start" : 1638840102222,
+    "stop" : 1638840105675,
+    "duration" : 3453
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "33e999571d7bdfed",
+  "name" : "pmm购买页面填写地区测试",
+  "time" : {
+    "start" : 1638839710670,
+    "stop" : 1638839716512,
+    "duration" : 5842
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "9c910846936cd6b1",
+  "name" : "menu导航栏下进入用户指南页面测试",
+  "time" : {
+    "start" : 1638839469317,
+    "stop" : 1638839475946,
+    "duration" : 6629
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "98520ad298c54a9f",
+  "name" : "menu栏按钮测试",
+  "time" : {
+    "start" : 1638840143868,
+    "stop" : 1638840150369,
+    "duration" : 6501
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c381e6dc7ffb076f",
+  "name" : "enhancement栏测试",
+  "time" : {
+    "start" : 1638840158174,
+    "stop" : 1638840162260,
+    "duration" : 4086
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "a0cf996f43cd35d3",
+  "name" : "footbuy导航栏cleaner的下载测试",
+  "time" : {
+    "start" : 1638839475474,
+    "stop" : 1638839480599,
+    "duration" : 5125
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "dc7ce998779fa5d2",
+  "name" : "测试Contact链接",
+  "time" : {
+    "start" : 1638839386951,
+    "stop" : 1638839389711,
+    "duration" : 2760
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "589d49efb458fc23",
+  "name" : "购买video套餐1支付弹窗测试",
+  "time" : {
+    "start" : 1638839626160,
+    "stop" : 1638839630506,
+    "duration" : 4346
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "88d78634ad18d9b3",
+  "name" : "pmm购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839753934,
+    "stop" : 1638839767822,
+    "duration" : 13888
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1229287138fdab09",
+  "name" : "技巧栏链接测试",
+  "time" : {
+    "start" : 1638839730902,
+    "stop" : 1638839743474,
+    "duration" : 12572
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "8e078d7880423419",
+  "name" : "进入mac-uninstaller首页",
+  "time" : {
+    "start" : 1638839553467,
+    "stop" : 1638839555611,
+    "duration" : 2144
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3de44fff0348d448",
+  "name" : "跳转到product_fa链接测试",
+  "time" : {
+    "start" : 1638840099817,
+    "stop" : 1638840102181,
+    "duration" : 2364
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1d38217f36d1223a",
   "name" : "切换语言==》波兰语",
   "time" : {
-    "start" : 1638524319125,
-    "stop" : 1638524323324,
-    "duration" : 4199
-  },
-  "status" : "broken",
-  "severity" : "critical"
-}, {
-  "uid" : "90d54eeaf26a0b57",
-  "name" : "切换语言==》德语",
-  "time" : {
-    "start" : 1638524305132,
-    "stop" : 1638524311075,
-    "duration" : 5943
+    "start" : 1638839409830,
+    "stop" : 1638839415538,
+    "duration" : 5708
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "92027d9912220363",
-  "name" : "切换语言==》阿拉伯语",
+  "uid" : "c2e3a76ce68bf4eb",
+  "name" : "menu导航栏测试",
   "time" : {
-    "start" : 1638524327247,
-    "stop" : 1638524332455,
-    "duration" : 5208
+    "start" : 1638839562247,
+    "stop" : 1638839566321,
+    "duration" : 4074
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "64426fcb1c340f50",
+  "name" : "文章链接测试",
+  "time" : {
+    "start" : 1638840172346,
+    "stop" : 1638840179305,
+    "duration" : 6959
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "f186e2a5a64a703",
-  "name" : "测试FaceBook链接",
+  "uid" : "64dbcc9f5f7676a0",
+  "name" : "footbuy导航栏下进入buy页面测试",
   "time" : {
-    "start" : 1638524298761,
-    "stop" : 1638524302610,
-    "duration" : 3849
+    "start" : 1638839553259,
+    "stop" : 1638839559462,
+    "duration" : 6203
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "3f8b1c5f59b0a76c",
-  "name" : "测试Mac-Purgeable链接",
+  "uid" : "5b7869106c952b35",
+  "name" : "测试介绍安全栏是否存在",
   "time" : {
-    "start" : 1638524287734,
-    "stop" : 1638524290576,
+    "start" : 1638839341179,
+    "stop" : 1638839341239,
+    "duration" : 60
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "78ee7e9ff1fef503",
+  "name" : "menu导航栏测试",
+  "time" : {
+    "start" : 1638839458289,
+    "stop" : 1638839462396,
+    "duration" : 4107
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "57c62c9f12fb559",
+  "name" : "测试Resource链接",
+  "time" : {
+    "start" : 1638839363689,
+    "stop" : 1638839366884,
+    "duration" : 3195
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5ad974458b6c4830",
+  "name" : "pmm购买页面取消paypal支付方式测试",
+  "time" : {
+    "start" : 1638839848899,
+    "stop" : 1638839863417,
+    "duration" : 14518
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "2904d1bebd2a9fea",
+  "name" : "menu导航栏下进入buy页面测试",
+  "time" : {
+    "start" : 1638839540614,
+    "stop" : 1638839546805,
+    "duration" : 6191
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "be27f670c7d16c4c",
+  "name" : "video编辑功能轮播图测试",
+  "time" : {
+    "start" : 1638840130554,
+    "stop" : 1638840136684,
+    "duration" : 6130
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "357586b92758d6a6",
+  "name" : "更多类中的文章测试",
+  "time" : {
+    "start" : 1638839588814,
+    "stop" : 1638839593519,
+    "duration" : 4705
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d197adc291efecda",
+  "name" : "技巧栏链接测试",
+  "time" : {
+    "start" : 1638839434229,
+    "stop" : 1638839440737,
+    "duration" : 6508
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "27dcea569f964d4f",
+  "name" : "pmm购买页面填写空优惠码测试",
+  "time" : {
+    "start" : 1638839694168,
+    "stop" : 1638839709671,
+    "duration" : 15503
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "e4380797bb8b3525",
+  "name" : "简介栏内容测试",
+  "time" : {
+    "start" : 1638839251978,
+    "stop" : 1638839252005,
+    "duration" : 27
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "37985009283e800c",
+  "name" : "pmm购买页面填写错误优惠码测试",
+  "time" : {
+    "start" : 1638839655551,
+    "stop" : 1638839679397,
+    "duration" : 23846
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "8485e90774dada64",
+  "name" : "技巧栏链接测试",
+  "time" : {
+    "start" : 1638839559516,
+    "stop" : 1638839566808,
+    "duration" : 7292
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6282f563477c6027",
+  "name" : "切换语言==》中文繁体",
+  "time" : {
+    "start" : 1638839369030,
+    "stop" : 1638839374684,
+    "duration" : 5654
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "192b4fc63d3e8e2f",
+  "name" : "video购买页面填写地区测试",
+  "time" : {
+    "start" : 1638839795750,
+    "stop" : 1638839804810,
+    "duration" : 9060
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "a98028016f8c4bec",
+  "name" : "标签栏测试",
+  "time" : {
+    "start" : 1638839446672,
+    "stop" : 1638839449328,
+    "duration" : 2656
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "91e616a42ff7962e",
+  "name" : "video购买页面填写错误格式邮箱测试",
+  "time" : {
+    "start" : 1638839875950,
+    "stop" : 1638839884588,
+    "duration" : 8638
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "e18dfc4c8dba3951",
+  "name" : "video购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638840007005,
+    "stop" : 1638840021446,
+    "duration" : 14441
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "5e044c956d75c70b",
+  "name" : "切换语言==》中文",
+  "time" : {
+    "start" : 1638839404581,
+    "stop" : 1638839409419,
+    "duration" : 4838
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "8633e5822628a707",
+  "name" : "Video Converter热门文章链接测试",
+  "time" : {
+    "start" : 1638839515914,
+    "stop" : 1638839516352,
+    "duration" : 438
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "13b59936f1c55d82",
+  "name" : "点击browser-cleanup链接",
+  "time" : {
+    "start" : 1638839337406,
+    "stop" : 1638839340181,
+    "duration" : 2775
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "aa8866d6e7a744f7",
+  "name" : "menu栏按钮测试",
+  "time" : {
+    "start" : 1638840124299,
+    "stop" : 1638840130483,
+    "duration" : 6184
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1ad903db18369e78",
+  "name" : "footbuy导航栏cleaner的下载测试",
+  "time" : {
+    "start" : 1638839546896,
+    "stop" : 1638839553019,
+    "duration" : 6123
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "a38e8b3ccb21dcd",
+  "name" : "pmm栏点击更多选项按钮测试",
+  "time" : {
+    "start" : 1638839633307,
+    "stop" : 1638839635442,
+    "duration" : 2135
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e41c9e98e0359d79",
+  "name" : "测试Company链接",
+  "time" : {
+    "start" : 1638839345023,
+    "stop" : 1638839348085,
+    "duration" : 3062
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c459690b03463318",
+  "name" : "conversion栏测试",
+  "time" : {
+    "start" : 1638840134562,
+    "stop" : 1638840138632,
+    "duration" : 4070
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "673dc0daca850e9e",
+  "name" : "pmm购买页面移除优惠码测试",
+  "time" : {
+    "start" : 1638839727275,
+    "stop" : 1638839745606,
+    "duration" : 18331
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "b0e5a499a273cc64",
+  "name" : "点击文章==》mp3-to-midi",
+  "time" : {
+    "start" : 1638840150653,
+    "stop" : 1638840159040,
+    "duration" : 8387
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "26957f14a6a0bed9",
+  "name" : "进入用户指南页面测试",
+  "time" : {
+    "start" : 1638839609754,
+    "stop" : 1638839612340,
+    "duration" : 2586
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "34fdaa8acaba0ad7",
+  "name" : "测试Mac-Cleaner链接",
+  "time" : {
+    "start" : 1638839387098,
+    "stop" : 1638839395082,
+    "duration" : 7984
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3aabc8c2fe0a8692",
+  "name" : "测试Duplicate-Finder链接",
+  "time" : {
+    "start" : 1638839400199,
+    "stop" : 1638839403268,
+    "duration" : 3069
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "dd109e575e8abcc7",
+  "name" : "video购买页面填写正确格式邮箱测试",
+  "time" : {
+    "start" : 1638839905707,
+    "stop" : 1638839914830,
+    "duration" : 9123
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "63f5b9da00586405",
+  "name" : "测试Youtube链接",
+  "time" : {
+    "start" : 1638839353787,
+    "stop" : 1638839359115,
+    "duration" : 5328
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1184b4526b224998",
+  "name" : "测试video产品详情页面",
+  "time" : {
+    "start" : 1638839336684,
+    "stop" : 1638839344283,
+    "duration" : 7599
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "2b4ee25e4d10dd15",
+  "name" : "menu导航栏的下载测试",
+  "time" : {
+    "start" : 1638839476022,
+    "stop" : 1638839482283,
+    "duration" : 6261
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "e0e6cf5a0d404244",
+  "name" : "点击pdf-compressor链接",
+  "time" : {
+    "start" : 1638839338003,
+    "stop" : 1638839340845,
     "duration" : 2842
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "f11fa3bd871ef45a",
-  "name" : "测试License-Agreement链接",
+  "uid" : "176a140f7afefbbd",
+  "name" : "测试轮播按钮",
   "time" : {
-    "start" : 1638524298171,
-    "stop" : 1638524300953,
-    "duration" : 2782
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "e8e3eaa3c92c2fd5",
-  "name" : "切换语言==》日语",
-  "time" : {
-    "start" : 1638524305943,
-    "stop" : 1638524311969,
-    "duration" : 6026
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "e80ff657e0532905",
-  "name" : "测试Terms链接",
-  "time" : {
-    "start" : 1638524296101,
-    "stop" : 1638524298630,
-    "duration" : 2529
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "a13d45119ab6b82d",
-  "name" : "测试Youtube链接",
-  "time" : {
-    "start" : 1638524300256,
-    "stop" : 1638524305542,
-    "duration" : 5286
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "91d9924707ed8905",
-  "name" : "测试FAQ链接",
-  "time" : {
-    "start" : 1638524293657,
-    "stop" : 1638524298085,
-    "duration" : 4428
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "b30a67a42c15b809",
-  "name" : "正确提交订阅测试",
-  "time" : {
-    "start" : 1638524329968,
-    "stop" : 1638524332601,
-    "duration" : 2633
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "ecc3c64e442ced05",
-  "name" : "切换语言==》俄语",
-  "time" : {
-    "start" : 1638524323884,
-    "stop" : 1638524329634,
-    "duration" : 5750
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "a3c1330499dd8260",
-  "name" : "切换语言==》意大利语",
-  "time" : {
-    "start" : 1638524312860,
-    "stop" : 1638524322456,
-    "duration" : 9596
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "54acc1ab979b3762",
-  "name" : "测试Find-Duplicate-file链接",
-  "time" : {
-    "start" : 1638524287277,
-    "stop" : 1638524290210,
-    "duration" : 2933
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "4093377e60720fff",
-  "name" : "切换语言==》西班牙语",
-  "time" : {
-    "start" : 1638524306481,
-    "stop" : 1638524312721,
-    "duration" : 6240
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "1b5c495337fc5931",
-  "name" : "测试Student-Discount链接",
-  "time" : {
-    "start" : 1638524297421,
-    "stop" : 1638524300132,
-    "duration" : 2711
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "1f908b1f4949450f",
-  "name" : "测试Speed-Up-Mac链接",
-  "time" : {
-    "start" : 1638524287229,
-    "stop" : 1638524290275,
-    "duration" : 3046
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "9760b8bf8740a2e0",
-  "name" : "错误提交订阅测试",
-  "time" : {
-    "start" : 1638524325766,
-    "stop" : 1638524328896,
-    "duration" : 3130
+    "start" : 1638839331518,
+    "stop" : 1638839336255,
+    "duration" : 4737
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d3567b4c7d480900",
-  "name" : "切换语言==》中文",
+  "uid" : "ed3e12aded32ceee",
+  "name" : "点击video-converter链接",
   "time" : {
-    "start" : 1638524311613,
-    "stop" : 1638524318041,
-    "duration" : 6428
+    "start" : 1638839372666,
+    "stop" : 1638839375323,
+    "duration" : 2657
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "112f1ac55f6c678d",
-  "name" : "测试Resource链接",
+  "uid" : "d4d59b281fac3f85",
+  "name" : "Mac Uninstaller热门文章链接测试",
   "time" : {
-    "start" : 1638524290295,
-    "stop" : 1638524294527,
-    "duration" : 4232
+    "start" : 1638839511413,
+    "stop" : 1638839511897,
+    "duration" : 484
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1bba2901f44469f9",
+  "name" : "pmm购买页面填写购买数量测试",
+  "time" : {
+    "start" : 1638839682480,
+    "stop" : 1638839689525,
+    "duration" : 7045
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "4cf444a4b4305e7d",
+  "name" : "搜索不到文章测试",
+  "time" : {
+    "start" : 1638839479426,
+    "stop" : 1638839485627,
+    "duration" : 6201
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "33bb5ab1b1c04198",
+  "name" : "标签栏测试",
+  "time" : {
+    "start" : 1638839583006,
+    "stop" : 1638839585621,
+    "duration" : 2615
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "87160f981777f174",
+  "uid" : "e5fcb84dd51b0e3a",
+  "name" : "去订阅购买页面测试",
+  "time" : {
+    "start" : 1638840180283,
+    "stop" : 1638840182419,
+    "duration" : 2136
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "35f1f7f959018d8f",
+  "name" : "购买pmm套餐1支付弹窗测试",
+  "time" : {
+    "start" : 1638839612827,
+    "stop" : 1638839617463,
+    "duration" : 4636
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "64f33ebfbd6bd341",
+  "name" : "切换语言==》德语",
+  "time" : {
+    "start" : 1638839398282,
+    "stop" : 1638839404019,
+    "duration" : 5737
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9505aedd651ce283",
+  "name" : "测试Support链接",
+  "time" : {
+    "start" : 1638839421719,
+    "stop" : 1638839424264,
+    "duration" : 2545
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "70e3ffd5f63ad2c3",
+  "name" : "pmm购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839762601,
+    "stop" : 1638839780263,
+    "duration" : 17662
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "2f08133e4c443ad8",
+  "name" : "Mac Cleaner热门文章链接测试",
+  "time" : {
+    "start" : 1638839500600,
+    "stop" : 1638839501024,
+    "duration" : 424
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "30189317e041e539",
+  "name" : "更多类中的文章测试",
+  "time" : {
+    "start" : 1638839584051,
+    "stop" : 1638839588774,
+    "duration" : 4723
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "941e1cc9445581ef",
+  "name" : "sales搜索不到文章测试",
+  "time" : {
+    "start" : 1638840117318,
+    "stop" : 1638840125215,
+    "duration" : 7897
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c8b66883ffaf3bd",
+  "name" : "iMyMac PDF Compressor热门文章链接测试",
+  "time" : {
+    "start" : 1638839514387,
+    "stop" : 1638839514806,
+    "duration" : 419
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4762e6be4fd5f10",
+  "name" : "错误提交订阅测试",
+  "time" : {
+    "start" : 1638839378936,
+    "stop" : 1638839381784,
+    "duration" : 2848
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "35358498a98d05b8",
+  "name" : "Similar Image Finder热门文章链接测试",
+  "time" : {
+    "start" : 1638839510049,
+    "stop" : 1638839510741,
+    "duration" : 692
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ce176f6b68f5cbb",
+  "name" : "File Shredder热门文章链接测试",
+  "time" : {
+    "start" : 1638839502917,
+    "stop" : 1638839503439,
+    "duration" : 522
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "34d577bf53ff9342",
+  "name" : "切换页码测试",
+  "time" : {
+    "start" : 1638839468251,
+    "stop" : 1638839471176,
+    "duration" : 2925
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "18f532f5c5849920",
+  "name" : "查询邮箱拥有优惠测试",
+  "time" : {
+    "start" : 1638839252282,
+    "stop" : 1638839252282,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "722936d7170190d1",
+  "name" : "pmm购买页面填写错误格式邮箱测试",
+  "time" : {
+    "start" : 1638839637638,
+    "stop" : 1638839645331,
+    "duration" : 7693
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6f100860d74c4c1c",
+  "name" : "测试轮播按钮",
+  "time" : {
+    "start" : 1638839322920,
+    "stop" : 1638839327066,
+    "duration" : 4146
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3fa4328b6172c6f0",
+  "name" : "Duplicate Finder热门文章链接测试",
+  "time" : {
+    "start" : 1638839505561,
+    "stop" : 1638839506239,
+    "duration" : 678
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "609065b5e04aa0a1",
+  "name" : "video购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638840039288,
+    "stop" : 1638840056362,
+    "duration" : 17074
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "858ef5595b73bef8",
+  "name" : "测试去顶部按钮",
+  "time" : {
+    "start" : 1638839354729,
+    "stop" : 1638839360054,
+    "duration" : 5325
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dde5d6309369944e",
+  "name" : "标签栏测试",
+  "time" : {
+    "start" : 1638839438852,
+    "stop" : 1638839441461,
+    "duration" : 2609
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "dc8d35ef75c2fe7e",
+  "name" : "下一页测试",
+  "time" : {
+    "start" : 1638839474922,
+    "stop" : 1638839474922,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "cb3db71e81fe7e98",
+  "name" : "iMyMac PDF Compressor热门文章链接测试",
+  "time" : {
+    "start" : 1638839514891,
+    "stop" : 1638839515323,
+    "duration" : 432
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d31a5dc049da8e3",
+  "name" : "进入cleaner首页",
+  "time" : {
+    "start" : 1638839712404,
+    "stop" : 1638839718613,
+    "duration" : 6209
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4af90a330a83cd1",
+  "name" : "切换家庭永久套餐测试",
+  "time" : {
+    "start" : 1638839616034,
+    "stop" : 1638839620239,
+    "duration" : 4205
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "6a149efc4cb6428f",
+  "name" : "pmm购买页面填写错误格式邮箱测试",
+  "time" : {
+    "start" : 1638839645570,
+    "stop" : 1638839652420,
+    "duration" : 6850
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66909c3a4ef4932",
+  "name" : "menu导航栏的下载测试",
+  "time" : {
+    "start" : 1638839580144,
+    "stop" : 1638839586362,
+    "duration" : 6218
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "54bd4ae530f2c8b",
+  "name" : "进入用户指南页面测试",
+  "time" : {
+    "start" : 1638839446579,
+    "stop" : 1638839449247,
+    "duration" : 2668
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "27c3db7199d0ed72",
+  "name" : "搜索文章测试",
+  "time" : {
+    "start" : 1638839289326,
+    "stop" : 1638839297259,
+    "duration" : 7933
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e3aee99013928a19",
+  "name" : "搜索不到文章测试",
+  "time" : {
+    "start" : 1638839313375,
+    "stop" : 1638839320740,
+    "duration" : 7365
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "55b2364aac497ef6",
+  "name" : "技巧栏链接测试",
+  "time" : {
+    "start" : 1638839514879,
+    "stop" : 1638839521336,
+    "duration" : 6457
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "76a990c852c11f75",
+  "name" : "footbuy导航栏下进入buy页面测试",
+  "time" : {
+    "start" : 1638839657636,
+    "stop" : 1638839663831,
+    "duration" : 6195
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6accdd273506ef63",
+  "name" : "搜索文章测试",
+  "time" : {
+    "start" : 1638839281172,
+    "stop" : 1638839289088,
+    "duration" : 7916
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4edc7e2a625fc46b",
+  "name" : "点击文章==》convert-flac-to-mp3",
+  "time" : {
+    "start" : 1638840156350,
+    "stop" : 1638840162839,
+    "duration" : 6489
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9f31e81af64d8d4a",
+  "name" : "搜索不到文章测试",
+  "time" : {
+    "start" : 1638839319824,
+    "stop" : 1638839327424,
+    "duration" : 7600
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "a7ebd1f10ac40bfb",
+  "name" : "video栏点击更多选项按钮测试",
+  "time" : {
+    "start" : 1638839635485,
+    "stop" : 1638839637597,
+    "duration" : 2112
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9208c0d4204a9390",
+  "name" : "购买pmm套餐3支付弹窗测试",
+  "time" : {
+    "start" : 1638839621916,
+    "stop" : 1638839626096,
+    "duration" : 4180
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "f794bdc04230d23d",
+  "name" : "点击更多测试",
+  "time" : {
+    "start" : 1638839559776,
+    "stop" : 1638839562469,
+    "duration" : 2693
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a90fa52cca0a7c35",
+  "name" : "技巧栏链接测试",
+  "time" : {
+    "start" : 1638839427568,
+    "stop" : 1638839434057,
+    "duration" : 6489
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "a23bcde0a75c869a",
+  "name" : "大标题测试",
+  "time" : {
+    "start" : 1638839411277,
+    "stop" : 1638839418649,
+    "duration" : 7372
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "66a36b332f1f6964",
+  "name" : "pmm购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839818301,
+    "stop" : 1638839835118,
+    "duration" : 16817
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "694ad4bf27489838",
+  "name" : "video编辑功能轮播图测试",
+  "time" : {
+    "start" : 1638840151777,
+    "stop" : 1638840157925,
+    "duration" : 6148
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5f86317dced2b36c",
+  "name" : "Company下的链接测试",
+  "time" : {
+    "start" : 1638839519924,
+    "stop" : 1638839522486,
+    "duration" : 2562
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "edba7f6f6c250f0a",
+  "name" : "大标题测试",
+  "time" : {
+    "start" : 1638839412263,
+    "stop" : 1638839419912,
+    "duration" : 7649
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "8bc84c9deb16a1ad",
+  "name" : "轮播图测试",
+  "time" : {
+    "start" : 1638839718846,
+    "stop" : 1638839724998,
+    "duration" : 6152
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "19ba35393bbe4e9e",
+  "name" : "测试Find-Duplicate-file链接",
+  "time" : {
+    "start" : 1638839360507,
+    "stop" : 1638839363420,
+    "duration" : 2913
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3e1067124ade9bf5",
+  "name" : "点击mail链接",
+  "time" : {
+    "start" : 1638839334954,
+    "stop" : 1638839337850,
+    "duration" : 2896
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "41da6d19b0807d05",
+  "name" : "标签栏测试",
+  "time" : {
+    "start" : 1638839579614,
+    "stop" : 1638839582244,
+    "duration" : 2630
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "340a0d1ce02ba2ec",
+  "name" : "搜索不到文章测试",
+  "time" : {
+    "start" : 1638839318707,
+    "stop" : 1638839326234,
+    "duration" : 7527
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "fc7e2d4989dfc6b3",
+  "name" : "错误提交订阅测试",
+  "time" : {
+    "start" : 1638839415713,
+    "stop" : 1638839418105,
+    "duration" : 2392
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "962722c0d69d0996",
+  "name" : "标签栏测试",
+  "time" : {
+    "start" : 1638839586484,
+    "stop" : 1638839589138,
+    "duration" : 2654
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "307cb16f3da1bd9e",
+  "name" : "点击文章==》convert-webm-to-mp4",
+  "time" : {
+    "start" : 1638840162906,
+    "stop" : 1638840169389,
+    "duration" : 6483
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b706352b443a05e4",
+  "name" : "下载PowerMyMac测试",
+  "time" : {
+    "start" : 1638839474368,
+    "stop" : 1638839476612,
+    "duration" : 2244
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "ce2dfa782a49e89a",
+  "name" : "点击duplicate-finder链接",
+  "time" : {
+    "start" : 1638839366164,
+    "stop" : 1638839369579,
+    "duration" : 3415
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "8974f26e42ff29e3",
+  "name" : "pmm购买页面填写正确格式邮箱测试",
+  "time" : {
+    "start" : 1638839658446,
+    "stop" : 1638839663909,
+    "duration" : 5463
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "43d524094e92114e",
+  "name" : "video购买页面取消添加优惠码测试",
+  "time" : {
+    "start" : 1638839922170,
+    "stop" : 1638839936146,
+    "duration" : 13976
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "9a8572a2dd830867",
+  "name" : "进入powerMyMac购买页面测试",
+  "time" : {
+    "start" : 1638839476897,
+    "stop" : 1638839480361,
+    "duration" : 3464
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "a0b3471c0d75bef3",
+  "name" : "Help下的链接测试",
+  "time" : {
+    "start" : 1638839537024,
+    "stop" : 1638839539598,
+    "duration" : 2574
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "88b3eca123f7cd33",
+  "name" : "sales展开faq测试",
+  "time" : {
+    "start" : 1638840108315,
+    "stop" : 1638840112676,
+    "duration" : 4361
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6ac980ed4e1c6df7",
+  "name" : "Key Features Similar Image Finder轮播图的切换测试",
+  "time" : {
+    "start" : 1638839528075,
+    "stop" : 1638839534194,
+    "duration" : 6119
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c074157cb0857cfe",
+  "name" : "PowerMyMac热门文章链接测试",
+  "time" : {
+    "start" : 1638839498864,
+    "stop" : 1638839500523,
+    "duration" : 1659
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a0edaa3fe6f562d3",
+  "name" : "切换语言==》葡萄牙语",
+  "time" : {
+    "start" : 1638839389989,
+    "stop" : 1638839394462,
+    "duration" : 4473
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1e25d0681816c8c3",
+  "name" : "video购买页面填写购买数量测试",
+  "time" : {
+    "start" : 1638839759502,
+    "stop" : 1638839766202,
+    "duration" : 6700
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "e7754d6ce917d2c6",
+  "name" : "提交邮箱测试",
+  "time" : {
+    "start" : 1638839252954,
+    "stop" : 1638839252954,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "95eae7bb2210530c",
+  "name" : "pmm购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839871325,
+    "stop" : 1638839889262,
+    "duration" : 17937
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9eee9fc398a2d213",
+  "name" : "写邮件链接测试",
+  "time" : {
+    "start" : 1638840133065,
+    "stop" : 1638840137339,
+    "duration" : 4274
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "2fbd766e1861ad9d",
+  "name" : "menu导航栏测试",
+  "time" : {
+    "start" : 1638839410105,
+    "stop" : 1638839414302,
+    "duration" : 4197
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "932be2c197613d59",
+  "name" : "Mac Cleaner热门文章链接测试",
+  "time" : {
+    "start" : 1638839501621,
+    "stop" : 1638839501743,
+    "duration" : 122
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b7aa9a7c5e8ab33a",
+  "name" : "产品链接测试",
+  "time" : {
+    "start" : 1638839494082,
+    "stop" : 1638839496272,
+    "duration" : 2190
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e4122949ebe1396",
+  "name" : "footbuy导航栏的下载测试",
+  "time" : {
+    "start" : 1638839489373,
+    "stop" : 1638839495505,
+    "duration" : 6132
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "ccc247d2cecf3191",
+  "name" : "切换语言==》荷兰语",
+  "time" : {
+    "start" : 1638839375294,
+    "stop" : 1638839380389,
+    "duration" : 5095
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "bc674ff916cd2c9d",
+  "name" : "video购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638840094173,
+    "stop" : 1638840112346,
+    "duration" : 18173
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "ea1988b963cef798",
+  "name" : "File Shredder热门文章链接测试",
+  "time" : {
+    "start" : 1638839502331,
+    "stop" : 1638839502797,
+    "duration" : 466
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4503cc0573167710",
+  "name" : "测试online-Photo-Compressor链接",
+  "time" : {
+    "start" : 1638839427382,
+    "stop" : 1638839431178,
+    "duration" : 3796
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5f57e9755b5517fd",
+  "name" : "切换个人永久套餐测试",
+  "time" : {
+    "start" : 1638839620303,
+    "stop" : 1638839626596,
+    "duration" : 6293
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "37660559b5156db3",
+  "name" : "文章链接测试",
+  "time" : {
+    "start" : 1638840167242,
+    "stop" : 1638840173408,
+    "duration" : 6166
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4e5b217e522a298",
+  "name" : "sales搜索文章测试",
+  "time" : {
+    "start" : 1638840099941,
+    "stop" : 1638840107497,
+    "duration" : 7556
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4ea03add3caac7da",
+  "name" : "video购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839988827,
+    "stop" : 1638840005275,
+    "duration" : 16448
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "605654ad9a287862",
+  "name" : "测试Browser-Cleanup链接",
+  "time" : {
+    "start" : 1638839391993,
+    "stop" : 1638839394586,
+    "duration" : 2593
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "fda7c84fba2adecf",
+  "name" : "技巧栏链接测试",
+  "time" : {
+    "start" : 1638839589947,
+    "stop" : 1638839597089,
+    "duration" : 7142
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c06909da6b261642",
+  "name" : "测试FAQ链接",
+  "time" : {
+    "start" : 1638839352221,
+    "stop" : 1638839354604,
+    "duration" : 2383
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f085747aa34393a0",
+  "name" : "video购买页面填写正确格式邮箱测试",
+  "time" : {
+    "start" : 1638839884834,
+    "stop" : 1638839896823,
+    "duration" : 11989
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "c634f621c8ea570c",
+  "name" : "video编辑功能轮播图测试",
+  "time" : {
+    "start" : 1638840137485,
+    "stop" : 1638840143629,
+    "duration" : 6144
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "51e3a8a8b811e2c8",
+  "name" : "pmm购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839812601,
+    "stop" : 1638839827263,
+    "duration" : 14662
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "29504560582939b7",
+  "name" : "搜索文章测试",
+  "time" : {
+    "start" : 1638839288137,
+    "stop" : 1638839295836,
+    "duration" : 7699
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6439abd674588cc",
+  "name" : "搜索文章回车测试",
+  "time" : {
+    "start" : 1638839563393,
+    "stop" : 1638839566532,
+    "duration" : 3139
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b16dd828077e1fa4",
+  "name" : "File Shredder热门文章链接测试",
+  "time" : {
+    "start" : 1638839504052,
+    "stop" : 1638839504495,
+    "duration" : 443
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a110e830b6e89e02",
+  "name" : "进入常见问题页面测试",
+  "time" : {
+    "start" : 1638839257319,
+    "stop" : 1638839259952,
+    "duration" : 2633
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce711659803876bc",
+  "name" : "pmm购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839724753,
+    "stop" : 1638839738978,
+    "duration" : 14225
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3ea1d8e389ec1baa",
+  "name" : "pmm购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839758676,
+    "stop" : 1638839779280,
+    "duration" : 20604
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "27e94796d068d8da",
+  "name" : "iMyMac PDF Compressor热门文章链接测试",
+  "time" : {
+    "start" : 1638839513412,
+    "stop" : 1638839513830,
+    "duration" : 418
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ebb3f079e3a18c83",
+  "name" : "Duplicate Finder热门文章链接测试",
+  "time" : {
+    "start" : 1638839504564,
+    "stop" : 1638839504989,
+    "duration" : 425
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f6fa9e03b441bf3",
+  "name" : "menu导航栏下进入主页测试",
+  "time" : {
+    "start" : 1638839414783,
+    "stop" : 1638839421231,
+    "duration" : 6448
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "676620834a40a08e",
+  "name" : "Browser Cleanup热门文章链接测试",
+  "time" : {
+    "start" : 1638839507298,
+    "stop" : 1638839507970,
+    "duration" : 672
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f847df9ae385cb87",
+  "name" : "测试Video-Converter链接",
+  "time" : {
+    "start" : 1638839382592,
+    "stop" : 1638839386904,
+    "duration" : 4312
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "cd20b691b59161e9",
+  "name" : "product搜索文章测试",
+  "time" : {
+    "start" : 1638840101747,
+    "stop" : 1638840109589,
+    "duration" : 7842
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e89cca229e68c39c",
+  "name" : "进入duplicate首页",
+  "time" : {
+    "start" : 1638839612424,
+    "stop" : 1638839614532,
+    "duration" : 2108
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d52d274ab5c37b9",
+  "name" : "menu导航栏下进入buy页面测试",
+  "time" : {
+    "start" : 1638839644999,
+    "stop" : 1638839651158,
+    "duration" : 6159
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "26c50f61886d14e9",
+  "name" : "pmm购买页面使用paypal支付测试",
+  "time" : {
+    "start" : 1638839835314,
+    "stop" : 1638839848682,
+    "duration" : 13368
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "16b5de939be13d87",
+  "name" : "pmm购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839925093,
+    "stop" : 1638839946981,
+    "duration" : 21888
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "302d54acd241a4fe",
+  "name" : "Mac Uninstaller热门文章链接测试",
+  "time" : {
+    "start" : 1638839512927,
+    "stop" : 1638839513350,
+    "duration" : 423
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "82f3739faea14854",
+  "name" : "正确提交订阅测试",
+  "time" : {
+    "start" : 1638839394649,
+    "stop" : 1638839397054,
+    "duration" : 2405
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "af38a41cff5a4ff1",
+  "name" : "Company下的链接测试",
+  "time" : {
+    "start" : 1638839522599,
+    "stop" : 1638839525164,
+    "duration" : 2565
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee24b5075e7caf79",
+  "name" : "pmm购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839959886,
+    "stop" : 1638839974585,
+    "duration" : 14699
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "bf55409e12073c66",
+  "name" : "标签栏测试",
+  "time" : {
+    "start" : 1638839593624,
+    "stop" : 1638839596289,
+    "duration" : 2665
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "57cec874b22eef50",
+  "name" : "video购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839971529,
+    "stop" : 1638839989831,
+    "duration" : 18302
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "94cf2e0c1301ef23",
+  "name" : "pmm购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839798014,
+    "stop" : 1638839812390,
+    "duration" : 14376
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "74734bf2aa054b27",
+  "name" : "下载compressor测试",
+  "time" : {
+    "start" : 1638839406923,
+    "stop" : 1638839409643,
+    "duration" : 2720
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "1fef2b6c19bbf7ba",
+  "name" : "更多类中的文章测试",
+  "time" : {
+    "start" : 1638839579285,
+    "stop" : 1638839584005,
+    "duration" : 4720
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "49ec0abf0977314a",
+  "name" : "iMyMac PDF Compressor热门文章链接测试",
+  "time" : {
+    "start" : 1638839513893,
+    "stop" : 1638839514314,
+    "duration" : 421
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "297fa5065e151584",
+  "name" : "pmm购买页面填写购买数量测试",
+  "time" : {
+    "start" : 1638839689777,
+    "stop" : 1638839696467,
+    "duration" : 6690
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "303cce05de514e30",
+  "name" : "邮箱链接测试",
+  "time" : {
+    "start" : 1638839453685,
+    "stop" : 1638839460564,
+    "duration" : 6879
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d661287f80978ae0",
+  "name" : "pmm购买页面填写正确格式邮箱测试",
+  "time" : {
+    "start" : 1638839652709,
+    "stop" : 1638839658208,
+    "duration" : 5499
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "339015969569f974",
+  "name" : "搜索文章测试",
+  "time" : {
+    "start" : 1638839294727,
+    "stop" : 1638839302662,
+    "duration" : 7935
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f9a09cc83cfe000c",
+  "name" : "sales搜索文章测试",
+  "time" : {
+    "start" : 1638840107541,
+    "stop" : 1638840115944,
+    "duration" : 8403
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "cdfd9a1e2ba972bd",
+  "name" : "video购买页面取消paypal支付方式测试",
+  "time" : {
+    "start" : 1638840078718,
+    "stop" : 1638840095440,
+    "duration" : 16722
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "a543db2f5e2b085c",
+  "name" : "简介栏内容测试",
+  "time" : {
+    "start" : 1638839251900,
+    "stop" : 1638839251932,
+    "duration" : 32
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "1bc1abff1cd7626c",
+  "name" : "技巧栏链接测试",
+  "time" : {
+    "start" : 1638839743567,
+    "stop" : 1638839757444,
+    "duration" : 13877
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c148a9fac1dbd8c6",
+  "name" : "搜索文章测试",
+  "time" : {
+    "start" : 1638839302981,
+    "stop" : 1638839310752,
+    "duration" : 7771
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "677c1daee1fadd6c",
+  "name" : "点击pmm购买按钮测试",
+  "time" : {
+    "start" : 1638839629989,
+    "stop" : 1638839633074,
+    "duration" : 3085
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "69744ae905c04859",
+  "name" : "搜索文章测试",
+  "time" : {
+    "start" : 1638839297624,
+    "stop" : 1638839305781,
+    "duration" : 8157
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b818ed158bd984c2",
+  "name" : "折叠faq测试",
+  "time" : {
+    "start" : 1638839266391,
+    "stop" : 1638839272778,
+    "duration" : 6387
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "92254b925730892a",
+  "name" : "product搜索不到文章测试",
+  "time" : {
+    "start" : 1638840125268,
+    "stop" : 1638840132829,
+    "duration" : 7561
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8979a56f2625e3da",
+  "name" : "跳转到sales_faq链接测试",
+  "time" : {
+    "start" : 1638840096957,
+    "stop" : 1638840099774,
+    "duration" : 2817
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e11c3807a7baf9be",
+  "name" : "menu导航栏cleaner的下载测试",
+  "time" : {
+    "start" : 1638839458189,
+    "stop" : 1638839464549,
+    "duration" : 6360
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "9c647f58d2c4766",
+  "name" : "footbuy导航栏的下载测试",
+  "time" : {
+    "start" : 1638839592868,
+    "stop" : 1638839599008,
+    "duration" : 6140
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "9bb13d033e219af6",
+  "name" : "简介栏内容测试",
+  "time" : {
+    "start" : 1638839255949,
+    "stop" : 1638839255970,
+    "duration" : 21
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "1ae96841e8517de2",
+  "name" : "pmm购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839945532,
+    "stop" : 1638839959663,
+    "duration" : 14131
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "39ca11306944e266",
+  "name" : "Company下的链接测试",
+  "time" : {
+    "start" : 1638839517532,
+    "stop" : 1638839519856,
+    "duration" : 2324
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "572f6e6c74b01545",
+  "name" : "评价轮播图测试",
+  "time" : {
+    "start" : 1638839555865,
+    "stop" : 1638839562008,
+    "duration" : 6143
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c500392625a9a90",
+  "name" : "footbuy导航栏下进入buy页面测试",
+  "time" : {
+    "start" : 1638839599246,
+    "stop" : 1638839605396,
+    "duration" : 6150
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "aa773609e1fecb35",
+  "name" : "menu导航栏cleaner的下载测试",
+  "time" : {
+    "start" : 1638839693881,
+    "stop" : 1638839700055,
+    "duration" : 6174
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "ab6ccb58bdcb25f1",
+  "name" : "搜索文章回车测试",
+  "time" : {
+    "start" : 1638839559170,
+    "stop" : 1638839562592,
+    "duration" : 3422
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ff614facd2a4e9b",
+  "name" : "video购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638840009909,
+    "stop" : 1638840026890,
+    "duration" : 16981
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "68ede33da94cc877",
+  "name" : "购买video套餐3支付弹窗测试",
+  "time" : {
+    "start" : 1638839607043,
+    "stop" : 1638839611503,
+    "duration" : 4460
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9e0f67a5b92adea1",
+  "name" : "提交邮箱测试",
+  "time" : {
+    "start" : 1638839257663,
+    "stop" : 1638839257663,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "25b6124f2e2bb979",
+  "name" : "评价轮播图测试",
+  "time" : {
+    "start" : 1638839510231,
+    "stop" : 1638839516378,
+    "duration" : 6147
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce72e136eff32745",
+  "name" : "折叠faq测试",
+  "time" : {
+    "start" : 1638839267842,
+    "stop" : 1638839274232,
+    "duration" : 6390
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20dcba3bbc072b18",
+  "name" : "进入powerMyMac购买页面测试",
+  "time" : {
+    "start" : 1638839607570,
+    "stop" : 1638839609695,
+    "duration" : 2125
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "24b6ae72ebc1d9c5",
+  "name" : "点击更多测试",
+  "time" : {
+    "start" : 1638839554302,
+    "stop" : 1638839556948,
+    "duration" : 2646
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "881164090bf2e44d",
+  "name" : "跳转到refund_policy链接测试",
+  "time" : {
+    "start" : 1638840105710,
+    "stop" : 1638840108274,
+    "duration" : 2564
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "622c07f8af60b9b1",
+  "name" : "menu导航栏下进入主页测试",
+  "time" : {
+    "start" : 1638839566576,
+    "stop" : 1638839572856,
+    "duration" : 6280
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5d80343514e4384d",
+  "name" : "切换语言==》日语",
+  "time" : {
+    "start" : 1638839378636,
+    "stop" : 1638839384613,
+    "duration" : 5977
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "125b878ec2ff5c6c",
+  "name" : "文章链接测试",
+  "time" : {
+    "start" : 1638840172106,
+    "stop" : 1638840178258,
+    "duration" : 6152
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f73a62a0e4d6eae0",
+  "name" : "pmm购买页面填写地区测试",
+  "time" : {
+    "start" : 1638839716725,
+    "stop" : 1638839724517,
+    "duration" : 7792
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "d79de4168ed9139b",
+  "name" : "pmm购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839842632,
+    "stop" : 1638839856815,
+    "duration" : 14183
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "dfc547eea1bedfc8",
+  "name" : "video购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638840021972,
+    "stop" : 1638840039063,
+    "duration" : 17091
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "6865702dd6b03216",
+  "name" : "pmm购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839901893,
+    "stop" : 1638839916490,
+    "duration" : 14597
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "255b739307bbe5d6",
+  "name" : "产品链接测试",
+  "time" : {
+    "start" : 1638839489094,
+    "stop" : 1638839491690,
+    "duration" : 2596
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "27a5772a5774a6a1",
+  "name" : "Company下的链接测试",
+  "time" : {
+    "start" : 1638839525244,
+    "stop" : 1638839527809,
+    "duration" : 2565
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb546f8b52f357a0",
+  "name" : "展开faq测试",
+  "time" : {
+    "start" : 1638839263087,
+    "stop" : 1638839267731,
+    "duration" : 4644
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1282ea478b5fa600",
+  "name" : "技巧栏链接测试",
+  "time" : {
+    "start" : 1638839566880,
+    "stop" : 1638839577270,
+    "duration" : 10390
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9e0182b4c64768f3",
+  "name" : "点击user-guide链接",
+  "time" : {
+    "start" : 1638839350652,
+    "stop" : 1638839354569,
+    "duration" : 3917
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d6f4c483e2e9ac5f",
+  "name" : "测试Startup-disk链接",
+  "time" : {
+    "start" : 1638839349113,
+    "stop" : 1638839352110,
+    "duration" : 2997
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7b10afec82913a9",
+  "name" : "切换页码测试",
+  "time" : {
+    "start" : 1638839464427,
+    "stop" : 1638839467393,
+    "duration" : 2966
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "80de1b8d732bfce4",
+  "name" : "大标题测试",
+  "time" : {
+    "start" : 1638839403400,
+    "stop" : 1638839410318,
+    "duration" : 6918
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "64a7c3f4c34a1663",
+  "name" : "打开邮箱工具测试",
+  "time" : {
+    "start" : 1638839256114,
+    "stop" : 1638839256133,
+    "duration" : 19
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6d8ead88fc1d3fec",
+  "name" : "更多类中的文章测试",
+  "time" : {
+    "start" : 1638839603162,
+    "stop" : 1638839607845,
+    "duration" : 4683
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc10a7dcbb3009c2",
+  "name" : "切换语言==》英语",
+  "time" : {
+    "start" : 1638839373086,
+    "stop" : 1638839377892,
+    "duration" : 4806
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d55753b7e4533441",
+  "name" : "点击itunes链接",
+  "time" : {
+    "start" : 1638839369708,
+    "stop" : 1638839372529,
+    "duration" : 2821
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "bfdd26d1441da243",
+  "name" : "测试online-Video-Converter链接",
+  "time" : {
+    "start" : 1638839403495,
+    "stop" : 1638839406575,
+    "duration" : 3080
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1fe630bd9b153672",
+  "name" : "pmm购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839931087,
+    "stop" : 1638839945308,
+    "duration" : 14221
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f046ef9533438a93",
+  "name" : "进入用户指南页面测试",
+  "time" : {
+    "start" : 1638839550583,
+    "stop" : 1638839553397,
+    "duration" : 2814
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "25e6f314d5a02ded",
+  "name" : "下载video测试",
+  "time" : {
+    "start" : 1638840179818,
+    "stop" : 1638840181900,
+    "duration" : 2082
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "798484240104e839",
+  "name" : "sales折叠faq测试",
+  "time" : {
+    "start" : 1638840112720,
+    "stop" : 1638840119103,
+    "duration" : 6383
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4190d9cb5dd40c90",
+  "name" : "pmm购买页面重新填写邮箱测试",
+  "time" : {
+    "start" : 1638839644491,
+    "stop" : 1638839655324,
+    "duration" : 10833
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "944c8abb24f133ed",
+  "name" : "技巧栏链接测试",
+  "time" : {
+    "start" : 1638839605466,
+    "stop" : 1638839613135,
+    "duration" : 7669
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c321c6f9e4e30b91",
+  "name" : "video购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839966290,
+    "stop" : 1638839985454,
+    "duration" : 19164
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "b2fc181433107bed",
+  "name" : "点击mac-uninstaller链接",
+  "time" : {
+    "start" : 1638839344397,
+    "stop" : 1638839347298,
+    "duration" : 2901
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "88dbff9dfe7e73ca",
+  "name" : "测试SiteMap链接",
+  "time" : {
+    "start" : 1638839370226,
+    "stop" : 1638839372897,
+    "duration" : 2671
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c0df57f30bddc20c",
+  "name" : "技巧栏链接测试",
+  "time" : {
+    "start" : 1638839521476,
+    "stop" : 1638839527958,
+    "duration" : 6482
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "554ccdc542f44a8",
+  "name" : "点击更多测试",
+  "time" : {
+    "start" : 1638839557029,
+    "stop" : 1638839559723,
+    "duration" : 2694
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ddc2368d7f69d15",
+  "name" : "评价轮播图测试",
+  "time" : {
+    "start" : 1638839451666,
+    "stop" : 1638839457896,
+    "duration" : 6230
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db9103e8e1f489b5",
+  "name" : "pmm购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839887168,
+    "stop" : 1638839901644,
+    "duration" : 14476
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "876852fdff23b6b8",
+  "name" : "搜索文章测试",
+  "time" : {
+    "start" : 1638839286465,
+    "stop" : 1638839294481,
+    "duration" : 8016
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c99afb3668cce346",
+  "name" : "Similar Image Finder热门文章链接测试",
+  "time" : {
+    "start" : 1638839509128,
+    "stop" : 1638839509288,
+    "duration" : 160
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e67fc948a0f721a",
+  "name" : "购买video套餐2支付弹窗测试",
+  "time" : {
+    "start" : 1638839630560,
+    "stop" : 1638839634700,
+    "duration" : 4140
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "cdec62f578e2318b",
+  "name" : "测试FaceBook链接",
+  "time" : {
+    "start" : 1638839357762,
+    "stop" : 1638839361833,
+    "duration" : 4071
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "32555d7159468459",
+  "name" : "下载PowerMyMac测试",
+  "time" : {
+    "start" : 1638839651867,
+    "stop" : 1638839654033,
+    "duration" : 2166
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "f7c38d0d7f23f08d",
+  "name" : "技巧栏链接测试",
+  "time" : {
+    "start" : 1638839577376,
+    "stop" : 1638839589841,
+    "duration" : 12465
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "839234eaf2b4a70c",
+  "name" : "标签栏测试",
+  "time" : {
+    "start" : 1638839568328,
+    "stop" : 1638839571162,
+    "duration" : 2834
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "30820abe17b32e40",
+  "name" : "video购买页面添加支付卡信息银行拒绝测试",
+  "time" : {
+    "start" : 1638840037718,
+    "stop" : 1638840054799,
+    "duration" : 17081
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "1e763f5e36337840",
+  "name" : "video购买页面填写购买数量测试",
+  "time" : {
+    "start" : 1638839925701,
+    "stop" : 1638839934951,
+    "duration" : 9250
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "e52cdc221f28b344",
+  "name" : "点击文章==》convert-wma-to-mp3",
+  "time" : {
+    "start" : 1638840159670,
+    "stop" : 1638840169924,
+    "duration" : 10254
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "620c3f3f24ad3021",
+  "name" : "测试Photo-Management-Software链接",
+  "time" : {
+    "start" : 1638839384317,
+    "stop" : 1638839386861,
+    "duration" : 2544
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "cbcdb32ff3d538ac",
+  "name" : "下载compressor测试",
+  "time" : {
+    "start" : 1638839431726,
+    "stop" : 1638839434214,
+    "duration" : 2488
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "4ea9fdf7ab7d11c",
+  "name" : "pmm购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839909567,
+    "stop" : 1638839924874,
+    "duration" : 15307
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ef493b742872af30",
+  "name" : "video购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638840027108,
+    "stop" : 1638840044388,
+    "duration" : 17280
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "1adb2ca659358d65",
+  "name" : "video购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638840024126,
+    "stop" : 1638840040459,
+    "duration" : 16333
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "cb7014fbab9d2054",
+  "name" : "标签栏测试",
+  "time" : {
+    "start" : 1638839572423,
+    "stop" : 1638839575100,
+    "duration" : 2677
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "410de675567ea918",
+  "name" : "切换语言==》意大利语",
+  "time" : {
+    "start" : 1638839366472,
+    "stop" : 1638839372409,
+    "duration" : 5937
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c44f18eb02b6f086",
+  "name" : "video购买页面使用paypal支付测试",
+  "time" : {
+    "start" : 1638840069703,
+    "stop" : 1638840079941,
+    "duration" : 10238
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "89c3deb125baf6f3",
+  "name" : "搜索文章测试",
+  "time" : {
+    "start" : 1638839289705,
+    "stop" : 1638839297364,
+    "duration" : 7659
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ebb06b603bb429a8",
+  "name" : "进入常见问题页面测试",
+  "time" : {
+    "start" : 1638839253721,
+    "stop" : 1638839256535,
+    "duration" : 2814
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "52b9948fdd30aba3",
+  "name" : "测试index链接",
+  "time" : {
+    "start" : 1638839418383,
+    "stop" : 1638839421232,
+    "duration" : 2849
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ab532d841503ffab",
+  "name" : "menu导航栏下进入主页测试",
+  "time" : {
+    "start" : 1638839462744,
+    "stop" : 1638839469055,
+    "duration" : 6311
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5d5ea12c3bbc9e2a",
+  "name" : "下载PowerMyMac测试",
+  "time" : {
+    "start" : 1638839545853,
+    "stop" : 1638839547954,
+    "duration" : 2101
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "5f5b5378273ac7ae",
+  "name" : "去guide页面测试",
+  "time" : {
+    "start" : 1638840185465,
+    "stop" : 1638840187568,
+    "duration" : 2103
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5d0eb30d59487d83",
+  "name" : "点击pmm购买按钮测试",
+  "time" : {
+    "start" : 1638839626682,
+    "stop" : 1638839629775,
+    "duration" : 3093
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "6f7e1cb9df3f8895",
+  "name" : "技巧栏链接测试",
+  "time" : {
+    "start" : 1638839497494,
+    "stop" : 1638839518946,
+    "duration" : 21452
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d2f5e3d470b98518",
+  "name" : "点击更多测试",
+  "time" : {
+    "start" : 1638839562544,
+    "stop" : 1638839565372,
+    "duration" : 2828
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8c214ba73f9024c",
+  "name" : "Browser Cleanup热门文章链接测试",
+  "time" : {
+    "start" : 1638839506793,
+    "stop" : 1638839507234,
+    "duration" : 441
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3e8f3c50725e655",
+  "name" : "小标题测试",
+  "time" : {
+    "start" : 1638839432865,
+    "stop" : 1638839439609,
+    "duration" : 6744
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "1838f7bb0c359cc5",
+  "name" : "pmm购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839916699,
+    "stop" : 1638839930877,
+    "duration" : 14178
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "2ec2339c4acb87d3",
+  "name" : "video购买页面填写购买数量测试",
+  "time" : {
+    "start" : 1638839784377,
+    "stop" : 1638839795444,
+    "duration" : 11067
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "ef6ed1a7fdd47e9f",
+  "name" : "标签栏测试",
+  "time" : {
+    "start" : 1638839597139,
+    "stop" : 1638839599767,
+    "duration" : 2628
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9cc4add0ba827c62",
+  "name" : "点击large链接",
+  "time" : {
+    "start" : 1638839334617,
+    "stop" : 1638839337252,
+    "duration" : 2635
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "faf594bb3e1438de",
+  "name" : "点击mac-cleaner链接",
+  "time" : {
+    "start" : 1638839347406,
+    "stop" : 1638839350563,
+    "duration" : 3157
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e71745aa9eb3aee9",
+  "name" : "下载PowerMyMac测试",
+  "time" : {
+    "start" : 1638839441119,
+    "stop" : 1638839443619,
+    "duration" : 2500
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "1cf44900c2248a5a",
+  "name" : "测试Student-Discount链接",
+  "time" : {
+    "start" : 1638839348200,
+    "stop" : 1638839350798,
+    "duration" : 2598
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "90beb273dd5c3c2f",
+  "name" : "文章链接测试",
+  "time" : {
+    "start" : 1638840173465,
+    "stop" : 1638840179614,
+    "duration" : 6149
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5541c3353df05ace",
+  "name" : "技巧栏链接测试",
+  "time" : {
+    "start" : 1638839502000,
+    "stop" : 1638839508476,
+    "duration" : 6476
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5d3df2c345f27bd7",
+  "name" : "标签栏测试",
+  "time" : {
+    "start" : 1638839604031,
+    "stop" : 1638839606639,
+    "duration" : 2608
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ca84254f2c6424b9",
+  "name" : "进入常见问题页面测试",
+  "time" : {
+    "start" : 1638839257312,
+    "stop" : 1638839259810,
+    "duration" : 2498
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2619253cc1067b8c",
+  "name" : "测试online-Video-Editor链接",
+  "time" : {
+    "start" : 1638839394791,
+    "stop" : 1638839398584,
+    "duration" : 3793
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "bc27a1b4e5418065",
+  "name" : "pmm购买页面提交地区测试",
+  "time" : {
+    "start" : 1638839634760,
+    "stop" : 1638839644286,
+    "duration" : 9526
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "ee3c1929cd34441a",
+  "name" : "Help下的链接测试",
+  "time" : {
+    "start" : 1638839534620,
+    "stop" : 1638839536965,
+    "duration" : 2345
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "672c15e2cc5dd305",
+  "name" : "邮箱链接测试",
+  "time" : {
+    "start" : 1638839251490,
+    "stop" : 1638839251522,
+    "duration" : 32
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "741e9424dcc2866c",
+  "name" : "menu导航栏下进入用户指南页面测试",
+  "time" : {
+    "start" : 1638839573230,
+    "stop" : 1638839580080,
+    "duration" : 6850
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5feb2adcbe47c928",
+  "name" : "menu导航栏的下载测试",
+  "time" : {
+    "start" : 1638839638632,
+    "stop" : 1638839644761,
+    "duration" : 6129
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "8dfe5b4ae5f202d3",
+  "name" : "测试PDF-Compressor链接",
+  "time" : {
+    "start" : 1638839397334,
+    "stop" : 1638839400009,
+    "duration" : 2675
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "82ce8cbb7c5b75d0",
+  "name" : "进入常见问题页面测试",
+  "time" : {
+    "start" : 1638839254138,
+    "stop" : 1638839256950,
+    "duration" : 2812
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2807ae7e1cff31d3",
+  "name" : "技巧栏链接测试",
+  "time" : {
+    "start" : 1638839719588,
+    "stop" : 1638839730820,
+    "duration" : 11232
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "2b209028b66901c8",
+  "name" : "footbuy导航栏下进入buy页面测试",
+  "time" : {
+    "start" : 1638839495754,
+    "stop" : 1638839501916,
+    "duration" : 6162
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "eda77ed9bdb90433",
+  "name" : "video购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839971778,
+    "stop" : 1638839988608,
+    "duration" : 16830
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "5b23039287aac4b9",
+  "name" : "menu栏按钮测试",
+  "time" : {
+    "start" : 1638840121949,
+    "stop" : 1638840128085,
+    "duration" : 6136
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4fa0486003039753",
+  "name" : "Products下的链接测试",
+  "time" : {
+    "start" : 1638839527884,
+    "stop" : 1638839530050,
+    "duration" : 2166
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "318504d31d0d555f",
+  "name" : "搜索不到文章测试",
+  "time" : {
+    "start" : 1638839311005,
+    "stop" : 1638839318406,
+    "duration" : 7401
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "9611703dd195548b",
+  "name" : "Help下的链接测试",
+  "time" : {
+    "start" : 1638839532393,
+    "stop" : 1638839534516,
+    "duration" : 2123
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "edf34a485e995dd",
+  "name" : "video购买页面填写购买数量测试",
+  "time" : {
+    "start" : 1638839775482,
+    "stop" : 1638839784158,
+    "duration" : 8676
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "b302486079711b95",
+  "name" : "更多类中的文章测试",
+  "time" : {
+    "start" : 1638839593600,
+    "stop" : 1638839598328,
+    "duration" : 4728
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd56800ba79eedbc",
+  "name" : "pmm购买页面取消添加优惠码测试",
+  "time" : {
+    "start" : 1638839745829,
+    "stop" : 1638839762385,
+    "duration" : 16556
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "b23c8373c6e04297",
+  "name" : "menu导航栏下进入用户指南页面测试",
+  "time" : {
+    "start" : 1638839686970,
+    "stop" : 1638839693820,
+    "duration" : 6850
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "a81072ff6fe4fda3",
+  "name" : "video编辑功能轮播图测试",
+  "time" : {
+    "start" : 1638840137006,
+    "stop" : 1638840143117,
+    "duration" : 6111
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e4748e31e2ee1385",
+  "name" : "Mac Cleaner热门文章链接测试",
+  "time" : {
+    "start" : 1638839501815,
+    "stop" : 1638839502259,
+    "duration" : 444
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4e919704b4843fb",
+  "name" : "video购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839952716,
+    "stop" : 1638839970924,
+    "duration" : 18208
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "9faf589ade8fa450",
+  "name" : "进入用户指南页面测试",
+  "time" : {
+    "start" : 1638839705637,
+    "stop" : 1638839712333,
+    "duration" : 6696
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e0fc34563b68ddf",
+  "name" : "Mac Uninstaller热门文章链接测试",
+  "time" : {
+    "start" : 1638839512444,
+    "stop" : 1638839512866,
+    "duration" : 422
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f5d6e9657b5bfde3",
+  "name" : "点击similar-image链接",
+  "time" : {
+    "start" : 1638839331801,
+    "stop" : 1638839334738,
+    "duration" : 2937
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f945e583e69ffef3",
+  "name" : "video购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839974796,
+    "stop" : 1638839990245,
+    "duration" : 15449
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "503365742bbf4fa2",
+  "name" : "video编辑功能轮播图测试",
+  "time" : {
+    "start" : 1638840138878,
+    "stop" : 1638840145053,
+    "duration" : 6175
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "8d6484da319e62ae",
+  "name" : "点击更多测试",
+  "time" : {
+    "start" : 1638839543066,
+    "stop" : 1638839546104,
+    "duration" : 3038
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "608a1e55136e2f3a",
+  "name" : "pmm购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839857073,
+    "stop" : 1638839871842,
+    "duration" : 14769
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1970f9a7b25c9d3",
+  "name" : "video购买页面提交地区测试",
+  "time" : {
+    "start" : 1638839817520,
+    "stop" : 1638839830009,
+    "duration" : 12489
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "ed1af58d4d665bf",
+  "name" : "pmm购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839768031,
+    "stop" : 1638839782588,
+    "duration" : 14557
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "cf2e5ad188ca5c00",
+  "name" : "搜索文章测试",
+  "time" : {
+    "start" : 1638839281704,
+    "stop" : 1638839289456,
+    "duration" : 7752
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4d4b4dd947af7235",
+  "name" : "步骤内容测试",
+  "time" : {
+    "start" : 1638839257616,
+    "stop" : 1638839257635,
+    "duration" : 19
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "88bd220096f05f76",
+  "name" : "PowerMyMac热门文章链接测试",
+  "time" : {
+    "start" : 1638839497371,
+    "stop" : 1638839497913,
+    "duration" : 542
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6d925e7ef94d87a",
+  "name" : "折叠faq测试",
+  "time" : {
+    "start" : 1638839271535,
+    "stop" : 1638839278027,
+    "duration" : 6492
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51705f268c468d8",
+  "name" : "测试Privacy链接",
+  "time" : {
+    "start" : 1638839367150,
+    "stop" : 1638839370019,
+    "duration" : 2869
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3232457c16e3e2fd",
+  "name" : "Browser Cleanup热门文章链接测试",
+  "time" : {
+    "start" : 1638839508591,
+    "stop" : 1638839509041,
+    "duration" : 450
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2ee1a84eea449f21",
+  "name" : "搜索文章测试",
+  "time" : {
+    "start" : 1638839535325,
+    "stop" : 1638839540801,
+    "duration" : 5476
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ddb0e57ad5c936b4",
+  "name" : "技巧栏链接测试",
+  "time" : {
+    "start" : 1638839613193,
+    "stop" : 1638839625323,
+    "duration" : 12130
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c688f69e2d150b38",
+  "name" : "测试Twitter链接",
+  "time" : {
+    "start" : 1638839392820,
+    "stop" : 1638839397484,
+    "duration" : 4664
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "96aff0d9553f5417",
+  "name" : "更多类中的文章测试",
+  "time" : {
+    "start" : 1638839607889,
+    "stop" : 1638839612747,
+    "duration" : 4858
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "69ddfec8c2544c58",
+  "name" : "测试Speed-Up-Mac链接",
+  "time" : {
+    "start" : 1638839381061,
+    "stop" : 1638839384200,
+    "duration" : 3139
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "870302b3e86d1ad9",
+  "name" : "测试Uninstall-Apps链接",
+  "time" : {
+    "start" : 1638839345696,
+    "stop" : 1638839349012,
+    "duration" : 3316
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c97a7518eea852f8",
+  "name" : "video套餐价格测试",
+  "time" : {
+    "start" : 1638839613787,
+    "stop" : 1638839615978,
+    "duration" : 2191
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "51b8a12f7b5262ed",
+  "name" : "footbuy导航栏的下载测试",
+  "time" : {
+    "start" : 1638839651248,
+    "stop" : 1638839657394,
+    "duration" : 6146
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "7b70c47f0c5b89d9",
+  "name" : "menu导航栏下进入buy页面测试",
+  "time" : {
+    "start" : 1638839482611,
+    "stop" : 1638839489285,
+    "duration" : 6674
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3e890412baae9e56",
+  "name" : "测试ppm产品详情页面",
+  "time" : {
+    "start" : 1638839327488,
+    "stop" : 1638839330356,
+    "duration" : 2868
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "c5c3e00a697d0f15",
+  "name" : "video购买页面重新填写邮箱测试",
+  "time" : {
+    "start" : 1638839830244,
+    "stop" : 1638839840004,
+    "duration" : 9760
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "6d72f24c8849d36d",
+  "name" : "文章链接测试",
+  "time" : {
+    "start" : 1638840190220,
+    "stop" : 1638840196353,
+    "duration" : 6133
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ee165596b2f14d87",
+  "name" : "步骤内容测试",
+  "time" : {
+    "start" : 1638839252231,
+    "stop" : 1638839252252,
+    "duration" : 21
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "51dd513dd5610ea8",
+  "name" : "技巧栏链接测试",
+  "time" : {
+    "start" : 1638839625416,
+    "stop" : 1638839637843,
+    "duration" : 12427
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "bad63d9d1875f143",
+  "name" : "video购买页面填写正确格式邮箱测试",
+  "time" : {
+    "start" : 1638839897038,
+    "stop" : 1638839905475,
+    "duration" : 8437
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "24eeb7fabfa0a234",
+  "name" : "video购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839935180,
+    "stop" : 1638839952463,
+    "duration" : 17283
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "d53fbc8f401bea65",
+  "name" : "video购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638840063749,
+    "stop" : 1638840080955,
+    "duration" : 17206
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "be382834ec7362d9",
+  "name" : "Video Converter热门文章链接测试",
+  "time" : {
+    "start" : 1638839517020,
+    "stop" : 1638839517457,
+    "duration" : 437
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eafe82031e27372",
+  "name" : "video购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638840076079,
+    "stop" : 1638840093954,
+    "duration" : 17875
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "d186fc48d0583a60",
+  "name" : "video购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638840112564,
+    "stop" : 1638840129494,
+    "duration" : 16930
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "e3efb0f4215d7544",
+  "name" : "File Shredder热门文章链接测试",
+  "time" : {
+    "start" : 1638839503526,
+    "stop" : 1638839503960,
+    "duration" : 434
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "82ae0f07efd30881",
+  "name" : "video购买页面未填写地区测试",
+  "time" : {
+    "start" : 1638839817297,
+    "stop" : 1638839817297,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "blocker"
+}, {
+  "uid" : "dcae19662312d9a1",
+  "name" : "下载video测试",
+  "time" : {
+    "start" : 1638840129661,
+    "stop" : 1638840132129,
+    "duration" : 2468
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "a66f5762c5fe9f18",
+  "name" : "pmm购买页面填写正确格式邮箱测试",
+  "time" : {
+    "start" : 1638839664150,
+    "stop" : 1638839669455,
+    "duration" : 5305
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "dbd58606c6da3009",
+  "name" : "技巧栏链接测试",
+  "time" : {
+    "start" : 1638839663942,
+    "stop" : 1638839670116,
+    "duration" : 6174
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "54700d8446e78fe4",
+  "name" : "轮播图测试",
+  "time" : {
+    "start" : 1638839669761,
+    "stop" : 1638839675873,
+    "duration" : 6112
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "637817e8b479aa33",
+  "name" : "小标题测试",
+  "time" : {
+    "start" : 1638839425936,
+    "stop" : 1638839432746,
+    "duration" : 6810
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "a2232482d44cc63",
+  "name" : "跳转文章测试",
+  "time" : {
+    "start" : 1638839457202,
+    "stop" : 1638839459838,
+    "duration" : 2636
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "d8193a7a1a2b1027",
+  "name" : "menu导航栏下进入用户指南页面测试",
+  "time" : {
+    "start" : 1638839527365,
+    "stop" : 1638839534113,
+    "duration" : 6748
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "bd3951ca07e360df",
+  "name" : "折叠faq测试",
+  "time" : {
+    "start" : 1638839264855,
+    "stop" : 1638839271269,
+    "duration" : 6414
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e6d66fef1f73975",
+  "name" : "测试输入 关键字",
+  "time" : {
+    "start" : 1638839398858,
+    "stop" : 1638839403242,
+    "duration" : 4384
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c930d8ab2ca3bd4d",
+  "name" : "购买pmm套餐2支付弹窗测试",
+  "time" : {
+    "start" : 1638839617512,
+    "stop" : 1638839621847,
+    "duration" : 4335
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "1b36ea27e939d778",
+  "name" : "pmm购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839872050,
+    "stop" : 1638839886909,
+    "duration" : 14859
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4db0443e6cbd910f",
+  "name" : "小标题测试",
+  "time" : {
+    "start" : 1638839446506,
+    "stop" : 1638839453573,
+    "duration" : 7067
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "c01a61f985a543f4",
+  "name" : "去订阅购买页面测试",
+  "time" : {
+    "start" : 1638840132355,
+    "stop" : 1638840134503,
+    "duration" : 2148
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "df51ef9b1e096da1",
+  "name" : "技巧栏链接测试",
+  "time" : {
+    "start" : 1638839531763,
+    "stop" : 1638839545725,
+    "duration" : 13962
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "a8833a1f7ae877c2",
+  "name" : "Similar Image Finder热门文章链接测试",
+  "time" : {
+    "start" : 1638839510829,
+    "stop" : 1638839511306,
+    "duration" : 477
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a6617b05608c0f8",
+  "name" : "video购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638840044609,
+    "stop" : 1638840063536,
+    "duration" : 18927
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "d2cc3edaa1ac6d95",
+  "name" : "pmm购买页面填写购买数量测试",
+  "time" : {
+    "start" : 1638839669665,
+    "stop" : 1638839675528,
+    "duration" : 5863
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "f24c7f3147355d96",
+  "name" : "进入powerMyMac购买页面测试",
+  "time" : {
+    "start" : 1638839548300,
+    "stop" : 1638839550499,
+    "duration" : 2199
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f8e356a637acd8b2",
+  "name" : "pmm购买页面填写购买数量测试",
+  "time" : {
+    "start" : 1638839703768,
+    "stop" : 1638839710436,
+    "duration" : 6668
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "c6ef5dbd51c84f08",
+  "name" : "video编辑功能轮播图测试",
+  "time" : {
+    "start" : 1638840143357,
+    "stop" : 1638840149498,
+    "duration" : 6141
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1a500ade8a03b8f6",
+  "name" : "sales搜索文章测试",
+  "time" : {
+    "start" : 1638840091663,
+    "stop" : 1638840099901,
+    "duration" : 8238
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "a072a5b1e8977bc9",
+  "name" : "The Andvantage of Browser Cleanup轮播图的切换测试",
+  "time" : {
+    "start" : 1638839597157,
+    "stop" : 1638839603272,
+    "duration" : 6115
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d49b74dae498769",
+  "name" : "menu栏按钮测试",
+  "time" : {
+    "start" : 1638840135304,
+    "stop" : 1638840143762,
+    "duration" : 8458
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b16be49d8b3497d9",
+  "name" : "pmm购买页面添加支付卡信息银行拒绝测试",
+  "time" : {
+    "start" : 1638839779508,
+    "stop" : 1638839796129,
+    "duration" : 16621
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "caf92bba36a22311",
+  "name" : "大标题测试",
+  "time" : {
+    "start" : 1638839418918,
+    "stop" : 1638839425813,
+    "duration" : 6895
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "84858b9b1e5f3370",
+  "name" : "video编辑功能轮播图测试",
+  "time" : {
+    "start" : 1638840150356,
+    "stop" : 1638840156493,
+    "duration" : 6137
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "590de4cc6dd6dcc7",
+  "name" : "搜索文章测试",
+  "time" : {
+    "start" : 1638839279829,
+    "stop" : 1638839287886,
+    "duration" : 8057
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "385e9344db10af1a",
+  "name" : "pmm购买页面填写错误优惠码测试",
+  "time" : {
+    "start" : 1638839679629,
+    "stop" : 1638839693944,
+    "duration" : 14315
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "1c186444551e631b",
+  "name" : "搜索文章测试",
+  "time" : {
+    "start" : 1638839303960,
+    "stop" : 1638839311787,
+    "duration" : 7827
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4b116532a2d83845",
+  "name" : "测试online-PDF-Compressor链接",
+  "time" : {
+    "start" : 1638839402297,
+    "stop" : 1638839406732,
+    "duration" : 4435
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "cefc9fad68f3dc8a",
+  "name" : "video购买页面填写正确优惠码测试",
+  "time" : {
+    "start" : 1638839887385,
+    "stop" : 1638839902076,
+    "duration" : 14691
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "a4e9bf2e6a92c9be",
+  "name" : "video购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839947195,
+    "stop" : 1638839966079,
+    "duration" : 18884
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "bd5f23c9cde28323",
+  "name" : "点击更多测试",
+  "time" : {
+    "start" : 1638839539672,
+    "stop" : 1638839542989,
+    "duration" : 3317
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "74e01586fdcfd0ea",
+  "name" : "pmm购买页面添加支付卡信息银行拒绝测试",
+  "time" : {
+    "start" : 1638839796360,
+    "stop" : 1638839814428,
+    "duration" : 18068
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "ea83b9cd035fd4",
+  "name" : "Products下的链接测试",
+  "time" : {
+    "start" : 1638839530129,
+    "stop" : 1638839532312,
+    "duration" : 2183
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca8f203607127010",
+  "name" : "video购买页面填写错误优惠码测试",
+  "time" : {
+    "start" : 1638839840232,
+    "stop" : 1638839856733,
+    "duration" : 16501
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "8fd2ccfac31fc2e7",
+  "name" : "footbuy导航栏cleaner的下载测试",
+  "time" : {
+    "start" : 1638839706617,
+    "stop" : 1638839712765,
+    "duration" : 6148
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "c9fa20a7abdc8547",
   "name" : "测试Refund链接",
   "time" : {
-    "start" : 1638524294076,
-    "stop" : 1638524296800,
-    "duration" : 2724
+    "start" : 1638839389825,
+    "stop" : 1638839392687,
+    "duration" : 2862
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b69639c6aea7fcf2",
+  "name" : "pmm购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839780497,
+    "stop" : 1638839798386,
+    "duration" : 17889
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4b396b1aca060974",
+  "name" : "Duplicate Finder热门文章链接测试",
+  "time" : {
+    "start" : 1638839506322,
+    "stop" : 1638839506727,
+    "duration" : 405
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e2aca93722cb6cc",
+  "name" : "提交邮箱测试",
+  "time" : {
+    "start" : 1638839252280,
+    "stop" : 1638839252280,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "8e4e21f5e35635d1",
+  "name" : "去guide页面测试",
+  "time" : {
+    "start" : 1638840169774,
+    "stop" : 1638840171902,
+    "duration" : 2128
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "257d8200cf2520c4",
+  "name" : "测试Mac-Purgeable链接",
+  "time" : {
+    "start" : 1638839341960,
+    "stop" : 1638839344630,
+    "duration" : 2670
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f7ddef22711ad811",
+  "name" : "Duplicate Finder热门文章链接测试",
+  "time" : {
+    "start" : 1638839505064,
+    "stop" : 1638839505491,
+    "duration" : 427
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "19a42ad48116c404",
+  "name" : "切换语言==》法语",
+  "time" : {
+    "start" : 1638839362272,
+    "stop" : 1638839368634,
+    "duration" : 6362
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "32c825d61cc7a660",
+  "name" : "video购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839990042,
+    "stop" : 1638840009695,
+    "duration" : 19653
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "980b1bd7a20ae068",
+  "name" : "点击更多测试",
+  "time" : {
+    "start" : 1638839551511,
+    "stop" : 1638839554148,
+    "duration" : 2637
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "25c89b1fe00c08b4",
+  "name" : "下载video测试",
+  "time" : {
+    "start" : 1638840162627,
+    "stop" : 1638840164726,
+    "duration" : 2099
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "2b4460dd9f66bde9",
+  "name" : "技巧栏链接测试",
+  "time" : {
+    "start" : 1638839420549,
+    "stop" : 1638839427327,
+    "duration" : 6778
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "cfd6bd03f7e8bfd",
+  "name" : "menu导航栏下进入主页测试",
+  "time" : {
+    "start" : 1638839625463,
+    "stop" : 1638839631666,
+    "duration" : 6203
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "27301fe49b88cc7c",
+  "name" : "测试Store链接",
+  "time" : {
+    "start" : 1638839389152,
+    "stop" : 1638839391902,
+    "duration" : 2750
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "292e9d2d6d88cd5f",
+  "name" : "展开faq测试",
+  "time" : {
+    "start" : 1638839261593,
+    "stop" : 1638839266141,
+    "duration" : 4548
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "596e8574b8815b4d",
+  "name" : "技巧栏链接测试",
+  "time" : {
+    "start" : 1638839670185,
+    "stop" : 1638839676366,
+    "duration" : 6181
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1228e9f7adce6b6e",
+  "name" : "去index页面测试",
+  "time" : {
+    "start" : 1638840188834,
+    "stop" : 1638840191388,
+    "duration" : 2554
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2b369cb594a0eff",
+  "name" : "标签栏测试",
+  "time" : {
+    "start" : 1638839576155,
+    "stop" : 1638839578741,
+    "duration" : 2586
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6af55b5cbf722df3",
+  "name" : "产品链接测试",
+  "time" : {
+    "start" : 1638839486074,
+    "stop" : 1638839489017,
+    "duration" : 2943
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cc3063566dd6cece",
+  "name" : "标签栏测试",
+  "time" : {
+    "start" : 1638839435436,
+    "stop" : 1638839438061,
+    "duration" : 2625
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e01dfbdac713550c",
+  "name" : "技巧栏链接测试",
+  "time" : {
+    "start" : 1638839508599,
+    "stop" : 1638839514784,
+    "duration" : 6185
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f9a510f042a16ce5",
+  "name" : "menu导航栏下进入buy页面测试",
+  "time" : {
+    "start" : 1638839700304,
+    "stop" : 1638839706519,
+    "duration" : 6215
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "fdb48d7ab5e1df3",
+  "name" : "Key Features Mac Uninstaller轮播图的切换测试",
+  "time" : {
+    "start" : 1638839645602,
+    "stop" : 1638839651726,
+    "duration" : 6124
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "2755e206417e269a",
+  "name" : "pmm购买页面使用其他支付方式测试",
+  "time" : {
+    "start" : 1638839814666,
+    "stop" : 1638839835085,
+    "duration" : 20419
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "d91bca96786ebb8d",
+  "name" : "展开faq测试",
+  "time" : {
+    "start" : 1638839260072,
+    "stop" : 1638839264595,
+    "duration" : 4523
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9fbc392ea23f751",
+  "name" : "video购买页面使用其他支付方式测试",
+  "time" : {
+    "start" : 1638840055011,
+    "stop" : 1638840069426,
+    "duration" : 14415
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "e7fb3ee78484218f",
+  "name" : "切换语言==》西班牙语",
+  "time" : {
+    "start" : 1638839359891,
+    "stop" : 1638839365890,
+    "duration" : 5999
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d9691ac17c304d5d",
+  "name" : "Video Converter热门文章链接测试",
+  "time" : {
+    "start" : 1638839516436,
+    "stop" : 1638839516938,
+    "duration" : 502
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf907f2b71fa60b2",
+  "name" : "点击文章==》convert-m4a-to-mp3",
+  "time" : {
+    "start" : 1638840149759,
+    "stop" : 1638840156257,
+    "duration" : 6498
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "eeb611e80e2d5d20",
+  "name" : "product折叠faq测试",
+  "time" : {
+    "start" : 1638840085239,
+    "stop" : 1638840091615,
+    "duration" : 6376
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "650e44dcf86d18dd",
+  "name" : "footbuy导航栏下进入buy页面测试",
+  "time" : {
+    "start" : 1638839480889,
+    "stop" : 1638839486181,
+    "duration" : 5292
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ec3b502529d766cd",
+  "name" : "video购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638840005497,
+    "stop" : 1638840023882,
+    "duration" : 18385
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "ad9a3b8b401d0af2",
+  "name" : "进入用户指南页面测试",
+  "time" : {
+    "start" : 1638839480491,
+    "stop" : 1638839507697,
+    "duration" : 27206
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ab49701d3fc0d058",
+  "name" : "文章链接测试",
+  "time" : {
+    "start" : 1638840177215,
+    "stop" : 1638840188171,
+    "duration" : 10956
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b8a56260bc6d1715",
+  "name" : "搜索文章测试",
+  "time" : {
+    "start" : 1638839305223,
+    "stop" : 1638839313141,
+    "duration" : 7918
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d7e251a65345c5f1",
+  "name" : "搜索文章测试",
+  "time" : {
+    "start" : 1638839297513,
+    "stop" : 1638839304973,
+    "duration" : 7460
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1510357b7ca29a6c",
+  "name" : "展开faq测试",
+  "time" : {
+    "start" : 1638839267987,
+    "stop" : 1638839272549,
+    "duration" : 4562
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d9373b602f7d9a6f",
+  "name" : "标签栏测试",
+  "time" : {
+    "start" : 1638839600630,
+    "stop" : 1638839603254,
+    "duration" : 2624
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "97d28fd5d021455e",
+  "name" : "video购买页面填写地区测试",
+  "time" : {
+    "start" : 1638839805031,
+    "stop" : 1638839817293,
+    "duration" : 12262
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "fc1aac1272e0a09",
+  "name" : "搜索文章测试",
+  "time" : {
+    "start" : 1638839312026,
+    "stop" : 1638839319594,
+    "duration" : 7568
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c3632fd4c5460547",
+  "name" : "购买链接测试",
+  "time" : {
+    "start" : 1638839252873,
+    "stop" : 1638839255537,
+    "duration" : 2664
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "531f95489b41e64",
+  "name" : "技巧栏链接测试",
+  "time" : {
+    "start" : 1638839486303,
+    "stop" : 1638839497270,
+    "duration" : 10967
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4553d339509e547c",
+  "name" : "切换语言==》阿拉伯语",
+  "time" : {
+    "start" : 1638839380865,
+    "stop" : 1638839385561,
+    "duration" : 4696
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1f8765855ba76cd1",
+  "name" : "pmm购买页面添加支付卡信息错误测试",
+  "time" : {
+    "start" : 1638839835340,
+    "stop" : 1638839852010,
+    "duration" : 16670
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "60ee7f6000de5729",
+  "name" : "文章链接测试",
+  "time" : {
+    "start" : 1638840189595,
+    "stop" : 1638840195735,
+    "duration" : 6140
   },
   "status" : "passed",
   "severity" : "critical"

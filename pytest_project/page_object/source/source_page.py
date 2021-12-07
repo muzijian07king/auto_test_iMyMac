@@ -2,6 +2,7 @@ import allure
 
 from pytest_project.page.basepage import WebPage
 from pytest_project.common.readelement import Element, get_any_key_info, get_values_in_name
+from pytest_project.utils.times import sleep
 
 resource = Element('Resource/resource')
 
@@ -14,10 +15,12 @@ class SourcePage(WebPage):
     @allure.step('按下搜索键')
     def click_input_button(self):
         self.is_click(resource['input-button'])
+        sleep(2)
 
     @allure.step('按下回车键进行搜索')
     def submit_search_with_ENTER(self):
         self.Key_enter(resource['input'])
+        sleep(2)
 
     def return_search_content_succeed(self, search):
         with allure.step('对内容进行检索'):

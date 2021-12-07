@@ -12,11 +12,13 @@ class BodyPage(WebPage):
     def click_carousel_left_button(self):
         """点击产品滚动栏的左箭头"""
         self.is_click(body['left-carousel-control'])
+        sleep(2)
 
     @allure.step('点击右箭头')
     def click_carousel_right_button(self):
-        """点击滚动栏的左箭头"""
+        """点击滚动栏的右箭头"""
         self.is_click(body['right-carousel-control'])
+        sleep(2)
 
     @allure.step('点击下载按钮')
     def click_ppm_download(self):

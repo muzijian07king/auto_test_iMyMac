@@ -2,6 +2,8 @@ from pytest_project.page.basepage import WebPage
 from pytest_project.common.readelement import Element, get_any_key_info
 import allure
 
+from pytest_project.utils.times import sleep
+
 faqs = Element('FAQ/index')
 
 
@@ -42,6 +44,7 @@ class FAQSPage(WebPage):
     @allure.step('点击搜索按钮')
     def click_search_button(self):
         self.is_click(faqs['search-button'])
+        sleep(2)
 
     def return_succeed_search(self, search):
         """判断搜索结果是否成功"""
