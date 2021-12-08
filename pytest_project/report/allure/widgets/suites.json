@@ -1,114 +1,15 @@
 {
-  "total" : 12,
+  "total" : 1,
   "items" : [ {
     "uid" : "ee12983eb44ed69151a6cae4a19509e0",
     "name" : "TestCase.store_test_case",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 2,
-      "passed" : 126,
-      "unknown" : 0,
-      "total" : 128
-    }
-  }, {
-    "uid" : "3b5f41c99ca00ee5d475c83496be6326",
-    "name" : "TestCase.powermymac_test_case",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
       "skipped" : 0,
-      "passed" : 102,
-      "unknown" : 0,
-      "total" : 102
-    }
-  }, {
-    "uid" : "767d4c646f84549a1ceda16d28bdaec5",
-    "name" : "TestCase.index_test_case",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 75,
-      "unknown" : 0,
-      "total" : 75
-    }
-  }, {
-    "uid" : "7563cccda0d89ce4d52521e946ea43a2",
-    "name" : "TestCase.sitemap_test_case",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 68,
-      "unknown" : 0,
-      "total" : 68
-    }
-  }, {
-    "uid" : "44129cb182fe07f955dba6621d749d7b",
-    "name" : "TestCase.video_test_case",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 45,
-      "unknown" : 0,
-      "total" : 45
-    }
-  }, {
-    "uid" : "271cdb96b0aabce545b7e600b5969c4e",
-    "name" : "TestCase.faq_test_case",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 42,
-      "unknown" : 0,
-      "total" : 42
-    }
-  }, {
-    "uid" : "bbfa521d46d57c82f321898c97dd0c83",
-    "name" : "TestCase.resource_test_case",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 1,
       "passed" : 30,
       "unknown" : 0,
-      "total" : 31
-    }
-  }, {
-    "uid" : "3407cf2b0a8095d4a643948b6dc1719a",
-    "name" : "TestCase.support_test_case",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 18,
-      "unknown" : 0,
-      "total" : 18
-    }
-  }, {
-    "uid" : "214da94c0d763822011c6b173d4b14b4",
-    "name" : "TestCase.policy_test_case",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 11,
-      "unknown" : 0,
-      "total" : 11
-    }
-  }, {
-    "uid" : "2799013b8521dfa239f099678d002ed3",
-    "name" : "TestCase.discount_test_case",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 4,
-      "passed" : 6,
-      "unknown" : 0,
-      "total" : 10
+      "total" : 30
     }
   } ]
 }

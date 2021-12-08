@@ -22,7 +22,7 @@ def drivers():
     option.add_argument('--window-size=1920,1080')
     option.add_argument('--no-sandbox')  # 设置浏览器大小
     option.add_argument('--incognito')
-    option.add_experimental_option("excludeSwitches", ["enable-logging"])
+    option.add_experimental_option('excludeSwitches', ['enable-automation'])
     option.add_argument('ignore-certificate-errors')
     prefs = {'download.default_directory': cm.download_dir}  # 禁止图片
     option.add_experimental_option('prefs', prefs)
@@ -31,3 +31,12 @@ def drivers():
         driver = webdriver.Chrome(options=option)
     yield driver
     driver.quit()
+
+
+def pytest_collection_modifyitems(
+        session: "Session", config: "Config", items: list["Item"]
+) -> None:
+    # item表示每个测试用例，解决用例名称中文显示问题
+    for item in items:
+        item.name = item.name.encode("utf-8").decode("unicode-escape")
+        item._nodeid = item._nodeid.encode("utf-8").decode("unicode-escape")
