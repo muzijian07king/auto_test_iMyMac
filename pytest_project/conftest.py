@@ -32,6 +32,20 @@ def drivers():
     yield driver
     driver.quit()
 
+def pytest_runtest_makereport(item, call):
+    '''
+    当测试失败的时候自动截图，展示到allure报告中
+    :param item:测试用例
+    :return:
+    '''
+    outcome = yield
+    report = outcome.get_result()
+    """判断失败用例"""
+    if report.when == 'call' and report.failed:
+
+        if hasattr(driver, "get_screenshot_as_png"):
+            with allure.step('添加失败截图...'):
+                allure.attach(driver.get_screenshot_as_png(), "失败截图", allure.attachment_type.PNG)
 
 def pytest_collection_modifyitems(
         session: "Session", config: "Config", items: list["Item"]
