@@ -1,1 +1,421 @@
-[ ]
+[ {
+  "uid" : "f94805e83beb3381",
+  "name" : "搜索文章测试",
+  "time" : {
+    "start" : 1639363466213,
+    "stop" : 1639363474117,
+    "duration" : 7904
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d1a597c003cdeca8",
+  "name" : "搜索文章测试",
+  "time" : {
+    "start" : 1639363488747,
+    "stop" : 1639363496627,
+    "duration" : 7880
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9544d52437cee83c",
+  "name" : "搜索文章测试",
+  "time" : {
+    "start" : 1639363474335,
+    "stop" : 1639363488543,
+    "duration" : 14208
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b79a665c8d053c24",
+  "name" : "搜索文章测试",
+  "time" : {
+    "start" : 1639363488845,
+    "stop" : 1639363496322,
+    "duration" : 7477
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "394c7dca94dc5544",
+  "name" : "进入常见问题页面测试",
+  "time" : {
+    "start" : 1639363395098,
+    "stop" : 1639363397598,
+    "duration" : 2500
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2cbcfe6bd61c5c45",
+  "name" : "搜索文章测试",
+  "time" : {
+    "start" : 1639363425357,
+    "stop" : 1639363433224,
+    "duration" : 7867
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6e7e65e0249c363f",
+  "name" : "搜索不到文章测试",
+  "time" : {
+    "start" : 1639363504213,
+    "stop" : 1639363511739,
+    "duration" : 7526
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "6b2ccd2e72396080",
+  "name" : "搜索文章测试",
+  "time" : {
+    "start" : 1639363417835,
+    "stop" : 1639363425900,
+    "duration" : 8065
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "76e018703280a210",
+  "name" : "搜索文章测试",
+  "time" : {
+    "start" : 1639363441622,
+    "stop" : 1639363449292,
+    "duration" : 7670
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "fc8b2da7a674a7a9",
+  "name" : "进入常见问题页面测试",
+  "time" : {
+    "start" : 1639363365694,
+    "stop" : 1639363392119,
+    "duration" : 26425
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "94e1ea41e2eb61c",
+  "name" : "展开faq测试",
+  "time" : {
+    "start" : 1639363369431,
+    "stop" : 1639363373851,
+    "duration" : 4420
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d78af383436a4f61",
+  "name" : "搜索文章测试",
+  "time" : {
+    "start" : 1639363433458,
+    "stop" : 1639363441412,
+    "duration" : 7954
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "84b269132a7079b5",
+  "name" : "搜索文章测试",
+  "time" : {
+    "start" : 1639363413817,
+    "stop" : 1639363425101,
+    "duration" : 11284
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c2fddf3ec109389e",
+  "name" : "展开faq测试",
+  "time" : {
+    "start" : 1639363364722,
+    "stop" : 1639363369114,
+    "duration" : 4392
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd80c92b4346f33e",
+  "name" : "进入常见问题页面测试",
+  "time" : {
+    "start" : 1639363392336,
+    "stop" : 1639363394871,
+    "duration" : 2535
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6cf513176521d4a1",
+  "name" : "进入常见问题页面测试",
+  "time" : {
+    "start" : 1639363361902,
+    "stop" : 1639363364449,
+    "duration" : 2547
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "244fb87f64390a33",
+  "name" : "搜索文章测试",
+  "time" : {
+    "start" : 1639363449514,
+    "stop" : 1639363458233,
+    "duration" : 8719
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7b6c2dee86beac91",
+  "name" : "搜索文章测试",
+  "time" : {
+    "start" : 1639363470464,
+    "stop" : 1639363480327,
+    "duration" : 9863
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "eaf362b8bb64176f",
+  "name" : "折叠faq测试",
+  "time" : {
+    "start" : 1639363407164,
+    "stop" : 1639363413575,
+    "duration" : 6411
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dfc2ec8c1b18411f",
+  "name" : "进入常见问题页面测试",
+  "time" : {
+    "start" : 1639363359047,
+    "stop" : 1639363361646,
+    "duration" : 2599
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c4ff65711c10b8b",
+  "name" : "折叠faq测试",
+  "time" : {
+    "start" : 1639363383933,
+    "stop" : 1639363390361,
+    "duration" : 6428
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5614e64d49a49a5f",
+  "name" : "展开faq测试",
+  "time" : {
+    "start" : 1639363397836,
+    "stop" : 1639363402287,
+    "duration" : 4451
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3b0e4a68c4d2fdd1",
+  "name" : "搜索文章测试",
+  "time" : {
+    "start" : 1639363458454,
+    "stop" : 1639363465970,
+    "duration" : 7516
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4291297bf0b9f93f",
+  "name" : "搜索文章测试",
+  "time" : {
+    "start" : 1639363426192,
+    "stop" : 1639363434037,
+    "duration" : 7845
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6d00bb6f094b7247",
+  "name" : "搜索不到文章测试",
+  "time" : {
+    "start" : 1639363496928,
+    "stop" : 1639363504411,
+    "duration" : 7483
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "1a0ba4b2cff50f97",
+  "name" : "搜索文章测试",
+  "time" : {
+    "start" : 1639363462205,
+    "stop" : 1639363470198,
+    "duration" : 7993
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d273975930a07f3f",
+  "name" : "搜索不到文章测试",
+  "time" : {
+    "start" : 1639363512786,
+    "stop" : 1639363520162,
+    "duration" : 7376
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "f56748d25e581a05",
+  "name" : "展开faq测试",
+  "time" : {
+    "start" : 1639363374120,
+    "stop" : 1639363378706,
+    "duration" : 4586
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9943f3530b9b86d",
+  "name" : "展开faq测试",
+  "time" : {
+    "start" : 1639363402518,
+    "stop" : 1639363406909,
+    "duration" : 4391
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d0dde51434461f4e",
+  "name" : "搜索文章测试",
+  "time" : {
+    "start" : 1639363434277,
+    "stop" : 1639363442438,
+    "duration" : 8161
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "40bf9387fca6e524",
+  "name" : "折叠faq测试",
+  "time" : {
+    "start" : 1639363397459,
+    "stop" : 1639363403946,
+    "duration" : 6487
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b8094592487e1d24",
+  "name" : "搜索文章测试",
+  "time" : {
+    "start" : 1639363450571,
+    "stop" : 1639363461949,
+    "duration" : 11378
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4f63403e2537efbf",
+  "name" : "搜索不到文章测试",
+  "time" : {
+    "start" : 1639363504686,
+    "stop" : 1639363512533,
+    "duration" : 7847
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "723260551342c760",
+  "name" : "搜索不到文章测试",
+  "time" : {
+    "start" : 1639363496548,
+    "stop" : 1639363503958,
+    "duration" : 7410
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "f69a00e4c6116236",
+  "name" : "搜索不到文章测试",
+  "time" : {
+    "start" : 1639363511968,
+    "stop" : 1639363519494,
+    "duration" : 7526
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "bc8bd9efb22c716c",
+  "name" : "展开faq测试",
+  "time" : {
+    "start" : 1639363378971,
+    "stop" : 1639363383686,
+    "duration" : 4715
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fef2898ddaf39708",
+  "name" : "折叠faq测试",
+  "time" : {
+    "start" : 1639363390616,
+    "stop" : 1639363397191,
+    "duration" : 6575
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f6573e73ae656c3",
+  "name" : "搜索文章测试",
+  "time" : {
+    "start" : 1639363442742,
+    "stop" : 1639363450321,
+    "duration" : 7579
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5e562e9186aec4a1",
+  "name" : "搜索文章测试",
+  "time" : {
+    "start" : 1639363480588,
+    "stop" : 1639363488482,
+    "duration" : 7894
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "961be86f5125e92c",
+  "name" : "进入常见问题页面测试",
+  "time" : {
+    "start" : 1639363355669,
+    "stop" : 1639363358683,
+    "duration" : 3014
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fbca77bdd5ae13d3",
+  "name" : "折叠faq测试",
+  "time" : {
+    "start" : 1639363404208,
+    "stop" : 1639363410876,
+    "duration" : 6668
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "13da347868ce4bec",
+  "name" : "折叠faq测试",
+  "time" : {
+    "start" : 1639363411168,
+    "stop" : 1639363417581,
+    "duration" : 6413
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

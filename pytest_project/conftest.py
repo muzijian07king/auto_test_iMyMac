@@ -1,15 +1,10 @@
-import os
 import allure
 import pytest
 
-from py.xml import html
 from selenium import webdriver
-from pytest_project.utils.times import datetime_format
 from pytest_project.config.conf import cm
-from pytest_project.utils.sendemail import send_report
 from pytest_project.utils.times import timestamp
-import platform
-from pytest_project.common.readconfig import ini
+
 
 driver = None
 
@@ -48,6 +43,20 @@ def pytest_runtest_makereport(item, call):
         if hasattr(driver, "get_screenshot_as_png"):
             with allure.step('添加失败截图...'):
                 allure.attach(driver.get_screenshot_as_png(), "失败截图", allure.attachment_type.PNG)
+
+
+def pytest_terminal_summary(terminalreporter, exitstatus, config):
+    """收集测试结果"""
+    result = {
+        "total": terminalreporter._numcollected,
+        'passed': len(terminalreporter.stats.get('passed', [])),
+        'failed': len(terminalreporter.stats.get('failed', [])),
+        'error': len(terminalreporter.stats.get('error', [])),
+        'skipped': len(terminalreporter.stats.get('skipped', [])),
+        # terminalreporter._sessionstarttime 会话开始时间
+        'total times': timestamp() - terminalreporter._sessionstarttime
+    }
+    print(result)
 
 
 def pytest_collection_modifyitems(
