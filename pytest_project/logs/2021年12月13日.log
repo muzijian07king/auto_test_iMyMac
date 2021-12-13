@@ -1,0 +1,20 @@
+INFO	2021-12-13 10:25:26,605	[basepage.py:32]	打开网页https://www.imymac.com/contact/
+INFO	2021-12-13 10:26:01,511	[basepage.py:32]	打开网页https://www.imymac.com/contact/
+INFO	2021-12-13 10:26:01,661	[basepage.py:32]	打开网页https://www.imymac.com/contact/
+INFO	2021-12-13 10:33:12,865	[basepage.py:32]	打开网页https://www.imymac.com/contact/
+INFO	2021-12-13 10:35:02,126	[basepage.py:32]	打开网页https://www.imymac.com/contact/
+INFO	2021-12-13 10:35:02,151	[basepage.py:96]	获取到文本：If you prepare to purchase or had bought products from iMyMac, please feel free to contact us by email with any questions.
+INFO	2021-12-13 10:35:02,237	[basepage.py:32]	打开网页https://www.imymac.com/contact/
+INFO	2021-12-13 10:35:02,254	[basepage.py:134]	获取到href元素的值==》mailto:support@imymac.com
+INFO	2021-12-13 10:35:02,641	[basepage.py:32]	打开网页https://www.imymac.com/contact/
+INFO	2021-12-13 10:35:02,660	[basepage.py:96]	获取到文本：If you have any suggestions, such as the website and service, contact us by email.
+INFO	2021-12-13 10:35:02,767	[basepage.py:32]	打开网页https://www.imymac.com/contact/
+INFO	2021-12-13 10:35:02,789	[basepage.py:96]	获取到文本：iMyMac Supporter Email: support@imymac.com
+INFO	2021-12-13 10:35:03,331	[basepage.py:32]	打开网页https://www.imymac.com/student-discount/
+INFO	2021-12-13 10:35:03,351	[basepage.py:96]	获取到文本：We’ll review your email and verify, then send you a coupon code.
+INFO	2021-12-13 10:35:03,563	[basepage.py:32]	打开网页https://www.imymac.com/student-discount/
+INFO	2021-12-13 10:35:03,583	[basepage.py:96]	获取到文本：Submit your email in the box below.
+INFO	2021-12-13 10:35:03,826	[basepage.py:32]	打开网页https://www.imymac.com/student-discount/
+INFO	2021-12-13 10:35:04,087	[basepage.py:32]	打开网页https://www.imymac.com/student-discount/
+INFO	2021-12-13 10:35:04,111	[basepage.py:96]	获取到文本：Apply your discount with the coupon code after choosing desired product in https://www.imymac.com/store/
+INFO	2021-12-13 10:35:04,818	[basepage.py:90]	点击元素：('css', 'body > div > div > div> div > div:nth-child(3) > p > a')
