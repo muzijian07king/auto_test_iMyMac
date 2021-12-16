@@ -1,7 +1,7 @@
 import os, sys
 from selenium.webdriver.common.by import By
 
-from pytest_project.utils.times import datetime_format
+import datetime
 
 
 class ConfigManager(object):
@@ -71,7 +71,7 @@ class ConfigManager(object):
         log_dir = os.path.join(self.BASE_DIR, 'logs')
         if not os.path.exists(log_dir):
             os.mkdir(log_dir)
-        return os.path.join(log_dir, '{}.log'.format(datetime_format(fmt='%Y年%m月%d日')))
+        return os.path.join(log_dir, '{}.log'.format(datetime.datetime.now().strftime('%Y年%m月%d日')))
 
     # ini配置文件
     @property
@@ -80,15 +80,6 @@ class ConfigManager(object):
         if not os.path.exists(ini_file):
             raise FileExistsError('配置文件%s不存在' % ini_file)
         return ini_file
-
-    def screen_path(self):
-        '''截图目录'''
-        screenshot_dir = os.path.join(self.BASE_DIR, 'screen_capture')
-        if not os.path.exists(screenshot_dir):
-            os.makedirs(screenshot_dir)
-        now_time = datetime_format(fmt='%Y年%m月%d日_%H时%M分%S秒')
-        screen_file = os.path.join(screenshot_dir, '{}.png'.format(now_time))
-        return now_time, screen_file
 
     @property
     def VPN_Switch(self):

@@ -1,4 +1,6 @@
 import os
+import sys
+
 from config.conf import cm
 
 download_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'download-dir')
