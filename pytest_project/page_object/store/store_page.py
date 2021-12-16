@@ -278,6 +278,10 @@ class StorePage(WebPage):
         with allure.step('判断卡支付错误信息'):
             return self.elements_text(store['card-pay-texts'])
 
+    def return_card_pay_bank_safe_texts(self):
+        with allure.step("判断卡支付银行安全提醒"):
+            return self.element_txet(store['bank-safe'])
+
     def return_card_pay_BANK_error_text(self):
         with allure.step('判断卡支付银行拒绝错误信息'):
             return self.element_txet(store['card-pay-BANK-error'])

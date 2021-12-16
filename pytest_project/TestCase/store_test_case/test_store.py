@@ -164,10 +164,10 @@ class TestBody(object):
         self.driver.send_cardYear(year)
         self.driver.send_cardPwd(pwd)
         self.driver.submit_card()
-        assert error_text in self.driver.return_card_pay_error_texts()
+        assert error_text in self.driver.return_card_pay_bank_safe_texts()
 
     @pytest.mark.parametrize('number,name,month,year,pwd,error_text', getExcelAllData('卡片支付银行异常', 'Store/store.xlsx'))
-    @allure.title('pmm购买页面添加支付卡信息银行拒绝测试')
+    @allure.title('pmm购买页面添加支付卡信息银行安全测试')
     def test_017(self, number, name, month, year, pwd, error_text):
         """pmm购买页面添加支付卡信息银行拒绝功能测试"""
         allure.dynamic.tag('填写支付卡信息')
@@ -331,7 +331,7 @@ class TestBody(object):
         assert error_text in self.driver.return_card_pay_error_texts()
 
     @pytest.mark.parametrize('number,name,month,year,pwd,error_text', getExcelAllData('卡片支付银行异常', 'Store/store.xlsx'))
-    @allure.title('video购买页面添加支付卡信息银行拒绝测试')
+    @allure.title('video购买页面添加支付卡信息银行安全测试')
     def test_034(self, number, name, month, year, pwd, error_text):
         """video购买页面添加支付卡信息银行拒绝功能测试"""
         allure.dynamic.tag('填写支付卡信息')
@@ -343,7 +343,7 @@ class TestBody(object):
         self.driver.send_cardYear(year)
         self.driver.send_cardPwd(pwd)
         self.driver.submit_card()
-        assert error_text in self.driver.return_card_pay_BANK_error_text()
+        assert error_text in self.driver.return_card_pay_bank_safe_texts()
 
     @allure.title('video购买页面使用其他支付方式测试')
     def test_035(self):
