@@ -73,7 +73,7 @@ class CleanerPage(WebPage):
     def scroll_to_guide(self):
         """移动到guide栏"""
         allure.step('页面滑动到guide上')
-        self.driver.scroll_top("673")
+        self.scroll_top("673")
 
     @allure.step('页面滑动到container_text上')
     def scroll_to_container_text(self):

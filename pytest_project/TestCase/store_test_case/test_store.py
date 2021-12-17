@@ -128,7 +128,7 @@ class TestBody(object):
     @allure.title('pmm购买页面填写正确优惠码测试')
     def test_013(self, code, discount):
         """pmm购买页面填写正确优惠码功能测试"""
-        allure.dynamic.tag('使用优惠码：{}优惠{}%'.format(code, int(100 * (1-discount))))
+        allure.dynamic.tag('使用优惠码：{}优惠{}%'.format(code, int(100 * (1 - discount))))
         self.driver.pmm_buy_addCoupon_step(code)
         assert self.driver.return_pmm_after_discount_price(discount)
 

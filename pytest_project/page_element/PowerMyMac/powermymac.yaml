@@ -1,7 +1,7 @@
 free-download: 'css=body > div.banner.text-center > div > div.row > div.col-md-6 >div.btn-group>a:nth-child(1)'    #下载ppm按钮
 buy: 'css=body > div.banner.text-center > div > div.row > div.col-md-6 >div.btn-group>a:nth-child(2)'     #订阅会员按钮
-PowerMyMac: 'css=body > div:nth-child(5) > div>a:nth-child(1)'   #产品页
-guide: 'css=body > div:nth-child(5) > div>a:nth-child(2)'     #产品指南页
+PowerMyMac: 'css=div.guideBox>a:nth-child(1)'   #产品页
+guide: 'css=div.guideBox>a:nth-child(2)'     #产品指南页
 article-link:
   find-similar-images: 'css=body > div.container>div.articleLink>a:nth-child(2)'
   delete-cookies: 'css=body > div.container>div.articleLink>a:nth-child(3)'
