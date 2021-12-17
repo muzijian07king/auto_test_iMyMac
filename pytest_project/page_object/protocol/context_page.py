@@ -16,7 +16,7 @@ class ProtocolPage(WebPage):
 
     def if_headline(self, title):
         with allure.step('判断大标题'):
-            return self.element_txet(get_any_key_info('title-h1', policy.data)) == title
+            return self.element_text(get_any_key_info('title-h1', policy.data)) == title
 
     def if_email_in_context(self):
         with allure.step('文章内容判断邮箱链接'):

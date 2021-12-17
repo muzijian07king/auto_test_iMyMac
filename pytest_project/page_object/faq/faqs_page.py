@@ -16,7 +16,7 @@ class FAQSPage(WebPage):
     def is_go_to_faq_right(self, faq_name):
         with allure.step('判断是否进入对应页面'):
             return faq_name.lower() in self.get_current_url() and \
-                   faq_name.replace('-', ' ') in self.element_txet(faqs['faq-title'])
+                   faq_name.replace('-', ' ') in self.element_text(faqs['faq-title'])
 
     @allure.step('展开第二个faq')
     def click_unfold_faq(self):
@@ -49,7 +49,7 @@ class FAQSPage(WebPage):
     def return_succeed_search(self, search):
         """判断搜索结果是否成功"""
         with allure.step('判断是否成功搜索'):
-            return search in self.element_txet(faqs['search-content']).lower() and search == self.element_txet(
+            return search in self.element_text(faqs['search-content']).lower() and search == self.element_text(
                 faqs['search-text'])
 
     def return_fail_search(self):

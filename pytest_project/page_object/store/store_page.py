@@ -132,7 +132,7 @@ class StorePage(WebPage):
 
     def return_region_null_error_text(self):
         with allure.step('判断是否可填写空地区'):
-            return self.element_txet(store['region-error-text']) == '必须填写国家/地区。'
+            return self.element_text(store['region-error-text']) == '必须填写国家/地区。'
 
     @allure.step('点击购买数量下拉框')
     def num_select(self, number):
@@ -145,7 +145,7 @@ class StorePage(WebPage):
 
     def return_email_error_text(self):
         with allure.step('判断错误邮箱信息'):
-            return self.element_txet(store['email-error-text'])
+            return self.element_text(store['email-error-text'])
 
     def is_goto_region_page(self):
         with allure.step('判断是否进入填写地区页面'):
@@ -154,32 +154,32 @@ class StorePage(WebPage):
     def return_pmm_price(self, number):
         """双精度对比价格"""
         with allure.step('判断pmm价格是否正确'):
-            return Decimal(self.element_txet(store['price']).split('$')[1]) == Decimal('9.95') * Decimal(number)
+            return Decimal(self.element_text(store['price']).split('$')[1]) == Decimal('9.95') * Decimal(number)
 
     def return_video_price(self, number):
         """双精度对比价格"""
         with allure.step('判断video价格是否正确'):
-            return Decimal(self.element_txet(store['price']).split('$')[1]) == Decimal('19.95') * Decimal(number)
+            return Decimal(self.element_text(store['price']).split('$')[1]) == Decimal('19.95') * Decimal(number)
 
     def return_customer_email(self):
         with allure.step('判断用户邮箱填写是否成功'):
-            return self.element_txet(store['customer-email'])
+            return self.element_text(store['customer-email'])
 
     def return_product_price(self):
         with allure.step('判断商品价格是否正确'):
-            return self.element_txet(store['product-price']).split('$')[1]
+            return self.element_text(store['product-price']).split('$')[1]
 
     def return_pmm_after_discount_price(self, discount=1):
         """
         断言优惠后的价格,价格要用decimal进行计算
         """
         with allure.step('判断优惠后的价格是否正确'):
-            return Decimal(self.element_txet(store['product-price']).split('$')[1]) == Decimal('9.95') * Decimal(
+            return Decimal(self.element_text(store['product-price']).split('$')[1]) == Decimal('9.95') * Decimal(
                 discount)
 
     def return_video_after_discount_price(self, discount=1):
         with allure.step('判断优惠后价格是否正确'):
-            return Decimal(self.element_txet(store['product-price']).split('$')[1]) == Decimal('19.95') * Decimal(
+            return Decimal(self.element_text(store['product-price']).split('$')[1]) == Decimal('19.95') * Decimal(
                 discount)
 
     def is_cancel_pay(self):
@@ -204,11 +204,11 @@ class StorePage(WebPage):
 
     def return_code_error_text(self):
         with allure.step('判断优惠码错误信息'):
-            return self.element_txet(store['notification'])
+            return self.element_text(store['notification'])
 
     def return_code_null_text(self):
         with allure.step('判断优惠码为空错误信息'):
-            return self.element_txet(store['codeNotification'])
+            return self.element_text(store['codeNotification'])
 
     @allure.step('取消添加优惠码')
     def cancel_coupon(self):
@@ -272,16 +272,16 @@ class StorePage(WebPage):
             return self.find_element(store['load-paypal']) is not None
 
     def is_option(self, handle):
-        return self.element_txet(store['buy-handle']) == handle
+        return self.element_text(store['buy-handle']) == handle
 
     def return_card_pay_error_texts(self):
         with allure.step('判断卡支付错误信息'):
             return self.elements_text(store['card-pay-texts'])
 
-    def return_card_pay_bank_safe_texts(self):
-        with allure.step("判断卡支付银行安全提醒"):
-            return self.element_txet(store['bank-safe'])
+    # def return_card_pay_bank_safe_texts(self):
+    #     with allure.step("判断卡支付银行安全提醒"):
+    #         return self.element_txet(store['bank-safe'])
 
     def return_card_pay_BANK_error_text(self):
         with allure.step('判断卡支付银行拒绝错误信息'):
-            return self.element_txet(store['card-pay-BANK-error'])
+            return self.element_text(store['card-pay-BANK-error'])

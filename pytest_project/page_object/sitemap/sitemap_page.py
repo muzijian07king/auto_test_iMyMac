@@ -18,9 +18,9 @@ class SitemapPage(WebPage):
 
     def if_true_articles(self, title):
         with allure.step('获取文章标题==》{}'.format(title)):
-            return self.element_txet(sitemap['articles-title']) == title or (
-                        len(title.split(' ')) + len(self.element_txet(sitemap['articles-title']))) - \
-                   len(set(title.split(' ') + self.element_txet(sitemap['articles-title']).split(' '))) >= 2
+            return self.element_text(sitemap['articles-title']) == title or (
+                        len(title.split(' ')) + len(self.element_text(sitemap['articles-title']))) - \
+                   len(set(title.split(' ') + self.element_text(sitemap['articles-title']).split(' '))) >= 2
 
     @allure.step('点击Company下的链接')
     def click_company_link(self, key):
@@ -44,7 +44,7 @@ class SitemapPage(WebPage):
 
     def if_articles_title(self, key):
         with allure.step('判断更多按钮是否跳转'):
-            return key == self.element_txet(sitemap['articles-class'])
+            return key == self.element_text(sitemap['articles-class'])
 
     @allure.step('点击第一篇文章')
     def click_first_article(self):

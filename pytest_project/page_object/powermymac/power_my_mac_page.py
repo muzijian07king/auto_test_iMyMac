@@ -49,12 +49,12 @@ class PMMPage(WebPage):
     def is_goto_guide(self):
         """判断跳转页面内容与实际相同"""
         with allure.step('判断跳转手册页面内容与实际相同'):
-            return self.element_txet(pmm['guide-handline']) == 'PowerMyMac User Guide'
+            return self.element_text(pmm['guide-handline']) == 'PowerMyMac User Guide'
 
     def is_cleaner_index(self):
         """判断跳转页面内容与实际相同"""
         with allure.step('判断跳转首页页面内容与实际相同'):
-            return self.element_txet(pmm['cleaner-handline']) == 'PowerMyMac'
+            return self.element_text(pmm['cleaner-handline']) == 'PowerMyMac'
 
     @allure.step('页面滑动到menu上')
     def scroll_to_menu(self):
@@ -69,7 +69,7 @@ class PMMPage(WebPage):
     @allure.step('页面滑动到guide上')
     def scroll_to_guide(self):
         """移动到guide栏"""
-        self.scroll_to_loc(pmm['guide-class'])
+        self.driver.scroll_top("673")
 
     @allure.step('页面滑动到container_text上')
     def scroll_to_container_text(self):

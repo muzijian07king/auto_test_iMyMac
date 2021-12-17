@@ -58,7 +58,7 @@ class BodyPage(WebPage):
     @allure.step('获取内容')
     def get_choose_p(self):
         """获取choose标题内容来判断是否加载成功"""
-        self.element_txet(body['chooseItemBox'])
+        self.element_text(body['chooseItemBox'])
 
     @allure.step('判断轮播图是否滚动')
     def return_carousel_class(self):

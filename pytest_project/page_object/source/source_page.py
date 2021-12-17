@@ -24,8 +24,8 @@ class SourcePage(WebPage):
 
     def return_search_content_succeed(self, search):
         with allure.step('对内容进行检索'):
-            return search in self.element_txet(resource['source-content']).lower() and \
-                   self.element_txet(resource['source-text']) == search
+            return search in self.element_text(resource['source-content']).lower() and \
+                   self.element_text(resource['source-text']) == search
 
     @allure.step('点击左侧的标签')
     def click_topics(self, topics):
@@ -33,7 +33,7 @@ class SourcePage(WebPage):
 
     def return_article_topics(self, topics):
         with allure.step('对标签进行检索'):
-            return self.element_txet(resource['first-article-topics']) == topics
+            return self.element_text(resource['first-article-topics']) == topics
 
     @allure.step('点击文章链接')
     def goto_article(self):
@@ -41,17 +41,17 @@ class SourcePage(WebPage):
 
     def return_article_head_title(self, article_title):
         with allure.step('对文章链接与文章标题检索'):
-            return article_title == self.element_txet(resource['article-title'])
+            return article_title == self.element_text(resource['article-title'])
 
     def click_page(self, button_index: str):
         with allure.step('点击第个{}页码按钮'.format(button_index)):
             self.is_click(get_values_in_name().get_values_in_name(resource.data, button_index)[0])
 
     def return_click_page_before(self):
-        return self.element_txet(resource['article-link'])
+        return self.element_text(resource['article-link'])
 
     def return_click_page_after(self):
-        return self.element_txet(resource['article-link'])
+        return self.element_text(resource['article-link'])
 
     def return_page_li_class(self, page_index: str):
         with allure.step('判断页码是否跳转'):
@@ -72,7 +72,7 @@ class SourcePage(WebPage):
 
     def is_click_article_topics(self):
         with allure.step('判断是否列出标签下所有文章'):
-            return self.element_txet(resource['article-topics']).lower().replace(' ', '-') in self.get_current_url()
+            return self.element_text(resource['article-topics']).lower().replace(' ', '-') in self.get_current_url()
 
     def return_no_search(self):
         return self.find_element(resource['no-result']) is not None

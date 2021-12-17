@@ -28,25 +28,25 @@ class SupportPage(WebPage):
     def is_sales_faq(self):
         """判断是否成功跳转链接"""
         with allure.step('判断是否成功跳转链接'):
-            return (self.get_current_url(), self.element_txet(support['faq-handle'])) == \
+            return (self.get_current_url(), self.element_text(support['faq-handle'])) == \
                    getExcelAllData('主页跳转链接', 'Support/support.xlsx')[0]
 
     def is_product_faq(self):
         """判断是否成功跳转链接"""
         with allure.step('判断是否成功跳转链接'):
-            return (self.get_current_url(), self.element_txet(support['faq-handle'])) == \
+            return (self.get_current_url(), self.element_text(support['faq-handle'])) == \
                    getExcelAllData('主页跳转链接', 'Support/support.xlsx')[1]
 
     def is_registration_code(self):
         """判断是否成功跳转链接"""
         with allure.step('判断是否成功跳转链接'):
-            return (self.get_current_url(), self.element_txet(support['retrieve-handle'])) \
+            return (self.get_current_url(), self.element_text(support['retrieve-handle'])) \
                    == getExcelAllData('主页跳转链接', 'Support/support.xlsx')[2]
 
     def is_refund_policy(self):
         """判断是否成功跳转链接"""
         with allure.step('判断是否成功跳转链接'):
-            return (self.get_current_url(), self.element_txet(support['refund-handle'])) \
+            return (self.get_current_url(), self.element_text(support['refund-handle'])) \
                    == getExcelAllData('主页跳转链接', 'Support/support.xlsx')[3]
 
     @allure.step('展开第二个faq')
@@ -80,7 +80,7 @@ class SupportPage(WebPage):
     def return_succeed_search(self, search):
         """判断搜索结果是否成功"""
         with allure.step('判断搜索结果是否成功'):
-            return search in self.element_txet(support['search-content']).lower() and search == self.element_txet(
+            return search in self.element_text(support['search-content']).lower() and search == self.element_text(
                 support['search'
                         '-text'])
 

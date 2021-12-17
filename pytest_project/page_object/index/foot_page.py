@@ -35,9 +35,9 @@ class FootPage(WebPage):
     @allure.step('获取错误信息')
     def errorText(self):
         """获取错误信息"""
-        return self.element_txet(foot['ErrorText'])
+        return self.element_text(foot['ErrorText'])
 
     @allure.step('获取按钮的text')
     def button_text(self):
         """获取按钮的text"""
-        return self.element_txet(foot['SearchButton'])
+        return self.element_text(foot['SearchButton'])

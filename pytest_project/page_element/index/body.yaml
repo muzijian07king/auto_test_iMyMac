@@ -16,7 +16,7 @@ featureItem:    #功能介绍
   mail: 'link=Email Junk'
   mac-cleaner: 'link=Trash Bins'
   browser-cleanup: 'link=Privacy Protection'
-  video-converter: 'css=body>div:nth-child(5)>div>div:nth-child(5)>div:nth-child(2)>a'
+  video-converter: 'css=div>div:nth-child(5)>div:nth-child(2)>a'
   pdf-compressor: 'link=PDF Compressor'
   user-guide: 'link=More Guides'
 media-left: 'css=#users-media>a:nth-child(2)'    #第二个轮播图左侧按钮

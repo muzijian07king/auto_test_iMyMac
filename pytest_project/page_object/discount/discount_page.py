@@ -8,7 +8,7 @@ discount = Element('Discount/discount')
 class DiscountPage(WebPage):
     def step_if_ture(self, step, context):
         with allure.step('判断步骤文案是否正确'):
-            return self.element_txet(get_any_key_info(step, discount.data)) == context
+            return self.element_text(get_any_key_info(step, discount.data)) == context
 
     @allure.step('点击购买链接')
     def click_store_link(self):
@@ -29,7 +29,7 @@ class DiscountPage(WebPage):
     def submit_feedback(self, feedback):
         self.element_if_display(discount['submit-feedback'])
         with allure.step('判断反馈信息是否正确'):
-            return self.element_txet(discount['submit-feedback']) == feedback
+            return self.element_text(discount['submit-feedback']) == feedback
 
     def if_goto_send_email(self):
         with allure.step('判断是否去写邮件'):

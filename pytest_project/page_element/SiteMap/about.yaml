@@ -1,6 +1,6 @@
 about:
-  PowerMyMac: 'css=body>div:nth-child(5)>div>div>div:nth-child(1)>div>p>a'
-  Mac Cleaner: 'css=body>div:nth-child(5)>div>div>div:nth-child(2)>div>p>a'
-  Video Converter: 'css=body>div:nth-child(5)>div>div>div:nth-child(3)>div>p>a'
-  PDF Compressor: 'css=body>div:nth-child(5)>div>div>div:nth-child(4)>div>p>a'
+  PowerMyMac: 'css=div>div:nth-child(1)>div>p>a'
+  Mac Cleaner: 'css=div>div:nth-child(2)>div>p>a'
+  Video Converter: 'css=div>div:nth-child(3)>div>p>a'
+  PDF Compressor: 'css=div>div:nth-child(4)>div>p>a'
 h1: 'xpath=//h1'

@@ -164,7 +164,7 @@ class TestBody(object):
         self.driver.send_cardYear(year)
         self.driver.send_cardPwd(pwd)
         self.driver.submit_card()
-        assert error_text in self.driver.return_card_pay_bank_safe_texts()
+        assert error_text in self.driver.return_card_pay_error_texts()
 
     @pytest.mark.parametrize('number,name,month,year,pwd,error_text', getExcelAllData('卡片支付银行异常', 'Store/store.xlsx'))
     @allure.title('pmm购买页面添加支付卡信息银行安全测试')
@@ -343,7 +343,7 @@ class TestBody(object):
         self.driver.send_cardYear(year)
         self.driver.send_cardPwd(pwd)
         self.driver.submit_card()
-        assert error_text in self.driver.return_card_pay_bank_safe_texts()
+        assert error_text in self.driver.return_card_pay_BANK_error_text()
 
     @allure.title('video购买页面使用其他支付方式测试')
     def test_035(self):

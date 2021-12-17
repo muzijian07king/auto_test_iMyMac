@@ -49,12 +49,12 @@ class DuplicatePage(WebPage):
     def is_goto_guide(self):
         """判断跳转手册页面内容与实际相同"""
         with allure.step('判断跳转手册页面内容与实际相同'):
-            return self.element_txet(duplicate['guide-handline']) == 'PowerMyMac User Guide'
+            return self.element_text(duplicate['guide-handline']) == 'PowerMyMac User Guide'
 
     def is_cleaner_index(self):
         """判断跳转首页页面内容与实际相同"""
         with allure.step('判断跳转首页页面内容与实际相同'):
-            return self.element_txet(duplicate['cleaner-handline']) == 'PowerMyMac - Duplicate Finder'
+            return self.element_text(duplicate['cleaner-handline']) == 'PowerMyMac - Duplicate Finder'
 
     def scroll_to_menu(self):
         """移动到menu栏"""

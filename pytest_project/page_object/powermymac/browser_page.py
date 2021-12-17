@@ -49,12 +49,12 @@ class CleanupPage(WebPage):
     def is_goto_guide(self):
         """判断跳转手册页面内容与实际相同"""
         with allure.step('判断跳转手册页面内容与实际相同'):
-            return self.element_txet(cleanup['guide-handline']) == 'PowerMyMac User Guide'
+            return self.element_text(cleanup['guide-handline']) == 'PowerMyMac User Guide'
 
     def is_cleaner_index(self):
         """判断跳转首页页面内容与实际相同"""
         with allure.step('判断跳转首页页面内容与实际相同'):
-            return self.element_txet(cleanup['cleaner-handline']) == 'PowerMyMac - Browser Cleanup'
+            return self.element_text(cleanup['cleaner-handline']) == 'PowerMyMac - Browser Cleanup'
 
     @allure.step('页面滑动到menu上')
     def scroll_to_menu(self):

@@ -13,4 +13,4 @@ class AboutPage(WebPage):
 
     def if_product_link(self, product):
         with allure.step('判断产品链接是否正确'):
-            return product in self.element_txet(about['h1'])
+            return product in self.element_text(about['h1'])

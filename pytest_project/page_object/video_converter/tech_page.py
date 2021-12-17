@@ -37,12 +37,12 @@ class TechPage(WebPage):
     def is_index(self):
         """判断是否跳转到主页"""
         with allure.step('判断是否跳转到主页'):
-            return self.find_element(tech['support-body']) is not None and self.element_txet(tech['support-handle']) == \
+            return self.find_element(tech['support-body']) is not None and self.element_text(tech['support-handle']) == \
                    "Supported Elements for Video Converter"
 
     def is_guide(self):
         with allure.step('判断是否跳转到指南页面'):
-            return self.element_txet(tech['guide-handle']) == 'How to Use iMyMac Video Converter'
+            return self.element_text(tech['guide-handle']) == 'How to Use iMyMac Video Converter'
 
     @allure.step('点击文章链接')
     def click_article(self, article_name):
@@ -54,4 +54,4 @@ class TechPage(WebPage):
 
     def is_article(self, article_name):
         with allure.step('判断是否跳转到文章'):
-            return article_name.replace('-', ' ') in self.element_txet(tech['article-handle']).lower()
+            return article_name.replace('-', ' ') in self.element_text(tech['article-handle']).lower()

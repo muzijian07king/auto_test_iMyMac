@@ -90,7 +90,7 @@ class WebPage(object):
         log.info('点击元素：{}'.format(loc))
         sleep(2)
 
-    def element_txet(self, loc):
+    def element_text(self, loc):
         """获取当前的text属性"""
         _text = self.find_element(loc).text
         log.info('获取到文本：{}'.format(_text))
@@ -154,6 +154,12 @@ class WebPage(object):
         sleep()
         self.driver.execute_script(js)
 
+    def scroll_top(self, top):
+        """页面下滑距顶部top大小"""
+        log.info(f'页面下滑距顶部{top}')
+        self.driver.execute_script(f"document.documentElement.scrollTop={top}")
+        sleep()
+
     def scroll_to_loc(self, loc):
         """下拉滑动到某个元素上"""
         log.info("页面滚到元素{}".format(loc))
@@ -164,7 +170,7 @@ class WebPage(object):
         sleep(2)
 
     def scroll_to_loc_is_click(self, loc):
-        """下拉滑动到某个元素上"""
+        """下拉滑动到某个元素上点击"""
         log.info("页面滚到元素{}".format(loc))
         div = self.find_element(loc)
         self.driver.execute_script('arguments[0].scrollIntoView()', div)

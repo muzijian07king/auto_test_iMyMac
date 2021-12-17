@@ -51,7 +51,7 @@ class VideoPage(WebPage):
             return self.is_goto_buy()
 
     def return_conversion_handle(self):
-        return self.element_txet(video['conversion-handle']) == 'Video Conversion'
+        return self.element_text(video['conversion-handle']) == 'Video Conversion'
 
     @allure.step('页面滑动到menu上')
     def scroll_to_menu(self):
@@ -91,12 +91,12 @@ class VideoPage(WebPage):
 
     def return_container_enhancement_handle(self):
         """获取标题"""
-        return self.element_txet(video['container-handle']) == 'Video Enhancement'
+        return self.element_text(video['container-handle']) == 'Video Enhancement'
 
     def is_goto_article(self, article_name):
         """判断是否跳转文章页面"""
         return self.find_element(video['article-body']) is not None and article_name.replace('-', ' ') in \
-               self.element_txet(video['article-handle']).lower()
+               self.element_text(video['article-handle']).lower()
 
     @allure.step('页面滑动到conversion上')
     def scroll_to_conversion(self):

@@ -37,11 +37,11 @@ class GuidePage(WebPage):
     def is_index(self):
         """判断是否跳转到主页判断联系邮箱是否正确"""
         with allure.step('判断是否跳转到主页判断联系邮箱是否正确'):
-            return self.element_txet(guide['index-handle']) == "iMyMac Video Converter"
+            return self.element_text(guide['index-handle']) == "iMyMac Video Converter"
 
     def is_guide(self):
         with allure.step('判断是否成功跳转页面'):
-            return self.element_txet(guide['guide-handle']) == 'How to Use iMyMac Video Converter'
+            return self.element_text(guide['guide-handle']) == 'How to Use iMyMac Video Converter'
 
     @allure.step('点击文章链接')
     def click_article(self, article_name):
@@ -53,4 +53,4 @@ class GuidePage(WebPage):
 
     def is_article(self, article_name):
         with allure.step('判断是否跳转到文章'):
-            return article_name.replace('-', ' ') in self.element_txet(guide['article-handle']).lower()
+            return article_name.replace('-', ' ') in self.element_text(guide['article-handle']).lower()
