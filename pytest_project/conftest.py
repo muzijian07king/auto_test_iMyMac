@@ -16,8 +16,9 @@ def drivers():
     option.add_argument('--headless')  # 无头显示
     option.add_argument('--window-size=1920,1080')
     option.add_argument('--no-sandbox')  # 设置浏览器大小
-    option.add_argument('--proxy-server=127.0.0.1:7890')  #设置代理
-    option.add_experimental_option('excludeSwitches', ['enable-automation'])
+    option.add_argument('--proxy-server=127.0.0.1:7890')  # 设置代理
+    prefs = {'download.default_directory': cm.download_dir, 'excludeSwitches': ['enable-automation']}  # 设置下载路径
+    option.add_experimental_option('prefs', prefs)
     option.add_argument('ignore-certificate-errors')
     global driver
     if driver is None:
