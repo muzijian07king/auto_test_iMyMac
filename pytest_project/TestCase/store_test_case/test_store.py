@@ -116,8 +116,9 @@ class TestBody(object):
         self.driver.pmm_buy_addCoupon_step(code)
         assert self.driver.return_code_error_text() == error_text
 
-    @pytest.mark.parametrize('code, error_text', getExcelByRow('优惠码错误', 3, 1, 'Store/store.xlsx'))
-    @allure.title('pmm购买页面填写空优惠码测试')
+    # @pytest.mark.parametrize('code, error_text', getExcelByRow('优惠码错误', 3, 1, 'Store/store.xlsx'))
+    @pytest.mark.skip("未找到过期优惠码")
+    @allure.title('pmm购买页面填写过期优惠码测试')
     def test_012(self, code, error_text):
         """pmm购买页面填写空优惠码功能测试"""
         allure.dynamic.tag('优惠码==》{}'.format(code))
@@ -281,8 +282,9 @@ class TestBody(object):
         self.driver.video_buy_addCoupon_step(code)
         assert self.driver.return_code_error_text() == error_text
 
-    @pytest.mark.parametrize('code, error_text', getExcelByRow('优惠码错误', 3, 1, 'Store/store.xlsx'))
+    # @pytest.mark.parametrize('code, error_text', getExcelByRow('优惠码错误', 3, 1, 'Store/store.xlsx'))
     @allure.title('video购买页面填写空优惠码测试')
+    @pytest.mark.skip("未找到过期优惠码")
     def test_029(self, code, error_text):
         """video购买页面填写空优惠码功能测试"""
         allure.dynamic.tag('优惠码==》{}'.format(code))

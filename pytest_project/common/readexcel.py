@@ -48,7 +48,7 @@ def getExcelByRow(name, row_first, row_num, file_name):
         try:
             data.append(tuple(sheet.row_values(row, 0, sheet.ncols)))
         except IndexError:
-            raise IndexError('请检查xlrd文件==》{}下第{}行没有数据'.format(get_excel_data_file_name(file_name), row + row_first - 1))
+            raise IndexError('请检查xlrd文件==》{}下工作表{}第{}行没有数据'.format(get_excel_data_file_name(file_name), name, row + row_first - 1))
     return data
 
 
@@ -70,7 +70,7 @@ def getExcelOneCol(name, col_index, file_name):
             data.append(sheet.cell_value(row, col_index - 1))
         return data
     else:
-        raise IndexError('请检查xlrd文件==》{}下第{}列没有数据'.format(get_excel_data_file_name(file_name), col_index))
+        raise IndexError('请检查xlrd文件==》{}下下工作表{}第{}列没有数据'.format(get_excel_data_file_name(file_name), name, col_index))
 
 
 def getSheetNames(file_name):
