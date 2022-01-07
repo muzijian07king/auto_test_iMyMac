@@ -204,7 +204,7 @@ class StorePage(WebPage):
 
     def return_code_error_text(self):
         with allure.step('判断优惠码错误信息'):
-            return self.element_text(store['notification'])
+            return self.element_text(store['codeNotification'])
 
     def return_code_null_text(self):
         with allure.step('判断优惠码为空错误信息'):
