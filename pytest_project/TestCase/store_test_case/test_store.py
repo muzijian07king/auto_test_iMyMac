@@ -108,7 +108,7 @@ class TestBody(object):
         self.driver.click_update_email()
         assert self.driver.is_again_send_email()
 
-    @pytest.mark.parametrize('code, error_text', getExcelByRow('优惠码错误', 1, 2, 'Store/store.xlsx'))
+    @pytest.mark.parametrize('code, error_text', getExcelByRow('优惠码错误', 1, 1, 'Store/store.xlsx'))
     @allure.title('pmm购买页面填写错误优惠码测试')
     def test_011(self, code, error_text):
         """pmm购买页面填写错误优惠码功能测试"""
@@ -116,10 +116,18 @@ class TestBody(object):
         self.driver.pmm_buy_addCoupon_step(code)
         assert self.driver.return_code_error_text() == error_text
 
+    @pytest.mark.parametrize('code, error_text', getExcelByRow('优惠码错误', 2, 1, 'Store/store.xlsx'))
+    @allure.title('pmm购买页面填写空优惠码测试')
+    def test_012(self, code, error_text):
+        """pmm购买页面填写空优惠码测试"""
+        allure.dynamic.tag('优惠码==》{}'.format(code))
+        self.driver.pmm_buy_addCoupon_step(code)
+        assert self.driver.return_code_null_text() == error_text
+
     # @pytest.mark.parametrize('code, error_text', getExcelByRow('优惠码错误', 3, 1, 'Store/store.xlsx'))
     @pytest.mark.skip("未找到过期优惠码")
     @allure.title('pmm购买页面填写过期优惠码测试')
-    def test_012(self, code, error_text):
+    def test_013(self, code, error_text):
         """pmm购买页面填写空优惠码功能测试"""
         allure.dynamic.tag('优惠码==》{}'.format(code))
         self.driver.pmm_buy_addCoupon_step(code)
@@ -127,7 +135,7 @@ class TestBody(object):
 
     @pytest.mark.parametrize('code, discount', getExcelAllData('优惠码正确', 'Store/store.xlsx'))
     @allure.title('pmm购买页面填写正确优惠码测试')
-    def test_013(self, code, discount):
+    def test_014(self, code, discount):
         """pmm购买页面填写正确优惠码功能测试"""
         allure.dynamic.tag('使用优惠码：{}优惠{}%'.format(code, int(100 * (1 - discount))))
         self.driver.pmm_buy_addCoupon_step(code)
@@ -135,7 +143,7 @@ class TestBody(object):
 
     @pytest.mark.parametrize('code', getExcelOneCol('优惠码正确', 1, 'Store/store.xlsx'))
     @allure.title('pmm购买页面移除优惠码测试')
-    def test_014(self, code):
+    def test_015(self, code):
         """pmm购买页面移除优惠码功能测试"""
         allure.dynamic.tag('移除优惠码')
         self.driver.pmm_buy_addCoupon_step(code)
@@ -143,7 +151,7 @@ class TestBody(object):
         assert self.driver.return_pmm_after_discount_price()
 
     @allure.title('pmm购买页面取消添加优惠码测试')
-    def test_015(self):
+    def test_016(self):
         """pmm购买页面取消添加优惠码功能测试"""
         allure.dynamic.tag('取消添加优惠码')
         self.driver.pmm_buy_three_step()
@@ -154,7 +162,7 @@ class TestBody(object):
     @pytest.mark.parametrize('number,name,month,year,pwd,error_text', getExcelAllData('卡片支付', 'Store/store.xlsx'))
     @allure.title('pmm购买页面添加支付卡信息错误测试')
     @allure.severity('critical')
-    def test_016(self, number, name, month, year, pwd, error_text):
+    def test_017(self, number, name, month, year, pwd, error_text):
         """pmm购买页面添加支付卡信息错误功能测试"""
         allure.dynamic.tag('填写支付卡信息')
         self.driver.pmm_buy_three_step()
@@ -169,7 +177,7 @@ class TestBody(object):
 
     @pytest.mark.parametrize('number,name,month,year,pwd,error_text', getExcelAllData('卡片支付银行异常', 'Store/store.xlsx'))
     @allure.title('pmm购买页面添加支付卡信息银行安全测试')
-    def test_017(self, number, name, month, year, pwd, error_text):
+    def test_018(self, number, name, month, year, pwd, error_text):
         """pmm购买页面添加支付卡信息银行拒绝功能测试"""
         allure.dynamic.tag('填写支付卡信息')
         self.driver.pmm_buy_three_step()
@@ -183,7 +191,7 @@ class TestBody(object):
         assert error_text in self.driver.return_card_pay_BANK_error_text()
 
     @allure.title('pmm购买页面使用其他支付方式测试')
-    def test_018(self):
+    def test_019(self):
         """pmm购买页面使用其他支付方式功能测试"""
         allure.dynamic.tag('取消原支付方式')
         self.driver.pmm_buy_three_step()
@@ -192,7 +200,7 @@ class TestBody(object):
         assert self.driver.is_cancel_pay()
 
     @allure.title('pmm购买页面使用paypal支付测试')
-    def test_019(self):
+    def test_020(self):
         """pmm购买页面使用paypal支付功能测试"""
         allure.dynamic.tag('paypal支付方式')
         self.driver.pmm_buy_three_step()
@@ -200,7 +208,7 @@ class TestBody(object):
         assert self.driver.is_goto_paypal()
 
     @allure.title('pmm购买页面取消paypal支付方式测试')
-    def test_020(self):
+    def test_021(self):
         """pmm购买页面取消paypal支付方式功能测试"""
         allure.dynamic.tag('取消paypal支付')
         self.driver.pmm_buy_three_step()
@@ -210,7 +218,7 @@ class TestBody(object):
 
     @pytest.mark.parametrize('email_data, error_text', getExcelAllData('邮箱错误', 'Store/store.xlsx'))
     @allure.title('video购买页面填写错误格式邮箱测试')
-    def test_021(self, email_data, error_text):
+    def test_022(self, email_data, error_text):
         """video购买页面填写错误格式邮箱功能测试"""
         allure.dynamic.tag('邮箱为==》{}'.format(email_data))
         self.driver.video_buy_first_step()
@@ -222,7 +230,7 @@ class TestBody(object):
 
     @pytest.mark.parametrize('email_data', getExcelOneCol('邮箱正确', 1, 'Store/store.xlsx'))
     @allure.title('video购买页面填写正确格式邮箱测试')
-    def test_022(self, email_data):
+    def test_023(self, email_data):
         """video购买页面填写正确格式邮箱功能测试"""
         allure.dynamic.tag('邮箱为==》{}'.format(email_data))
         self.driver.video_buy_first_step()
@@ -232,7 +240,7 @@ class TestBody(object):
 
     @pytest.mark.parametrize('number', ['1', '2', '3', '5', '10', '25'])
     @allure.title('video购买页面填写购买数量测试')
-    def test_023(self, number):
+    def test_024(self, number):
         """video购买页面填写购买数量功能测试"""
         allure.dynamic.tag('购买数量为==》{}'.format(number))
         self.driver.video_buy_first_step()
@@ -241,7 +249,7 @@ class TestBody(object):
 
     @pytest.mark.parametrize('lg, language', getExcelAllData('语言简写', 'Store/store.xlsx'))
     @allure.title('video购买页面填写地区测试')
-    def test_024(self, lg, language):
+    def test_025(self, lg, language):
         """video购买页面填写地区功能测试"""
         allure.dynamic.tag('地区选择==》{}'.format(language))
         self.driver.video_buy_two_step()
@@ -250,7 +258,7 @@ class TestBody(object):
 
     @pytest.mark.skip('设计已修改地区禁止填写为空')
     @allure.title('video购买页面未填写地区测试')
-    def test_025(self):
+    def test_026(self):
         """video购买页面未填写地区功能测试"""
         allure.dynamic.tag('地区为空提交')
         self.driver.video_buy_two_step()
@@ -260,32 +268,40 @@ class TestBody(object):
         assert self.driver.return_region_null_error_text()
 
     @allure.title('video购买页面提交地区测试')
-    def test_026(self):
+    def test_027(self):
         """video购买页面提交地区功能测试"""
         allure.dynamic.tag('进入第四步')
         self.driver.video_buy_three_step()
         assert self.driver.return_product_price() is not None
 
     @allure.title('video购买页面重新填写邮箱测试')
-    def test_027(self):
+    def test_028(self):
         """video购买页面重新填写邮箱功能测试"""
         allure.dynamic.tag('更改邮箱')
         self.driver.video_buy_two_step()
         self.driver.click_update_email()
         assert self.driver.is_again_send_email()
 
-    @pytest.mark.parametrize('code, error_text', getExcelByRow('优惠码错误', 1, 2, 'Store/store.xlsx'))
+    @pytest.mark.parametrize('code, error_text', getExcelByRow('优惠码错误', 1, 1, 'Store/store.xlsx'))
     @allure.title('video购买页面填写错误优惠码测试')
-    def test_028(self, code, error_text):
+    def test_029(self, code, error_text):
         """video购买页面填写错误优惠码功能测试"""
         allure.dynamic.tag('优惠码==》{}'.format(code))
         self.driver.video_buy_addCoupon_step(code)
         assert self.driver.return_code_error_text() == error_text
 
+    @pytest.mark.parametrize('code, error_text', getExcelByRow('优惠码错误', 2, 1, 'Store/store.xlsx'))
+    @allure.title('video购买页面填写空优惠码功能测试')
+    def test_029(self, code, error_text):
+        """video购买页面填写空优惠码功能测试"""
+        allure.dynamic.tag('优惠码==》{}'.format(code))
+        self.driver.video_buy_addCoupon_step(code)
+        assert self.driver.return_code_null_text() == error_text
+
     # @pytest.mark.parametrize('code, error_text', getExcelByRow('优惠码错误', 3, 1, 'Store/store.xlsx'))
     @allure.title('video购买页面填写空优惠码测试')
     @pytest.mark.skip("未找到过期优惠码")
-    def test_029(self, code, error_text):
+    def test_030(self, code, error_text):
         """video购买页面填写空优惠码功能测试"""
         allure.dynamic.tag('优惠码==》{}'.format(code))
         self.driver.video_buy_addCoupon_step(code)
@@ -372,3 +388,5 @@ class TestBody(object):
         self.driver.paypal_to_pay()
         self.driver.cancel_paypal_pay()
         assert self.driver.is_cancel_pay()
+
+

@@ -28,7 +28,7 @@ def drivers():
 
 
 @pytest.hookimpl(hookwrapper=True)
-def pytest_runtest_makereport(item, call):
+def pytest_runtest_makereport():
     '''
     当测试失败的时候自动截图，展示到allure报告中
     :param item:测试用例
@@ -36,7 +36,6 @@ def pytest_runtest_makereport(item, call):
     '''
     outcome = yield
     report = outcome.get_result()
-    report.description = str(item.function.__doc__)
     """判断失败用例"""
     if report.when == 'call' and report.failed:
         if hasattr(driver, "get_screenshot_as_png"):
@@ -61,7 +60,7 @@ def pytest_terminal_summary(terminalreporter, exitstatus, config):
 def pytest_collection_modifyitems(
         session: "Session", config: "Config", items: list["Item"]
 ) -> None:
-    # item表示每个测试用例，解决用例名称中文显示问题
+    # item表示每个测试用例，解决日志用例名称中文显示问题
     for item in items:
         item.name = item.name.encode("utf-8").decode("unicode-escape")
         item._nodeid = item._nodeid.encode("utf-8").decode("unicode-escape")

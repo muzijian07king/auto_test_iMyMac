@@ -100,8 +100,5 @@ def getValueByIndex(x, y, sheet_name, file_name):
 
 
 if __name__ == '__main__':
-    # print(getExcelAllData(name='邮箱错误'))
-    # print(getExcelByRow('优惠码错误', 1, 3))
-    # print(getExcelOneCol('搜索文章', 1, 'Support/support.xlsx'))
-    # print(getSheetNames('Protocol/protocol.xlsx').remove('refund'))
-    print(get_excel_data_file_name('Protocol/protocol.xlsx'))
+    a = getExcelByRow('优惠码错误', 2, 1, 'Store/store.xlsx')
+    print(a)
