@@ -16,32 +16,34 @@ class GuidePage(WebPage):
     def goto_buy(self):
         self.is_click(guide['buy'])
 
-    @allure.step('进入tech页面')
-    def goto_index(self):
-        self.is_click(guide['index'])
+    @allure.step('切换win指南')
+    def cut_win_guide(self):
+        self.is_click(guide['win-guide'])
 
-    @allure.step('下载进入技巧界面')
-    def goto_guide(self):
-        self.is_click(guide['guide'])
+    @allure.step('切换mac指南')
+    def cut_mac_guide(self):
+        self.is_click(guide['mac-guide'])
 
     @staticmethod
     def is_download():
         """判断下载是否成功"""
-        return cm.get_download_filename() == 'crdownload' or cm.get_download_filename() == 'pkg'
+        return cm.get_download_filename() == 'crdownload' or cm.get_download_filename() == 'pkg' or cm. \
+            get_download_filename() == 'pkg'
 
     def is_buy(self):
         """判断跳转购买页面内容与实际相同"""
         with allure.step('判断跳转购买页面内容与实际相同'):
             return self.find_element(guide['buy-class']) is not None
 
-    def is_index(self):
-        """判断是否跳转到主页判断联系邮箱是否正确"""
-        with allure.step('判断是否跳转到主页判断联系邮箱是否正确'):
-            return self.element_text(guide['index-handle']) == "iMyMac Video Converter"
+    def is_win_guide(self):
+        """判断是否跳转到win指南"""
+        with allure.step('判断是否跳转到win指南'):
+            return self.element_text(guide['guide-header']) == "How to Use iMyMac Video Converter on Windows"
 
-    def is_guide(self):
-        with allure.step('判断是否成功跳转页面'):
-            return self.element_text(guide['guide-handle']) == 'How to Use iMyMac Video Converter'
+    def is_mac_guide(self):
+        """判断是否跳转到mac指南"""
+        with allure.step('判断是否跳转到mac指南'):
+            return self.element_text(guide['guide-header']) == "How to Use iMyMac Video Converter on Mac"
 
     @allure.step('点击文章链接')
     def click_article(self, article_name):

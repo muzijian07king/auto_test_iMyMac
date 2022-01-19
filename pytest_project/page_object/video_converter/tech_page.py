@@ -27,7 +27,8 @@ class TechPage(WebPage):
     @staticmethod
     def is_download():
         """判断下载是否成功"""
-        return cm.get_download_filename() == 'crdownload' or cm.get_download_filename() == 'pkg'
+        return cm.get_download_filename() == 'crdownload' or cm.get_download_filename() == 'pkg' or cm.\
+            get_download_filename() == 'pkg'
 
     def is_buy(self):
         """判断跳转购买页面内容与实际相同"""
@@ -42,7 +43,7 @@ class TechPage(WebPage):
 
     def is_guide(self):
         with allure.step('判断是否跳转到指南页面'):
-            return self.element_text(tech['guide-handle']) == 'How to Use iMyMac Video Converter'
+            return self.element_text(tech['guide-button'])
 
     @allure.step('点击文章链接')
     def click_article(self, article_name):

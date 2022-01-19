@@ -19,7 +19,8 @@ class VideoPage(WebPage):
     @staticmethod
     def is_download():
         """判断下载是否成功"""
-        return cm.get_download_filename() == 'crdownload' or cm.get_download_filename() == 'pkg'
+        return cm.get_download_filename() == 'crdownload' or cm.get_download_filename() == 'pkg' or cm.\
+            get_download_filename() == 'exe'
 
     def is_goto_buy(self):
         """判断跳转购买页面内容与实际相同"""

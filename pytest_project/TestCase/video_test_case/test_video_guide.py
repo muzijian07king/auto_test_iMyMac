@@ -32,20 +32,19 @@ class TestBody(object):
         self.driver.goto_buy()
         assert self.driver.is_buy()
 
-    @allure.severity('normal')
-    @allure.title('去index页面测试')
+    @allure.title('切换win指南测试')
     def test_003(self):
         """去index页面功能测试"""
-        allure.dynamic.tag('index页面')
-        self.driver.goto_index()
-        assert self.driver.is_index()
+        allure.dynamic.tag('win指南')
+        self.driver.cut_win_guide()
+        assert self.driver.is_win_guide()
 
-    @allure.title('去guide页面测试')
+    @allure.title('切换mac指南测试')
     def test_004(self):
         """去guide页面功能测试"""
-        allure.dynamic.tag('guide页面')
-        self.driver.goto_guide()
-        assert self.driver.is_guide()
+        allure.dynamic.tag('mac指南')
+        self.driver.cut_mac_guide()
+        assert self.driver.is_mac_guide()
 
     @allure.title('文章链接测试')
     @pytest.mark.parametrize('video_guide_article_name', get_branch_all_keys().get_branch_all_keys(guide.data, 'article-link'))
