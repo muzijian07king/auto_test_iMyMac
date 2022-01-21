@@ -97,3 +97,19 @@ class TestBody(object):
         self.driver.goto_pmm_option()
         self.driver.click_pmm_lifetime_license_single()
         assert self.driver.is_buy_single()
+
+    @allure.title('切换win端购买video-converter测试')
+    def test_011(self):
+        """切换win端购买video-converter功能"""
+        allure.dynamic.tag('切换win端')
+        self.driver.goto_video_option()
+        self.driver.cut_win_video_converter()
+        assert self.driver.is_cut_win_buy_video_converter()
+
+    @allure.title('切换mac端购买video-converter测试')
+    def test_012(self):
+        """切换mac端购买video-converter功能"""
+        allure.dynamic.tag('切换mac端')
+        self.driver.goto_video_option()
+        self.driver.cut_mac_video_converter()
+        assert self.driver.is_cut_mac_buy_video_converter()

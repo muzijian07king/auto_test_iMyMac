@@ -6,7 +6,8 @@ support-handle: 'css=body > div> div.w780.vc-guide > h1'     #支持标题
 article-class: 'css=body > div>div.w780>div.tipsBox'      #文章class
 win-guide: 'css=div.guideBox>a:nth-child(2)'   #win指南
 mac-guide: 'css=div.guideBox>a:nth-child(1)'   #mac指南
-guide-header: 'css=div.container>div.w780.macContent>h1'
+mac-header: 'css=div.container>div.w780.macContent>h1'
+win-header: 'css=div.container>div.w780:nth-child(3)>h1'
 #文章链接
 article-link:
   convert-m4a-to-mp3: 'css=body > div>div.w780>div.tipsBox>a:nth-child(2)'

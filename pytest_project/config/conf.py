@@ -1,13 +1,12 @@
 import os, sys
 from selenium.webdriver.common.by import By
-
 import datetime
 
 
 class ConfigManager(object):
-    '''
+    """
     固定参数
-    '''
+    """
 
     # pytest_project绝对路径
     BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -87,5 +86,3 @@ class ConfigManager(object):
 
 
 cm = ConfigManager()
-if __name__ == '__main__':
-    print(cm.log_file.split(os.sep)[-1])

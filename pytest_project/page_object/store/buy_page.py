@@ -46,6 +46,26 @@ class BuyPage(WebPage):
         self.is_click(buy['pmm-family-license'])
         self.is_click(buy['pmm-single-license'])
 
+    @allure.step('切换win端video converter购买页面')
+    def cut_win_video_converter(self):
+        self.is_click(buy['video-win-buy'])
+
+    @allure.step('切换mac端video converter购买页面')
+    def cut_mac_video_converter(self):
+        self.is_click(buy['video-mac-buy'])
+
+    def is_cut_win_buy_video_converter(self):
+        """判断是否切换win端购买video-converter页面"""
+        with allure.step('判断是否切换win端购买video-converter页面'):
+            return 'win' in self.getAttribute(buy['system-ui'], 'class') and \
+                    'active' in self.getAttribute(buy['video-win-buy'], 'class')
+
+    def is_cut_mac_buy_video_converter(self):
+        """判断是否切换mac端购买video-converter页面"""
+        with allure.step('判断是否切换mac端购买video-converter页面'):
+            return 'apple' in self.getAttribute(buy['system-ui'], 'class') and \
+                    'active' in self.getAttribute(buy['video-mac-buy'], 'class')
+
     def is_buy_family(self):
         """判断是否切换购买家庭永久套餐成功"""
         with allure.step('判断是否切换购买家庭永久套餐成功'):

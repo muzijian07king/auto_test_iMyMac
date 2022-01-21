@@ -28,7 +28,7 @@ class GuidePage(WebPage):
     def is_download():
         """判断下载是否成功"""
         return cm.get_download_filename() == 'crdownload' or cm.get_download_filename() == 'pkg' or cm. \
-            get_download_filename() == 'pkg'
+            get_download_filename() == 'exe'
 
     def is_buy(self):
         """判断跳转购买页面内容与实际相同"""
@@ -38,12 +38,12 @@ class GuidePage(WebPage):
     def is_win_guide(self):
         """判断是否跳转到win指南"""
         with allure.step('判断是否跳转到win指南'):
-            return self.element_text(guide['guide-header']) == "How to Use iMyMac Video Converter on Windows"
+            return self.element_text(guide['win-header']) == "How to Use iMyMac Video Converter on Windows"
 
     def is_mac_guide(self):
         """判断是否跳转到mac指南"""
         with allure.step('判断是否跳转到mac指南'):
-            return self.element_text(guide['guide-header']) == "How to Use iMyMac Video Converter on Mac"
+            return self.element_text(guide['mac-header']) == "How to Use iMyMac Video Converter on Mac"
 
     @allure.step('点击文章链接')
     def click_article(self, article_name):
