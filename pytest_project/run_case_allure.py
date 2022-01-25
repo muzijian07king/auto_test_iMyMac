@@ -9,7 +9,7 @@ DOWNLOAD = True
 def main():
     """主函数"""
     steps = [
-        "pytest TestCase\\store_test_case\\test_buy_option.py --alluredir  report\\data --clean-alluredir" if WIN else 'pytest  --alluredir report/data '
+        "pytest --alluredir  report\\data --clean-alluredir" if WIN else 'pytest  --alluredir report/data '
                                                                          '--clean-alluredir',
         "copy utils\\environment.properties report\\data\\environment.properties" if WIN else 'cp utils/environment'
                                                                                               '.properties '
