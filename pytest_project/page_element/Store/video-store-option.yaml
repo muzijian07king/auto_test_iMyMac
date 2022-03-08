@@ -1,0 +1,43 @@
+month:
+  original-price: 'css=div.license-main>div:nth-child(1)>div>div>p:nth-child(1)>span:nth-child(2)'   #原价
+  now-price: 'css=div.license-main>div:nth-child(1)>div>div>p:nth-child(1)>span:nth-child(1)'       #现价
+  discounts-price: 'css=div.license-main>div:nth-child(1)>div>div>p:nth-child(2)>span:nth-child(2)'     #优惠金额
+  buy: 'css=div.license-main>div:nth-child(1)>div>div>a'              #购买按钮
+  iframe:
+    win: 'pf_714732'                                     #弹窗id
+    mac: 'pf_666252'
+year:
+  original-price: 'css=div.license-main>div:nth-child(2)>div>div>p:nth-child(1)>span:nth-child(2)'
+  now-price: 'css=div.license-main>div:nth-child(2)>div>div>p:nth-child(1)>span:nth-child(1)'
+  discounts-price: 'css=div.license-main>div:nth-child(2)>div>div>p:nth-child(2)>span:nth-child(2)'
+  buy: 'css=div.license-main>div:nth-child(2)>div>div>a'
+  iframe:
+    win: 'pf_714736'
+    mac: 'pf_588082'
+lifetime-license:
+  one:
+    option: 'css=div.license-main>div:nth-child(3)>div>div:nth-child(2)>p:nth-child(1)'
+    original-price: 'css=div.license-main>div:nth-child(3)>div>div:nth-child(3)>p:nth-child(1)>span:nth-child(2)'
+    now-price: 'css=div.license-main>div:nth-child(3)>div>div:nth-child(3)>p:nth-child(1)>span:nth-child(1)'
+    discounts-price: 'css=div.license-main>div:nth-child(3)>div>div:nth-child(3)>p:nth-child(2)>span:nth-child(2)'
+    buy: 'css=div.license-main>div:nth-child(3)>div>div:nth-child(3)>a'
+    iframe:
+      win: 'pf_714708'
+      mac: 'pf_588079'
+  five:
+    option: 'css=div.license-main>div:nth-child(3)>div>div:nth-child(2)>p:nth-child(2)'
+    original-price: 'css=div.license-main>div:nth-child(3)>div>div:nth-child(4)>p:nth-child(1)>span:nth-child(2)'
+    now-price: 'css=div.license-main>div:nth-child(3)>div>div:nth-child(4)>p:nth-child(1)>span:nth-child(1)'
+    discounts-price: 'css=div.license-main>div:nth-child(3)>div>div:nth-child(4)>p:nth-child(2)>span:nth-child(2)'
+    buy: 'css=div.license-main>div:nth-child(3)>div>div:nth-child(4)>a'
+    iframe:
+      win: 'pf_751639'
+      mac: 'pf_588081'
+item-button: 'css=div.faqs-item>div>div:nth-child(2)'             #折叠faq按钮
+item-desc: 'css=div.faqs-item>div:nth-child(2)'                   #faq内容div
+pay-title: 'css=#root>div>div>div>div>div:nth-child(3)>div>span:nth-child(2)'  #购买弹窗套餐名
+pay-price: 'css=#root>div>div>div>div:nth-child(2)>div>div>form>div:nth-child(3)>div>div>span:nth-child(2)>span>var' #价格
+mac: 'css=div.version-select>span:nth-child(1)'
+win: 'css=div.version-select>span:nth-child(2)'
+month-desc: 'css=div.license-main>div:nth-child(1)>div>p:nth-child(2)'
+year-desc: 'css=div.license-main>div:nth-child(2)>div>p:nth-child(2)'

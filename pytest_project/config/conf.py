@@ -18,10 +18,14 @@ class ConfigManager(object):
     ELEMENT_DIR = os.path.join(BASE_DIR, 'page_element')
 
     # 报告文件文件夹路径
-    REPORT_DIR = os.path.join(BASE_DIR, 'report' + os.sep + 'pytest_html')
+    REPORT_DIR = os.path.join(BASE_DIR, 'report')
+    REPORT_COMPRESS_FILE = os.path.join(REPORT_DIR, 'report.zip')
 
     # 浏览器下载文件默认地址
     download_dir = os.path.join(BASE_DIR, 'download-dir')
+
+    # 非图片文件
+    not_image = os.path.join(BASE_DIR, 'pytest.ini')
 
     # 最新报告文件路径方法
     def get_report_file(self):
@@ -59,6 +63,8 @@ class ConfigManager(object):
     ADDRESSEE = [
         'muzijian07king@163.com', '1325282680@qq.com'
     ]
+
+    Photo = os.path.join(BASE_DIR, 'photo.png')
 
     # 日志文件
     @property

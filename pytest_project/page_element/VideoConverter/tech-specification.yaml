@@ -1,0 +1,2 @@
+download: 'css=div.btn-group>a:nth-child(1)'
+buy: 'css=div.btn-group>a:nth-child(2)'

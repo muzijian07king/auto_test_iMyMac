@@ -1,3 +1,3 @@
-free-download:
-  handle: 'css=body>div>div>div>div>p>a'
-  foot: 'css=body>div.pdfFooter>div>div.text-center>a'
+download:
+  handle: 'css=section.topper>div.btn-group>a'
+  foot: 'css=div.container>section:nth-child(5)>div>a'

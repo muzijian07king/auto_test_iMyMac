@@ -1,108 +1,87 @@
-import logging
-
 import allure
-
 from pytest_project.page.basepage import WebPage
 from pytest_project.common.readelement import Element
 from pytest_project.config.conf import cm
-from pytest_project.utils.times import sleep
 
-cleanup = Element('PowerMyMac/common')
+browser = Element('PowerMyMac/common')
 
 
-class CleanupPage(WebPage):
-    @allure.step('点击下载链接')
-    def download_mac_cleaner(self, loc):
+class BrowserPage(WebPage):
+    @allure.step('点击container栏的下载按钮')
+    def download_container_ppm(self):
         """点击下载按钮"""
-        self.is_click(loc)
+        self.is_click(browser['container-download'])
 
-    @allure.step('去购买页面')
-    def goto_buy(self, loc):
+    @allure.step('点击container栏的购买')
+    def goto_container_buy(self):
         """去购买页面"""
-        self.is_click(loc)
+        self.is_click(browser['container-buy'])
 
-    @allure.step('点击超链接')
-    def click_link(self, link):
-        """点击链接"""
-        self.is_click(link)
+    @allure.step('移动到技巧栏')
+    def scroll_tip(self):
+        self.scroll_to_loc(browser['tip'])
 
-    @allure.step('切换轮播图')
-    def click_carousel(self):
-        """点击评论轮播图下的索引按钮"""
-        self.is_click(cleanup['carousel-li'])
+    def click_link(self, index: int, name):
+        """点击技巧文章"""
+        with allure.step(f'点击技巧文章链接:{name}'):
+            self.is_click(browser.readYaml(f'$.tips.tip-{index}'))
 
-    def return_carousel_index(self):
-        """获取当前评论轮播图的索引"""
-        with allure.step('判断评论轮播图是否切换成功'):
-            return self.getAttribute(cleanup['carousel-inner'], 'class') == 'item active'
+    @allure.step('点击summary栏的下载按钮')
+    def download_summary_ppm(self):
+        """点击下载按钮"""
+        self.is_click(browser['summary-download'])
 
-    def is_menu(self):
-        """判断滑动到中间位置后menu是否出现"""
-        with allure.step('判断滑动到中间位置后menu是否出现'):
-            return self.getAttribute(cleanup['fix-menu'], 'class') == 'fixMenu fixIt'
+    @allure.step('移动到summary栏')
+    def scroll_summary(self):
+        self.jsInDriver('document.documentElement.scrollTop=4300')
 
-    def is_goto_buy(self):
-        """判断跳转购买页面内容与实际相同"""
-        with allure.step("判断跳转购买页面内容与实际相同"):
-            return self.find_element(cleanup['buy-month']) is not None
+    @allure.step('点击summary栏的购买')
+    def goto_summary_buy(self):
+        """去购买页面"""
+        self.is_click(browser['summary-buy'])
 
-    def is_goto_guide(self):
-        """判断跳转手册页面内容与实际相同"""
-        with allure.step('判断跳转手册页面内容与实际相同'):
-            return self.element_text(cleanup['guide-handline']) == 'PowerMyMac User Guide'
+    @allure.step('滑动到2200纵坐标')
+    def popup_nav(self):
+        self.jsInDriver('document.documentElement.scrollTop=2000')
+        self.jsInDriver('document.documentElement.scrollTop=2200')
 
-    def is_cleaner_index(self):
-        """判断跳转首页页面内容与实际相同"""
-        with allure.step('判断跳转首页页面内容与实际相同'):
-            return self.element_text(cleanup['cleaner-handline']) == 'PowerMyMac - Browser Cleanup'
+    @allure.step('点击navbar栏的下载按钮')
+    def download_navbar_ppm(self):
+        """点击下载按钮"""
+        self.is_click(browser['navbar-download'])
 
-    @allure.step('页面滑动到menu上')
-    def scroll_to_menu(self):
-        """移动到menu栏"""
-        self.scroll_to_loc(cleanup['menu-css'])
+    @allure.step('点击navbar栏的购买')
+    def goto_navbar_buy(self):
+        """去购买页面"""
+        self.is_click(browser['navbar-buy'])
 
-    @allure.step('页面滑动到footerBg上')
-    def scroll_to_footerBg(self):
-        """移动到footerBg栏"""
-        self.scroll_to_loc(cleanup['footerBg-class'])
+    @allure.step('点击navbar栏的logo')
+    def goto_index(self):
+        """进入mac uninstaller页面"""
+        self.jsInDriver("document.querySelector('div.navbar-sub-header>a:nth-child(1)').click()")
 
-    @allure.step('页面滑动到borderBG2上')
-    def scroll_to_borderBG2(self):
-        """移动到borderBG2栏"""
-        self.scroll_to_loc(cleanup['borderBG2-class'])
+    def assert_download(self):
+        result = cm.get_download_filename() == 'crdownload' or \
+                 cm.get_download_filename() == 'pkg'
+        self.allure_assert_step('判断是否下载成功', result)
+        assert result
 
-    @allure.step('页面滑动到container_text上')
-    def scroll_to_container_text(self):
-        """移动到container_text栏"""
-        self.scroll_to_loc(cleanup['container-text-center-class'])
+    def assert_go_buy(self):
+        result = self.get_current_url() == 'https://www.imymac.com/store/buy-powermymac.html'
+        self.allure_assert_step('判断是否跳转购买页面', result)
+        assert result
 
-    @allure.step('页面滑动到carousel_comment上')
-    def scroll_to_carousel_comment(self):
-        """移动到carousel_comment栏"""
-        self.scroll_to_loc(cleanup['carousel-comment-class'])
+    def assert_tip_html(self, url):
+        result = self.get_current_url() == url
+        self.allure_assert_step('判断是否跳转技巧页面', result)
+        assert result
 
-    @staticmethod
-    def is_download():
-        """判断下载是否成功"""
-        with allure.step('判断下载是否成功'):
-            return cm.get_download_filename() == 'crdownload' or cm.get_download_filename() == 'pkg'
+    def assert_index(self):
+        result = self.get_current_url() == 'https://www.imymac.com/powermymac/'
+        self.allure_assert_step('判断是否跳转pmm主页', result)
+        assert result
 
-    @allure.step('进入文章页面')
-    def click_article_link(self, link):
-        """点击文章链接"""
-        self.is_click(cleanup[link])
-
-    def is_goto_article(self, link):
-        """判断是否到达文章页面"""
-        with allure.step('判断是否到达文章页面'):
-            return self.find_element(cleanup['article-body']) is not None and link in self.get_current_url()
-
-    @allure.step('切换The Andvantage of Browser Cleanup轮播图')
-    def click_carousel_indicators(self):
-        """The Andvantage of Browser Cleanup轮播图的切换"""
-        self.is_click(cleanup['carousel-indicators-li'])
-
-    def return_carousel_indicators_index(self):
-        """获取当前The Andvantage of Browser Cleanup轮播图的索引"""
-        with allure.step('判断轮播图是否切换成功'):
-            return self.getAttribute(cleanup['carousel-indicators-inner'], 'class') == 'item active'
+    def assert_popup_nav(self):
+        result = self.is_display(browser['navbar'])
+        self.allure_assert_step('判断是否弹出导航栏', result)
+        assert result

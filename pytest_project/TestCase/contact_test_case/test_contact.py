@@ -18,11 +18,11 @@ class TestBody(object):
     @allure.tag('写邮件')
     @allure.severity('critical')
     def test_001(self):
-        assert self.driver.get_send_email()
+        self.driver.assert_email()
 
     @allure.title('简介栏内容测试')
     @allure.severity('trivial')
     @pytest.mark.parametrize('title,context', getExcelAllData('简介', 'Contact/contact.xlsx'))
     def test_002(self, title, context):
         allure.dynamic.tag('{}栏的简介'.format(title))
-        assert self.driver.get_contact_text(title) == context
+        self.driver.assert_contact_text(title, context)

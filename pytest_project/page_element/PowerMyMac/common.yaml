@@ -1,30 +1,14 @@
-free-download: 'css=body>div.container>div>div.bannerInfo>div>a:nth-child(1)'   #下载ppm按钮
-buy: 'css=body>div.container>div>div.bannerInfo>div>a:nth-child(2)'     #订阅会员按钮
-common-index: 'css=body>div.container>div>div.whiteBG.w100>div>a:nth-child(1)'   #产品页
-guide: 'css=body>div.container>div>div.whiteBG.w100>div>a:nth-child(2)'       #产品指南页
-clean-up-macbook: 'css=body>div.container.text-center>div.articleLink>a:nth-child(2)'
-find-duplicate-file: 'css=body>div.container.text-center>div.articleLink>a:nth-child(3)'
-the-best-mac-file-shredder: 'css=body>div.container.text-center>div.articleLink>a:nth-child(4)'
-securely-delete-files: 'css=body>div.container.text-center>div.articleLink>a:nth-child(5)'
-carousel-li: 'css=#carousel-review>ol>li:nth-child(2)>div'    #轮播图第二按钮
-carousel-inner: 'css=#carousel-review>div>div:nth-child(2)'   #轮播图第二张图
-fix-menu: 'css=body>div.menu>div'     #小导航栏
-menu:  #小导航栏下的按钮
-  browser-cleanup: 'css=body>div.menu>div>div>a:nth-child(1)'
-  guide: 'css=body>div.menu>div>div>a:nth-child(2)'
-  free-download: 'css=body>div.menu>div>div>a:nth-child(3)'
-  buy: 'css=body>div.menu>div>div>a:nth-child(4)'
-footbuy:
-  free-download: 'css=body>div.footerBg>div>div>div.col-md-8>div>div>a:nth-child(1)'    #下载按钮
-  buy: 'css=body>div.footerBg>div>div>div.col-md-8>div>div>a:nth-child(2)'      #订阅按钮
-buy-month: 'id=powermymac-one-month'   #购买一个月按钮
-guide-handline: 'css=body>div.container>h1'   #指南标题
-cleaner-handline: 'css=body>div.container>div>div.bannerInfo>h1'   #首页标题
-menu-css: 'css=body>div.menu'       #小导航栏
-carousel-indicators-li: 'css=#carousel-review-other>ol>li:nth-child(2)'  #第二个轮播图第二个按钮
-carousel-indicators-inner: 'css=#carousel-review-other>div>div:nth-child(2)'    #第二个轮播图第二张图片
-borderBG2-class: 'css=body>div.borderBG2'    #第一个轮播图
-article-body: 'css=body>div.container.relative'   #文章内容
-footerBg-class: 'css=body>div.footerBg'       #底部下载栏
-container-text-center-class: 'css=body>div.container.text-center'  #文章链接栏
-carousel-comment-class: 'id=carousel-review'      #第二个轮播图
+container-download: 'css=div.common-product-box>div>a:nth-child(1)'   #下载ppm按钮
+container-buy: 'css=div.common-product-box>div>a:nth-child(2)'     #订阅会员按钮
+tips:
+  tip-1: 'css=div.tips-main>a:nth-child(1)'
+  tip-2: 'css=div.tips-main>a:nth-child(2)'
+  tip-3: 'css=div.tips-main>a:nth-child(3)'
+  tip-4: 'css=div.tips-main>a:nth-child(4)'
+summary-download: 'css=div.summary-info>div>a:nth-child(1)'
+summary-buy: 'css=div.summary-info>div>a:nth-child(2)'
+navbar: 'css=div.navbar-sub'
+navbar-download: 'css=div.navbar-btn-group>a:nth-child(1)'
+navbar-buy: 'css=div.navbar-btn-group>a:nth-child(2)'
+nav-logo: 'css=div.navbar-sub-header>a:nth-child(1)'
+tip: 'css=div.tips-container'

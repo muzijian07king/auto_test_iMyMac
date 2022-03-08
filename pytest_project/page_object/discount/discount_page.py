@@ -6,44 +6,23 @@ discount = Element('Discount/discount')
 
 
 class DiscountPage(WebPage):
-    def step_if_ture(self, step, context):
-        with allure.step('判断步骤文案是否正确'):
-            return self.element_text(get_any_key_info(step, discount.data)) == context
+    def assert_step_context(self, step, context):
+        result = self.element_text(discount.readYaml(f'$.step-context.{step}')) == context
+        self.allure_assert_step('判断步骤文案是否正确', result)
+        assert result
 
-    @allure.step('点击购买链接')
-    def click_store_link(self):
-        self.is_click(discount['store'])
+    def assert_step_email(self):
+        result = self.getAttribute(discount.readYaml('$.step-context.email'), 'href') == 'mailto:support@imymac.com'
+        self.allure_assert_step('判断步骤一中邮箱是否正确', result)
+        assert result
 
-    def if_goto_store(self):
-        with allure.step('判断是否跳转store'):
-            return self.get_current_url() == 'https://www.imymac.com/store/'
+    def assert_email(self):
+        result = self.getAttribute(discount.readYaml('$.email'), 'href') == 'mailto:support@imymac.com'
+        self.allure_assert_step('判断底部邮箱是否正确', result)
+        assert result
 
-    @allure.step('输入EDU邮箱')
-    def input_EDU_email(self, email):
-        self.input_text(discount['send-email'], email)
-
-    @allure.step('提交邮箱')
-    def submit_email(self):
-        self.is_click(discount['submit'])
-
-    def submit_feedback(self, feedback):
-        self.element_if_display(discount['submit-feedback'])
-        with allure.step('判断反馈信息是否正确'):
-            return self.element_text(discount['submit-feedback']) == feedback
-
-    def if_goto_send_email(self):
-        with allure.step('判断是否去写邮件'):
-            return self.getAttribute(discount['email'], 'href') == 'mailto:support@imymac.com'
-
-    @allure.step('搜索邮箱')
-    def search_email(self, search):
-        self.input_text(discount['search'], search)
-
-    @allure.step('提交搜索')
-    def click_search_button(self):
-        self.is_click(discount['search-button'])
-
-    def discount_email(self, email):
-        with allure.step('判断优惠邮箱'):
-            return self.elements_text(discount['discount-email']) == email
-
+    def assert_discount_email(self, emails: list):
+        self.scroll_to_loc(discount['discount-email'])
+        result = self.elements_text(discount['discount-email']) == emails
+        self.allure_assert_step('判断邮箱是否正确', result)
+        assert result

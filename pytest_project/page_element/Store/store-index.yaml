@@ -1,0 +1,15 @@
+buy:
+  PowerMyMac: 'css=a[data-product="655714"]'
+  Video-Converter: 'css=a[data-product="666252"]'
+iframe: 'css=body>iframe'  #购买弹窗licensePrice
+price:
+  pmm:
+    original-price: 'css=div.license-main>div:nth-child(1)>div>div>p:nth-child(1)>span:nth-child(2)'
+    now-price: 'css=div.license-main>div:nth-child(1)>div>div>p:nth-child(1)>span:nth-child(1)'
+    discounts-price: 'css=div.license-main>div:nth-child(1)>div>div>p:nth-child(2)>span:nth-child(2)'
+  video:
+    original-price: 'css=div.license-main>div:nth-child(2)>div>div>p:nth-child(1)>span:nth-child(2)'
+    now-price: 'css=div.license-main>div:nth-child(2)>div>div>p:nth-child(1)>span:nth-child(1)'
+    discounts-price: 'css=div.license-main>div:nth-child(2)>div>div>p:nth-child(2)>span:nth-child(2)'
+pmm-option: 'css=div.license-main>div:nth-child(1)>div>div>a:nth-child(5)'      #pmm更多按钮
+video-option: 'css=div.license-main>div:nth-child(2)>div>div>a:nth-child(5)'    #video更多按钮

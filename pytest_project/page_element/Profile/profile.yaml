@@ -1,0 +1,11 @@
+left-writer-more: 'css=div.profiles-list>div:nth-child(1)>div:nth-child(2)>a'         #左侧作者
+left-writer-name: 'css=div.profiles-list>div:nth-child(1)>div:nth-child(1)>div>p.text-bold'
+mid-writer-more: 'css=div.profiles-list>div:nth-child(2)>div:nth-child(2)>a'          #中间作者
+mid-writer-name: 'css=div.profiles-list>div:nth-child(2)>div:nth-child(1)>div>p.text-bold'
+right-writer-more: 'css=div.profiles-list>div:nth-child(3)>div:nth-child(2)>a'        #右侧作者
+right-writer-name: 'css=div.profiles-list>div:nth-child(3)>div:nth-child(1)>div>p.text-bold'
+popular-articles: 'css=div.container>div.article:nth-child(2)>div:nth-child(3)>div:nth-child(1)>div>a'   #popular第一篇文章标题
+tech-hut: 'css=div.container>div.article:nth-child(3)>div:nth-child(3)>div:nth-child(1)>div>a:nth-child(1)'   #tech的第一篇文章标题
+tech-more: 'css=div.container>div.article:nth-child(3)>div:nth-child(3)>div:nth-child(1)>div>a:nth-child(3)'
+h1: 'css=div.pageBody>h1'
+name: 'css=div.container>div>div>h1'

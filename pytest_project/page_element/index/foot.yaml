@@ -1,41 +1,57 @@
-Uninstall-Apps: 'css=body>footer>div>div>div>div>a:nth-child(1)'
-Speed-Up-Mac: 'css=body>footer>div>div>div>div>a:nth-child(2)'
-Mac-Purgeable: 'css=body>footer>div>div>div>div>a:nth-child(3)'
-Find-Duplicate-file: 'css=body>footer>div>div>div>div>a:nth-child(4)'
-Startup-disk: 'css=body>footer>div>div>div>div>a:nth-child(5)'
-Photo-Management-Software: 'css=body>footer>div>div>div>div>a:nth-child(6)'
-Company: 'css=body>footer>div>div>div.w120>div>a:nth-child(1)'
-Resource: 'css=body>footer>div>div>div.w120>div>a:nth-child(2)'
-FAQ: 'css=body>footer>div>div>div.w120>div>a:nth-child(3)'
-Contact: 'css=body>footer>div>div>div.w120>div>a:nth-child(4)'
-Student-Discount: 'css=body>footer>div>div>div.w120>div>a:nth-child(5)'
-Privacy: 'css=body>footer>div>div>div.w140>div>a:nth-child(1)'
-Terms: 'css=body>footer>div>div>div.w140>div>a:nth-child(2)'
-Refund: 'css=body>footer>div>div>div.w140>div>a:nth-child(3)'
-License-Agreement: 'css=body>footer>div>div>div.w140>div>a:nth-child(4)'
-SiteMap: 'css=body>footer>div>div>div.w140>div>a:nth-child(5)'
-FaceBook: 'css=body>footer>div>div>div.w166>div>div>a:nth-child(1)'
-Twitter: 'css=body>footer>div>div>div.w166>div>div>a:nth-child(2)'
-Youtube: 'css=body>footer>div>div>div.w166>div>div>a:nth-child(3)'
-Language-drop-down: 'css=body>footer>div>div>div.w166>div>a'   #语言下拉栏
+Products:
+  PowerMyMac: "css=div.box-footer>div:nth-child(1)>div>a:nth-child(1)"
+  Video-Converter: "css=div.box-footer>div:nth-child(1)>div>a:nth-child(2)"
+  PDF-Compressor: "css=div.box-footer>div:nth-child(1)>div>a:nth-child(3)"
+Popular:
+  Uninstall-Apps-on-Mac: 'css=div.box-footer>div:nth-child(2)>div>a:nth-child(1)'
+  Best-Mac-Cleaner: 'css=div.box-footer>div:nth-child(2)>div>a:nth-child(2)'
+  Find-Duplicate-File: 'css=div.box-footer>div:nth-child(2)>div>a:nth-child(3)'
+  Find-Similar-Images: 'css=div.box-footer>div:nth-child(2)>div>a:nth-child(4)'
+  Clean-Search-History: 'css=div.box-footer>div:nth-child(2)>div>a:nth-child(5)'
+  Mac-Running-Slow: 'css=div.box-footer>div:nth-child(2)>div>a:nth-child(6)'
+  Speed-Up-Mac: 'css=div.box-footer>div:nth-child(2)>div>a:nth-child(7)'
+  Startup-Disk-Full: 'css=div.box-footer>div:nth-child(2)>div>a:nth-child(8)'
+  Clean-up-Mac: 'css=div.box-footer>div:nth-child(2)>div>a:nth-child(9)'
+  Clean-Cache-on-Mac: 'css=div.box-footer>div:nth-child(2)>div>a:nth-child(10)'
+Support:
+  About-iMyMac: 'css=div.box-footer>div:nth-child(3)>div>a:nth-child(1)'
+  FAQ: 'css=div.box-footer>div:nth-child(3)>div>a:nth-child(2)'
+  Resource: 'css=div.box-footer>div:nth-child(3)>div>a:nth-child(3)'
+  Contact-us: 'css=div.box-footer>div:nth-child(3)>div>a:nth-child(4)'
+  Student-Discount: 'css=div.box-footer>div:nth-child(3)>div>a:nth-child(5)'
+Policy:
+  Privacy: 'css=div.box-footer>div:nth-child(4)>div>a:nth-child(1)'
+  Terms: 'css=div.box-footer>div:nth-child(4)>div>a:nth-child(2)'
+  Refund: 'css=div.box-footer>div:nth-child(4)>div>a:nth-child(3)'
+  License-Agreement: 'css=div.box-footer>div:nth-child(4)>div>a:nth-child(4)'
+  Site-Map: 'css=div.box-footer>div:nth-child(4)>div>a:nth-child(5)'
+Follow-us-internet:
+  facebook: 'css=div.box-footer>div:nth-child(5)>div>div>a:nth-child(1)'
+  twitter: 'css=div.box-footer>div:nth-child(5)>div>div>a:nth-child(2)'
+  youtube: 'css=div.box-footer>div:nth-child(5)>div>div>a:nth-child(3)'
+Language-drop-down: 'css=div.box-footer>div:nth-child(5)>div:nth-child(2)>div:nth-child(2)'   #语言下拉栏
 Language:  #语言
-  com: 'css=body>footer>div>div>div.w166>div>div>dl>dt:nth-child(1)>a'
-  fr: 'css=body>footer>div>div>div.w166>div>div>dl>dt:nth-child(2)>a'
-  de: 'css=body>footer>div>div>div.w166>div>div>dl>dt:nth-child(3)>a'
-  es: 'css=body>footer>div>div>div.w166>div>div>dl>dt:nth-child(4)>a'
-  jp: 'css=body>footer>div>div>div.w166>div>div>dl>dt:nth-child(5)>a'
-  tw: 'css=body>footer>div>div>div.w166>div>div>dl>dt:nth-child(6)>a'
-  zh: 'css=body>footer>div>div>div.w166>div>div>dl>dt:nth-child(7)>a'
-  it: 'css=body>footer>div>div>div.w166>div>div>dl>dt:nth-child(8)>a'
-  ko: 'css=body>footer>div>div>div.w166>div>div>dl>dt:nth-child(9)>a'
-  nl: 'css=body>footer>div>div>div.w166>div>div>dl>dt:nth-child(10)>a'
-  pl: 'css=body>footer>div>div>div.w166>div>div>dl>dt:nth-child(11)>a'
-  ru: 'css=body>footer>div>div>div.w166>div>div>dl>dt:nth-child(12)>a'
-  pt: 'css=body>footer>div>div>div.w166>div>div>dl>dt:nth-child(13)>a'
-  ar: 'css=body>footer>div>div>div.w166>div>div>dl>dt:nth-child(14)>a'
-SearchInput: 'id=footerSubscribeInput'  #提交内容输入框
-SearchButton: 'id=footerSubscribeBTN'   #提交按钮
-ErrorText: 'id=subscribeError'   #错误信息
-
+  en: 'css=div.list-language>dl>dt:nth-child(1)>a'
+  fr: 'css=div.list-language>dl>dt:nth-child(2)>a'
+  de: 'css=div.list-language>dl>dt:nth-child(3)>a'
+  es: 'css=div.list-language>dl>dt:nth-child(4)>a'
+  ja: 'css=div.list-language>dl>dt:nth-child(5)>a'
+  zh-tw: 'css=div.list-language>dl>dt:nth-child(6)>a'
+  zh-cn: 'css=div.list-language>dl>dt:nth-child(7)>a'
+  it: 'css=div.list-language>dl>dt:nth-child(8)>a'
+  ko: 'css=div.list-language>dl>dt:nth-child(9)>a'
+  nl: 'css=div.list-language>dl>dt:nth-child(10)>a'
+  pl: 'css=div.list-language>dl>dt:nth-child(11)>a'
+  ru: 'css=div.list-language>dl>dt:nth-child(12)>a'
+  pt: 'css=div.list-language>dl>dt:nth-child(13)>a'
+  ar: 'css=div.list-language>dl>dt:nth-child(14)>a'
+copyright: 'css=p.copyright'
+InputEmail: 'id=input-subscribe'  #提交内容输入框
+SearchButton: 'id=btn-subscribe'   #提交按钮
+ErrorText: 'css=span.text-failed'   #错误信息
+success: 'css=div.box-thanks'
+ok: 'css=button.btn-cookies'
+box-cookies: 'css=div.box-cookies'
+privacy: 'css=a.link-cookies'
 
 

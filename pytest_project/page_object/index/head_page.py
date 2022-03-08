@@ -8,24 +8,45 @@ head = Element('index/head')
 class HeadPage(WebPage):
     """网站头部导航栏"""
 
-    @allure.step('点击PowerMyMac下拉框')
-    def move_PowerMyMac_dropdown(self):
+    @allure.step('进入首页')
+    def click_index_loge(self):
+        """点击loge按钮"""
+        self.is_click(head['index'])
+
+    @allure.step('移动到Product&Solution下拉框')
+    def move_product_solution_dropdown(self):
         """下拉框点击元素"""
-        self.move_element(head['PowerMyMac'])
+        self.move_element(head['Product&Solution'])
 
-    @allure.step('点击OnlineTools下拉框')
-    def move_OnlineTools_dropdown(self):
-        self.move_element(head['Online-Tools'])
+    def click_utility(self, utility):
+        """进入应用程序页面"""
+        with allure.step('进入{}页面'.format(utility)):
+            self.is_click(head.readYaml(f'$.Utility.{utility}'))
 
-    def click_link(self, link):
-        """点击超链接"""
-        with allure.step('点击{}超链接'.format(link)):
-            self.is_click(head[link])
+    def click_online(self, online):
+        """进入应用程序页面"""
+        with allure.step('进入{}在线工具页面'.format(online)):
+            self.is_click(head.readYaml(f'$.Online.{online}'))
+
+    @allure.step('进入商店')
+    def click_store(self):
+        """点击Store按钮"""
+        self.is_click(head['Store'])
+
+    @allure.step('进入帮助页面')
+    def click_support(self):
+        """点击Support按钮"""
+        self.is_click(head['Support'])
 
     @allure.step('点击搜索按钮')
     def click_search(self):
         """点击搜索按钮"""
         self.is_click(head['search'])
+
+    @allure.step('关闭搜索输入框')
+    def close_search(self):
+        """点击关闭按钮"""
+        self.is_click(head['search-close'])
 
     @allure.step('输入关键字')
     def send_search(self, text):
@@ -37,3 +58,44 @@ class HeadPage(WebPage):
         """按下回车"""
         self.Key_enter(head['search-input'])
 
+    def assert_index(self) -> bool:
+        """判断是否回到首页"""
+        result = self.get_current_url() == 'https://www.imymac.com/index.html'
+        self.allure_assert_step('判断是否回到首页', result)
+        assert result
+
+    def assert_utility(self, utility: str) -> bool:
+        """判断是否进入到应用页面"""
+        result = self.get_current_url() == f'https://www.imymac.com/{utility.lower()}/'
+        self.allure_assert_step(f"判断是否进入到{utility}页面", result)
+        assert result
+
+    def assert_online(self, utility: str) -> bool:
+        """判断是否进入到在线体验应用页面"""
+        result = self.get_current_url() == f'https://www.imymac.com/{utility.replace("Free", "online").lower()}/'
+        self.allure_assert_step(f"判断是否进入到{utility}在线工具页面", result)
+        assert result
+
+    def assert_store(self) -> bool:
+        """判断是否进入商店页面"""
+        result = self.get_current_url() == 'https://www.imymac.com/store/'
+        self.allure_assert_step("判断是否进入商店页面", result)
+        assert result
+
+    def assert_support(self) -> bool:
+        """判断是否进入商店页面"""
+        result = self.get_current_url() == 'https://www.imymac.com/support/'
+        self.allure_assert_step("判断是否进入商店页面", result)
+        assert result
+
+    def assert_search(self, text):
+        """判断是否根据关键字搜索"""
+        result = self.get_current_url() == f'https://www.imymac.com/resource/?q={text}'.replace(' ', '+')
+        self.allure_assert_step("判断是否根据关键字搜索", result)
+        assert result
+
+    def assert_close_search(self):
+        """判断是否取消搜索"""
+        result = not self.is_display(head.readYaml('$.search-input'))
+        self.allure_assert_step("判断是否取消搜索", result)
+        assert result

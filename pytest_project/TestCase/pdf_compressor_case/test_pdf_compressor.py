@@ -3,9 +3,6 @@ import pytest
 
 from pytest_project.page_object.pdf_compressor.compressor_page import CompressorPage
 from pytest_project.common.readconfig import ini
-from pytest_project.common.readelement import Element, get_branch_all_value
-
-compressor = Element('PDFCompressor/body')
 
 
 @allure.feature('pdf-compressor页面测试')
@@ -16,10 +13,16 @@ class TestBody(object):
         self.driver = CompressorPage(drivers)
         self.driver.get_url(ini.get_url('pdf-compressor'))
 
-    @pytest.mark.parametrize('download', get_branch_all_value().get_branch_all_value(compressor.data, 'free-download'))
     @allure.title('下载compressor测试')
-    @allure.tag('下载compressor')
+    @allure.tag('topper')
     @allure.severity('blocker')
-    def test_001(self, download):
-        self.driver.click_download(download)
-        assert self.driver.is_download
+    def test_001(self):
+        self.driver.click_topper_download()
+        self.driver.assert_download()
+
+    @allure.title('下载compressor测试')
+    @allure.tag('container')
+    @allure.severity('blocker')
+    def test_002(self):
+        self.driver.click_container_download()
+        self.driver.assert_download()

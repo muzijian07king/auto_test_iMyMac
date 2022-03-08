@@ -3,9 +3,7 @@ import pytest
 
 from pytest_project.page_object.video_converter.guide_page import GuidePage
 from pytest_project.common.readconfig import ini
-from pytest_project.common.readelement import Element, get_branch_all_keys
-
-guide = Element('VideoConverter/video-guide')
+from pytest_project.common.readexcel import getExcelAllData
 
 
 @allure.severity('critical')
@@ -13,7 +11,7 @@ guide = Element('VideoConverter/video-guide')
 @allure.story('Video-guide页面内容测试')
 class TestBody(object):
     @pytest.fixture(scope='function', autouse=True)
-    def open_clear(self, drivers):
+    def open_url(self, drivers):
         self.driver = GuidePage(drivers)
         self.driver.get_url(ini.get_url('video-guide'))
 
@@ -23,34 +21,34 @@ class TestBody(object):
         """下载video功能测试"""
         allure.dynamic.tag('下载video')
         self.driver.click_download()
-        assert self.driver.is_download()
+        self.driver.assert_download()
 
     @allure.title('去订阅购买页面测试')
     def test_002(self):
         """去订阅购买页面功能测试"""
         allure.dynamic.tag('购买video')
         self.driver.goto_buy()
-        assert self.driver.is_buy()
+        self.driver.assert_goto_buy()
 
     @allure.title('切换win指南测试')
     def test_003(self):
         """去index页面功能测试"""
         allure.dynamic.tag('win指南')
         self.driver.cut_win_guide()
-        assert self.driver.is_win_guide()
+        self.driver.assert_goto_win_guide()
 
     @allure.title('切换mac指南测试')
     def test_004(self):
         """去guide页面功能测试"""
         allure.dynamic.tag('mac指南')
         self.driver.cut_mac_guide()
-        assert self.driver.is_mac_guide()
+        self.driver.assert_goto_mac_guide()
 
-    @allure.title('文章链接测试')
-    @pytest.mark.parametrize('video_guide_article_name', get_branch_all_keys().get_branch_all_keys(guide.data, 'article-link'))
-    def test_005(self, video_guide_article_name):
-        """文章链接功能测试"""
-        allure.dynamic.tag(video_guide_article_name)
-        self.driver.scroll_to_article()
-        self.driver.click_article(video_guide_article_name)
-        assert self.driver.is_article(video_guide_article_name)
+    @allure.title('指南跳转测试')
+    @pytest.mark.parametrize('No, css', getExcelAllData('guide', 'Video/video.xlsx'))
+    def test_005(self, No, css):
+        """指南一跳转测试"""
+        allure.dynamic.tag(No)
+        self.driver.scroll_guide()
+        self.driver.click_guide(No)
+        self.driver.assert_goto_guide(css)

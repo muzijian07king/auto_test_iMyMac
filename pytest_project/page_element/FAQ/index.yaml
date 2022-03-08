@@ -1,15 +1,83 @@
-FAQS:
-  General-FAQs: 'css=body>div.container>div>div>div:nth-child(1)>a'
-  Sales-FAQ: 'css=body>div.container>div>div>div:nth-child(2)>a'
-  PowerMyMac: 'css=body>div.container>div>div>div:nth-child(3)>a'
-  Mac-Cleaner: 'css=body>div.container>div>div>div:nth-child(4)>a'
-  Video-Converter: 'css=body>div.container>div>div>div:nth-child(5)>a'
-  PDF-Compressor: 'css=body>div.container>div>div>div:nth-child(6)>a'
-faq-title: 'css=div.faqHeader>p'    #faq头部标题
-faq-item: 'css=body>div.container>div:nth-child(2)>div:nth-child(1)>div>div:nth-child(2)>p'  #问题title
-faq-item-class: 'css=body>div.container>div:nth-child(2)>div:nth-child(1)>div>div:nth-child(2)'  #问题item的class值
-search-input: 'css=body>div.faqBG>div>div>form>input'   #搜索框
-search-button: 'css=body>div.faqBG>div>div>form>button'  #搜索按钮
-search-content: 'css=#___gcse_0>div>div>div>div:nth-child(5)>div:nth-child(2)>div>div>div'  #搜索的内容
-search-text: 'css=#___gcse_0>div>div>div>div:nth-child(5)>div:nth-child(2)>div>div>div:nth-child(3)>a>div>span:nth-child(3)' #搜索关键字
-no-results: 'css=#___gcse_0>div>div>div>div:nth-child(5)>div:nth-child(2)>div>div>div>div>div>div'  #未找到搜索内容提示
+Register:
+  link: 'css=div.faq-list>div:nth-child(1)>p:nth-child(3)'   #链接
+  nav: 'css=div.guide-nav'                                   #侧边导航栏
+  nav-item:                                                  #侧边导航栏里的锚点div
+    one: 'css=div.guide-nav>div:nth-child(1)'
+    two:  'css=div.guide-nav>div:nth-child(2)'
+    three: 'css=div.guide-nav>div:nth-child(3)'
+    four: 'css=div.guide-nav>div:nth-child(4)'
+  item-a:                                                 #侧边导航栏里的锚点a
+    one: 'css=div.guide-nav>div:nth-child(1)>a'
+    two: 'css=div.guide-nav>div:nth-child(2)>a'
+    three: 'css=div.guide-nav>div:nth-child(3)>a'
+    four: 'css=div.guide-nav>div:nth-child(4)>a'
+  nav-list:                                             #侧边导航栏里的第三个锚点li
+    one: 'css=ul.nav-list>li:nth-child(1)>a'
+    two: 'css=ul.nav-list>li:nth-child(2)>a'
+    three: 'css=ul.nav-list>li:nth-child(3)>a'
+    four: 'css=ul.nav-list>li:nth-child(4)>a'
+    five: 'css=ul.nav-list>li:nth-child(5)>a'
+    six: 'css=ul.nav-list>li:nth-child(6)>a'
+    seven: 'css=ul.nav-list>li:nth-child(7)>a'
+    eight: 'css=ul.nav-list>li:nth-child(8)>a'
+    nine: 'css=ul.nav-list>li:nth-child(9)>a'
+    ten: 'css=ul.nav-list>li:nth-child(10)>a'
+Activate:
+  link: "css=div.faq-list>div:nth-child(1)>p:nth-child(4)"
+  contents:                                   #书签
+    hide: 'css=span.articleGuide>span:nth-child(1)'         #显示隐藏书签按钮
+    part1: "css=span.articleGuide>span:nth-child(2)>a:nth-child(1)"
+    part2: "css=span.articleGuide>span:nth-child(2)>a:nth-child(2)"
+    part3: "css=span.articleGuide>span:nth-child(2)>a:nth-child(3)"
+  nav:
+    logo: "css=div.navbar-sub-header>a"                       #logo按钮
+    download: 'css=div.navbar-btn-group>a:nth-child(1)'         #导航栏下载按钮
+    buy: 'css=div.navbar-btn-group>a:nth-child(2)'            #导航栏购买按钮
+  sidebar:
+    download: 'css=div.sidebar>div>a'               #侧边栏下载按钮
+    close: 'css=div.sidebar>div>picture:nth-child(5)'            #侧边栏关闭按钮
+    sidebar: 'css=div.sidebar'                      #侧边栏div
+  grade:                              #评分栏
+    index: 'css=div.star'
+    poor: 'css=#star>div>p:nth-child(1)>span:nth-child(1)'
+    fair: 'css=#star>div>p:nth-child(1)>span:nth-child(2)'
+    average: 'css=#star>div>p:nth-child(1)>span:nth-child(3)'
+    good: 'css=#star>div>p:nth-child(1)>span:nth-child(4)'
+    excellent: 'css=#star>div>p:nth-child(1)>span:nth-child(5)'
+    grade: 'css=#star>div>p:nth-child(1)>span:nth-child(6)'
+    grade-num: 'css=#star>div>p:nth-child(2)>span:nth-child(2)'       #评分人数
+  comment:
+    comment: 'css=div.transfer>a:nth-child(1)'
+    comment-num: 'css=div.transfer>a:nth-child(1)>span>span'        #评论数
+    leave-comment: 'css=div.transfer>a:nth-child(2)'
+    input:
+      index: 'css=#record'
+      name: 'css=#record-suggest>input:nth-child(1)'   #名字
+      email: 'css=#record-suggest>input:nth-child(2)'   #邮箱
+      context: 'css=#record-suggest>textarea'           #内容
+      submit: 'css=#record-suggest>a'
+    reviewer:
+      name: 'css=#reviewer>div:nth-child(1)>div:nth-child(2)>p>span:nth-child(1)'     #最新评论用户名
+      date: 'css=#reviewer>div:nth-child(1)>div:nth-child(2)>p>span:nth-child(2)'     #最新评论时间
+      context: 'css=#reviewer>div:nth-child(1)>div:nth-child(2)>p:nth-child(2)'     #最新评论内容
+    sidebar-bottom:
+      download: 'css=div.pageBody>div:nth-child(7)>div>a'
+    article:
+      index: 'css=div.solved'
+      one: 'css=div.solved-main>div:nth-child(1)>a'
+      two: 'css=div.solved-main>div:nth-child(2)>a'
+      three: 'css=div.solved-main>div:nth-child(3)>a'
+      four: 'css=div.solved-main>div:nth-child(4)>a'
+Order:
+  link: "css=div.faq-list>div:nth-child(2)>p:nth-child(3)"
+Refund:
+  link: "css=div.faq-list>div:nth-child(2)>p:nth-child(4)"
+PowerMyMac-FAQs:
+  link: "css=div.faq-list>div:nth-child(3)>p:nth-child(3)"
+Video-Converter-FAQs:
+  link: "css=div.faq-list>div:nth-child(3)>p:nth-child(4)"
+PDF-Compressor-FAQs:
+  link: "css=div.faq-list>div:nth-child(3)>p:nth-child(5)"
+faqs:
+  fold: 'css=div.faqs-item-icon'                #展开按钮
+  item-active: 'css=div.faqs-item-desc'         #展开内容的div

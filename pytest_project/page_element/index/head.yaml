@@ -1,18 +1,16 @@
-PowerMyMac: 'link=PowerMyMac'
+Product&Solution: 'css=div.btn-dropdown'     #Product&Solution下拉框
 index: 'css=body>nav>div>div.navbar-header>a'    #logo
-Video-Converter: 'link=Video Converter'
-PDF-Compressor: 'link=Free PDF Compressor'
-Store: 'link=Store'
-Support: 'link=Support'
-Online-Tools: 'link=Online Tools'
-search: 'id=navSearchBTN'   #搜索按钮
-Mac-Cleaner: 'link=Mac Cleaner'
-Duplicate-Finder: 'link=Duplicate Finder'
-Browser-Cleanup: 'link=Browser Cleanup'
-Similar-Image-Finder: 'link=Similar Image Finder'
-Mac-Uninstaller: 'link=Mac Uninstaller'
-online-Video-Converter: 'css=#onlineLabel>ul>li:nth-child(1)>a'
-online-Video-Editor: 'css=#onlineLabel>ul>li:nth-child(2)>a'
-online-Photo-Compressor: 'css=#onlineLabel>ul>li:nth-child(3)>a'
-online-PDF-Compressor: 'css=#onlineLabel>ul>li:nth-child(4)>a'
-search-input: 'css=#navSearch>form>input.searchInput'   #搜索输入框
+Utility:
+  PowerMyMac: 'css=#navbar>ul>li>div:nth-child(2)>div:nth-child(1)>ul>li:nth-child(1)>a'
+  Video-Converter: 'css=#navbar>ul>li>div:nth-child(2)>div:nth-child(1)>ul>li:nth-child(2)>a'
+  PDF-Compressor: 'css=#navbar>ul>li>div:nth-child(2)>div:nth-child(1)>ul>li:nth-child(3)>a'
+Online:
+  Free-Video-Converter: 'css=#navbar>ul>li>div:nth-child(2)>div:nth-child(2)>ul>li:nth-child(1)>a'
+  Free-Video-Editor: 'css=#navbar>ul>li>div:nth-child(2)>div:nth-child(2)>ul>li:nth-child(2)>a'
+  Free-Photo-Compressor: 'css=#navbar>ul>li>div:nth-child(2)>div:nth-child(2)>ul>li:nth-child(3)>a'
+  Free-PDF-Compressor: 'css=#navbar>ul>li>div:nth-child(2)>div:nth-child(2)>ul>li:nth-child(4)>a'
+Store: 'css=#navbar>ul>li:nth-child(2)>a'   #商店Store
+Support: 'css=#navbar>ul>li:nth-child(3)>a' #Support
+search: 'id=dropdown-search-btn'   #搜索按钮
+search-input: 'css=#nav-search>form>input.search-input'   #搜索输入框
+search-close: 'css=#hidden-search-btn'

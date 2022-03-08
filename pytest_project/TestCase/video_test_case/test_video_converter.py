@@ -3,9 +3,7 @@ import pytest
 
 from pytest_project.page_object.video_converter.video_page import VideoPage
 from pytest_project.common.readconfig import ini
-from pytest_project.common.readelement import Element, get_branch_all_keys
-
-video = Element('VideoConverter/body')
+from pytest_project.common.readexcel import getExcelAllData
 
 
 @allure.severity('critical')
@@ -18,68 +16,101 @@ class TestBody(object):
         self.driver.get_url(ini.get_url('VideoConverter'))
 
     @allure.severity('blocker')
-    @allure.title('下载video测试')
+    @allure.title('切换win端测试')
     def test_001(self):
-        """下载video功能测试"""
-        allure.dynamic.tag('下载video')
-        self.driver.download_video(video['free-download'])
-        assert self.driver.is_download()
+        """切换win端"""
+        allure.dynamic.tag('切换win端')
+        self.driver.switch_win()
+        self.driver.assert_switch_win()
 
-    @allure.title('去订阅购买页面测试')
+    @allure.severity('blocker')
+    @allure.title('切换mac端测试')
     def test_002(self):
-        """去订阅购买页面功能测试"""
-        allure.dynamic.tag('购买video')
-        self.driver.goto_buy(video['buy'])
-        assert self.driver.is_goto_buy()
+        """切换win端"""
+        allure.dynamic.tag('切换mac端')
+        self.driver.switch_mac()
+        self.driver.assert_switch_mac()
 
     @allure.severity('blocker')
-    @allure.title('conversion栏测试')
+    @allure.title('下载win端iMyMac Video Converter测试')
     def test_003(self):
-        """conversion栏功能测试"""
-        allure.dynamic.tag('conversion栏')
-        self.driver.scroll_to_conversion()
-        assert self.driver.return_conversion_handle()
-
-    @allure.title('menu栏按钮测试')
-    @pytest.mark.parametrize('i', list(range(5)))
-    def test_004(self, i):
-        """menu栏按钮功能测试"""
-        allure.dynamic.tag('点击menu第{}个按钮'.format(i+1))
-        self.driver.scroll_to_menu()
-        self.driver.click_menu_button(i)
-        assert self.driver.is_menu_skip_if(i)
-
-    @allure.title('video编辑功能轮播图测试')
-    @pytest.mark.parametrize('button_index', list(range(1, 10)))
-    def test_005(self, button_index):
-        """video编辑功能轮播图功能测试"""
-        allure.dynamic.tag('点击编辑功能轮播图第{}个按钮'.format(button_index))
-        self.driver.scroll_to_editing()
-        self.driver.click_editing_button(button_index)
-        assert self.driver.return_editing_image_class(button_index)
-
-    @allure.title('文章链接测试')
-    @pytest.mark.parametrize('video_article_name', get_branch_all_keys().get_branch_all_keys(video.data, 'article-link'))
-    def test_006(self, video_article_name):
-        """文章链接功能测试"""
-        allure.dynamic.title('点击文章==》{}'.format(video_article_name))
-        allure.dynamic.tag(video_article_name)
-        self.driver.scroll_to_container_article()
-        self.driver.click_container_link(video_article_name)
-        assert self.driver.is_goto_article(video_article_name)
+        """下载win端"""
+        allure.dynamic.tag('下载win端')
+        self.driver.switch_win()
+        self.driver.download_video()
+        self.driver.assert_download_win()
 
     @allure.severity('blocker')
-    @allure.title('enhancement栏测试')
-    def test_007(self):
-        """enhancement栏功能测试"""
-        allure.dynamic.tag('enhancement栏')
-        self.driver.scroll_to_container_enhancement()
-        assert self.driver.return_container_enhancement_handle()
+    @allure.title('下载mac端iMyMac Video Converter测试')
+    def test_004(self):
+        """下载mac端"""
+        allure.dynamic.tag('下载mac端')
+        self.driver.switch_mac()
+        self.driver.download_video()
+        self.driver.assert_download_mac()
 
-    @allure.title('评价轮播图测试')
+    @allure.severity('blocker')
+    @allure.title('win选项跳转购买页面测试')
+    def test_005(self):
+        """跳转购买页面"""
+        allure.dynamic.tag('跳转购买页面')
+        self.driver.switch_win()
+        self.driver.goto_buy()
+        self.driver.assert_goto_buy()
+
+    @allure.severity('blocker')
+    @allure.title('mac选项跳转购买页面测试')
+    def test_006(self):
+        """跳转购买页面"""
+        allure.dynamic.tag('跳转购买页面')
+        self.driver.switch_mac()
+        self.driver.goto_buy()
+        self.driver.assert_goto_buy()
+
+    @allure.severity('blocker')
+    @pytest.mark.parametrize('index,name,url', getExcelAllData('video', 'Video/video.xlsx'))
+    def test_007(self, index, name, url):
+        """跳转技巧页面"""
+        allure.dynamic.title(f'跳转技巧文章：{name}')
+        allure.dynamic.tag(f'{name}')
+        self.driver.scroll_tip()
+        self.driver.click_tip_link(int(index), name)
+        self.driver.assert_goto_tip(url)
+
+    @allure.severity('blocker')
+    @allure.title('导航栏点击logo测试')
     def test_008(self):
-        """评价轮播图功能测试"""
-        allure.dynamic.tag('评价轮播图')
-        self.driver.scroll_to_carousel()
-        self.driver.click_carousel()
-        assert self.driver.return_carousel_index()
+        """点击logo"""
+        allure.dynamic.tag('点击logo')
+        self.driver.popup_navbar()
+        self.driver.click_logo()
+        self.driver.assert_index()
+
+    @allure.severity('blocker')
+    @allure.title('导航栏下载win端iMyMac Video Converter测试')
+    def test_009(self):
+        """下载win端"""
+        allure.dynamic.tag('下载win端')
+        self.driver.switch_win()
+        self.driver.popup_navbar()
+        self.driver.click_download()
+        self.driver.assert_download_win()
+
+    @allure.severity('blocker')
+    @allure.title('导航栏下载mac端iMyMac Video Converter测试')
+    def test_010(self):
+        """下载mac端"""
+        allure.dynamic.tag('下载mac端')
+        self.driver.switch_mac()
+        self.driver.popup_navbar()
+        self.driver.click_download()
+        self.driver.assert_download_mac()
+
+    @allure.severity('blocker')
+    @allure.title('导航栏购买iMyMac Video Converter测试')
+    def test_011(self):
+        """购买iMyMac Video Converter"""
+        allure.dynamic.tag('购买')
+        self.driver.popup_navbar()
+        self.driver.click_buy()
+        self.driver.assert_goto_buy()

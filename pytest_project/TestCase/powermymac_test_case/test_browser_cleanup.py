@@ -1,140 +1,90 @@
 import allure
 import pytest
 
-from pytest_project.page_object.powermymac.browser_page import CleanupPage
+from pytest_project.common.readexcel import getExcelAllData
+from pytest_project.page_object.powermymac.browser_page import BrowserPage
 from pytest_project.common.readconfig import ini
-from pytest_project.common.readelement import Element, get_branch_all_value, get_recursion_key
-
-cleanup = Element('PowerMyMac/common')
 
 
-@allure.feature('PowerMyMac下拉栏中页面测试')
-@allure.story('browser-cleanup页面内容测试')
+@allure.severity('critical')
+@allure.feature('PowerMyMac底部受欢迎功能介绍页面测试')
+@allure.story('browser cleanup页面内容测试')
 class TestBody(object):
 
     @pytest.fixture(scope='function', autouse=True)
     def open_clear(self, drivers):
-        self.driver = CleanupPage(drivers)
+        self.driver = BrowserPage(drivers)
         self.driver.get_url(ini.get_url('browser-cleanup'))
 
+    @allure.title('container下载PowerMyMac测试')
     @allure.severity('blocker')
-    @allure.title('下载PowerMyMac测试')
     def test_001(self):
         """下载PowerMyMac"""
         allure.dynamic.tag('下载PowerMyMac')
-        self.driver.download_mac_cleaner(cleanup['free-download'])
-        assert self.driver.is_download()
+        self.driver.download_container_ppm()
+        self.driver.assert_download()
 
-    @allure.title("进入powerMyMac购买页面测试")
-    @allure.severity('critical')
+    @allure.title("container进入powerMyMac购买页面测试")
     def test_002(self):
         """去powerMyMac购买页面"""
         allure.dynamic.tag("去购买PowerMyMac的网站")
-        self.driver.goto_buy(cleanup['buy'])
-        assert self.driver.is_goto_buy()
+        self.driver.goto_container_buy()
+        self.driver.assert_go_buy()
 
-    @allure.title("进入用户指南页面测试")
-    @allure.severity('critical')
+    @allure.title('summary下载PowerMyMac测试')
+    @allure.severity('blocker')
     def test_003(self):
-        """去用户指南页面"""
-        allure.dynamic.tag('去用户指南网站')
-        self.driver.click_link(cleanup['guide'])
-        assert self.driver.is_goto_guide()
+        """下载PowerMyMac"""
+        allure.dynamic.tag('下载PowerMyMac')
+        self.driver.scroll_summary()
+        self.driver.download_summary_ppm()
+        self.driver.assert_download()
 
-    @allure.title('进入cleaner首页')
-    @allure.severity('critical')
+    @allure.title("summary进入powerMyMac购买页面测试")
     def test_004(self):
-        """去cleaner首页"""
-        allure.dynamic.tag('去cleaner产品主页')
-        self.driver.click_link(cleanup['common-index'])
-        assert self.driver.is_cleaner_index()
+        """去powerMyMac购买页面"""
+        allure.dynamic.tag("去购买PowerMyMac的网站")
+        self.driver.scroll_summary()
+        self.driver.goto_summary_buy()
+        self.driver.assert_go_buy()
 
-    @allure.title('评价轮播图测试')
+    @allure.title('测试navbar栏是否弹出')
+    @allure.severity('blocker')
     def test_005(self):
-        """点击评价轮播图索引图片是否变动"""
-        allure.dynamic.tag('查看第二张轮播图')
-        self.driver.scroll_to_carousel_comment()
-        self.driver.click_carousel()
-        assert self.driver.return_carousel_index()
+        """弹出导航栏"""
+        allure.dynamic.tag('弹出导航栏')
+        self.driver.popup_nav()
+        self.driver.assert_popup_nav()
 
-    @allure.title('menu导航栏测试')
+    @allure.title('navbar下载PowerMyMac测试')
     @allure.severity('blocker')
     def test_006(self):
-        """滑动到一定位置是否弹出menu"""
-        allure.dynamic.tag('弹出menu导航栏')
-        # self.driver.slide_in_driver(1100)
-        self.driver.scroll_to_menu()
-        assert self.driver.is_menu()
+        """下载PowerMyMac"""
+        allure.dynamic.tag('下载PowerMyMac')
+        self.driver.popup_nav()
+        self.driver.download_navbar_ppm()
+        self.driver.assert_download()
 
-    @allure.title('menu导航栏下进入主页测试')
-    @allure.severity('critical')
+    @allure.title("navbar进入powerMyMac购买页面测试")
     def test_007(self):
-        """点击menu下的主页链接"""
-        allure.dynamic.tag('去browser-cleanup产品主页')
-        self.driver.scroll_to_menu()
-        self.driver.click_link(get_branch_all_value().get_branch_all_value(cleanup.data, 'menu')[0])
-        assert self.driver.is_cleaner_index()
+        """去powerMyMac购买页面"""
+        allure.dynamic.tag("去购买PowerMyMac的网站")
+        self.driver.popup_nav()
+        self.driver.goto_navbar_buy()
+        self.driver.assert_go_buy()
 
-    @allure.title('menu导航栏下进入用户指南页面测试')
-    @allure.severity('critical')
-    def test_008(self):
-        """点击menu下的用户手册链接"""
-        allure.dynamic.tag('去用户指南网站')
-        self.driver.scroll_to_menu()
-        self.driver.click_link(get_branch_all_value().get_branch_all_value(cleanup.data, 'menu')[1])
-        assert self.driver.is_goto_guide()
+    @pytest.mark.parametrize('index,name,url', getExcelAllData('browser', 'pmm/common.xlsx'))
+    def test_008(self, index, name, url):
+        """进入技巧文章"""
+        allure.dynamic.title(f'测试进入技巧文章：{name}')
+        allure.dynamic.tag(f'{name}')
+        self.driver.scroll_tip()
+        self.driver.click_link(int(index), name)
+        self.driver.assert_tip_html(url)
 
-    @allure.severity('blocker')
-    @allure.title('menu导航栏cleaner的下载测试')
-    @allure.severity('critical')
+    @allure.title('测试进入index页面')
+    @allure.tag('logo')
     def test_009(self):
-        """点击menu下的下载链接"""
-        allure.dynamic.tag('点击下载按钮')
-        self.driver.scroll_to_menu()
-        self.driver.download_mac_cleaner(get_branch_all_value().get_branch_all_value(cleanup.data, 'menu')[2])
-        assert self.driver.is_download()
-
-    @allure.title('menu导航栏下进入buy页面测试')
-    @allure.severity('critical')
-    def test_010(self):
-        """点击menu导航栏下进入buy链接"""
-        allure.dynamic.tag('点击buy按钮')
-        self.driver.scroll_to_menu()
-        self.driver.goto_buy(get_branch_all_value().get_branch_all_value(cleanup.data, 'menu')[3])
-        assert self.driver.is_goto_buy()
-
-    @allure.severity('blocker')
-    @allure.title('footbuy导航栏cleaner的下载测试')
-    def test_011(self):
-        """点击footbuy下的下载链接"""
-        allure.dynamic.tag('点击下载按钮')
-        self.driver.scroll_to_footerBg()
-        self.driver.download_mac_cleaner(get_branch_all_value().get_branch_all_value(cleanup.data, 'footbuy')[0])
-        assert self.driver.is_download()
-
-    @allure.title('footbuy导航栏下进入buy页面测试')
-    @allure.severity('critical')
-    def test_012(self):
-        """点击footbuy导航栏下进入buy链接"""
-        allure.dynamic.tag('点击buy按钮')
-        self.driver.scroll_to_footerBg()
-        self.driver.goto_buy(get_branch_all_value().get_branch_all_value(cleanup.data, 'footbuy')[1])
-        assert self.driver.is_goto_buy()
-
-    @allure.title('技巧栏链接测试')
-    @allure.severity('critical')
-    @pytest.mark.parametrize('link', get_recursion_key().get_recursion_key(cleanup.data)[4:8])
-    def test_013(self, link):
-        """点击技巧和窍门栏的链接"""
-        allure.dynamic.tag('进入{}文章页面'.format(link))
-        self.driver.scroll_to_container_text()
-        self.driver.click_article_link(link)
-        assert self.driver.is_goto_article(link)
-
-    @allure.title('The Andvantage of Browser Cleanup轮播图的切换测试')
-    def test_014(self):
-        """The Andvantage of Browser Cleanup轮播图的切换测试"""
-        allure.dynamic.tag('切换')
-        self.driver.scroll_to_borderBG2()
-        self.driver.click_carousel_indicators()
-        assert self.driver.return_carousel_indicators_index()
+        self.driver.popup_nav()
+        self.driver.goto_index()
+        self.driver.assert_index()

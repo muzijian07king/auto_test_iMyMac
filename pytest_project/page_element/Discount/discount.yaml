@@ -1,12 +1,8 @@
 step-context:
-  step-1: 'css=div.discountStep>div:nth-child(1)>p'
-  step-2: 'css=div.discountStep>div:nth-child(2)>p'
-  step-3: 'css=div.discountStep>div:nth-child(3)>p'
-send-email: 'css=body>div:nth-child(4)>div>div:nth-child(3)>div>input'    #提交邮箱输入框
-submit: 'css=body>div:nth-child(4)>div>div:nth-child(3)>div>button'       #提交邮箱按钮
-email: 'css=p.f16>a'    #imymac邮箱链接
-search: 'css=#searchInput'
-search-button: 'css=div.emailSearch>div>button'
-discount-email: 'css=div.row>div>li'    #优惠支持的邮箱
-submit-feedback: 'css=div.emailSearch>div' #反馈文字
-store: 'css=div.discountStep>div:nth-child(3)>p>a'  #去购买页面
+  step-1: 'css=div.topper-list>div:nth-child(1)>div>p.text-style-s'
+  step-2: 'css=div.topper-list>div:nth-child(2)>div>p.text-style-s'
+  step-3: 'css=div.topper-list>div:nth-child(3)>div>p.text-style-s'
+  email: 'css=div.topper-list>div:nth-child(1)>div>p.text-style-s>a'    #步骤一中的邮箱
+email: 'css=div.message>p>a'                    #底部邮箱
+discount-email: 'css=div.eamil-container>ul>li'    #优惠支持的邮箱
+

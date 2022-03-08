@@ -6,7 +6,7 @@ class Log:
     def __init__(self):
         self.logger = logging.getLogger()
         if not self.logger.handlers:
-            self.logger.setLevel(logging.DEBUG)
+            self.logger.setLevel(logging.INFO)
 
         # 创建一个handle写入文件
         file_handle = logging.FileHandler(cm.log_file, encoding='utf-8')

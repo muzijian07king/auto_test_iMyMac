@@ -1,0 +1,10 @@
+os:
+  win: 'css=div.version-select>span:nth-child(2)'
+  mac: 'css=div.version-select>span:nth-child(1)'
+download: 'css=div.btn-group>a:nth-child(1)'
+buy: 'css=div.btn-group>a:nth-child(2)'
+nav:
+  div: 'css=div.nav-guide'
+  one: 'css=div.nav-guide>div:nth-child(1)>a'
+  two: 'css=div.nav-guide>div:nth-child(2)>a'
+  three: 'css=div.nav-guide>div:nth-child(3)>a'

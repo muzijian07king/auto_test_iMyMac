@@ -3,13 +3,15 @@ from builtins import isinstance
 import yaml
 from pytest_project.config.conf import cm
 from pathlib import Path
+from jsonpath import jsonpath
+from pytest_project.utils.logger import log
 
 
 class Element(object):
-    '''
+    """
     获取元素
     读取yaml文件
-    '''
+    """
 
     def __init__(self, name):
         """
@@ -25,15 +27,50 @@ class Element(object):
 
     def __getitem__(self, item):
         """数据层数为1，获取value"""
-        item_data = self.data.get(item)
-        if item_data:
-            name, value = item_data.split('=', 1)
-            return name, value
-        raise ArithmeticError('{}中不存在关键字：{}'.format(self.file_name, item))
+        try:
+            item_data = self.data.get(item)
+            if item_data:
+                name, value = item_data.split('=', 1)
+                return name, value
+        except AttributeError:
+            raise AttributeError('{}中不存在关键字：{}'.format(self.file_name, item))
 
     def getLanguage(self, name):
         """根据缩写获取语言名称"""
         return self.data.get(name)
+
+    def readYaml(self, expr='.', element=0):
+        """
+        jsonpath提取元素值
+        :param expr: 默认全部，使用$.
+        :param element: 是否提取定位方式,0否1是
+        :return: 列表
+        """
+        try:
+            result = jsonpath(self.data, expr=expr)
+        except Exception as e:
+            log.error(f"jsonpath提取失败=》{expr}")
+            raise e
+        # 判断是否提取到数据
+        if isinstance(result, bool):
+            log.error(f"jsonpath提取失败=》{expr}")
+            raise AttributeError
+        # 提取多数据时，返回列表，单数据返回字符串
+        else:
+            if isinstance(result[0], dict):
+                return result[0]
+            else:
+                if element == 0:
+                    result = result[0]
+                    ele_key, ele_value = result.split('=', 1)
+                    return ele_key, ele_value
+                else:
+                    return result[0]
+
+    def update_data(self, cookie: dict, data: dict):
+        data.update(cookie)
+        with open(self.element_path, 'w', encoding='utf-8') as file:
+            yaml.dump(data, file)
 
 
 def get_any_key_info(key_name="", yaml_data=None):
@@ -153,16 +190,13 @@ class get_branch_all_keys(object):
             return self.list_keys
 
 
-list_value = []
-
-
 class get_values_in_name(object):
     """
     根据name获取所有的value
     """
 
     def __init__(self):
-        list_value.clear()
+        self.list_value = []
 
     def get_values_in_name(self, data, name):
         # for循环字典这一层的所有key值
@@ -170,7 +204,7 @@ class get_values_in_name(object):
             # 如果当前的key是我们要找的
             if i == name:
                 k, v = data[i].split('=', 1)
-                list_value.append((k, v))
+                self.list_value.append((k, v))
             # 如果当前的key不是我们找的key，并且是字典类型
             if type(data[i]) == dict:
                 # 使用递归方法，查找下一层的字典
@@ -179,7 +213,7 @@ class get_values_in_name(object):
                 # 显示检查，以防提前跳过
                 if value is None:
                     return value
-        return list_value
+        return self.list_value
 
 
 def get_branch_value_with_key(key, data, branch=None):
@@ -206,19 +240,5 @@ def get_branch_value_with_key(key, data, branch=None):
 
 
 if __name__ == '__main__':
-    body = Element('Store/body')
-    print(body['price'])
-    # print(body['cancelCouponButton'])
-    # print(get_branch_all_keys().get_branch_all_keys(sitemap.data, 'Company'))
-    # print(get_branch_all_keys().get_branch_all_keys(sitemap.data, 'Products'))
-    # print(get_branch_all_keys().get_branch_all_keys(sitemap.data, 'Help'))
-    # print(get_branch_all_keys().get_branch_all_keys(sitemap.data, 'More'))
-    # # print(get_recursion_key(foot.data))
-    # print(get_branch_value_with_key('PowerMyMac', sitemap.data, 'More'))
-    # # print(foot['Youtube'])
-    # # print(get_branch_all_value(foot.data))
-    # # print(get_recursion_key(foot.data))
-    # print(get_branch_all_keys().get_branch_all_keys(foot.data, 'Language'))
-    # keys.clear()
-    # language = Element('PowerMyMac/browser-duplicate')
-    # print(language['carousel-comment-class'])
+    print(Element('User/cookie').readYaml('$.name', 1))
+

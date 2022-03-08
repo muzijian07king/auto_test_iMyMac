@@ -1,0 +1,60 @@
+index:
+  register: 'css=div.licence-btn-group>a:nth-child(1)'    #注册按钮
+  login: 'css=div.licence-btn-group>a:nth-child(2)'       #登录按钮
+  email: 'css=div.about>div>a'                #邮箱
+register:
+  username: 'id=username'             #用户名
+  usereamil: 'id=useremail'           #邮箱
+  userpwd: 'id=userpwd'               #密码
+  userdbpwd: 'id=userdbpwd'            #确认密码
+  accept-button: 'id=accept-button'       #勾选协议
+  login: 'css=div.register-content>div>a'     #登录
+  register: 'css=div.register-content>button'   #注册
+  error:             #错误信息
+    name: 'css=div.form-content>div.form-item:nth-child(2)>section'
+    email: 'css=div.form-content>div.form-item:nth-child(3)>section'
+    pwd:
+      length: 'css=div.form-content>div.form-item:nth-child(4)>section'
+      space: 'css=div.form-content>div.form-item:nth-child(4)>section>section'
+    re-pwd: 'css=div.form-content>div.form-item:nth-child(5)>section'
+    accept: 'css=div.accept>p'
+  terms: "css=a[title='terms']"           #协议
+  failed: 'css=div.form-content>p:nth-child(7)'
+  succeed: 'css=div.form-content>p:nth-child(8)'
+language:
+  switch: 'css=div.select-lang>p'
+  selector: 'css=div.languageSelector'
+  en: "css=dt[data-lang='en']"            #英语
+  fr: "css=dt[data-lang='fr']"            #法语
+  de: "css=dt[data-lang='de']"            #德语
+  es: "css=dt[data-lang='es']"            #西班牙
+  zh-TW: "css=dt[data-lang='zh-TW']"      #繁体中文
+  zh-CN: "css=dt[data-lang='zh-CN']"      #简体中文
+  ja: "css=dt[data-lang='ja']"            #日语
+  it: "css=dt[data-lang='it']"            #意大利语
+  ko: "css=dt[data-lang='ko']"            #韩语
+  nl: "css=dt[data-lang='nl']"            #荷兰语
+  pl: "css=dt[data-lang='pl']"            #波兰语
+  ru: "css=dt[data-lang='ru']"            #俄语
+  pt: "css=dt[data-lang='pt']"            #葡萄牙语
+  ar: "css=dt[data-lang='ar']"            #阿拉伯语
+  title: 'css=div.form-title>h2'
+logo: 'css=a.logo-href'              #logo
+login:
+  forgot: 'css=div.remember>a'          #忘记密码
+  email: 'id=input-email'               #邮箱
+  password: 'id=input-password'         #密码
+  remember: 'id=rem-checkbox'           #记住我
+  login: 'css=div.login-btn>button'       #登录
+  register: 'css=div.login-btn>div>a'     #注册
+  error: 'css=div.form-content>p'         #错误弹窗
+  succeed: 'css=p.self-content>span'      #成功登录后进入系统右上角用户名
+recover:
+  email: 'id=email'                       #邮箱
+  error: 'css=div.form-item>section'        #错误信息
+  failed: 'css=div.form-content>p:nth-child(3)'       #错误信息
+  succeed: 'css=div.form-content>p:nth-child(4)'      #成功信息
+  login: 'css=div.bg-liner>a'                         #登录按钮
+  recover: 'css=div.login-btn>input'                  #找回按钮
+
+

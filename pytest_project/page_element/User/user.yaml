@@ -1,0 +1,54 @@
+Profile:
+  name: 'css=p.profile-name'      #头像旁用户名
+  change-photo: 'css=input.iptopacity'      #更改头像按钮
+  headling-img: 'css=img.headling-img'      #头像
+  Account:
+    account-icon: 'css=section.self-nav>ul.nav-list>li:nth-child(1)'              #account按钮
+    name: 'id=name-text'                #用户输入框
+    name-error: 'css=div.act-pwd-content>section:nth-child(1)>div>section'        #用户名为空错误
+    email: 'css=div.act-pwd-content>section:nth-child(1)>div:nth-child(2)>p:nth-child(2)'
+    failed: 'css=div.act-pwd-content>section:nth-child(1)>p:nth-child(5)'         #更改失败
+    succeed: 'css=div.act-pwd-content>section:nth-child(1)>p:nth-child(4)'        #更改成功
+    changes-button: 'css=div.save-content>button'  #按钮
+  New-Password:
+    password-icon: 'css=section.self-nav>ul.nav-list>li:nth-child(2)'             #password按钮
+    current-password: 'id=old-password'    #原密码输入框
+    current-error: 'css=div.act-pwd-content>section:nth-child(2)>div:nth-child(2)>section'     #原密码错误信息
+    new-password: 'id=new-password'         #新密码输入框
+    new-error: 'css=div.act-pwd-content>section:nth-child(2)>div:nth-child(3)>section'          #新密码错误信息
+    confirm-password: 'id=confirm-password'     #确认密码输入框
+    confirm-error: 'css=div.act-pwd-content>section:nth-child(2)>div:nth-child(4)>section'      #确认密码错误信息
+    forgot: 'css=div.password-content>a'                                                    #找回密码
+    failed: 'css=div.act-pwd-content>section:nth-child(2)>p:nth-child(6)'              #更改失败
+    succeed: 'css=div.act-pwd-content>section:nth-child(2)>p:nth-child(5)'            #更改成功
+    changes-button: 'css=div.password-content>button'  #按钮
+nav:
+  language:
+    switch: 'css=div.select-lang>p'
+    selector: 'css=div.languageSelector'
+    en: "css=dt[data-lang='en']"            #英语
+    fr: "css=dt[data-lang='fr']"            #法语
+    de: "css=dt[data-lang='de']"            #德语
+    es: "css=dt[data-lang='es']"            #西班牙
+    zh-TW: "css=dt[data-lang='zh-TW']"      #繁体中文
+    zh-CN: "css=dt[data-lang='zh-CN']"      #简体中文
+    ja: "css=dt[data-lang='ja']"            #日语
+    it: "css=dt[data-lang='it']"            #意大利语
+    ko: "css=dt[data-lang='ko']"            #韩语
+    nl: "css=dt[data-lang='nl']"            #荷兰语
+    pl: "css=dt[data-lang='pl']"            #波兰语
+    ru: "css=dt[data-lang='ru']"            #俄语
+    pt: "css=dt[data-lang='pt']"            #葡萄牙语
+    ar: "css=dt[data-lang='ar']"            #阿拉伯语
+  name: 'css=span.self-name'
+  logout: 'css=div.log-out'
+flex-left:
+  inner: 'css=div.flex>div:nth-child(1)>div:nth-child(1)'  #左侧导航栏div
+  close-icon: 'css=div.flex>div:nth-child(1)>div:nth-child(1)>div>h1>i'
+  my-subscription: 'css=div.flex>div:nth-child(1)>div:nth-child(1)>ul>li:nth-child(1)>a'
+  profile: 'css=div.flex>div:nth-child(1)>div:nth-child(1)>ul>li:nth-child(2)>a'
+email: 'id=input-email'               #邮箱
+password: 'id=input-password'         #密码
+login: 'css=div.login-btn>button'     #登录
+remember: 'id=rem-checkbox'           #记住我
+succeed: 'css=p.self-content>span'

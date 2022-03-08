@@ -3,56 +3,28 @@ from pytest_project.page.basepage import WebPage
 import allure
 from pytest_project.common.readelement import Element, get_any_key_info
 
-tech = Element('VideoConverter/video-tech')
+tech = Element('VideoConverter/tech-specification')
 
 
 class TechPage(WebPage):
 
     @allure.step('下载video')
     def click_download(self):
-        self.is_click(tech['free-download'])
+        self.is_click(tech['download'])
 
     @allure.step('点击购买按钮')
     def goto_buy(self):
         self.is_click(tech['buy'])
 
-    @allure.step('进入tech页面')
-    def goto_index(self):
-        self.is_click(tech['index'])
-
-    @allure.step('下载进入技巧界面')
-    def goto_guide(self):
-        self.is_click(tech['guide'])
-
-    @staticmethod
-    def is_download():
+    def assert_download(self):
         """判断下载是否成功"""
-        return cm.get_download_filename() == 'crdownload' or cm.get_download_filename() == 'pkg' or cm.\
-            get_download_filename() == 'exe'
+        suffix = cm.get_download_filename()
+        result = suffix == 'crdownload' or suffix == 'pkg' or suffix == 'exe'
+        self.allure_assert_step('判断下载是否成功', result)
+        assert result
 
-    def is_buy(self):
+    def assert_goto_buy(self):
         """判断跳转购买页面内容与实际相同"""
-        with allure.step('判断跳转购买页面内容与实际相同'):
-            return self.find_element(tech['buy-class']) is not None
-
-    def is_index(self):
-        """判断是否跳转到主页"""
-        with allure.step('判断是否跳转到主页'):
-            return self.find_element(tech['support-body']) is not None and self.element_text(tech['support-handle']) == \
-                   "Supported Elements for Video Converter"
-
-    def is_guide(self):
-        with allure.step('判断是否跳转到指南页面'):
-            return self.element_text(tech['guide-button'])
-
-    @allure.step('点击文章链接')
-    def click_article(self, article_name):
-        self.is_click(get_any_key_info(article_name, tech.data))
-
-    @allure.step('移动到文章栏上')
-    def scroll_to_article(self):
-        self.scroll_to_loc(tech['article-class'])
-
-    def is_article(self, article_name):
-        with allure.step('判断是否跳转到文章'):
-            return article_name.replace('-', ' ') in self.element_text(tech['article-handle']).lower()
+        result = self.get_current_url() == 'https://www.imymac.com/store/buy-video-converter.html'
+        self.allure_assert_step('判断跳转购买页面内容与实际相同', result)
+        assert result

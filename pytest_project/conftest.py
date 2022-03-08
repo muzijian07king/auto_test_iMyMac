@@ -1,10 +1,8 @@
 import allure
 import pytest
-
 from selenium import webdriver
 from pytest_project.config.conf import cm
 from pytest_project.utils.times import timestamp
-
 
 driver = None
 
@@ -14,9 +12,13 @@ def drivers():
     """ 无头浏览器 """
     option = webdriver.ChromeOptions()
     option.add_argument('--headless')  # 无头显示
-    option.add_argument('--window-size=1920,1080')
-    option.add_argument('--no-sandbox')  # 设置浏览器大小
+    option.add_argument('--window-size=1920,1080')  # 设置浏览器大小
+    option.add_argument("--start-maximized")
+    option.add_argument('--no-sandbox')  # 设置禁止沙盒模式
+    option.add_argument('--incognito')  # 隐私模式启动
     option.add_argument('--proxy-server=127.0.0.1:7890')  # 设置代理
+    # option.add_argument('--disable-gpu')   # 关闭gpu加速
+    option.add_argument('--keep-alive-for-test')  # 热启动
     prefs = {'download.default_directory': cm.download_dir, 'excludeSwitches': ['enable-automation']}  # 设置下载路径
     option.add_experimental_option('prefs', prefs)
     option.add_argument('ignore-certificate-errors')
@@ -43,7 +45,7 @@ def pytest_runtest_makereport():
                 allure.attach(driver.get_screenshot_as_png(), "失败截图", allure.attachment_type.PNG)
 
 
-def pytest_terminal_summary(terminalreporter, exitstatus, config):
+def pytest_terminal_summary(terminalreporter):
     """收集测试结果"""
     result = {
         "total": terminalreporter._numcollected,
@@ -57,9 +59,7 @@ def pytest_terminal_summary(terminalreporter, exitstatus, config):
     print(result)
 
 
-def pytest_collection_modifyitems(
-        session: "Session", config: "Config", items: list["Item"]
-) -> None:
+def pytest_collection_modifyitems(items) -> None:
     # item表示每个测试用例，解决日志用例名称中文显示问题
     for item in items:
         item.name = item.name.encode("utf-8").decode("unicode-escape")

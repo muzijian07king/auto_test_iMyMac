@@ -1,54 +1,16 @@
-free-download: 'css=body>div.vc-banner>div.container>div>div.banner-box-text>div>a:nth-child(1)'  #下载链接
-buy: 'css=body>div.vc-banner>div.container>div>div.banner-box-text>div>a:nth-child(2)'  #购买链接
-conversion-class: 'css=body>div.conversion.text-center'   #conversion栏
-conversion-handle: 'css=body > div.conversion.text-center > div > div> p'
-menu-class: 'css=body>div.menu'   #小导航栏
-menu:       #小导航栏下的按钮
-  video: 'css=body>div.menu>div>div>a:nth-child(1)'
-  tech: 'css=body>div.menu>div>div>a:nth-child(2)'
-  guide: 'css=body>div.menu>div>div>a:nth-child(3)'
-  free-download: 'css=body>div.menu>div>div>a:nth-child(4)'
-  buy: 'css=body>div.menu>div>div>a:nth-child(5)'
-enhancement-class: 'css=body > div.container.enhancement.flexCenter.flexBetween'   #enhancement栏
-container-handle: 'css=body>div.container>div>p'    #enhancement栏标题
-editing-class: 'css=body>div.editing'    #第一个轮播图栏
-editing-li:
-  1: 'css=#vc-carousel > div.edit-way.edit-bg > ol > li:nth-child(1)'  #第一个轮播图切换按钮
-  2: 'css=#vc-carousel > div.edit-way.edit-bg > ol > li:nth-child(2)'  #第一个轮播图切换按钮
-  3: 'css=#vc-carousel > div.edit-way.edit-bg > ol > li:nth-child(3)'  #第一个轮播图切换按钮
-  4: 'css=#vc-carousel > div.edit-way.edit-bg > ol > li:nth-child(4)'  #第一个轮播图切换按钮
-  5: 'css=#vc-carousel > div.edit-way.edit-bg > ol > li:nth-child(5)'  #第一个轮播图切换按钮
-  6: 'css=#vc-carousel > div.edit-way.edit-bg > ol > li:nth-child(6)'  #第一个轮播图切换按钮
-  7: 'css=#vc-carousel > div.edit-way.edit-bg > ol > li:nth-child(7)'  #第一个轮播图切换按钮
-  8: 'css=#vc-carousel > div.edit-way.edit-bg > ol > li:nth-child(8)'  #第一个轮播图切换按钮
-  9: 'css=#vc-carousel > div.edit-way.edit-bg > ol > li:nth-child(9)'  #第一个轮播图切换按钮
-editing-image:
-  1: 'css=#vc-carousel > div:nth-child(2)>div:nth-child(1)'  #第一个轮播图内容
-  2: 'css=#vc-carousel > div:nth-child(2)>div:nth-child(2)'  #第一个轮播图内容
-  3: 'css=#vc-carousel > div:nth-child(2)>div:nth-child(3)'  #第一个轮播图内容
-  4: 'css=#vc-carousel > div:nth-child(2)>div:nth-child(4)'  #第一个轮播图内容
-  5: 'css=#vc-carousel > div:nth-child(2)>div:nth-child(5)'  #第一个轮播图内容
-  6: 'css=#vc-carousel > div:nth-child(2)>div:nth-child(6)'  #第一个轮播图内容
-  7: 'css=#vc-carousel > div:nth-child(2)>div:nth-child(7)'  #第一个轮播图内容
-  8: 'css=#vc-carousel > div:nth-child(2)>div:nth-child(8)'  #第一个轮播图内容
-  9: 'css=#vc-carousel > div:nth-child(2)>div:nth-child(9)'  #第一个轮播图内容
-container-article-class: 'css=body>div.container>div.articleLink'  #文章链接class
-#文章链接
-article-link:
-  convert-m4a-to-mp3: 'css=body>div.container>div.articleLink>a:nth-child(2)'
-  mp3-to-midi: 'css=body>div.container>div.articleLink>a:nth-child(3)'
-  convert-wma-to-mp3: 'css=body>div.container>div.articleLink>a:nth-child(4)'
-  convert-flac-to-mp3: 'css=body>div.container>div.articleLink>a:nth-child(5)'
-  convert-webm-to-mp4: 'css=body>div.container>div.articleLink>a:nth-child(6)'
-  rotate-a-video: 'css=body>div.container>div.articleLink>a:nth-child(7)'
-carousel-comment-class: 'id=carousel-review' #第二个轮播图
-carousel-li: 'css=#carousel-review>ol>li:nth-child(2)>div'      #轮播图第二个按钮
-carousel-inner: 'css=#carousel-review>div>div:nth-child(2)'     #轮播图第二张图
-buy-class: 'css=body>div.buyBg'
-index-handle: 'css=body > div.vc-banner > div.container > div > div.banner-box-text > h1'  #video产品主页
-tech-handle: 'css=body > div.container > div.w780.vc-guide > h1'      #video技巧页面标题
-guide-handle: 'css=body > div.container > div:nth-child(2) > h1'      #video指南页标题
-article-body: 'css=body>div.container.relative'   #文章内容
-article-handle: 'css=body > div.container.relative > div > h1'  #文章标题
-
-
+os:
+  win: 'css=div.version-select>span:nth-child(2)'
+  mac: 'css=div.version-select>span:nth-child(1)'
+download: 'css=div.btn-group>a:nth-child(1)'
+buy: 'css=div.btn-group>a:nth-child(2)'
+tips:
+  tip-1: 'css=div.tips-main>a:nth-child(1)'
+  tip-2: 'css=div.tips-main>a:nth-child(2)'
+  tip-3: 'css=div.tips-main>a:nth-child(3)'
+  tip-4: 'css=div.tips-main>a:nth-child(4)'
+  tip-5: 'css=div.tips-main>a:nth-child(5)'
+  tip-6: 'css=div.tips-main>a:nth-child(6)'
+nav:
+  download: 'css=div.navbar-sub>div>div:nth-child(2)>a:nth-child(1)'
+  buy: 'css=div.navbar-sub>div>div:nth-child(2)>a:nth-child(2)'
+  logo: 'css=div.navbar-sub>div>div:nth-child(1)>a'

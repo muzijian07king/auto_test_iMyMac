@@ -1,2 +1,3 @@
-import os
+from appium.webdriver.webdriver import WebDriver
+
 
