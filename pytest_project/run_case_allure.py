@@ -4,6 +4,7 @@ import subprocess
 WIN = sys.platform.startswith('win')
 HISTORY = True
 DOWNLOAD = True
+DeBug = False
 
 
 def main():
@@ -19,7 +20,7 @@ def main():
         "allure generate report\\data -c  -o report\\allure" if WIN else '',
         "python pytest_history_trend.py" if WIN else "",
         "python clear_download_dir.py",
-        "allure open report\\allure" if WIN else ""
+        "allure open report\\allure" if DeBug else ""
     ]
     for step in steps:
         subprocess.run("call " + step if WIN else step, shell=True)
