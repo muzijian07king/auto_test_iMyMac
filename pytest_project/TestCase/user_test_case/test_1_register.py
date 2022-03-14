@@ -98,7 +98,7 @@ class TestBody(object):
     @allure.severity('critical')
     @allure.story('注册页面功能测试')
     @pytest.mark.parametrize('name,email,pwd,re_pwd', getExcelAllData('注册确认密码错误', 'Admin/register.xlsx'))
-    @pytest.xfail('待修复')
+    @pytest.mark.xfail('待修复')
     def test_006(self, name, email, pwd, re_pwd):
         self.driver.input_name(name)
         self.driver.input_email(email)

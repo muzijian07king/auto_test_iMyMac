@@ -164,26 +164,12 @@ class OptionPage(WebPage):
         self.is_click(store['mac'])
 
     def assert_switch_win(self):
-        result = self.element_text(store['month-desc']) \
-                 == getValueByIndex(5, 2, 'video-win套餐价格', 'Store/store.xlsx') \
-                 and self.element_text(store['year-desc']) \
-                 == getValueByIndex(5, 3, 'video-win套餐价格', 'Store/store.xlsx') \
-                 and self.element_text(store.readYaml('$.lifetime-license.one.option')) \
-                 == getValueByIndex(5, 4, 'video-win套餐价格', 'Store/store.xlsx') \
-                 and self.element_text(store.readYaml('$.lifetime-license.five.option')) \
-                 == getValueByIndex(5, 5, 'video-win套餐价格', 'Store/store.xlsx')
+        result = self.getAttributes(store['month-desc'], 'class') == 'version-win active'
         self.allure_assert_step('判断切换win是否成功', result)
         assert result
 
     def assert_switch_mac(self):
-        result = self.element_text(store['month-desc']) \
-                 == getValueByIndex(5, 2, 'video-mac套餐价格', 'Store/store.xlsx') \
-                 and self.element_text(store['year-desc']) \
-                 == getValueByIndex(5, 3, 'video-mac套餐价格', 'Store/store.xlsx') \
-                 and self.element_text(store.readYaml('$.lifetime-license.one.option')) \
-                 == getValueByIndex(5, 4, 'video-mac套餐价格', 'Store/store.xlsx') \
-                 and self.element_text(store.readYaml('$.lifetime-license.five.option')) \
-                 == getValueByIndex(5, 5, 'video-mac套餐价格', 'Store/store.xlsx')
+        result = self.getAttributes(store['month-desc'], 'class') == 'version-mac active'
         self.allure_assert_step('判断切换mac是否成功', result)
         assert result
 
