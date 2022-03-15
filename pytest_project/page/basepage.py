@@ -180,7 +180,7 @@ class WebPage(object):
         context = []
         for i in attr:
             context.append(i.get_attribute(attribute))
-            log.info('获取到{}元素的值==》{}'.format(attribute, i.get_attribute(attribute)))
+        log.info('获取到{}元素的值==》{}'.format(attribute, context))
         return context
 
     def jsInDriver(self, js, s=1):

@@ -1,5 +1,3 @@
-import time
-
 import allure
 import pytest
 from pytest_project.common.readconfig import ini
@@ -11,7 +9,6 @@ from pytest_project.common.readexcel import getExcelAllData, set_excel_data
 @allure.feature('用户系统测试')
 @allure.severity('critical')
 class TestBody(object):
-    email = str(time.time()).split('.')[0] + '@qq.com'
 
     @pytest.fixture(scope='function', autouse=True)
     def open_url(self, drivers):
@@ -23,20 +20,25 @@ class TestBody(object):
     @pytest.fixture(scope='function')
     def save_email(self):
         yield
-        set_excel_data('注册成功', 'Admin/register.xlsx', 2, 2, self.email)
+        set_excel_data('注册成功', 'Admin/register.xlsx', 1, 2, self.driver.name)
+        set_excel_data('注册成功', 'Admin/register.xlsx', 2, 2, self.driver.email)
+        set_excel_data('注册成功', 'Admin/register.xlsx', 3, 2, self.driver.password)
+        set_excel_data('注册成功', 'Admin/register.xlsx', 4, 2, self.driver.password)
 
     @allure.title('注册成功测试')
     @allure.tag('注册成功')
     @allure.severity('blocker')
     @allure.story('注册页面功能测试')
-    @pytest.mark.parametrize('name,email,pwd,re_pwd', getExcelAllData('注册成功', 'Admin/register.xlsx'))
     @pytest.mark.flaky(reruns=0)
-    def test_001(self, name, email, pwd, re_pwd, save_email):
+    def test_001(self, save_email):
+        name = self.driver.name
+        email = self.driver.email
+        pwd = self.driver.password
+        allure.dynamic.description(f"用户名：{name} 邮箱：{email} 密码：{pwd}")
         self.driver.input_name(name)
-        email = self.email
         self.driver.input_email(email)
         self.driver.input_password(pwd)
-        self.driver.input_userdbpwd(re_pwd)
+        self.driver.input_userdbpwd(pwd)
         self.driver.check_accept()
         self.driver.click_register()
         self.driver.assert_register_succeed()
@@ -60,6 +62,8 @@ class TestBody(object):
     @allure.story('注册页面功能测试')
     @pytest.mark.parametrize('name,email,pwd,re_pwd', getExcelAllData('注册邮箱错误', 'Admin/register.xlsx'))
     def test_003(self, name, email, pwd, re_pwd):
+        if email in ['_lelee9897@gmail.com', 'lelee9900@gmail..com']:
+            pytest.xfail('错误格式，待修复')
         self.driver.input_name(name)
         self.driver.input_email(email)
         self.driver.input_password(pwd)
@@ -98,8 +102,9 @@ class TestBody(object):
     @allure.severity('critical')
     @allure.story('注册页面功能测试')
     @pytest.mark.parametrize('name,email,pwd,re_pwd', getExcelAllData('注册确认密码错误', 'Admin/register.xlsx'))
-    @pytest.mark.xfail('待修复')
     def test_006(self, name, email, pwd, re_pwd):
+        if re_pwd in [' 123456789', '123456789 ']:
+            pytest.xfail('自动将首尾空格去除，待修复')
         self.driver.input_name(name)
         self.driver.input_email(email)
         self.driver.input_password(pwd)

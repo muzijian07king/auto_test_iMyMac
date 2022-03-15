@@ -57,3 +57,6 @@ sort:
   date: 'css=div.gsc-option-menu>div:nth-child(2)>div'          #日期
   article: 'css=div.author-container>div>p:nth-child(2)'
 no-result: 'css=div.gs-snippet'     #google没有找到提示信息
+Language-drop-down: 'css=div.box-footer>div:nth-child(5)>div:nth-child(2)>div:nth-child(2)'   #语言下拉栏
+Language:  #语言
+  en: 'css=div.list-language>dl>dt:nth-child(1)>a'

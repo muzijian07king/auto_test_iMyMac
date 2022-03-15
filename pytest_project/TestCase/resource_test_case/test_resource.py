@@ -119,7 +119,7 @@ class TestBody(object):
     @allure.title('Google时间排序测试')
     @allure.tag('时间')
     def test_012(self):
-        self.driver.send_search('java')
+        self.driver.send_search('mac')
         self.driver.click_input_button()
         self.driver.close_cookie_popup()
         self.driver.click_select_sort()

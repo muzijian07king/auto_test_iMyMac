@@ -122,6 +122,8 @@ class ReSourcePage(WebPage):
         data = []
         for i in handles[1:3]:
             self.switch_window_by_name(i)
+            self.scroll_to_loc_is_click(resource['Language-drop-down'])
+            self.is_click(resource.readYaml('$.Language.en'), 1)
             data.append(self.element_text(resource.readYaml('$.sort.article')))
             self.get_diver_title()
             self.close_driver_page()

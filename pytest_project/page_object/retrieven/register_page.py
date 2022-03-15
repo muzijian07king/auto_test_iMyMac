@@ -1,3 +1,6 @@
+import random
+import time
+
 import allure
 
 from pytest_project.common.readexcel import set_excel_data
@@ -9,6 +12,10 @@ retrieve = Element('Retrieve/retrieve')
 
 
 class RegisterPage(WebPage):
+    email = str(time.time()).split('.')[0] + '@qq.com'
+    name = f'admin{random.randint(100, 999)}'
+    password = f'{random.randint(10000000, 99999999)}'
+
     @allure.step('进入login页面')
     def goto_login(self):
         self.is_click(retrieve.readYaml('$.index.login'))

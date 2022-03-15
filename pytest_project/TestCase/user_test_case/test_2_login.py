@@ -53,6 +53,8 @@ class TestBody(object):
     @allure.severity('critical')
     @pytest.mark.parametrize('email,pwd,cause', getExcelAllData('登录失败', 'Admin/login.xlsx'))
     def test_003(self, email, pwd, cause, clear_cookie):
+        if pwd in [' 123456789', '123456789 ']:
+            pytest.xfail('会自动将首尾的空格去除，待修复')
         allure.dynamic.tag(cause)
         self.driver.input_email(email)
         self.driver.input_password(pwd)

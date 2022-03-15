@@ -164,12 +164,12 @@ class OptionPage(WebPage):
         self.is_click(store['mac'])
 
     def assert_switch_win(self):
-        result = self.getAttributes(store['month-desc'], 'class') == 'version-win active'
+        result = self.getAttribute(store['win'], 'class') == 'version-win active'
         self.allure_assert_step('判断切换win是否成功', result)
         assert result
 
     def assert_switch_mac(self):
-        result = self.getAttributes(store['month-desc'], 'class') == 'version-mac active'
+        result = self.getAttribute(store['mac'], 'class') == 'version-mac active'
         self.allure_assert_step('判断切换mac是否成功', result)
         assert result
 

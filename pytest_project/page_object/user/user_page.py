@@ -1,3 +1,5 @@
+import time
+import random
 import allure
 from pytest_project.utils.times import get_utctime, sleep
 from pytest_project.page.basepage import WebPage

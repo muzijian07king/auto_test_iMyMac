@@ -35,7 +35,7 @@ class TestBody(object):
         self.driver.assert_profile(email)
 
     @allure.story('个人中心')
-    @allure.title('用户更换头像测试')
+    @allure.title('用户更换头像成功测试')
     @allure.tag('成功更换头像')
     @allure.severity('blocker')
     def test_002(self):
@@ -44,7 +44,7 @@ class TestBody(object):
         self.driver.assert_succeed_change_photo()
 
     @allure.story('个人中心')
-    @allure.title('用户更换头像测试')
+    @allure.title('用户更换头像失败测试')
     @allure.tag('更换头像失败')
     def test_003(self):
         self.driver.change_photo(cm.not_image)
@@ -66,7 +66,7 @@ class TestBody(object):
         self.driver.switch_password()
         self.driver.assert_switch_password()
 
-    @allure.title('修改用户名测试')
+    @allure.title('修改用户名成功测试')
     @allure.tag('成功修改用户名')
     @allure.severity('blocker')
     def test_006(self):
@@ -75,14 +75,14 @@ class TestBody(object):
         self.driver.submit_info_changes()
         self.driver.assert_succeed_change_name(name)
 
-    @allure.title('修改用户名测试')
-    @allure.tag('修改用户名失败')
+    @allure.title('修改用户名失败测试')
+    @allure.tag('空字符串')
     def test_007(self):
         self.driver.input_name(' ')
         self.driver.submit_info_changes()
         self.driver.assert_failed_change_name()
 
-    @allure.title('修改密码测试')
+    @allure.title('修改密码失败测试')
     @allure.tag('修改失败原密码为空')
     def test_008(self):
         self.driver.switch_password()
@@ -90,7 +90,7 @@ class TestBody(object):
         self.driver.submit_password_changes()
         self.driver.assert_input_current_password()
 
-    @allure.title('修改密码测试')
+    @allure.title('修改密码失败测试')
     @allure.tag('修改失败原密码错误')
     @pytest.mark.parametrize('old_password,new_password,confirm_password', getExcelAllData('原密码错误', 'Admin/user.xlsx'))
     def test_009(self, old_password, new_password, confirm_password):
@@ -101,7 +101,7 @@ class TestBody(object):
         self.driver.submit_password_changes()
         self.driver.assert_failed_change_password()
 
-    @allure.title('修改密码测试')
+    @allure.title('修改密码失败测试')
     @allure.tag('修改失败新密码格式错误')
     @pytest.mark.parametrize('old_password,new_password,confirm_password', getExcelAllData('新密码错误', 'Admin/user.xlsx'))
     def test_010(self, old_password, new_password, confirm_password):
@@ -112,7 +112,7 @@ class TestBody(object):
         self.driver.submit_password_changes()
         self.driver.assert_input_new_password()
 
-    @allure.title('修改密码测试')
+    @allure.title('修改密码失败测试')
     @allure.tag('修改失败再次输入密码格式错误')
     @pytest.mark.parametrize('old_password,new_password,confirm_password',
                              getExcelAllData('再次输入密码错误', 'Admin/user.xlsx'))
@@ -124,7 +124,7 @@ class TestBody(object):
         self.driver.submit_password_changes()
         self.driver.assert_input_confirm_password()
 
-    @allure.title('修改密码测试')
+    @allure.title('修改密码成功测试')
     @allure.tag('修改密码长度为8成功')
     @allure.severity('blocker')
     @pytest.mark.parametrize('new_password,confirm_password', getExcelByRow('修改成功', 1, 1, 'Admin/user.xlsx'))
@@ -139,7 +139,7 @@ class TestBody(object):
         self.driver.submit_password_changes()
         self.driver.assert_succeed_change_password(email, new_password)
 
-    @allure.title('修改密码测试')
+    @allure.title('修改密码成功测试')
     @allure.tag('修改密码长度为18成功')
     @allure.severity('blocker')
     @pytest.mark.parametrize('new_password,confirm_password', getExcelByRow('修改成功', 2, 1, 'Admin/user.xlsx'))
