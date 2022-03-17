@@ -101,19 +101,19 @@ class FAQSPage(WebPage):
         assert result
 
     def assert_goto_question_two(self):
-        result = self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 2254px;' \
+        result = self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 2341px;' \
                  and self.getAttribute(faqs.readYaml('$.Register.nav'), 'class') == 'guide-nav is_fix'
         self.allure_assert_step('判断成功移动到指定位置', result)
         assert result
 
     def assert_goto_question_three(self):
-        result = self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 4293px;' \
+        result = self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 4379px;' \
                  and self.getAttribute(faqs.readYaml('$.Register.nav'), 'class') == 'guide-nav is_fix'
         self.allure_assert_step('判断成功移动到指定位置', result)
         assert result
 
     def assert_goto_question_four(self):
-        result = self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 24528px;' \
+        result = self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 24701px;' \
                  and self.getAttribute(faqs.readYaml('$.Register.nav'), 'class') == 'guide-nav is_fix'
         self.allure_assert_step('判断成功移动到指定位置', result)
         assert result
@@ -160,55 +160,55 @@ class FAQSPage(WebPage):
 
     def assert_goto_step_1(self):
         result = self.getAttribute(faqs.readYaml('$.Register.nav-list.one'), 'class') == 'active' \
-                 and self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 4613px;'
+                 and self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 4699px;'
         self.allure_assert_step('判断成功跳转到第一个方法', result)
         assert result
 
     def assert_goto_step_2(self):
         result = self.getAttribute(faqs.readYaml('$.Register.nav-list.two'), 'class') == 'active' \
-                 and self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 5360px;'
+                 and self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 5533px;'
         self.allure_assert_step('判断成功跳转到第二个方法', result)
         assert result
 
     def assert_goto_step_3(self):
         result = self.getAttribute(faqs.readYaml('$.Register.nav-list.three'), 'class') == 'active' \
-                 and self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 7795px;'
+                 and self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 7968px;'
         self.allure_assert_step('判断成功跳转到第三个方法', result)
         assert result
 
     def assert_goto_step_4(self):
         result = self.getAttribute(faqs.readYaml('$.Register.nav-list.four'), 'class') == 'active' \
-                 and self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 10075px;'
+                 and self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 10248px;'
         self.allure_assert_step('判断成功跳转到第四个方法', result)
         assert result
 
     def assert_goto_step_5(self):
         result = self.getAttribute(faqs.readYaml('$.Register.nav-list.five'), 'class') == 'active' \
-                 and self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 14716px;'
+                 and self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 14888px'
         self.allure_assert_step('判断成功跳转到第五个方法', result)
         assert result
 
     def assert_goto_step_6(self):
         result = self.getAttribute(faqs.readYaml('$.Register.nav-list.six'), 'class') == 'active' \
-                 and self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 17413px;'
+                 and self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 17585px;'
         self.allure_assert_step('判断成功跳转到第六个方法', result)
         assert result
 
     def assert_goto_step_7(self):
         result = self.getAttribute(faqs.readYaml('$.Register.nav-list.seven'), 'class') == 'active' \
-                 and self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 19548px;'
+                 and self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 19721px;'
         self.allure_assert_step('判断成功跳转到第七个方法', result)
         assert result
 
     def assert_goto_step_8(self):
         result = self.getAttribute(faqs.readYaml('$.Register.nav-list.eight'), 'class') == 'active' \
-                 and self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 12436px;'
+                 and self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 12608px;'
         self.allure_assert_step('判断成功跳转到第八个方法', result)
         assert result
 
     def assert_goto_step_9(self):
         result = self.getAttribute(faqs.readYaml('$.Register.nav-list.nine'), 'class') == 'active' \
-                 and self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 21210px;'
+                 and self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 21383px;'
         self.allure_assert_step('判断成功跳转到第九个方法', result)
         assert result
 

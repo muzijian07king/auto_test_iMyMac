@@ -136,7 +136,7 @@ class WebPage(object):
 
     def get_current_url(self):
         """获取当前页面url"""
-        log.info(f'当前页面url：{self.driver.current_url}')
+        log.info(f'当前页面url：{self.driver.current_url}, 当前页面标题=》{self.driver.title}')
         return self.driver.current_url
 
     def Key_enter(self, loc):

@@ -118,6 +118,7 @@ class TestBody(object):
     @pytest.mark.timeout(30)
     @allure.title('Google时间排序测试')
     @allure.tag('时间')
+    @pytest.mark.flaky(reruns=0)
     def test_012(self):
         self.driver.send_search('mac')
         self.driver.click_input_button()
