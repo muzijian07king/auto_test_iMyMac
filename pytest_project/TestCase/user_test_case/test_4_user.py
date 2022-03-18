@@ -228,6 +228,7 @@ class TestBody(object):
     @allure.title('退出个人中心测试')
     @allure.tag('退出')
     @allure.severity('blocker')
+    @pytest.mark.flaky(reruns=0)
     def test_024(self, login_out):
         self.driver.popup_logout()
         self.driver.click_logout()

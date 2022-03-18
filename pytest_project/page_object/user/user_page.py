@@ -127,7 +127,7 @@ class UserPage(WebPage):
         self.input_text(user.readYaml('$.password'), password)
         self.is_click(user['remember'])
         self.is_click(user.readYaml('$.login'), 5)
-        assert self.is_display(user.readYaml('$.succeed'))
+        assert self.find_element(user.readYaml('$.succeed')) is not None
 
     def assert_succeed_change_password(self, email, password):
         self.wait_element_display(user.readYaml("$.Profile.New-Password.succeed"))

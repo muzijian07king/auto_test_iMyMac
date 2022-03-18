@@ -184,7 +184,7 @@ class FAQSPage(WebPage):
 
     def assert_goto_step_5(self):
         result = self.getAttribute(faqs.readYaml('$.Register.nav-list.five'), 'class') == 'active' \
-                 and self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 14888px'
+                 and self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 14888px;'
         self.allure_assert_step('判断成功跳转到第五个方法', result)
         assert result
 
@@ -214,7 +214,7 @@ class FAQSPage(WebPage):
 
     def assert_goto_step_10(self):
         result = self.getAttribute(faqs.readYaml('$.Register.nav-list.ten'), 'class') == 'active' \
-                 and self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 23432px;'
+                 and self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 23605px;'
         self.allure_assert_step('判断成功跳转到第十个方法', result)
         assert result
 

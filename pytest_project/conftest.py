@@ -39,10 +39,11 @@ def pytest_runtest_makereport():
     outcome = yield
     report = outcome.get_result()
     """判断失败用例"""
-    if report.when == 'call' and report.failed:
-        if hasattr(driver, "get_screenshot_as_png"):
-            with allure.step('添加失败截图...'):
-                allure.attach(driver.get_screenshot_as_png(), "失败截图", allure.attachment_type.PNG)
+    if report.failed:
+        if report.when == 'call' or report.when == 'teardown':
+            if hasattr(driver, "get_screenshot_as_png"):
+                with allure.step('添加失败截图...'):
+                    allure.attach(driver.get_screenshot_as_png(), "失败截图", allure.attachment_type.PNG)
 
 
 def pytest_terminal_summary(terminalreporter):
