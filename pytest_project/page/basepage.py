@@ -223,12 +223,12 @@ class WebPage(object):
         log.info("页面滚到driverElement：{}".format(element))
         self.driver.execute_script('arguments[0].scrollIntoView()', element)
 
-    def scroll_to_loc_is_click(self, loc):
+    def scroll_to_loc_is_click(self, loc, time=0.5):
         """下拉滑动到某个元素上点击"""
         log.info("页面滚到元素{}".format(loc))
         div = self.find_element(loc)
         self.driver.execute_script('arguments[0].scrollIntoView()', div)
-        sleep(0.5)
+        sleep(time)
         div.click()
 
     def is_request_200(self):

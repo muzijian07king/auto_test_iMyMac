@@ -124,7 +124,7 @@ class ReSourcePage(WebPage):
         for i in handles[1:3]:
             self.switch_window_by_name(i)
             log.info(f'当前标签页为=》{self.get_current_url()}')
-            self.scroll_to_loc_is_click(resource['Language-drop-down'])
+            self.scroll_to_loc_is_click(resource['Language-drop-down'], 1)
             self.is_click(resource.readYaml('$.Language.en'), 2)
             data.append(self.element_text(resource.readYaml('$.sort.article')))
             self.get_diver_title()
