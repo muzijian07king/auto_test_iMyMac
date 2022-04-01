@@ -117,11 +117,14 @@ class ReSourcePage(WebPage):
 
     @allure.step('获取最新两篇文章的日期')
     def get_latest_two_date(self):
+        handler = self.get_window_handle()
+        old_handles = self.get_windows_handles()
         self.is_click(resource['source-content'])
         self.is_click(resource['source-two-content'])
-        handles = self.get_windows_handles()
+        new_handles = self.get_windows_handles()
+        handles = list(set(new_handles) - set(old_handles))
         data = []
-        for i in handles[1:3]:
+        for i in handles:
             self.switch_window_by_name(i)
             log.info(f'当前标签页为=》{self.get_current_url()}')
             self.scroll_to_loc_is_click(resource['Language-drop-down'], 1)
@@ -129,7 +132,7 @@ class ReSourcePage(WebPage):
             data.append(self.element_text(resource.readYaml('$.sort.article')))
             self.get_diver_title()
             self.close_driver_page()
-        self.switch_window_by_name(handles[0])
+        self.switch_window_by_name(handler)
         return data
 
     def assert_sort_by_date(self, first_date, second_date):

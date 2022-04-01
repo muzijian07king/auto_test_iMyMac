@@ -65,7 +65,7 @@ class RegisterPage(WebPage):
 
     @allure.step('点击register按钮')
     def click_register(self):
-        self.is_click(retrieve.readYaml('$.register.register'))
+        self.is_click(retrieve.readYaml('$.register.register'), 0)
 
     def assert_error_name(self):
         result = self.is_display(retrieve.readYaml('$.register.error.name'))

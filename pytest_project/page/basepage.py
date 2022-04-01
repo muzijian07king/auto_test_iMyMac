@@ -46,26 +46,16 @@ class WebPage(object):
     def find_element(self, loc):
         """定位单个元素"""
         try:
-            WebPage.element_locator(lambda *args: self.wait.until(EC.presence_of_element_located(args)), loc)
-            method, func = self.element_loc(loc)
-            """
-            method : 定位方法 例如id定位法
-            func : 根据方法定位元素
-            """
-            return self.driver.find_element(method, func)
+            element = WebPage.element_locator(lambda *args: self.wait.until(EC.presence_of_element_located(args)), loc)
+            return element
         except AttributeError:
             raise AttributeError('未找到{}元素'.format(loc))
 
     def find_elements(self, loc):
         """定位多个元素"""
         try:
-            WebPage.element_locator(lambda *args: self.wait.until(EC.presence_of_all_elements_located(args)), loc)
-            method, func = self.element_loc(loc)
-            """
-            method : 定位方法 例如id定位法
-            func : 根据方法定位元素
-            """
-            return self.driver.find_elements(method, func)
+            elements = WebPage.element_locator(lambda *args: self.wait.until(EC.presence_of_all_elements_located(args)), loc)
+            return elements
         except AttributeError:
             raise AttributeError('未找到{}元素'.format(loc))
 
