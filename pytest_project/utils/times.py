@@ -57,7 +57,7 @@ def running_time(func):
     return wrapper
 
 
-def compare_date(date1, date2, fmt='%b %d,　%Y'):
+def compare_date(date1, date2, fmt='%d %b %Y'):
     """
     比较两时间的差值
     :param date1: 时间1(与格式对应)
@@ -66,8 +66,16 @@ def compare_date(date1, date2, fmt='%b %d,　%Y'):
     :return:相差天数，date1-date2
     """
     try:
-        date1 = datetime.datetime.strptime(date1, fmt)
-        date2 = datetime.datetime.strptime(date2, fmt)
+        if "days ago" in date1:
+            current1 = date1.split(" ", 1)[0]
+            date1 = (datetime.datetime.now() + datetime.timedelta(days=-int(current1)))
+        else:
+            date1 = datetime.datetime.strptime(date1, fmt)
+        if "days ago" in date2:
+            current2 = date2.split(" ", 1)[0]
+            date2 = (datetime.datetime.now() + datetime.timedelta(days=-int(current2)))
+        else:
+            date2 = datetime.datetime.strptime(date2, fmt)
     except Exception as e:
         log.error('日期格式错误')
         raise e
@@ -75,4 +83,5 @@ def compare_date(date1, date2, fmt='%b %d,　%Y'):
 
 
 if __name__ == '__main__':
-    print(compare_date('February 20, 2022', 'Nov 16, 2022'))
+    pass
+

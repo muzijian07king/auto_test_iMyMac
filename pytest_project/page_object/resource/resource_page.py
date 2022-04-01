@@ -104,39 +104,14 @@ class ReSourcePage(WebPage):
     def sort_by_date(self):
         self.is_click(resource.readYaml('$.sort.date'))
 
-    @staticmethod
-    def date_treatment(date_str):
-        date = date_str.split(':')[1]
-        date = date.strip().split(' ')
-        date[0] = date[0][:3]
-        return ' '.join(date)
-
     @allure.step('关闭隐私弹窗')
     def close_cookie_popup(self):
         self.jsInDriver("document.querySelector('div.box-cookies').className = 'box-cookies'")
 
-    @allure.step('获取最新两篇文章的日期')
-    def get_latest_two_date(self):
-        handler = self.get_window_handle()
-        old_handles = self.get_windows_handles()
-        self.is_click(resource['source-content'])
-        self.is_click(resource['source-two-content'])
-        new_handles = self.get_windows_handles()
-        handles = list(set(new_handles) - set(old_handles))
-        data = []
-        for i in handles:
-            self.switch_window_by_name(i)
-            log.info(f'当前标签页为=》{self.get_current_url()}')
-            self.scroll_to_loc_is_click(resource['Language-drop-down'], 1)
-            self.is_click(resource.readYaml('$.Language.en'), 2)
-            data.append(self.element_text(resource.readYaml('$.sort.article')))
-            self.get_diver_title()
-            self.close_driver_page()
-        self.switch_window_by_name(handler)
-        return data
-
-    def assert_sort_by_date(self, first_date, second_date):
-        result = compare_date(self.date_treatment(first_date), self.date_treatment(second_date)) >= 0
+    def assert_sort_by_date(self):
+        data1 = self.element_text(resource['source-content']).split("...")[0].strip()
+        data2 = self.element_text(resource['source-two-content']).split("...")[0].strip()
+        result = compare_date(data1, data2) >= 0
         self.allure_assert_step('判断时间排序是否成功', result)
         assert result
 

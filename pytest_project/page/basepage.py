@@ -54,7 +54,8 @@ class WebPage(object):
     def find_elements(self, loc):
         """定位多个元素"""
         try:
-            elements = WebPage.element_locator(lambda *args: self.wait.until(EC.presence_of_all_elements_located(args)), loc)
+            elements = WebPage.element_locator(lambda *args: self.wait.until(EC.presence_of_all_elements_located(args)),
+                                               loc)
             return elements
         except AttributeError:
             raise AttributeError('未找到{}元素'.format(loc))
@@ -64,7 +65,7 @@ class WebPage(object):
         log.info("相同元素：{}".format((loc, number)))
         return number
 
-    def element_text(self, loc):
+    def element_text(self, loc) -> str:
         """获取当前的text属性"""
         _text = self.find_element(loc).text
         log.info('获取到文本：{}'.format(_text))

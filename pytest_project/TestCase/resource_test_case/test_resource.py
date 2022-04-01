@@ -113,18 +113,17 @@ class TestBody(object):
         self.driver.click_input_button()
         self.driver.click_select_sort()
         self.driver.sort_by_relevance()
-        self.driver.assert_search_content_succeed('java')
+        self.driver.assert_search_content_succeed('c')
 
     @pytest.mark.timeout(30)
     @allure.title('Google时间排序测试')
     @allure.tag('时间')
     @pytest.mark.flaky(reruns=0)
     def test_012(self):
-        self.driver.send_search('java')
+        self.driver.send_search('c')
         self.driver.click_input_button()
         self.driver.close_cookie_popup()
         self.driver.click_select_sort()
         self.driver.sort_by_date()
-        data = self.driver.get_latest_two_date()
-        self.driver.assert_sort_by_date(data[1], data[0])
+        self.driver.assert_sort_by_date()
 
