@@ -4,7 +4,7 @@ import subprocess
 WIN = sys.platform.startswith('win')
 HISTORY = True
 DOWNLOAD = True
-DeBug = True
+DeBug = False
 
 
 def main():
