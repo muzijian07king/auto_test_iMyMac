@@ -108,9 +108,10 @@ class WebPage(object):
             log.info('点击元素：{}'.format(elements[index]))
         sleep(1)
 
-    def is_display(self, loc) -> bool:
+    def is_display(self, loc, time=1) -> bool:
         """判断元素是否可见"""
         ele = self.find_element(loc)
+        sleep(time)
         display = ele.is_displayed()
         log.info(f'元素{loc}是否可见：{display}')
         return display

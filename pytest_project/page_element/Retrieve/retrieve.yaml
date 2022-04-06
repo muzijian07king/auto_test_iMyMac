@@ -11,16 +11,16 @@ register:
   login: 'css=div.register-content>div>a'     #登录
   register: 'css=div.register-content>button'   #注册
   error:             #错误信息
-    name: 'css=div.form-content>div.form-item:nth-child(2)>section'
-    email: 'css=div.form-content>div.form-item:nth-child(3)>section'
+    name: 'css=div.form-content>div.form-item:nth-child(2)>section.message-show'
+    email: 'css=div.form-content>div.form-item:nth-child(3)>section.message-show'
     pwd:
-      length: 'css=div.form-content>div.form-item:nth-child(4)>section'
-      space: 'css=div.form-content>div.form-item:nth-child(4)>section>section'
-    re-pwd: 'css=div.form-content>div.form-item:nth-child(5)>section'
-    accept: 'css=div.accept>p'
+      length: 'css=div.form-content>div.form-item:nth-child(4)>section.message-show'
+      space: 'css=div.form-content>div.form-item:nth-child(4)>section>section.message-show'
+    re-pwd: 'css=div.form-content>div.form-item:nth-child(5)>section.message-show'
+    accept: 'css=div.accept>p.message-show'
   terms: "css=a[title='terms']"           #协议
-  failed: 'css=div.form-content>p:nth-child(7)'
-  succeed: 'css=div.form-content>p:nth-child(8)'
+  failed: 'css=div.form-content>p:nth-child(7).message-show'
+  succeed: 'css=div.form-content>p:nth-child(8).message-show'
 language:
   switch: 'css=div.select-lang>p'
   selector: 'css=div.languageSelector'
@@ -47,13 +47,13 @@ login:
   remember: 'id=rem-checkbox'           #记住我
   login: 'css=div.login-btn>button'       #登录
   register: 'css=div.login-btn>div>a'     #注册
-  error: 'css=div.form-content>p'         #错误弹窗
+  error: 'css=div.form-content>p.message-show'         #错误弹窗
   succeed: 'css=p.self-content>span'      #成功登录后进入系统右上角用户名
 recover:
   email: 'id=email'                       #邮箱
-  error: 'css=div.form-item>section'        #错误信息
-  failed: 'css=div.form-content>p:nth-child(3)'       #错误信息
-  succeed: 'css=div.form-content>p:nth-child(4)'      #成功信息
+  error: 'css=div.form-item>section.message-show'        #错误信息
+  failed: 'css=div.form-content>p:nth-child(3).message-show'       #错误信息
+  succeed: 'css=div.form-content>p:nth-child(4).message-show'      #成功信息
   login: 'css=div.bg-liner>a'                         #登录按钮
   recover: 'css=div.login-btn>input'                  #找回按钮
 

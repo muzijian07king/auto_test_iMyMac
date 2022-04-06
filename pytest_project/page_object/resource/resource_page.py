@@ -109,8 +109,8 @@ class ReSourcePage(WebPage):
         self.jsInDriver("document.querySelector('div.box-cookies').className = 'box-cookies'")
 
     def assert_sort_by_date(self):
-        data1 = self.element_text(resource['source-content']).split("...")[0].strip()
-        data2 = self.element_text(resource['source-two-content']).split("...")[0].strip()
+        data1 = self.element_text(resource['source-content-data']).split("...")[0].strip()
+        data2 = self.element_text(resource['source-two-content-data']).split("...")[0].strip()
         result = compare_date(data1, data2) >= 0
         self.allure_assert_step('判断时间排序是否成功', result)
         assert result
