@@ -57,7 +57,7 @@ def running_time(func):
     return wrapper
 
 
-def compare_date(date1, date2, fmt='%d %b %Y'):
+def compare_date(date1, date2, fmt='%b %d, %Y'):
     """
     比较两时间的差值
     :param date1: 时间1(与格式对应)
