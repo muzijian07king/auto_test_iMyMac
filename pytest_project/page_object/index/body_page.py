@@ -33,23 +33,15 @@ class BodyPage(WebPage):
             sleep()
 
     def assert_download(self):
-        result = cm.get_download_filename() == 'crdownload' or \
-                 cm.get_download_filename() == 'pkg'
-        self.allure_assert_step('判断是否下载成功', result)
-        assert result
+        self.allure_assert_or('判断是否下载成功', ('eq', cm.get_download_filename(), 'crdownload'),
+                              ('eq', cm.get_download_filename(), 'pkg'))
 
     def assert_more(self):
-        result = self.get_current_url() == 'https://www.imymac.com/powermymac/'
-        self.allure_assert_step('判断是否进入ppm详情页面', result)
-        assert result
+        self.allure_assert('判断是否进入ppm详情页面', ('eq', self.get_current_url(), 'https://www.imymac.com/powermymac/'))
 
     def assert_media(self, url):
-        result = self.get_current_url() == url
-        self.allure_assert_step('判断是否是否进入媒体官网', result)
-        assert result
+        self.allure_assert('判断是否是否进入媒体官网', ('eq', self.get_current_url(), url))
 
     def assert_whether_top(self):
-        result = self.getAttribute(body['top-button'], 'class') == 'top-btn t4s' and \
-                   self.jsInDriver('return document.documentElement.scrollTop') == 0
-        self.allure_assert_step('判断是否到达顶部', result)
-        assert result
+        self.allure_assert('判断是否到达顶部', ('eq', self.getAttribute(body['top-button'], 'class'), 'top-btn t4s'),
+                           ('eq', self.jsInDriver('return document.documentElement.scrollTop'), 0))

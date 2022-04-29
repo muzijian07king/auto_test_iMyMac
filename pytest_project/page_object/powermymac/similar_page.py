@@ -61,27 +61,18 @@ class SimilarPage(WebPage):
         self.jsInDriver("document.querySelector('div.navbar-sub-header>a:nth-child(1)').click()")
 
     def assert_download(self):
-        result = cm.get_download_filename() == 'crdownload' or \
-                 cm.get_download_filename() == 'pkg'
-        self.allure_assert_step('判断是否下载成功', result)
-        assert result
+        self.allure_assert_or('判断是否下载成功', ('eq', cm.get_download_filename(), 'crdownload'),
+                              ('eq', cm.get_download_filename(), 'pkg'))
 
     def assert_go_buy(self):
-        result = self.get_current_url() == 'https://www.imymac.com/store/buy-powermymac.html'
-        self.allure_assert_step('判断是否跳转购买页面', result)
-        assert result
+        self.allure_assert('判断是否跳转购买页面',
+                           ('eq', self.get_current_url(), 'https://www.imymac.com/store/buy-powermymac.html'))
 
     def assert_tip_html(self, url):
-        result = self.get_current_url() == url
-        self.allure_assert_step('判断是否跳转技巧页面', result)
-        assert result
+        self.allure_assert('判断是否跳转技巧页面', ('eq', self.get_current_url(), url))
 
     def assert_index(self):
-        result = self.get_current_url() == 'https://www.imymac.com/powermymac/'
-        self.allure_assert_step('判断是否跳转pmm主页', result)
-        assert result
+        self.allure_assert('判断是否跳转pmm主页', ('eq', self.get_current_url(), 'https://www.imymac.com/powermymac/'))
 
     def assert_popup_nav(self):
-        result = self.is_display(similar['navbar'])
-        self.allure_assert_step('判断是否弹出导航栏', result)
-        assert result
+        self.allure_assert('判断是否弹出导航栏', ('eq', self.is_display(similar['navbar']), True))

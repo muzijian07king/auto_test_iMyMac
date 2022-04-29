@@ -39,7 +39,7 @@ class TestBody(object):
         allure.dynamic.tag('优惠前价格')
         self.driver.assert_video_original_price()
 
-    @allure.title('ppm一个月套餐优惠后价格测试')
+    @allure.title('video一个月套餐优惠后价格测试')
     def test_005(self):
         """video一个月套餐优惠后价格测试"""
         allure.dynamic.tag('优惠后价格')

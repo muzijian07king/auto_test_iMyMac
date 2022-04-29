@@ -3,7 +3,6 @@ import allure
 from pytest_project.page.basepage import WebPage
 from pytest_project.common.readelement import Element
 from pytest_project.utils.times import sleep, compare_date
-from pytest_project.utils.logger import log
 
 resource = Element('Resource/resource')
 
@@ -23,19 +22,16 @@ class ReSourcePage(WebPage):
         sleep(2)
 
     def assert_search_content_succeed(self, search):
-        result = search in self.element_text(resource['source-content']).lower() and \
-                 self.element_text(resource['source-text']) == search
-        self.allure_assert_step('判断搜索内容是否准确', result)
-        assert result
+        self.allure_assert('判断搜索内容是否准确', ('include', search, self.element_text(resource['source-content']).lower()),
+                           ('eq', self.element_text(resource['source-text']), search))
 
     @allure.step('点击标签栏中的标签')
     def click_topics(self, topics):
         self.is_click(resource.readYaml(f'$.topics.{topics}'))
 
     def assert_article_topics(self, topics):
-        result = set(self.elements_text(resource['article-topics'])) == {topics}
-        self.allure_assert_step(f'判断是否成功全以{topics}标签展示', result)
-        assert result
+        self.allure_assert(f'判断是否成功全以{topics}标签展示',
+                           ('eq', set(self.elements_text(resource['article-topics'])), {topics}))
 
     @allure.step('点击文章标题')
     def goto_article_with_title(self, index):
@@ -44,9 +40,8 @@ class ReSourcePage(WebPage):
         return title
 
     def assert_goto_article_with_title(self, article_title):
-        result = article_title == self.element_text(resource['webpage-article-title'])
-        self.allure_assert_step('判断点击文章标题与打开后的文章标题是否相同', result)
-        assert result
+        self.allure_assert('判断点击文章标题与打开后的文章标题是否相同',
+                           ('eq', self.element_text(resource['webpage-article-title']), article_title))
 
     @allure.step('点击文章图片')
     def goto_article_with_img(self, index):
@@ -55,9 +50,8 @@ class ReSourcePage(WebPage):
         return title
 
     def assert_goto_article_with_img(self, article_title):
-        result = article_title == self.element_text(resource['webpage-article-title'])
-        self.allure_assert_step('判断点击文章图片与打开后的文章标题是否相同', result)
-        assert result
+        self.allure_assert('判断点击文章图片与打开后的文章标题是否相同',
+                           ('eq', self.element_text(resource['webpage-article-title']), article_title))
 
     @allure.step('点击文章标签')
     def click_article_topics(self):
@@ -70,10 +64,8 @@ class ReSourcePage(WebPage):
             self.scroll_to_loc_is_click(resource.readYaml(f'$.article-page-li-button.{page_num}'))
 
     def assert_goto_page_with_pagenum(self, page_num: str):
-        result = self.element_text(resource['page-check']) == page_num and \
-                 self.get_current_url() == f'https://www.imymac.com/resource/?p={page_num}'
-        self.allure_assert_step('判断页面是否能跳转', result)
-        assert result
+        self.allure_assert('判断页面是否能跳转', ('eq', self.element_text(resource['page-check']), page_num),
+                           ('eq', self.get_current_url(), f'https://www.imymac.com/resource/?p={page_num}'))
 
     @allure.step('点击上一页')
     def click_page_up(self):
@@ -88,9 +80,7 @@ class ReSourcePage(WebPage):
             self.is_click(resource.readYaml(f'$.article-page-li-button.{page_num}'))
 
     def assert_goto_google_plug_page_with_pagenum(self, page_num: str):
-        result = self.element_text(resource['google-page-check']) == page_num
-        self.allure_assert_step('判断页面是否能跳转', result)
-        assert result
+        self.allure_assert('判断页面是否能跳转', ('eq', self.element_text(resource['google-page-check']), page_num))
 
     @allure.step('点击排序按钮')
     def click_select_sort(self):
@@ -111,11 +101,7 @@ class ReSourcePage(WebPage):
     def assert_sort_by_date(self):
         data1 = self.element_text(resource['source-content-data']).split("...")[0].strip()
         data2 = self.element_text(resource['source-two-content-data']).split("...")[0].strip()
-        result = compare_date(data1, data2) >= 0
-        self.allure_assert_step('判断时间排序是否成功', result)
-        assert result
+        self.allure_assert('判断时间排序是否成功', ('ge', compare_date(data1, data2), 0))
 
     def assert_no_search(self):
-        result = self.find_element(resource['no-result']) is not None
-        self.allure_assert_step('判断Google插件是否弹窗未找到', result)
-        assert result
+        self.allure_assert('判断Google插件是否弹窗未找到', ('not_eq', self.find_element(resource['no-result']), None))

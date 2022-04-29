@@ -9,131 +9,99 @@ store = Element('Store/pmm-store-option')
 
 class OptionPage(WebPage):
     def assert_month_original_price(self):
-        result = self.element_text(store.readYaml('$.month.original-price')) == getValueByIndex(2, 2, 'pmm套餐价格',
-                                                                                                'Store/store.xlsx')
-        self.allure_assert_step('判断产品购买一个月原价', result)
-        assert result
+        self.allure_assert('判断产品购买一个月原价', ('eq', self.element_text(store.readYaml('$.month.original-price')),
+                                           getValueByIndex(2, 2, 'pmm套餐价格', 'Store/store.xlsx')))
 
     def assert_month_now_price(self):
-        result = self.element_text(store.readYaml('$.month.now-price')) == getValueByIndex(3, 2, 'pmm套餐价格',
-                                                                                           'Store/store.xlsx')
-        self.allure_assert_step('判断产品购买一个月现价', result)
-        assert result
+        self.allure_assert('判断产品购买一个月现价', ('eq', self.element_text(store.readYaml('$.month.now-price')),
+                                           getValueByIndex(3, 2, 'pmm套餐价格', 'Store/store.xlsx')))
 
     def assert_month_discounts_price(self):
-        result = self.element_text(store.readYaml('$.month.discounts-price')) == getValueByIndex(4, 2,
-                                                                                                 'pmm套餐价格',
-                                                                                                 'Store/store.xlsx')
-        self.allure_assert_step('判断产品购买一个月优惠价', result)
-        assert result
+        self.allure_assert('判断产品购买一个月优惠价', ('eq', self.element_text(store.readYaml('$.month.discounts-price')),
+                                            getValueByIndex(4, 2, 'pmm套餐价格', 'Store/store.xlsx')))
 
     def assert_year_one_original_price(self):
-        result = self.element_text(store.readYaml('$.year.1-Mac.original-price')) == getValueByIndex(2, 3, 'pmm套餐价格',
-                                                                                                     'Store/store.xlsx')
-        self.allure_assert_step('判断产品购买一个年一台原价', result)
-        assert result
+        self.allure_assert('判断产品购买一个年一台原价', ('eq', self.element_text(store.readYaml('$.year.1-Mac.original-price')),
+                                             getValueByIndex(2, 3, 'pmm套餐价格', 'Store/store.xlsx')))
 
     def assert_year_one_now_price(self):
-        result = self.element_text(store.readYaml('$.year.1-Mac.now-price')) == getValueByIndex(3, 3, 'pmm套餐价格',
-                                                                                                'Store/store.xlsx')
-        self.allure_assert_step('判断产品购买一个年一台年现价', result)
-        assert result
+        self.allure_assert('判断产品购买一个年一台年现价', ('eq', self.element_text(store.readYaml('$.year.1-Mac.now-price')),
+                                              getValueByIndex(3, 3, 'pmm套餐价格', 'Store/store.xlsx')))
 
     def assert_year_one_discounts_price(self):
-        result = self.element_text(store.readYaml('$.year.1-Mac.discounts-price')) == \
-                 getValueByIndex(4, 3, 'pmm套餐价格', 'Store/store.xlsx')
-        self.allure_assert_step('判断产品购买一个年一台优惠价', result)
-        assert result
+        self.allure_assert('判断产品购买一个年一台优惠价', ('eq', self.element_text(store.readYaml('$.year.1-Mac.discounts-price')),
+                                              getValueByIndex(4, 3, 'pmm套餐价格', 'Store/store.xlsx')))
 
     def assert_year_two_original_price(self):
-        result = self.element_text(store.readYaml('$.year.2-Macs.original-price')) == \
-                 getValueByIndex(2, 4, 'pmm套餐价格', 'Store/store.xlsx')
-        self.allure_assert_step('判断产品购买一个年两个设备原价', result)
-        assert result
+        self.allure_assert('判断产品购买一个年两个设备原价', ('eq', self.element_text(store.readYaml('$.year.2-Macs.original-price')),
+                                               getValueByIndex(2, 4, 'pmm套餐价格', 'Store/store.xlsx')))
 
     def assert_year_two_now_price(self):
-        result = self.element_text(store.readYaml('$.year.2-Macs.now-price')) == \
-                 getValueByIndex(3, 4, 'pmm套餐价格', 'Store/store.xlsx')
-        self.allure_assert_step('判断产品购买一个年两个设备现价', result)
-        assert result
+        self.allure_assert('判断产品购买一个年两个设备现价', ('eq', self.element_text(store.readYaml('$.year.2-Macs.now-price')),
+                                               getValueByIndex(3, 4, 'pmm套餐价格', 'Store/store.xlsx')))
 
     def assert_year_two_discounts_price(self):
-        result = self.element_text(store.readYaml('$.year.2-Macs.discounts-price')) == \
-                 getValueByIndex(4, 4, 'pmm套餐价格', 'Store/store.xlsx')
-        self.allure_assert_step('判断产品购买一个年两个设备优惠价', result)
-        assert result
+        self.allure_assert('判断产品购买一个年两个设备优惠价',
+                           ('eq', self.element_text(store.readYaml('$.year.2-Macs.discounts-price')),
+                            getValueByIndex(4, 4, 'pmm套餐价格', 'Store/store.xlsx')))
 
     def assert_year_five_original_price(self):
-        result = self.element_text(store.readYaml('$.year.5-Macs.original-price')) == \
-                 getValueByIndex(2, 5, 'pmm套餐价格', 'Store/store.xlsx')
-        self.allure_assert_step('判断产品购买一个年五台设备原价', result)
-        assert result
+        self.allure_assert('判断产品购买一个年五台设备原价', ('eq', self.element_text(store.readYaml('$.year.5-Macs.original-price')),
+                                               getValueByIndex(2, 5, 'pmm套餐价格', 'Store/store.xlsx')))
 
     def assert_year_five_now_price(self):
-        result = self.element_text(store.readYaml('$.year.5-Macs.now-price')) == \
-                 getValueByIndex(3, 5, 'pmm套餐价格', 'Store/store.xlsx')
-        self.allure_assert_step('判断产品购买一个年五台设备现价', result)
-        assert result
+        self.allure_assert('判断产品购买一个年五台设备现价', ('eq', self.element_text(store.readYaml('$.year.5-Macs.now-price')),
+                                               getValueByIndex(3, 5, 'pmm套餐价格', 'Store/store.xlsx')))
 
     def assert_year_five_discounts_price(self):
-        result = self.element_text(store.readYaml('$.year.5-Macs.discounts-price')) == \
-                 getValueByIndex(4, 5, 'pmm套餐价格', 'Store/store.xlsx')
-        self.allure_assert_step('判断产品购买一个年五台设备优惠价', result)
-        assert result
+        self.allure_assert('判断产品购买一个年五台设备优惠价',
+                           ('eq', self.element_text(store.readYaml('$.year.5-Macs.discounts-price')),
+                            getValueByIndex(4, 5, 'pmm套餐价格', 'Store/store.xlsx')))
 
     def assert_lifetime_one_original_price(self):
-        result = self.element_text(store.readYaml('$.lifetime-license.1-Mac.original-price')) == \
-                 getValueByIndex(2, 6, 'pmm套餐价格', 'Store/store.xlsx')
-        self.allure_assert_step('判断产品购买永久一台设备原价', result)
-        assert result
+        self.allure_assert('判断产品购买永久一台设备原价', (
+            'eq', self.element_text(store.readYaml('$.lifetime-license.1-Mac.original-price')),
+            getValueByIndex(2, 6, 'pmm套餐价格', 'Store/store.xlsx')))
 
     def assert_lifetime_one_now_price(self):
-        result = self.element_text(store.readYaml('$.lifetime-license.1-Mac.now-price')) == \
-                 getValueByIndex(3, 6, 'pmm套餐价格', 'Store/store.xlsx')
-        self.allure_assert_step('判断产品购买永久一台设备现价', result)
-        assert result
+        self.allure_assert('判断产品购买永久一台设备现价', (
+            'eq', self.element_text(store.readYaml('$.lifetime-license.1-Mac.now-price')),
+            getValueByIndex(3, 6, 'pmm套餐价格', 'Store/store.xlsx')))
 
     def assert_lifetime_one_discounts_price(self):
-        result = self.element_text(store.readYaml('$.lifetime-license.1-Mac.discounts-price')) == \
-                 getValueByIndex(4, 6, 'pmm套餐价格', 'Store/store.xlsx')
-        self.allure_assert_step('判断产品购买永久一台设备优惠价', result)
-        assert result
+        self.allure_assert('判断产品购买永久一台设备优惠价', (
+            'eq', self.element_text(store.readYaml('$.lifetime-license.1-Mac.discounts-price')),
+            getValueByIndex(4, 6, 'pmm套餐价格', 'Store/store.xlsx')))
 
     def assert_lifetime_two_original_price(self):
-        result = self.element_text(store.readYaml('$.lifetime-license.2-Macs.original-price')) == \
-                 getValueByIndex(2, 7, 'pmm套餐价格', 'Store/store.xlsx')
-        self.allure_assert_step('判断产品购买永久两台设备原价', result)
-        assert result
+        self.allure_assert('判断产品购买永久两台设备原价', (
+            'eq', self.element_text(store.readYaml('$.lifetime-license.2-Macs.original-price')),
+            getValueByIndex(2, 7, 'pmm套餐价格', 'Store/store.xlsx')))
 
     def assert_lifetime_two_now_price(self):
-        result = self.element_text(store.readYaml('$.lifetime-license.2-Macs.now-price')) == \
-                 getValueByIndex(3, 7, 'pmm套餐价格', 'Store/store.xlsx')
-        self.allure_assert_step('判断产品购买永久两台设备现价', result)
-        assert result
+        self.allure_assert('判断产品购买永久两台设备现价', (
+            'eq', self.element_text(store.readYaml('$.lifetime-license.2-Macs.now-price')),
+            getValueByIndex(3, 7, 'pmm套餐价格', 'Store/store.xlsx')))
 
     def assert_lifetime_two_discounts_price(self):
-        result = self.element_text(store.readYaml('$.lifetime-license.2-Macs.discounts-price')) == \
-                 getValueByIndex(4, 7, 'pmm套餐价格', 'Store/store.xlsx')
-        self.allure_assert_step('判断产品购买永久两台设备优惠价', result)
-        assert result
+        self.allure_assert('判断产品购买永久两台设备优惠价', (
+            'eq', self.element_text(store.readYaml('$.lifetime-license.2-Macs.discounts-price')),
+            getValueByIndex(4, 7, 'pmm套餐价格', 'Store/store.xlsx')))
 
     def assert_lifetime_five_original_price(self):
-        result = self.element_text(store.readYaml('$.lifetime-license.5-Macs.original-price')) == \
-                 getValueByIndex(2, 8, 'pmm套餐价格', 'Store/store.xlsx')
-        self.allure_assert_step('判断产品购买永久五台设备原价', result)
-        assert result
+        self.allure_assert('判断产品购买永久五台设备原价', (
+            'eq', self.element_text(store.readYaml('$.lifetime-license.5-Macs.original-price')),
+            getValueByIndex(2, 8, 'pmm套餐价格', 'Store/store.xlsx')))
 
     def assert_lifetime_five_now_price(self):
-        result = self.element_text(store.readYaml('$.lifetime-license.5-Macs.now-price')) == \
-                 getValueByIndex(3, 8, 'pmm套餐价格', 'Store/store.xlsx')
-        self.allure_assert_step('判断产品购买永久五台设备现价', result)
-        assert result
+        self.allure_assert('判断产品购买永久五台设备现价', (
+            'eq', self.element_text(store.readYaml('$.lifetime-license.5-Macs.now-price')),
+            getValueByIndex(3, 8, 'pmm套餐价格', 'Store/store.xlsx')))
 
     def assert_lifetime_five_discounts_price(self):
-        result = self.element_text(store.readYaml('$.lifetime-license.5-Macs.discounts-price')) == \
-                 getValueByIndex(4, 8, 'pmm套餐价格', 'Store/store.xlsx')
-        self.allure_assert_step('判断产品购买永久五台设备优惠价', result)
-        assert result
+        self.allure_assert('判断产品购买永久五台设备优惠价', (
+            'eq', self.element_text(store.readYaml('$.lifetime-license.5-Macs.discounts-price')),
+            getValueByIndex(4, 8, 'pmm套餐价格', 'Store/store.xlsx')))
 
     @allure.step("点击购买一个月套餐按钮")
     def click_buy_month_button(self):
@@ -216,60 +184,53 @@ class OptionPage(WebPage):
         self.switch_to_frame(store.readYaml('$.lifetime-license.5-Macs.iframe', 1))
 
     def assert_month_pay(self):
-        result = self.element_text(store['pay-title']) == \
-                 getValueByIndex(1, 2, 'pmm套餐价格', 'Store/store.xlsx') and \
-                 self.element_text(store['pay-price']) == 'US' + \
-                 getValueByIndex(3, 2, 'pmm套餐价格', 'Store/store.xlsx')
-        self.allure_assert_step('判断支付弹窗信息是否对应一个月套餐', result)
-        assert result
+        self.allure_assert('判断支付弹窗信息是否对应一个月套餐', (
+            'eq', self.element_text(store['pay-title']), getValueByIndex(1, 2, 'pmm套餐价格', 'Store/store.xlsx')),
+                           ('eq', self.element_text(store['pay-price']), "€" + str(
+                               "%.2f" % (float(
+                                   getValueByIndex(3, 2, 'pmm套餐价格', 'Store/store.xlsx').split("$")[1]) * 1.19))))
 
     def assert_year_one_pay(self):
-        result = self.element_text(store['pay-title']) == \
-                 getValueByIndex(1, 3, 'pmm套餐价格', 'Store/store.xlsx') and \
-                 self.element_text(store['pay-price']) == 'US' + \
-                 getValueByIndex(3, 3, 'pmm套餐价格', 'Store/store.xlsx')
-        self.allure_assert_step('判断支付弹窗信息是否对应一个年一台套餐', result)
-        assert result
+        self.allure_assert('判断支付弹窗信息是否对应一个年一台套餐', (
+            'eq', self.element_text(store['pay-title']), getValueByIndex(1, 3, 'pmm套餐价格', 'Store/store.xlsx')),
+                           ('eq', self.element_text(store['pay-price']), "€" + str(
+                               "%.2f" % (float(
+                                   getValueByIndex(3, 3, 'pmm套餐价格', 'Store/store.xlsx').split("$")[1]) * 1.19))))
 
     def assert_year_two_pay(self):
-        result = self.element_text(store['pay-title']) == \
-                 getValueByIndex(1, 4, 'pmm套餐价格', 'Store/store.xlsx') and \
-                 self.element_text(store['pay-price']) == 'US' + \
-                 getValueByIndex(3, 4, 'pmm套餐价格', 'Store/store.xlsx')
-        self.allure_assert_step('判断支付弹窗信息是否对应一年两台套餐', result)
-        assert result
+        self.allure_assert('判断支付弹窗信息是否对应一年两台套餐', (
+            'eq', self.element_text(store['pay-title']), getValueByIndex(1, 4, 'pmm套餐价格', 'Store/store.xlsx')),
+                           ('eq', self.element_text(store['pay-price']), "€" + str(
+                               "%.2f" % (float(
+                                   getValueByIndex(3, 4, 'pmm套餐价格', 'Store/store.xlsx').split("$")[1]) * 1.19))))
 
     def assert_year_five_pay(self):
-        result = self.element_text(store['pay-title']) == \
-                 getValueByIndex(1, 5, 'pmm套餐价格', 'Store/store.xlsx') and \
-                 self.element_text(store['pay-price']) == 'US' + \
-                 getValueByIndex(3, 5, 'pmm套餐价格', 'Store/store.xlsx')
-        self.allure_assert_step('判断支付弹窗信息是否对应一年五台套餐', result)
-        assert result
+        self.allure_assert('判断支付弹窗信息是否对应一年五台套餐', (
+            'eq', self.element_text(store['pay-title']), getValueByIndex(1, 5, 'pmm套餐价格', 'Store/store.xlsx')),
+                           ('eq', self.element_text(store['pay-price']), "€" + str(
+                               "%.2f" % (float(
+                                   getValueByIndex(3, 5, 'pmm套餐价格', 'Store/store.xlsx').split("$")[1]) * 1.19))))
 
     def assert_lifetime_one_pay(self):
-        result = self.element_text(store['pay-title']) == \
-                 getValueByIndex(1, 6, 'pmm套餐价格', 'Store/store.xlsx') and \
-                 self.element_text(store['pay-price']) == 'US' + \
-                 getValueByIndex(3, 6, 'pmm套餐价格', 'Store/store.xlsx')
-        self.allure_assert_step('判断支付弹窗信息是否对应永久一台套餐', result)
-        assert result
+        self.allure_assert('判断支付弹窗信息是否对应永久一台套餐', (
+            'eq', self.element_text(store['pay-title']), getValueByIndex(1, 6, 'pmm套餐价格', 'Store/store.xlsx')),
+                           ('eq', self.element_text(store['pay-price']), "€" + str(
+                               "%.2f" % (float(
+                                   getValueByIndex(3, 6, 'pmm套餐价格', 'Store/store.xlsx').split("$")[1]) * 1.19))))
 
     def assert_lifetime_two_pay(self):
-        result = self.element_text(store['pay-title']) == \
-                 getValueByIndex(1, 7, 'pmm套餐价格', 'Store/store.xlsx') and \
-                 self.element_text(store['pay-price']) == 'US' + \
-                 getValueByIndex(3, 7, 'pmm套餐价格', 'Store/store.xlsx')
-        self.allure_assert_step('判断支付弹窗信息是否对应永久两台套餐', result)
-        assert result
+        self.allure_assert('判断支付弹窗信息是否对应永久两台套餐', (
+            'eq', self.element_text(store['pay-title']), getValueByIndex(1, 7, 'pmm套餐价格', 'Store/store.xlsx')),
+                           ('eq', self.element_text(store['pay-price']), "€" + str(
+                               "%.2f" % (float(
+                                   getValueByIndex(3, 7, 'pmm套餐价格', 'Store/store.xlsx').split("$")[1]) * 1.19))))
 
     def assert_lifetime_five_pay(self):
-        result = self.element_text(store['pay-title']) == \
-                 getValueByIndex(1, 8, 'pmm套餐价格', 'Store/store.xlsx') and \
-                 self.element_text(store['pay-price']) == 'US' + \
-                 getValueByIndex(3, 8, 'pmm套餐价格', 'Store/store.xlsx')
-        self.allure_assert_step('判断支付弹窗信息是否对应永久五台套餐', result)
-        assert result
+        self.allure_assert('判断支付弹窗信息是否对应永久五台套餐', (
+            'eq', self.element_text(store['pay-title']), getValueByIndex(1, 8, 'pmm套餐价格', 'Store/store.xlsx')),
+                           ('eq', self.element_text(store['pay-price']), "€" + str(
+                               "%.2f" % (float(
+                                   getValueByIndex(3, 8, 'pmm套餐价格', 'Store/store.xlsx').split("$")[1]) * 1.19))))
 
     @allure.step('展开所有faq')
     def click_unfold_faqs_button(self):
@@ -286,11 +247,8 @@ class OptionPage(WebPage):
             i.click()
 
     def assert_faqs_fold(self):
-        result = self.getAttributes(store['item-desc'], 'class') == ['faqs-item-desc faqs-active'] * 5
-        self.allure_assert_step('判断问题展开成功', result)
-        assert result
+        self.allure_assert('判断问题展开成功',
+                           ('eq', self.getAttributes(store['item-desc'], 'class'), ['faqs-item-desc faqs-active'] * 5))
 
     def assert_faqs_unfold(self):
-        result = self.getAttributes(store['item-desc'], 'class') == ['faqs-item-desc'] * 5
-        self.allure_assert_step('判断问题折叠成功', result)
-        assert result
+        self.allure_assert('判断问题折叠成功', ('eq', self.getAttributes(store['item-desc'], 'class'), ['faqs-item-desc'] * 5))

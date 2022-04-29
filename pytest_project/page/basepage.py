@@ -2,6 +2,8 @@
 selenium基类
 存放selenium基类的封装方法
 """
+import json
+
 import allure
 import requests
 from selenium.webdriver.support import expected_conditions as EC
@@ -10,10 +12,12 @@ from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.action_chains import ActionChains
 from pytest_project.config.conf import cm
 from pytest_project.utils.times import sleep
-from pytest_project.utils.logger import log
+from pytest_project.utils.logger import Log
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.select import Select
 from pytest_project.common.readelement import Element
+
+log = Log().get_log()
 
 
 class WebPage(object):
@@ -38,10 +42,6 @@ class WebPage(object):
         """元素定位器"""
         name, value = loc
         return func(cm.LOCATE_MODE[name], value)
-
-    def element_loc(self, loc):
-        name, value = loc
-        return cm.LOCATE_MODE[name], value
 
     def find_element(self, loc):
         """定位单个元素"""
@@ -77,20 +77,20 @@ class WebPage(object):
         ele.clear()
         log.debug('清理输入框')
         ele.send_keys(text)
-        sleep(1)
+        sleep(0.2)
         log.info('输入文本：{}'.format(text))
 
     def input_file(self, loc, file):
-        """上次文件"""
+        """上传文件"""
         ele = self.find_element(loc)
         try:
             ele.send_keys(file)
-            sleep(1)
+            sleep(0.2)
             log.info('上传文件路径：{}'.format(file))
         except FileExistsError:
             log.error('文件不存在')
 
-    def is_click(self, loc, s=1):
+    def is_click(self, loc, s=0.2):
         """默认点击后暂停1s"""
         self.find_element(loc).click()
         log.info('点击元素：{}'.format(loc))
@@ -106,19 +106,14 @@ class WebPage(object):
         elif isinstance(index, int):
             elements[index].click()
             log.info('点击元素：{}'.format(elements[index]))
-        sleep(1)
+        sleep(0.2)
 
-    def is_display(self, loc, time=1) -> bool:
+    def is_display(self, loc) -> bool:
         """判断元素是否可见"""
         ele = self.find_element(loc)
-        sleep(time)
         display = ele.is_displayed()
         log.info(f'元素{loc}是否可见：{display}')
         return display
-
-    def wait_element_display(self, loc):
-        """等待某元素可见"""
-        return WebPage.element_locator(lambda *args: self.wait.until(EC.visibility_of_element_located(args)), loc)
 
     def move_element(self, loc):
         """鼠标悬停到某元素"""
@@ -148,7 +143,7 @@ class WebPage(object):
         log.info('刷新页面')
         self.driver.implicitly_wait(30)
 
-    def getAttribute(self, loc, attribute, s=1):
+    def getAttribute(self, loc, attribute, s=0.1) -> str:
         """
         定位到元素后获取属性值
         :param loc: 元素
@@ -262,11 +257,6 @@ class WebPage(object):
         log.info('获取到text==》{}'.format(texts))
         return texts
 
-    def element_if_display(self, loc):
-        """显形等待元素可见"""
-        log.info('等待元素可见==》{}'.format(loc[1]))
-        self.wait.until(EC.visibility_of_element_located(self.element_loc(loc)))
-
     def get_diver_title(self):
         """获取网页标签页标题"""
         log.info('获取到title==>{}'.format(self.driver.title))
@@ -311,9 +301,133 @@ class WebPage(object):
             log.error(e)
 
     @staticmethod
-    def allure_assert_step(title, result=None):
+    def allure_assert(title, *args):
+        """
+        进行断言
+        :param title: 断言步骤名
+        :param args: 已元组形式传参，(断言形式：[eq、not_eq、include、not_include、gt、ge、lt、le],
+        eq参数实际在前,预期在后。include，子集在前，父集在后。[gt、ge、lt、le]，实际值在前，比较值在后)
+        """
+        index = 0
         with allure.step(title):
-            allure.attach(str(result), '断言判断结果', attachment_type=allure.attachment_type.TEXT)
+            for arg in args:
+                index += 1
+                "断言形式"
+                method = arg[0]
+                "实际结果/子集/实际值"
+                practical = arg[1]
+                "预期结果/父集/比较值"
+                expected = arg[2]
+                if method == 'eq':
+                    if expected is None:
+                        result = practical is None
+                    else:
+                        result = expected == practical
+                        allure.attach(json.dumps(f"预期结果: {expected},实际结果: {practical}", ensure_ascii=False, indent=2),
+                                      f"第{index}个断言[相等]: {result}", allure.attachment_type.JSON)
+                if method == 'not_eq':
+                    if expected is None:
+                        result = practical is not None
+                    else:
+                        result = expected != practical
+                    allure.attach(json.dumps(f"预期结果: {expected},实际结果: {practical}", ensure_ascii=False, indent=2),
+                                  f"第{index}个断言[不相等]: {result}", allure.attachment_type.JSON)
+                if method == 'include':
+                    result = practical in expected
+                    allure.attach(json.dumps(f"子集: {expected},父集: {practical}", ensure_ascii=False, indent=2),
+                                  f"第{index}个断言[包含]: {result}", allure.attachment_type.JSON)
+                if method == 'not_include':
+                    result = practical not in expected
+                    allure.attach(json.dumps(f"子集: {expected},父集: {practical}", ensure_ascii=False, indent=2),
+                                  f"第{index}个断言[不包含]: {result}", allure.attachment_type.JSON)
+                if method == 'ge':
+                    result = practical >= expected
+                    allure.attach(json.dumps(f"实际结果: {practical},比较值: {expected}", ensure_ascii=False, indent=2),
+                                  f"第{index}个断言[大于等于]: {result}", allure.attachment_type.JSON)
+                if method == 'gt':
+                    result = practical > expected
+                    allure.attach(json.dumps(f"实际结果: {practical},比较值: {expected}", ensure_ascii=False, indent=2),
+                                  f"第{index}个断言[大于]: {result}", allure.attachment_type.JSON)
+                if method == 'le':
+                    result = practical <= expected
+                    allure.attach(json.dumps(f"实际结果: {practical},比较值: {expected}", ensure_ascii=False, indent=2),
+                                  f"第{index}个断言[小于等于]: {result}", allure.attachment_type.JSON)
+                if method == 'lt':
+                    result = practical < expected
+                    allure.attach(json.dumps(f"实际结果: {practical},比较值: {expected}", ensure_ascii=False, indent=2),
+                                  f"第{index}个断言[小于]: {result}", allure.attachment_type.JSON)
+                try:
+                    log.info(f"预期结果: {expected},实际结果: {practical}, 断言方法：{method}, 断言结果：{result}")
+                    assert result
+                except AssertionError:
+                    raise AssertionError(
+                        f'第{index}个断言[{method}]失败,实际结果{practical}|预期结果{expected}'
+                    )
+                return result
+
+    @staticmethod
+    def allure_assert_or(title, *args):
+        """
+        进行断言
+        :param title: 断言步骤名
+        :param args: 已元组形式传参，(断言形式：[eq、not_eq、include、not_include、gt、ge、lt、le],
+        eq参数实际在前,预期在后。include，子集在前，父集在后。[gt、ge、lt、le]，实际值在前，比较值在后)
+        """
+        index = 0
+        results = []
+        with allure.step(title):
+            for arg in args:
+                index += 1
+                "断言形式"
+                method = arg[0]
+                "实际结果/子集/实际值"
+                practical = arg[1]
+                "预期结果/父集/比较值"
+                expected = arg[2]
+                if method == 'eq':
+                    if expected is None:
+                        result = practical is None
+                    else:
+                        result = expected == practical
+                        allure.attach(json.dumps(f"预期结果: {expected},实际结果: {practical}", ensure_ascii=False, indent=2),
+                                      f"第{index}个or断言[相等]: {result}", allure.attachment_type.JSON)
+                if method == 'not_eq':
+                    if expected is None:
+                        result = practical is not None
+                    else:
+                        result = expected != practical
+                    allure.attach(json.dumps(f"预期结果: {expected},实际结果: {practical}", ensure_ascii=False, indent=2),
+                                  f"第{index}个or断言[不相等]: {result}", allure.attachment_type.JSON)
+                if method == 'include':
+                    result = expected in practical
+                    allure.attach(json.dumps(f"子集: {expected},父集: {practical}", ensure_ascii=False, indent=2),
+                                  f"第{index}个or断言[包含]: {result}", allure.attachment_type.JSON)
+                if method == 'not_include':
+                    result = expected not in practical
+                    allure.attach(json.dumps(f"子集: {expected},父集: {practical}", ensure_ascii=False, indent=2),
+                                  f"第{index}个or断言[不包含]: {result}", allure.attachment_type.JSON)
+                if method == 'ge':
+                    result = practical >= expected
+                    allure.attach(json.dumps(f"实际结果: {practical},比较值: {expected}", ensure_ascii=False, indent=2),
+                                  f"第{index}个断言[大于等于]: {result}", allure.attachment_type.JSON)
+                if method == 'gt':
+                    result = practical > expected
+                    allure.attach(json.dumps(f"实际结果: {practical},比较值: {expected}", ensure_ascii=False, indent=2),
+                                  f"第{index}个断言[大于]: {result}", allure.attachment_type.JSON)
+                if method == 'le':
+                    result = practical <= expected
+                    allure.attach(json.dumps(f"实际结果: {practical},比较值: {expected}", ensure_ascii=False, indent=2),
+                                  f"第{index}个断言[小于等于]: {result}", allure.attachment_type.JSON)
+                if method == 'lt':
+                    result = practical < expected
+                    allure.attach(json.dumps(f"实际结果: {practical},比较值: {expected}", ensure_ascii=False, indent=2),
+                                  f"第{index}个断言[小于]: {result}", allure.attachment_type.JSON)
+                results.append(result)
+                if result:
+                    break
+            rs = True in results
+            assert rs
+            return rs
 
     def delete_all_cookie(self):
         """清除所有cookie"""

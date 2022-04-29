@@ -1,10 +1,8 @@
-from decimal import Decimal
-
+import allure
 from pytest_project.page.basepage import WebPage
 from pytest_project.common.readelement import Element
 from pytest_project.common.readexcel import getValueByIndex
-import allure
-
+from decimal import Decimal
 from pytest_project.utils.times import sleep
 
 buy = Element('Store/buy')
@@ -14,43 +12,28 @@ index = Element('Store/store-index')
 class BuyPage(WebPage):
 
     def assert_pmm_original_price(self):
-        result = self.element_text(index.readYaml('$.price.pmm.original-price')) == getValueByIndex(2, 2, 'pmm套餐价格',
-                                                                                                    'Store/store.xlsx')
-
-        self.allure_assert_step('判断优惠前价格', result)
-        assert result
+        self.allure_assert('判断优惠前价格', ('eq', self.element_text(index.readYaml('$.price.pmm.original-price')),
+                                       getValueByIndex(2, 2, 'pmm套餐价格', 'Store/store.xlsx')))
 
     def assert_pmm_now_price(self):
-        result = self.element_text(index.readYaml('$.price.pmm.now-price')) == getValueByIndex(3, 2, 'pmm套餐价格',
-                                                                                               'Store/store.xlsx')
-        self.allure_assert_step('判断优惠后价格', result)
-        assert result
+        self.allure_assert('判断优惠后价格', ('eq', self.element_text(index.readYaml('$.price.pmm.now-price')),
+                                       getValueByIndex(3, 2, 'pmm套餐价格', 'Store/store.xlsx')))
 
     def assert_pmm_discounts_price(self):
-        result = self.element_text(index.readYaml('$.price.pmm.discounts-price')) == getValueByIndex(4, 2, 'pmm套餐价格',
-                                                                                                     'Store/store.xlsx')
-        self.allure_assert_step('判断优惠价格', result)
-        assert result
+        self.allure_assert('判断优惠价格', ('eq', self.element_text(index.readYaml('$.price.pmm.discounts-price')),
+                                      getValueByIndex(4, 2, 'pmm套餐价格', 'Store/store.xlsx')))
 
     def assert_video_original_price(self):
-        result = self.element_text(index.readYaml('$.price.pmm.original-price')) == getValueByIndex(2, 2,
-                                                                                                    'video-mac套餐价格',
-                                                                                                    'Store/store.xlsx')
-        self.allure_assert_step('判断优惠前价格', result)
-        assert result
+        self.allure_assert('判断优惠前价格', ('eq', self.element_text(index.readYaml('$.price.pmm.original-price')),
+                                       getValueByIndex(2, 2, 'video-mac套餐价格', 'Store/store.xlsx')))
 
     def assert_video_now_price(self):
-        result = self.element_text(index.readYaml('$.price.pmm.now-price')) == getValueByIndex(3, 2, 'video-mac套餐价格',
-                                                                                               'Store/store.xlsx')
-        self.allure_assert_step('判断优惠后价格', result)
-        assert result
+        self.allure_assert('判断优惠后价格', ('eq', self.element_text(index.readYaml('$.price.pmm.now-price')),
+                                       getValueByIndex(3, 2, 'video-mac套餐价格', 'Store/store.xlsx')))
 
     def assert_video_discounts_price(self):
-        result = self.element_text(index.readYaml('$.price.pmm.discounts-price')) == getValueByIndex(4, 2,
-                                                                                                     'video-mac套餐价格',
-                                                                                                     'Store/store.xlsx')
-        self.allure_assert_step('判断优惠价格', result)
-        assert result
+        self.allure_assert('判断优惠价格', ('eq', self.element_text(index.readYaml('$.price.pmm.discounts-price')),
+                                      getValueByIndex(4, 2, 'video-mac套餐价格', 'Store/store.xlsx')))
 
     @allure.step('单击购买pmm一个月套餐按钮')
     def click_buy_pmm_button(self):
@@ -70,9 +53,7 @@ class BuyPage(WebPage):
 
     def assert_popup_buy(self):
         """判断是否弹出支付弹窗"""
-        result = self.find_element(index['iframe']) is not None
-        self.allure_assert_step('判断是否弹出支付弹窗', result)
-        assert result
+        self.allure_assert('判断是否弹出支付弹窗', ('not_eq', self.find_element(index['iframe']), None))
 
     def scroll_pmm_option(self):
         """移动到pmm-option"""
@@ -84,15 +65,13 @@ class BuyPage(WebPage):
 
     def assert_goto_pmm_option(self):
         """判断是否跳转pmm更多页面"""
-        result = self.get_current_url() == 'https://www.imymac.com/store/buy-powermymac.html'
-        self.allure_assert_step('判断跳转pmm更多页面', result)
-        assert result
+        self.allure_assert('判断跳转pmm更多页面',
+                           ('eq', self.get_current_url(), 'https://www.imymac.com/store/buy-powermymac.html'))
 
     def assert_goto_video_option(self):
         """判断是否跳转video更多页面"""
-        result = self.get_current_url() == 'https://www.imymac.com/store/buy-video-converter.html'
-        self.allure_assert_step('判断跳转video更多页面', result)
-        assert result
+        self.allure_assert('判断跳转video更多页面',
+                           ('eq', self.get_current_url(), 'https://www.imymac.com/store/buy-video-converter.html'))
 
     # =======================================================
     """buy页面"""
@@ -138,12 +117,11 @@ class BuyPage(WebPage):
         sleep(3)
 
     def assert_price(self, number):
-        """双精度对比价格"""
+        """对比价格"""
         if int(number) > 65535:
             number = '65535'
-        result = Decimal(self.element_text(buy['price']).split('$')[1]) == Decimal('9.95') * Decimal(number)
-        self.allure_assert_step('判断价格是否正确', result)
-        assert result
+        self.allure_assert('判断价格是否正确',
+                           ('eq', self.element_text(buy['price']).split('€')[1], "%.2f" % (9.95 * 1.19 * int(number))))
 
     @allure.step('输入邮箱')
     def send_email(self, text):
@@ -155,14 +133,10 @@ class BuyPage(WebPage):
         self.is_click(buy.readYaml('$.next.one'))
 
     def assert_email_error_text(self, error):
-        result = self.element_text(buy['email-error-text']) == error
-        self.allure_assert_step('判断错误邮箱信息', result)
-        return result
+        self.allure_assert('判断错误邮箱信息', ('eq', self.element_text(buy['email-error-text']), error))
 
     def assert_customer_email(self, email):
-        result = self.element_text(buy['customer-email']) == email
-        self.allure_assert_step('判断用户邮箱填写是否成功', result)
-        assert result
+        self.allure_assert('判断用户邮箱填写是否成功', ('eq', self.element_text(buy['customer-email']), email))
 
     @allure.step('点击地区下拉框')
     def region_select(self):
@@ -173,23 +147,17 @@ class BuyPage(WebPage):
         self.select_by_value(buy['region-select'], region)
 
     def assert_region_option_text(self, region):
-        result = self.select_option_text(buy['region-select']) == region
-        self.allure_assert_step('判断是否选中地区', result)
-        assert result
+        self.allure_assert('判断是否选中地区', ('eq', self.select_option_text(buy['region-select']), region))
 
     @allure.step('点击确认地区')
     def confirm_region(self):
         self.is_click(buy.readYaml('$.next.two'))
 
     def assert_goto_region_page(self):
-        result = self.find_element(buy['region-select']) is not None
-        self.allure_assert_step('判断是否进入填写地区页面', result)
-        assert result
+        self.allure_assert('判断是否进入填写地区页面', ('not_eq', self.find_element(buy['region-select']), None))
 
     def assert_goto_pay_page(self):
-        result = self.find_element(buy['addCouponButton']) is not None
-        self.allure_assert_step('判断是否进入选择支付方式页面', result)
-        assert result
+        self.allure_assert('判断是否进入选择支付方式页面', ('not_eq', self.find_element(buy['addCouponButton']), None))
 
     @allure.step('点击添加优惠卷链接')
     def click_add_coupon(self):
@@ -204,47 +172,37 @@ class BuyPage(WebPage):
         self.is_click(buy['submitCouponButton'])
 
     def assert_code_error_text(self, error):
-        result = self.element_text(buy['notification']) == error
-        self.allure_assert_step('判断优惠码错误信息', result)
-        assert result
+        self.allure_assert('判断优惠码错误信息', ('eq', self.element_text(buy['notification']), error))
 
     def assert_code_null_text(self, error):
-        result = self.element_text(buy['codeNotification']) == error
-        self.allure_assert_step('判断优惠码为空错误信息', result)
-        assert result
+        self.allure_assert('判断优惠码为空错误信息', ('eq', self.element_text(buy['codeNotification']), error))
 
     @allure.step('取消添加优惠码')
     def cancel_coupon(self):
         self.is_click(buy['cancelCouponButton'])
 
     def assert_cancel_pay(self):
-        result = self.find_element(buy['paypal']) is not None
-        self.allure_assert_step('判断是否取消支付', result)
-        assert result
+        self.allure_assert('判断是否取消支付', ('not_eq', self.find_element(buy['paypal']), None))
 
     @allure.step('移除优惠码')
     def click_delete_coupon(self):
         self.is_click(buy['delete-conpon'])
 
     def assert_delete_coupon(self):
-        result = self.find_element(buy['delete-conpon']) is not None
-        self.allure_assert_step('判断是否删除优惠券', result)
-        assert result
+        self.allure_assert('判断是否删除优惠券', ('not_eq', self.find_element(buy['delete-conpon']), None))
 
     def assert_product_price(self, number):
         """双精度对比价格"""
-        result = Decimal(self.element_text(buy['product-price']).split('$')[1]) == Decimal('9.95') * Decimal(number)
-        self.allure_assert_step('判断商品价格是否正确', result)
-        assert result
+        self.allure_assert('判断商品价格是否正确', (
+            'eq', self.element_text(buy['product-price']).split('€')[1], "%.2f" % (9.95 * 1.19 * int(number))))
 
     def assert_after_discount_price(self, discount=1):
         """
         断言优惠后的价格,价格要用decimal进行计算
         """
-        result = Decimal(self.element_text(buy['product-price']).split('$')[1]) == Decimal('9.95') * Decimal(
-            discount)
-        self.allure_assert_step('判断优惠后的价格是否正确', result)
-        assert result
+        self.allure_assert('判断优惠后的价格是否正确', (
+            'eq', Decimal(self.element_text(buy['product-price']).split('$')[1]), Decimal('9.95') * Decimal(
+                discount)))
 
     @allure.step('点击修改邮箱按钮')
     def click_update_email(self):
@@ -252,9 +210,7 @@ class BuyPage(WebPage):
 
     def assert_again_send_email(self):
         """判断进入填写邮箱页面"""
-        result = self.find_element(buy['send-email']) is not None
-        self.allure_assert_step('判断是否进入填写邮箱页面', result)
-        assert result
+        self.allure_assert('判断是否进入填写邮箱页面', ('not_eq', self.find_element(buy['send-email']), None))
 
     @allure.step('选择卡片支付')
     def card_to_pay(self):
@@ -302,19 +258,13 @@ class BuyPage(WebPage):
         self.is_click(buy['close-pay'])
 
     def assert_close(self):
-        result = self.find_element(('tag', 'iframe')) is None
-        self.allure_assert_step('判断是否关闭支付页面', result)
-        assert result
+        self.allure_assert('判断是否关闭支付页面', ('not_eq', self.find_element(('tag', 'iframe')), None))
 
     def assert_goto_paypal(self):
-        result = self.find_element(buy['load-paypal']) is not None
-        self.allure_assert_step('判断弹出PayPal支付页面', result)
-        assert result
+        self.allure_assert('判断弹出PayPal支付页面', ('not_eq', self.find_element(buy['load-paypal']), None))
 
     def assert_card_pay_error_texts(self, error):
-        result = error == ''.join(self.elements_text(buy['card-pay-texts']))
-        self.allure_assert_step('判断卡支付错误信息', result)
-        assert result
+        self.allure_assert('判断卡支付错误信息', ('eq', ''.join(self.elements_text(buy['card-pay-texts'])), error))
 
     # def return_card_pay_bank_safe_texts(self):
     #     result = self.element_text(buy['bank-safe'])
@@ -322,6 +272,4 @@ class BuyPage(WebPage):
     #     return result
 
     def assert_card_pay_BANK_error_text(self, error):
-        result = error in self.element_text(buy['card-pay-BANK-error'])
-        self.allure_assert_step('判断卡支付银行拒绝错误信息', result)
-        assert result
+        self.allure_assert('判断卡支付银行拒绝错误信息', ('include', error, self.element_text(buy['card-pay-BANK-error'])))

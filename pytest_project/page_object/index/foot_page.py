@@ -1,7 +1,6 @@
 import allure
 from pytest_project.page.basepage import WebPage
 from pytest_project.common.readelement import Element, get_any_key_info
-from pytest_project.utils.logger import log
 
 foot = Element('index/foot')
 lge = Element('index/language')
@@ -34,13 +33,6 @@ class FootPage(WebPage):
         """点击提交按钮"""
         self.is_click(foot['SearchButton'])
 
-    def errorText(self):
-        """获取错误信息"""
-        return self.element_text(foot['ErrorText'])
-
-    def success_submit(self):
-        return self.getAttribute(foot['success'], 'class') == 'box-thanks display'
-
     def scroll_copyright(self):
         self.jsInDriver('document.documentElement.scrollTop=10000')
 
@@ -52,37 +44,24 @@ class FootPage(WebPage):
         self.is_click(foot['privacy'])
 
     def assert_use_cookie(self):
-        result = self.getAttribute(foot['box-cookies'], 'class') == 'box-cookies'
-        self.allure_assert_step("判断是否使用cookie", result)
-        assert result
+        self.allure_assert('判断是否使用cookie', ('eq', self.getAttribute(foot['box-cookies'], 'class'), 'box-cookies'))
 
     def assert_goto_privacy(self):
-        result = self.get_current_url() == 'https://www.imymac.com/privacy.html'
-        self.allure_assert_step("判断是否跳转隐私页面", result)
-        assert result
+        self.allure_assert('判断是否跳转隐私页面', ('eq', self.get_current_url(), 'https://www.imymac.com/privacy.html'))
 
     def assert_link(self, url):
-        result = self.get_current_url() == url
-        self.allure_assert_step("判断是否跳转链接", result)
-        assert result
+        self.allure_assert('判断是否跳转链接', ('eq', self.get_current_url(), url))
 
     def assert_switch_language(self, language, url):
-        result = self.get_current_url() == url
-        self.allure_assert_step(f'判断语言是否切换为{lge.getLanguage(language)}', result)
-        assert result
+        self.allure_assert(f'判断语言是否切换为{lge.getLanguage(language)}', ('eq', self.get_current_url(), url))
 
     def assert_submit_email(self):
-        result = self.success_submit()
-        self.allure_assert_step('判断提交邮箱成功', result)
-        assert result
+        self.allure_assert('判断提交邮箱成功', ('eq', self.getAttribute(foot['success'], 'class'), 'box-thanks display'))
 
     def assert_fail_submit_email(self):
-        result = self.errorText() == 'Please enter a valid email address.'
-        self.allure_assert_step('判断提交邮箱失败', result)
-        assert result
+        self.allure_assert('判断提交邮箱失败',
+                           ('eq', self.element_text(foot['ErrorText']), 'Please enter a valid email address.'))
 
     def assert_copyright(self):
-        result = self.element_text(foot['copyright']) == \
-                 'Copyright © 2022 iMyMac. All rights reserved.'
-        self.allure_assert_step('判断著作权是否正确', result)
-        assert result
+        self.allure_assert('判断著作权是否正确', (
+            'eq', self.element_text(foot['copyright']), 'Copyright © 2022 iMyMac. All rights reserved.'))

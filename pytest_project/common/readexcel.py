@@ -1,13 +1,11 @@
 import os
 import xlrd
-from pathlib import Path
-
-from pytest_project.config.conf import cm
-from pytest_project.utils.logger import log
 import openpyxl
-import threading
+from pathlib import Path
+from pytest_project.config.conf import cm
+from pytest_project.utils.logger import Log
 
-from pytest_project.utils.times import sleep
+log = Log().get_log()
 
 
 def get_excel_data_file_name(name):
@@ -117,7 +115,7 @@ def getSheetNames(file_name):
     return value
 
 
-def getValueByIndex(x, y, sheet_name, file_name):
+def getValueByIndex(x, y, sheet_name, file_name) -> str:
     """
     获取工作表中某个坐标的值
     :param file_name: 文件名

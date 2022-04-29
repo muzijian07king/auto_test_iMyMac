@@ -51,47 +51,36 @@ class VideoPage(WebPage):
         self.is_click(video.readYaml('$.nav.buy'))
 
     def assert_switch_win(self):
-        result = self.getAttribute(video.readYaml('$.os.win'), 'class') == "version-win active" and \
-                 self.getAttribute(video['download'], 'class') == 'btn blue try-it-free win' and \
-                 self.getAttribute(video['buy'], 'class') == 'btn orange win'
-        self.allure_assert_step('判断是否切换成win', result)
-        assert result
+        self.allure_assert('判断是否切换成win',
+                           ('eq', self.getAttribute(video.readYaml('$.os.win'), 'class'), "version-win active"),
+                           ('eq', self.getAttribute(video['download'], 'class'), "btn blue try-it-free win"),
+                           ('eq', self.getAttribute(video['buy'], 'class'), 'btn orange win'))
 
     def assert_switch_mac(self):
-        result = self.getAttribute(video.readYaml('$.os.mac'), 'class') == "version-mac active" and \
-                 self.getAttribute(video['download'], 'class') == 'btn blue try-it-free' and \
-                 self.getAttribute(video['buy'], 'class') == 'btn orange'
-        self.allure_assert_step('判断是否切换成mac', result)
-        assert result
+        self.allure_assert('判断是否切换成mac',
+                           ('eq', self.getAttribute(video.readYaml('$.os.mac'), 'class'), "version-mac active"),
+                           ('eq', self.getAttribute(video['download'], 'class'), "btn blue try-it-free"),
+                           ('eq', self.getAttribute(video['buy'], 'class'), 'btn orange'))
 
     def assert_download_win(self):
         """判断下载win端是否成功"""
         suffix = cm.get_download_filename()
-        result = suffix == 'crdownload' or suffix == 'exe'
-        self.allure_assert_step('判断是否下载win端成功', result)
-        assert result
+        self.allure_assert_or('判断是否下载win端成功', ('eq', suffix, 'crdownload'), ('eq', suffix, 'exe'))
 
     def assert_download_mac(self):
         """判断下载mac端是否成功"""
         suffix = cm.get_download_filename()
-        result = suffix == 'crdownload' or suffix == 'pkg'
-        self.allure_assert_step('判断是否下载mac端成功', result)
-        assert result
+        self.allure_assert_or('判断是否下载mac端成功', ('eq', suffix, 'crdownload'), ('eq', suffix, 'pkg'))
 
     def assert_goto_buy(self):
         """判断跳转购买页面内容与实际相同"""
-        result = self.get_current_url() == 'https://www.imymac.com/store/buy-video-converter.html'
-        self.allure_assert_step('判断是否跳转购买页面', result)
-        assert result
+        self.allure_assert('判断是否跳转购买页面',
+                           ('eq', self.get_current_url(), 'https://www.imymac.com/store/buy-video-converter.html'))
 
     def assert_goto_tip(self, url):
         """判断是否跳转技巧文章页面"""
-        result = self.get_current_url() == url
-        self.allure_assert_step('判断是否跳转购买页面', result)
-        assert result
+        self.allure_assert('判断是否跳转购买页面', ('eq', self.get_current_url(), url))
 
     def assert_index(self):
         """判断是否跳转首页"""
-        result = self.get_current_url() == 'https://www.imymac.com/video-converter/'
-        self.allure_assert_step('判断是否跳转首页', result)
-        assert result
+        self.allure_assert('判断是否跳转首页', ('eq', self.get_current_url(), 'https://www.imymac.com/video-converter/'))

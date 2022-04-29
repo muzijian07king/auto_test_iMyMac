@@ -1,4 +1,5 @@
-import os, sys
+import os
+import sys
 from selenium.webdriver.common.by import By
 import datetime
 
@@ -29,16 +30,16 @@ class ConfigManager(object):
 
     # 最新报告文件路径方法
     def get_report_file(self):
-        list = os.listdir(self.REPORT_DIR)
-        list.sort(key=lambda fn: os.path.getmtime(os.path.join(self.REPORT_DIR, fn)))
-        latest_report = os.path.join(self.REPORT_DIR, list[-1])
+        list_name = os.listdir(self.REPORT_DIR)
+        list_name.sort(key=lambda fn: os.path.getmtime(os.path.join(self.REPORT_DIR, fn)))
+        latest_report = os.path.join(self.REPORT_DIR, list_name[-1])
         return latest_report
 
     # 获取浏览器默认下载路径最新文件的后缀名
     def get_download_filename(self):
-        list = os.listdir(self.download_dir)
-        list.sort(key=lambda fn: os.path.getmtime(os.path.join(self.download_dir, fn)))
-        return list[-1].split('.')[-1]
+        list_name = os.listdir(self.download_dir)
+        list_name.sort(key=lambda fn: os.path.getmtime(os.path.join(self.download_dir, fn)))
+        return list_name[-1].split('.')[-1]
 
     # 元素定位元素的类型
     LOCATE_MODE = {
@@ -69,10 +70,10 @@ class ConfigManager(object):
     # 日志文件
     @property
     def log_file(self):
-        '''
+        """
         只读属性
         :return: 日志文件路径
-        '''
+        """
         log_dir = os.path.join(self.BASE_DIR, 'logs')
         if not os.path.exists(log_dir):
             os.mkdir(log_dir)

@@ -1,7 +1,9 @@
 import time
 import datetime
 from functools import wraps
-from pytest_project.utils.logger import log
+from pytest_project.utils.logger import Log
+
+log = Log().get_log()
 
 
 def timestamp():
@@ -84,4 +86,3 @@ def compare_date(date1, date2, fmt='%b %d, %Y'):
 
 if __name__ == '__main__':
     pass
-

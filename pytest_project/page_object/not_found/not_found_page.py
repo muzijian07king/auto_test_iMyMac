@@ -23,21 +23,13 @@ class NotFoundPage(WebPage):
         self.is_click(NotFound['blog'])
 
     def assert_goto_home(self):
-        result = self.get_current_url() == 'https://www.imymac.com/index.html'
-        self.allure_assert_step('判断是否跳转首页', result)
-        assert result
+        self.allure_assert("判断是否跳转首页", ('eq', self.get_current_url(), 'https://www.imymac.com/index.html'))
 
     def assert_goto_support(self):
-        result = self.get_current_url() == 'https://www.imymac.com/support/'
-        self.allure_assert_step('判断是否跳转帮助页面', result)
-        assert result
+        self.allure_assert('判断是否跳转帮助页面', ('eq', self.get_current_url(), 'https://www.imymac.com/support/'))
 
     def assert_goto_store(self):
-        result = self.get_current_url() == 'https://www.imymac.com/store/'
-        self.allure_assert_step('判断是否跳转购买页面', result)
-        assert result
+        self.allure_assert('判断是否跳转购买页面', ('eq', self.get_current_url(), 'https://www.imymac.com/store/'))
 
     def assert_goto_blog(self):
-        result = self.get_current_url() == 'https://www.imymac.com/resource/'
-        self.allure_assert_step('判断是否跳转博客页面', result)
-        assert result
+        self.allure_assert('判断是否跳转博客页面', ('eq', self.get_current_url(), 'https://www.imymac.com/resource/'))

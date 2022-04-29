@@ -29,9 +29,7 @@ class ProfilePage(WebPage):
         return name
 
     def assert_goto_writer(self, name):
-        result = self.element_text(profile['name']) == name
-        self.allure_assert_step('判断跳转到作者更多作品页面')
-        assert result
+        self.allure_assert('判断跳转到作者更多作品页面', ('eq', self.element_text(profile['name']), name))
 
     @allure.step('点击第一篇文章')
     def click_articles(self):
@@ -41,9 +39,7 @@ class ProfilePage(WebPage):
         return title
 
     def assert_goto_articles(self, title):
-        result = self.element_text(profile['h1']) == title
-        self.allure_assert_step('判断是否跳转文章', result)
-        assert result
+        self.allure_assert('判断是否跳转文章', ('eq', self.element_text(profile['h1']), title))
 
     @allure.step('点击第一篇科学技术')
     def click_tech(self):
@@ -56,7 +52,5 @@ class ProfilePage(WebPage):
         self.click_elements(profile['tech-more'])
 
     def assert_goto_tech(self):
-        result = self.element_text(profile['h1']) is not None
-        self.allure_assert_step('判断是否跳转科学文章', result)
-        assert result
+        self.allure_assert('判断是否跳转科学文章', ('not_eq', self.element_text(profile['h1']), None))
 

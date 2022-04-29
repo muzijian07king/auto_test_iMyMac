@@ -58,44 +58,33 @@ class HeadPage(WebPage):
         """按下回车"""
         self.Key_enter(head['search-input'])
 
-    def assert_index(self) -> bool:
+    def assert_index(self):
         """判断是否回到首页"""
-        result = self.get_current_url() == 'https://www.imymac.com/index.html'
-        self.allure_assert_step('判断是否回到首页', result)
-        assert result
+        self.allure_assert('判断是否回到首页', ('eq', self.get_current_url(), 'https://www.imymac.com/index.html'))
 
-    def assert_utility(self, utility: str) -> bool:
+    def assert_utility(self, utility: str):
         """判断是否进入到应用页面"""
-        result = self.get_current_url() == f'https://www.imymac.com/{utility.lower()}/'
-        self.allure_assert_step(f"判断是否进入到{utility}页面", result)
-        assert result
+        self.allure_assert(f"判断是否进入到{utility}页面",
+                           ('eq', self.get_current_url(), f'https://www.imymac.com/{utility.lower()}/'))
 
-    def assert_online(self, utility: str) -> bool:
+    def assert_online(self, utility: str):
         """判断是否进入到在线体验应用页面"""
-        result = self.get_current_url() == f'https://www.imymac.com/{utility.replace("Free", "online").lower()}/'
-        self.allure_assert_step(f"判断是否进入到{utility}在线工具页面", result)
-        assert result
+        self.allure_assert(f"判断是否进入到{utility}在线工具页面", (
+            'eq', self.get_current_url(), f'https://www.imymac.com/{utility.replace("Free", "online").lower()}/'))
 
-    def assert_store(self) -> bool:
+    def assert_store(self):
         """判断是否进入商店页面"""
-        result = self.get_current_url() == 'https://www.imymac.com/store/'
-        self.allure_assert_step("判断是否进入商店页面", result)
-        assert result
+        self.allure_assert('判断是否进入商店页面', ('eq', self.get_current_url(), 'https://www.imymac.com/store/'))
 
-    def assert_support(self) -> bool:
+    def assert_support(self):
         """判断是否进入商店页面"""
-        result = self.get_current_url() == 'https://www.imymac.com/support/'
-        self.allure_assert_step("判断是否进入商店页面", result)
-        assert result
+        self.allure_assert('判断是否进入客服支援页面', ('eq', self.get_current_url(), 'https://www.imymac.com/support/'))
 
     def assert_search(self, text):
         """判断是否根据关键字搜索"""
-        result = self.get_current_url() == f'https://www.imymac.com/resource/?q={text}'.replace(' ', '+')
-        self.allure_assert_step("判断是否根据关键字搜索", result)
-        assert result
+        self.allure_assert('判断是否根据关键字搜索', (
+            'eq', self.get_current_url(), f'https://www.imymac.com/resource/?q={text}'.replace(' ', '+')))
 
     def assert_close_search(self):
         """判断是否取消搜索"""
-        result = not self.is_display(head.readYaml('$.search-input'))
-        self.allure_assert_step("判断是否取消搜索", result)
-        assert result
+        self.allure_assert('判断是否取消搜索', ('eq', self.is_display(head.readYaml('$.search-input')), False))

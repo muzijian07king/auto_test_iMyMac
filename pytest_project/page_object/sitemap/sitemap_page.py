@@ -1,7 +1,6 @@
 import allure
-
 from pytest_project.page.basepage import WebPage
-from pytest_project.common.readelement import Element, get_branch_value_with_key
+from pytest_project.common.readelement import Element
 
 sitemap = Element('SiteMap/siteMap')
 
@@ -21,6 +20,4 @@ class SitemapPage(WebPage):
         self.is_click(sitemap.readYaml(f'$.Help.{name}'))
 
     def assert_goto_webpage_succeed(self, url):
-        result = self.get_current_url() == url
-        self.allure_assert_step(f'判断成功跳转：{url},', result)
-        assert result
+        self.allure_assert(f'判断成功跳转：{url},', ('eq', self.get_current_url(), url))

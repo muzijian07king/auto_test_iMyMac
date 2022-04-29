@@ -22,6 +22,5 @@ class CompressorPage(WebPage):
         self.jsInDriver('document.documentElement.scrollTop=3300')
 
     def assert_download(self):
-        result = 'pkg' in cm.get_download_filename() or 'crdownload' in cm.get_download_filename()
-        self.allure_assert_step('判断是否下载成功', result)
-        assert result
+        self.allure_assert_or('判断是否下载成功', ('eq', cm.get_download_filename(), 'pkg'),
+                              ('eq', cm.get_download_filename(), 'crdownload'))

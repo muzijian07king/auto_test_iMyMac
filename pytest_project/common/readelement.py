@@ -4,7 +4,9 @@ import yaml
 from pytest_project.config.conf import cm
 from pathlib import Path
 from jsonpath import jsonpath
-from pytest_project.utils.logger import log
+from pytest_project.utils.logger import Log
+
+log = Log().get_log()
 
 
 class Element(object):
@@ -241,4 +243,3 @@ def get_branch_value_with_key(key, data, branch=None):
 
 if __name__ == '__main__':
     print(Element('User/cookie').readYaml('$.name', 1))
-

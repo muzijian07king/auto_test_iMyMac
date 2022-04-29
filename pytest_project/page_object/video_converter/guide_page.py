@@ -26,28 +26,23 @@ class GuidePage(WebPage):
 
     def assert_download(self):
         """判断下载是否成功"""
-        result = cm.get_download_filename() == 'crdownload' or cm.get_download_filename() == 'pkg' or cm. \
-            get_download_filename() == 'exe'
-        self.allure_assert_step('判断下载是否成功', result)
-        assert result
+        self.allure_assert_or('判断下载是否成功', ('eq', cm.get_download_filename(), 'crdownload'),
+                              ('eq', cm.get_download_filename(), 'pkg'), ('eq', cm.get_download_filename(), 'exe'))
 
     def assert_goto_buy(self):
         """判断跳转购买页面内容与实际相同"""
-        result = self.get_current_url() == 'https://www.imymac.com/store/buy-video-converter.html'
-        self.allure_assert_step('判断跳转购买页面内容与实际相同', result)
-        assert result
+        self.allure_assert('判断跳转购买页面内容与实际相同',
+                           ('eq', self.get_current_url(), 'https://www.imymac.com/store/buy-video-converter.html'))
 
     def assert_goto_win_guide(self):
         """判断是否跳转到win指南"""
-        result = self.getAttribute(guide.readYaml('$.os.win'), 'class') == "version-tag win active"
-        self.allure_assert_step('判断是否跳转到win指南', result)
-        assert result
+        self.allure_assert('判断是否跳转到win指南',
+                           ('eq', self.getAttribute(guide.readYaml('$.os.win'), 'class'), "version-tag win active"))
 
     def assert_goto_mac_guide(self):
         """判断是否跳转到mac指南"""
-        result = self.getAttribute(guide.readYaml('$.os.mac'), 'class') == "version-tag mac active"
-        self.allure_assert_step('判断是否跳转到mac指南', result)
-        assert result
+        self.allure_assert('判断是否跳转到mac指南',
+                           ('eq', self.getAttribute(guide.readYaml('$.os.mac'), 'class'), "version-tag mac active"))
 
     @allure.step('移动到指南栏')
     def scroll_guide(self):
@@ -58,6 +53,4 @@ class GuidePage(WebPage):
             self.is_click(guide.readYaml(f'$.nav.{no}'))
 
     def assert_goto_guide(self, style: str):
-        result = self.getAttribute(guide.readYaml('$.nav.div'), 'style') == style
-        self.allure_assert_step('判断是否跳转到指定指南上', result)
-        assert result
+        self.allure_assert('判断是否跳转到指定指南上', ('eq', self.getAttribute(guide.readYaml('$.nav.div'), 'style'), style))

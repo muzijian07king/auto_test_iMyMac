@@ -19,12 +19,9 @@ class TechPage(WebPage):
     def assert_download(self):
         """判断下载是否成功"""
         suffix = cm.get_download_filename()
-        result = suffix == 'crdownload' or suffix == 'pkg' or suffix == 'exe'
-        self.allure_assert_step('判断下载是否成功', result)
-        assert result
+        self.allure_assert_or('判断下载是否成功', ('eq', suffix, 'crdownload'), ('eq', suffix, 'pkg'), ('eq', suffix, 'exe'))
 
     def assert_goto_buy(self):
         """判断跳转购买页面内容与实际相同"""
-        result = self.get_current_url() == 'https://www.imymac.com/store/buy-video-converter.html'
-        self.allure_assert_step('判断跳转购买页面内容与实际相同', result)
-        assert result
+        self.allure_assert('判断跳转购买页面内容与实际相同', self.get_current_url(),
+                           'https://www.imymac.com/store/buy-video-converter.html')

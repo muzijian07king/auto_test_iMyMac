@@ -40,39 +40,27 @@ class FAQSPage(WebPage):
         self.scroll_to_loc_is_click(faqs.readYaml('$.PDF-Compressor-FAQs.link'))
 
     def assert_goto_register(self):
-        result = self.get_current_url() == 'https://www.imymac.com/powermymac/user-guide.html'
-        self.allure_assert_step('判断成功跳转页面', result)
-        assert result
+        self.allure_assert('判断成功跳转页面',
+                           ('eq', self.get_current_url(), 'https://www.imymac.com/powermymac/user-guide.html'))
 
     def assert_goto_activate(self):
-        result = self.get_current_url() == 'https://www.imymac.com/mac-tips/account-center.html'
-        self.allure_assert_step('判断成功跳转页面', result)
-        assert result
+        self.allure_assert('判断成功跳转页面',
+                           ('eq', self.get_current_url(), 'https://www.imymac.com/mac-tips/account-center.html'))
 
     def assert_goto_order(self):
-        result = self.get_current_url() == 'https://www.imymac.com/faqs/sales-faq/'
-        self.allure_assert_step('判断成功跳转页面', result)
-        assert result
+        self.allure_assert('判断成功跳转页面', ('eq', self.get_current_url(), 'https://www.imymac.com/faqs/sales-faq/'))
 
     def assert_goto_refund(self):
-        result = self.get_current_url() == 'https://www.imymac.com/refund.html'
-        self.allure_assert_step('判断成功跳转页面', result)
-        assert result
+        self.allure_assert('判断成功跳转页面', ('eq', self.get_current_url(), 'https://www.imymac.com/refund.html'))
 
     def assert_goto_PowerMyMac(self):
-        result = self.get_current_url() == 'https://www.imymac.com/faqs/powermymac/'
-        self.allure_assert_step('判断成功跳转页面', result)
-        assert result
+        self.allure_assert('判断成功跳转页面', ('eq', self.get_current_url(), 'https://www.imymac.com/faqs/powermymac/'))
 
     def assert_goto_Video(self):
-        result = self.get_current_url() == 'https://www.imymac.com/faqs/video-converter/'
-        self.allure_assert_step('判断成功跳转页面', result)
-        assert result
+        self.allure_assert('判断成功跳转页面', ('eq', self.get_current_url(), 'https://www.imymac.com/faqs/video-converter/'))
 
     def assert_goto_PDF(self):
-        result = self.get_current_url() == 'https://www.imymac.com/faqs/pdf-compressor/'
-        self.allure_assert_step('判断成功跳转页面', result)
-        assert result
+        self.allure_assert('判断成功跳转页面', ('eq', self.get_current_url(), 'https://www.imymac.com/faqs/pdf-compressor/'))
 
     @allure.step('点击侧边栏问题1移动到指定位置')
     def click_question_one(self):
@@ -95,28 +83,24 @@ class FAQSPage(WebPage):
         sleep(2)
 
     def assert_goto_question_one(self):
-        result = self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 373px;' \
-                 and self.getAttribute(faqs.readYaml('$.Register.nav'), 'class') == 'guide-nav is_fix'
-        self.allure_assert_step('判断成功移动到指定位置', result)
-        assert result
+        self.allure_assert('判断成功移动到指定位置',
+                           ('eq', self.getAttribute(faqs.readYaml('$.Register.nav'), 'style'), 'top: 373px;'),
+                           ('eq', self.getAttribute(faqs.readYaml('$.Register.nav'), 'class'), 'guide-nav is_fix'))
 
     def assert_goto_question_two(self):
-        result = self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 2341px;' \
-                 and self.getAttribute(faqs.readYaml('$.Register.nav'), 'class') == 'guide-nav is_fix'
-        self.allure_assert_step('判断成功移动到指定位置', result)
-        assert result
+        self.allure_assert('判断成功移动到指定位置',
+                           ('eq', self.getAttribute(faqs.readYaml('$.Register.nav'), 'style'), 'top: 2341px;'),
+                           ('eq', self.getAttribute(faqs.readYaml('$.Register.nav'), 'class'), 'guide-nav is_fix'))
 
     def assert_goto_question_three(self):
-        result = self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 4379px;' \
-                 and self.getAttribute(faqs.readYaml('$.Register.nav'), 'class') == 'guide-nav is_fix'
-        self.allure_assert_step('判断成功移动到指定位置', result)
-        assert result
+        self.allure_assert('判断成功移动到指定位置',
+                           ('eq', self.getAttribute(faqs.readYaml('$.Register.nav'), 'style'), 'top: 4379px;'),
+                           ('eq', self.getAttribute(faqs.readYaml('$.Register.nav'), 'class'), 'guide-nav is_fix'))
 
     def assert_goto_question_four(self):
-        result = self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 24701px;' \
-                 and self.getAttribute(faqs.readYaml('$.Register.nav'), 'class') == 'guide-nav is_fix'
-        self.allure_assert_step('判断成功移动到指定位置', result)
-        assert result
+        self.allure_assert('判断成功移动到指定位置',
+                           ('eq', self.getAttribute(faqs.readYaml('$.Register.nav'), 'style'), 'top: 24701px;'),
+                           ('eq', self.getAttribute(faqs.readYaml('$.Register.nav'), 'class'), 'guide-nav is_fix'))
 
     @allure.step("点击问题3中第一个方法")
     def click_question_three_step_1(self):
@@ -159,64 +143,54 @@ class FAQSPage(WebPage):
         self.scroll_to_loc_is_click(faqs.readYaml('$.Register.nav-list.ten'))
 
     def assert_goto_step_1(self):
-        result = self.getAttribute(faqs.readYaml('$.Register.nav-list.one'), 'class') == 'active' \
-                 and self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 4699px;'
-        self.allure_assert_step('判断成功跳转到第一个方法', result)
-        assert result
+        self.allure_assert('判断成功跳转到第一个方法',
+                           ('eq', self.getAttribute(faqs.readYaml('$.Register.nav-list.one'), 'class'), 'active'),
+                           ('eq', self.getAttribute(faqs.readYaml('$.Register.nav'), 'style'), 'top: 4699px;'))
 
     def assert_goto_step_2(self):
-        result = self.getAttribute(faqs.readYaml('$.Register.nav-list.two'), 'class') == 'active' \
-                 and self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 5533px;'
-        self.allure_assert_step('判断成功跳转到第二个方法', result)
-        assert result
+        self.allure_assert('判断成功跳转到第二个方法',
+                           ('eq', self.getAttribute(faqs.readYaml('$.Register.nav-list.two'), 'class'), 'active'),
+                           ('eq', self.getAttribute(faqs.readYaml('$.Register.nav'), 'style'), 'top: 5533px;'))
 
     def assert_goto_step_3(self):
-        result = self.getAttribute(faqs.readYaml('$.Register.nav-list.three'), 'class') == 'active' \
-                 and self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 7968px;'
-        self.allure_assert_step('判断成功跳转到第三个方法', result)
-        assert result
+        self.allure_assert('判断成功跳转到第三个方法',
+                           ('eq', self.getAttribute(faqs.readYaml('$.Register.nav-list.three'), 'class'), 'active'),
+                           ('eq', self.getAttribute(faqs.readYaml('$.Register.nav'), 'style'), 'top: 7968px;'))
 
     def assert_goto_step_4(self):
-        result = self.getAttribute(faqs.readYaml('$.Register.nav-list.four'), 'class') == 'active' \
-                 and self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 10248px;'
-        self.allure_assert_step('判断成功跳转到第四个方法', result)
-        assert result
+        self.allure_assert('判断成功跳转到第四个方法',
+                           ('eq', self.getAttribute(faqs.readYaml('$.Register.nav-list.four'), 'class'), 'active'),
+                           ('eq', self.getAttribute(faqs.readYaml('$.Register.nav'), 'style'), 'top: 10248px;'))
 
     def assert_goto_step_5(self):
-        result = self.getAttribute(faqs.readYaml('$.Register.nav-list.five'), 'class') == 'active' \
-                 and self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 14888px;'
-        self.allure_assert_step('判断成功跳转到第五个方法', result)
-        assert result
+        self.allure_assert('判断成功跳转到第五个方法',
+                           ('eq', self.getAttribute(faqs.readYaml('$.Register.nav-list.five'), 'class'), 'active'),
+                           ('eq', self.getAttribute(faqs.readYaml('$.Register.nav'), 'style'), 'top: 14888px;'))
 
     def assert_goto_step_6(self):
-        result = self.getAttribute(faqs.readYaml('$.Register.nav-list.six'), 'class') == 'active' \
-                 and self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 17585px;'
-        self.allure_assert_step('判断成功跳转到第六个方法', result)
-        assert result
+        self.allure_assert('判断成功跳转到第六个方法',
+                           ('eq', self.getAttribute(faqs.readYaml('$.Register.nav-list.six'), 'class'), 'active'),
+                           ('eq', self.getAttribute(faqs.readYaml('$.Register.nav'), 'style'), 'top: 17585px;'))
 
     def assert_goto_step_7(self):
-        result = self.getAttribute(faqs.readYaml('$.Register.nav-list.seven'), 'class') == 'active' \
-                 and self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 19721px;'
-        self.allure_assert_step('判断成功跳转到第七个方法', result)
-        assert result
+        self.allure_assert('判断成功跳转到第七个方法',
+                           ('eq', self.getAttribute(faqs.readYaml('$.Register.nav-list.seven'), 'class'), 'active'),
+                           ('eq', self.getAttribute(faqs.readYaml('$.Register.nav'), 'style'), 'top: 19721px;'))
 
     def assert_goto_step_8(self):
-        result = self.getAttribute(faqs.readYaml('$.Register.nav-list.eight'), 'class') == 'active' \
-                 and self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 12608px;'
-        self.allure_assert_step('判断成功跳转到第八个方法', result)
-        assert result
+        self.allure_assert('判断成功跳转到第八个方法',
+                           ('eq', self.getAttribute(faqs.readYaml('$.Register.nav-list.eight'), 'class'), 'active'),
+                           ('eq', self.getAttribute(faqs.readYaml('$.Register.nav'), 'style'), 'top: 12608px;'))
 
     def assert_goto_step_9(self):
-        result = self.getAttribute(faqs.readYaml('$.Register.nav-list.nine'), 'class') == 'active' \
-                 and self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 21383px;'
-        self.allure_assert_step('判断成功跳转到第九个方法', result)
-        assert result
+        self.allure_assert('判断成功跳转到第九个方法',
+                           ('eq', self.getAttribute(faqs.readYaml('$.Register.nav-list.nine'), 'class'), 'active'),
+                           ('eq', self.getAttribute(faqs.readYaml('$.Register.nav'), 'style'), 'top: 21383px;'))
 
     def assert_goto_step_10(self):
-        result = self.getAttribute(faqs.readYaml('$.Register.nav-list.ten'), 'class') == 'active' \
-                 and self.getAttribute(faqs.readYaml('$.Register.nav'), 'style') == 'top: 23605px;'
-        self.allure_assert_step('判断成功跳转到第十个方法', result)
-        assert result
+        self.allure_assert('判断成功跳转到第十个方法',
+                           ('eq', self.getAttribute(faqs.readYaml('$.Register.nav-list.ten'), 'class'), 'active'),
+                           ('eq', self.getAttribute(faqs.readYaml('$.Register.nav'), 'style'), 'top: 23605px;'))
 
     @allure.step('点击开启书签按钮')
     def click_content_hide(self):
@@ -228,35 +202,27 @@ class FAQSPage(WebPage):
         self.jsInDriver(f"document.querySelector({faqs.readYaml('$.Activate.contents.hide')}).click()")
 
     def assert_show_content(self):
-        result = self.getAttribute(faqs.readYaml('$.Activate.contents.hide'), 'guidetitle-after-value') == 'Hide'
-        self.allure_assert_step('判断开启书签', result)
-        assert result
+        self.allure_assert('判断开启书签', (
+            self.getAttribute(faqs.readYaml('$.Activate.contents.hide'), 'guidetitle-after-value'), 'Hide'))
 
     def assert_hide_content(self):
-        result = self.getAttribute(faqs.readYaml('$.Activate.contents.hide'), 'guidetitle-after-value') == 'Show'
-        self.allure_assert_step('判断隐藏书签', result)
-        assert result
+        self.allure_assert('判断隐藏书签', (
+            self.getAttribute(faqs.readYaml('$.Activate.contents.hide'), 'guidetitle-after-value'), 'Show'))
 
     def assert_part1(self):
-        result = self.getAttribute(faqs.readYaml('$.Activate.contents.part1'), 'href') == \
-                 'https://www.imymac.com/mac-tips/account-center.html#part1' \
-                 and self.find_element(('css', '#part1')) is not None
-        self.allure_assert_step('判断书签1是否跳转', result)
-        assert result
+        self.allure_assert('判断书签1是否跳转', ('eq', self.getAttribute(faqs.readYaml('$.Activate.contents.part1'), 'href'),
+                                         'https://www.imymac.com/mac-tips/account-center.html#part1'),
+                           ('not_eq', self.find_element(('css', '#part1')), None))
 
     def assert_part2(self):
-        result = self.getAttribute(faqs.readYaml('$.Activate.contents.part2'), 'href') == \
-                 'https://www.imymac.com/mac-tips/account-center.html#part2' \
-                 and self.find_element(('css', '#part2')) is not None
-        self.allure_assert_step('判断书签2是否跳转', result)
-        assert result
+        self.allure_assert('判断书签2是否跳转', ('eq', self.getAttribute(faqs.readYaml('$.Activate.contents.part2'), 'href'),
+                                         'https://www.imymac.com/mac-tips/account-center.html#part2'),
+                           ('not_eq', self.find_element(('css', '#part2')), None))
 
     def assert_part3(self):
-        result = self.getAttribute(faqs.readYaml('$.Activate.contents.part3'), 'href') == \
-                 'https://www.imymac.com/mac-tips/account-center.html#part3' \
-                 and self.find_element(('css', '#part3')) is not None
-        self.allure_assert_step('判断书签3是否跳转', result)
-        assert result
+        self.allure_assert('判断书签3是否跳转', ('eq', self.getAttribute(faqs.readYaml('$.Activate.contents.part3'), 'href'),
+                                         'https://www.imymac.com/mac-tips/account-center.html#part3'),
+                           ('not_eq', self.find_element(('css', '#part3')), None))
 
     @allure.step('移动到正文首行')
     def goto_context(self):
@@ -275,20 +241,15 @@ class FAQSPage(WebPage):
         self.is_click(faqs.readYaml('$.Activate.nav.buy'))
 
     def assert_goto_logo_index(self):
-        result = self.get_current_url() == 'https://www.imymac.com/powermymac/'
-        self.allure_assert_step('判断logo按钮跳转官网', result)
-        return result
+        self.allure_assert('判断logo按钮跳转官网', ('eq', self.get_current_url(), 'https://www.imymac.com/powermymac/'))
 
     def assert_download(self):
-        result = cm.get_download_filename() == 'crdownload' or \
-                 cm.get_download_filename() == 'pkg'
-        self.allure_assert_step('判断下载是否成功', result)
-        assert result
+        self.allure_assert_or('判断下载是否成功', ('eq', cm.get_download_filename(), 'crdownload'),
+                              ('eq', cm.get_download_filename(), 'pkg'))
 
     def assert_goto_buy(self):
-        result = self.get_current_url() == 'https://www.imymac.com/store/buy-powermymac.html'
-        self.allure_assert_step('判断跳转购买pmm', result)
-        assert result
+        self.allure_assert('判断跳转购买pmm',
+                           ('eq', self.get_current_url(), 'https://www.imymac.com/store/buy-powermymac.html'))
 
     @allure.step('点击侧边弹窗的下载按钮')
     def click_sidebar_download(self):
@@ -299,10 +260,8 @@ class FAQSPage(WebPage):
         self.is_click(faqs.readYaml('$.Activate.sidebar.close'))
 
     def assert_close_sidebar(self):
-        result = self.getAttribute(faqs.readYaml('$.Activate.sidebar.sidebar'),
-                                   'class') == 'sidebar text-center pm-bg sidebar-normal'
-        self.allure_assert_step('判断关闭侧边弹窗', result)
-        assert result
+        self.allure_assert('判断关闭侧边弹窗', ('eq', self.getAttribute(faqs.readYaml('$.Activate.sidebar.sidebar'),
+                                                                'class'), 'sidebar text-center pm-bg sidebar-normal'))
 
     @allure.step('滑动到评论栏')
     def scroll_star(self):
@@ -331,20 +290,19 @@ class FAQSPage(WebPage):
 
     def assert_grade(self, star):
         star = star + 1
-        result = self.getAttribute(faqs.readYaml('$.Activate.grade.poor'), 'class') \
-                 == getValueByIndex(2, star, '评价', 'FAQ/faq.xlsx') and \
-                 self.getAttribute(faqs.readYaml('$.Activate.grade.fair'), 'class') \
-                 == getValueByIndex(3, star, '评价', 'FAQ/faq.xlsx') and \
-                 self.getAttribute(faqs.readYaml('$.Activate.grade.average'), 'class') \
-                 == getValueByIndex(4, star, '评价', 'FAQ/faq.xlsx') and \
-                 self.getAttribute(faqs.readYaml('$.Activate.grade.good'), 'class') \
-                 == getValueByIndex(5, star, '评价', 'FAQ/faq.xlsx') and \
-                 self.getAttribute(faqs.readYaml('$.Activate.grade.excellent'), 'class') \
-                 == getValueByIndex(6, star, '评价', 'FAQ/faq.xlsx') and \
-                 self.element_text(faqs.readYaml('$.Activate.grade.grade')) \
-                 == getValueByIndex(1, star, '评价', 'FAQ/faq.xlsx')
-        self.allure_assert_step(f'判断评价{star - 1}星是否可选中', result)
-        assert result
+        self.allure_assert(f'判断评价{star - 1}星是否可选中', (
+            'eq', self.getAttribute(faqs.readYaml('$.Activate.grade.poor'), 'class'),
+            getValueByIndex(2, star, '评价', 'FAQ/faq.xlsx')), (
+                               'eq', self.getAttribute(faqs.readYaml('$.Activate.grade.fair'), 'class'),
+                               getValueByIndex(3, star, '评价', 'FAQ/faq.xlsx')), (
+                               'eq', self.getAttribute(faqs.readYaml('$.Activate.grade.average'), 'class'),
+                               getValueByIndex(4, star, '评价', 'FAQ/faq.xlsx')), (
+                               'eq', self.getAttribute(faqs.readYaml('$.Activate.grade.good'), 'class'),
+                               getValueByIndex(5, star, '评价', 'FAQ/faq.xlsx')), (
+                               'eq', self.getAttribute(faqs.readYaml('$.Activate.grade.excellent'), 'class'),
+                               getValueByIndex(6, star, '评价', 'FAQ/faq.xlsx')), (
+                               'eq', self.element_text(faqs.readYaml('$.Activate.grade.grade')),
+                               getValueByIndex(1, star, '评价', 'FAQ/faq.xlsx')))
 
     @allure.step('获取当前评论数')
     def get_grade_num(self):
@@ -376,31 +334,30 @@ class FAQSPage(WebPage):
 
     def assert_submit_grade(self, star, num):
         star = star + 1
-        result = self.getAttribute(faqs.readYaml('$.Activate.grade.poor'), 'class') \
-                 == getValueByIndex(2, star, '评价', 'FAQ/faq.xlsx') and \
-                 self.getAttribute(faqs.readYaml('$.Activate.grade.fair'), 'class') \
-                 == getValueByIndex(3, star, '评价', 'FAQ/faq.xlsx') and \
-                 self.getAttribute(faqs.readYaml('$.Activate.grade.average'), 'class') \
-                 == getValueByIndex(4, star, '评价', 'FAQ/faq.xlsx') and \
-                 self.getAttribute(faqs.readYaml('$.Activate.grade.good'), 'class') \
-                 == getValueByIndex(5, star, '评价', 'FAQ/faq.xlsx') and \
-                 self.getAttribute(faqs.readYaml('$.Activate.grade.excellent'), 'class') \
-                 == getValueByIndex(6, star, '评价', 'FAQ/faq.xlsx') and \
-                 self.element_text(faqs.readYaml('$.Activate.grade.grade')) \
-                 == getValueByIndex(1, star, '评价', 'FAQ/faq.xlsx') and \
-                 self.element_text(faqs.readYaml('$.Activate.grade.grade-num')) == str(int(num) + 1)
-        self.allure_assert_step(f'判断{star - 1}星评价是否提交', result)
-        assert result
+        self.allure_assert(f'判断评价{star - 1}星是否可选中', (
+            'eq', self.getAttribute(faqs.readYaml('$.Activate.grade.poor'), 'class'),
+            getValueByIndex(2, star, '评价', 'FAQ/faq.xlsx')), (
+                               'eq', self.getAttribute(faqs.readYaml('$.Activate.grade.fair'), 'class'),
+                               getValueByIndex(3, star, '评价', 'FAQ/faq.xlsx')), (
+                               'eq', self.getAttribute(faqs.readYaml('$.Activate.grade.average'), 'class'),
+                               getValueByIndex(4, star, '评价', 'FAQ/faq.xlsx')), (
+                               'eq', self.getAttribute(faqs.readYaml('$.Activate.grade.good'), 'class'),
+                               getValueByIndex(5, star, '评价', 'FAQ/faq.xlsx')), (
+                               'eq', self.getAttribute(faqs.readYaml('$.Activate.grade.excellent'), 'class'),
+                               getValueByIndex(6, star, '评价', 'FAQ/faq.xlsx')), (
+                               'eq', self.element_text(faqs.readYaml('$.Activate.grade.grade')),
+                               getValueByIndex(1, star, '评价', 'FAQ/faq.xlsx')), (
+                               'eq', self.element_text(faqs.readYaml('$.Activate.grade.grade-num')), str(int(num) + 1)))
 
     def assert_goto_comment(self):
-        result = self.getAttribute(faqs.readYaml('$.Activate.comment.comment'), 'href')
-        self.allure_assert_step('判断跳转到评论栏', result)
-        assert result
+        href = self.getAttribute(faqs.readYaml('$.Activate.comment.comment'), 'href')
+        self.allure_assert('判断跳转到评论栏',
+                           ('not_eq', self.find_element(('css', f"div.{href.split('#')[1]}")), None))
 
     def assert_goto_leave_comment(self):
-        result = self.getAttribute(faqs.readYaml('$.Activate.comment.leave-comment'), 'href')
-        self.allure_assert_step('判断跳转到发布评论栏', result)
-        assert result
+        href = self.getAttribute(faqs.readYaml('$.Activate.comment.leave-comment'), 'href')
+        self.allure_assert('判断跳转到发布评论栏',
+                           ('not_eq', self.find_element(('css', f"div.{href.split('#')[1]}")), None))
 
     @allure.step('滑动到评论栏')
     def scroll_input(self):
@@ -426,20 +383,16 @@ class FAQSPage(WebPage):
         class_name = self.getAttribute(faqs.readYaml('$.Activate.comment.input.name'), 'class', 0)
         class_email = self.getAttribute(faqs.readYaml('$.Activate.comment.input.email'), 'class', 0)
         class_context = self.getAttribute(faqs.readYaml('$.Activate.comment.input.context'), 'class', 0)
-        result = class_name == name_class and \
-                 class_email == email_class and \
-                 class_context == context_class
-        self.allure_assert_step('判断数据格式错误提交评论', result)
-        assert result
+        self.allure_assert('判断数据格式错误提交评论', ('eq', class_name, name_class), ('eq', class_email, email_class),
+                           ("eq", class_context, context_class))
 
     def assert_input_succeed_data(self, name, context):
         date = str(datetime.datetime.now().utcnow().strftime('%Y-%m-%d'))
-        result = self.element_text(faqs.readYaml('$.Activate.comment.reviewer.name')) == name and \
-                 date in self.element_text(faqs.readYaml('$.Activate.comment.reviewer.date')) and \
-                 self.element_text(faqs.readYaml('$.Activate.comment.reviewer.context')) == context and \
-                 self.element_text(faqs.readYaml('$.Activate.comment.comment-num')) == '1'
-        self.allure_assert_step('判断用户名提交评论成功', result)
-        assert result
+        self.allure_assert('判断用户名提交评论成功',
+                           ('eq', self.element_text(faqs.readYaml('$.Activate.comment.reviewer.name')), name),
+                           ('include', date, self.element_text(faqs.readYaml('$.Activate.comment.reviewer.date'))),
+                           ('eq', self.element_text(faqs.readYaml('$.Activate.comment.reviewer.context')), context),
+                           ('eq', self.element_text(faqs.readYaml('$.Activate.comment.comment-num')), '1'))
 
     @allure.step('点击底部栏下载按钮')
     def click_sidebar_bottom(self):
@@ -466,24 +419,20 @@ class FAQSPage(WebPage):
         self.is_click(faqs.readYaml('$.Activate.comment.article.four'))
 
     def assert_goto_article_one(self):
-        result = self.get_current_url() == 'https://www.imymac.com/mac-cleaner/how-to-free-up-space-on-mac.html'
-        self.allure_assert_step('判断跳转第一篇文章页面', result)
-        assert result
+        self.allure_assert('判断跳转第一篇文章页面', (
+            'eq', self.get_current_url(), 'https://www.imymac.com/mac-cleaner/how-to-free-up-space-on-mac.html'))
 
     def assert_goto_article_two(self):
-        result = self.get_current_url() == 'https://www.imymac.com/mac-uninstaller/uninstall-apps-on-mac.html'
-        self.allure_assert_step('判断跳转第二篇文章页面', result)
-        assert result
+        self.allure_assert('判断跳转第二篇文章页面', (
+            'eq', self.get_current_url(), 'https://www.imymac.com/mac-uninstaller/uninstall-apps-on-mac.html'))
 
     def assert_goto_article_three(self):
-        result = self.get_current_url() == 'https://www.imymac.com/mac-cleaner/best-mac-cleaner.html'
-        self.allure_assert_step('判断跳转第三篇文章页面', result)
-        assert result
+        self.allure_assert('判断跳转第三篇文章页面', (
+            'eq', self.get_current_url(), 'https://www.imymac.com/mac-cleaner/best-mac-cleaner.html'))
 
     def assert_goto_article_four(self):
-        result = self.get_current_url() == 'https://www.imymac.com/mac-cleaner/how-to-speed-up-mac.html'
-        self.allure_assert_step('判断跳转第四篇文章页面', result)
-        assert result
+        self.allure_assert('判断跳转第四篇文章页面', (
+            'eq', self.get_current_url(), 'https://www.imymac.com/mac-cleaner/how-to-speed-up-mac.html'))
 
     @allure.step('展开所有常见问题')
     def unfold_faqs(self):
@@ -502,13 +451,10 @@ class FAQSPage(WebPage):
 
     def assert_faqs_unfold(self):
         num = len(self.find_elements(faqs.readYaml('$.faqs.item-active')))
-        result = self.getAttributes(faqs.readYaml('$.faqs.item-active'), 'class') == [
-            'faqs-item-desc faqs-active'] * num
-        self.allure_assert_step('判断常见问题是否展开', result)
-        assert result
+        self.allure_assert('判断常见问题是否展开', ('eq', self.getAttributes(faqs.readYaml('$.faqs.item-active'), 'class'), [
+            'faqs-item-desc faqs-active'] * num))
 
     def assert_faqs_fold(self):
         num = len(self.find_elements(faqs.readYaml('$.faqs.item-active')))
-        result = self.getAttributes(faqs.readYaml('$.faqs.item-active'), 'class') == ['faqs-item-desc'] * num
-        self.allure_assert_step('判断常见问题是否展开', result)
-        assert result
+        self.allure_assert('判断常见问题是否折叠', ('eq', self.getAttributes(faqs.readYaml('$.faqs.item-active'), 'class'), [
+            'faqs-item-desc'] * num))

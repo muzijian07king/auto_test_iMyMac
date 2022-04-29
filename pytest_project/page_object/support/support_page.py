@@ -21,21 +21,15 @@ class SupportPage(WebPage):
         self.is_click(support['refund'])
 
     def assert_goto_faqs(self):
-        result = self.get_current_url() == 'https://www.imymac.com/faqs/'
-        self.allure_assert_step('判断成功跳转到faq页面', result)
-        assert result
+        self.allure_assert('判断成功跳转到faq页面', ('eq', self.get_current_url(), 'https://www.imymac.com/faqs/'))
 
     def assert_goto_retrieve(self):
-        result = self.get_current_url() == 'https://www.imymac.com/retrieve-license.html'
-        self.allure_assert_step('判断成功跳转到retrieve页面', result)
-        assert result
+        self.allure_assert('判断成功跳转到retrieve页面',
+                           ('eq', self.get_current_url(), 'https://www.imymac.com/retrieve-license.html'))
 
     def assert_goto_refund(self):
-        result = self.get_current_url() == 'https://www.imymac.com/refund.html'
-        self.allure_assert_step('判断成功跳转到refund页面', result)
-        assert result
+        self.allure_assert('判断成功跳转到refund页面', ('eq', self.get_current_url(), 'https://www.imymac.com/refund.html'))
 
     def assert_email_href(self):
-        result = self.getAttribute(support['email'], 'href') == 'mailto:support@imymac.com'
-        self.allure_assert_step('判断联系邮箱是否正确', result)
-        assert result
+        self.allure_assert('判断联系邮箱是否正确',
+                           ('eq', self.getAttribute(support['email'], 'href'), 'mailto:support@imymac.com'))
