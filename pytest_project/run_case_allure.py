@@ -4,13 +4,13 @@ import subprocess
 WIN = sys.platform.startswith('win')
 HISTORY = True
 DOWNLOAD = True
-DeBug = True
+DeBug = False
 
 
 def main():
     """主函数"""
     steps = [
-        "pytest TestCase\\contact_test_case --alluredir report\\data --clean-alluredir" if WIN else 'pytest  --alluredir report/data '
+        "pytest --alluredir report\\data --clean-alluredir" if WIN else 'pytest  --alluredir report/data '
                                                                         '--clean-alluredir',
         "copy utils\\environment.properties report\\data\\environment.properties" if WIN else 'cp utils/environment'
                                                                                               '.properties '
