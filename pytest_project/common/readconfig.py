@@ -15,32 +15,32 @@ class ReadConfig(object):
         self.config.read(cm.ini_file, encoding='UTF-8')
 
     def _get(self, section, option):
-        '''
+        """
         获取配置文件
         :param section: 节点
         :param option: 节点中的key,类似字典的key
         :return:
-        '''
+        """
         return self.config.get(section, option)
 
     def _set(self, section, option, value):
-        '''
+        """
         修改配置文件的节点值
         :param section: 节点
         :param option: 节点中的key
         :param value: 修改的value值
         :return:
-        '''
+        """
         self.config.set(section, option, value)
         with open(cm.ini_file, 'w') as f:
             self.config.write(f)
 
     def _getAll(self, section):
-        '''
+        """
         获取节点的所有key value
         :param section:节点
         :return:返回列表
-        '''
+        """
         return self.config.items(section)
 
     @property

@@ -104,43 +104,43 @@ class FAQSPage(WebPage):
 
     @allure.step("点击问题3中第一个方法")
     def click_question_three_step_1(self):
-        self.scroll_to_loc_is_click(faqs.readYaml('$.Register.nav-list.one'))
+        self.is_click(faqs.readYaml('$.Register.nav-list.one'), 1)
 
     @allure.step("点击问题3中第二个方法")
     def click_question_three_step_2(self):
-        self.scroll_to_loc_is_click(faqs.readYaml('$.Register.nav-list.two'))
+        self.is_click(faqs.readYaml('$.Register.nav-list.two'), 1)
 
     @allure.step("点击问题3中第三个方法")
     def click_question_three_step_3(self):
-        self.scroll_to_loc_is_click(faqs.readYaml('$.Register.nav-list.three'))
+        self.is_click(faqs.readYaml('$.Register.nav-list.three'), 1)
 
     @allure.step("点击问题3中第四个方法")
     def click_question_three_step_4(self):
-        self.scroll_to_loc_is_click(faqs.readYaml('$.Register.nav-list.four'))
+        self.is_click(faqs.readYaml('$.Register.nav-list.four'), 1)
 
     @allure.step("点击问题3中第五个方法")
     def click_question_three_step_5(self):
-        self.scroll_to_loc_is_click(faqs.readYaml('$.Register.nav-list.five'))
+        self.is_click(faqs.readYaml('$.Register.nav-list.five'), 1)
 
     @allure.step("点击问题3中第六个方法")
     def click_question_three_step_6(self):
-        self.scroll_to_loc_is_click(faqs.readYaml('$.Register.nav-list.six'))
+        self.is_click(faqs.readYaml('$.Register.nav-list.six'), 1)
 
     @allure.step("点击问题3中第七个方法")
     def click_question_three_step_7(self):
-        self.scroll_to_loc_is_click(faqs.readYaml('$.Register.nav-list.seven'))
+        self.is_click(faqs.readYaml('$.Register.nav-list.seven'), 1)
 
     @allure.step("点击问题3中第八个方法")
     def click_question_three_step_8(self):
-        self.scroll_to_loc_is_click(faqs.readYaml('$.Register.nav-list.eight'))
+        self.is_click(faqs.readYaml('$.Register.nav-list.eight'), 1)
 
     @allure.step("点击问题3中第九个方法")
     def click_question_three_step_9(self):
-        self.scroll_to_loc_is_click(faqs.readYaml('$.Register.nav-list.nine'))
+        self.is_click(faqs.readYaml('$.Register.nav-list.nine'), 1)
 
     @allure.step("点击问题3中第十个方法")
     def click_question_three_step_10(self):
-        self.scroll_to_loc_is_click(faqs.readYaml('$.Register.nav-list.ten'))
+        self.is_click(faqs.readYaml('$.Register.nav-list.ten'), 1)
 
     def assert_goto_step_1(self):
         self.allure_assert('判断成功跳转到第一个方法',
@@ -203,11 +203,11 @@ class FAQSPage(WebPage):
 
     def assert_show_content(self):
         self.allure_assert('判断开启书签', (
-            self.getAttribute(faqs.readYaml('$.Activate.contents.hide'), 'guidetitle-after-value'), 'Hide'))
+            'eq', self.getAttribute(faqs.readYaml('$.Activate.contents.hide'), 'guidetitle-after-value'), 'Hide'))
 
     def assert_hide_content(self):
         self.allure_assert('判断隐藏书签', (
-            self.getAttribute(faqs.readYaml('$.Activate.contents.hide'), 'guidetitle-after-value'), 'Show'))
+            'eq', self.getAttribute(faqs.readYaml('$.Activate.contents.hide'), 'guidetitle-after-value'), 'Show'))
 
     def assert_part1(self):
         self.allure_assert('判断书签1是否跳转', ('eq', self.getAttribute(faqs.readYaml('$.Activate.contents.part1'), 'href'),
@@ -226,7 +226,7 @@ class FAQSPage(WebPage):
 
     @allure.step('移动到正文首行')
     def goto_context(self):
-        self.is_click(faqs.readYaml('$.Activate.contents.part1'))
+        self.is_click(faqs.readYaml('$.Activate.contents.part1'), 1)
 
     @allure.step('点击logo')
     def click_logo(self):
@@ -352,12 +352,12 @@ class FAQSPage(WebPage):
     def assert_goto_comment(self):
         href = self.getAttribute(faqs.readYaml('$.Activate.comment.comment'), 'href')
         self.allure_assert('判断跳转到评论栏',
-                           ('not_eq', self.find_element(('css', f"div.{href.split('#')[1]}")), None))
+                           ('not_eq', self.find_element(('css', f"#{href.split('#')[1]}")), None))
 
     def assert_goto_leave_comment(self):
         href = self.getAttribute(faqs.readYaml('$.Activate.comment.leave-comment'), 'href')
         self.allure_assert('判断跳转到发布评论栏',
-                           ('not_eq', self.find_element(('css', f"div.{href.split('#')[1]}")), None))
+                           ('not_eq', self.find_element(('css', f"#{href.split('#')[1]}")), None))
 
     @allure.step('滑动到评论栏')
     def scroll_input(self):

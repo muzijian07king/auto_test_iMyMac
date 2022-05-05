@@ -86,6 +86,7 @@ class BuyPage(WebPage):
 
     @allure.step('进入购买第一步页面')
     def buy_first_step(self):
+        sleep(0.5)
         self.select_by_value(buy['buy-language'], 'zh-Hans')
 
     @allure.step('进入购买第二步页面')
@@ -120,8 +121,10 @@ class BuyPage(WebPage):
         """对比价格"""
         if int(number) > 65535:
             number = '65535'
-        self.allure_assert('判断价格是否正确',
-                           ('eq', self.element_text(buy['price']).split('€')[1], "%.2f" % (9.95 * 1.19 * int(number))))
+        # self.allure_assert('判断价格是否正确', ('eq', self.element_text(buy['price']).split('€')[1], "%.2f" % (9.95 * 1.19
+        # * int(number))))
+        self.allure_assert('判断价格是否正确', (
+            'eq', Decimal(self.element_text(buy['price']).split('$')[1]), Decimal('9.95') * Decimal(number)))
 
     @allure.step('输入邮箱')
     def send_email(self, text):
@@ -186,15 +189,10 @@ class BuyPage(WebPage):
 
     @allure.step('移除优惠码')
     def click_delete_coupon(self):
-        self.is_click(buy['delete-conpon'])
+        self.is_click(buy['delete-conpon'], 1)
 
     def assert_delete_coupon(self):
         self.allure_assert('判断是否删除优惠券', ('not_eq', self.find_element(buy['delete-conpon']), None))
-
-    def assert_product_price(self, number):
-        """双精度对比价格"""
-        self.allure_assert('判断商品价格是否正确', (
-            'eq', self.element_text(buy['product-price']).split('€')[1], "%.2f" % (9.95 * 1.19 * int(number))))
 
     def assert_after_discount_price(self, discount=1):
         """
@@ -243,7 +241,7 @@ class BuyPage(WebPage):
 
     @allure.step('提交输入卡信息')
     def submit_card(self):
-        self.is_click(buy['cardSubmit'])
+        self.is_click(buy['cardSubmit'], 2)
 
     @allure.step('点击使用其他支付方式按钮')
     def cancel_pay(self):

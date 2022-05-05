@@ -43,9 +43,9 @@ class Element(object):
 
     def readYaml(self, expr='.', element=0):
         """
-        jsonpath提取元素值
+        jsonpath提取元素值，默认提取元素返回元组形式（css，'xxx'）
         :param expr: 默认全部，使用$.
-        :param element: 是否提取定位方式,0否1是
+        :param element: 是否提取正常yaml格式,0否1是
         :return: 列表
         """
         try:

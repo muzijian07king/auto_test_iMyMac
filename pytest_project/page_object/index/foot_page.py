@@ -31,7 +31,7 @@ class FootPage(WebPage):
     @allure.step('点击提交按钮')
     def click_submit(self):
         """点击提交按钮"""
-        self.is_click(foot['SearchButton'])
+        self.is_click(foot['SearchButton'], 1)
 
     def scroll_copyright(self):
         self.jsInDriver('document.documentElement.scrollTop=10000')

@@ -184,53 +184,81 @@ class OptionPage(WebPage):
         self.switch_to_frame(store.readYaml('$.lifetime-license.5-Macs.iframe', 1))
 
     def assert_month_pay(self):
+        # self.allure_assert('判断支付弹窗信息是否对应一个月套餐', (
+        #     'eq', self.element_text(store['pay-title']), getValueByIndex(1, 2, 'pmm套餐价格', 'Store/store.xlsx')),
+        #                    ('eq', self.element_text(store['pay-price']), "€" + str(
+        #                        "%.2f" % (float(
+        #                            getValueByIndex(3, 2, 'pmm套餐价格', 'Store/store.xlsx').split("$")[1]) * 1.19))))
         self.allure_assert('判断支付弹窗信息是否对应一个月套餐', (
             'eq', self.element_text(store['pay-title']), getValueByIndex(1, 2, 'pmm套餐价格', 'Store/store.xlsx')),
-                           ('eq', self.element_text(store['pay-price']), "€" + str(
-                               "%.2f" % (float(
-                                   getValueByIndex(3, 2, 'pmm套餐价格', 'Store/store.xlsx').split("$")[1]) * 1.19))))
+                           ('eq', self.element_text(store['pay-price']).split('$')[1],
+                            getValueByIndex(3, 2, 'pmm套餐价格', 'Store/store.xlsx').split("$")[1]))
 
     def assert_year_one_pay(self):
+        # self.allure_assert('判断支付弹窗信息是否对应一个年一台套餐', (
+        #     'eq', self.element_text(store['pay-title']), getValueByIndex(1, 3, 'pmm套餐价格', 'Store/store.xlsx')),
+        #                    ('eq', self.element_text(store['pay-price']), "€" + str(
+        #                        "%.2f" % (float(
+        #                            getValueByIndex(3, 3, 'pmm套餐价格', 'Store/store.xlsx').split("$")[1]) * 1.19))))
         self.allure_assert('判断支付弹窗信息是否对应一个年一台套餐', (
             'eq', self.element_text(store['pay-title']), getValueByIndex(1, 3, 'pmm套餐价格', 'Store/store.xlsx')),
-                           ('eq', self.element_text(store['pay-price']), "€" + str(
-                               "%.2f" % (float(
-                                   getValueByIndex(3, 3, 'pmm套餐价格', 'Store/store.xlsx').split("$")[1]) * 1.19))))
+                           ('eq', self.element_text(store['pay-price']).split('$')[1],
+                            getValueByIndex(3, 3, 'pmm套餐价格', 'Store/store.xlsx').split("$")[1]))
 
     def assert_year_two_pay(self):
+        # self.allure_assert('判断支付弹窗信息是否对应一年两台套餐', (
+        #     'eq', self.element_text(store['pay-title']), getValueByIndex(1, 4, 'pmm套餐价格', 'Store/store.xlsx')),
+        #                    ('eq', self.element_text(store['pay-price']), "€" + str(
+        #                        "%.2f" % (float(
+        #                            getValueByIndex(3, 4, 'pmm套餐价格', 'Store/store.xlsx').split("$")[1]) * 1.19))))
         self.allure_assert('判断支付弹窗信息是否对应一年两台套餐', (
             'eq', self.element_text(store['pay-title']), getValueByIndex(1, 4, 'pmm套餐价格', 'Store/store.xlsx')),
-                           ('eq', self.element_text(store['pay-price']), "€" + str(
-                               "%.2f" % (float(
-                                   getValueByIndex(3, 4, 'pmm套餐价格', 'Store/store.xlsx').split("$")[1]) * 1.19))))
+                           ('eq', self.element_text(store['pay-price']).split('$')[1],
+                            getValueByIndex(3, 4, 'pmm套餐价格', 'Store/store.xlsx').split("$")[1]))
 
     def assert_year_five_pay(self):
+        # self.allure_assert('判断支付弹窗信息是否对应一年五台套餐', (
+        #     'eq', self.element_text(store['pay-title']), getValueByIndex(1, 5, 'pmm套餐价格', 'Store/store.xlsx')),
+        #                    ('eq', self.element_text(store['pay-price']), "€" + str(
+        #                        "%.2f" % (float(
+        #                            getValueByIndex(3, 5, 'pmm套餐价格', 'Store/store.xlsx').split("$")[1]) * 1.19))))
         self.allure_assert('判断支付弹窗信息是否对应一年五台套餐', (
             'eq', self.element_text(store['pay-title']), getValueByIndex(1, 5, 'pmm套餐价格', 'Store/store.xlsx')),
-                           ('eq', self.element_text(store['pay-price']), "€" + str(
-                               "%.2f" % (float(
-                                   getValueByIndex(3, 5, 'pmm套餐价格', 'Store/store.xlsx').split("$")[1]) * 1.19))))
+                           ('eq', self.element_text(store['pay-price']).split('$')[1],
+                            getValueByIndex(3, 5, 'pmm套餐价格', 'Store/store.xlsx').split("$")[1]))
 
     def assert_lifetime_one_pay(self):
+        # self.allure_assert('判断支付弹窗信息是否对应永久一台套餐', (
+        #     'eq', self.element_text(store['pay-title']), getValueByIndex(1, 6, 'pmm套餐价格', 'Store/store.xlsx')),
+        #                    ('eq', self.element_text(store['pay-price']), "€" + str(
+        #                        "%.2f" % (float(
+        #                            getValueByIndex(3, 6, 'pmm套餐价格', 'Store/store.xlsx').split("$")[1]) * 1.19))))
         self.allure_assert('判断支付弹窗信息是否对应永久一台套餐', (
             'eq', self.element_text(store['pay-title']), getValueByIndex(1, 6, 'pmm套餐价格', 'Store/store.xlsx')),
-                           ('eq', self.element_text(store['pay-price']), "€" + str(
-                               "%.2f" % (float(
-                                   getValueByIndex(3, 6, 'pmm套餐价格', 'Store/store.xlsx').split("$")[1]) * 1.19))))
+                           ('eq', self.element_text(store['pay-price']).split('$')[1],
+                            getValueByIndex(3, 6, 'pmm套餐价格', 'Store/store.xlsx').split("$")[1]))
 
     def assert_lifetime_two_pay(self):
+        # self.allure_assert('判断支付弹窗信息是否对应永久两台套餐', (
+        #     'eq', self.element_text(store['pay-title']), getValueByIndex(1, 7, 'pmm套餐价格', 'Store/store.xlsx')),
+        #                    ('eq', self.element_text(store['pay-price']), "€" + str(
+        #                        "%.2f" % (float(
+        #                            getValueByIndex(3, 7, 'pmm套餐价格', 'Store/store.xlsx').split("$")[1]) * 1.19))))
         self.allure_assert('判断支付弹窗信息是否对应永久两台套餐', (
             'eq', self.element_text(store['pay-title']), getValueByIndex(1, 7, 'pmm套餐价格', 'Store/store.xlsx')),
-                           ('eq', self.element_text(store['pay-price']), "€" + str(
-                               "%.2f" % (float(
-                                   getValueByIndex(3, 7, 'pmm套餐价格', 'Store/store.xlsx').split("$")[1]) * 1.19))))
+                           ('eq', self.element_text(store['pay-price']).split('$')[1],
+                            getValueByIndex(3, 7, 'pmm套餐价格', 'Store/store.xlsx').split("$")[1]))
 
     def assert_lifetime_five_pay(self):
+        # self.allure_assert('判断支付弹窗信息是否对应永久五台套餐', (
+        #     'eq', self.element_text(store['pay-title']), getValueByIndex(1, 8, 'pmm套餐价格', 'Store/store.xlsx')),
+        #                    ('eq', self.element_text(store['pay-price']), "€" + str(
+        #                        "%.2f" % (float(
+        #                            getValueByIndex(3, 8, 'pmm套餐价格', 'Store/store.xlsx').split("$")[1]) * 1.19))))
         self.allure_assert('判断支付弹窗信息是否对应永久五台套餐', (
             'eq', self.element_text(store['pay-title']), getValueByIndex(1, 8, 'pmm套餐价格', 'Store/store.xlsx')),
-                           ('eq', self.element_text(store['pay-price']), "€" + str(
-                               "%.2f" % (float(
-                                   getValueByIndex(3, 8, 'pmm套餐价格', 'Store/store.xlsx').split("$")[1]) * 1.19))))
+                           ('eq', self.element_text(store['pay-price']).split('$')[1],
+                            getValueByIndex(3, 8, 'pmm套餐价格', 'Store/store.xlsx').split("$")[1]))
 
     @allure.step('展开所有faq')
     def click_unfold_faqs_button(self):

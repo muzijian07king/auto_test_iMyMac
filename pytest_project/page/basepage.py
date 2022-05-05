@@ -90,7 +90,7 @@ class WebPage(object):
         except FileExistsError:
             log.error('文件不存在')
 
-    def is_click(self, loc, s=0.2):
+    def is_click(self, loc, s=0.5):
         """默认点击后暂停1s"""
         self.find_element(loc).click()
         log.info('点击元素：{}'.format(loc))
@@ -309,6 +309,7 @@ class WebPage(object):
         eq参数实际在前,预期在后。include，子集在前，父集在后。[gt、ge、lt、le]，实际值在前，比较值在后)
         """
         index = 0
+        results = []
         with allure.step(title):
             for arg in args:
                 index += 1
@@ -323,47 +324,48 @@ class WebPage(object):
                         result = practical is None
                     else:
                         result = expected == practical
-                        allure.attach(json.dumps(f"预期结果: {expected},实际结果: {practical}", ensure_ascii=False, indent=2),
-                                      f"第{index}个断言[相等]: {result}", allure.attachment_type.JSON)
-                if method == 'not_eq':
+                    allure.attach(json.dumps(f"预期结果: {expected},实际结果: {practical}", ensure_ascii=False, indent=2),
+                                  f"第{index}个断言[相等]: {result}", allure.attachment_type.JSON)
+                elif method == 'not_eq':
                     if expected is None:
                         result = practical is not None
                     else:
                         result = expected != practical
-                    allure.attach(json.dumps(f"预期结果: {expected},实际结果: {practical}", ensure_ascii=False, indent=2),
+                    allure.attach(json.dumps(f"预期不相等: {expected},实际结果: {practical}", ensure_ascii=False, indent=2),
                                   f"第{index}个断言[不相等]: {result}", allure.attachment_type.JSON)
-                if method == 'include':
+                elif method == 'include':
                     result = practical in expected
-                    allure.attach(json.dumps(f"子集: {expected},父集: {practical}", ensure_ascii=False, indent=2),
+                    allure.attach(json.dumps(f"子集: {practical},父集: {expected}", ensure_ascii=False, indent=2),
                                   f"第{index}个断言[包含]: {result}", allure.attachment_type.JSON)
-                if method == 'not_include':
+                elif method == 'not_include':
                     result = practical not in expected
-                    allure.attach(json.dumps(f"子集: {expected},父集: {practical}", ensure_ascii=False, indent=2),
+                    allure.attach(json.dumps(f"子集: {practical},父集: {expected}", ensure_ascii=False, indent=2),
                                   f"第{index}个断言[不包含]: {result}", allure.attachment_type.JSON)
-                if method == 'ge':
+                elif method == 'ge':
                     result = practical >= expected
                     allure.attach(json.dumps(f"实际结果: {practical},比较值: {expected}", ensure_ascii=False, indent=2),
                                   f"第{index}个断言[大于等于]: {result}", allure.attachment_type.JSON)
-                if method == 'gt':
+                elif method == 'gt':
                     result = practical > expected
                     allure.attach(json.dumps(f"实际结果: {practical},比较值: {expected}", ensure_ascii=False, indent=2),
                                   f"第{index}个断言[大于]: {result}", allure.attachment_type.JSON)
-                if method == 'le':
+                elif method == 'le':
                     result = practical <= expected
                     allure.attach(json.dumps(f"实际结果: {practical},比较值: {expected}", ensure_ascii=False, indent=2),
                                   f"第{index}个断言[小于等于]: {result}", allure.attachment_type.JSON)
-                if method == 'lt':
+                elif method == 'lt':
                     result = practical < expected
                     allure.attach(json.dumps(f"实际结果: {practical},比较值: {expected}", ensure_ascii=False, indent=2),
                                   f"第{index}个断言[小于]: {result}", allure.attachment_type.JSON)
                 try:
                     log.info(f"预期结果: {expected},实际结果: {practical}, 断言方法：{method}, 断言结果：{result}")
-                    assert result
+                    results.append(result)
                 except AssertionError:
                     raise AssertionError(
                         f'第{index}个断言[{method}]失败,实际结果{practical}|预期结果{expected}'
                     )
-                return result
+            assert False not in results
+            return result
 
     @staticmethod
     def allure_assert_or(title, *args):
@@ -389,22 +391,22 @@ class WebPage(object):
                         result = practical is None
                     else:
                         result = expected == practical
-                        allure.attach(json.dumps(f"预期结果: {expected},实际结果: {practical}", ensure_ascii=False, indent=2),
-                                      f"第{index}个or断言[相等]: {result}", allure.attachment_type.JSON)
+                    allure.attach(json.dumps(f"预期结果: {expected},实际结果: {practical}", ensure_ascii=False, indent=2),
+                                  f"第{index}个or断言[相等]: {result}", allure.attachment_type.JSON)
                 if method == 'not_eq':
                     if expected is None:
                         result = practical is not None
                     else:
                         result = expected != practical
-                    allure.attach(json.dumps(f"预期结果: {expected},实际结果: {practical}", ensure_ascii=False, indent=2),
+                    allure.attach(json.dumps(f"预期不相等: {expected},实际结果: {practical}", ensure_ascii=False, indent=2),
                                   f"第{index}个or断言[不相等]: {result}", allure.attachment_type.JSON)
                 if method == 'include':
-                    result = expected in practical
-                    allure.attach(json.dumps(f"子集: {expected},父集: {practical}", ensure_ascii=False, indent=2),
+                    result = practical in expected
+                    allure.attach(json.dumps(f"子集: {practical},父集: {expected}", ensure_ascii=False, indent=2),
                                   f"第{index}个or断言[包含]: {result}", allure.attachment_type.JSON)
                 if method == 'not_include':
-                    result = expected not in practical
-                    allure.attach(json.dumps(f"子集: {expected},父集: {practical}", ensure_ascii=False, indent=2),
+                    result = practical not in expected
+                    allure.attach(json.dumps(f"子集: {practical},父集: {expected}", ensure_ascii=False, indent=2),
                                   f"第{index}个or断言[不包含]: {result}", allure.attachment_type.JSON)
                 if method == 'ge':
                     result = practical >= expected

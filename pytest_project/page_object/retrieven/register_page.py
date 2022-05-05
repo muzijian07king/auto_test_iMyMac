@@ -20,6 +20,10 @@ class RegisterPage(WebPage):
     def goto_register(self):
         self.is_click(retrieve.readYaml('$.index.register'))
 
+    def assert_goto_login(self):
+        self.allure_assert('判断是否进入登录页面', ('not_eq', self.find_element(retrieve.readYaml('$.login.forgot')), None),
+                           ('eq', self.get_current_url(), 'https://member.imymac.com/login'))
+
     def assert_goto_register(self):
         self.allure_assert('判断是否进入注册页面', ('eq', self.get_current_url(), 'https://member.imymac.com/register'))
 
@@ -109,7 +113,7 @@ class RegisterPage(WebPage):
 
     @allure.step('点击语言')
     def click_language(self, language):
-        self.is_click(retrieve.readYaml(f'$.language.{language}'))
+        self.is_click(retrieve.readYaml(f'$.language.{language}'), 1)
 
     def assert_switch_language(self, title):
         self.allure_assert('判断切换语言是否成功', ('eq', self.element_text(retrieve.readYaml('$.language.title')), title))

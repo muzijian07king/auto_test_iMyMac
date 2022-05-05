@@ -115,7 +115,6 @@ class TestBody(object):
         self.driver.sort_by_relevance()
         self.driver.assert_search_content_succeed('java')
 
-    @pytest.mark.timeout(30)
     @allure.title('Google时间排序测试')
     @allure.tag('时间')
     @pytest.mark.flaky(reruns=0)

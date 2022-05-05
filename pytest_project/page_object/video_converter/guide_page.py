@@ -37,12 +37,17 @@ class GuidePage(WebPage):
     def assert_goto_win_guide(self):
         """判断是否跳转到win指南"""
         self.allure_assert('判断是否跳转到win指南',
-                           ('eq', self.getAttribute(guide.readYaml('$.os.win'), 'class'), "version-tag win active"))
+                           ('eq', self.getAttribute(guide.readYaml('$.os.win'), 'class'), "version-tag win active"),
+                           ('eq', self.getAttribute(guide['download'], 'href'),
+                            'https://www.imymac.com/download/imymac-video-converter.exe'))
 
     def assert_goto_mac_guide(self):
         """判断是否跳转到mac指南"""
         self.allure_assert('判断是否跳转到mac指南',
-                           ('eq', self.getAttribute(guide.readYaml('$.os.mac'), 'class'), "version-tag mac active"))
+                           ('eq', self.getAttribute(guide.readYaml('$.os.mac'), 'class'), "version-tag mac active"),
+                           ('eq', self.getAttribute(guide['download'], 'href'),
+                            'https://www.imymac.com/download/imymac-video-converter.dmg')
+                           )
 
     @allure.step('移动到指南栏')
     def scroll_guide(self):
@@ -50,7 +55,7 @@ class GuidePage(WebPage):
 
     def click_guide(self, no):
         with allure.step(f'点击指南{no}'):
-            self.is_click(guide.readYaml(f'$.nav.{no}'))
+            self.is_click(guide.readYaml(f'$.nav.{no}'), 1)
 
     def assert_goto_guide(self, style: str):
         self.allure_assert('判断是否跳转到指定指南上', ('eq', self.getAttribute(guide.readYaml('$.nav.div'), 'style'), style))

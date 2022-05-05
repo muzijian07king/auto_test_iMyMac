@@ -14,19 +14,22 @@ class TestBody(object):
     def open_url(self, drivers):
         self.driver = RecoverPage(drivers)
         self.driver.get_url(ini.get_url('recover'))
-        self.driver.click_unfold_language()
-        self.driver.click_language('en')
 
     @pytest.fixture(scope='function')
     def clear_cookie(self):
         self.driver.delete_all_cookie()
         self.driver.refresh()
 
+    @pytest.fixture(scope='function')
+    def switch_language(self):
+        self.driver.click_unfold_language()
+        self.driver.click_language('en')
+
     @allure.title('输入错误邮箱找回密码测试')
     @allure.severity('critical')
     @allure.tag('输入错误邮箱')
     @pytest.mark.parametrize('email', getExcelOneCol('邮箱错误', 1, 'Admin/recover.xlsx'))
-    def test_001(self, email, clear_cookie):
+    def test_001(self, email, switch_language, clear_cookie):
         self.driver.input_email(email)
         self.driver.click_recover()
         self.driver.assert_recover_failed()
@@ -35,7 +38,7 @@ class TestBody(object):
     @allure.tag('发送成功')
     @allure.severity('blocker')
     @pytest.mark.parametrize('email', getExcelOneCol('邮箱正确', 1, 'Admin/recover.xlsx'))
-    def test_002(self, email):
+    def test_002(self, email, switch_language):
         self.driver.input_email(email)
         self.driver.click_recover()
         self.driver.assert_recover_succeed()
@@ -44,7 +47,7 @@ class TestBody(object):
     @allure.tag('发送失败')
     @allure.severity('blocker')
     @pytest.mark.parametrize('email', getExcelOneCol('邮箱为空', 1, 'Admin/recover.xlsx'))
-    def test_003(self, email):
+    def test_003(self, email, switch_language):
         self.driver.input_email(email)
         self.driver.click_recover()
         self.driver.assert_error_popup()
@@ -52,7 +55,7 @@ class TestBody(object):
     @allure.title('跳转登录页面测试')
     @allure.tag('跳转登录页面')
     @allure.severity('blocker')
-    def test_004(self):
+    def test_004(self, switch_language):
         self.driver.click_login()
         self.driver.assert_goto_login()
 

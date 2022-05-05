@@ -19,7 +19,7 @@ class LoginPage(WebPage):
 
     @allure.step('勾选记住我')
     def check_remember(self):
-        self.is_click(retrieve.readYaml('$.login.remember'))
+        self.is_click(retrieve.readYaml('$.login.remember'), 0.5)
 
     def assert_check_remember(self):
         self.allure_assert('判断是否勾选记住我按钮', (
@@ -32,7 +32,7 @@ class LoginPage(WebPage):
     @allure.step('取消勾选记住我')
     def cancel_check_remember(self):
         self.check_remember()
-        self.is_click(retrieve.readYaml('$.login.remember'))
+        self.is_click(retrieve.readYaml('$.login.remember'), 0.5)
 
     def assert_cancel_check_remember(self):
         self.allure_assert('判断是否取消勾选记住我按钮',
@@ -40,14 +40,14 @@ class LoginPage(WebPage):
 
     @allure.step('点击login按钮')
     def click_login(self):
-        self.is_click(retrieve.readYaml('$.login.login'))
+        self.is_click(retrieve.readYaml('$.login.login'), 1)
 
     @allure.step('点击register按钮')
     def click_register(self):
-        self.is_click(retrieve.readYaml('$.login.register'))
+        self.is_click(retrieve.readYaml('$.login.register'), 1)
 
     def assert_error_popup(self):
-        self.allure_assert('判断弹出登录失败错误信息', ('eq', ('eq', self.is_display(retrieve.readYaml('$.login.error')), True)))
+        self.allure_assert('判断弹出登录失败错误信息', ('eq', self.is_display(retrieve.readYaml('$.login.error')), True))
 
     @allure.step('跳转到找回密码页面')
     def goto_forgot(self):
@@ -79,4 +79,4 @@ class LoginPage(WebPage):
         self.is_click(retrieve.readYaml(f'$.language.{language}'))
 
     def assert_switch_language(self, title):
-        self.allure_assert('判断切换语言是否成功', self.element_text(retrieve.readYaml('$.language.title')), title)
+        self.allure_assert('判断切换语言是否成功', ('eq', self.element_text(retrieve.readYaml('$.language.title')), title))

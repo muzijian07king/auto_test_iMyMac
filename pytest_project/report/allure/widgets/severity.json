@@ -1,41 +1,91 @@
 [ {
-  "uid" : "a91d8a16815341ec",
-  "name" : "简介栏内容测试",
+  "uid" : "8dc22fb9e20c5af4",
+  "name" : "测试侧边栏书签3的问题8跳转",
   "time" : {
-    "start" : 1651045305177,
-    "stop" : 1651045305196,
-    "duration" : 19
+    "start" : 1651738022245,
+    "stop" : 1651738028235,
+    "duration" : 5990
   },
   "status" : "passed",
-  "severity" : "trivial"
+  "severity" : "normal"
 }, {
-  "uid" : "d09307bd268a6add",
-  "name" : "邮箱链接测试",
+  "uid" : "77ed67cb037ff9e",
+  "name" : "测试侧边栏书签3的问题5跳转",
   "time" : {
-    "start" : 1651045305747,
-    "stop" : 1651045306784,
-    "duration" : 1037
+    "start" : 1651738020987,
+    "stop" : 1651738025903,
+    "duration" : 4916
   },
   "status" : "passed",
-  "severity" : "critical"
+  "severity" : "normal"
 }, {
-  "uid" : "531e3a0dc3adb4b",
-  "name" : "简介栏内容测试",
+  "uid" : "3ba216623e06260f",
+  "name" : "测试侧边栏书签3的问题2跳转",
   "time" : {
-    "start" : 1651045307964,
-    "stop" : 1651045307992,
-    "duration" : 28
+    "start" : 1651738018622,
+    "stop" : 1651738023718,
+    "duration" : 5096
   },
   "status" : "passed",
-  "severity" : "trivial"
+  "severity" : "normal"
 }, {
-  "uid" : "259ec2d35d8c3f95",
-  "name" : "简介栏内容测试",
+  "uid" : "2c4ad146a09d2b4",
+  "name" : "测试侧边栏书签3的问题10跳转",
   "time" : {
-    "start" : 1651045307429,
-    "stop" : 1651045307463,
-    "duration" : 34
+    "start" : 1651738025954,
+    "stop" : 1651738030871,
+    "duration" : 4917
   },
   "status" : "passed",
-  "severity" : "trivial"
+  "severity" : "normal"
+}, {
+  "uid" : "183329157672f348",
+  "name" : "测试侧边栏书签3的问题7跳转",
+  "time" : {
+    "start" : 1651738023769,
+    "stop" : 1651738028685,
+    "duration" : 4916
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "47bc11363519bf0f",
+  "name" : "测试侧边栏书签3的问题9跳转",
+  "time" : {
+    "start" : 1651738023176,
+    "stop" : 1651738028098,
+    "duration" : 4922
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "561db3828452f493",
+  "name" : "测试侧边栏书签3的问题1跳转",
+  "time" : {
+    "start" : 1651738015797,
+    "stop" : 1651738020919,
+    "duration" : 5122
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "95402632d4b831b1",
+  "name" : "测试侧边栏书签3的问题3跳转",
+  "time" : {
+    "start" : 1651738015797,
+    "stop" : 1651738022192,
+    "duration" : 6395
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f82c46cd6f766e89",
+  "name" : "测试侧边栏书签3的问题4跳转",
+  "time" : {
+    "start" : 1651738018039,
+    "stop" : 1651738023131,
+    "duration" : 5092
+  },
+  "status" : "passed",
+  "severity" : "normal"
 } ]

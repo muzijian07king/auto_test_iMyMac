@@ -23,5 +23,5 @@ class TechPage(WebPage):
 
     def assert_goto_buy(self):
         """判断跳转购买页面内容与实际相同"""
-        self.allure_assert('判断跳转购买页面内容与实际相同', self.get_current_url(),
-                           'https://www.imymac.com/store/buy-video-converter.html')
+        self.allure_assert('判断跳转购买页面内容与实际相同', ('eq', self.get_current_url(),
+                                               'https://www.imymac.com/store/buy-video-converter.html'))

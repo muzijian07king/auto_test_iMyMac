@@ -29,6 +29,7 @@ class UserPage(WebPage):
     def assert_succeed_change_photo(self):
         self.allure_assert('判断是否弹出上传成功提示', ('eq', self.is_display(user.readYaml("Profile.Account.succeed")), True))
         self.refresh()
+        sleep()
         self.allure_assert('判断刷新后头像是否显示', (
             'include', f'https://member.imymac.com/images/avatar/{get_utctime("%Y%m%d%H")}',
             self.getAttribute(user.readYaml("Profile.headling-img"), 'src')))
@@ -153,7 +154,7 @@ class UserPage(WebPage):
         self.jsInDriver('document.querySelector("span.self-name").click()')
 
     def assert_close_popup_logout(self):
-        self.allure_assert('判断是否关闭退出弹窗', ('not_eq', self.is_display(user.readYaml('$.nav.logout')), False))
+        self.allure_assert('判断是否关闭退出弹窗', ('eq', self.is_display(user.readYaml('$.nav.logout')), False))
 
     @allure.step('点击语言按钮展开语言选择框')
     def click_unfold_language(self):
@@ -168,7 +169,7 @@ class UserPage(WebPage):
         self.jsInDriver("document.querySelector('div.select-lang>p').click()")
 
     def assert_fold_language(self):
-        self.allure_assert('判断折叠语言选择框', ('not_eq', self.is_display(user.readYaml('$.nav.language.selector')), False))
+        self.allure_assert('判断折叠语言选择框', ('eq', self.is_display(user.readYaml('$.nav.language.selector')), False))
 
     @allure.step('点击语言')
     def click_language(self, language):

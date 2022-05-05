@@ -1,6 +1,5 @@
 from pytest_project.page.basepage import WebPage
-import allure
-from pytest_project.common.readelement import Element, get_any_key_info
+from pytest_project.common.readelement import Element
 
 discount = Element('Discount/discount')
 

@@ -47,7 +47,7 @@ class TestBody(object):
     @allure.title('指南跳转测试')
     @pytest.mark.parametrize('No, css', getExcelAllData('guide', 'Video/video.xlsx'))
     def test_005(self, No, css):
-        """指南一跳转测试"""
+        """指南跳转测试"""
         allure.dynamic.tag(No)
         self.driver.scroll_guide()
         self.driver.click_guide(No)

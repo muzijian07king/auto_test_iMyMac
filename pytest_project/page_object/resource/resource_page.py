@@ -92,7 +92,7 @@ class ReSourcePage(WebPage):
 
     @allure.step('点击日期排序')
     def sort_by_date(self):
-        self.is_click(resource.readYaml('$.sort.date'))
+        self.is_click(resource.readYaml('$.sort.date'), 1)
 
     @allure.step('关闭隐私弹窗')
     def close_cookie_popup(self):

@@ -24,5 +24,6 @@ class TestBody(object):
     @allure.tag('container')
     @allure.severity('blocker')
     def test_002(self):
+        self.driver.scroll_container()
         self.driver.click_container_download()
         self.driver.assert_download()

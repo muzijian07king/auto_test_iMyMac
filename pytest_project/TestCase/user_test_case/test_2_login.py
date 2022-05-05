@@ -15,6 +15,9 @@ class TestBody(object):
     def open_url(self, drivers):
         self.driver = LoginPage(drivers)
         self.driver.get_url(ini.get_url('login'))
+
+    @pytest.fixture(scope='function')
+    def switch_language(self):
         self.driver.click_unfold_language()
         self.driver.click_language('en')
 
@@ -32,7 +35,7 @@ class TestBody(object):
     @allure.title('登录成功测试')
     @allure.tag('登录成功')
     @allure.severity('blocker')
-    def test_001(self):
+    def test_001(self, switch_language):
         self.driver.input_email(getValueByIndex(2, 2, '注册成功', 'Admin/register.xlsx'))
         self.driver.input_password(getValueByIndex(3, 2, '注册成功', 'Admin/register.xlsx'))
         self.driver.click_login()
@@ -40,9 +43,8 @@ class TestBody(object):
 
     @allure.title('勾选记住我功能测试')
     @allure.tag('勾选记住我')
-    @allure.severity('blocker')
     @pytest.mark.flaky(reruns=0)
-    def test_002(self, update_cookie, clear_cookie):
+    def test_002(self, switch_language, update_cookie, clear_cookie):
         self.driver.input_email(getValueByIndex(2, 2, '注册成功', 'Admin/register.xlsx'))
         self.driver.input_password(getValueByIndex(3, 2, '注册成功', 'Admin/register.xlsx'))
         self.driver.check_remember()
@@ -52,7 +54,7 @@ class TestBody(object):
     @allure.title('登录失败测试')
     @allure.severity('critical')
     @pytest.mark.parametrize('email,pwd,cause', getExcelAllData('登录失败', 'Admin/login.xlsx'))
-    def test_003(self, email, pwd, cause, clear_cookie):
+    def test_003(self, email, pwd, cause, switch_language, clear_cookie):
         if pwd in [' 123456789', '123456789 ']:
             pytest.xfail('会自动将首尾的空格去除，待修复')
         allure.dynamic.tag(cause)
@@ -99,7 +101,7 @@ class TestBody(object):
     @allure.title('折叠语言选择框测试')
     @allure.tag('折叠语言')
     @allure.severity('blocker')
-    def test_09(self):
+    def test_009(self):
         self.driver.click_fold_language()
         self.driver.assert_fold_language()
 
