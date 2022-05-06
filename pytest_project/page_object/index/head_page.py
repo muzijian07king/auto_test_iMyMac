@@ -28,12 +28,12 @@ class HeadPage(WebPage):
         with allure.step('进入{}在线工具页面'.format(online)):
             self.is_click(head.readYaml(f'$.Online.{online}'))
 
-    @allure.step('进入商店')
+    @allure.step('点击store链接')
     def click_store(self):
         """点击Store按钮"""
         self.is_click(head['Store'])
 
-    @allure.step('进入帮助页面')
+    @allure.step('点击帮助链接')
     def click_support(self):
         """点击Support按钮"""
         self.is_click(head['Support'])
