@@ -361,7 +361,7 @@ class WebPage(object):
                     log.info(f"预期结果: {expected},实际结果: {practical}, 断言方法：{method}, 断言结果：{result}")
                     results.append(result)
                 except AssertionError:
-                    raise AssertionError(
+                    log.error(
                         f'第{index}个断言[{method}]失败,实际结果{practical}|预期结果{expected}'
                     )
             assert False not in results
