@@ -1,7 +1,7 @@
 buy-language: 'css=select[data-testid="languageSelector"]'
 iframe: 'css=body>iframe'  #购买弹窗licensePrice
 num_select: 'css=#root>div>div>div>div>div>div>select'
-price: 'css=#root>div>div>div>div:nth-child(2)>div>div>div>div>span:nth-child(2)>span>var' #金额
+price: 'xpath=//var[@price]' #金额
 send-email: 'css=#root>div>div>div>div:nth-child(2)>div>div>form>div>div>input'   #邮箱输入框
 next:
   one: 'css=#root>div>div>div>div:nth-child(2)>div>div>form>div>div>button'  #第一个继续
@@ -26,7 +26,7 @@ cardName: 'css=input#name'    #持有名
 cardMonth: 'css=input#month'  #月
 cardYear: 'css=input#year'   #年
 cardPwd: 'css=input#cvv'    #密码
-cardSubmit: 'css=form>div:nth-child(2)>div>button'     #立即订阅
+cardSubmit: 'css=#root>div>div>div>div:nth-child(2)>div>div>div:nth-child(3)>form>div>div>button'     #立即订阅
 cancel-pay: 'css=#root>div>div>div>div:nth-child(2)>div>div>div:nth-child(3)>div>button'   #更换支付方式
 close-pay: 'css=#root > div > div> div> div> div:nth-child(4) > img'  #关闭支付页面
 buy-handle: 'css=body > div.buyBg > div > h1'       #更多购买套餐页面标题

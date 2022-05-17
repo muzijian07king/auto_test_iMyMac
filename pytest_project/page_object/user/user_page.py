@@ -39,11 +39,11 @@ class UserPage(WebPage):
 
     @allure.step('切换到account栏')
     def switch_account(self):
-        self.is_click(user.readYaml("Profile.Account.account-icon"))
+        self.is_click(user.readYaml("Profile.Account.account-icon"), 1)
 
     @allure.step('切换到password栏')
     def switch_password(self):
-        self.is_click(user.readYaml("Profile.New-Password.password-icon"))
+        self.is_click(user.readYaml("Profile.New-Password.password-icon"), 1)
 
     def assert_switch_account(self):
         self.allure_assert('判断是否切换到account栏', (

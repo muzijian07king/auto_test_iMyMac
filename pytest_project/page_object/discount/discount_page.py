@@ -6,7 +6,8 @@ discount = Element('Discount/discount')
 
 class DiscountPage(WebPage):
     def assert_step_context(self, step, context):
-        self.allure_assert('判断步骤文案是否正确', ('eq', discount.readYaml(f'$.step-context.{step}'), context))
+        self.allure_assert('判断步骤文案是否正确',
+                           ('eq', self.element_text(discount.readYaml(f'$.step-context.{step}')), context))
 
     def assert_step_email(self):
         self.allure_assert('判断步骤一中邮箱是否正确', (
