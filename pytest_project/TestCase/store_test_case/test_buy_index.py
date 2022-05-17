@@ -229,7 +229,6 @@ class TestBody(object):
         self.driver.send_cardMonth(month)
         self.driver.send_cardYear(year)
         self.driver.send_cardPwd(pwd)
-        self.driver.submit_card()
         self.driver.assert_card_pay_error_texts(error_text)
 
     @pytest.mark.parametrize('number,name,month,year,pwd,error_text', getExcelAllData('卡片支付银行异常', 'Store/store.xlsx'))
@@ -429,7 +428,6 @@ class TestBody(object):
         self.driver.send_cardMonth(month)
         self.driver.send_cardYear(year)
         self.driver.send_cardPwd(pwd)
-        self.driver.submit_card()
         self.driver.assert_card_pay_error_texts(error_text)
 
     @pytest.mark.parametrize('number,name,month,year,pwd,error_text', getExcelAllData('卡片支付银行异常', 'Store/store.xlsx'))
