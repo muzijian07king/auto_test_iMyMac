@@ -44,12 +44,14 @@ class TestBody(object):
     @allure.title('勾选记住我功能测试')
     @allure.tag('勾选记住我')
     @pytest.mark.flaky(reruns=0)
-    def test_002(self, switch_language, update_cookie, clear_cookie):
-        self.driver.input_email(getValueByIndex(2, 2, '注册成功', 'Admin/register.xlsx'))
-        self.driver.input_password(getValueByIndex(3, 2, '注册成功', 'Admin/register.xlsx'))
+    def test_002(self, switch_language, clear_cookie, update_cookie):
+        email = getValueByIndex(2, 2, '注册成功', 'Admin/register.xlsx')
+        password = getValueByIndex(3, 2, '注册成功', 'Admin/register.xlsx')
+        self.driver.input_email(email)
+        self.driver.input_password(password)
         self.driver.check_remember()
         self.driver.click_login()
-        self.driver.assert_remember_function()
+        self.driver.assert_remember_function(email)
 
     @allure.title('登录失败测试')
     @allure.severity('critical')

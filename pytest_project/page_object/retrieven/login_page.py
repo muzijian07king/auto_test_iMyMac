@@ -25,8 +25,9 @@ class LoginPage(WebPage):
         self.allure_assert('判断是否勾选记住我按钮', (
             'eq', self.getAttribute(retrieve.readYaml('$.login.remember'), 'class'), 'rem-checkbox rem-click'))
 
-    def assert_remember_function(self):
+    def assert_remember_function(self, name):
         self.allure_assert('判断记住我功能是否实现',
+                           ('eq', self.element_text(retrieve.readYaml('$.login.succeed')), name),
                            ('not_eq', self.get_cookie(Element('User/cookie').readYaml('$.name', 1)), None))
 
     @allure.step('取消勾选记住我')

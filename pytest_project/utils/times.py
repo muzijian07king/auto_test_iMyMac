@@ -72,12 +72,18 @@ def compare_date(date1, date2, fmt='%b %d, %Y'):
             current1 = date1.split(" ", 1)[0]
             date1 = (datetime.datetime.now() + datetime.timedelta(days=-int(current1)))
         else:
-            date1 = datetime.datetime.strptime(date1, fmt)
+            try:
+                date1 = datetime.datetime.strptime(date1, fmt)
+            except ValueError:
+                date1 = datetime.datetime.strptime(date1, '%b %d %Y')
         if "days ago" in date2:
             current2 = date2.split(" ", 1)[0]
             date2 = (datetime.datetime.now() + datetime.timedelta(days=-int(current2)))
         else:
-            date2 = datetime.datetime.strptime(date2, fmt)
+            try:
+                date2 = datetime.datetime.strptime(date2, fmt)
+            except ValueError:
+                date1 = datetime.datetime.strptime(date1, '%b %d %Y')
     except Exception as e:
         log.error('日期格式错误')
         raise e

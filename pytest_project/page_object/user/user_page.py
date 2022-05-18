@@ -173,7 +173,7 @@ class UserPage(WebPage):
 
     @allure.step('点击语言')
     def click_language(self, language):
-        self.is_click(user.readYaml(f'$.nav.language.{language}'))
+        self.is_click(user.readYaml(f'$.nav.language.{language}'), 1)
 
     def assert_switch_language(self, text):
         self.allure_assert('判断切换语言是否成功', ('eq', self.element_text(user.readYaml('$.flex-left.my-subscription')), text))
