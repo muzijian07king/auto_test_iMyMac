@@ -67,26 +67,24 @@ def compare_date(date1, date2, fmt='%b %d, %Y'):
     :param fmt:   默认格式%月 %日, %年
     :return:相差天数，date1-date2
     """
-    try:
-        if "days ago" in date1:
-            current1 = date1.split(" ", 1)[0]
-            date1 = (datetime.datetime.now() + datetime.timedelta(days=-int(current1)))
-        else:
-            try:
-                date1 = datetime.datetime.strptime(date1, fmt)
-            except ValueError:
-                date1 = datetime.datetime.strptime(date1, '%b %d %Y')
-        if "days ago" in date2:
-            current2 = date2.split(" ", 1)[0]
-            date2 = (datetime.datetime.now() + datetime.timedelta(days=-int(current2)))
-        else:
-            try:
-                date2 = datetime.datetime.strptime(date2, fmt)
-            except ValueError:
-                date1 = datetime.datetime.strptime(date1, '%b %d %Y')
-    except Exception as e:
-        log.error('日期格式错误')
-        raise e
+
+    if "days ago" in date1:
+        current1 = date1.split(" ", 1)[0]
+        date1 = (datetime.datetime.now() + datetime.timedelta(days=-int(current1)))
+    else:
+        try:
+            date1 = datetime.datetime.strptime(date1, fmt)
+        except ValueError:
+            date1 = datetime.datetime.strptime(date1, '%d %b %Y')
+    if "days ago" in date2:
+        current2 = date2.split(" ", 1)[0]
+        date2 = (datetime.datetime.now() + datetime.timedelta(days=-int(current2)))
+    else:
+        try:
+            date2 = datetime.datetime.strptime(date2, fmt)
+        except ValueError:
+            date2 = datetime.datetime.strptime(date2, '%d %b %Y')
+
     return (date1 - date2).days
 
 

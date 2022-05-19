@@ -70,7 +70,8 @@ class VideoPage(WebPage):
     def assert_download_mac(self):
         """判断下载mac端是否成功"""
         suffix = cm.get_download_filename()
-        self.allure_assert_or('判断是否下载mac端成功', ('eq', suffix, 'crdownload'), ('eq', suffix, 'pkg'))
+        self.allure_assert_or('判断是否下载mac端成功', ('eq', suffix, 'crdownload'), ('eq', suffix, 'pkg'),
+                              ('eq', suffix, 'dmg'))
 
     def assert_goto_buy(self):
         """判断跳转购买页面内容与实际相同"""

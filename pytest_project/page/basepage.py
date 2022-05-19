@@ -399,7 +399,7 @@ class WebPage(object):
                     else:
                         result = expected == practical
                     allure.attach(json.dumps(f"预期结果: {expected},实际结果: {practical}", ensure_ascii=False, indent=2),
-                                  f"第{index}个断言[相等]: {result}", allure.attachment_type.JSON)
+                                  f"第{index}个或断言[相等]: {result}", allure.attachment_type.JSON)
                     log.info(f"预期结果: {expected},实际结果: {practical}, 断言方法：{method}, 断言结果：{result}")
                 elif method == 'not_eq':
                     if expected is None:
@@ -407,37 +407,37 @@ class WebPage(object):
                     else:
                         result = expected != practical
                     allure.attach(json.dumps(f"预期不相等: {expected},实际结果: {practical}", ensure_ascii=False, indent=2),
-                                  f"第{index}个断言[不相等]: {result}", allure.attachment_type.JSON)
+                                  f"第{index}个或断言[不相等]: {result}", allure.attachment_type.JSON)
                     log.info(f"预期不相等: {expected},实际结果: {practical}, 断言方法：{method}, 断言结果：{result}")
                 elif method == 'include':
                     result = practical in expected
                     allure.attach(json.dumps(f"子集: {practical},父集: {expected}", ensure_ascii=False, indent=2),
-                                  f"第{index}个断言[包含]: {result}", allure.attachment_type.JSON)
+                                  f"第{index}个或断言[包含]: {result}", allure.attachment_type.JSON)
                     log.info(f"子集: {practical},父集: {expected}, 断言方法：{method}, 断言结果：{result}")
                 elif method == 'not_include':
                     result = practical not in expected
                     allure.attach(json.dumps(f"子集: {practical},父集: {expected}", ensure_ascii=False, indent=2),
-                                  f"第{index}个断言[不包含]: {result}", allure.attachment_type.JSON)
+                                  f"第{index}个或断言[不包含]: {result}", allure.attachment_type.JSON)
                     log.info(f"子集: {practical},父集: {expected}, 断言方法：{method}, 断言结果：{result}")
                 elif method == 'ge':
                     result = practical >= expected
                     allure.attach(json.dumps(f"实际结果: {practical},比较值: {expected}", ensure_ascii=False, indent=2),
-                                  f"第{index}个断言[大于等于]: {result}", allure.attachment_type.JSON)
+                                  f"第{index}个或断言[大于等于]: {result}", allure.attachment_type.JSON)
                     log.info(f"比较值: {expected},实际结果: {practical}, 断言方法：{method}, 断言结果：{result}")
                 elif method == 'gt':
                     result = practical > expected
                     allure.attach(json.dumps(f"实际结果: {practical},比较值: {expected}", ensure_ascii=False, indent=2),
-                                  f"第{index}个断言[大于]: {result}", allure.attachment_type.JSON)
+                                  f"第{index}个或断言[大于]: {result}", allure.attachment_type.JSON)
                     log.info(f"比较值: {expected},实际结果: {practical}, 断言方法：{method}, 断言结果：{result}")
                 elif method == 'le':
                     result = practical <= expected
                     allure.attach(json.dumps(f"实际结果: {practical},比较值: {expected}", ensure_ascii=False, indent=2),
-                                  f"第{index}个断言[小于等于]: {result}", allure.attachment_type.JSON)
+                                  f"第{index}个或断言[小于等于]: {result}", allure.attachment_type.JSON)
                     log.info(f"比较值: {expected},实际结果: {practical}, 断言方法：{method}, 断言结果：{result}")
                 elif method == 'lt':
                     result = practical < expected
                     allure.attach(json.dumps(f"实际结果: {practical},比较值: {expected}", ensure_ascii=False, indent=2),
-                                  f"第{index}个断言[小于]: {result}", allure.attachment_type.JSON)
+                                  f"第{index}个或断言[小于]: {result}", allure.attachment_type.JSON)
                     log.info(f"比较值: {expected},实际结果: {practical}, 断言方法：{method}, 断言结果：{result}")
                 results.append(result)
                 if not result:
