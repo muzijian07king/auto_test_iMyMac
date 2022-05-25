@@ -6,3 +6,4 @@ pytest_project/logs/*
 .git
 .idea
 .pytest_cache
+venv
