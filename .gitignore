@@ -3,3 +3,7 @@ pytest_project/.pytest_cache
 pytest_project/report/*
 test.py
 pytest_project/logs/*
+.git
+.idea
+.pytest_cache
+.gitignore
