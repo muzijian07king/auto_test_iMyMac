@@ -1,9 +1,12 @@
 import allure
 import pytest
 from selenium import webdriver
+from selenium.common.exceptions import InvalidSessionIdException
 from pytest_project.config.conf import cm
 from pytest_project.utils.times import timestamp
+from pytest_project.utils.logger import Log
 
+log = Log().get_log()
 driver = None
 
 
@@ -43,7 +46,11 @@ def pytest_runtest_makereport():
         if report.when == 'call' or report.when == 'teardown':
             if hasattr(driver, "get_screenshot_as_png"):
                 with allure.step('添加失败截图...'):
-                    allure.attach(driver.get_screenshot_as_png(), "失败截图", allure.attachment_type.PNG)
+                    try:
+                        allure.attach(driver.get_screenshot_as_png(), "失败截图", allure.attachment_type.PNG)
+                    except InvalidSessionIdException:
+                        log.error('截图失败')
+                        allure.attach("截图失败，看日志", "失败截图", allure.attachment_type.TEXT)
 
 
 def pytest_terminal_summary(terminalreporter):
