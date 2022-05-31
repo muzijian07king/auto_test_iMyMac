@@ -29,7 +29,7 @@ class TestBody(object):
     @allure.severity('critical')
     @allure.tag('输入错误邮箱')
     @pytest.mark.parametrize('email', getExcelOneCol('邮箱错误', 1, 'Admin/recover.xlsx'))
-    def test_001(self, email, switch_language, clear_cookie):
+    def test_001(self, email, clear_cookie, switch_language):
         self.driver.input_email(email)
         self.driver.click_recover()
         self.driver.assert_recover_failed()
@@ -38,7 +38,7 @@ class TestBody(object):
     @allure.tag('发送成功')
     @allure.severity('blocker')
     @pytest.mark.parametrize('email', getExcelOneCol('邮箱正确', 1, 'Admin/recover.xlsx'))
-    def test_002(self, email, switch_language):
+    def test_002(self, email, clear_cookie, switch_language):
         self.driver.input_email(email)
         self.driver.click_recover()
         self.driver.assert_recover_succeed()
