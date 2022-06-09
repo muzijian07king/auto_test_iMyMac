@@ -1,8 +1,9 @@
 import allure
 import pytest
 from selenium import webdriver
-from selenium.common.exceptions import InvalidSessionIdException
+from selenium.common.exceptions import TimeoutException
 from pytest_project.config.conf import cm
+from pytest_project.page_object.index.body_page import BodyPage
 from pytest_project.utils.times import timestamp
 from pytest_project.utils.logger import Log
 
@@ -33,12 +34,12 @@ def drivers():
 
 
 @pytest.hookimpl(hookwrapper=True)
-def pytest_runtest_makereport():
-    '''
+def pytest_runtest_makereport(item):
+    """
     当测试失败的时候自动截图，展示到allure报告中
     :param item:测试用例
     :return:
-    '''
+    """
     outcome = yield
     report = outcome.get_result()
     """判断失败用例"""
@@ -48,7 +49,7 @@ def pytest_runtest_makereport():
                 with allure.step('添加失败截图...'):
                     try:
                         allure.attach(driver.get_screenshot_as_png(), "失败截图", allure.attachment_type.PNG)
-                    except InvalidSessionIdException:
+                    except TimeoutException:
                         log.error('截图失败')
                         allure.attach("截图失败，看日志", "失败截图", allure.attachment_type.TEXT)
 

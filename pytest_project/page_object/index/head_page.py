@@ -46,7 +46,7 @@ class HeadPage(WebPage):
     @allure.step('关闭搜索输入框')
     def close_search(self):
         """点击关闭按钮"""
-        self.is_click(head['search-close'])
+        self.is_click(head['search-close'], 1)
 
     @allure.step('输入关键字')
     def send_search(self, text):
