@@ -1,0 +1,9 @@
+INFO	2022-06-08 10:05:35,946	[basepage.py:36]	打开网页https://www.imymac.com/resource/
+INFO	2022-06-08 10:05:35,947	[basepage.py:175]	使用js操控浏览器==》document.querySelector('div.box-cookies').className = 'box-cookies'
+INFO	2022-06-08 10:05:36,965	[basepage.py:215]	页面滚到元素('css', 'ul.pagination>li:nth-child(2)>a')
+INFO	2022-06-08 10:05:38,450	[basepage.py:175]	使用js操控浏览器==》document.querySelector('div.box-cookies').className = 'box-cookies'
+INFO	2022-06-08 10:05:40,443	[basepage.py:96]	点击元素：('css', 'ul.pagination>li:nth-child(11)>a')
+INFO	2022-06-08 10:05:40,972	[basepage.py:71]	获取到文本：2
+INFO	2022-06-08 10:05:40,976	[basepage.py:126]	当前页面url：https://www.imymac.com/resource/?p=2, 当前页面标题=》iMyMac Online Resource Center
+INFO	2022-06-08 10:05:40,978	[basepage.py:329]	预期结果: 2,实际结果: 2, 断言方法：eq, 断言结果：True
+INFO	2022-06-08 10:05:40,979	[basepage.py:329]	预期结果: https://www.imymac.com/resource/?p=2,实际结果: https://www.imymac.com/resource/?p=2, 断言方法：eq, 断言结果：True

@@ -1,0 +1,4 @@
+[32mINFO    [0m root:basepage.py:36 打开网页https://www.imymac.com/faqs/
+[32mINFO    [0m root:basepage.py:96 点击元素：('css', 'div.faq-list>div:nth-child(2)>p:nth-child(3)')
+[32mINFO    [0m root:basepage.py:126 当前页面url：https://www.imymac.com/faqs/sales-faq/, 当前页面标题=》Sales FAQ Page
+[32mINFO    [0m root:basepage.py:329 预期结果: https://www.imymac.com/faqs/sales-faq/,实际结果: https://www.imymac.com/faqs/sales-faq/, 断言方法：eq, 断言结果：True

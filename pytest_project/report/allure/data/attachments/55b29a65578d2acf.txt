@@ -1,0 +1,7 @@
+INFO	2022-06-08 10:14:18,895	[basepage.py:36]	打开网页https://member.imymac.com/register
+INFO	2022-06-08 10:14:18,919	[basepage.py:96]	点击元素：('css', 'div.select-lang>p')
+INFO	2022-06-08 10:14:19,450	[basepage.py:96]	点击元素：('css', "dt[data-lang='en']")
+INFO	2022-06-08 10:14:20,480	[basepage.py:96]	点击元素：('css', 'div.select-lang>p')
+INFO	2022-06-08 10:14:21,008	[basepage.py:96]	点击元素：('css', "dt[data-lang='ko']")
+INFO	2022-06-08 10:14:22,036	[basepage.py:71]	获取到文本：계정 만들기
+INFO	2022-06-08 10:14:22,037	[basepage.py:329]	预期结果: 계정 만들기,实际结果: 계정 만들기, 断言方法：eq, 断言结果：True

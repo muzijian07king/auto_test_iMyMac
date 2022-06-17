@@ -1,0 +1,10 @@
+INFO	2022-06-08 10:05:54,740	[basepage.py:36]	打开网页https://www.imymac.com/resource/
+INFO	2022-06-08 10:05:54,741	[basepage.py:175]	使用js操控浏览器==》document.querySelector('div.box-cookies').className = 'box-cookies'
+INFO	2022-06-08 10:05:56,000	[basepage.py:81]	输入文本：china
+INFO	2022-06-08 10:06:27,204	[basepage.py:96]	点击元素：('css', 'div.disabuse>form>button')
+INFO	2022-06-08 10:06:29,205	[basepage.py:175]	使用js操控浏览器==》document.querySelector('div.box-cookies').className = 'box-cookies'
+INFO	2022-06-08 10:06:30,246	[basepage.py:96]	点击元素：('css', 'div.gsc-selected-option')
+INFO	2022-06-08 10:06:30,797	[basepage.py:96]	点击元素：('css', 'div.gsc-option-menu>div:nth-child(2)>div')
+INFO	2022-06-08 10:06:33,826	[basepage.py:71]	获取到文本：May 10, 2022 ... View this page in: Chinese (Simplified). Translate. Turn off for: Detect language. Translation in progress (0%). Cancel. Translated to:.
+INFO	2022-06-08 10:06:33,845	[basepage.py:71]	获取到文本：Mar 13, 2022 ... View this page in: Chinese (Simplified). Translate. Turn off for: Detect language. Translation in progress (0%). Cancel. Translated to:.
+INFO	2022-06-08 10:06:33,849	[basepage.py:352]	比较值: 0,实际结果: 58, 断言方法：ge, 断言结果：True

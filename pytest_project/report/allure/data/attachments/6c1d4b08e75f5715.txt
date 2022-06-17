@@ -1,0 +1,6 @@
+[32mINFO    [0m root:basepage.py:36 打开网页https://www.imymac.com/video-converter/guide.html
+[32mINFO    [0m root:basepage.py:96 点击元素：('css', 'div.version-select>span:nth-child(2)')
+[32mINFO    [0m root:basepage.py:156 获取到class元素的值==》version-tag win active
+[32mINFO    [0m root:basepage.py:156 获取到href元素的值==》https://www.imymac.com/download/imymac-video-converter.exe
+[32mINFO    [0m root:basepage.py:329 预期结果: version-tag win active,实际结果: version-tag win active, 断言方法：eq, 断言结果：True
+[32mINFO    [0m root:basepage.py:329 预期结果: https://www.imymac.com/download/imymac-video-converter.exe,实际结果: https://www.imymac.com/download/imymac-video-converter.exe, 断言方法：eq, 断言结果：True

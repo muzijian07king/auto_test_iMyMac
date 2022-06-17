@@ -1,0 +1,5 @@
+INFO	2022-06-08 10:01:51,666	[basepage.py:36]	打开网页https://www.imymac.com/index.html
+INFO	2022-06-08 10:01:51,666	[basepage.py:175]	使用js操控浏览器==》document.documentElement.scrollTop=10000
+INFO	2022-06-08 10:01:53,198	[basepage.py:96]	点击元素：('css', 'div.box-footer>div:nth-child(2)>div>a:nth-child(5)')
+INFO	2022-06-08 10:01:53,706	[basepage.py:126]	当前页面url：https://www.imymac.com/browser-cleanup/, 当前页面标题=》Browser Cleanup - Definitive Guide to Clean Browsers on Mac
+INFO	2022-06-08 10:01:53,709	[basepage.py:329]	预期结果: https://www.imymac.com/browser-cleanup/,实际结果: https://www.imymac.com/browser-cleanup/, 断言方法：eq, 断言结果：True

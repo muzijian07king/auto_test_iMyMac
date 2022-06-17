@@ -1,0 +1,5 @@
+INFO	2022-06-08 10:03:27,110	[basepage.py:36]	打开网页https://www.imymac.com/index.html
+INFO	2022-06-08 10:03:27,142	[basepage.py:121]	鼠标悬停在('css', 'div.btn-dropdown')
+INFO	2022-06-08 10:03:27,958	[basepage.py:96]	点击元素：('css', '#navbar>ul>li>div:nth-child(2)>div:nth-child(2)>ul>li:nth-child(1)>a')
+INFO	2022-06-08 10:03:28,471	[basepage.py:126]	当前页面url：https://www.imymac.com/online-video-converter/, 当前页面标题=》iMyMac Online Video Converter
+INFO	2022-06-08 10:03:28,473	[basepage.py:329]	预期结果: https://www.imymac.com/online-video-converter/,实际结果: https://www.imymac.com/online-video-converter/, 断言方法：eq, 断言结果：True

@@ -1,0 +1,10 @@
+INFO	2022-06-08 10:08:03,771	[basepage.py:36]	打开网页https://www.imymac.com/store/
+INFO	2022-06-08 10:08:03,849	[basepage.py:96]	点击元素：('css', 'a[data-product="655714"]')
+INFO	2022-06-08 10:08:04,358	[basepage.py:227]	切换frame==>pf_655714
+INFO	2022-06-08 10:08:05,982	[basepage.py:232]	下拉框value选择==》zh-Hans
+INFO	2022-06-08 10:08:06,257	[basepage.py:81]	输入文本： 
+INFO	2022-06-08 10:08:08,344	[basepage.py:96]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div>div>button')
+INFO	2022-06-08 10:08:09,367	[basepage.py:81]	输入文本：muzijian07king@123..123
+INFO	2022-06-08 10:08:11,427	[basepage.py:96]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div>div>button')
+INFO	2022-06-08 10:08:11,951	[basepage.py:71]	获取到文本：您输入的邮箱无效。
+INFO	2022-06-08 10:08:11,952	[basepage.py:329]	预期结果: 您输入的邮箱无效。,实际结果: 您输入的邮箱无效。, 断言方法：eq, 断言结果：True

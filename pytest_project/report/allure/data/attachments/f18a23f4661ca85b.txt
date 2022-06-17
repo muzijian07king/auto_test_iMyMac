@@ -1,0 +1,5 @@
+INFO	2022-06-08 10:07:15,916	[basepage.py:36]	打开网页https://www.imymac.com/resource/
+INFO	2022-06-08 10:07:15,916	[basepage.py:175]	使用js操控浏览器==》document.querySelector('div.box-cookies').className = 'box-cookies'
+INFO	2022-06-08 10:07:17,963	[basepage.py:96]	点击元素：('css', 'div.topic>a:nth-child(12)')
+INFO	2022-06-08 10:07:18,584	[basepage.py:257]	获取到text==》['Junk Files', 'Junk Files', 'Junk Files', 'Junk Files', 'Junk Files', 'Junk Files', 'Junk Files', 'Junk Files', 'Junk Files']
+INFO	2022-06-08 10:07:18,585	[basepage.py:329]	预期结果: {'Junk Files'},实际结果: {'Junk Files'}, 断言方法：eq, 断言结果：True

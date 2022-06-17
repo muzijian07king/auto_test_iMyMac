@@ -1,0 +1,3 @@
+INFO	2022-06-08 10:00:13,306	[basepage.py:36]	打开网页https://www.imymac.com/contact/
+INFO	2022-06-08 10:00:13,402	[basepage.py:71]	获取到文本：If you prepare to purchase or had bought products from iMyMac, please feel free to contact us by email with any questions.
+INFO	2022-06-08 10:00:13,404	[basepage.py:329]	预期结果: If you prepare to purchase or had bought products from iMyMac, please feel free to contact us by email with any questions.,实际结果: If you prepare to purchase or had bought products from iMyMac, please feel free to contact us by email with any questions., 断言方法：eq, 断言结果：True

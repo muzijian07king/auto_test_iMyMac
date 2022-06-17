@@ -1,0 +1,3 @@
+INFO	2022-06-08 10:00:15,897	[basepage.py:36]	打开网页https://www.imymac.com/student-discount/
+INFO	2022-06-08 10:00:16,105	[basepage.py:156]	获取到href元素的值==》mailto:support@imymac.com
+INFO	2022-06-08 10:00:16,124	[basepage.py:329]	预期结果: mailto:support@imymac.com,实际结果: mailto:support@imymac.com, 断言方法：eq, 断言结果：True

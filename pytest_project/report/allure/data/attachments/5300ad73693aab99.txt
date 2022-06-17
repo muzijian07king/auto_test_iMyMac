@@ -1,0 +1,4 @@
+INFO	2022-06-08 10:00:18,970	[basepage.py:36]	打开网页https://www.imymac.com/faqs/
+INFO	2022-06-08 10:00:19,680	[basepage.py:96]	点击元素：('css', 'div.faq-list>div:nth-child(3)>p:nth-child(4)')
+INFO	2022-06-08 10:00:20,200	[basepage.py:126]	当前页面url：https://www.imymac.com/faqs/video-converter/, 当前页面标题=》Video Converter FAQ Page
+INFO	2022-06-08 10:00:20,203	[basepage.py:329]	预期结果: https://www.imymac.com/faqs/video-converter/,实际结果: https://www.imymac.com/faqs/video-converter/, 断言方法：eq, 断言结果：True

@@ -1,0 +1,3 @@
+INFO	2022-06-08 10:13:22,195	[basepage.py:36]	打开网页https://member.imymac.com/register
+INFO	2022-06-08 10:13:22,222	[basepage.py:96]	点击元素：('css', 'div.select-lang>p')
+INFO	2022-06-08 10:13:22,766	[basepage.py:96]	点击元素：('css', "dt[data-lang='en']")

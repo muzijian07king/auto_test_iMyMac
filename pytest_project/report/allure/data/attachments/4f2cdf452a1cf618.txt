@@ -1,0 +1,5 @@
+INFO	2022-06-08 10:10:23,752	[basepage.py:36]	打开网页https://www.imymac.com/index.html
+INFO	2022-06-08 10:10:23,753	[basepage.py:175]	使用js操控浏览器==》document.documentElement.scrollTop=10000
+INFO	2022-06-08 10:10:25,389	[basepage.py:96]	点击元素：('css', 'div.box-footer>div:nth-child(3)>div>a:nth-child(5)')
+INFO	2022-06-08 10:10:25,921	[basepage.py:126]	当前页面url：https://www.imymac.com/student-discount/, 当前页面标题=》Get Student Discount on iMyMac
+INFO	2022-06-08 10:10:25,927	[basepage.py:329]	预期结果: https://www.imymac.com/student-discount/,实际结果: https://www.imymac.com/student-discount/, 断言方法：eq, 断言结果：True

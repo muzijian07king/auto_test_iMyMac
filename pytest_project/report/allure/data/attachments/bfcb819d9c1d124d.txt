@@ -1,0 +1,10 @@
+INFO	2022-06-08 10:13:27,368	[basepage.py:36]	打开网页https://member.imymac.com/register
+INFO	2022-06-08 10:13:27,395	[basepage.py:96]	点击元素：('css', 'div.select-lang>p')
+INFO	2022-06-08 10:13:27,936	[basepage.py:96]	点击元素：('css', "dt[data-lang='en']")
+INFO	2022-06-08 10:13:29,233	[basepage.py:81]	输入文本：admin
+INFO	2022-06-08 10:13:29,544	[basepage.py:81]	输入文本：lelee9902@gma il.com
+INFO	2022-06-08 10:13:29,853	[basepage.py:81]	输入文本：123456789
+INFO	2022-06-08 10:13:30,227	[basepage.py:81]	输入文本：123456789
+INFO	2022-06-08 10:13:30,304	[basepage.py:96]	点击元素：('css', 'div.register-content>button')
+INFO	2022-06-08 10:13:30,778	[basepage.py:115]	元素('css', 'div.form-content>div.form-item:nth-child(3)>section.message-show')是否可见：True
+INFO	2022-06-08 10:13:30,779	[basepage.py:329]	预期结果: True,实际结果: True, 断言方法：eq, 断言结果：True

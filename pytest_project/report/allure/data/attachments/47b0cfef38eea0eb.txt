@@ -1,0 +1,13 @@
+INFO	2022-06-08 10:00:56,629	[basepage.py:36]	打开网页https://www.imymac.com/faqs/
+INFO	2022-06-08 10:00:56,716	[basepage.py:96]	点击元素：('css', 'div.faq-list>div:nth-child(1)>p:nth-child(4)')
+INFO	2022-06-08 10:00:57,223	[basepage.py:199]	页面滚到元素('css', '#record')
+INFO	2022-06-08 10:00:58,511	[basepage.py:81]	输入文本：admin
+INFO	2022-06-08 10:00:58,791	[basepage.py:81]	输入文本：123@123..com
+INFO	2022-06-08 10:00:59,054	[basepage.py:81]	输入文本：test
+INFO	2022-06-08 10:00:59,097	[basepage.py:96]	点击元素：('css', '#record-suggest>a')
+INFO	2022-06-08 10:00:59,144	[basepage.py:156]	获取到class元素的值==》record-suggest-name
+INFO	2022-06-08 10:00:59,161	[basepage.py:156]	获取到class元素的值==》record-suggest-email record-error
+INFO	2022-06-08 10:00:59,175	[basepage.py:156]	获取到class元素的值==》record-suggest-content
+INFO	2022-06-08 10:00:59,180	[basepage.py:329]	预期结果: record-suggest-name,实际结果: record-suggest-name, 断言方法：eq, 断言结果：True
+INFO	2022-06-08 10:00:59,181	[basepage.py:329]	预期结果: record-suggest-email record-error,实际结果: record-suggest-email record-error, 断言方法：eq, 断言结果：True
+INFO	2022-06-08 10:00:59,181	[basepage.py:329]	预期结果: record-suggest-content,实际结果: record-suggest-content, 断言方法：eq, 断言结果：True

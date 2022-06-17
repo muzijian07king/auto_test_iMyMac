@@ -1,0 +1,8 @@
+INFO	2022-06-08 10:01:29,417	[basepage.py:36]	打开网页https://www.imymac.com/index.html
+INFO	2022-06-08 10:01:29,420	[basepage.py:175]	使用js操控浏览器==》document.documentElement.scrollTop=2000
+INFO	2022-06-08 10:01:30,556	[basepage.py:96]	点击元素：('css', 'div.top-btn')
+INFO	2022-06-08 10:01:32,200	[basepage.py:156]	获取到class元素的值==》top-btn t4s
+INFO	2022-06-08 10:01:32,209	[basepage.py:175]	使用js操控浏览器==》return document.documentElement.scrollTop
+INFO	2022-06-08 10:01:33,218	[basepage.py:179]	浏览器控制台返回信息：0
+INFO	2022-06-08 10:01:33,219	[basepage.py:329]	预期结果: top-btn t4s,实际结果: top-btn t4s, 断言方法：eq, 断言结果：True
+INFO	2022-06-08 10:01:33,220	[basepage.py:329]	预期结果: 0,实际结果: 0, 断言方法：eq, 断言结果：True

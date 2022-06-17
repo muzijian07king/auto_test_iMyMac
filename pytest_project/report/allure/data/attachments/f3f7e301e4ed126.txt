@@ -1,0 +1,15 @@
+[32mINFO    [0m root:basepage.py:36 打开网页https://www.imymac.com/faqs/
+[32mINFO    [0m root:basepage.py:96 点击元素：('css', 'div.faq-list>div:nth-child(1)>p:nth-child(4)')
+[32mINFO    [0m root:basepage.py:199 页面滚到元素('css', '#record')
+[32mINFO    [0m root:basepage.py:81 输入文本：admin
+[32mINFO    [0m root:basepage.py:81 输入文本：test@test.com
+[32mINFO    [0m root:basepage.py:81 输入文本：contest
+[32mINFO    [0m root:basepage.py:96 点击元素：('css', '#record-suggest>a')
+[32mINFO    [0m root:basepage.py:71 获取到文本：admin
+[32mINFO    [0m root:basepage.py:71 获取到文本：2022-06-08 02:01:01
+[32mINFO    [0m root:basepage.py:71 获取到文本：contest
+[32mINFO    [0m root:basepage.py:71 获取到文本：1
+[32mINFO    [0m root:basepage.py:329 预期结果: admin,实际结果: admin, 断言方法：eq, 断言结果：True
+[32mINFO    [0m root:basepage.py:342 子集: 2022-06-08,父集: 2022-06-08 02:01:01, 断言方法：include, 断言结果：True
+[32mINFO    [0m root:basepage.py:329 预期结果: contest,实际结果: contest, 断言方法：eq, 断言结果：True
+[32mINFO    [0m root:basepage.py:329 预期结果: 1,实际结果: 1, 断言方法：eq, 断言结果：True

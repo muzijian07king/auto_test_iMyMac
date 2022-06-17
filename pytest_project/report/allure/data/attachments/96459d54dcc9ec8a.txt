@@ -1,0 +1,8 @@
+INFO	2022-06-08 10:15:50,122	[basepage.py:36]	打开网页https://www.imymac.com/store/
+INFO	2022-06-08 10:15:50,168	[basepage.py:96]	点击元素：('css', 'a[data-product="666252"]')
+INFO	2022-06-08 10:15:50,668	[basepage.py:227]	切换frame==>pf_666252
+INFO	2022-06-08 10:15:52,191	[basepage.py:232]	下拉框value选择==》zh-Hans
+INFO	2022-06-08 10:15:52,271	[basepage.py:96]	点击元素：('css', '#root>div>div>div>div>div>div>select')
+INFO	2022-06-08 10:15:52,778	[basepage.py:232]	下拉框value选择==》25
+INFO	2022-06-08 10:15:55,910	[basepage.py:71]	获取到文本：US$248.75
+INFO	2022-06-08 10:15:55,911	[basepage.py:329]	预期结果: 248.75,实际结果: 248.75, 断言方法：eq, 断言结果：True

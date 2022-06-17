@@ -1,0 +1,5 @@
+INFO	2022-06-08 10:11:05,334	[basepage.py:36]	打开网页https://www.imymac.com/store/buy-powermymac.html
+INFO	2022-06-08 10:11:05,379	[basepage.py:96]	点击元素：('css', 'div.license-main>div:nth-child(2)>div>div:nth-child(2)>p:nth-child(3)')
+INFO	2022-06-08 10:11:05,904	[basepage.py:71]	获取到文本：$149.75
+INFO	2022-06-08 10:11:05,914	[readexcel.py:131]	xlsx提取到：$149.75
+INFO	2022-06-08 10:11:05,915	[basepage.py:329]	预期结果: $149.75,实际结果: $149.75, 断言方法：eq, 断言结果：True

@@ -1,0 +1,5 @@
+INFO	2022-06-08 10:01:43,272	[basepage.py:36]	打开网页https://www.imymac.com/index.html
+INFO	2022-06-08 10:01:43,273	[basepage.py:175]	使用js操控浏览器==》document.documentElement.scrollTop=10000
+INFO	2022-06-08 10:01:51,104	[basepage.py:96]	点击元素：('css', 'div.box-footer>div:nth-child(2)>div>a:nth-child(1)')
+INFO	2022-06-08 10:01:51,614	[basepage.py:126]	当前页面url：https://www.imymac.com/mac-uninstaller/, 当前页面标题=》Mac Uninstaller - Definitive Guide to Uninstall Applications on Mac
+INFO	2022-06-08 10:01:51,616	[basepage.py:329]	预期结果: https://www.imymac.com/mac-uninstaller/,实际结果: https://www.imymac.com/mac-uninstaller/, 断言方法：eq, 断言结果：True

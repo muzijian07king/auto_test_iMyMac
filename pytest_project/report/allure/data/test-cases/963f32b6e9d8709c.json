@@ -1,0 +1,307 @@
+{
+  "uid" : "963f32b6e9d8709c",
+  "name" : "测试鼠标悬停在五颗星评价功能",
+  "fullName" : "TestCase.faq_test_case.test_index.TestBody#test_036",
+  "historyId" : "c19aa501b9fae1764b659fd5fa5a5640",
+  "time" : {
+    "start" : 1654653657401,
+    "stop" : 1654653661071,
+    "duration" : 3670
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1654653608516,
+      "stop" : 1654653608616,
+      "duration" : 100
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1654653608616,
+      "stop" : 1654653608616,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1654653608616,
+      "stop" : 1654653608616,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1654653608616,
+      "stop" : 1654653609762,
+      "duration" : 1146
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1654653609762,
+      "stop" : 1654653609762,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "open_url",
+    "time" : {
+      "start" : 1654653657340,
+      "stop" : 1654653657399,
+      "duration" : 59
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1654653657340,
+      "stop" : 1654653657340,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "跳转activate帮助页面",
+      "time" : {
+        "start" : 1654653657401,
+        "stop" : 1654653658093,
+        "duration" : 692
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "滑动到评论栏",
+      "time" : {
+        "start" : 1654653658093,
+        "stop" : 1654653660128,
+        "duration" : 2035
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "鼠标悬停在五颗星评价",
+      "time" : {
+        "start" : 1654653660128,
+        "stop" : 1654653660394,
+        "duration" : 266
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "判断评价5星是否可选中",
+      "time" : {
+        "start" : 1654653661067,
+        "stop" : 1654653661071,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6dd1c56969e6f851",
+        "name" : "第1个断言[相等]: True",
+        "source" : "6dd1c56969e6f851.json",
+        "type" : "application/json",
+        "size" : 77
+      }, {
+        "uid" : "1bcf7755b6862ca3",
+        "name" : "第2个断言[相等]: True",
+        "source" : "1bcf7755b6862ca3.json",
+        "type" : "application/json",
+        "size" : 77
+      }, {
+        "uid" : "9a7bd9ad2064fa6e",
+        "name" : "第3个断言[相等]: True",
+        "source" : "9a7bd9ad2064fa6e.json",
+        "type" : "application/json",
+        "size" : 77
+      }, {
+        "uid" : "acc8eb7d7853c735",
+        "name" : "第4个断言[相等]: True",
+        "source" : "acc8eb7d7853c735.json",
+        "type" : "application/json",
+        "size" : 77
+      }, {
+        "uid" : "3a7dadb7daae912d",
+        "name" : "第5个断言[相等]: True",
+        "source" : "3a7dadb7daae912d.json",
+        "type" : "application/json",
+        "size" : 77
+      }, {
+        "uid" : "22b4e5f0632953fb",
+        "name" : "第6个断言[相等]: True",
+        "source" : "22b4e5f0632953fb.json",
+        "type" : "application/json",
+        "size" : 49
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 6,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "721907c9099b0d34",
+      "name" : "log",
+      "source" : "721907c9099b0d34.txt",
+      "type" : "text/plain",
+      "size" : 2385
+    }, {
+      "uid" : "4c3663c5f8ccb57c",
+      "name" : "stderr",
+      "source" : "4c3663c5f8ccb57c.txt",
+      "type" : "text/plain",
+      "size" : 2570
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1654654689229,
+      "stop" : 1654654691386,
+      "duration" : 2157
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "excellent"
+  }, {
+    "name" : "story",
+    "value" : "activate常见问题测试"
+  }, {
+    "name" : "feature",
+    "value" : "FAQ页面测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.faq_test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_index"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBody"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "9740-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.faq_test_case.test_index"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "excellent" ]
+  },
+  "source" : "963f32b6e9d8709c.json",
+  "parameterValues" : [ ]
+}

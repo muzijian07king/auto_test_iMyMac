@@ -1,0 +1,15 @@
+INFO	2022-06-08 10:00:38,261	[basepage.py:36]	打开网页https://www.imymac.com/faqs/
+INFO	2022-06-08 10:00:38,349	[basepage.py:96]	点击元素：('css', 'div.faq-list>div:nth-child(1)>p:nth-child(4)')
+INFO	2022-06-08 10:00:38,897	[basepage.py:96]	点击元素：('css', 'span.articleGuide>span:nth-child(2)>a:nth-child(1)')
+INFO	2022-06-08 10:00:39,977	[basepage.py:96]	点击元素：('css', 'div.navbar-btn-group>a:nth-child(1)')
+INFO	2022-06-08 10:00:40,483	[basepage.py:403]	预期结果: crdownload,实际结果: py, 断言方法：eq, 断言结果：False
+ERROR	2022-06-08 10:00:40,483	[basepage.py:444]	第1个断言[eq]失败,实际结果py|预期结果crdownload
+INFO	2022-06-08 10:00:40,484	[basepage.py:403]	预期结果: pkg,实际结果: py, 断言方法：eq, 断言结果：False
+ERROR	2022-06-08 10:00:40,484	[basepage.py:444]	第2个断言[eq]失败,实际结果py|预期结果pkg
+INFO	2022-06-08 10:00:51,108	[basepage.py:36]	打开网页https://www.imymac.com/faqs/
+INFO	2022-06-08 10:00:51,335	[basepage.py:96]	点击元素：('css', 'div.faq-list>div:nth-child(1)>p:nth-child(4)')
+INFO	2022-06-08 10:00:52,024	[basepage.py:96]	点击元素：('css', 'span.articleGuide>span:nth-child(2)>a:nth-child(1)')
+INFO	2022-06-08 10:00:53,094	[basepage.py:96]	点击元素：('css', 'div.navbar-btn-group>a:nth-child(1)')
+INFO	2022-06-08 10:00:53,601	[basepage.py:403]	预期结果: crdownload,实际结果: pkg, 断言方法：eq, 断言结果：False
+ERROR	2022-06-08 10:00:53,601	[basepage.py:444]	第1个断言[eq]失败,实际结果pkg|预期结果crdownload
+INFO	2022-06-08 10:00:53,601	[basepage.py:403]	预期结果: pkg,实际结果: pkg, 断言方法：eq, 断言结果：True

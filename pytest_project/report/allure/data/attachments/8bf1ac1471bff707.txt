@@ -1,0 +1,5 @@
+[32mINFO    [0m root:basepage.py:36 打开网页https://www.imymac.com/index.html
+[32mINFO    [0m root:basepage.py:175 使用js操控浏览器==》document.documentElement.scrollTop=10000
+[32mINFO    [0m root:basepage.py:175 使用js操控浏览器==》document.documentElement.scrollTop=10000
+[32mINFO    [0m root:basepage.py:71 获取到文本：Copyright © 2022 iMyMac. All rights reserved.
+[32mINFO    [0m root:basepage.py:329 预期结果: Copyright © 2022 iMyMac. All rights reserved.,实际结果: Copyright © 2022 iMyMac. All rights reserved., 断言方法：eq, 断言结果：True

@@ -1,0 +1,8 @@
+INFO	2022-06-08 10:04:17,971	[basepage.py:36]	打开网页https://www.imymac.com/profiles
+INFO	2022-06-08 10:04:17,971	[basepage.py:175]	使用js操控浏览器==》document.querySelector('div.box-cookies').className = 'box-cookies'
+INFO	2022-06-08 10:04:19,063	[basepage.py:71]	获取到文本：Jordan Baldo
+INFO	2022-06-08 10:04:19,770	[basepage.py:96]	点击元素：('css', 'div.profiles-list>div:nth-child(3)>div:nth-child(2)>a')
+INFO	2022-06-08 10:04:20,277	[basepage.py:175]	使用js操控浏览器==》document.querySelector('div.box-cookies').className = 'box-cookies'
+INFO	2022-06-08 10:04:21,793	[basepage.py:105]	点击元素：<selenium.webdriver.remote.webelement.WebElement (session="87695d5565cd23b811e781f987e36769", element="6ce59f8a-10fe-4499-94d4-21f63b982e18")>
+INFO	2022-06-08 10:04:22,025	[basepage.py:71]	获取到文本：OS X El Capitan VS macOS Sierra: Should I Upgrade?
+INFO	2022-06-08 10:04:22,026	[basepage.py:337]	预期不相等: None,实际结果: OS X El Capitan VS macOS Sierra: Should I Upgrade?, 断言方法：not_eq, 断言结果：True

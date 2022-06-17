@@ -52,3 +52,6 @@ item-button: 'css=div.faqs-item>div>div:nth-child(2)'             #折叠faq按�
 item-desc: 'css=div.faqs-item>div:nth-child(2)'                   #faq内容div
 pay-title: 'css=#root>div>div>div>div>div:nth-child(3)>div>span:nth-child(2)'  #购买弹窗套餐名
 pay-price: 'css=#root>div>div>div>div:nth-child(2)>div>div>form>div:nth-child(3)>div>div>span:nth-child(2)>span>var' #价格
+discounts-popup:
+  popup: 'css=div.modal-content_coupon'
+  close: 'css=button.determine_coupon'

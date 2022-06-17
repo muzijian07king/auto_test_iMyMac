@@ -1,0 +1,5 @@
+INFO	2022-06-08 10:04:28,267	[basepage.py:36]	打开网页https://www.imymac.com/mac-cleaner/
+INFO	2022-06-08 10:04:28,270	[basepage.py:199]	页面滚到元素('css', 'div.tips-container')
+INFO	2022-06-08 10:04:29,636	[basepage.py:96]	点击元素：('css', 'div.tips-main>a:nth-child(2)')
+INFO	2022-06-08 10:04:30,152	[basepage.py:126]	当前页面url：https://www.imymac.com/mac-cleaner/best-mac-cleaner.html, 当前页面标题=》Best Mac Cleaners in 2022: Clean Mac in Minutes (Free&Paid)
+INFO	2022-06-08 10:04:30,155	[basepage.py:329]	预期结果: https://www.imymac.com/mac-cleaner/best-mac-cleaner.html,实际结果: https://www.imymac.com/mac-cleaner/best-mac-cleaner.html, 断言方法：eq, 断言结果：True

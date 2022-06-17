@@ -1,0 +1,5 @@
+[32mINFO    [0m root:basepage.py:36 打开网页https://www.imymac.com/resource/
+[32mINFO    [0m root:basepage.py:175 使用js操控浏览器==》document.querySelector('div.box-cookies').className = 'box-cookies'
+[32mINFO    [0m root:basepage.py:96 点击元素：('css', 'div.topic>a:nth-child(8)')
+[32mINFO    [0m root:basepage.py:257 获取到text==》['Uninstaller', 'Uninstaller', 'Uninstaller', 'Uninstaller', 'Uninstaller', 'Uninstaller', 'Uninstaller', 'Uninstaller', 'Uninstaller']
+[32mINFO    [0m root:basepage.py:329 预期结果: {'Uninstaller'},实际结果: {'Uninstaller'}, 断言方法：eq, 断言结果：True

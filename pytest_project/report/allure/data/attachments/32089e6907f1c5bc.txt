@@ -1,0 +1,9 @@
+INFO	2022-06-08 10:04:00,192	[basepage.py:36]	打开网页https://www.imymac.com/profiles
+INFO	2022-06-08 10:04:00,192	[basepage.py:175]	使用js操控浏览器==》document.querySelector('div.box-cookies').className = 'box-cookies'
+INFO	2022-06-08 10:04:01,240	[basepage.py:71]	获取到文本：Pamela Garcia
+INFO	2022-06-08 10:04:01,830	[basepage.py:96]	点击元素：('css', 'div.profiles-list>div:nth-child(2)>div:nth-child(2)>a')
+INFO	2022-06-08 10:04:02,346	[basepage.py:175]	使用js操控浏览器==》document.querySelector('div.box-cookies').className = 'box-cookies'
+INFO	2022-06-08 10:04:03,379	[basepage.py:71]	获取到文本：How to Detect and Remove VBS: Malware-gen on Mac
+INFO	2022-06-08 10:04:03,908	[basepage.py:105]	点击元素：<selenium.webdriver.remote.webelement.WebElement (session="87695d5565cd23b811e781f987e36769", element="b1679957-3965-4562-bf5b-856dc33ae7fc")>
+INFO	2022-06-08 10:04:04,125	[basepage.py:71]	获取到文本：How to Detect and Remove VBS: Malware-gen on Mac
+INFO	2022-06-08 10:04:04,126	[basepage.py:329]	预期结果: How to Detect and Remove VBS: Malware-gen on Mac,实际结果: How to Detect and Remove VBS: Malware-gen on Mac, 断言方法：eq, 断言结果：True

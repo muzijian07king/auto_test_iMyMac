@@ -1,0 +1,4 @@
+INFO	2022-06-08 10:06:46,960	[basepage.py:36]	打开网页https://www.imymac.com/sitemap/
+INFO	2022-06-08 10:06:47,603	[basepage.py:96]	点击元素：('css', 'div.sitemap-list>div.sitemap-item:nth-child(3)>div>p:nth-child(5)>a')
+INFO	2022-06-08 10:06:48,115	[basepage.py:126]	当前页面url：https://www.imymac.com/license-agreement/, 当前页面标题=》iMyMac - License Agreement
+INFO	2022-06-08 10:06:48,118	[basepage.py:329]	预期结果: https://www.imymac.com/license-agreement/,实际结果: https://www.imymac.com/license-agreement/, 断言方法：eq, 断言结果：True

@@ -1,0 +1,8 @@
+INFO	2022-06-08 10:03:51,377	[basepage.py:36]	打开网页https://www.imymac.com/profiles
+INFO	2022-06-08 10:03:51,378	[basepage.py:175]	使用js操控浏览器==》document.querySelector('div.box-cookies').className = 'box-cookies'
+INFO	2022-06-08 10:03:52,450	[basepage.py:71]	获取到文本：Chloe Turner
+INFO	2022-06-08 10:03:53,061	[basepage.py:96]	点击元素：('css', 'div.profiles-list>div:nth-child(1)>div:nth-child(2)>a')
+INFO	2022-06-08 10:03:53,575	[basepage.py:175]	使用js操控浏览器==》document.querySelector('div.box-cookies').className = 'box-cookies'
+INFO	2022-06-08 10:03:55,143	[basepage.py:105]	点击元素：<selenium.webdriver.remote.webelement.WebElement (session="87695d5565cd23b811e781f987e36769", element="57515823-5f71-462f-836c-39272013c8cb")>
+INFO	2022-06-08 10:03:55,400	[basepage.py:71]	获取到文本：[Fix Error] Your Bootable USB Drive Could not be Created
+INFO	2022-06-08 10:03:55,402	[basepage.py:337]	预期不相等: None,实际结果: [Fix Error] Your Bootable USB Drive Could not be Created, 断言方法：not_eq, 断言结果：True

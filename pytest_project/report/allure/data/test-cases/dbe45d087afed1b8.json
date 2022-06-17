@@ -1,0 +1,263 @@
+{
+  "uid" : "dbe45d087afed1b8",
+  "name" : "注册时输入错误确认密码测试",
+  "fullName" : "TestCase.user_test_case.test_1_register.TestBody#test_006",
+  "historyId" : "ec8d58af2ab37d5e45ec166bf30a29b3",
+  "time" : {
+    "start" : 1654654457632,
+    "stop" : 1654654457633,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "statusMessage" : "_pytest.outcomes.XFailed: 自动将首尾空格去除，待修复",
+  "statusTrace" : "self = <pytest_project.TestCase.user_test_case.test_1_register.TestBody object at 0x000002B5FD255130>\nname = 'admin', email = 'lelee9896@gmail.com', pwd = '123456789'\nre_pwd = ' 123456789'\n\n    @allure.title('注册时输入错误确认密码测试')\n    @allure.tag('确认密码错误')\n    @allure.severity('critical')\n    @allure.story('注册页面功能测试')\n    @pytest.mark.parametrize('name,email,pwd,re_pwd', getExcelAllData('注册确认密码错误', 'Admin/register.xlsx'))\n    def test_006(self, name, email, pwd, re_pwd):\n        if re_pwd in [' 123456789', '123456789 ']:\n>           pytest.xfail('自动将首尾空格去除，待修复')\nE           _pytest.outcomes.XFailed: 自动将首尾空格去除，待修复\n\nTestCase\\user_test_case\\test_1_register.py:107: XFailed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1654653608516,
+      "stop" : 1654653608616,
+      "duration" : 100
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1654653608616,
+      "stop" : 1654653608616,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1654653608616,
+      "stop" : 1654653608616,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1654653608616,
+      "stop" : 1654653609762,
+      "duration" : 1146
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1654653609762,
+      "stop" : 1654653609762,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "open_url",
+    "time" : {
+      "start" : 1654654455812,
+      "stop" : 1654654457631,
+      "duration" : 1819
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击语言按钮展开语言选择框",
+      "time" : {
+        "start" : 1654654456049,
+        "stop" : 1654654456594,
+        "duration" : 545
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击语言",
+      "time" : {
+        "start" : 1654654456594,
+        "stop" : 1654654457631,
+        "duration" : 1037
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "language",
+        "value" : "'en'"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1654654455812,
+      "stop" : 1654654455812,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "_pytest.outcomes.XFailed: 自动将首尾空格去除，待修复",
+    "statusTrace" : "self = <pytest_project.TestCase.user_test_case.test_1_register.TestBody object at 0x000002B5FD255130>\nname = 'admin', email = 'lelee9896@gmail.com', pwd = '123456789'\nre_pwd = ' 123456789'\n\n    @allure.title('注册时输入错误确认密码测试')\n    @allure.tag('确认密码错误')\n    @allure.severity('critical')\n    @allure.story('注册页面功能测试')\n    @pytest.mark.parametrize('name,email,pwd,re_pwd', getExcelAllData('注册确认密码错误', 'Admin/register.xlsx'))\n    def test_006(self, name, email, pwd, re_pwd):\n        if re_pwd in [' 123456789', '123456789 ']:\n>           pytest.xfail('自动将首尾空格去除，待修复')\nE           _pytest.outcomes.XFailed: 自动将首尾空格去除，待修复\n\nTestCase\\user_test_case\\test_1_register.py:107: XFailed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "763fb726e638e402",
+      "name" : "log",
+      "source" : "763fb726e638e402.txt",
+      "type" : "text/plain",
+      "size" : 249
+    }, {
+      "uid" : "afea82c6991f4374",
+      "name" : "stderr",
+      "source" : "afea82c6991f4374.txt",
+      "type" : "text/plain",
+      "size" : 274
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1654654689229,
+      "stop" : 1654654691386,
+      "duration" : 2157
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "用户系统测试"
+  }, {
+    "name" : "tag",
+    "value" : "确认密码错误"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "注册页面功能测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.user_test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_1_register"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBody"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "9740-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.user_test_case.test_1_register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "email",
+    "value" : "'lelee9896@gmail.com'"
+  }, {
+    "name" : "name",
+    "value" : "'admin'"
+  }, {
+    "name" : "pwd",
+    "value" : "'123456789'"
+  }, {
+    "name" : "re_pwd",
+    "value" : "' 123456789'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "确认密码错误" ]
+  },
+  "source" : "dbe45d087afed1b8.json",
+  "parameterValues" : [ "'lelee9896@gmail.com'", "'admin'", "'123456789'", "' 123456789'" ]
+}

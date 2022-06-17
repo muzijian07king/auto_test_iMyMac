@@ -1,0 +1,4 @@
+[32mINFO    [0m root:basepage.py:36 打开网页https://www.imymac.com/similar-image-finder/
+[32mINFO    [0m root:basepage.py:96 点击元素：('css', 'div.common-product-box>div>a:nth-child(2)')
+[32mINFO    [0m root:basepage.py:126 当前页面url：https://www.imymac.com/store/buy-powermymac.html, 当前页面标题=》iMyMac Official Store: Buy PowerMyMac Online Safely
+[32mINFO    [0m root:basepage.py:329 预期结果: https://www.imymac.com/store/buy-powermymac.html,实际结果: https://www.imymac.com/store/buy-powermymac.html, 断言方法：eq, 断言结果：True

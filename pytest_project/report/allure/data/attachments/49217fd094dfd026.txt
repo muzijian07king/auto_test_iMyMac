@@ -1,0 +1,10 @@
+INFO	2022-06-08 10:14:29,602	[basepage.py:36]	打开网页https://member.imymac.com/register
+INFO	2022-06-08 10:14:29,629	[basepage.py:96]	点击元素：('css', 'div.select-lang>p')
+INFO	2022-06-08 10:14:30,176	[basepage.py:96]	点击元素：('css', "dt[data-lang='en']")
+INFO	2022-06-08 10:14:31,427	[basepage.py:81]	输入文本：admin
+INFO	2022-06-08 10:14:31,693	[basepage.py:81]	输入文本：123@1234.com
+INFO	2022-06-08 10:14:31,975	[basepage.py:81]	输入文本：123456789
+INFO	2022-06-08 10:14:32,226	[basepage.py:81]	输入文本：123456789
+INFO	2022-06-08 10:14:32,312	[basepage.py:96]	点击元素：('id', 'accept-button')
+INFO	2022-06-08 10:14:32,849	[basepage.py:96]	点击元素：('css', 'div.register-content>button')
+INFO	2022-06-08 10:14:33,667	[basepage.py:337]	预期不相等: None,实际结果: <selenium.webdriver.remote.webelement.WebElement (session="905b535b49575f332da767e7f15cf248", element="81ad7158-ffb6-4049-bd36-0f8507c32067")>, 断言方法：not_eq, 断言结果：True

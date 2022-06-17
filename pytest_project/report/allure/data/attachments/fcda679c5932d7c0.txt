@@ -1,0 +1,8 @@
+[32mINFO    [0m root:basepage.py:36 打开网页https://member.imymac.com/login
+[32mINFO    [0m root:basepage.py:465 添加cookie=》{'domain': 'member.imymac.com', 'expiry': 1812334477, 'httpOnly': True, 'name': 'remember_dashboard_59ba36addc2b2f9401580f014c7f58ea4e30989d', 'path': '/', 'secure': False, 'value': 'eyJpdiI6ImRBYVJPNzZ0a1BxVGR6eEdrb1dsalE9PSIsInZhbHVlIjoiR25tSUtpbmhNUVcwTHc4TDFJUjNQdGNkQmhJMjJkblJJNitwbHhxQ21zSGpjWVVNQ3R4Tk9odUhFd2JybkZZXC9hS1hNclZ4cEE3bUZabG1HOFk5UGJ1VzVuWUtXQjhvOCtWRHZadnZScjBXN1p1TGtTZFhnYjNzVm1cL3pMYzZjZGdHWnh6RVVDQVY1Yk9vbnZJTUFabloxbXU5Rm51MmV4S3Z2cHBhMmJnN05yd1NXMnFMeTFWVEtBV2drdlhhR1dCaHR0aE9hWktMMVpoaGdrd2MwbnEwYjZ3cEZsSmgxSHNBa1VhVnAzYVM4PSIsIm1hYyI6IjQxZTljNmE0ZTBlNzUxMmUxZTVkM2NjMzIxOGI5MGQ2YTZkNDkxMzRkMjc0NTk1YjRiODkzYjVlYWQ4NDViZTIifQ%3D%3D'}
+[32mINFO    [0m root:basepage.py:36 打开网页https://member.imymac.com/user/edit
+[32mINFO    [0m root:basepage.py:96 点击元素：('css', 'div.select-lang>p')
+[32mINFO    [0m root:basepage.py:96 点击元素：('css', "dt[data-lang='en']")
+[32mINFO    [0m root:basepage.py:96 点击元素：('css', 'div.flex>div:nth-child(1)>div:nth-child(1)>div>h1>i')
+[32mINFO    [0m root:basepage.py:156 获取到class元素的值==》nav-bg trans-04 w-80
+[32mINFO    [0m root:basepage.py:329 预期结果: nav-bg trans-04 w-80,实际结果: nav-bg trans-04 w-80, 断言方法：eq, 断言结果：True

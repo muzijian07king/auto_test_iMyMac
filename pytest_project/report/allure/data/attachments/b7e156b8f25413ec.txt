@@ -1,0 +1,9 @@
+[32mINFO    [0m root:basepage.py:36 打开网页https://www.imymac.com/profiles
+[32mINFO    [0m root:basepage.py:175 使用js操控浏览器==》document.querySelector('div.box-cookies').className = 'box-cookies'
+[32mINFO    [0m root:basepage.py:71 获取到文本：Jordan Baldo
+[32mINFO    [0m root:basepage.py:96 点击元素：('css', 'div.profiles-list>div:nth-child(3)>div:nth-child(2)>a')
+[32mINFO    [0m root:basepage.py:175 使用js操控浏览器==》document.querySelector('div.box-cookies').className = 'box-cookies'
+[32mINFO    [0m root:basepage.py:71 获取到文本：How To Completely Uninstall Avast On Mac
+[32mINFO    [0m root:basepage.py:105 点击元素：<selenium.webdriver.remote.webelement.WebElement (session="87695d5565cd23b811e781f987e36769", element="9701dc0a-500e-4e71-96cd-682c7c08fdf2")>
+[32mINFO    [0m root:basepage.py:71 获取到文本：How To Completely Uninstall Avast On Mac
+[32mINFO    [0m root:basepage.py:329 预期结果: How To Completely Uninstall Avast On Mac,实际结果: How To Completely Uninstall Avast On Mac, 断言方法：eq, 断言结果：True

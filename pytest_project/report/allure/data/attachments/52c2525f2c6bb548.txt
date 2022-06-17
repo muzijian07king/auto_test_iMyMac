@@ -1,0 +1,18 @@
+INFO	2022-06-08 10:12:54,726	[basepage.py:36]	打开网页https://member.imymac.com/register
+INFO	2022-06-08 10:12:54,762	[basepage.py:96]	点击元素：('css', 'div.select-lang>p')
+INFO	2022-06-08 10:12:55,302	[basepage.py:96]	点击元素：('css', "dt[data-lang='en']")
+INFO	2022-06-08 10:12:56,587	[basepage.py:81]	输入文本：admin157
+INFO	2022-06-08 10:12:56,850	[basepage.py:81]	输入文本：1654653608@qq.com
+INFO	2022-06-08 10:12:57,114	[basepage.py:81]	输入文本：25150745
+INFO	2022-06-08 10:12:57,378	[basepage.py:81]	输入文本：25150745
+INFO	2022-06-08 10:12:57,418	[basepage.py:96]	点击元素：('id', 'accept-button')
+INFO	2022-06-08 10:12:57,946	[basepage.py:96]	点击元素：('css', 'div.register-content>button')
+INFO	2022-06-08 10:12:58,839	[basepage.py:115]	元素('css', 'div.form-content>p:nth-child(8).message-show')是否可见：True
+INFO	2022-06-08 10:12:58,841	[basepage.py:329]	预期结果: True,实际结果: True, 断言方法：eq, 断言结果：True
+INFO	2022-06-08 10:13:01,848	[basepage.py:126]	当前页面url：https://member.imymac.com/login, 当前页面标题=》iMyMac Account Center
+INFO	2022-06-08 10:13:01,850	[basepage.py:337]	预期不相等: None,实际结果: <selenium.webdriver.remote.webelement.WebElement (session="a1929b394745a60002d6cbbbb44fc415", element="b3a9e767-e461-4310-b49f-8a6b3f2022f0")>, 断言方法：not_eq, 断言结果：True
+INFO	2022-06-08 10:13:01,851	[basepage.py:329]	预期结果: https://member.imymac.com/login,实际结果: https://member.imymac.com/login, 断言方法：eq, 断言结果：True
+INFO	2022-06-08 10:13:01,866	[readexcel.py:34]	对工作簿Admin/register.xlsx的工作表注册成功的（2，1）单元格值修改成admin157
+INFO	2022-06-08 10:13:01,904	[readexcel.py:34]	对工作簿Admin/register.xlsx的工作表注册成功的（2，2）单元格值修改成1654653608@qq.com
+INFO	2022-06-08 10:13:01,938	[readexcel.py:34]	对工作簿Admin/register.xlsx的工作表注册成功的（2，3）单元格值修改成25150745
+INFO	2022-06-08 10:13:01,974	[readexcel.py:34]	对工作簿Admin/register.xlsx的工作表注册成功的（2，4）单元格值修改成25150745

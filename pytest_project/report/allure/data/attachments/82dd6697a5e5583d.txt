@@ -1,0 +1,10 @@
+INFO	2022-06-08 10:11:24,143	[basepage.py:36]	打开网页https://www.imymac.com/store/buy-powermymac.html
+INFO	2022-06-08 10:11:24,270	[basepage.py:96]	点击元素：('css', 'div.license-main>div:nth-child(2)>div>div:nth-child(2)>p:nth-child(2)')
+INFO	2022-06-08 10:11:24,848	[basepage.py:96]	点击元素：('css', 'div.license-main>div:nth-child(2)>div>div:nth-child(4)>a')
+INFO	2022-06-08 10:11:25,359	[basepage.py:227]	切换frame==>pf_655701
+INFO	2022-06-08 10:11:27,075	[basepage.py:71]	获取到文本：iMyMac - PowerMyMac One Year License for 2 Macs
+INFO	2022-06-08 10:11:27,085	[readexcel.py:131]	xlsx提取到：iMyMac - PowerMyMac One Year License for 2 Macs
+INFO	2022-06-08 10:11:27,101	[basepage.py:71]	获取到文本：US$44.95
+INFO	2022-06-08 10:11:27,116	[readexcel.py:131]	xlsx提取到：$44.95
+INFO	2022-06-08 10:11:27,118	[basepage.py:329]	预期结果: iMyMac - PowerMyMac One Year License for 2 Macs,实际结果: iMyMac - PowerMyMac One Year License for 2 Macs, 断言方法：eq, 断言结果：True
+INFO	2022-06-08 10:11:27,119	[basepage.py:329]	预期结果: 44.95,实际结果: 44.95, 断言方法：eq, 断言结果：True

@@ -1,0 +1,6 @@
+[32mINFO    [0m root:basepage.py:36 打开网页https://www.imymac.com/index.html
+[32mINFO    [0m root:basepage.py:215 页面滚到元素('css', 'div.mention-box>ul:nth-child(3)>li:nth-child(3)')
+[32mINFO    [0m root:basepage.py:36 打开网页https://www.imymac.com/index.html
+[32mINFO    [0m root:basepage.py:215 页面滚到元素('css', 'div.mention-box>ul:nth-child(3)>li:nth-child(3)')
+[32mINFO    [0m root:basepage.py:126 当前页面url：https://www.imore.com/, 当前页面标题=》iMore - Apple News, Reviews, Deals, & Help | Learn more. Be more.
+[32mINFO    [0m root:basepage.py:329 预期结果: https://www.imore.com/,实际结果: https://www.imore.com/, 断言方法：eq, 断言结果：True

@@ -1,0 +1,5 @@
+INFO	2022-06-08 10:04:30,224	[basepage.py:36]	打开网页https://www.imymac.com/mac-cleaner/
+INFO	2022-06-08 10:04:30,226	[basepage.py:199]	页面滚到元素('css', 'div.tips-container')
+INFO	2022-06-08 10:04:31,859	[basepage.py:96]	点击元素：('css', 'div.tips-main>a:nth-child(3)')
+INFO	2022-06-08 10:04:32,374	[basepage.py:126]	当前页面url：https://www.imymac.com/mac-cleaner/how-to-speed-up-mac.html, 当前页面标题=》How to Speed Up Mac? 11 Tricks to Make Your Mac Run Faster
+INFO	2022-06-08 10:04:32,376	[basepage.py:329]	预期结果: https://www.imymac.com/mac-cleaner/how-to-speed-up-mac.html,实际结果: https://www.imymac.com/mac-cleaner/how-to-speed-up-mac.html, 断言方法：eq, 断言结果：True

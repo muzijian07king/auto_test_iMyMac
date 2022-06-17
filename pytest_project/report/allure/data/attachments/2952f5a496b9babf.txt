@@ -1,0 +1,6 @@
+INFO	2022-06-08 10:07:18,470	[basepage.py:36]	打开网页https://www.imymac.com/powermymac/
+INFO	2022-06-08 10:07:18,472	[basepage.py:175]	使用js操控浏览器==》document.documentElement.scrollTop=6000
+INFO	2022-06-08 10:07:19,573	[basepage.py:96]	点击元素：('css', 'div.summary-info>div>a:nth-child(1)')
+INFO	2022-06-08 10:07:20,076	[basepage.py:403]	预期结果: crdownload,实际结果: pkg, 断言方法：eq, 断言结果：False
+ERROR	2022-06-08 10:07:20,076	[basepage.py:444]	第1个断言[eq]失败,实际结果pkg|预期结果crdownload
+INFO	2022-06-08 10:07:20,076	[basepage.py:403]	预期结果: pkg,实际结果: pkg, 断言方法：eq, 断言结果：True

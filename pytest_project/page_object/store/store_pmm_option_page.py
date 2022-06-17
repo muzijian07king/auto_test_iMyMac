@@ -280,3 +280,8 @@ class OptionPage(WebPage):
 
     def assert_faqs_unfold(self):
         self.allure_assert('判断问题折叠成功', ('eq', self.getAttributes(store['item-desc'], 'class'), ['faqs-item-desc'] * 5))
+
+    @allure.step('判断是否存在优惠活动')
+    def assert_discounts_popup(self):
+        if self.find_element(store.readYaml('$.discounts-popup.popup')) is not None:
+            self.is_click(store.readYaml('$.discounts-popup.close'))

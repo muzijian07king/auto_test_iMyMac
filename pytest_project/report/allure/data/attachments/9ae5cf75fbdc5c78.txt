@@ -1,0 +1,6 @@
+INFO	2022-06-08 10:08:42,818	[basepage.py:36]	打开网页https://www.imymac.com/resource/
+INFO	2022-06-08 10:08:42,819	[basepage.py:175]	使用js操控浏览器==》document.querySelector('div.box-cookies').className = 'box-cookies'
+INFO	2022-06-08 10:08:43,909	[basepage.py:257]	获取到text==》['How to Uninstall OBS Studio on Mac or Windows PC?', 'Easy Ways to Uninstall Mendeley on Mac & Delete Account', 'Uninstall CCC on Mac: Carbon Copy Cloner Removal Guide', 'Easy Ways to Uninstall VPN Unlimited on Mac or Windows', 'How to Uninstall TomTom on Mac? MyDrive Connect Removal', '3 Fastest Ways to Uninstall Shazam on Mac', 'How to Completely Uninstall Motion on Mac? An Easy Guide', '2 Simple Ways to Uninstall Lightworks on Mac', 'Delete CSGO: How to Easily Uninstall Counter-Strike on Mac']
+INFO	2022-06-08 10:08:43,999	[basepage.py:108]	点击元素：<selenium.webdriver.remote.webelement.WebElement (session="87695d5565cd23b811e781f987e36769", element="4ed3c913-aa31-45f8-8045-ba4e65181b86")>
+INFO	2022-06-08 10:08:44,222	[basepage.py:71]	获取到文本：2 Simple Ways to Uninstall Lightworks on Mac
+INFO	2022-06-08 10:08:44,223	[basepage.py:329]	预期结果: 2 Simple Ways to Uninstall Lightworks on Mac,实际结果: 2 Simple Ways to Uninstall Lightworks on Mac, 断言方法：eq, 断言结果：True

@@ -12,6 +12,7 @@ class TestBody(object):
     def open_url(self, drivers):
         self.driver = OptionPage(drivers)
         self.driver.get_url(ini.get_url('pmm-store-option'))
+        self.driver.assert_discounts_popup()
 
     @allure.severity('critical')
     @allure.title('测试产品一个月页面原价')

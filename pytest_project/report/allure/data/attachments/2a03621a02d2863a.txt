@@ -1,0 +1,8 @@
+[32mINFO    [0m root:basepage.py:36 打开网页https://www.imymac.com/store/buy-video-converter.html
+[32mINFO    [0m root:basepage.py:210 页面滚到driverElement：<selenium.webdriver.remote.webelement.WebElement (session="a1929b394745a60002d6cbbbb44fc415", element="500f5fa1-0aa3-45c7-9f7c-4585ca067c5a")>
+[32mINFO    [0m root:basepage.py:210 页面滚到driverElement：<selenium.webdriver.remote.webelement.WebElement (session="a1929b394745a60002d6cbbbb44fc415", element="bf1c1508-ba10-4a44-81e7-6b121f3d9f3b")>
+[32mINFO    [0m root:basepage.py:210 页面滚到driverElement：<selenium.webdriver.remote.webelement.WebElement (session="a1929b394745a60002d6cbbbb44fc415", element="f1e56561-6290-4730-b782-1a50b5517ac4")>
+[32mINFO    [0m root:basepage.py:210 页面滚到driverElement：<selenium.webdriver.remote.webelement.WebElement (session="a1929b394745a60002d6cbbbb44fc415", element="309be1ca-776e-4834-a60b-e2863a25d263")>
+[32mINFO    [0m root:basepage.py:210 页面滚到driverElement：<selenium.webdriver.remote.webelement.WebElement (session="a1929b394745a60002d6cbbbb44fc415", element="ad5665e1-4ce7-4fe5-893b-3e86b6976891")>
+[32mINFO    [0m root:basepage.py:170 获取到class元素的值==》['faqs-item-desc faqs-active', 'faqs-item-desc faqs-active', 'faqs-item-desc faqs-active', 'faqs-item-desc faqs-active', 'faqs-item-desc faqs-active']
+[32mINFO    [0m root:basepage.py:329 预期结果: ['faqs-item-desc faqs-active', 'faqs-item-desc faqs-active', 'faqs-item-desc faqs-active', 'faqs-item-desc faqs-active', 'faqs-item-desc faqs-active'],实际结果: ['faqs-item-desc faqs-active', 'faqs-item-desc faqs-active', 'faqs-item-desc faqs-active', 'faqs-item-desc faqs-active', 'faqs-item-desc faqs-active'], 断言方法：eq, 断言结果：True

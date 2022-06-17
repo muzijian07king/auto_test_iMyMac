@@ -1,0 +1,4 @@
+INFO	2022-06-08 10:03:25,730	[basepage.py:36]	打开网页https://www.imymac.com/index.html
+INFO	2022-06-08 10:03:26,364	[basepage.py:96]	点击元素：('css', 'body>nav>div>div.navbar-header>a')
+INFO	2022-06-08 10:03:26,875	[basepage.py:126]	当前页面url：https://www.imymac.com/index.html, 当前页面标题=》iMyMac | Your Personal Mac Solutions Provider
+INFO	2022-06-08 10:03:26,877	[basepage.py:329]	预期结果: https://www.imymac.com/index.html,实际结果: https://www.imymac.com/index.html, 断言方法：eq, 断言结果：True

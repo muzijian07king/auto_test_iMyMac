@@ -1,0 +1,10 @@
+INFO	2022-06-08 10:12:30,555	[basepage.py:36]	打开网页https://www.imymac.com/store/buy-video-converter.html
+INFO	2022-06-08 10:12:30,607	[basepage.py:96]	点击元素：('css', 'div.version-select>span:nth-child(1)')
+INFO	2022-06-08 10:12:31,165	[basepage.py:96]	点击元素：('css', 'div.license-main>div:nth-child(3)>div>div:nth-child(2)>p:nth-child(1)')
+INFO	2022-06-08 10:12:31,667	[basepage.py:215]	页面滚到元素('css', 'div.license-main>div:nth-child(3)>div>div:nth-child(3)>a')
+INFO	2022-06-08 10:12:32,223	[basepage.py:227]	切换frame==>pf_588079
+INFO	2022-06-08 10:12:34,145	[basepage.py:71]	获取到文本：Video Converter
+INFO	2022-06-08 10:12:34,154	[readexcel.py:131]	xlsx提取到：Video Converter
+INFO	2022-06-08 10:12:34,168	[basepage.py:71]	获取到文本：US$29.95
+INFO	2022-06-08 10:12:34,177	[readexcel.py:131]	xlsx提取到：$29.95
+INFO	2022-06-08 10:12:34,178	[basepage.py:329]	预期结果: Video Converter,实际结果: Video Converter, 断言方法：eq, 断言结果：True

@@ -1,0 +1,10 @@
+INFO	2022-06-08 10:10:16,778	[basepage.py:36]	打开网页https://www.imymac.com/store/
+INFO	2022-06-08 10:10:16,909	[basepage.py:96]	点击元素：('css', 'a[data-product="666252"]')
+INFO	2022-06-08 10:10:17,413	[basepage.py:227]	切换frame==>pf_666252
+INFO	2022-06-08 10:10:19,195	[basepage.py:232]	下拉框value选择==》zh-Hans
+INFO	2022-06-08 10:10:19,552	[basepage.py:81]	输入文本：123@123.com
+INFO	2022-06-08 10:10:21,687	[basepage.py:96]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div>div>button')
+INFO	2022-06-08 10:10:22,502	[basepage.py:96]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div:nth-child(2)>div>select')
+INFO	2022-06-08 10:10:23,005	[basepage.py:232]	下拉框value选择==》TW
+INFO	2022-06-08 10:10:24,455	[basepage.py:248]	当前选中的选项是==》Taiwan
+INFO	2022-06-08 10:10:24,456	[basepage.py:329]	预期结果: Taiwan,实际结果: Taiwan, 断言方法：eq, 断言结果：True

@@ -1,0 +1,5 @@
+INFO	2022-06-08 10:07:07,265	[basepage.py:36]	打开网页https://www.imymac.com/mac-uninstaller/
+INFO	2022-06-08 10:07:07,267	[basepage.py:199]	页面滚到元素('css', 'div.tips-container')
+INFO	2022-06-08 10:07:08,486	[basepage.py:96]	点击元素：('css', 'div.tips-main>a:nth-child(2)')
+INFO	2022-06-08 10:07:08,998	[basepage.py:126]	当前页面url：https://www.imymac.com/duplicate-finder/find-duplicate-file.html, 当前页面标题=》Find Duplicate Files on Mac to Remove for Free
+INFO	2022-06-08 10:07:09,000	[basepage.py:329]	预期结果: https://www.imymac.com/duplicate-finder/find-duplicate-file.html,实际结果: https://www.imymac.com/duplicate-finder/find-duplicate-file.html, 断言方法：eq, 断言结果：True

@@ -1,0 +1,11 @@
+INFO	2022-06-08 10:14:51,062	[basepage.py:36]	打开网页https://www.imymac.com/store/
+INFO	2022-06-08 10:14:51,158	[basepage.py:96]	点击元素：('css', 'a[data-product="655714"]')
+INFO	2022-06-08 10:14:51,660	[basepage.py:227]	切换frame==>pf_655714
+INFO	2022-06-08 10:14:52,946	[basepage.py:232]	下拉框value选择==》zh-Hans
+INFO	2022-06-08 10:14:53,546	[basepage.py:81]	输入文本：123@123.com
+INFO	2022-06-08 10:14:55,748	[basepage.py:96]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div>div>button')
+INFO	2022-06-08 10:14:56,253	[basepage.py:232]	下拉框value选择==》CN
+INFO	2022-06-08 10:14:56,509	[basepage.py:96]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div:nth-child(3)>div>button')
+INFO	2022-06-08 10:14:57,393	[basepage.py:96]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>div:nth-child(3)>div>button:nth-child(1)')
+INFO	2022-06-08 10:15:00,011	[basepage.py:96]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>div:nth-child(3)>div>button')
+INFO	2022-06-08 10:15:00,531	[basepage.py:337]	预期不相等: None,实际结果: <selenium.webdriver.remote.webelement.WebElement (session="695cff367b4dbd5dcefc6e9128bec6a5", element="77a4df76-c30d-4536-b51b-11584bfd7943")>, 断言方法：not_eq, 断言结果：True

@@ -1,0 +1,8 @@
+[32mINFO    [0m root:basepage.py:36 打开网页https://www.imymac.com/store/buy-powermymac.html
+[32mINFO    [0m root:basepage.py:210 页面滚到driverElement：<selenium.webdriver.remote.webelement.WebElement (session="a1929b394745a60002d6cbbbb44fc415", element="78d12ffe-11d4-4c32-bc68-88ef8f9cf23b")>
+[32mINFO    [0m root:basepage.py:210 页面滚到driverElement：<selenium.webdriver.remote.webelement.WebElement (session="a1929b394745a60002d6cbbbb44fc415", element="7b530bba-e7eb-4410-a0b0-9348f6369ac5")>
+[32mINFO    [0m root:basepage.py:210 页面滚到driverElement：<selenium.webdriver.remote.webelement.WebElement (session="a1929b394745a60002d6cbbbb44fc415", element="b308ed6b-6a8b-473c-8846-0597723c27b3")>
+[32mINFO    [0m root:basepage.py:210 页面滚到driverElement：<selenium.webdriver.remote.webelement.WebElement (session="a1929b394745a60002d6cbbbb44fc415", element="6c4182c8-0afc-4b89-9e79-84ad580ee718")>
+[32mINFO    [0m root:basepage.py:210 页面滚到driverElement：<selenium.webdriver.remote.webelement.WebElement (session="a1929b394745a60002d6cbbbb44fc415", element="e23554a5-9707-4c0a-a9d1-79a74058612e")>
+[32mINFO    [0m root:basepage.py:170 获取到class元素的值==》['faqs-item-desc faqs-active', 'faqs-item-desc faqs-active', 'faqs-item-desc faqs-active', 'faqs-item-desc faqs-active', 'faqs-item-desc faqs-active']
+[32mINFO    [0m root:basepage.py:329 预期结果: ['faqs-item-desc faqs-active', 'faqs-item-desc faqs-active', 'faqs-item-desc faqs-active', 'faqs-item-desc faqs-active', 'faqs-item-desc faqs-active'],实际结果: ['faqs-item-desc faqs-active', 'faqs-item-desc faqs-active', 'faqs-item-desc faqs-active', 'faqs-item-desc faqs-active', 'faqs-item-desc faqs-active'], 断言方法：eq, 断言结果：True

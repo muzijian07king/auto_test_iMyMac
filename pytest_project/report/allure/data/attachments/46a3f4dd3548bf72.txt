@@ -1,0 +1,6 @@
+INFO	2022-06-08 10:00:35,543	[basepage.py:36]	打开网页https://www.imymac.com/faqs/
+INFO	2022-06-08 10:00:36,080	[basepage.py:96]	点击元素：('css', 'div.faq-list>div:nth-child(1)>p:nth-child(4)')
+INFO	2022-06-08 10:00:36,589	[basepage.py:175]	使用js操控浏览器==》document.querySelector(('css', 'span.articleGuide>span:nth-child(1)')).click()
+INFO	2022-06-08 10:00:37,613	[basepage.py:175]	使用js操控浏览器==》document.querySelector(('css', 'span.articleGuide>span:nth-child(1)')).click()
+INFO	2022-06-08 10:00:38,755	[basepage.py:156]	获取到guidetitle-after-value元素的值==》Hide
+INFO	2022-06-08 10:00:38,761	[basepage.py:329]	预期结果: Hide,实际结果: Hide, 断言方法：eq, 断言结果：True

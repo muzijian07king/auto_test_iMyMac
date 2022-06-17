@@ -1,0 +1,6 @@
+INFO	2022-06-08 10:01:06,393	[basepage.py:36]	打开网页https://www.imymac.com/faqs/
+INFO	2022-06-08 10:01:06,566	[basepage.py:96]	点击元素：('css', 'div.faq-list>div:nth-child(1)>p:nth-child(4)')
+INFO	2022-06-08 10:01:07,072	[basepage.py:199]	页面滚到元素('css', 'div.solved')
+INFO	2022-06-08 10:01:08,828	[basepage.py:96]	点击元素：('css', 'div.solved-main>div:nth-child(2)>a')
+INFO	2022-06-08 10:01:09,343	[basepage.py:126]	当前页面url：https://www.imymac.com/mac-uninstaller/uninstall-apps-on-mac.html, 当前页面标题=》How to Uninstall Apps on Mac with Its Related Files [Completely Remove]
+INFO	2022-06-08 10:01:09,348	[basepage.py:329]	预期结果: https://www.imymac.com/mac-uninstaller/uninstall-apps-on-mac.html,实际结果: https://www.imymac.com/mac-uninstaller/uninstall-apps-on-mac.html, 断言方法：eq, 断言结果：True

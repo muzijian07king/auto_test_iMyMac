@@ -24,7 +24,7 @@ class WebPage(object):
 
     def __init__(self, driver):
         self.driver = driver
-        self.timeout = 30
+        self.timeout = 15
         self.wait = WebDriverWait(self.driver, self.timeout)
 
     def get_url(self, url):

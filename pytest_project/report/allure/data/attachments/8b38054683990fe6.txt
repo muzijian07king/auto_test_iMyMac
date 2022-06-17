@@ -1,0 +1,4 @@
+INFO	2022-06-08 10:07:23,226	[basepage.py:36]	打开网页https://www.imymac.com/index.html
+INFO	2022-06-08 10:07:23,230	[basepage.py:215]	页面滚到元素('css', 'div.mention-box>ul:nth-child(4)>li:nth-child(3)')
+INFO	2022-06-08 10:10:14,361	[basepage.py:126]	当前页面url：https://www.macstories.net/, 当前页面标题=》MacStories
+INFO	2022-06-08 10:10:14,368	[basepage.py:329]	预期结果: https://www.macstories.net/,实际结果: https://www.macstories.net/, 断言方法：eq, 断言结果：True

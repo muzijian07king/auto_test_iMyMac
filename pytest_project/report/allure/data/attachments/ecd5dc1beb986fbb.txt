@@ -1,0 +1,17 @@
+INFO	2022-06-08 10:12:35,121	[basepage.py:36]	打开网页https://www.imymac.com/store/
+INFO	2022-06-08 10:12:35,204	[basepage.py:96]	点击元素：('css', 'a[data-product="666252"]')
+INFO	2022-06-08 10:12:35,718	[basepage.py:227]	切换frame==>pf_666252
+INFO	2022-06-08 10:12:38,110	[basepage.py:232]	下拉框value选择==》zh-Hans
+INFO	2022-06-08 10:12:38,448	[basepage.py:81]	输入文本：123@123.com
+INFO	2022-06-08 10:12:40,559	[basepage.py:96]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div>div>button')
+INFO	2022-06-08 10:12:41,071	[basepage.py:232]	下拉框value选择==》CN
+INFO	2022-06-08 10:12:41,540	[basepage.py:96]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div:nth-child(3)>div>button')
+INFO	2022-06-08 10:12:42,492	[basepage.py:96]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>div:nth-child(3)>div>button:nth-child(1)')
+INFO	2022-06-08 10:12:45,831	[basepage.py:81]	输入文本：:62122 62502 00918 2455
+INFO	2022-06-08 10:12:46,094	[basepage.py:81]	输入文本：李
+INFO	2022-06-08 10:12:46,574	[basepage.py:81]	输入文本：2
+INFO	2022-06-08 10:12:46,888	[basepage.py:81]	输入文本：2023
+INFO	2022-06-08 10:12:47,196	[basepage.py:81]	输入文本：568
+INFO	2022-06-08 10:12:47,273	[basepage.py:96]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>div:nth-child(3)>form>div>div>button')
+INFO	2022-06-08 10:12:48,304	[basepage.py:257]	获取到text==》['您输入的名称无效。']
+INFO	2022-06-08 10:12:48,305	[basepage.py:329]	预期结果: 您输入的名称无效。,实际结果: 您输入的名称无效。, 断言方法：eq, 断言结果：True

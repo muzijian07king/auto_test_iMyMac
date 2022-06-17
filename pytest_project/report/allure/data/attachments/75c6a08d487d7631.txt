@@ -1,0 +1,5 @@
+[32mINFO    [0m root:basepage.py:36 打开网页https://www.imymac.com/powermymac/
+[32mINFO    [0m root:basepage.py:175 使用js操控浏览器==》document.documentElement.scrollTop=2000
+[32mINFO    [0m root:basepage.py:175 使用js操控浏览器==》document.documentElement.scrollTop=2200
+[32mINFO    [0m root:basepage.py:115 元素('css', 'div.navbar-sub')是否可见：True
+[32mINFO    [0m root:basepage.py:329 预期结果: True,实际结果: True, 断言方法：eq, 断言结果：True

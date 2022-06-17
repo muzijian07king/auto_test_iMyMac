@@ -1,0 +1,13 @@
+INFO	2022-06-08 10:10:47,476	[basepage.py:36]	打开网页https://www.imymac.com/store/
+INFO	2022-06-08 10:10:47,529	[basepage.py:96]	点击元素：('css', 'a[data-product="666252"]')
+INFO	2022-06-08 10:10:48,036	[basepage.py:227]	切换frame==>pf_666252
+INFO	2022-06-08 10:10:49,622	[basepage.py:232]	下拉框value选择==》zh-Hans
+INFO	2022-06-08 10:10:49,993	[basepage.py:81]	输入文本：123@123.com
+INFO	2022-06-08 10:10:52,092	[basepage.py:96]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div>div>button')
+INFO	2022-06-08 10:10:52,602	[basepage.py:232]	下拉框value选择==》CN
+INFO	2022-06-08 10:10:52,949	[basepage.py:96]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div:nth-child(3)>div>button')
+INFO	2022-06-08 10:10:53,957	[basepage.py:96]	点击元素：('css', '#root > div > div> div> div:nth-child(2) > div > div > div:nth-child(2)>span>a')
+INFO	2022-06-08 10:10:54,724	[basepage.py:81]	输入文本：
+INFO	2022-06-08 10:10:54,797	[basepage.py:96]	点击元素：('css', 'form>div:nth-child(2)>div>button')
+INFO	2022-06-08 10:10:55,316	[basepage.py:71]	获取到文本：优惠码不能为空。
+INFO	2022-06-08 10:10:55,317	[basepage.py:329]	预期结果: 优惠码不能为空。,实际结果: 优惠码不能为空。, 断言方法：eq, 断言结果：True

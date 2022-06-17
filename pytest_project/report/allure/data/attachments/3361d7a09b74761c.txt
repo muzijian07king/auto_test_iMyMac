@@ -1,0 +1,9 @@
+INFO	2022-06-08 10:01:04,214	[basepage.py:36]	打开网页https://www.imymac.com/faqs/
+INFO	2022-06-08 10:01:04,683	[basepage.py:96]	点击元素：('css', 'div.faq-list>div:nth-child(3)>p:nth-child(3)')
+INFO	2022-06-08 10:01:05,192	[basepage.py:210]	页面滚到driverElement：<selenium.webdriver.remote.webelement.WebElement (session="695cff367b4dbd5dcefc6e9128bec6a5", element="acfdb59c-6234-48f1-ba68-a8e61aee4b90")>
+INFO	2022-06-08 10:01:05,232	[basepage.py:210]	页面滚到driverElement：<selenium.webdriver.remote.webelement.WebElement (session="695cff367b4dbd5dcefc6e9128bec6a5", element="b5e63dff-55a2-49e8-98d6-67f3714df478")>
+INFO	2022-06-08 10:01:05,334	[basepage.py:210]	页面滚到driverElement：<selenium.webdriver.remote.webelement.WebElement (session="695cff367b4dbd5dcefc6e9128bec6a5", element="176fdc01-23e7-440e-80b8-3fc3006f9b90")>
+INFO	2022-06-08 10:01:05,383	[basepage.py:210]	页面滚到driverElement：<selenium.webdriver.remote.webelement.WebElement (session="695cff367b4dbd5dcefc6e9128bec6a5", element="64a850d0-f6c9-47a6-9595-63bd5209c8bf")>
+INFO	2022-06-08 10:01:05,430	[basepage.py:210]	页面滚到driverElement：<selenium.webdriver.remote.webelement.WebElement (session="695cff367b4dbd5dcefc6e9128bec6a5", element="fec0ff36-ed77-4f85-acfc-81e6cb856387")>
+INFO	2022-06-08 10:01:05,515	[basepage.py:170]	获取到class元素的值==》['faqs-item-desc faqs-active', 'faqs-item-desc faqs-active', 'faqs-item-desc faqs-active', 'faqs-item-desc faqs-active', 'faqs-item-desc faqs-active']
+INFO	2022-06-08 10:01:05,516	[basepage.py:329]	预期结果: ['faqs-item-desc faqs-active', 'faqs-item-desc faqs-active', 'faqs-item-desc faqs-active', 'faqs-item-desc faqs-active', 'faqs-item-desc faqs-active'],实际结果: ['faqs-item-desc faqs-active', 'faqs-item-desc faqs-active', 'faqs-item-desc faqs-active', 'faqs-item-desc faqs-active', 'faqs-item-desc faqs-active'], 断言方法：eq, 断言结果：True

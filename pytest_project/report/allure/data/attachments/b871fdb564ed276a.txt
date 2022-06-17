@@ -1,0 +1,4 @@
+[32mINFO    [0m root:basepage.py:36 打开网页https://www.imymac.com/store/buy-video-converter.html
+[32mINFO    [0m root:basepage.py:71 获取到文本：$20
+[32mINFO    [0m root:readexcel.py:131 xlsx提取到：$20
+[32mINFO    [0m root:basepage.py:329 预期结果: $20,实际结果: $20, 断言方法：eq, 断言结果：True

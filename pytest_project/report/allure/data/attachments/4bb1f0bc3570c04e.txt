@@ -1,0 +1,12 @@
+INFO	2022-06-08 10:11:14,838	[basepage.py:36]	打开网页https://www.imymac.com/store/
+INFO	2022-06-08 10:11:14,923	[basepage.py:96]	点击元素：('css', 'a[data-product="666252"]')
+INFO	2022-06-08 10:11:15,433	[basepage.py:227]	切换frame==>pf_666252
+INFO	2022-06-08 10:11:16,902	[basepage.py:232]	下拉框value选择==》zh-Hans
+INFO	2022-06-08 10:11:17,319	[basepage.py:81]	输入文本：123@123.com
+INFO	2022-06-08 10:11:19,406	[basepage.py:96]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div>div>button')
+INFO	2022-06-08 10:11:19,912	[basepage.py:232]	下拉框value选择==》CN
+INFO	2022-06-08 10:11:20,203	[basepage.py:96]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div:nth-child(3)>div>button')
+INFO	2022-06-08 10:11:20,953	[basepage.py:96]	点击元素：('css', '#root > div > div> div> div:nth-child(2) > div > div > div:nth-child(2)>span>a')
+INFO	2022-06-08 10:11:21,523	[basepage.py:96]	点击元素：('css', "form[action='#']>div:nth-child(2)>button")
+INFO	2022-06-08 10:11:22,049	[basepage.py:71]	获取到文本：US$9.95
+INFO	2022-06-08 10:11:22,051	[basepage.py:329]	预期结果: 9.95,实际结果: 9.95, 断言方法：eq, 断言结果：True

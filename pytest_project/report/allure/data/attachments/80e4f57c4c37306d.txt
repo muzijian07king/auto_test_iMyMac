@@ -1,0 +1,6 @@
+[32mINFO    [0m root:basepage.py:36 打开网页https://www.imymac.com/faqs/
+[32mINFO    [0m root:basepage.py:96 点击元素：('css', 'div.faq-list>div:nth-child(1)>p:nth-child(4)')
+[32mINFO    [0m root:basepage.py:96 点击元素：('css', 'span.articleGuide>span:nth-child(2)>a:nth-child(1)')
+[32mINFO    [0m root:basepage.py:96 点击元素：('css', 'div.sidebar>div>picture:nth-child(5)')
+[32mINFO    [0m root:basepage.py:156 获取到class元素的值==》sidebar text-center pm-bg sidebar-normal
+[32mINFO    [0m root:basepage.py:329 预期结果: sidebar text-center pm-bg sidebar-normal,实际结果: sidebar text-center pm-bg sidebar-normal, 断言方法：eq, 断言结果：True

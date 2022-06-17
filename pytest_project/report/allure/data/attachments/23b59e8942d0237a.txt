@@ -1,0 +1,8 @@
+INFO	2022-06-08 10:00:30,584	[basepage.py:36]	打开网页https://www.imymac.com/faqs/
+INFO	2022-06-08 10:00:31,350	[basepage.py:96]	点击元素：('css', 'div.faq-list>div:nth-child(1)>p:nth-child(3)')
+INFO	2022-06-08 10:00:31,860	[basepage.py:215]	页面滚到元素('css', 'div.guide-nav>div:nth-child(3)>a')
+INFO	2022-06-08 10:00:34,855	[basepage.py:96]	点击元素：('css', 'ul.nav-list>li:nth-child(6)>a')
+INFO	2022-06-08 10:00:36,027	[basepage.py:156]	获取到class元素的值==》active
+INFO	2022-06-08 10:00:36,164	[basepage.py:156]	获取到style元素的值==》top: 17585px;
+INFO	2022-06-08 10:00:36,171	[basepage.py:329]	预期结果: active,实际结果: active, 断言方法：eq, 断言结果：True
+INFO	2022-06-08 10:00:36,172	[basepage.py:329]	预期结果: top: 17585px;,实际结果: top: 17585px;, 断言方法：eq, 断言结果：True

@@ -1,0 +1,15 @@
+INFO	2022-06-08 10:15:41,675	[basepage.py:36]	打开网页https://member.imymac.com/forgot
+INFO	2022-06-08 10:15:41,676	[basepage.py:453]	清除所有cookie
+INFO	2022-06-08 10:15:41,918	[basepage.py:143]	刷新页面
+INFO	2022-06-08 10:15:41,955	[basepage.py:96]	点击元素：('css', 'div.select-lang>p')
+INFO	2022-06-08 10:15:42,502	[basepage.py:96]	点击元素：('css', "dt[data-lang='en']")
+INFO	2022-06-08 10:15:43,291	[basepage.py:81]	输入文本：123@1234.com
+INFO	2022-06-08 10:15:43,362	[basepage.py:96]	点击元素：('css', 'div.login-btn>input')
+INFO	2022-06-08 10:16:25,518	[basepage.py:36]	打开网页https://member.imymac.com/forgot
+INFO	2022-06-08 10:16:25,519	[basepage.py:453]	清除所有cookie
+INFO	2022-06-08 10:16:25,938	[basepage.py:143]	刷新页面
+INFO	2022-06-08 10:16:25,980	[basepage.py:96]	点击元素：('css', 'div.select-lang>p')
+INFO	2022-06-08 10:16:26,526	[basepage.py:96]	点击元素：('css', "dt[data-lang='en']")
+INFO	2022-06-08 10:16:27,291	[basepage.py:81]	输入文本：123@1234.com
+INFO	2022-06-08 10:16:27,328	[basepage.py:96]	点击元素：('css', 'div.login-btn>input')
+INFO	2022-06-08 10:16:32,071	[basepage.py:337]	预期不相等: None,实际结果: <selenium.webdriver.remote.webelement.WebElement (session="a1929b394745a60002d6cbbbb44fc415", element="ca390d7e-ae52-4f51-a055-ce7c2e27c502")>, 断言方法：not_eq, 断言结果：True

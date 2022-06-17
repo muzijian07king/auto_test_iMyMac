@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.TimeoutException: Message: 未找到('css', 'div.summary-info>div>a:nth-child(1)')元素",
+      "children" : [ {
+        "name" : "summary下载PowerMyMac测试",
+        "uid" : "14cc8940a72b36f2",
+        "parentUid" : "7ef780dc8da18583d7adc4fcb9f9b062",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654653982551,
+          "stop" : 1654654014076,
+          "duration" : 31525
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7ef780dc8da18583d7adc4fcb9f9b062"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

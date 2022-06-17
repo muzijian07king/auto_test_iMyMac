@@ -1,0 +1,6 @@
+[32mINFO    [0m root:basepage.py:36 打开网页https://www.imymac.com/browser-cleanup/
+[32mINFO    [0m root:basepage.py:175 使用js操控浏览器==》document.documentElement.scrollTop=2000
+[32mINFO    [0m root:basepage.py:175 使用js操控浏览器==》document.documentElement.scrollTop=2200
+[32mINFO    [0m root:basepage.py:175 使用js操控浏览器==》document.querySelector('div.navbar-sub-header>a:nth-child(1)').click()
+[32mINFO    [0m root:basepage.py:126 当前页面url：https://www.imymac.com/powermymac/, 当前页面标题=》PowerMyMac - The Best Mac Cleanup Tool in 2020 for MacOS.
+[32mINFO    [0m root:basepage.py:329 预期结果: https://www.imymac.com/powermymac/,实际结果: https://www.imymac.com/powermymac/, 断言方法：eq, 断言结果：True

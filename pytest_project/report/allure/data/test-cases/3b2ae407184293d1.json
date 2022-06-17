@@ -1,0 +1,308 @@
+{
+  "uid" : "3b2ae407184293d1",
+  "name" : "测试导航栏上的下载",
+  "fullName" : "TestCase.faq_test_case.test_index.TestBody#test_028",
+  "historyId" : "05e18721cb5a26d82f54b4a01524d54c",
+  "time" : {
+    "start" : 1654653638262,
+    "stop" : 1654653640485,
+    "duration" : 2223
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError",
+  "statusTrace" : "self = <pytest_project.TestCase.faq_test_case.test_index.TestBody object at 0x000002B5C9F547F0>\n\n    @allure.story('activate常见问题测试')\n    @allure.title('测试导航栏上的下载')\n    @allure.tag('下载')\n    def test_028(self):\n        self.driver.goto_activate()\n        self.driver.goto_context()\n        self.driver.click_nav_download()\n>       self.driver.assert_download()\n\nTestCase\\faq_test_case\\test_index.py:239: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\npage_object\\faq\\faqs_page.py:247: in assert_download\n    self.allure_assert_or('判断下载是否成功', ('eq', cm.get_download_filename(), 'crdownload'),\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ntitle = '判断下载是否成功', args = (('eq', 'py', 'crdownload'), ('eq', 'py', 'pkg'))\nindex = 2, results = [False, False], arg = ('eq', 'py', 'pkg')\n\n    @staticmethod\n    def allure_assert_or(title, *args):\n        \"\"\"\n        进行断言\n        :param title: 断言步骤名\n        :param args: 已元组形式传参，(断言形式：[eq、not_eq、include、not_include、gt、ge、lt、le],\n        eq参数实际在前,预期在后。include，子集在前，父集在后。[gt、ge、lt、le]，实际值在前，比较值在后)\n        \"\"\"\n        index = 0\n        results = []\n        with allure.step(title):\n            for arg in args:\n                index += 1\n                \"断言形式\"\n                method = arg[0]\n                \"实际结果/子集/实际值\"\n                practical = arg[1]\n                \"预期结果/父集/比较值\"\n                expected = arg[2]\n                if method == 'eq':\n                    if expected is None:\n                        result = practical is None\n                    else:\n                        result = expected == practical\n                    allure.attach(json.dumps(f\"预期结果: {expected},实际结果: {practical}\", ensure_ascii=False, indent=2),\n                                  f\"第{index}个或断言[相等]: {result}\", allure.attachment_type.JSON)\n                    log.info(f\"预期结果: {expected},实际结果: {practical}, 断言方法：{method}, 断言结果：{result}\")\n                elif method == 'not_eq':\n                    if expected is None:\n                        result = practical is not None\n                    else:\n                        result = expected != practical\n                    allure.attach(json.dumps(f\"预期不相等: {expected},实际结果: {practical}\", ensure_ascii=False, indent=2),\n                                  f\"第{index}个或断言[不相等]: {result}\", allure.attachment_type.JSON)\n                    log.info(f\"预期不相等: {expected},实际结果: {practical}, 断言方法：{method}, 断言结果：{result}\")\n                elif method == 'include':\n                    result = practical in expected\n                    allure.attach(json.dumps(f\"子集: {practical},父集: {expected}\", ensure_ascii=False, indent=2),\n                                  f\"第{index}个或断言[包含]: {result}\", allure.attachment_type.JSON)\n                    log.info(f\"子集: {practical},父集: {expected}, 断言方法：{method}, 断言结果：{result}\")\n                elif method == 'not_include':\n                    result = practical not in expected\n                    allure.attach(json.dumps(f\"子集: {practical},父集: {expected}\", ensure_ascii=False, indent=2),\n                                  f\"第{index}个或断言[不包含]: {result}\", allure.attachment_type.JSON)\n                    log.info(f\"子集: {practical},父集: {expected}, 断言方法：{method}, 断言结果：{result}\")\n                elif method == 'ge':\n                    result = practical >= expected\n                    allure.attach(json.dumps(f\"实际结果: {practical},比较值: {expected}\", ensure_ascii=False, indent=2),\n                                  f\"第{index}个或断言[大于等于]: {result}\", allure.attachment_type.JSON)\n                    log.info(f\"比较值: {expected},实际结果: {practical}, 断言方法：{method}, 断言结果：{result}\")\n                elif method == 'gt':\n                    result = practical > expected\n                    allure.attach(json.dumps(f\"实际结果: {practical},比较值: {expected}\", ensure_ascii=False, indent=2),\n                                  f\"第{index}个或断言[大于]: {result}\", allure.attachment_type.JSON)\n                    log.info(f\"比较值: {expected},实际结果: {practical}, 断言方法：{method}, 断言结果：{result}\")\n                elif method == 'le':\n                    result = practical <= expected\n                    allure.attach(json.dumps(f\"实际结果: {practical},比较值: {expected}\", ensure_ascii=False, indent=2),\n                                  f\"第{index}个或断言[小于等于]: {result}\", allure.attachment_type.JSON)\n                    log.info(f\"比较值: {expected},实际结果: {practical}, 断言方法：{method}, 断言结果：{result}\")\n                elif method == 'lt':\n                    result = practical < expected\n                    allure.attach(json.dumps(f\"实际结果: {practical},比较值: {expected}\", ensure_ascii=False, indent=2),\n                                  f\"第{index}个或断言[小于]: {result}\", allure.attachment_type.JSON)\n                    log.info(f\"比较值: {expected},实际结果: {practical}, 断言方法：{method}, 断言结果：{result}\")\n                results.append(result)\n                if not result:\n                    log.error(\n                        f'第{index}个断言[{method}]失败,实际结果{practical}|预期结果{expected}'\n                    )\n            rs = True in results\n>           assert rs\nE           AssertionError\n\npage\\basepage.py:448: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1654653608516,
+      "stop" : 1654653608616,
+      "duration" : 100
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1654653608616,
+      "stop" : 1654653608616,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1654653608616,
+      "stop" : 1654653608616,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1654653608616,
+      "stop" : 1654653609762,
+      "duration" : 1146
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1654653609762,
+      "stop" : 1654653609762,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1654653638198,
+      "stop" : 1654653638198,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "open_url",
+    "time" : {
+      "start" : 1654653638198,
+      "stop" : 1654653638262,
+      "duration" : 64
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError",
+    "statusTrace" : "self = <pytest_project.TestCase.faq_test_case.test_index.TestBody object at 0x000002B5C9F547F0>\n\n    @allure.story('activate常见问题测试')\n    @allure.title('测试导航栏上的下载')\n    @allure.tag('下载')\n    def test_028(self):\n        self.driver.goto_activate()\n        self.driver.goto_context()\n        self.driver.click_nav_download()\n>       self.driver.assert_download()\n\nTestCase\\faq_test_case\\test_index.py:239: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\npage_object\\faq\\faqs_page.py:247: in assert_download\n    self.allure_assert_or('判断下载是否成功', ('eq', cm.get_download_filename(), 'crdownload'),\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ntitle = '判断下载是否成功', args = (('eq', 'py', 'crdownload'), ('eq', 'py', 'pkg'))\nindex = 2, results = [False, False], arg = ('eq', 'py', 'pkg')\n\n    @staticmethod\n    def allure_assert_or(title, *args):\n        \"\"\"\n        进行断言\n        :param title: 断言步骤名\n        :param args: 已元组形式传参，(断言形式：[eq、not_eq、include、not_include、gt、ge、lt、le],\n        eq参数实际在前,预期在后。include，子集在前，父集在后。[gt、ge、lt、le]，实际值在前，比较值在后)\n        \"\"\"\n        index = 0\n        results = []\n        with allure.step(title):\n            for arg in args:\n                index += 1\n                \"断言形式\"\n                method = arg[0]\n                \"实际结果/子集/实际值\"\n                practical = arg[1]\n                \"预期结果/父集/比较值\"\n                expected = arg[2]\n                if method == 'eq':\n                    if expected is None:\n                        result = practical is None\n                    else:\n                        result = expected == practical\n                    allure.attach(json.dumps(f\"预期结果: {expected},实际结果: {practical}\", ensure_ascii=False, indent=2),\n                                  f\"第{index}个或断言[相等]: {result}\", allure.attachment_type.JSON)\n                    log.info(f\"预期结果: {expected},实际结果: {practical}, 断言方法：{method}, 断言结果：{result}\")\n                elif method == 'not_eq':\n                    if expected is None:\n                        result = practical is not None\n                    else:\n                        result = expected != practical\n                    allure.attach(json.dumps(f\"预期不相等: {expected},实际结果: {practical}\", ensure_ascii=False, indent=2),\n                                  f\"第{index}个或断言[不相等]: {result}\", allure.attachment_type.JSON)\n                    log.info(f\"预期不相等: {expected},实际结果: {practical}, 断言方法：{method}, 断言结果：{result}\")\n                elif method == 'include':\n                    result = practical in expected\n                    allure.attach(json.dumps(f\"子集: {practical},父集: {expected}\", ensure_ascii=False, indent=2),\n                                  f\"第{index}个或断言[包含]: {result}\", allure.attachment_type.JSON)\n                    log.info(f\"子集: {practical},父集: {expected}, 断言方法：{method}, 断言结果：{result}\")\n                elif method == 'not_include':\n                    result = practical not in expected\n                    allure.attach(json.dumps(f\"子集: {practical},父集: {expected}\", ensure_ascii=False, indent=2),\n                                  f\"第{index}个或断言[不包含]: {result}\", allure.attachment_type.JSON)\n                    log.info(f\"子集: {practical},父集: {expected}, 断言方法：{method}, 断言结果：{result}\")\n                elif method == 'ge':\n                    result = practical >= expected\n                    allure.attach(json.dumps(f\"实际结果: {practical},比较值: {expected}\", ensure_ascii=False, indent=2),\n                                  f\"第{index}个或断言[大于等于]: {result}\", allure.attachment_type.JSON)\n                    log.info(f\"比较值: {expected},实际结果: {practical}, 断言方法：{method}, 断言结果：{result}\")\n                elif method == 'gt':\n                    result = practical > expected\n                    allure.attach(json.dumps(f\"实际结果: {practical},比较值: {expected}\", ensure_ascii=False, indent=2),\n                                  f\"第{index}个或断言[大于]: {result}\", allure.attachment_type.JSON)\n                    log.info(f\"比较值: {expected},实际结果: {practical}, 断言方法：{method}, 断言结果：{result}\")\n                elif method == 'le':\n                    result = practical <= expected\n                    allure.attach(json.dumps(f\"实际结果: {practical},比较值: {expected}\", ensure_ascii=False, indent=2),\n                                  f\"第{index}个或断言[小于等于]: {result}\", allure.attachment_type.JSON)\n                    log.info(f\"比较值: {expected},实际结果: {practical}, 断言方法：{method}, 断言结果：{result}\")\n                elif method == 'lt':\n                    result = practical < expected\n                    allure.attach(json.dumps(f\"实际结果: {practical},比较值: {expected}\", ensure_ascii=False, indent=2),\n                                  f\"第{index}个或断言[小于]: {result}\", allure.attachment_type.JSON)\n                    log.info(f\"比较值: {expected},实际结果: {practical}, 断言方法：{method}, 断言结果：{result}\")\n                results.append(result)\n                if not result:\n                    log.error(\n                        f'第{index}个断言[{method}]失败,实际结果{practical}|预期结果{expected}'\n                    )\n            rs = True in results\n>           assert rs\nE           AssertionError\n\npage\\basepage.py:448: AssertionError",
+    "steps" : [ {
+      "name" : "跳转activate帮助页面",
+      "time" : {
+        "start" : 1654653638263,
+        "stop" : 1654653638854,
+        "duration" : 591
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "移动到正文首行",
+      "time" : {
+        "start" : 1654653638854,
+        "stop" : 1654653639907,
+        "duration" : 1053
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击导航栏上的下载按钮",
+      "time" : {
+        "start" : 1654653639907,
+        "stop" : 1654653640482,
+        "duration" : 575
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "判断下载是否成功",
+      "time" : {
+        "start" : 1654653640482,
+        "stop" : 1654653640484,
+        "duration" : 2
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError\n",
+      "statusTrace" : "  File \"D:\\auto_test_iMyMac\\pytest_project\\page\\basepage.py\", line 448, in allure_assert_or\n    assert rs\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "64ba5af0cb21db7f",
+        "name" : "第1个或断言[相等]: False",
+        "source" : "64ba5af0cb21db7f.json",
+        "type" : "application/json",
+        "size" : 43
+      }, {
+        "uid" : "435e0b189a1f4bdd",
+        "name" : "第2个或断言[相等]: False",
+        "source" : "435e0b189a1f4bdd.json",
+        "type" : "application/json",
+        "size" : 36
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true
+    }, {
+      "name" : "添加失败截图...",
+      "time" : {
+        "start" : 1654653640823,
+        "stop" : 1654653640961,
+        "duration" : 138
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1c9987204ff4738f",
+        "name" : "失败截图",
+        "source" : "1c9987204ff4738f.png",
+        "type" : "image/png",
+        "size" : 221692
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "c355daca7e2059eb",
+      "name" : "log",
+      "source" : "c355daca7e2059eb.txt",
+      "type" : "text/plain",
+      "size" : 842
+    }, {
+      "uid" : "13b29ce2c5e716b",
+      "name" : "stderr",
+      "source" : "13b29ce2c5e716b.txt",
+      "type" : "text/plain",
+      "size" : 901
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1654654689229,
+      "stop" : 1654654691386,
+      "duration" : 2157
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "activate常见问题测试"
+  }, {
+    "name" : "tag",
+    "value" : "下载"
+  }, {
+    "name" : "feature",
+    "value" : "FAQ页面测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.faq_test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_index"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBody"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9RE2F6C"
+  }, {
+    "name" : "thread",
+    "value" : "9740-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.faq_test_case.test_index"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "下载" ]
+  },
+  "source" : "3b2ae407184293d1.json",
+  "parameterValues" : [ ]
+}

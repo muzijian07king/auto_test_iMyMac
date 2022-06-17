@@ -1,0 +1,28 @@
+INFO	2022-06-08 10:01:01,201	[basepage.py:36]	打开网页https://www.imymac.com/faqs/
+INFO	2022-06-08 10:01:01,416	[basepage.py:96]	点击元素：('css', 'div.faq-list>div:nth-child(1)>p:nth-child(4)')
+INFO	2022-06-08 10:01:01,929	[basepage.py:453]	清除所有cookie
+INFO	2022-06-08 10:01:02,208	[basepage.py:143]	刷新页面
+INFO	2022-06-08 10:01:02,211	[basepage.py:199]	页面滚到元素('css', 'div.star')
+INFO	2022-06-08 10:01:03,291	[basepage.py:175]	使用js操控浏览器==》document.documentElement.scrollBy(0,-200)
+INFO	2022-06-08 10:01:04,322	[basepage.py:71]	获取到文本：2023
+INFO	2022-06-08 10:01:04,380	[basepage.py:96]	点击元素：('css', '#star>div>p:nth-child(1)>span:nth-child(4)')
+INFO	2022-06-08 10:01:05,012	[basepage.py:156]	获取到class元素的值==》star-module star-bright
+INFO	2022-06-08 10:01:05,021	[readexcel.py:131]	xlsx提取到：star-module star-bright
+INFO	2022-06-08 10:01:05,133	[basepage.py:156]	获取到class元素的值==》star-module star-bright
+INFO	2022-06-08 10:01:05,143	[readexcel.py:131]	xlsx提取到：star-module star-bright
+INFO	2022-06-08 10:01:05,262	[basepage.py:156]	获取到class元素的值==》star-module star-bright
+INFO	2022-06-08 10:01:05,287	[readexcel.py:131]	xlsx提取到：star-module star-bright
+INFO	2022-06-08 10:01:05,418	[basepage.py:156]	获取到class元素的值==》star-module star-bright
+INFO	2022-06-08 10:01:05,432	[readexcel.py:131]	xlsx提取到：star-module star-bright
+INFO	2022-06-08 10:01:05,550	[basepage.py:156]	获取到class元素的值==》star-module star-dim
+INFO	2022-06-08 10:01:05,560	[readexcel.py:131]	xlsx提取到：star-module star-dim
+INFO	2022-06-08 10:01:05,578	[basepage.py:71]	获取到文本：Good
+INFO	2022-06-08 10:01:05,582	[readexcel.py:131]	xlsx提取到：Good
+INFO	2022-06-08 10:01:05,591	[basepage.py:71]	获取到文本：2024
+INFO	2022-06-08 10:01:05,592	[basepage.py:329]	预期结果: star-module star-bright,实际结果: star-module star-bright, 断言方法：eq, 断言结果：True
+INFO	2022-06-08 10:01:05,593	[basepage.py:329]	预期结果: star-module star-bright,实际结果: star-module star-bright, 断言方法：eq, 断言结果：True
+INFO	2022-06-08 10:01:05,593	[basepage.py:329]	预期结果: star-module star-bright,实际结果: star-module star-bright, 断言方法：eq, 断言结果：True
+INFO	2022-06-08 10:01:05,594	[basepage.py:329]	预期结果: star-module star-bright,实际结果: star-module star-bright, 断言方法：eq, 断言结果：True
+INFO	2022-06-08 10:01:05,595	[basepage.py:329]	预期结果: star-module star-dim,实际结果: star-module star-dim, 断言方法：eq, 断言结果：True
+INFO	2022-06-08 10:01:05,595	[basepage.py:329]	预期结果: Good,实际结果: Good, 断言方法：eq, 断言结果：True
+INFO	2022-06-08 10:01:05,596	[basepage.py:329]	预期结果: 2024,实际结果: 2024, 断言方法：eq, 断言结果：True

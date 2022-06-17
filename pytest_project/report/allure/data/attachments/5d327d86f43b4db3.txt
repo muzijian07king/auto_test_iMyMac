@@ -1,0 +1,13 @@
+[32mINFO    [0m root:basepage.py:36 打开网页https://www.imymac.com/store/buy-video-converter.html
+[32mINFO    [0m root:basepage.py:210 页面滚到driverElement：<selenium.webdriver.remote.webelement.WebElement (session="a1929b394745a60002d6cbbbb44fc415", element="a6b00e14-0828-4126-909a-e2b0c0c9ef65")>
+[32mINFO    [0m root:basepage.py:210 页面滚到driverElement：<selenium.webdriver.remote.webelement.WebElement (session="a1929b394745a60002d6cbbbb44fc415", element="9c4846ac-0c34-4c9c-8c4e-43c3d04c2aa3")>
+[32mINFO    [0m root:basepage.py:210 页面滚到driverElement：<selenium.webdriver.remote.webelement.WebElement (session="a1929b394745a60002d6cbbbb44fc415", element="c61015d7-5981-407f-a0dd-1074e41a2d6e")>
+[32mINFO    [0m root:basepage.py:210 页面滚到driverElement：<selenium.webdriver.remote.webelement.WebElement (session="a1929b394745a60002d6cbbbb44fc415", element="53369607-c4dd-436b-b79d-b1dd47fbd8c7")>
+[32mINFO    [0m root:basepage.py:210 页面滚到driverElement：<selenium.webdriver.remote.webelement.WebElement (session="a1929b394745a60002d6cbbbb44fc415", element="3aa72eb7-937d-4e78-8cef-cdb4dd989143")>
+[32mINFO    [0m root:basepage.py:210 页面滚到driverElement：<selenium.webdriver.remote.webelement.WebElement (session="a1929b394745a60002d6cbbbb44fc415", element="a6b00e14-0828-4126-909a-e2b0c0c9ef65")>
+[32mINFO    [0m root:basepage.py:210 页面滚到driverElement：<selenium.webdriver.remote.webelement.WebElement (session="a1929b394745a60002d6cbbbb44fc415", element="9c4846ac-0c34-4c9c-8c4e-43c3d04c2aa3")>
+[32mINFO    [0m root:basepage.py:210 页面滚到driverElement：<selenium.webdriver.remote.webelement.WebElement (session="a1929b394745a60002d6cbbbb44fc415", element="c61015d7-5981-407f-a0dd-1074e41a2d6e")>
+[32mINFO    [0m root:basepage.py:210 页面滚到driverElement：<selenium.webdriver.remote.webelement.WebElement (session="a1929b394745a60002d6cbbbb44fc415", element="53369607-c4dd-436b-b79d-b1dd47fbd8c7")>
+[32mINFO    [0m root:basepage.py:210 页面滚到driverElement：<selenium.webdriver.remote.webelement.WebElement (session="a1929b394745a60002d6cbbbb44fc415", element="3aa72eb7-937d-4e78-8cef-cdb4dd989143")>
+[32mINFO    [0m root:basepage.py:170 获取到class元素的值==》['faqs-item-desc', 'faqs-item-desc', 'faqs-item-desc', 'faqs-item-desc', 'faqs-item-desc']
+[32mINFO    [0m root:basepage.py:329 预期结果: ['faqs-item-desc', 'faqs-item-desc', 'faqs-item-desc', 'faqs-item-desc', 'faqs-item-desc'],实际结果: ['faqs-item-desc', 'faqs-item-desc', 'faqs-item-desc', 'faqs-item-desc', 'faqs-item-desc'], 断言方法：eq, 断言结果：True

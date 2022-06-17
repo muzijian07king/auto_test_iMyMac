@@ -1,0 +1,8 @@
+INFO	2022-06-08 10:17:27,033	[basepage.py:36]	打开网页https://www.imymac.com/video-converter/
+INFO	2022-06-08 10:17:28,723	[basepage.py:96]	点击元素：('css', 'div.version-select>span:nth-child(1)')
+INFO	2022-06-08 10:17:29,407	[basepage.py:96]	点击元素：('css', 'div.btn-group>a:nth-child(1)')
+INFO	2022-06-08 10:17:29,921	[basepage.py:403]	预期结果: crdownload,实际结果: dmg, 断言方法：eq, 断言结果：False
+ERROR	2022-06-08 10:17:29,922	[basepage.py:444]	第1个断言[eq]失败,实际结果dmg|预期结果crdownload
+INFO	2022-06-08 10:17:29,924	[basepage.py:403]	预期结果: pkg,实际结果: dmg, 断言方法：eq, 断言结果：False
+ERROR	2022-06-08 10:17:29,925	[basepage.py:444]	第2个断言[eq]失败,实际结果dmg|预期结果pkg
+INFO	2022-06-08 10:17:29,927	[basepage.py:403]	预期结果: dmg,实际结果: dmg, 断言方法：eq, 断言结果：True

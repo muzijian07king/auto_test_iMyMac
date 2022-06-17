@@ -1,0 +1,9 @@
+INFO	2022-06-08 10:03:46,777	[basepage.py:36]	打开网页https://www.imymac.com/profiles
+INFO	2022-06-08 10:03:46,778	[basepage.py:175]	使用js操控浏览器==》document.querySelector('div.box-cookies').className = 'box-cookies'
+INFO	2022-06-08 10:03:47,809	[basepage.py:71]	获取到文本：Chloe Turner
+INFO	2022-06-08 10:03:48,541	[basepage.py:96]	点击元素：('css', 'div.profiles-list>div:nth-child(1)>div:nth-child(2)>a')
+INFO	2022-06-08 10:03:49,049	[basepage.py:175]	使用js操控浏览器==》document.querySelector('div.box-cookies').className = 'box-cookies'
+INFO	2022-06-08 10:03:50,076	[basepage.py:71]	获取到文本：Where Are Photos Stored on Mac - Quickly Locate!
+INFO	2022-06-08 10:03:50,551	[basepage.py:105]	点击元素：<selenium.webdriver.remote.webelement.WebElement (session="87695d5565cd23b811e781f987e36769", element="9600824f-2626-4a2d-894a-f74bdec50ad6")>
+INFO	2022-06-08 10:03:50,777	[basepage.py:71]	获取到文本：Where Are Photos Stored on Mac - Quickly Locate!
+INFO	2022-06-08 10:03:50,778	[basepage.py:329]	预期结果: Where Are Photos Stored on Mac - Quickly Locate!,实际结果: Where Are Photos Stored on Mac - Quickly Locate!, 断言方法：eq, 断言结果：True

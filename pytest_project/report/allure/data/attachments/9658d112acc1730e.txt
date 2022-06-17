@@ -1,0 +1,17 @@
+INFO	2022-06-08 10:11:22,597	[basepage.py:36]	打开网页https://www.imymac.com/store/
+INFO	2022-06-08 10:11:22,653	[basepage.py:96]	点击元素：('css', 'a[data-product="666252"]')
+INFO	2022-06-08 10:11:23,164	[basepage.py:227]	切换frame==>pf_666252
+INFO	2022-06-08 10:11:24,814	[basepage.py:232]	下拉框value选择==》zh-Hans
+INFO	2022-06-08 10:11:25,236	[basepage.py:81]	输入文本：123@123.com
+INFO	2022-06-08 10:11:27,351	[basepage.py:96]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div>div>button')
+INFO	2022-06-08 10:11:27,856	[basepage.py:232]	下拉框value选择==》CN
+INFO	2022-06-08 10:11:28,306	[basepage.py:96]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div:nth-child(3)>div>button')
+INFO	2022-06-08 10:11:29,075	[basepage.py:96]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>div:nth-child(3)>div>button:nth-child(1)')
+INFO	2022-06-08 10:11:31,896	[basepage.py:81]	输入文本：12345
+INFO	2022-06-08 10:11:32,192	[basepage.py:81]	输入文本：lin
+INFO	2022-06-08 10:11:32,457	[basepage.py:81]	输入文本：2
+INFO	2022-06-08 10:11:32,754	[basepage.py:81]	输入文本：2023
+INFO	2022-06-08 10:11:33,033	[basepage.py:81]	输入文本：568
+INFO	2022-06-08 10:11:33,092	[basepage.py:96]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>div:nth-child(3)>form>div>div>button')
+INFO	2022-06-08 10:11:34,129	[basepage.py:257]	获取到text==》['您输入的信用卡无效。']
+INFO	2022-06-08 10:11:34,130	[basepage.py:329]	预期结果: 您输入的信用卡无效。,实际结果: 您输入的信用卡无效。, 断言方法：eq, 断言结果：True

@@ -1,0 +1,17 @@
+INFO	2022-06-08 10:14:38,974	[basepage.py:36]	打开网页https://www.imymac.com/store/
+INFO	2022-06-08 10:14:39,029	[basepage.py:96]	点击元素：('css', 'a[data-product="655714"]')
+INFO	2022-06-08 10:14:39,541	[basepage.py:227]	切换frame==>pf_655714
+INFO	2022-06-08 10:14:40,980	[basepage.py:232]	下拉框value选择==》zh-Hans
+INFO	2022-06-08 10:14:41,401	[basepage.py:81]	输入文本：123@123.com
+INFO	2022-06-08 10:14:43,588	[basepage.py:96]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div>div>button')
+INFO	2022-06-08 10:14:44,094	[basepage.py:232]	下拉框value选择==》CN
+INFO	2022-06-08 10:14:44,434	[basepage.py:96]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>form>div:nth-child(3)>div>button')
+INFO	2022-06-08 10:14:45,197	[basepage.py:96]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>div:nth-child(3)>div>button:nth-child(1)')
+INFO	2022-06-08 10:14:48,178	[basepage.py:81]	输入文本：62122 62502 00918 2455
+INFO	2022-06-08 10:14:48,455	[basepage.py:81]	输入文本：lin
+INFO	2022-06-08 10:14:48,718	[basepage.py:81]	输入文本：2
+INFO	2022-06-08 10:14:49,013	[basepage.py:81]	输入文本：2023
+INFO	2022-06-08 10:14:49,311	[basepage.py:81]	输入文本：568
+INFO	2022-06-08 10:14:49,375	[basepage.py:96]	点击元素：('css', '#root>div>div>div>div:nth-child(2)>div>div>div:nth-child(3)>form>div>div>button')
+INFO	2022-06-08 10:14:50,466	[basepage.py:71]	获取到文本：本次付款被您的银行拒绝。请重试，或使用另外的支付方式。联系您的银行以获取进一步的信息。
+INFO	2022-06-08 10:14:50,467	[basepage.py:342]	子集: 银行,父集: 本次付款被您的银行拒绝。请重试，或使用另外的支付方式。联系您的银行以获取进一步的信息。, 断言方法：include, 断言结果：True

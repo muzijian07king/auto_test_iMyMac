@@ -1,0 +1,5 @@
+[32mINFO    [0m root:basepage.py:36 打开网页https://www.imymac.com/index.html
+[32mINFO    [0m root:basepage.py:121 鼠标悬停在('css', 'div.btn-dropdown')
+[32mINFO    [0m root:basepage.py:96 点击元素：('css', '#navbar>ul>li>div:nth-child(2)>div:nth-child(1)>ul>li:nth-child(1)>a')
+[32mINFO    [0m root:basepage.py:126 当前页面url：https://www.imymac.com/powermymac/, 当前页面标题=》PowerMyMac - The Best Mac Cleanup Tool in 2020 for MacOS.
+[32mINFO    [0m root:basepage.py:329 预期结果: https://www.imymac.com/powermymac/,实际结果: https://www.imymac.com/powermymac/, 断言方法：eq, 断言结果：True

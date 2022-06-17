@@ -41,3 +41,6 @@ mac: 'css=div.version-select>span:nth-child(1)'
 win: 'css=div.version-select>span:nth-child(2)'
 month-desc: 'css=div.license-main>div:nth-child(1)>div>p:nth-child(2)'
 year-desc: 'css=div.license-main>div:nth-child(2)>div>p:nth-child(2)'
+discounts-popup:
+  popup: 'css=div.modal-content_coupon'
+  close: 'css=button.determine_coupon'

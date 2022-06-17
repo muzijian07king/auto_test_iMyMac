@@ -1,0 +1,5 @@
+INFO	2022-06-08 10:18:05,385	[basepage.py:36]	打开网页https://www.imymac.com/video-converter/guide.html
+INFO	2022-06-08 10:18:05,387	[basepage.py:199]	页面滚到元素('css', 'div.nav-guide')
+INFO	2022-06-08 10:18:06,453	[basepage.py:96]	点击元素：('css', 'div.nav-guide>div:nth-child(1)>a')
+INFO	2022-06-08 10:18:07,592	[basepage.py:156]	获取到style元素的值==》top: 444.922px;
+INFO	2022-06-08 10:18:07,602	[basepage.py:329]	预期结果: top: 444.922px;,实际结果: top: 444.922px;, 断言方法：eq, 断言结果：True

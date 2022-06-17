@@ -1,0 +1,5 @@
+INFO	2022-06-08 10:07:27,944	[basepage.py:36]	打开网页https://www.imymac.com/resource/
+INFO	2022-06-08 10:07:27,944	[basepage.py:175]	使用js操控浏览器==》document.querySelector('div.box-cookies').className = 'box-cookies'
+INFO	2022-06-08 10:07:30,485	[basepage.py:96]	点击元素：('css', 'div.topic>a:nth-child(15)')
+INFO	2022-06-08 10:07:31,172	[basepage.py:257]	获取到text==》['Convert Videos', 'Convert Videos', 'Convert Videos', 'Convert Videos', 'Convert Videos', 'Convert Videos', 'Convert Videos', 'Convert Videos', 'Convert Videos']
+INFO	2022-06-08 10:07:31,174	[basepage.py:329]	预期结果: {'Convert Videos'},实际结果: {'Convert Videos'}, 断言方法：eq, 断言结果：True

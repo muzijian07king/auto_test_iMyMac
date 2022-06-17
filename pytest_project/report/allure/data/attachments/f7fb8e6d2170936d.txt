@@ -1,0 +1,7 @@
+INFO	2022-06-08 10:14:29,137	[basepage.py:36]	打开网页https://member.imymac.com/register
+INFO	2022-06-08 10:14:29,176	[basepage.py:96]	点击元素：('css', 'div.select-lang>p')
+INFO	2022-06-08 10:14:29,707	[basepage.py:96]	点击元素：('css', "dt[data-lang='en']")
+INFO	2022-06-08 10:14:30,737	[basepage.py:96]	点击元素：('css', 'div.select-lang>p')
+INFO	2022-06-08 10:14:31,269	[basepage.py:96]	点击元素：('css', "dt[data-lang='ru']")
+INFO	2022-06-08 10:14:32,321	[basepage.py:71]	获取到文本：Создать учетную запись
+INFO	2022-06-08 10:14:32,322	[basepage.py:329]	预期结果: Создать учетную запись,实际结果: Создать учетную запись, 断言方法：eq, 断言结果：True

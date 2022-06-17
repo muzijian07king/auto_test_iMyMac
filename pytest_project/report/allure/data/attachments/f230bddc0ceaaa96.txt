@@ -1,0 +1,5 @@
+INFO	2022-06-08 10:17:39,349	[basepage.py:36]	打开网页https://www.imymac.com/video-converter/
+INFO	2022-06-08 10:17:39,358	[basepage.py:175]	使用js操控浏览器==》document.documentElement.scrollTop=4700
+INFO	2022-06-08 10:17:45,970	[basepage.py:96]	点击元素：('css', 'div.tips-main>a:nth-child(5)')
+INFO	2022-06-08 10:17:46,836	[basepage.py:126]	当前页面url：https://www.imymac.com/video-converter/convert-webm-to-mp4.html, 当前页面标题=》How to Convert WebM to MP4 Free Online or Offline
+INFO	2022-06-08 10:17:47,058	[basepage.py:329]	预期结果: https://www.imymac.com/video-converter/convert-webm-to-mp4.html,实际结果: https://www.imymac.com/video-converter/convert-webm-to-mp4.html, 断言方法：eq, 断言结果：True

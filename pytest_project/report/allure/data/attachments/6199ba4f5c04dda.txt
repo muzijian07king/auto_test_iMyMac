@@ -1,0 +1,5 @@
+[32mINFO    [0m root:basepage.py:36 打开网页https://www.imymac.com/similar-image-finder/
+[32mINFO    [0m root:basepage.py:199 页面滚到元素('css', 'div.tips-container')
+[32mINFO    [0m root:basepage.py:96 点击元素：('css', 'div.tips-main>a:nth-child(4)')
+[32mINFO    [0m root:basepage.py:126 当前页面url：https://www.imymac.com/file-shredder/securely-delete-files-on-mac.html, 当前页面标题=》How to Securely Delete Files on Mac (Permanent Ways)
+[32mINFO    [0m root:basepage.py:329 预期结果: https://www.imymac.com/file-shredder/securely-delete-files-on-mac.html,实际结果: https://www.imymac.com/file-shredder/securely-delete-files-on-mac.html, 断言方法：eq, 断言结果：True

@@ -1,0 +1,6 @@
+[32mINFO    [0m root:basepage.py:36 打开网页https://www.imymac.com/resource/
+[32mINFO    [0m root:basepage.py:175 使用js操控浏览器==》document.querySelector('div.box-cookies').className = 'box-cookies'
+[32mINFO    [0m root:basepage.py:257 获取到text==》['How to Uninstall OBS Studio on Mac or Windows PC?', 'Easy Ways to Uninstall Mendeley on Mac & Delete Account', 'Uninstall CCC on Mac: Carbon Copy Cloner Removal Guide', 'Easy Ways to Uninstall VPN Unlimited on Mac or Windows', 'How to Uninstall TomTom on Mac? MyDrive Connect Removal', '3 Fastest Ways to Uninstall Shazam on Mac', 'How to Completely Uninstall Motion on Mac? An Easy Guide', '2 Simple Ways to Uninstall Lightworks on Mac', 'Delete CSGO: How to Easily Uninstall Counter-Strike on Mac']
+[32mINFO    [0m root:basepage.py:108 点击元素：<selenium.webdriver.remote.webelement.WebElement (session="87695d5565cd23b811e781f987e36769", element="0fc66e1f-d729-4e0f-beba-dbd13ed63eb9")>
+[32mINFO    [0m root:basepage.py:71 获取到文本：Easy Ways to Uninstall Mendeley on Mac & Delete Account
+[32mINFO    [0m root:basepage.py:329 预期结果: Easy Ways to Uninstall Mendeley on Mac & Delete Account,实际结果: Easy Ways to Uninstall Mendeley on Mac & Delete Account, 断言方法：eq, 断言结果：True

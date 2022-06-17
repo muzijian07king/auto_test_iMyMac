@@ -1,0 +1,4 @@
+INFO	2022-06-08 10:05:10,514	[basepage.py:36]	打开网页https://www.imymac.com/mac-uninstaller/
+INFO	2022-06-08 10:05:10,515	[basepage.py:175]	使用js操控浏览器==》document.documentElement.scrollTop=4300
+INFO	2022-06-08 10:06:22,549	[basepage.py:36]	打开网页https://www.imymac.com/mac-uninstaller/
+INFO	2022-06-08 10:06:22,550	[basepage.py:175]	使用js操控浏览器==》document.documentElement.scrollTop=4300

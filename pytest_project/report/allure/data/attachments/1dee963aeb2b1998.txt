@@ -1,0 +1,5 @@
+INFO	2022-06-08 10:06:57,784	[basepage.py:36]	打开网页https://www.imymac.com/store/
+INFO	2022-06-08 10:06:57,785	[basepage.py:199]	页面滚到元素('css', 'div.license-main>div:nth-child(2)>div>div>a:nth-child(5)')
+INFO	2022-06-08 10:07:01,462	[basepage.py:96]	点击元素：('css', 'div.license-main>div:nth-child(2)>div>div>a:nth-child(5)')
+INFO	2022-06-08 10:07:01,984	[basepage.py:126]	当前页面url：https://www.imymac.com/store/buy-video-converter.html, 当前页面标题=》iMyMac Official Store: Buy Video Converter Online Safely
+INFO	2022-06-08 10:07:01,991	[basepage.py:329]	预期结果: https://www.imymac.com/store/buy-video-converter.html,实际结果: https://www.imymac.com/store/buy-video-converter.html, 断言方法：eq, 断言结果：True

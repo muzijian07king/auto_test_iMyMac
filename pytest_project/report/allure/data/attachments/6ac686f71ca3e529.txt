@@ -1,0 +1,5 @@
+INFO	2022-06-08 10:17:38,157	[basepage.py:36]	打开网页https://www.imymac.com/video-converter/
+INFO	2022-06-08 10:17:38,160	[basepage.py:175]	使用js操控浏览器==》document.documentElement.scrollTop=4700
+INFO	2022-06-08 10:17:42,329	[basepage.py:96]	点击元素：('css', 'div.tips-main>a:nth-child(6)')
+INFO	2022-06-08 10:17:43,071	[basepage.py:126]	当前页面url：https://www.imymac.com/edit-video/rotate-video.html, 当前页面标题=》How to Rotate A Video 90 Degrees on Mac?
+INFO	2022-06-08 10:17:43,152	[basepage.py:329]	预期结果: https://www.imymac.com/edit-video/rotate-video.html,实际结果: https://www.imymac.com/edit-video/rotate-video.html, 断言方法：eq, 断言结果：True
