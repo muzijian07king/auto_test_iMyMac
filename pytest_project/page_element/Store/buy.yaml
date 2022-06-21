@@ -16,7 +16,7 @@ notification: 'css=#root>div>div>div>div:nth-child(2)>div>div>form>div>span'
 codeNotification: 'css=#root>div>div>div>div:nth-child(2)>div>div>form>span'     #空优惠码错误信息
 submitCouponButton: 'css=form>div:nth-child(2)>div>button' #提交优惠卷
 cancelCouponButton: "css=form[action='#']>div:nth-child(2)>button"   #取消按钮
-delete-conpon: 'css=//div[@data-testid="removeCouponButton"]'         #移除优惠码
+delete-conpon: 'xpath=//div[@data-testid="removeCouponButton"]'         #移除优惠码
 update-email: 'css=#root>div>div>div:nth-child(2)>div:nth-child(2)>div:nth-child(2)>span:nth-child(2)'    # 更改邮箱
 card-pay: 'css=#root>div>div>div>div:nth-child(2)>div>div>div:nth-child(3)>div>button:nth-child(1)'  #卡片支付方式
 paypal: 'css=#root>div>div>div>div:nth-child(2)>div>div>div:nth-child(3)>div>button:nth-child(2)'  #PayPal支付方式
