@@ -41,7 +41,7 @@ class LoginPage(WebPage):
 
     @allure.step('点击login按钮')
     def click_login(self):
-        self.is_click(retrieve.readYaml('$.login.login'), 1)
+        self.is_click(retrieve.readYaml('$.login.login'), 2)
 
     @allure.step('点击register按钮')
     def click_register(self):
