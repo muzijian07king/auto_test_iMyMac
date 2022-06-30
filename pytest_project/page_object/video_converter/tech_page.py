@@ -10,7 +10,7 @@ class TechPage(WebPage):
 
     @allure.step('下载video')
     def click_download(self):
-        self.is_click(tech['download'])
+        self.is_click(tech['download'], 1)
 
     @allure.step('点击购买按钮')
     def goto_buy(self):
@@ -19,7 +19,7 @@ class TechPage(WebPage):
     def assert_download(self):
         """判断下载是否成功"""
         suffix = cm.get_download_filename()
-        self.allure_assert_or('判断下载是否成功', ('eq', suffix, 'crdownload'), ('eq', suffix, 'pkg'), ('eq', suffix, 'exe'))
+        self.allure_assert_or('判断下载是否成功', ('eq', suffix, 'crdownload'), ('eq', suffix, 'exe'))
 
     def assert_goto_buy(self):
         """判断跳转购买页面内容与实际相同"""

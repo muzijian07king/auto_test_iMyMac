@@ -16,14 +16,14 @@ class TestBody(object):
     @allure.title('下载compressor测试')
     @allure.tag('topper')
     @allure.severity('blocker')
-    def test_001(self):
+    def test_001(self, clear_download_dir):
         self.driver.click_topper_download()
         self.driver.assert_download()
 
     @allure.title('下载compressor测试')
     @allure.tag('container')
     @allure.severity('blocker')
-    def test_002(self):
+    def test_002(self, clear_download_dir):
         self.driver.scroll_container()
         self.driver.click_container_download()
         self.driver.assert_download()

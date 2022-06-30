@@ -33,7 +33,7 @@ class TestBody(object):
 
     @allure.severity('blocker')
     @allure.title('下载win端iMyMac Video Converter测试')
-    def test_003(self):
+    def test_003(self, clear_download_dir):
         """下载win端"""
         allure.dynamic.tag('下载win端')
         self.driver.switch_win()
@@ -42,7 +42,7 @@ class TestBody(object):
 
     @allure.severity('blocker')
     @allure.title('下载mac端iMyMac Video Converter测试')
-    def test_004(self):
+    def test_004(self, clear_download_dir):
         """下载mac端"""
         allure.dynamic.tag('下载mac端')
         self.driver.switch_mac()
@@ -88,7 +88,7 @@ class TestBody(object):
 
     @allure.severity('blocker')
     @allure.title('导航栏下载win端iMyMac Video Converter测试')
-    def test_009(self):
+    def test_009(self, clear_download_dir):
         """下载win端"""
         allure.dynamic.tag('下载win端')
         self.driver.switch_win()
@@ -98,7 +98,7 @@ class TestBody(object):
 
     @allure.severity('blocker')
     @allure.title('导航栏下载mac端iMyMac Video Converter测试')
-    def test_010(self):
+    def test_010(self, clear_download_dir):
         """下载mac端"""
         allure.dynamic.tag('下载mac端')
         self.driver.switch_mac()

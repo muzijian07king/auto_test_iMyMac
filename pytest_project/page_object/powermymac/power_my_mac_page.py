@@ -10,7 +10,7 @@ class PMMPage(WebPage):
     @allure.step('点击container栏的下载按钮')
     def download_container_ppm(self):
         """点击下载按钮"""
-        self.is_click(pmm['container-download'])
+        self.is_click(pmm['container-download'], 1)
 
     @allure.step('点击container栏的购买')
     def goto_container_buy(self):
@@ -33,7 +33,7 @@ class PMMPage(WebPage):
     @allure.step('点击summary栏的下载按钮')
     def download_summary_ppm(self):
         """点击下载按钮"""
-        self.is_click(pmm['summary-download'])
+        self.is_click(pmm['summary-download'], 1)
 
     @allure.step('点击summary栏的购买')
     def goto_summary_buy(self):
@@ -48,7 +48,7 @@ class PMMPage(WebPage):
     @allure.step('点击navbar栏的下载按钮')
     def download_navbar_ppm(self):
         """点击下载按钮"""
-        self.is_click(pmm['navbar-download'])
+        self.is_click(pmm['navbar-download'], 1)
 
     @allure.step('点击navbar栏的购买')
     def goto_navbar_buy(self):

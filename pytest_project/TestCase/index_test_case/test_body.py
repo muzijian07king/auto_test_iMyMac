@@ -16,7 +16,7 @@ class TestBody(object):
 
     @allure.severity('blocker')
     @allure.title('测试ppm下载按钮')
-    def test_001(self):
+    def test_001(self, clear_download_dir):
         """点击ppm下载按钮"""
         allure.dynamic.tag('下载ppm软件')
         self.driver.click_ppm_download()

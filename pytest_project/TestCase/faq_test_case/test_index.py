@@ -232,7 +232,7 @@ class TestBody(object):
     @allure.story('activate常见问题测试')
     @allure.title('测试导航栏上的下载')
     @allure.tag('下载')
-    def test_028(self):
+    def test_028(self, clear_download_dir):
         self.driver.goto_activate()
         self.driver.goto_context()
         self.driver.click_nav_download()
@@ -250,7 +250,7 @@ class TestBody(object):
     @allure.story('activate常见问题测试')
     @allure.title('测试侧边弹窗上的下载')
     @allure.tag('下载')
-    def test_030(self):
+    def test_030(self, clear_download_dir):
         self.driver.goto_activate()
         self.driver.goto_context()
         self.driver.click_sidebar_download()
@@ -411,7 +411,7 @@ class TestBody(object):
     @allure.story('activate常见问题测试')
     @allure.title('测试底部下载按钮')
     @allure.tag('下载')
-    def test_046(self):
+    def test_046(self, clear_download_dir):
         self.driver.goto_activate()
         self.driver.scroll_star()
         self.driver.click_sidebar_bottom()

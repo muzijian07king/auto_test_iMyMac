@@ -18,7 +18,7 @@ class TestBody(object):
 
     @allure.title('container下载PowerMyMac测试')
     @allure.severity('blocker')
-    def test_001(self):
+    def test_001(self, clear_download_dir):
         """下载PowerMyMac"""
         allure.dynamic.tag('下载PowerMyMac')
         self.driver.download_container_ppm()
@@ -33,7 +33,7 @@ class TestBody(object):
 
     @allure.title('summary下载PowerMyMac测试')
     @allure.severity('blocker')
-    def test_003(self):
+    def test_003(self, clear_download_dir):
         """下载PowerMyMac"""
         allure.dynamic.tag('下载PowerMyMac')
         self.driver.scroll_summary()
@@ -58,7 +58,7 @@ class TestBody(object):
 
     @allure.title('navbar下载PowerMyMac测试')
     @allure.severity('blocker')
-    def test_006(self):
+    def test_006(self, clear_download_dir):
         """下载PowerMyMac"""
         allure.dynamic.tag('下载PowerMyMac')
         self.driver.popup_nav()

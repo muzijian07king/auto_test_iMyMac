@@ -12,7 +12,7 @@ class BodyPage(WebPage):
     @allure.step('点击下载按钮')
     def click_ppm_download(self):
         """点击ppm下载按钮"""
-        self.is_click(body.readYaml('$.download'))
+        self.is_click(body.readYaml('$.download'), 1)
 
     @allure.step('点击详细按钮')
     def click_ppm_more(self):

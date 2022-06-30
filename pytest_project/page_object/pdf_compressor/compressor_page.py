@@ -12,11 +12,11 @@ class CompressorPage(WebPage):
 
     @allure.step('下载topper栏的PDF-Compressor')
     def click_topper_download(self):
-        self.is_click(PDF.readYaml('$.download.handle'))
+        self.is_click(PDF.readYaml('$.download.handle'), 1)
 
     @allure.step('下载container栏的PDF-Compressor')
     def click_container_download(self):
-        self.is_click(PDF.readYaml('$.download.foot'))
+        self.is_click(PDF.readYaml('$.download.foot'), 1)
 
     @allure.step('移动到container栏')
     def scroll_container(self):

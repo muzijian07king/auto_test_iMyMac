@@ -10,7 +10,7 @@ class VideoPage(WebPage):
 
     @allure.step('点击下载按钮')
     def download_video(self):
-        self.is_click(video['download'])
+        self.is_click(video['download'], 1)
 
     @allure.step('点击购买按钮')
     def goto_buy(self):
@@ -44,7 +44,7 @@ class VideoPage(WebPage):
 
     @allure.step("点击导航栏上的下载按钮")
     def click_download(self):
-        self.is_click(video.readYaml('$.nav.download'))
+        self.is_click(video.readYaml('$.nav.download'), 1)
 
     @allure.step("点击导航栏上的购买按钮")
     def click_buy(self):

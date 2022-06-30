@@ -10,7 +10,7 @@ class GuidePage(WebPage):
 
     @allure.step('下载video')
     def click_download(self):
-        self.is_click(guide['download'])
+        self.is_click(guide['download'], 1)
 
     @allure.step('点击购买按钮')
     def goto_buy(self):

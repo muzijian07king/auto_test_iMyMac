@@ -10,7 +10,7 @@ class DuplicatePage(WebPage):
     @allure.step('点击container栏的下载按钮')
     def download_container_ppm(self):
         """点击下载按钮"""
-        self.is_click(duplicate['container-download'])
+        self.is_click(duplicate['container-download'], 1)
 
     @allure.step('点击container栏的购买')
     def goto_container_buy(self):
@@ -29,7 +29,7 @@ class DuplicatePage(WebPage):
     @allure.step('点击summary栏的下载按钮')
     def download_summary_ppm(self):
         """点击下载按钮"""
-        self.is_click(duplicate['summary-download'])
+        self.is_click(duplicate['summary-download'], 1)
 
     @allure.step('移动到summary栏')
     def scroll_summary(self):
@@ -48,7 +48,7 @@ class DuplicatePage(WebPage):
     @allure.step('点击navbar栏的下载按钮')
     def download_navbar_ppm(self):
         """点击下载按钮"""
-        self.is_click(duplicate['navbar-download'])
+        self.is_click(duplicate['navbar-download'], 1)
 
     @allure.step('点击navbar栏的购买')
     def goto_navbar_buy(self):

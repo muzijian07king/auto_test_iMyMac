@@ -10,6 +10,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.action_chains import ActionChains
+
+from pytest_project.clear_download_dir import Clear
 from pytest_project.config.conf import cm
 from pytest_project.utils.times import sleep
 from pytest_project.utils.logger import Log
@@ -502,7 +504,6 @@ class WebPage(object):
         handle = self.get_window_handle()
         self.driver.close()
         log.info(f'关闭当前窗口:{handle}')
-
     # def click_sale_off_link(self):
     #     """关闭黑色星期五链接"""
     #     log.info('关闭黑色星期五优惠链接')

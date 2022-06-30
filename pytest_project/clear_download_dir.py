@@ -1,5 +1,5 @@
 import os
-from config.conf import cm
+from .config.conf import cm
 
 
 class Clear(object):
@@ -22,5 +22,5 @@ class Clear(object):
 
 
 clear = Clear()
-clear.clear_download_files()
+# clear.clear_download_files()
 clear.clear_log_file()

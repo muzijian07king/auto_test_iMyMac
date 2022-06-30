@@ -234,7 +234,7 @@ class FAQSPage(WebPage):
 
     @allure.step('点击导航栏上的下载按钮')
     def click_nav_download(self):
-        self.is_click(faqs.readYaml('$.Activate.nav.download'))
+        self.is_click(faqs.readYaml('$.Activate.nav.download'), 1)
 
     @allure.step('点击导航栏上的购买按钮')
     def click_nav_buy(self):
@@ -253,7 +253,7 @@ class FAQSPage(WebPage):
 
     @allure.step('点击侧边弹窗的下载按钮')
     def click_sidebar_download(self):
-        self.is_click(faqs.readYaml('$.Activate.sidebar.download'))
+        self.is_click(faqs.readYaml('$.Activate.sidebar.download'), 1)
 
     @allure.step('关闭侧边弹窗')
     def click_sidebar_close(self):
@@ -396,7 +396,7 @@ class FAQSPage(WebPage):
 
     @allure.step('点击底部栏下载按钮')
     def click_sidebar_bottom(self):
-        self.is_click(faqs.readYaml('$.Activate.comment.sidebar-bottom.download'))
+        self.is_click(faqs.readYaml('$.Activate.comment.sidebar-bottom.download'), 1)
 
     @allure.step('滑动到文章栏')
     def scroll_article(self):

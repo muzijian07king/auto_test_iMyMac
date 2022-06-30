@@ -2,11 +2,11 @@ import allure
 import pytest
 from selenium import webdriver
 from selenium.common.exceptions import TimeoutException
+
+from pytest_project.clear_download_dir import Clear
 from pytest_project.config.conf import cm
-from pytest_project.page_object.index.body_page import BodyPage
 from pytest_project.utils.times import timestamp
 from pytest_project.utils.logger import Log
-
 log = Log().get_log()
 driver = None
 
@@ -73,3 +73,10 @@ def pytest_collection_modifyitems(items) -> None:
     for item in items:
         item.name = item.name.encode("utf-8").decode("unicode-escape")
         item._nodeid = item._nodeid.encode("utf-8").decode("unicode-escape")
+
+
+@pytest.fixture(scope='function')
+def clear_download_dir():
+    yield
+    Clear().clear_download_files()
+

@@ -16,7 +16,7 @@ class TestBody(object):
 
     @allure.severity('blocker')
     @allure.title('下载video测试')
-    def test_001(self):
+    def test_001(self, clear_download_dir):
         """下载video功能测试"""
         allure.dynamic.tag('下载video')
         self.driver.click_download()
