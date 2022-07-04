@@ -1,5 +1,8 @@
 import os
-from .config.conf import cm
+from utils.logger import Log
+import time
+
+from config.conf import cm
 
 
 class Clear(object):
@@ -9,9 +12,16 @@ class Clear(object):
     def clear_download_files(self):
         for i in os.listdir(self.download_dir):
             if i == '__init__.py':
-                break
+                continue
             else:
-                os.remove(self.download_dir + os.sep + i)
+                try:
+                    os.remove(self.download_dir + os.sep + i)
+                except PermissionError:
+                    time.sleep(10)
+                    try:
+                        os.remove(self.download_dir + os.sep + i)
+                    except PermissionError:
+                        Log().get_log().error('清空下载文件夹失败，手动清空')
 
     def clear_log_file(self):
         for i in os.listdir(self.log_dir):
