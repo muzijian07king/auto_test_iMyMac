@@ -1,5 +1,5 @@
 import os
-from utils.logger import Log
+from pytest_project.utils.logger import Log
 import time
 
 from config.conf import cm
