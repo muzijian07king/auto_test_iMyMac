@@ -2,7 +2,7 @@ import os
 from pytest_project.utils.logger import Log
 import time
 
-from config.conf import cm
+from pytest_project.config.conf import cm
 
 
 class Clear(object):
