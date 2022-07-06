@@ -442,10 +442,6 @@ class WebPage(object):
                                   f"第{index}个或断言[小于]: {result}", allure.attachment_type.JSON)
                     log.info(f"比较值: {expected},实际结果: {practical}, 断言方法：{method}, 断言结果：{result}")
                 results.append(result)
-                if not result:
-                    log.error(
-                        f'第{index}个断言[{method}]失败,实际结果{practical}|预期结果{expected}'
-                    )
             rs = True in results
             assert rs
             return rs
