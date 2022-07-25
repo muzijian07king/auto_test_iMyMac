@@ -1,4 +1,0 @@
-INFO	2022-06-08 10:06:52,666	[basepage.py:36]	打开网页https://www.imymac.com/store/
-INFO	2022-06-08 10:06:52,685	[basepage.py:71]	获取到文本：$10
-INFO	2022-06-08 10:06:52,707	[readexcel.py:131]	xlsx提取到：$10
-INFO	2022-06-08 10:06:52,709	[basepage.py:329]	预期结果: $10,实际结果: $10, 断言方法：eq, 断言结果：True

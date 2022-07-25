@@ -1,9 +1,0 @@
-[32mINFO    [0m root:basepage.py:36 打开网页https://www.imymac.com/store/buy-video-converter.html
-[32mINFO    [0m root:basepage.py:96 点击元素：('css', 'div.version-select>span:nth-child(1)')
-[32mINFO    [0m root:basepage.py:96 点击元素：('css', 'div.license-main>div:nth-child(2)>div>div>a')
-[32mINFO    [0m root:basepage.py:227 切换frame==>pf_588082
-[32mINFO    [0m root:basepage.py:71 获取到文本：iMyMac - Video Converter One Year License
-[32mINFO    [0m root:readexcel.py:131 xlsx提取到：iMyMac - Video Converter One Year License
-[32mINFO    [0m root:basepage.py:71 获取到文本：US$19.95
-[32mINFO    [0m root:readexcel.py:131 xlsx提取到：$19.95
-[32mINFO    [0m root:basepage.py:329 预期结果: iMyMac - Video Converter One Year License,实际结果: iMyMac - Video Converter One Year License, 断言方法：eq, 断言结果：True

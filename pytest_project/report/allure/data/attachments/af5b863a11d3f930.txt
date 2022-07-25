@@ -1,5 +1,0 @@
-INFO	2022-06-08 10:12:48,725	[basepage.py:36]	打开网页https://www.imymac.com/retrieve-license.html
-INFO	2022-06-08 10:12:51,322	[basepage.py:96]	点击元素：('css', 'div.licence-btn-group>a:nth-child(2)')
-INFO	2022-06-08 10:12:51,854	[basepage.py:126]	当前页面url：https://member.imymac.com/login, 当前页面标题=》iMyMac Account Center
-INFO	2022-06-08 10:12:51,858	[basepage.py:337]	预期不相等: None,实际结果: <selenium.webdriver.remote.webelement.WebElement (session="a1929b394745a60002d6cbbbb44fc415", element="ae0e65f2-771c-4f84-9a3e-929cd64587c9")>, 断言方法：not_eq, 断言结果：True
-INFO	2022-06-08 10:12:51,859	[basepage.py:329]	预期结果: https://member.imymac.com/login,实际结果: https://member.imymac.com/login, 断言方法：eq, 断言结果：True

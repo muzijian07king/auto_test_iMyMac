@@ -1,4 +1,0 @@
-[32mINFO    [0m root:basepage.py:36 打开网页https://www.imymac.com/support/
-[32mINFO    [0m root:basepage.py:96 点击元素：('css', 'body>div.container>div>div:nth-child(2)>a')
-[32mINFO    [0m root:basepage.py:126 当前页面url：https://www.imymac.com/retrieve-license.html, 当前页面标题=》iMyMac - Retrieve License
-[32mINFO    [0m root:basepage.py:329 预期结果: https://www.imymac.com/retrieve-license.html,实际结果: https://www.imymac.com/retrieve-license.html, 断言方法：eq, 断言结果：True

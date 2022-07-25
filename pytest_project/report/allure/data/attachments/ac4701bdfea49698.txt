@@ -1,5 +1,0 @@
-INFO	2022-06-08 10:06:55,454	[basepage.py:36]	打开网页https://www.imymac.com/store/
-INFO	2022-06-08 10:06:55,455	[basepage.py:199]	页面滚到元素('css', 'div.license-main>div:nth-child(1)>div>div>a:nth-child(5)')
-INFO	2022-06-08 10:06:56,902	[basepage.py:96]	点击元素：('css', 'div.license-main>div:nth-child(1)>div>div>a:nth-child(5)')
-INFO	2022-06-08 10:06:57,413	[basepage.py:126]	当前页面url：https://www.imymac.com/store/buy-powermymac.html, 当前页面标题=》iMyMac Official Store: Buy PowerMyMac Online Safely
-INFO	2022-06-08 10:06:57,416	[basepage.py:329]	预期结果: https://www.imymac.com/store/buy-powermymac.html,实际结果: https://www.imymac.com/store/buy-powermymac.html, 断言方法：eq, 断言结果：True

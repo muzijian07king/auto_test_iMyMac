@@ -1,5 +1,0 @@
-INFO	2022-06-08 10:03:50,834	[basepage.py:36]	打开网页https://www.imymac.com/duplicate-finder/
-INFO	2022-06-08 10:03:50,835	[basepage.py:175]	使用js操控浏览器==》document.documentElement.scrollTop=2000
-INFO	2022-06-08 10:03:51,866	[basepage.py:175]	使用js操控浏览器==》document.documentElement.scrollTop=2200
-INFO	2022-06-08 10:03:52,898	[basepage.py:115]	元素('css', 'div.navbar-sub')是否可见：True
-INFO	2022-06-08 10:03:52,899	[basepage.py:329]	预期结果: True,实际结果: True, 断言方法：eq, 断言结果：True

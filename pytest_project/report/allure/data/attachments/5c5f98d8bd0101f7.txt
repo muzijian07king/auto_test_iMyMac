@@ -1,7 +1,0 @@
-[32mINFO    [0m root:basepage.py:36 打开网页https://www.imymac.com/faqs/
-[32mINFO    [0m root:basepage.py:96 点击元素：('css', 'div.faq-list>div:nth-child(1)>p:nth-child(3)')
-[32mINFO    [0m root:basepage.py:215 页面滚到元素('css', 'div.guide-nav>div:nth-child(1)>a')
-[32mINFO    [0m root:basepage.py:156 获取到style元素的值==》top: 373px;
-[32mINFO    [0m root:basepage.py:156 获取到class元素的值==》guide-nav is_fix
-[32mINFO    [0m root:basepage.py:329 预期结果: top: 373px;,实际结果: top: 373px;, 断言方法：eq, 断言结果：True
-[32mINFO    [0m root:basepage.py:329 预期结果: guide-nav is_fix,实际结果: guide-nav is_fix, 断言方法：eq, 断言结果：True

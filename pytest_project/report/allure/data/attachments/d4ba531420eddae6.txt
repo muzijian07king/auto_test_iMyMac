@@ -1,8 +1,0 @@
-[32mINFO    [0m root:basepage.py:36 打开网页https://www.imymac.com/index.html
-[32mINFO    [0m root:basepage.py:175 使用js操控浏览器==》document.documentElement.scrollTop=2000
-[32mINFO    [0m root:basepage.py:96 点击元素：('css', 'div.top-btn')
-[32mINFO    [0m root:basepage.py:156 获取到class元素的值==》top-btn t4s
-[32mINFO    [0m root:basepage.py:175 使用js操控浏览器==》return document.documentElement.scrollTop
-[32mINFO    [0m root:basepage.py:179 浏览器控制台返回信息：0
-[32mINFO    [0m root:basepage.py:329 预期结果: top-btn t4s,实际结果: top-btn t4s, 断言方法：eq, 断言结果：True
-[32mINFO    [0m root:basepage.py:329 预期结果: 0,实际结果: 0, 断言方法：eq, 断言结果：True

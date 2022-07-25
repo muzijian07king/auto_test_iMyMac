@@ -1,6 +1,0 @@
-[32mINFO    [0m root:basepage.py:36 打开网页https://www.imymac.com/profiles
-[32mINFO    [0m root:basepage.py:175 使用js操控浏览器==》document.querySelector('div.box-cookies').className = 'box-cookies'
-[32mINFO    [0m root:basepage.py:71 获取到文本：Chloe Turner
-[32mINFO    [0m root:basepage.py:96 点击元素：('css', 'div.profiles-list>div:nth-child(1)>div:nth-child(2)>a')
-[32mINFO    [0m root:basepage.py:71 获取到文本：Chloe Turner
-[32mINFO    [0m root:basepage.py:329 预期结果: Chloe Turner,实际结果: Chloe Turner, 断言方法：eq, 断言结果：True

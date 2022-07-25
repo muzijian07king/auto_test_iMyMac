@@ -1,5 +1,0 @@
-INFO	2022-06-08 10:07:46,175	[basepage.py:36]	打开网页https://www.imymac.com/powermymac/
-INFO	2022-06-08 10:07:46,178	[basepage.py:199]	页面滚到元素('css', 'div.tips-container')
-INFO	2022-06-08 10:07:47,728	[basepage.py:96]	点击元素：('css', 'div.tips-main>a:nth-child(6)')
-INFO	2022-06-08 10:07:48,244	[basepage.py:126]	当前页面url：https://www.imymac.com/powermymac/how-to-find-wifi-password-on-mac.html, 当前页面标题=》Complete Guide on How to Find Wifi Password on Mac
-INFO	2022-06-08 10:07:48,246	[basepage.py:329]	预期结果: https://www.imymac.com/powermymac/how-to-find-wifi-password-on-mac.html,实际结果: https://www.imymac.com/powermymac/how-to-find-wifi-password-on-mac.html, 断言方法：eq, 断言结果：True

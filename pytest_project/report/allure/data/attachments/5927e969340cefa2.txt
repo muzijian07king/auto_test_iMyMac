@@ -1,3 +1,0 @@
-[32mINFO    [0m root:basepage.py:36 打开网页https://www.imymac.com/retrieve-license.html
-[32mINFO    [0m root:basepage.py:156 获取到href元素的值==》mailto:support@imymac.com
-[32mINFO    [0m root:basepage.py:329 预期结果: mailto:support@imymac.com,实际结果: mailto:support@imymac.com, 断言方法：eq, 断言结果：True

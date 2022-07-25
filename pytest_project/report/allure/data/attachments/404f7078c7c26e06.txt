@@ -1,9 +1,0 @@
-INFO	2022-06-08 10:12:19,213	[basepage.py:36]	打开网页https://www.imymac.com/store/buy-video-converter.html
-INFO	2022-06-08 10:12:19,257	[basepage.py:96]	点击元素：('css', 'div.license-main>div:nth-child(3)>div>div:nth-child(2)>p:nth-child(2)')
-INFO	2022-06-08 10:12:19,768	[basepage.py:215]	页面滚到元素('css', 'div.license-main>div:nth-child(3)>div>div:nth-child(4)>a')
-INFO	2022-06-08 10:12:20,316	[basepage.py:227]	切换frame==>pf_751639
-INFO	2022-06-08 10:12:22,156	[basepage.py:71]	获取到文本：Video Converter Family License (Windows)
-INFO	2022-06-08 10:12:22,166	[readexcel.py:131]	xlsx提取到：Video Converter Family License (Windows)
-INFO	2022-06-08 10:12:22,182	[basepage.py:71]	获取到文本：US$49.95
-INFO	2022-06-08 10:12:22,193	[readexcel.py:131]	xlsx提取到：$49.95
-INFO	2022-06-08 10:12:22,194	[basepage.py:329]	预期结果: Video Converter Family License (Windows),实际结果: Video Converter Family License (Windows), 断言方法：eq, 断言结果：True

@@ -1,4 +1,0 @@
-INFO	2022-06-08 10:01:26,276	[basepage.py:36]	打开网页https://www.imymac.com/index.html
-INFO	2022-06-08 10:01:26,280	[basepage.py:215]	页面滚到元素('css', 'div.mention-box>ul:nth-child(4)>li:nth-child(1)')
-INFO	2022-06-08 10:01:29,098	[basepage.py:126]	当前页面url：https://cooldroid.net/, 当前页面标题=》Homepage - CoolDroid
-INFO	2022-06-08 10:01:29,102	[basepage.py:329]	预期结果: https://cooldroid.net/,实际结果: https://cooldroid.net/, 断言方法：eq, 断言结果：True

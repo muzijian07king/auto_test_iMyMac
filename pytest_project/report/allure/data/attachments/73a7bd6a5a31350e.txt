@@ -1,4 +1,0 @@
-INFO	2022-06-08 10:00:18,646	[basepage.py:36]	打开网页https://www.imymac.com/faqs/
-INFO	2022-06-08 10:00:19,529	[basepage.py:96]	点击元素：('css', 'div.faq-list>div:nth-child(2)>p:nth-child(3)')
-INFO	2022-06-08 10:00:20,046	[basepage.py:126]	当前页面url：https://www.imymac.com/faqs/sales-faq/, 当前页面标题=》Sales FAQ Page
-INFO	2022-06-08 10:00:20,049	[basepage.py:329]	预期结果: https://www.imymac.com/faqs/sales-faq/,实际结果: https://www.imymac.com/faqs/sales-faq/, 断言方法：eq, 断言结果：True

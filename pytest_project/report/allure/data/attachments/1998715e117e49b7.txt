@@ -1,5 +1,0 @@
-INFO	2022-06-08 10:10:14,645	[basepage.py:36]	打开网页https://www.imymac.com/index.html
-INFO	2022-06-08 10:10:14,645	[basepage.py:175]	使用js操控浏览器==》document.documentElement.scrollTop=10000
-INFO	2022-06-08 10:10:16,647	[basepage.py:96]	点击元素：('css', 'div.box-footer>div:nth-child(1)>div>a:nth-child(2)')
-INFO	2022-06-08 10:10:17,172	[basepage.py:126]	当前页面url：https://www.imymac.com/video-converter/, 当前页面标题=》iMyMac Video Converter - Convert videos to any formats.
-INFO	2022-06-08 10:10:17,176	[basepage.py:329]	预期结果: https://www.imymac.com/video-converter/,实际结果: https://www.imymac.com/video-converter/, 断言方法：eq, 断言结果：True

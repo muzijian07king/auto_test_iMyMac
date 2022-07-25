@@ -1,5 +1,0 @@
-INFO	2022-06-08 10:12:09,231	[basepage.py:36]	打开网页https://www.imymac.com/index.html
-INFO	2022-06-08 10:12:09,232	[basepage.py:175]	使用js操控浏览器==》document.documentElement.scrollTop=10000
-INFO	2022-06-08 10:12:10,310	[basepage.py:96]	点击元素：('css', 'button.btn-cookies')
-INFO	2022-06-08 10:12:10,941	[basepage.py:156]	获取到class元素的值==》box-cookies
-INFO	2022-06-08 10:12:10,950	[basepage.py:329]	预期结果: box-cookies,实际结果: box-cookies, 断言方法：eq, 断言结果：True

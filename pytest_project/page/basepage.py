@@ -3,6 +3,7 @@ selenium基类
 存放selenium基类的封装方法
 """
 import json
+import os
 
 import allure
 import requests
@@ -500,6 +501,7 @@ class WebPage(object):
         handle = self.get_window_handle()
         self.driver.close()
         log.info(f'关闭当前窗口:{handle}')
+
     # def click_sale_off_link(self):
     #     """关闭黑色星期五链接"""
     #     log.info('关闭黑色星期五优惠链接')

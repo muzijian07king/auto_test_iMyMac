@@ -1,2 +1,0 @@
-INFO	2022-06-08 10:01:31,809	[basepage.py:36]	打开网页https://www.imymac.com/index.html
-INFO	2022-06-08 10:01:31,812	[basepage.py:215]	页面滚到元素('css', 'div.mention-box>ul:nth-child(3)>li:nth-child(3)')

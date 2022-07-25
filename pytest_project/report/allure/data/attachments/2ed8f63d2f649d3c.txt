@@ -1,4 +1,0 @@
-INFO	2022-06-08 10:06:43,297	[basepage.py:36]	打开网页https://www.imymac.com/sitemap/
-INFO	2022-06-08 10:06:43,895	[basepage.py:96]	点击元素：('css', 'div.sitemap-list>div.sitemap-item:nth-child(3)>div>p:nth-child(2)>a')
-INFO	2022-06-08 10:06:44,410	[basepage.py:126]	当前页面url：https://www.imymac.com/privacy.html, 当前页面标题=》iMyMac - Privacy Policy
-INFO	2022-06-08 10:06:44,416	[basepage.py:329]	预期结果: https://www.imymac.com/privacy.html,实际结果: https://www.imymac.com/privacy.html, 断言方法：eq, 断言结果：True

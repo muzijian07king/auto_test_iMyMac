@@ -1,1 +1,0 @@
-INFO	2022-06-08 10:16:11,350	[basepage.py:36]	打开网页https://member.imymac.com/forgot

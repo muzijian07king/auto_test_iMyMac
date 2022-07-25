@@ -1,6 +1,0 @@
-INFO	2022-06-08 10:12:03,894	[basepage.py:36]	打开网页https://www.imymac.com/index.html
-INFO	2022-06-08 10:12:03,895	[basepage.py:175]	使用js操控浏览器==》document.documentElement.scrollTop=10000
-INFO	2022-06-08 10:12:05,264	[basepage.py:81]	输入文本：123123.123
-INFO	2022-06-08 10:12:05,298	[basepage.py:96]	点击元素：('id', 'btn-subscribe')
-INFO	2022-06-08 10:12:06,324	[basepage.py:71]	获取到文本：Please enter a valid email address.
-INFO	2022-06-08 10:12:06,325	[basepage.py:329]	预期结果: Please enter a valid email address.,实际结果: Please enter a valid email address., 断言方法：eq, 断言结果：True

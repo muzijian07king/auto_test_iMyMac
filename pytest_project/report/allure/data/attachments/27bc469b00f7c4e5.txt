@@ -1,5 +1,0 @@
-INFO	2022-06-08 10:15:12,537	[basepage.py:36]	打开网页https://member.imymac.com/login
-INFO	2022-06-08 10:15:12,572	[basepage.py:96]	点击元素：('css', 'div.select-lang>p')
-INFO	2022-06-08 10:15:13,170	[basepage.py:96]	点击元素：('css', "dt[data-lang='de']")
-INFO	2022-06-08 10:15:13,697	[basepage.py:71]	获取到文本：Willkommen zurück!
-INFO	2022-06-08 10:15:13,698	[basepage.py:329]	预期结果: Willkommen zurück!,实际结果: Willkommen zurück!, 断言方法：eq, 断言结果：True

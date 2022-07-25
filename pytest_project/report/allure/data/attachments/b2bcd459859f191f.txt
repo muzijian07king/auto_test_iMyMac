@@ -1,9 +1,0 @@
-[32mINFO    [0m root:basepage.py:36 打开网页https://www.imymac.com/faqs/
-[32mINFO    [0m root:basepage.py:96 点击元素：('css', 'div.faq-list>div:nth-child(3)>p:nth-child(3)')
-[32mINFO    [0m root:basepage.py:210 页面滚到driverElement：<selenium.webdriver.remote.webelement.WebElement (session="87695d5565cd23b811e781f987e36769", element="82bb34a7-28c6-48c7-aaa5-971f06243f04")>
-[32mINFO    [0m root:basepage.py:210 页面滚到driverElement：<selenium.webdriver.remote.webelement.WebElement (session="87695d5565cd23b811e781f987e36769", element="4bc03eba-5840-4455-bbc8-f76ee0b956df")>
-[32mINFO    [0m root:basepage.py:210 页面滚到driverElement：<selenium.webdriver.remote.webelement.WebElement (session="87695d5565cd23b811e781f987e36769", element="a762d2c5-9bc1-4aad-974b-c59be550425a")>
-[32mINFO    [0m root:basepage.py:210 页面滚到driverElement：<selenium.webdriver.remote.webelement.WebElement (session="87695d5565cd23b811e781f987e36769", element="cfb7b246-ea00-4eb4-a677-f0027d2bd3e1")>
-[32mINFO    [0m root:basepage.py:210 页面滚到driverElement：<selenium.webdriver.remote.webelement.WebElement (session="87695d5565cd23b811e781f987e36769", element="9c85c4db-8ed8-41bd-a5b7-4b2db2f3b1d9")>
-[32mINFO    [0m root:basepage.py:170 获取到class元素的值==》['faqs-item-desc', 'faqs-item-desc', 'faqs-item-desc', 'faqs-item-desc', 'faqs-item-desc']
-[32mINFO    [0m root:basepage.py:329 预期结果: ['faqs-item-desc', 'faqs-item-desc', 'faqs-item-desc', 'faqs-item-desc', 'faqs-item-desc'],实际结果: ['faqs-item-desc', 'faqs-item-desc', 'faqs-item-desc', 'faqs-item-desc', 'faqs-item-desc'], 断言方法：eq, 断言结果：True

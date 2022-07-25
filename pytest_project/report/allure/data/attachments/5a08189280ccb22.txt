@@ -1,8 +1,0 @@
-INFO	2022-06-08 10:12:12,974	[basepage.py:36]	打开网页https://www.imymac.com/store/buy-video-converter.html
-INFO	2022-06-08 10:12:13,066	[basepage.py:96]	点击元素：('css', 'div.license-main>div:nth-child(2)>div>div>a')
-INFO	2022-06-08 10:12:13,575	[basepage.py:227]	切换frame==>pf_714736
-INFO	2022-06-08 10:12:14,997	[basepage.py:71]	获取到文本：iMyMac - Video Converter for Win One Year License
-INFO	2022-06-08 10:12:15,007	[readexcel.py:131]	xlsx提取到：iMyMac - Video Converter for Win One Year License
-INFO	2022-06-08 10:12:15,022	[basepage.py:71]	获取到文本：US$19.95
-INFO	2022-06-08 10:12:15,030	[readexcel.py:131]	xlsx提取到：$19.95
-INFO	2022-06-08 10:12:15,031	[basepage.py:329]	预期结果: iMyMac - Video Converter for Win One Year License,实际结果: iMyMac - Video Converter for Win One Year License, 断言方法：eq, 断言结果：True

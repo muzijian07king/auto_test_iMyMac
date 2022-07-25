@@ -1,9 +1,0 @@
-INFO	2022-06-08 10:15:28,712	[basepage.py:36]	打开网页https://member.imymac.com/forgot
-INFO	2022-06-08 10:15:28,713	[basepage.py:453]	清除所有cookie
-INFO	2022-06-08 10:15:28,982	[basepage.py:143]	刷新页面
-INFO	2022-06-08 10:15:29,010	[basepage.py:96]	点击元素：('css', 'div.select-lang>p')
-INFO	2022-06-08 10:15:29,553	[basepage.py:96]	点击元素：('css', "dt[data-lang='en']")
-INFO	2022-06-08 10:15:30,333	[basepage.py:81]	输入文本：_lelee9897@gmail.com
-INFO	2022-06-08 10:15:30,377	[basepage.py:96]	点击元素：('css', 'div.login-btn>input')
-INFO	2022-06-08 10:15:31,206	[basepage.py:115]	元素('css', 'div.form-content>p:nth-child(3).message-show')是否可见：True
-INFO	2022-06-08 10:15:31,207	[basepage.py:329]	预期结果: True,实际结果: True, 断言方法：eq, 断言结果：True

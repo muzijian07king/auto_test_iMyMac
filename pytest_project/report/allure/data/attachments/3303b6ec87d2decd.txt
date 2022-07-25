@@ -1,8 +1,0 @@
-INFO	2022-06-08 10:01:11,991	[basepage.py:36]	打开网页https://www.imymac.com/faqs/
-INFO	2022-06-08 10:01:12,329	[basepage.py:96]	点击元素：('css', 'div.faq-list>div:nth-child(3)>p:nth-child(4)')
-INFO	2022-06-08 10:01:12,840	[basepage.py:210]	页面滚到driverElement：<selenium.webdriver.remote.webelement.WebElement (session="a1929b394745a60002d6cbbbb44fc415", element="e0b6ed57-4352-4833-bdfb-826cd7257ef6")>
-INFO	2022-06-08 10:01:12,954	[basepage.py:210]	页面滚到driverElement：<selenium.webdriver.remote.webelement.WebElement (session="a1929b394745a60002d6cbbbb44fc415", element="c76ff0f9-34d1-4269-9098-6480085e81cc")>
-INFO	2022-06-08 10:01:13,011	[basepage.py:210]	页面滚到driverElement：<selenium.webdriver.remote.webelement.WebElement (session="a1929b394745a60002d6cbbbb44fc415", element="e491f607-1838-4f4d-96fd-22f82d9b62e5")>
-INFO	2022-06-08 10:01:13,063	[basepage.py:210]	页面滚到driverElement：<selenium.webdriver.remote.webelement.WebElement (session="a1929b394745a60002d6cbbbb44fc415", element="3091dc9b-a7c8-4cf4-8272-b6356d80db33")>
-INFO	2022-06-08 10:01:13,141	[basepage.py:170]	获取到class元素的值==》['faqs-item-desc', 'faqs-item-desc', 'faqs-item-desc', 'faqs-item-desc']
-INFO	2022-06-08 10:01:13,142	[basepage.py:329]	预期结果: ['faqs-item-desc', 'faqs-item-desc', 'faqs-item-desc', 'faqs-item-desc'],实际结果: ['faqs-item-desc', 'faqs-item-desc', 'faqs-item-desc', 'faqs-item-desc'], 断言方法：eq, 断言结果：True

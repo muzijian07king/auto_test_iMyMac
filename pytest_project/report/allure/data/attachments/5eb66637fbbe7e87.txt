@@ -1,4 +1,0 @@
-INFO	2022-06-08 10:06:45,705	[basepage.py:36]	打开网页https://www.imymac.com/sitemap/
-INFO	2022-06-08 10:06:46,339	[basepage.py:96]	点击元素：('css', 'div.sitemap-list>div.sitemap-item:nth-child(3)>div>p:nth-child(4)>a')
-INFO	2022-06-08 10:06:46,849	[basepage.py:126]	当前页面url：https://www.imymac.com/refund.html, 当前页面标题=》Refund Policy - Money Back Guarantee for iMyMac Software
-INFO	2022-06-08 10:06:46,853	[basepage.py:329]	预期结果: https://www.imymac.com/refund.html,实际结果: https://www.imymac.com/refund.html, 断言方法：eq, 断言结果：True

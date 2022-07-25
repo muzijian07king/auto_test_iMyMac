@@ -1,6 +1,0 @@
-INFO	2022-06-08 10:08:14,116	[basepage.py:36]	打开网页https://www.imymac.com/similar-image-finder/
-INFO	2022-06-08 10:08:14,117	[basepage.py:175]	使用js操控浏览器==》document.documentElement.scrollTop=2000
-INFO	2022-06-08 10:08:15,155	[basepage.py:175]	使用js操控浏览器==》document.documentElement.scrollTop=2200
-INFO	2022-06-08 10:08:16,167	[basepage.py:175]	使用js操控浏览器==》document.querySelector('div.navbar-sub-header>a:nth-child(1)').click()
-INFO	2022-06-08 10:08:17,497	[basepage.py:126]	当前页面url：https://www.imymac.com/powermymac/, 当前页面标题=》PowerMyMac - The Best Mac Cleanup Tool in 2020 for MacOS.
-INFO	2022-06-08 10:08:17,501	[basepage.py:329]	预期结果: https://www.imymac.com/powermymac/,实际结果: https://www.imymac.com/powermymac/, 断言方法：eq, 断言结果：True

@@ -1,4 +1,0 @@
-INFO	2022-06-08 10:15:03,720	[basepage.py:36]	打开网页https://member.imymac.com/login
-INFO	2022-06-08 10:15:04,155	[basepage.py:96]	点击元素：('css', 'div.remember>a')
-INFO	2022-06-08 10:15:04,671	[basepage.py:126]	当前页面url：https://member.imymac.com/forgot, 当前页面标题=》iMyMac Account Center
-INFO	2022-06-08 10:15:04,673	[basepage.py:329]	预期结果: https://member.imymac.com/forgot,实际结果: https://member.imymac.com/forgot, 断言方法：eq, 断言结果：True

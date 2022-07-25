@@ -1,5 +1,0 @@
-INFO	2022-06-08 10:07:44,026	[basepage.py:36]	打开网页https://www.imymac.com/powermymac/
-INFO	2022-06-08 10:07:44,028	[basepage.py:199]	页面滚到元素('css', 'div.tips-container')
-INFO	2022-06-08 10:07:45,544	[basepage.py:96]	点击元素：('css', 'div.tips-main>a:nth-child(5)')
-INFO	2022-06-08 10:07:46,063	[basepage.py:126]	当前页面url：https://www.imymac.com/mac-uninstaller/uninstall-photoshop-on-mac.html, 当前页面标题=》How to Uninstall Photoshop on Mac Completely with Its Files
-INFO	2022-06-08 10:07:46,066	[basepage.py:329]	预期结果: https://www.imymac.com/mac-uninstaller/uninstall-photoshop-on-mac.html,实际结果: https://www.imymac.com/mac-uninstaller/uninstall-photoshop-on-mac.html, 断言方法：eq, 断言结果：True

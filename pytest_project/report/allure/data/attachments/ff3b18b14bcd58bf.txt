@@ -1,4 +1,0 @@
-[32mINFO    [0m root:basepage.py:36 打开网页https://member.imymac.com/login
-[32mINFO    [0m root:basepage.py:96 点击元素：('css', 'div.login-btn>div>a')
-[32mINFO    [0m root:basepage.py:126 当前页面url：https://member.imymac.com/register, 当前页面标题=》iMyMac Account Center
-[32mINFO    [0m root:basepage.py:329 预期结果: https://member.imymac.com/register,实际结果: https://member.imymac.com/register, 断言方法：eq, 断言结果：True

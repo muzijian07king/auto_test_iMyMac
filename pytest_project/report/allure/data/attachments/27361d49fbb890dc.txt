@@ -1,5 +1,0 @@
-INFO	2022-06-08 10:11:49,359	[basepage.py:36]	打开网页https://www.imymac.com/store/buy-video-converter.html
-INFO	2022-06-08 10:11:49,410	[basepage.py:96]	点击元素：('css', 'div.license-main>div:nth-child(3)>div>div:nth-child(2)>p:nth-child(2)')
-INFO	2022-06-08 10:11:49,936	[basepage.py:71]	获取到文本：$299.75
-INFO	2022-06-08 10:11:49,944	[readexcel.py:131]	xlsx提取到：$299.75
-INFO	2022-06-08 10:11:49,945	[basepage.py:329]	预期结果: $299.75,实际结果: $299.75, 断言方法：eq, 断言结果：True

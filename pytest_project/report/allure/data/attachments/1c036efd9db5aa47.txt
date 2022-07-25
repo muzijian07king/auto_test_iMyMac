@@ -1,4 +1,0 @@
-[32mINFO    [0m root:basepage.py:36 打开网页https://www.imymac.com/store/buy-video-converter.html
-[32mINFO    [0m root:basepage.py:96 点击元素：('css', 'div.version-select>span:nth-child(1)')
-[32mINFO    [0m root:basepage.py:156 获取到class元素的值==》version-mac active
-[32mINFO    [0m root:basepage.py:329 预期结果: version-mac active,实际结果: version-mac active, 断言方法：eq, 断言结果：True

@@ -1,7 +1,0 @@
-[32mINFO    [0m root:basepage.py:36 打开网页https://www.imymac.com/resource/
-[32mINFO    [0m root:basepage.py:175 使用js操控浏览器==》document.querySelector('div.box-cookies').className = 'box-cookies'
-[32mINFO    [0m root:basepage.py:215 页面滚到元素('css', 'ul.pagination>li:nth-child(5)>a')
-[32mINFO    [0m root:basepage.py:71 获取到文本：4
-[32mINFO    [0m root:basepage.py:126 当前页面url：https://www.imymac.com/resource/?p=4, 当前页面标题=》iMyMac Online Resource Center
-[32mINFO    [0m root:basepage.py:329 预期结果: 4,实际结果: 4, 断言方法：eq, 断言结果：True
-[32mINFO    [0m root:basepage.py:329 预期结果: https://www.imymac.com/resource/?p=4,实际结果: https://www.imymac.com/resource/?p=4, 断言方法：eq, 断言结果：True

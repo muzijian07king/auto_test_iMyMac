@@ -1,4 +1,0 @@
-INFO	2022-06-08 10:03:28,304	[basepage.py:36]	打开网页https://www.imymac.com/index.html
-INFO	2022-06-08 10:03:28,811	[basepage.py:96]	点击元素：('css', '#navbar>ul>li:nth-child(3)>a')
-INFO	2022-06-08 10:03:29,327	[basepage.py:126]	当前页面url：https://www.imymac.com/support/, 当前页面标题=》Support center | iMyMac
-INFO	2022-06-08 10:03:29,332	[basepage.py:329]	预期结果: https://www.imymac.com/support/,实际结果: https://www.imymac.com/support/, 断言方法：eq, 断言结果：True

@@ -1,5 +1,0 @@
-INFO	2022-06-08 10:03:45,912	[basepage.py:36]	打开网页https://www.imymac.com/index.html
-INFO	2022-06-08 10:03:45,912	[basepage.py:175]	使用js操控浏览器==》document.documentElement.scrollTop=10000
-INFO	2022-06-08 10:03:47,440	[basepage.py:96]	点击元素：('css', 'div.box-footer>div:nth-child(2)>div>a:nth-child(8)')
-INFO	2022-06-08 10:03:47,952	[basepage.py:126]	当前页面url：https://www.imymac.com/browser-cleanup/startup-disk-full-on-mac.html, 当前页面标题=》Startup Disk Full on Mac? 11 Tips to Free up Space!
-INFO	2022-06-08 10:03:47,954	[basepage.py:329]	预期结果: https://www.imymac.com/browser-cleanup/startup-disk-full-on-mac.html,实际结果: https://www.imymac.com/browser-cleanup/startup-disk-full-on-mac.html, 断言方法：eq, 断言结果：True

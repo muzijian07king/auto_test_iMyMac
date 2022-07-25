@@ -1,4 +1,0 @@
-INFO	2022-06-08 10:01:07,370	[basepage.py:36]	打开网页https://www.imymac.com/index.html
-INFO	2022-06-08 10:01:07,374	[basepage.py:215]	页面滚到元素('css', 'div.mention-box>ul:nth-child(2)>li:nth-child(1)')
-INFO	2022-06-08 10:01:19,281	[basepage.py:126]	当前页面url：https://technofaq.org/, 当前页面标题=》Techno FAQ | Being a techie was never so fun before!
-INFO	2022-06-08 10:01:19,351	[basepage.py:329]	预期结果: https://technofaq.org/,实际结果: https://technofaq.org/, 断言方法：eq, 断言结果：True

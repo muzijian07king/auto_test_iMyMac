@@ -1,4 +1,0 @@
-INFO	2022-06-08 10:01:19,885	[basepage.py:36]	打开网页https://www.imymac.com/index.html
-INFO	2022-06-08 10:01:19,888	[basepage.py:215]	页面滚到元素('css', 'div.mention-box>ul:nth-child(3)>li:nth-child(1)')
-INFO	2022-06-08 10:01:25,891	[basepage.py:126]	当前页面url：https://www.cultofmac.com/, 当前页面标题=》Cult of Mac | Tech and culture through an Apple lens
-INFO	2022-06-08 10:01:25,895	[basepage.py:329]	预期结果: https://www.cultofmac.com/,实际结果: https://www.cultofmac.com/, 断言方法：eq, 断言结果：True

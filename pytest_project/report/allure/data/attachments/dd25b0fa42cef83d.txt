@@ -1,8 +1,0 @@
-INFO	2022-06-08 10:06:11,746	[basepage.py:36]	打开网页https://www.imymac.com/resource/
-INFO	2022-06-08 10:06:11,747	[basepage.py:175]	使用js操控浏览器==》document.querySelector('div.box-cookies').className = 'box-cookies'
-INFO	2022-06-08 10:06:13,024	[basepage.py:81]	输入文本：imymac
-INFO	2022-06-08 10:06:14,673	[basepage.py:96]	点击元素：('css', 'div.disabuse>form>button')
-INFO	2022-06-08 10:06:16,694	[basepage.py:71]	获取到文本：iMyMac | Your Personal Mac Solutions Provider
-INFO	2022-06-08 10:06:16,705	[basepage.py:71]	获取到文本：imymac
-INFO	2022-06-08 10:06:16,705	[basepage.py:342]	子集: imymac,父集: imymac | your personal mac solutions provider, 断言方法：include, 断言结果：True
-INFO	2022-06-08 10:06:16,706	[basepage.py:329]	预期结果: imymac,实际结果: imymac, 断言方法：eq, 断言结果：True

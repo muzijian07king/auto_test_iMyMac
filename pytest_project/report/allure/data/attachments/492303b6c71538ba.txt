@@ -1,5 +1,0 @@
-[32mINFO    [0m root:basepage.py:36 打开网页https://www.imymac.com/index.html
-[32mINFO    [0m root:basepage.py:175 使用js操控浏览器==》document.documentElement.scrollTop=10000
-[32mINFO    [0m root:basepage.py:96 点击元素：('css', 'button.btn-cookies')
-[32mINFO    [0m root:basepage.py:156 获取到class元素的值==》box-cookies
-[32mINFO    [0m root:basepage.py:329 预期结果: box-cookies,实际结果: box-cookies, 断言方法：eq, 断言结果：True

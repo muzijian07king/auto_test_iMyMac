@@ -1,4 +1,0 @@
-[32mINFO    [0m root:basepage.py:36 打开网页https://www.imymac.com/index.html
-[32mINFO    [0m root:basepage.py:215 页面滚到元素('css', 'div.mention-box>ul:nth-child(3)>li:nth-child(1)')
-[32mINFO    [0m root:basepage.py:126 当前页面url：https://www.cultofmac.com/, 当前页面标题=》Cult of Mac | Tech and culture through an Apple lens
-[32mINFO    [0m root:basepage.py:329 预期结果: https://www.cultofmac.com/,实际结果: https://www.cultofmac.com/, 断言方法：eq, 断言结果：True

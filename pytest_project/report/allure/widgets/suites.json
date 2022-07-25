@@ -1,48 +1,48 @@
 {
-  "total" : 14,
+  "total" : 12,
   "items" : [ {
-    "uid" : "3b5f41c99ca00ee5d475c83496be6326",
-    "name" : "TestCase.powermymac_test_case",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 73,
-      "unknown" : 0,
-      "total" : 74
-    }
-  }, {
     "uid" : "ee12983eb44ed69151a6cae4a19509e0",
     "name" : "TestCase.store_test_case",
     "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 2,
-      "passed" : 178,
+      "failed" : 2,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 66,
       "unknown" : 0,
-      "total" : 180
+      "total" : 69
     }
   }, {
-    "uid" : "9bb529eda8c749ae7e00fe1d24c7f2c6",
-    "name" : "TestCase.user_test_case",
+    "uid" : "bbfa521d46d57c82f321898c97dd0c83",
+    "name" : "TestCase.resource_test_case",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
-      "skipped" : 7,
-      "passed" : 174,
+      "broken" : 9,
+      "skipped" : 0,
+      "passed" : 47,
       "unknown" : 0,
-      "total" : 181
+      "total" : 56
     }
   }, {
     "uid" : "767d4c646f84549a1ceda16d28bdaec5",
     "name" : "TestCase.index_test_case",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
-      "skipped" : 3,
-      "passed" : 80,
+      "broken" : 1,
+      "skipped" : 2,
+      "passed" : 77,
       "unknown" : 0,
-      "total" : 83
+      "total" : 80
+    }
+  }, {
+    "uid" : "3b5f41c99ca00ee5d475c83496be6326",
+    "name" : "TestCase.powermymac_test_case",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 74,
+      "unknown" : 0,
+      "total" : 74
     }
   }, {
     "uid" : "271cdb96b0aabce545b7e600b5969c4e",
@@ -54,17 +54,6 @@
       "passed" : 67,
       "unknown" : 0,
       "total" : 67
-    }
-  }, {
-    "uid" : "bbfa521d46d57c82f321898c97dd0c83",
-    "name" : "TestCase.resource_test_case",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 56,
-      "unknown" : 0,
-      "total" : 56
     }
   }, {
     "uid" : "44129cb182fe07f955dba6621d749d7b",
@@ -100,15 +89,26 @@
       "total" : 12
     }
   }, {
-    "uid" : "2799013b8521dfa239f099678d002ed3",
-    "name" : "TestCase.discount_test_case",
+    "uid" : "9ee941781795c292d9ca759dfb100061",
+    "name" : "TestCase.404_test_case",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 1,
-      "passed" : 5,
+      "skipped" : 0,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 6
+      "total" : 4
+    }
+  }, {
+    "uid" : "4d21659a7669e61da5f982ae889943aa",
+    "name" : "TestCase.contact_test_case",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
     }
   } ]
 }

@@ -1,5 +1,0 @@
-INFO	2022-06-08 10:07:31,791	[basepage.py:36]	打开网页https://www.imymac.com/powermymac/
-INFO	2022-06-08 10:07:31,796	[basepage.py:199]	页面滚到元素('css', 'div.tips-container')
-INFO	2022-06-08 10:07:33,630	[basepage.py:96]	点击元素：('css', 'div.tips-main>a:nth-child(1)')
-INFO	2022-06-08 10:07:34,150	[basepage.py:126]	当前页面url：https://www.imymac.com/similar-image-finder/find-similar-images.html, 当前页面标题=》Find Similar Images on Your Mac via Reverse Image Search
-INFO	2022-06-08 10:07:34,157	[basepage.py:329]	预期结果: https://www.imymac.com/similar-image-finder/find-similar-images.html,实际结果: https://www.imymac.com/similar-image-finder/find-similar-images.html, 断言方法：eq, 断言结果：True

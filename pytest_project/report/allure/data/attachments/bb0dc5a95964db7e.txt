@@ -1,5 +1,0 @@
-INFO	2022-06-08 10:02:03,164	[basepage.py:36]	打开网页https://www.imymac.com/index.html
-INFO	2022-06-08 10:02:03,165	[basepage.py:175]	使用js操控浏览器==》document.documentElement.scrollTop=10000
-INFO	2022-06-08 10:02:06,295	[basepage.py:96]	点击元素：('css', 'div.box-footer>div:nth-child(5)>div>div>a:nth-child(1)')
-INFO	2022-06-08 10:02:06,810	[basepage.py:126]	当前页面url：https://www.facebook.com/iMyMacTechnology/, 当前页面标题=》IMyMac Technology - 首页 | Facebook
-INFO	2022-06-08 10:02:06,812	[basepage.py:329]	预期结果: https://www.facebook.com/iMyMacTechnology/,实际结果: https://www.facebook.com/iMyMacTechnology/, 断言方法：eq, 断言结果：True

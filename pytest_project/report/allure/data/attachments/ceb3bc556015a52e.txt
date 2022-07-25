@@ -1,3 +1,0 @@
-INFO	2022-06-08 10:00:17,530	[basepage.py:36]	打开网页https://www.imymac.com/student-discount/
-INFO	2022-06-08 10:00:17,812	[basepage.py:71]	获取到文本：Apply your discount with the coupon code after choosing a desired product.
-INFO	2022-06-08 10:00:17,815	[basepage.py:329]	预期结果: Apply your discount with the coupon code after choosing a desired product.,实际结果: Apply your discount with the coupon code after choosing a desired product., 断言方法：eq, 断言结果：True

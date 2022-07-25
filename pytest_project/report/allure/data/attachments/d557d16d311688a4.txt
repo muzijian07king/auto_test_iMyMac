@@ -1,8 +1,0 @@
-INFO	2022-06-08 10:06:05,722	[basepage.py:36]	打开网页https://www.imymac.com/resource/
-INFO	2022-06-08 10:06:05,723	[basepage.py:175]	使用js操控浏览器==》document.querySelector('div.box-cookies').className = 'box-cookies'
-INFO	2022-06-08 10:06:06,998	[basepage.py:81]	输入文本：python
-INFO	2022-06-08 10:06:08,770	[basepage.py:96]	点击元素：('css', 'div.disabuse>form>button')
-INFO	2022-06-08 10:06:10,787	[basepage.py:71]	获取到文本：How to Update Python on Mac Easily and Quickly
-INFO	2022-06-08 10:06:10,799	[basepage.py:71]	获取到文本：python
-INFO	2022-06-08 10:06:10,800	[basepage.py:342]	子集: python,父集: how to update python on mac easily and quickly, 断言方法：include, 断言结果：True
-INFO	2022-06-08 10:06:10,800	[basepage.py:329]	预期结果: python,实际结果: python, 断言方法：eq, 断言结果：True

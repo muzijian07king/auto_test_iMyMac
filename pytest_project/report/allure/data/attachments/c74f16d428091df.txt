@@ -1,3 +1,0 @@
-INFO	2022-06-08 10:00:14,205	[basepage.py:36]	打开网页https://www.imymac.com/student-discount/
-INFO	2022-06-08 10:00:14,275	[basepage.py:71]	获取到文本：We'll review your email and verify, then send you a coupon code.
-INFO	2022-06-08 10:00:14,278	[basepage.py:329]	预期结果: We'll review your email and verify, then send you a coupon code.,实际结果: We'll review your email and verify, then send you a coupon code., 断言方法：eq, 断言结果：True

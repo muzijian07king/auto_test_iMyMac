@@ -1,5 +1,0 @@
-INFO	2022-06-08 10:00:36,836	[basepage.py:36]	打开网页https://www.imymac.com/faqs/
-INFO	2022-06-08 10:00:37,546	[basepage.py:96]	点击元素：('css', 'div.faq-list>div:nth-child(1)>p:nth-child(4)')
-INFO	2022-06-08 10:00:38,173	[basepage.py:156]	获取到href元素的值==》https://www.imymac.com/mac-tips/account-center.html#part1
-INFO	2022-06-08 10:00:38,188	[basepage.py:329]	预期结果: https://www.imymac.com/mac-tips/account-center.html#part1,实际结果: https://www.imymac.com/mac-tips/account-center.html#part1, 断言方法：eq, 断言结果：True
-INFO	2022-06-08 10:00:38,190	[basepage.py:337]	预期不相等: None,实际结果: <selenium.webdriver.remote.webelement.WebElement (session="905b535b49575f332da767e7f15cf248", element="9e678f13-e528-40b8-9388-0e96f60ef5c3")>, 断言方法：not_eq, 断言结果：True

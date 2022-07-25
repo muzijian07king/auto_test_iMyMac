@@ -1,5 +1,0 @@
-INFO	2022-06-08 10:04:25,757	[basepage.py:36]	打开网页https://www.imymac.com/mac-cleaner/
-INFO	2022-06-08 10:04:25,762	[basepage.py:199]	页面滚到元素('css', 'div.tips-container')
-INFO	2022-06-08 10:04:27,634	[basepage.py:96]	点击元素：('css', 'div.tips-main>a:nth-child(1)')
-INFO	2022-06-08 10:04:28,155	[basepage.py:126]	当前页面url：https://www.imymac.com/mac-cleaner/how-to-free-up-space-on-mac.html, 当前页面标题=》How to Free up Space on Mac -- Complete Guide in 2022
-INFO	2022-06-08 10:04:28,158	[basepage.py:329]	预期结果: https://www.imymac.com/mac-cleaner/how-to-free-up-space-on-mac.html,实际结果: https://www.imymac.com/mac-cleaner/how-to-free-up-space-on-mac.html, 断言方法：eq, 断言结果：True

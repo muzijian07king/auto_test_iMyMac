@@ -1,5 +1,0 @@
-[32mINFO    [0m root:basepage.py:36 打开网页https://www.imymac.com/resource/
-[32mINFO    [0m root:basepage.py:175 使用js操控浏览器==》document.querySelector('div.box-cookies').className = 'box-cookies'
-[32mINFO    [0m root:basepage.py:96 点击元素：('css', 'div.topic>a:nth-child(4)')
-[32mINFO    [0m root:basepage.py:257 获取到text==》['iCloud', 'iCloud', 'iCloud', 'iCloud', 'iCloud']
-[32mINFO    [0m root:basepage.py:329 预期结果: {'iCloud'},实际结果: {'iCloud'}, 断言方法：eq, 断言结果：True

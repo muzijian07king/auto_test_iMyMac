@@ -1,6 +1,0 @@
-INFO	2022-06-08 10:08:26,097	[basepage.py:36]	打开网页https://www.imymac.com/profiles
-INFO	2022-06-08 10:08:26,097	[basepage.py:175]	使用js操控浏览器==》document.querySelector('div.box-cookies').className = 'box-cookies'
-INFO	2022-06-08 10:08:27,155	[basepage.py:71]	获取到文本：Pamela Garcia
-INFO	2022-06-08 10:08:27,726	[basepage.py:96]	点击元素：('css', 'div.profiles-list>div:nth-child(2)>div:nth-child(2)>a')
-INFO	2022-06-08 10:08:28,246	[basepage.py:71]	获取到文本：Pamela Garcia
-INFO	2022-06-08 10:08:28,247	[basepage.py:329]	预期结果: Pamela Garcia,实际结果: Pamela Garcia, 断言方法：eq, 断言结果：True

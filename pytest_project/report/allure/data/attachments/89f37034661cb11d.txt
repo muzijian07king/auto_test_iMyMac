@@ -1,5 +1,0 @@
-INFO	2022-06-08 10:07:11,726	[basepage.py:36]	打开网页https://www.imymac.com/resource/
-INFO	2022-06-08 10:07:11,727	[basepage.py:175]	使用js操控浏览器==》document.querySelector('div.box-cookies').className = 'box-cookies'
-INFO	2022-06-08 10:07:14,292	[basepage.py:96]	点击元素：('css', 'div.topic>a:nth-child(11)')
-INFO	2022-06-08 10:07:14,927	[basepage.py:257]	获取到text==》['Storage', 'Storage', 'Storage', 'Storage', 'Storage', 'Storage', 'Storage', 'Storage', 'Storage']
-INFO	2022-06-08 10:07:14,928	[basepage.py:329]	预期结果: {'Storage'},实际结果: {'Storage'}, 断言方法：eq, 断言结果：True

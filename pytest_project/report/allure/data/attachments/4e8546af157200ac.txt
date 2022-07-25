@@ -1,4 +1,0 @@
-[32mINFO    [0m root:basepage.py:36 打开网页https://www.imymac.com/404/
-[32mINFO    [0m root:basepage.py:96 点击元素：('css', 'body>div:nth-child(3)>div:nth-child(2)>div:nth-child(3)>a')
-[32mINFO    [0m root:basepage.py:126 当前页面url：https://www.imymac.com/store/, 当前页面标题=》iMyMac Online Store
-[32mINFO    [0m root:basepage.py:329 预期结果: https://www.imymac.com/store/,实际结果: https://www.imymac.com/store/, 断言方法：eq, 断言结果：True

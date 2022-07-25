@@ -1,7 +1,0 @@
-INFO	2022-06-08 10:03:33,799	[basepage.py:36]	打开网页https://www.imymac.com/browser-cleanup/
-INFO	2022-06-08 10:03:33,802	[basepage.py:175]	使用js操控浏览器==》document.documentElement.scrollTop=2000
-INFO	2022-06-08 10:03:34,818	[basepage.py:175]	使用js操控浏览器==》document.documentElement.scrollTop=2200
-INFO	2022-06-08 10:03:36,031	[basepage.py:96]	点击元素：('css', 'div.navbar-btn-group>a:nth-child(1)')
-INFO	2022-06-08 10:03:36,537	[basepage.py:403]	预期结果: crdownload,实际结果: crdownload, 断言方法：eq, 断言结果：True
-INFO	2022-06-08 10:03:36,538	[basepage.py:403]	预期结果: pkg,实际结果: crdownload, 断言方法：eq, 断言结果：False
-ERROR	2022-06-08 10:03:36,539	[basepage.py:444]	第2个断言[eq]失败,实际结果crdownload|预期结果pkg

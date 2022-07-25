@@ -1,5 +1,0 @@
-INFO	2022-06-08 10:16:01,519	[basepage.py:36]	打开网页https://member.imymac.com/forgot
-INFO	2022-06-08 10:16:01,564	[basepage.py:96]	点击元素：('css', 'div.select-lang>p')
-INFO	2022-06-08 10:16:02,106	[basepage.py:96]	点击元素：('css', "dt[data-lang='es']")
-INFO	2022-06-08 10:16:02,734	[basepage.py:71]	获取到文本：Recuperar su contraseña
-INFO	2022-06-08 10:16:02,736	[basepage.py:329]	预期结果: Recuperar su contraseña,实际结果: Recuperar su contraseña, 断言方法：eq, 断言结果：True

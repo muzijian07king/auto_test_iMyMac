@@ -1,5 +1,0 @@
-INFO	2022-06-08 10:13:18,082	[basepage.py:36]	打开网页https://www.imymac.com/browser-cleanup/
-INFO	2022-06-08 10:13:18,084	[basepage.py:199]	页面滚到元素('css', 'div.tips-container')
-INFO	2022-06-08 10:13:20,620	[basepage.py:96]	点击元素：('css', 'div.tips-main>a:nth-child(1)')
-INFO	2022-06-08 10:13:21,136	[basepage.py:126]	当前页面url：https://www.imymac.com/mac-cleaner/clean-up-macbook-storage.html, 当前页面标题=》How to Clean Up Macbook Storage with Effective Ways
-INFO	2022-06-08 10:13:21,140	[basepage.py:329]	预期结果: https://www.imymac.com/mac-cleaner/clean-up-macbook-storage.html,实际结果: https://www.imymac.com/mac-cleaner/clean-up-macbook-storage.html, 断言方法：eq, 断言结果：True

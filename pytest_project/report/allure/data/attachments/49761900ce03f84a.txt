@@ -1,5 +1,0 @@
-INFO	2022-06-08 10:03:52,286	[basepage.py:36]	打开网页https://www.imymac.com/index.html
-INFO	2022-06-08 10:03:52,287	[basepage.py:175]	使用js操控浏览器==》document.documentElement.scrollTop=10000
-INFO	2022-06-08 10:03:53,923	[basepage.py:96]	点击元素：('css', 'div.box-footer>div:nth-child(4)>div>a:nth-child(5)')
-INFO	2022-06-08 10:03:54,441	[basepage.py:126]	当前页面url：https://www.imymac.com/sitemap/, 当前页面标题=》iMyMac Sitemap Page
-INFO	2022-06-08 10:03:54,444	[basepage.py:329]	预期结果: https://www.imymac.com/sitemap/,实际结果: https://www.imymac.com/sitemap/, 断言方法：eq, 断言结果：True

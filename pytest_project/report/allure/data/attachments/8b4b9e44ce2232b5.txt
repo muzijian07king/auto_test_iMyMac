@@ -1,6 +1,0 @@
-INFO	2022-06-08 10:03:54,548	[basepage.py:36]	打开网页https://www.imymac.com/index.html
-INFO	2022-06-08 10:03:54,549	[basepage.py:175]	使用js操控浏览器==》document.documentElement.scrollTop=10000
-INFO	2022-06-08 10:03:55,630	[basepage.py:96]	点击元素：('css', 'div.box-footer>div:nth-child(5)>div:nth-child(2)>div:nth-child(2)')
-INFO	2022-06-08 10:03:56,324	[basepage.py:96]	点击元素：('css', 'div.list-language>dl>dt:nth-child(1)>a')
-INFO	2022-06-08 10:03:56,834	[basepage.py:126]	当前页面url：https://www.imymac.com/index.html, 当前页面标题=》iMyMac | Your Personal Mac Solutions Provider
-INFO	2022-06-08 10:03:56,839	[basepage.py:329]	预期结果: https://www.imymac.com/index.html,实际结果: https://www.imymac.com/index.html, 断言方法：eq, 断言结果：True

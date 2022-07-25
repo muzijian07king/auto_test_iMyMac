@@ -1,5 +1,0 @@
-INFO	2022-06-08 10:07:19,542	[basepage.py:36]	打开网页https://www.imymac.com/resource/
-INFO	2022-06-08 10:07:19,542	[basepage.py:175]	使用js操控浏览器==》document.querySelector('div.box-cookies').className = 'box-cookies'
-INFO	2022-06-08 10:07:21,916	[basepage.py:96]	点击元素：('css', 'div.topic>a:nth-child(13)')
-INFO	2022-06-08 10:07:22,597	[basepage.py:257]	获取到text==》['Mac Tips', 'Mac Tips', 'Mac Tips', 'Mac Tips', 'Mac Tips', 'Mac Tips', 'Mac Tips', 'Mac Tips', 'Mac Tips']
-INFO	2022-06-08 10:07:22,600	[basepage.py:329]	预期结果: {'Mac Tips'},实际结果: {'Mac Tips'}, 断言方法：eq, 断言结果：True

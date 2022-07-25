@@ -1,3 +1,0 @@
-[32mINFO    [0m root:basepage.py:36 打开网页https://www.imymac.com/student-discount/
-[32mINFO    [0m root:basepage.py:71 获取到文本：Send us an email to support@imymac.com
-[32mINFO    [0m root:basepage.py:329 预期结果: Send us an email to support@imymac.com,实际结果: Send us an email to support@imymac.com, 断言方法：eq, 断言结果：True

@@ -1,4 +1,0 @@
-INFO	2022-06-08 10:06:40,248	[basepage.py:36]	打开网页https://www.imymac.com/sitemap/
-INFO	2022-06-08 10:06:40,477	[basepage.py:96]	点击元素：('css', 'div.sitemap-list>div.sitemap-item:nth-child(2)>div>p:nth-child(2)>a')
-INFO	2022-06-08 10:06:40,992	[basepage.py:126]	当前页面url：https://www.imymac.com/powermymac/, 当前页面标题=》PowerMyMac - The Best Mac Cleanup Tool in 2020 for MacOS.
-INFO	2022-06-08 10:06:40,999	[basepage.py:329]	预期结果: https://www.imymac.com/powermymac/,实际结果: https://www.imymac.com/powermymac/, 断言方法：eq, 断言结果：True

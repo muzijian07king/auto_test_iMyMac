@@ -1,5 +1,0 @@
-INFO	2022-06-08 10:04:25,518	[basepage.py:36]	打开网页https://www.imymac.com/index.html
-INFO	2022-06-08 10:04:25,549	[basepage.py:121]	鼠标悬停在('css', 'div.btn-dropdown')
-INFO	2022-06-08 10:04:26,372	[basepage.py:96]	点击元素：('css', '#navbar>ul>li>div:nth-child(2)>div:nth-child(1)>ul>li:nth-child(3)>a')
-INFO	2022-06-08 10:04:26,881	[basepage.py:126]	当前页面url：https://www.imymac.com/pdf-compressor/, 当前页面标题=》Free PDF Compressor: Reduce Your PDF Size on Mac | iMyMac
-INFO	2022-06-08 10:04:26,885	[basepage.py:329]	预期结果: https://www.imymac.com/pdf-compressor/,实际结果: https://www.imymac.com/pdf-compressor/, 断言方法：eq, 断言结果：True

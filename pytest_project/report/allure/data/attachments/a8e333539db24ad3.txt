@@ -1,4 +1,0 @@
-INFO	2022-06-08 10:00:20,125	[basepage.py:36]	打开网页https://www.imymac.com/faqs/
-INFO	2022-06-08 10:00:20,129	[basepage.py:215]	页面滚到元素('css', 'div.faq-list>div:nth-child(3)>p:nth-child(5)')
-INFO	2022-06-08 10:00:20,984	[basepage.py:126]	当前页面url：https://www.imymac.com/faqs/pdf-compressor/, 当前页面标题=》iMyMac PDF Compressor - Frequently Asked Questions(FAQ)
-INFO	2022-06-08 10:00:20,987	[basepage.py:329]	预期结果: https://www.imymac.com/faqs/pdf-compressor/,实际结果: https://www.imymac.com/faqs/pdf-compressor/, 断言方法：eq, 断言结果：True

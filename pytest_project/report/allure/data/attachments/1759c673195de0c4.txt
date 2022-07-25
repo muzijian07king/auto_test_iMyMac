@@ -1,4 +1,0 @@
-INFO	2022-06-08 10:06:36,809	[basepage.py:36]	打开网页https://www.imymac.com/sitemap/
-INFO	2022-06-08 10:06:38,323	[basepage.py:96]	点击元素：('css', 'div.sitemap-list>div.sitemap-item:nth-child(1)>div>p:nth-child(5)>a')
-INFO	2022-06-08 10:06:38,827	[basepage.py:126]	当前页面url：https://www.imymac.com/resource/, 当前页面标题=》iMyMac Online Resource Center
-INFO	2022-06-08 10:06:38,829	[basepage.py:329]	预期结果: https://www.imymac.com/resource/,实际结果: https://www.imymac.com/resource/, 断言方法：eq, 断言结果：True

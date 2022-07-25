@@ -1,6 +1,0 @@
-INFO	2022-06-08 10:04:07,474	[basepage.py:36]	打开网页https://www.imymac.com/duplicate-finder/
-INFO	2022-06-08 10:04:07,475	[basepage.py:175]	使用js操控浏览器==》document.documentElement.scrollTop=2000
-INFO	2022-06-08 10:04:08,513	[basepage.py:175]	使用js操控浏览器==》document.documentElement.scrollTop=2200
-INFO	2022-06-08 10:04:09,547	[basepage.py:175]	使用js操控浏览器==》document.querySelector('div.navbar-sub-header>a:nth-child(1)').click()
-INFO	2022-06-08 10:04:10,721	[basepage.py:126]	当前页面url：https://www.imymac.com/powermymac/, 当前页面标题=》PowerMyMac - The Best Mac Cleanup Tool in 2020 for MacOS.
-INFO	2022-06-08 10:04:10,728	[basepage.py:329]	预期结果: https://www.imymac.com/powermymac/,实际结果: https://www.imymac.com/powermymac/, 断言方法：eq, 断言结果：True

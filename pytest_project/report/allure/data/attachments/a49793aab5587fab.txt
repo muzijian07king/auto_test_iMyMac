@@ -1,4 +1,0 @@
-INFO	2022-06-08 10:01:15,544	[basepage.py:36]	打开网页https://www.imymac.com/index.html
-INFO	2022-06-08 10:01:15,546	[basepage.py:215]	页面滚到元素('css', 'div.mention-box>ul:nth-child(2)>li:nth-child(4)')
-INFO	2022-06-08 10:01:20,213	[basepage.py:126]	当前页面url：https://www.macworld.com/, 当前页面标题=》Macworld - News, Tips & Reviews from the Apple Experts
-INFO	2022-06-08 10:01:20,219	[basepage.py:329]	预期结果: https://www.macworld.com/,实际结果: https://www.macworld.com/, 断言方法：eq, 断言结果：True

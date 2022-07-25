@@ -1,7 +1,0 @@
-[32mINFO    [0m root:basepage.py:36 打开网页https://member.imymac.com/register
-[32mINFO    [0m root:basepage.py:96 点击元素：('css', 'div.select-lang>p')
-[32mINFO    [0m root:basepage.py:96 点击元素：('css', "dt[data-lang='en']")
-[32mINFO    [0m root:basepage.py:96 点击元素：('css', 'div.register-content>div>a')
-[32mINFO    [0m root:basepage.py:126 当前页面url：https://member.imymac.com/login, 当前页面标题=》iMyMac Account Center
-[32mINFO    [0m root:basepage.py:337 预期不相等: None,实际结果: <selenium.webdriver.remote.webelement.WebElement (session="a1929b394745a60002d6cbbbb44fc415", element="ece92e39-a95e-4678-bb86-b6af4775f87a")>, 断言方法：not_eq, 断言结果：True
-[32mINFO    [0m root:basepage.py:329 预期结果: https://member.imymac.com/login,实际结果: https://member.imymac.com/login, 断言方法：eq, 断言结果：True

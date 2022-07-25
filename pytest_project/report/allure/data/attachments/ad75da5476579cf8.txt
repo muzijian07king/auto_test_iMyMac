@@ -1,6 +1,0 @@
-INFO	2022-06-08 10:07:02,174	[basepage.py:36]	打开网页https://www.imymac.com/mac-uninstaller/
-INFO	2022-06-08 10:07:02,175	[basepage.py:175]	使用js操控浏览器==》document.documentElement.scrollTop=2000
-INFO	2022-06-08 10:07:03,228	[basepage.py:175]	使用js操控浏览器==》document.documentElement.scrollTop=2200
-INFO	2022-06-08 10:07:04,729	[basepage.py:96]	点击元素：('css', 'div.navbar-btn-group>a:nth-child(2)')
-INFO	2022-06-08 10:07:05,234	[basepage.py:126]	当前页面url：https://www.imymac.com/store/buy-powermymac.html, 当前页面标题=》iMyMac Official Store: Buy PowerMyMac Online Safely
-INFO	2022-06-08 10:07:05,237	[basepage.py:329]	预期结果: https://www.imymac.com/store/buy-powermymac.html,实际结果: https://www.imymac.com/store/buy-powermymac.html, 断言方法：eq, 断言结果：True

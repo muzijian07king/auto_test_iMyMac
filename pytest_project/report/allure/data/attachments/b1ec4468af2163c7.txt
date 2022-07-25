@@ -1,4 +1,0 @@
-INFO	2022-06-08 10:00:18,394	[basepage.py:36]	打开网页https://www.imymac.com/faqs/
-INFO	2022-06-08 10:00:19,540	[basepage.py:96]	点击元素：('css', 'div.faq-list>div:nth-child(1)>p:nth-child(3)')
-INFO	2022-06-08 10:00:20,063	[basepage.py:126]	当前页面url：https://www.imymac.com/powermymac/user-guide.html, 当前页面标题=》PowerMyMac User Guide
-INFO	2022-06-08 10:00:20,068	[basepage.py:329]	预期结果: https://www.imymac.com/powermymac/user-guide.html,实际结果: https://www.imymac.com/powermymac/user-guide.html, 断言方法：eq, 断言结果：True

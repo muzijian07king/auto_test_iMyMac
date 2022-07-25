@@ -1,5 +1,0 @@
-[32mINFO    [0m root:basepage.py:36 打开网页https://member.imymac.com/login
-[32mINFO    [0m root:basepage.py:96 点击元素：('css', 'div.select-lang>p')
-[32mINFO    [0m root:basepage.py:96 点击元素：('css', "dt[data-lang='pl']")
-[32mINFO    [0m root:basepage.py:71 获取到文本：Witamy z powrotem!
-[32mINFO    [0m root:basepage.py:329 预期结果: Witamy z powrotem!,实际结果: Witamy z powrotem!, 断言方法：eq, 断言结果：True

@@ -1,5 +1,0 @@
-INFO	2022-06-08 10:03:30,450	[basepage.py:36]	打开网页https://www.imymac.com/free-imymac-pdf-compressor/
-INFO	2022-06-08 10:03:30,567	[basepage.py:96]	点击元素：('css', 'section.topper>div.btn-group>a')
-INFO	2022-06-08 10:03:31,081	[basepage.py:403]	预期结果: pkg,实际结果: pkg, 断言方法：eq, 断言结果：True
-INFO	2022-06-08 10:03:31,081	[basepage.py:403]	预期结果: crdownload,实际结果: pkg, 断言方法：eq, 断言结果：False
-ERROR	2022-06-08 10:03:31,081	[basepage.py:444]	第2个断言[eq]失败,实际结果pkg|预期结果crdownload

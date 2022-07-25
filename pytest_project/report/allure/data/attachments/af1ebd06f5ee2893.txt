@@ -1,8 +1,0 @@
-INFO	2022-06-08 10:01:20,743	[basepage.py:36]	打开网页https://www.imymac.com/faqs/
-INFO	2022-06-08 10:01:21,145	[basepage.py:96]	点击元素：('css', 'div.faq-list>div:nth-child(3)>p:nth-child(4)')
-INFO	2022-06-08 10:01:21,680	[basepage.py:210]	页面滚到driverElement：<selenium.webdriver.remote.webelement.WebElement (session="905b535b49575f332da767e7f15cf248", element="ac355e7e-97fe-4aa8-9e48-4c83e2f49b42")>
-INFO	2022-06-08 10:01:21,833	[basepage.py:210]	页面滚到driverElement：<selenium.webdriver.remote.webelement.WebElement (session="905b535b49575f332da767e7f15cf248", element="c13e807f-753c-4175-bee4-b2d02976e9d0")>
-INFO	2022-06-08 10:01:22,084	[basepage.py:210]	页面滚到driverElement：<selenium.webdriver.remote.webelement.WebElement (session="905b535b49575f332da767e7f15cf248", element="30103b10-51e5-4740-b7bd-5a2f2457745d")>
-INFO	2022-06-08 10:01:22,527	[basepage.py:210]	页面滚到driverElement：<selenium.webdriver.remote.webelement.WebElement (session="905b535b49575f332da767e7f15cf248", element="1362d21a-ca55-4880-8b66-664e6421f7e7")>
-INFO	2022-06-08 10:01:23,121	[basepage.py:170]	获取到class元素的值==》['faqs-item-desc faqs-active', 'faqs-item-desc faqs-active', 'faqs-item-desc faqs-active', 'faqs-item-desc faqs-active']
-INFO	2022-06-08 10:01:23,123	[basepage.py:329]	预期结果: ['faqs-item-desc faqs-active', 'faqs-item-desc faqs-active', 'faqs-item-desc faqs-active', 'faqs-item-desc faqs-active'],实际结果: ['faqs-item-desc faqs-active', 'faqs-item-desc faqs-active', 'faqs-item-desc faqs-active', 'faqs-item-desc faqs-active'], 断言方法：eq, 断言结果：True

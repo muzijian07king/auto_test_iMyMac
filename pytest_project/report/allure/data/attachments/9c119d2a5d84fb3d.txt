@@ -1,2 +1,0 @@
-INFO	2022-06-08 10:03:24,444	[basepage.py:36]	打开网页https://www.imymac.com/index.html
-INFO	2022-06-08 10:03:24,444	[basepage.py:175]	使用js操控浏览器==》document.documentElement.scrollTop=10000

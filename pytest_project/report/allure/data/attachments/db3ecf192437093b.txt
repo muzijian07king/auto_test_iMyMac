@@ -1,7 +1,0 @@
-[32mINFO    [0m root:basepage.py:36 打开网页https://www.imymac.com/video-converter/guide.html
-[32mINFO    [0m root:basepage.py:96 点击元素：('css', 'div.btn-group>a:nth-child(1)')
-[32mINFO    [0m root:basepage.py:403 预期结果: crdownload,实际结果: exe, 断言方法：eq, 断言结果：False
-[1m[31mERROR   [0m root:basepage.py:444 第1个断言[eq]失败,实际结果exe|预期结果crdownload
-[32mINFO    [0m root:basepage.py:403 预期结果: pkg,实际结果: exe, 断言方法：eq, 断言结果：False
-[1m[31mERROR   [0m root:basepage.py:444 第2个断言[eq]失败,实际结果exe|预期结果pkg
-[32mINFO    [0m root:basepage.py:403 预期结果: exe,实际结果: exe, 断言方法：eq, 断言结果：True

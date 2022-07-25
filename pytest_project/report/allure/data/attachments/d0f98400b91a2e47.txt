@@ -1,6 +1,0 @@
-[32mINFO    [0m root:basepage.py:36 打开网页https://www.imymac.com/faqs/
-[32mINFO    [0m root:basepage.py:96 点击元素：('css', 'div.faq-list>div:nth-child(1)>p:nth-child(4)')
-[32mINFO    [0m root:basepage.py:199 页面滚到元素('css', 'div.star')
-[32mINFO    [0m root:basepage.py:175 使用js操控浏览器==》document.documentElement.scrollBy(0,-200)
-[32mINFO    [0m root:basepage.py:156 获取到href元素的值==》https://www.imymac.com/mac-tips/account-center.html#record
-[32mINFO    [0m root:basepage.py:337 预期不相等: None,实际结果: <selenium.webdriver.remote.webelement.WebElement (session="87695d5565cd23b811e781f987e36769", element="a4c65258-a8f5-4ac0-9715-753774c7f804")>, 断言方法：not_eq, 断言结果：True

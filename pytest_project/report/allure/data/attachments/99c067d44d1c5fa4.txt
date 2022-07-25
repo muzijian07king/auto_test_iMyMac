@@ -1,5 +1,0 @@
-[32mINFO    [0m root:basepage.py:36 打开网页https://www.imymac.com/index.html
-[32mINFO    [0m root:basepage.py:121 鼠标悬停在('css', 'div.btn-dropdown')
-[32mINFO    [0m root:basepage.py:96 点击元素：('css', '#navbar>ul>li>div:nth-child(2)>div:nth-child(2)>ul>li:nth-child(4)>a')
-[32mINFO    [0m root:basepage.py:126 当前页面url：https://www.imymac.com/online-pdf-compressor/, 当前页面标题=》iMyMac Online PDF Compressor
-[32mINFO    [0m root:basepage.py:329 预期结果: https://www.imymac.com/online-pdf-compressor/,实际结果: https://www.imymac.com/online-pdf-compressor/, 断言方法：eq, 断言结果：True

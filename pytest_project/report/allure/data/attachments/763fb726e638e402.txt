@@ -1,3 +1,0 @@
-[32mINFO    [0m root:basepage.py:36 打开网页https://member.imymac.com/register
-[32mINFO    [0m root:basepage.py:96 点击元素：('css', 'div.select-lang>p')
-[32mINFO    [0m root:basepage.py:96 点击元素：('css', "dt[data-lang='en']")

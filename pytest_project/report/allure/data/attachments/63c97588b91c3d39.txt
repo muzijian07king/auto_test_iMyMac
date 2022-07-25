@@ -1,5 +1,0 @@
-INFO	2022-06-08 10:03:48,782	[basepage.py:36]	打开网页https://www.imymac.com/duplicate-finder/
-INFO	2022-06-08 10:03:48,783	[basepage.py:175]	使用js操控浏览器==》document.documentElement.scrollTop=4300
-INFO	2022-06-08 10:03:50,253	[basepage.py:96]	点击元素：('css', 'div.summary-info>div>a:nth-child(2)')
-INFO	2022-06-08 10:03:50,765	[basepage.py:126]	当前页面url：https://www.imymac.com/store/buy-powermymac.html, 当前页面标题=》iMyMac Official Store: Buy PowerMyMac Online Safely
-INFO	2022-06-08 10:03:50,768	[basepage.py:329]	预期结果: https://www.imymac.com/store/buy-powermymac.html,实际结果: https://www.imymac.com/store/buy-powermymac.html, 断言方法：eq, 断言结果：True

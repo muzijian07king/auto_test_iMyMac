@@ -1,2 +1,0 @@
-[32mINFO    [0m root:basepage.py:36 打开网页https://www.imymac.com/mac-uninstaller/
-[32mINFO    [0m root:basepage.py:175 使用js操控浏览器==》document.documentElement.scrollTop=4300

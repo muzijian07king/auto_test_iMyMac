@@ -1,8 +1,0 @@
-INFO	2022-06-08 10:04:09,331	[basepage.py:36]	打开网页https://www.imymac.com/profiles
-INFO	2022-06-08 10:04:09,332	[basepage.py:175]	使用js操控浏览器==》document.querySelector('div.box-cookies').className = 'box-cookies'
-INFO	2022-06-08 10:04:10,399	[basepage.py:71]	获取到文本：Pamela Garcia
-INFO	2022-06-08 10:04:11,024	[basepage.py:96]	点击元素：('css', 'div.profiles-list>div:nth-child(2)>div:nth-child(2)>a')
-INFO	2022-06-08 10:04:11,524	[basepage.py:175]	使用js操控浏览器==》document.querySelector('div.box-cookies').className = 'box-cookies'
-INFO	2022-06-08 10:04:12,654	[basepage.py:105]	点击元素：<selenium.webdriver.remote.webelement.WebElement (session="87695d5565cd23b811e781f987e36769", element="a2af653d-dd05-4f70-ab24-31b2ac1d90ac")>
-INFO	2022-06-08 10:04:12,877	[basepage.py:71]	获取到文本：Mac Sierra Vs Mac High Sierra: To Upgrade or Not?
-INFO	2022-06-08 10:04:12,878	[basepage.py:337]	预期不相等: None,实际结果: Mac Sierra Vs Mac High Sierra: To Upgrade or Not?, 断言方法：not_eq, 断言结果：True
