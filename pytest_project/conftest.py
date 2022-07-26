@@ -2,7 +2,7 @@ import allure
 import pytest
 from selenium import webdriver
 from selenium.common.exceptions import TimeoutException
-from utils.tool import if_port_hold
+from pytest_project.utils.tool import if_port_hold
 from pytest_project.clear_download_dir import Clear
 from pytest_project.config.conf import cm
 from pytest_project.utils.times import timestamp
