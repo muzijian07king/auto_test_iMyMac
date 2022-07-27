@@ -20,7 +20,7 @@ def drivers():
     option.add_argument("--start-maximized")
     option.add_argument('--no-sandbox')  # 设置禁止沙盒模式
     option.add_argument('--incognito')  # 隐私模式启动
-    if not if_port_hold(7890):
+    if if_port_hold(7890):
         option.add_argument('--proxy-server=127.0.0.1:7890')  # 设置代理
     option.add_argument('--disable-gpu')   # 关闭gpu加速
     option.add_argument('--keep-alive-for-test')  # 热启动
