@@ -1,5 +1,5 @@
 pytest_project/.pytest_cache
-pytest_project/report/allure/*
+pytest_project/report
 test.py
 pytest_project/logs/*
 .git
