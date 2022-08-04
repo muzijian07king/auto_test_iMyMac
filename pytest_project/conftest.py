@@ -2,7 +2,7 @@ import allure
 import pytest
 from selenium import webdriver
 from selenium.common.exceptions import TimeoutException
-from pytest_project.utils.tool import if_port_hold
+from pytest_project.utils.tool import if_port_hold, if_connect_google_200
 from pytest_project.clear_download_dir import Clear
 from pytest_project.config.conf import cm
 from pytest_project.utils.times import timestamp
@@ -21,7 +21,8 @@ def drivers():
     option.add_argument('--no-sandbox')  # 设置禁止沙盒模式
     option.add_argument('--incognito')  # 隐私模式启动
     if if_port_hold(7890):
-        option.add_argument('--proxy-server=127.0.0.1:7890')  # 设置代理
+        if if_connect_google_200:
+            option.add_argument('--proxy-server=127.0.0.1:7890')  # 设置代理
     option.add_argument('--disable-gpu')   # 关闭gpu加速
     option.add_argument('--keep-alive-for-test')  # 热启动
     prefs = {'download.default_directory': cm.download_dir, 'excludeSwitches': ['enable-automation']}  # 设置下载路径
