@@ -119,7 +119,7 @@ class TestBody(object):
     @allure.tag('时间')
     @pytest.mark.flaky(reruns=0)
     def test_012(self):
-        self.driver.send_search('china')
+        self.driver.send_search('app')
         self.driver.click_input_button()
         self.driver.close_cookie_popup()
         self.driver.click_select_sort()
