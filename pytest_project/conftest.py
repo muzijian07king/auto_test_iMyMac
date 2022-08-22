@@ -23,6 +23,9 @@ def drivers():
     if if_port_hold(7890):
         if if_connect_google_200:
             option.add_argument('--proxy-server=127.0.0.1:7890')  # 设置代理
+            log.info('设置代理成功')
+        else:
+            log.info('设置代理失败')
     option.add_argument('--disable-gpu')   # 关闭gpu加速
     option.add_argument('--keep-alive-for-test')  # 热启动
     prefs = {'download.default_directory': cm.download_dir, 'excludeSwitches': ['enable-automation']}  # 设置下载路径
